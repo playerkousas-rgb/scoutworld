@@ -1,0 +1,20 @@
+[
+  {
+    "id": "EE-CAMP-TAG",
+    "parentCountry": "EE",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🦊",
+    "category": "森林活動中心 (Forest Centre)",
+    "name": "塔加梅察童軍綠色森林活動中心",
+    "nameEn": "Tagametsa Loovuskeskus (Forest Camp)",
+    "subregion": "亞爾瓦郡 (Järva County)",
+    "lat": 58.7254,
+    "lng": 25.4112,
+    "address": "Tagametsa küla, Türi vald, Järvamaa, Estonia",
+    "phone": "+372 611 6123",
+    "website": "https://skaut.ee/",
+    "instagram": "eestiskaudid",
+    "description": "位於愛沙尼亞中心森林深處的生態露營場。擁有傳統木刻芬蘭桑拿房、射箭場與林間拓展設施，是愛沙尼亞童軍週末野營與自然創意探索首選。"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "IE-CAMP-LAR",
+    "parentCountry": "IE",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "☘️",
+    "category": "國家童軍中心 (National Centre)",
+    "name": "落葉山愛爾蘭國家童軍中心",
+    "nameEn": "Larch Hill National Scout Centre",
+    "subregion": "都柏林 (Dublin)",
+    "lat": 53.2554,
+    "lng": -6.2912,
+    "address": "Larch Hill, Tibradden, Dublin 16, Ireland",
+    "phone": "+353 1 495 6300",
+    "website": "https://www.larchhill.org/",
+    "instagram": "scoutingireland",
+    "description": "愛爾蘭童軍的旗艦國家營地，位於都柏林山脈中。佔地88英畝，綠草茵茵，是愛爾蘭舉辦全國性訓練營、先鋒大露營的核心綠洲。"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "GR-CAMP-PENTELI",
+    "parentCountry": "GR",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏛️",
+    "category": "國家童軍營地 (National Camp)",
+    "name": "彭特利國家童軍露營場",
+    "nameEn": "Penteli National Scout Camp",
+    "subregion": "阿提卡 (Attica)",
+    "lat": 38.0772,
+    "lng": 23.8647,
+    "address": "Penteli 152 36, Athens, Greece",
+    "website": "https://www.sep.org.gr",
+    "description": "坐落於雅典北部著名的彭特利山上，此地歷史悠久。不但作為希臘全國童軍訓練的核心，也曾多次舉辦地中海與巴爾幹半島童軍大會。"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "FI-CAMP-EVO",
+    "parentCountry": "FI",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🌲",
+    "category": "芬蘭大型森林營地 (Finnjamboree Camp)",
+    "name": "埃沃國家級林區露營場",
+    "nameEn": "Evo Camping District",
+    "subregion": "坎塔海梅 (Kanta-Häme)",
+    "lat": 61.1984,
+    "lng": 25.1112,
+    "address": "Evon retkeilyalue, 16900 Hämeenlinna, Finland",
+    "phone": "+358 9 8865 1100",
+    "website": "https://www.partio.fi",
+    "instagram": "suomenpartiolaiset",
+    "description": "芬蘭童軍舉辦萬人全國大露營（Finnjamboree）的官方森林營地。被無數湖泊與原始松林環抱，主打極致芬蘭式野外露營與正宗桑拿浴室文化。"
+  }
+]

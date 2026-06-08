@@ -1,0 +1,20 @@
+[
+  {
+    "id": "CL-CAMP-CAL",
+    "parentCountry": "CL",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏔️",
+    "category": "國家培訓中心 (National Centre)",
+    "name": "卡列洪內斯國家童軍活動中心",
+    "nameEn": "Campo Escuela Callejones",
+    "subregion": "奧伊金斯將軍解放者大區",
+    "lat": -34.4524,
+    "lng": -70.9112,
+    "address": "Callejones, Doñihue, Chile",
+    "phone": "+56 2 2222 8391",
+    "website": "https://www.guiasyscouts.cl",
+    "instagram": "guiasyscouts",
+    "description": "智利童軍與女童軍總會主辦的國家級訓練基地。位於智利中部山谷，環境清幽，以阿爾卑斯式登山與經典木章訓練聞名。"
+  }
+]

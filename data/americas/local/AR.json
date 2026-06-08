@@ -1,0 +1,20 @@
+[
+  {
+    "id": "AR-CAMP-NEC",
+    "parentCountry": "AR",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🌊",
+    "category": "海濱童軍營地 (Seaside Camp)",
+    "name": "內科切阿海濱童軍露營場",
+    "nameEn": "Campo Scout de Necochea (Buenos Aires)",
+    "subregion": "布宜諾斯艾利斯省 (Necochea)",
+    "lat": -38.5554,
+    "lng": -58.7212,
+    "address": "Necochea Beach, Buenos Aires, Argentina",
+    "phone": "+54 11 4805-7770",
+    "website": "https://www.scouts.org.ar",
+    "instagram": "scoutsargentina",
+    "description": "阿根廷童軍最著名的海濱大露營地，擁有一望無際的沙丘、松林與大西洋海浪，主打海上救生與戶外探險。"
+  }
+]

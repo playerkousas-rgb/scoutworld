@@ -1,0 +1,19 @@
+[
+  {
+    "id": "CM-CAMP-MVO",
+    "parentCountry": "CM",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇨🇲",
+    "category": "童軍中心 (Scout Centre)",
+    "name": "姆沃利耶童軍活動訓練基地",
+    "nameEn": "Mvolye Scout Centre (Yaoundé)",
+    "subregion": "雅溫德 (Yaoundé)",
+    "lat": 3.8354,
+    "lng": 11.4912,
+    "address": "Mvolye Scout Road, Yaoundé, Cameroon",
+    "phone": "+237 222 23 1234",
+    "website": "http://www.scoutscameroun.org",
+    "description": "喀麥隆童軍運動的代表性露營中心，設有基礎拓展、野營、宿營室，環境清涼，適合非洲叢林探索體驗。"
+  }
+]

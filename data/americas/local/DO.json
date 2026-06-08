@@ -1,0 +1,20 @@
+[
+  {
+    "id": "DO-CAMP-ESC",
+    "parentCountry": "DO",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🌴",
+    "category": "國家培訓營地 (National Camp)",
+    "name": "多明尼加國家童軍活動露營場",
+    "nameEn": "Campo Escuela Scout (Dominican)",
+    "subregion": "聖多明哥 (Santo Domingo)",
+    "lat": 18.5254,
+    "lng": -69.9112,
+    "address": "Santo Domingo, Dominican Republic",
+    "phone": "+1 809-685-6111",
+    "website": "http://www.scoutsdominicanos.org.do",
+    "instagram": "scoutsdominicanos",
+    "description": "多明尼加童軍官方直營，主打加勒比海風情露營、海上活動及跨國童軍友好文化節。"
+  }
+]

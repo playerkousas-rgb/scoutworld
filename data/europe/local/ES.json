@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ES-CAMP-GRI",
+    "parentCountry": "ES",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏰",
+    "category": "童軍城堡村莊營地 (Scout Village)",
+    "name": "格里埃瓦爾比利牛斯山童軍村",
+    "nameEn": "Centro Scout Griébal (Pyrenees)",
+    "subregion": "阿拉貢 (Aragon)",
+    "lat": 42.3485,
+    "lng": 0.2112,
+    "address": "Griebal s/n, 22330 Aínsa-Sobrarbe, Huesca, Spain",
+    "phone": "+34 976 29 11 14",
+    "website": "http://griebal.org/",
+    "instagram": "scoutsgriebal",
+    "description": "這是一座位於比利牛斯山脈深處、由童軍志工親手重建的「中世紀廢棄山村」！現為西班牙最著名的荒野探險、開拓先鋒工程與環境保護營地，提供全方位的露營與阿爾卑斯式徒步之旅。"
+  },
+  {
+    "id": "ES-SHOP-MADRID",
+    "parentCountry": "ES",
+    "level": 3,
+    "type": "Shop",
+    "flag": "🛍️",
+    "category": "全國童軍用品社 (Tienda Scout)",
+    "name": "西班牙童軍官方用品店",
+    "nameEn": "La Tienda Scout (ASDE)",
+    "subregion": "馬德里 (Madrid)",
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "address": "Calle de la Patria 12, 28025 Madrid, Spain",
+    "website": "https://www.scouts.es/tienda/",
+    "description": "位於馬德里的西班牙童軍聯盟 (ASDE) 官方商店。前往南歐旅行的童軍可以在此購買充滿西班牙熱情設計的領巾與徽章。"
+  },
+  {
+    "id": "ES-COUNCIL-BCN",
+    "parentCountry": "ES",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏰",
+    "category": "地方童軍會",
+    "name": "加泰隆尼亞童軍會 (巴塞隆納)",
+    "nameEn": "Minyons Escoltes i Guies (Barcelona)",
+    "subregion": "加泰隆尼亞 (Catalonia)",
+    "lat": 41.3851,
+    "lng": 2.1734,
+    "address": "Barcelona, Spain",
+    "description": "前往巴塞隆納看聖家堂時，可順道拜訪這個擁有強烈加泰隆尼亞在地文化的童軍會。"
+  }
+]

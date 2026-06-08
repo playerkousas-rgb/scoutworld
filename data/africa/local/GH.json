@@ -1,0 +1,20 @@
+[
+  {
+    "id": "GH-CAMP-MEM",
+    "parentCountry": "GH",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇬🇭",
+    "category": "國家童軍營地 (National Camp)",
+    "name": "貝登堡紀念童軍露營場",
+    "nameEn": "Baden-Powell Memorial Scout Camp (Accra)",
+    "subregion": "大阿克拉 (Accra)",
+    "lat": 5.5624,
+    "lng": -0.2112,
+    "address": "Baden-Powell Road, Accra, Ghana",
+    "phone": "+233 30 266 7381",
+    "website": "http://www.ghanascout.org",
+    "instagram": "ghanascout",
+    "description": "加納童軍協會官方直營。常年舉辦西非各國童軍大露營與環境保護主題訓練班。"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ET-CAMP-YEK",
+    "parentCountry": "ET",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇪🇹",
+    "category": "國家童軍營地 (National Camp)",
+    "name": "葉卡森林童軍露營場",
+    "nameEn": "Yeka Forest Scout Camp (Addis Ababa)",
+    "subregion": "阿迪斯阿貝巴 (Addis Ababa)",
+    "lat": 9.0254,
+    "lng": 38.7912,
+    "address": "Yeka Forest Hill, Addis Ababa, Ethiopia",
+    "phone": "+251 11 155 3100",
+    "website": "http://www.ethiopiascouts.org",
+    "instagram": "ethiopiascouts",
+    "description": "位於海拔2300米的尤卡山森林露營地。松木密布、氣候涼爽，是高海拔戶外生存、遠足健行訓練的核心地標。"
+  }
+]

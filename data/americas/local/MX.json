@@ -1,0 +1,37 @@
+[
+  {
+    "id": "MX-CAMP-MEZ",
+    "parentCountry": "MX",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🌵",
+    "category": "國家童軍營地 (National Camp)",
+    "name": "梅茲提特拉國家童軍活動中心",
+    "nameEn": "Centro Scout Meztitla",
+    "subregion": "莫雷洛斯州 (Morelos)",
+    "lat": 18.9854,
+    "lng": -99.0812,
+    "address": "Tepoztlán, Morelos, Mexico",
+    "phone": "+52 55 5208 7122",
+    "website": "https://www.scouts.org.mx",
+    "instagram": "scoutsmex",
+    "description": "墨西哥童軍官方大本營，坐落於神奇的 Tepoztlán 峽谷峭壁之下，仙人掌林環抱。以其頂級的野外攀岩、溶洞探索與拉丁美洲童軍訓練課程聞名。"
+  },
+  {
+    "id": "MX-SHOP-HQ",
+    "parentCountry": "MX",
+    "level": 3,
+    "type": "Shop",
+    "flag": "🛍️",
+    "category": "全國童軍旗艦店 (Tienda Scout Nacional)",
+    "name": "墨西哥國家童軍用品社",
+    "nameEn": "Tienda Scout Nacional (ASMAC)",
+    "subregion": "墨西哥城 (Mexico City)",
+    "lat": 19.4204,
+    "lng": -99.1591,
+    "address": "73 Córdoba, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
+    "phone": "+52 55 5208 7122",
+    "website": "https://tienda.enlinea.scouts.org.mx",
+    "description": "墨西哥童軍總會官方旗艦店。除了提供拉丁美洲特色的童軍制服，還有豐富的野外生存用具及墨西哥國家大露營的限定版徽章。"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "GT-CAMP-MUX",
+    "parentCountry": "GT",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "⛺",
+    "category": "國家培訓營地 (National Camp)",
+    "name": "聖豪爾赫穆克斯巴爾童軍露營場",
+    "nameEn": "Campo Escuela San Jorge Muxbal",
+    "subregion": "瓜地馬拉省 (Guatemala)",
+    "lat": 14.5854,
+    "lng": -90.4512,
+    "address": "Muxbal, Santa Catarina Pinula, Guatemala",
+    "phone": "+502 2331-4148",
+    "website": "http://www.scouts.org.gt",
+    "instagram": "scoutsguatemala",
+    "description": "瓜地馬拉童軍協會官方大本營，被中美洲森林與山谷環抱，氣候涼爽，設施備有大型營火場與先鋒工程實踐區。"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "VE-CAMP-HUM",
+    "parentCountry": "VE",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🔥",
+    "category": "國家培訓中心 (National Centre)",
+    "name": "艾爾烏莫國家童軍活動中心",
+    "nameEn": "Campo Escuela El Humo",
+    "subregion": "米蘭達州 (Miranda)",
+    "lat": 10.3524,
+    "lng": -66.5212,
+    "address": "Guatire, Miranda, Venezuela",
+    "phone": "+58 212-5714343",
+    "website": "http://www.scoutsvenezuela.org.ve",
+    "instagram": "scoutsvenezuela",
+    "description": "委內瑞拉歷史悠久的國家級童軍營舍與訓練基地，致力推廣南美原始雨林野外防溺與露營求生技術。"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "PL-CAMP-PER",
+    "parentCountry": "PL",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🦆",
+    "category": "湖區童軍中心 (Lake Scout Centre)",
+    "name": "佩爾科茲馬祖里湖區童軍中心",
+    "nameEn": "Perkoz ZHP Scout Centre",
+    "subregion": "馬祖里 (Mazury)",
+    "lat": 53.6485,
+    "lng": 20.3524,
+    "address": "Perkoz, 11-015 Olsztynek, Poland",
+    "phone": "+48 89 519 1224",
+    "website": "https://perkoz.zhp.pl/",
+    "instagram": "zhp_pl",
+    "description": "坐落於波蘭著名「萬湖之省」馬祖里湖區的原始松林中。提供划船、野外觀鳥、划大獨木舟探險及中歐傳統營火晚會。"
+  }
+]

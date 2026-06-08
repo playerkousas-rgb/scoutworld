@@ -1,0 +1,20 @@
+[
+  {
+    "id": "CZ-CAMP-KAP",
+    "parentCountry": "CZ",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🌾",
+    "category": "環保童軍活動中心 (Eco Scout Mill)",
+    "name": "卡普拉魯夫磨坊生態童軍活動中心",
+    "nameEn": "Kaprálův mlýn Scout Centre",
+    "subregion": "南摩拉維亞 (South Moravia)",
+    "lat": 49.2084,
+    "lng": 16.7112,
+    "address": "Ochoz u Brna 235, 664 02 Ochoz u Brna, Czech Republic",
+    "phone": "+420 544 214 235",
+    "website": "https://www.kapraluvmlyn.cz/en/",
+    "instagram": "ceskyskaut",
+    "description": "捷克最著名的「國際環境保護童軍示範基地」，由一座歷史悠久的水磨坊改造而成。主打可持續綠色科技教學、溶洞探索與比利牛斯式阿爾卑斯自然科考課程。"
+  }
+]

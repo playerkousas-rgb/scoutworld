@@ -1,0 +1,20 @@
+[
+  {
+    "id": "TZ-CAMP-BAH",
+    "parentCountry": "TZ",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏖️",
+    "category": "海濱童軍露營場 (Sea Camp)",
+    "name": "巴哈里海灘海濱童軍營地",
+    "nameEn": "Bahari Beach Scout Camp",
+    "subregion": "達累斯薩拉姆 (Dar es Salaam)",
+    "lat": -6.6524,
+    "lng": 39.2112,
+    "address": "Bahari Beach Road, Dar es Salaam, Tanzania",
+    "phone": "+255 22 211 1234",
+    "website": "http://www.scouts.or.tz",
+    "instagram": "tanzaniascouts",
+    "description": "坐落於印度洋沿岸美麗的巴哈里沙灘旁，集海港風情與原始椰林於一體。提供水上航行、海岸救生與沙灘露營篝火活動。"
+  }
+]

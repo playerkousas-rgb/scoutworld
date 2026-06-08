@@ -1,0 +1,5 @@
+{
+  "message": "Not Found",
+  "documentation_url": "https://docs.github.com/rest/git/blobs#get-a-blob",
+  "status": "404"
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "AT-CAMP-ZELLHOF",
+    "parentCountry": "AT",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏕️",
+    "category": "國際童軍中心 (International Centre)",
+    "name": "策爾霍夫國際童軍村",
+    "nameEn": "Pfadfinderdorf Zellhof (Scout Village)",
+    "subregion": "薩爾茨堡 (Salzburg)",
+    "lat": 47.9845,
+    "lng": 13.0924,
+    "address": "Zellhof 1, 5163 Mattsee, Austria",
+    "phone": "+43 6217 7066",
+    "website": "https://www.zellhof.at",
+    "description": "位於奧地利風景如畫的 Grabensee 湖畔，是歐洲最活躍的國際童軍志工中心之一。提供水上活動、單車環湖與阿爾卑斯山腳下的純粹露營體驗。"
+  }
+]

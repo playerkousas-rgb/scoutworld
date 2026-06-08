@@ -1,0 +1,20 @@
+[
+  {
+    "id": "NO-CAMP-TRE",
+    "parentCountry": "NO",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "⛵",
+    "category": "海洋童軍群島基地 (Sea Scout Island)",
+    "name": "特雷達倫國家海洋童軍營地",
+    "nameEn": "Tredalen Speidersenter (Sea Scout Camp)",
+    "subregion": "維肯郡 (Viken)",
+    "lat": 59.0854,
+    "lng": 10.9532,
+    "address": "Spjærøy, Hvaler, 1684 Vesterøy, Norway",
+    "phone": "+47 22 99 22 30",
+    "website": "https://speiding.no/tredalen",
+    "instagram": "speiding",
+    "description": "挪威著名的海上童軍基地，位於壯麗的 Hvaler 群島中。專為海上冒險而設計，提供划艇、帆船航行、深海捕魚及沿海礁石荒野宿營體驗。"
+  }
+]

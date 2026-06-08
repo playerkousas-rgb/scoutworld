@@ -1,0 +1,20 @@
+[
+  {
+    "id": "DK-CAMP-HOU",
+    "parentCountry": "DK",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "⛵",
+    "category": "國際童軍中心 (International Centre)",
+    "name": "豪恩斯奧德半島童軍活動中心",
+    "nameEn": "Houens Odde Speidercenter",
+    "subregion": "南丹麥 (South Denmark)",
+    "lat": 55.4984,
+    "lng": 9.5854,
+    "address": "Houens Odde 14, 6000 Kolding, Denmark",
+    "phone": "+45 70 22 46 15",
+    "website": "https://houensodde.dk/",
+    "instagram": "houensodde",
+    "description": "丹麥最大的國際童軍中心，坐落於一個伸入峽灣的森林半島上。以環境永續發展課程與帆船紮作航海等冒險聞名，接待全球志工與童軍。"
+  }
+]

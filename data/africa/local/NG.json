@@ -1,0 +1,20 @@
+[
+  {
+    "id": "NG-CAMP-LAG",
+    "parentCountry": "NG",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇳🇬",
+    "category": "童軍營地 (Campsite)",
+    "name": "拉哥斯州童軍露營中心",
+    "nameEn": "Lagos State Scout Camp (Lagos)",
+    "subregion": "拉哥斯 (Lagos)",
+    "lat": 6.4524,
+    "lng": 3.4112,
+    "address": "Baden Powell Rd, Ikoyi, Lagos, Nigeria",
+    "phone": "+234 1 234 5678",
+    "website": "http://www.nigerianscouts.org",
+    "instagram": "nigerianscouts",
+    "description": "奈及利亞最活躍的地方童軍中心。提供優質野營帳篷、拓展挑戰及城市童軍培訓活動。"
+  }
+]

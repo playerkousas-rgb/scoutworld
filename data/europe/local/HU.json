@@ -1,0 +1,18 @@
+[
+  {
+    "id": "HU-CAMP-CSIOBANKA",
+    "parentCountry": "HU",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "⛺",
+    "category": "國家童軍森林園區 (Scout Park)",
+    "name": "喬班考童軍戶外公園",
+    "nameEn": "Csobánka Scout Park (Cserkészpark)",
+    "subregion": "佩斯州 (Pest)",
+    "lat": 47.6441,
+    "lng": 18.9664,
+    "address": "Csobánka, 2014 Hungary",
+    "website": "https://www.cserkesz.hu",
+    "description": "匈牙利國家級童軍露營與訓練公園，位於布達佩斯近郊的山林中。是每年舉辦匈牙利童軍大型活動及木章訓練的永久場地。"
+  }
+]

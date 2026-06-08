@@ -1,0 +1,20 @@
+[
+  {
+    "id": "CR-CAMP-ANI",
+    "parentCountry": "CR",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🦎",
+    "category": "國家活動中心 (National Centre)",
+    "name": "哥斯大黎加國家童軍活動中心",
+    "nameEn": "Centro Nacional de Animación Scout",
+    "subregion": "聖荷西 (San José)",
+    "lat": 9.9524,
+    "lng": -84.1112,
+    "address": "La Cebadilla, Alajuela, Costa Rica",
+    "phone": "+506 2222-9898",
+    "website": "https://www.siemprelistos.or.cr",
+    "instagram": "guiasyscoutscr",
+    "description": "位於中美洲生態王國哥斯大黎加，主打熱帶雨林保護、環境保護微生態科考與樹頂索道冒險的旗艦童軍營地。"
+  }
+]

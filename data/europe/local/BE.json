@@ -1,0 +1,35 @@
+[
+  {
+    "id": "BE-CAMP-FRE",
+    "parentCountry": "BE",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "⛺",
+    "category": "童軍活動中心 (Scout Centre)",
+    "name": "弗雷奈歷史童軍中心",
+    "nameEn": "Centre Scout de la Fresnaye",
+    "subregion": "華隆 (Wallonia)",
+    "lat": 50.7254,
+    "lng": 4.6112,
+    "address": "Allée de la Fresnaye 1, 1400 Nivelles, Belgium",
+    "phone": "+32 67 21 24 33",
+    "website": "https://www.lafresnaye.be/",
+    "description": "比利時頗具盛名的歷史營地，擁有豐富的森林樹頂高空挑戰設施、繩網障礙與野外露營野餐區，是比利時童軍週末訓練的核心要塞。"
+  },
+  {
+    "id": "BE-WOSM-EUROPE",
+    "parentCountry": "BE",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🌍",
+    "category": "歐洲區童軍總部 (WOSM Europe)",
+    "name": "WOSM 歐洲區支援中心",
+    "nameEn": "WOSM Europe Regional Support Centre",
+    "subregion": "布魯塞爾 (Brussels)",
+    "lat": 50.84,
+    "lng": 4.3683,
+    "address": "Rue de l'Industrie 10, 1000 Brussels, Belgium",
+    "website": "https://www.scout.org/europe",
+    "description": "管理整個歐洲區童軍發展，並與歐盟及歐洲青年論壇密切合作的核心機構。"
+  }
+]

@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scout World Explorer — WOSM 全球童軍總部與地方分支資料庫</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  
+  <!-- Custom Styling for Leaflet Map and App Elements -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+    
+    
+    html, body {
+      height: 100vh;
+      height: -webkit-fill-available;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    body {
+      font-family: 'Outfit', 'Noto Sans TC', sans-serif;
+      background-color: #02133e;
+    }
+    
+    /* Scrollbar Styling */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #02133e;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+
+    /* Custom DivIcon Marker Styling */
+    .custom-div-icon {
+      background: none !important;
+      border: none !important;
+    }
+    
+    /* Pulse effect for selected marker */
+    .selected-marker-pulse {
+      position: relative;
+    }
+    .selected-marker-pulse::after {
+      content: '';
+      position: absolute;
+      width: 44px;
+      height: 44px;
+      top: -6px;
+      left: -6px;
+      border-radius: 50%;
+      border: 3px solid #fbbf24;
+      animation: pulse 1.5s infinite ease-out;
+      pointer-events: none;
+    }
+    @keyframes pulse {
+      0% {
+        transform: scale(0.6);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1.4);
+        opacity: 0;
+      }
+    }
+
+    /* ===== MOBILE ENHANCEMENTS ===== */
+    @media (max-width: 768px) {
+      #sidebar {
+        max-height: 45vh;
+      }
+      #detail-drawer {
+        width: 100% !important;
+        max-width: 100vw;
+      }
+      #drawer-header {
+        padding: 12px 16px;
+      }
+      #drawer-header .text-4xl {
+        font-size: 1.75rem;
+      }
+      #drawer-country {
+        font-size: 1rem;
+      }
+      #l3-list {
+        max-height: 30vh !important;
+      }
+      .l4-sub-btn {
+        font-size: 9px !important;
+        padding: 2px 6px !important;
+      }
+      #l3-level-pills button {
+        font-size: 9px !important;
+        padding: 4px 2px !important;
+      }
+      .region-btn {
+        font-size: 10px !important;
+        padding: 4px 8px !important;
+      }
+      #search-input {
+        font-size: 13px;
+        padding: 8px 10px 8px 32px;
+      }
+      /* Better touch targets for list items */
+      #orgs-list > div,
+      #l3-list > div {
+        min-height: 44px;
+      }
+      /* Prevent horizontal overflow */
+      #l4-subregion-container {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      .max-w-7xl {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      #detail-drawer .p-5 {
+        padding: 12px;
+      }
+      #detail-drawer .gap-3 {
+        gap: 8px;
+      }
+      #drawer-stats-row {
+        grid-template-columns: 1fr;
+      }
+      .flex.items-start.gap-3 .text-xs {
+        font-size: 11px;
+      }
+      .flex.items-start.gap-3 .text-[10px] {
+        font-size: 9px;
+      }
+    }
+
+    /* Smooth scroll behavior for mobile lists */
+    #orgs-list, #l3-list {
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+</head>
+<body class="text-slate-100 h-screen flex flex-col overflow-hidden">
+
+  <!-- TOP HEADER -->
+  <header class="bg-[#02133e] text-white shadow-md border-b border-white/5 flex-shrink-0 z-30">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="bg-amber-400 text-slate-950 w-10 h-10 rounded-full flex items-center justify-center shadow-lg transform rotate-45 border-2 border-[#02133e]">
+          <i class="fa-solid fa-compass text-lg transform -rotate-45"></i>
+        </div>
+        <div>
+          <h1 class="text-xl md:text-2xl font-black tracking-tight flex items-center gap-2">
+            Scout World Explorer
+            <span class="bg-amber-400 text-slate-900 text-[10px] font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider">WOSM & Local L4</span>
+          </h1>
+          <p class="text-xs text-slate-300 font-medium">全球童軍官方資料庫 | 專為香港優化 L3/L4 層級（地域、營地、44區會、IG、官網）</p>
+        </div>
+      </div>
+      
+      <!-- Stats Dashboard -->
+      <div class="flex items-center gap-4 text-xs">
+        <div class="bg-white/5 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 text-center">
+          <span class="text-slate-400 block font-semibold">覆蓋大區組織</span>
+          <span id="stat-orgs" class="text-amber-300 font-bold text-sm">63</span>
+        </div>
+        <div class="bg-white/5 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 text-center">
+          <span class="text-slate-400 block font-semibold">香港童軍細分</span>
+          <span class="text-emerald-400 font-bold text-sm">已啟用 (L4 區會)</span>
+        </div>
+        <div class="bg-white/5 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 text-center">
+          <span class="text-slate-400 block font-semibold">資料來源</span>
+          <a href="https://www.scout.org" target="_blank" class="text-blue-300 hover:underline font-bold text-sm flex items-center gap-1 justify-center">
+            scout.org <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN APP CONTAINER -->
+  <main class="flex-1 flex flex-col md:flex-row overflow-hidden relative">
+    
+    <!-- LEFT SIDEBAR: Search, Filters, and List -->
+    <div id="sidebar" class="w-full md:w-96 bg-[#02133e] border-r border-white/5 flex flex-col flex-shrink-0 shadow-lg z-20 overflow-hidden">
+      
+      <!-- Search & Controls -->
+      <div class="p-4 bg-[#010c29] border-b border-white/5 space-y-3 flex-shrink-0">
+        <!-- Search Input -->
+        <div class="relative">
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="搜尋國家、地方城市或營地..." 
+            class="w-full pl-10 pr-10 py-2.5 bg-[#051847] border border-white/10 rounded-xl shadow-sm text-sm text-slate-100 placeholder-slate-400 focus:ring-2 focus:ring-amber-400 focus:border-amber-400 focus:outline-none transition-all"
+          >
+          <div class="absolute left-3.5 top-3.5 text-slate-400 text-xs">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <button 
+            id="clear-search-btn" 
+            class="hidden absolute right-3.5 top-3 text-slate-400 hover:text-slate-200 focus:outline-none"
+          >
+            <i class="fa-solid fa-circle-xmark"></i>
+          </button>
+        </div>
+        
+        <!-- Region Tabs Slider (⚜️ Hong Kong has special 1st tab priority!) -->
+        <div class="flex gap-1.5 overflow-x-auto pb-1 -mx-2 px-2 scrollbar-none" id="region-filters">
+          <button 
+            data-region="HK-Special" 
+            class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-amber-400 text-slate-950 shadow-sm border border-amber-400 hover:bg-amber-500"
+          >
+            ⚜️ 香港 (Hong Kong)
+          </button>
+          <button 
+            data-region="Asia-Pacific" 
+            class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
+          >
+            亞太區
+          </button>
+          <button 
+            data-region="Europe" 
+            class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
+          >
+            歐洲區
+          </button>
+          <button 
+            data-region="Interamerica" 
+            class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
+          >
+            美洲區
+          </button>
+          <button 
+            data-region="Arab" 
+            class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
+          >
+            阿拉伯區
+          </button>
+          <button 
+            data-region="Africa" 
+            class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
+          >
+            非洲區
+          </button>
+        </div>
+      </div>
+      
+      <!-- List Stats -->
+      <div class="bg-[#010a24] px-4 py-2 text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between flex-shrink-0">
+        <span>國家組織列表 (<span id="filtered-count">0</span>)</span>
+        <span id="loading-indicator" class="text-amber-400 flex items-center gap-1">
+          <i class="fa-solid fa-circle-notch animate-spin"></i> 載入中...
+        </span>
+      </div>
+      
+      <!-- List Scroll Container -->
+      <div id="orgs-list" class="flex-1 overflow-y-auto divide-y divide-white/5 p-2 space-y-1.5">
+        <!-- Dynamically populated items -->
+      </div>
+
+      <!-- SIDEBAR FOOTER (Feedback, Copyright SKWSCOUT) -->
+      <div class="p-3 bg-[#010c29] border-t border-white/5 text-center space-y-2 flex-shrink-0">
+        <!-- Feedback Action Button -->
+        <a id="feedback-btn" href="/cdn-cgi/l/email-protection#3a4959554f4e59485b5c4e7a4959554f4e1455485d14525105494f58505f594e07d8a0a6d582b51f080a6959554f4e1f080a6d5548565e1f080a7f424a5655485f481f080adcbeb5d29cb1dfb5b7d39fb1dfb5b0dfa68adc92a3dcb5aade84a11c58555e4307dcb2abdcb989dcb5aade84a1de819fde82b1dd919fd281b7dfa68adc92a3d289bdd292b0d586a01f0a7e1f0a7b171f080adfa6b1df948c15dfa68adfb7bad586a01f0a7e1f0a7b171f080add8fbedd83aedfaab7dd928bd586a01f0a7e1f0a7b171f080adfa68ad381a4d39ba4dfb29fd586b2ddbda5dfa68a15dfb7badca6b915ddae92dfa9bbdd9e84d586b3d586a01f0a7e1f0a7b171f080adf959cd391aedfa68adfa7bad586a01f0a7e1f0a7b171f080add8884dd9880dd8ca9dd8d95df809cdf809ddc92a3d586b2dfb595dcac861f080a7d55555d565f1f080a775b4a491f080adfb589d3b78fd29ebdd29987d586b3d586a01f0a7e1f0a7b171f080adf94a2dcac83dd8c88dd91a315737dd586a01f0a7e1f0a7b" class="w-full inline-flex items-center justify-center gap-2 py-1.5 rounded-lg text-[11px] font-bold bg-[#09225e] hover:bg-[#0e2d7d] text-amber-300 border border-white/10 transition-colors shadow-sm">
+          <i class="fa-regular fa-paper-plane"></i> 📧 意見反饋與地標提供
+        </a>
+        <p class="text-[10px] text-slate-500 font-semibold tracking-wide">
+          Copyright &copy; 2026 SKWSCOUT
+        </p>
+      </div>
+    </div>
+    
+    <!-- RIGHT AREA: Map and Responsive Overlay -->
+    <div class="flex-1 flex flex-col relative overflow-hidden h-[45vh] md:h-auto">
+      
+      <!-- Map Container -->
+      <div id="map" class="w-full h-full z-10"></div>
+      
+      <!-- Floating Traveler's Guide Button (FAB) -->
+      <button 
+        id="travel-toolbox-btn" 
+        class="absolute bottom-4 right-4 bg-amber-400 hover:bg-amber-500 text-slate-950 px-4 py-2.5 rounded-full font-black text-xs shadow-2xl flex items-center gap-2 transition-all z-20 border-2 border-[#02133e]"
+      >
+        <i class="fa-solid fa-plane-departure"></i> ✈️ 童軍外訪行前規劃工具箱
+      </button>
+
+      <!-- Floating Instructions (Desktop) -->
+      <div class="hidden lg:block absolute bottom-4 left-4 bg-[#02133e]/90 backdrop-blur shadow-xl rounded-xl p-3.5 border border-white/10 z-20 max-w-sm pointer-events-none transition-all">
+        <h4 class="text-xs font-bold text-amber-400 flex items-center gap-1.5 mb-1">
+          <i class="fa-solid fa-map-location-dot text-amber-400"></i> L3/L4 香港本地細分功能已啟用！
+        </h4>
+        <p class="text-[11px] text-slate-300 leading-relaxed font-medium">
+          點擊地圖上的 **香港 🇭🇰**，即可解鎖完整 **5大童軍地域** 及 **44區童軍區會** 探索！支持按地域過濾、直接查看區會網站、一鍵 Google Maps 導航各地域及區會總部會所。
+        </p>
+      </div>
+    </div>
+
+    <!-- SIDE DETAILS DRAWER -->
+    <div id="detail-drawer" class="fixed top-0 right-0 h-full w-full sm:w-[420px] bg-[#02133e] shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col border-l border-white/10">
+      
+      <!-- Drawer Header -->
+      <div id="drawer-header" class="bg-gradient-to-r from-violet-950 via-indigo-950 to-slate-900 text-white p-5 flex-shrink-0 relative border-b border-white/5 overflow-hidden">
+        <div class="absolute -right-10 -bottom-10 text-white/5 text-[150px] font-bold transform rotate-12 pointer-events-none select-none">
+          ⚜️
+        </div>
+        
+        <!-- Back to National HQ Button -->
+        <button id="back-to-national-btn" class="hidden mb-3 text-xs bg-white/10 hover:bg-white/20 border border-white/25 text-white font-bold px-2.5 py-1 rounded-lg transition-all flex items-center gap-1.5 focus:outline-none">
+          <i class="fa-solid fa-arrow-left"></i> 返回國家總部首頁
+        </button>
+
+        <div class="flex items-start justify-between relative z-10">
+          <div class="flex items-center gap-3">
+            <span id="drawer-flag" class="text-4xl shadow-sm">🇭🇰</span>
+            <div>
+              <div class="flex items-center gap-2">
+                <span id="drawer-country" class="font-extrabold text-xl">香港</span>
+                <span id="drawer-country-en" class="text-xs text-slate-300 font-medium">Hong Kong</span>
+              </div>
+              <p class="text-xs text-amber-300 font-bold tracking-wider mt-0.5" id="drawer-region">Asia-Pacific Region</p>
+            </div>
+          </div>
+          <button id="close-drawer-btn" class="text-white/80 hover:text-white bg-white/10 hover:bg-white/20 p-2 rounded-full transition-all focus:outline-none">
+            <i class="fa-solid fa-xmark text-lg"></i>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Drawer Content -->
+      <div class="flex-1 overflow-y-auto p-5 space-y-5">
+        
+        <!-- Organization Main Name Card -->
+        <div class="bg-[#051847] rounded-xl p-4 border border-white/5 shadow-sm relative">
+          <span id="drawer-category-label" class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">童軍組織名稱</span>
+          <h3 id="drawer-org-full" class="text-slate-800 font-extrabold text-lg leading-tight mb-2">香港童軍總會</h3>
+          <div class="flex flex-wrap gap-2 mt-3">
+            <span id="drawer-short-badge" class="bg-violet-950/50 text-violet-300 border border-violet-900/30 text-xs font-bold px-2.5 py-1 rounded-lg flex items-center gap-1">
+              <i class="fa-solid fa-tag"></i> <span id="drawer-org-short-label">簡稱</span>: <span id="drawer-org-short">SAHK</span>
+            </span>
+            <span id="drawer-founded-badge" class="bg-amber-950/50 text-amber-300 border border-amber-900/30 text-xs font-bold px-2.5 py-1 rounded-lg flex items-center gap-1">
+              <i class="fa-solid fa-calendar-days"></i> 創立年份: <span id="drawer-founded">1911</span>
+            </span>
+          </div>
+        </div>
+        
+        <!-- LEVEL 3 & 4 (LOCAL) DIRECTORY SECTION (DYNAMIC) -->
+        <div id="l3-section" class="hidden bg-[#051847] border border-white/5 rounded-xl p-4 space-y-3">
+          <h4 class="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-tree-city text-amber-400"></i> 🗺️ 地方分支、營地與區會目錄
+          </h4>
+          
+          <!-- L3/L4 Filter Pills -->
+          <div class="flex gap-1 bg-[#010c29] p-1 rounded-lg border border-white/5 shadow-inner" id="l3-level-pills">
+            <button 
+              data-level="3" 
+              class="flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all bg-amber-400 text-slate-950 shadow-sm"
+            >
+              🏕️ 地域、營地及用品社
+            </button>
+            <button 
+              data-level="4" 
+              class="flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all text-slate-400 hover:text-amber-400"
+            >
+              🧭 44區會
+            </button>
+          </div>
+
+          <!-- L4 Specific Subregion filter -->
+          <div id="l4-subregion-container" class="hidden flex gap-1 overflow-x-auto pb-1 scrollbar-none">
+            <button data-sub="all" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10">全部</button>
+            <button data-sub="港島地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">港島</button>
+            <button data-sub="九龍地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">九龍</button>
+            <button data-sub="東九龍地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">東九</button>
+            <button data-sub="新界地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">新界</button>
+            <button data-sub="新界東地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">新東</button>
+          </div>
+
+          <div id="l3-list" class="space-y-2 max-h-56 overflow-y-auto pr-1">
+            <!-- Dynamically loaded local items -->
+          </div>
+        </div>
+        
+        <!-- Stats Badges -->
+        <div id="drawer-stats-row" class="grid grid-cols-2 gap-3">
+          <div class="bg-emerald-50/10 border border-emerald-900/30 rounded-xl p-3 text-center">
+            <span class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider block">成員人數 (約)</span>
+            <span id="drawer-members" class="text-emerald-300 font-black text-lg">100,000+</span>
+          </div>
+          <div class="bg-sky-50/10 border border-sky-900/30 rounded-xl p-3 text-center">
+            <span class="text-[10px] font-bold text-sky-400 uppercase tracking-wider block">WOSM 狀態</span>
+            <span id="drawer-wosm-status" class="text-sky-300 font-black text-xs block mt-1.5">
+              <i class="fa-solid fa-circle-check"></i> 官方正式成員
+            </span>
+          </div>
+        </div>
+
+        <!-- Description block for local items -->
+        <div id="drawer-desc-block" class="hidden bg-amber-50/10 border border-amber-100/20 rounded-xl p-3 text-xs leading-relaxed text-amber-200 font-medium">
+          <p id="drawer-desc-text"></p>
+        </div>
+
+        <!-- Contact details list -->
+        <div class="space-y-4">
+          <h4 class="text-xs font-black text-slate-400 uppercase tracking-wider border-b border-white/10 pb-1">聯絡與官方資訊</h4>
+          
+          <!-- Address -->
+          <div class="flex items-start gap-3">
+            <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </div>
+            <div class="flex-1">
+              <span class="text-[10px] font-semibold text-slate-400 block">總部 / 實體完整地址</span>
+              <p id="drawer-address" class="text-xs text-slate-200 font-medium leading-relaxed">香港九龍尖沙咀柯士甸道8號香港童軍中心</p>
+              <!-- Action Button for Maps -->
+              <a 
+                id="drawer-maps-action" 
+                href="#" 
+                target="_blank" 
+                class="inline-flex items-center gap-1.5 text-[11px] font-bold text-amber-300 hover:text-amber-400 mt-1.5 bg-[#09225e] hover:bg-[#0e2d7d] border border-white/10 px-2 py-1 rounded transition-colors"
+              >
+                <i class="fa-solid fa-diamond-turn-right text-[10px]"></i> 一鍵 Google Maps 地圖搜尋
+              </a>
+            </div>
+          </div>
+          
+          <!-- Phone -->
+          <div class="flex items-start gap-3">
+            <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="flex-1">
+              <span class="text-[10px] font-semibold text-slate-400 block">官方聯絡電話</span>
+              <p id="drawer-phone" class="text-xs text-slate-200 font-medium">+852 2377 3300</p>
+              <a 
+                id="drawer-phone-action" 
+                href="#" 
+                class="inline-flex items-center gap-1.5 text-[11px] font-bold text-emerald-300 hover:text-emerald-400 mt-1.5 bg-emerald-950/50 border border-emerald-900/30 px-2 py-1 rounded transition-colors"
+              >
+                <i class="fa-solid fa-phone-flip text-[10px]"></i> 直撥聯絡電話
+              </a>
+            </div>
+          </div>
+          
+          <!-- Email -->
+          <div class="flex items-start gap-3">
+            <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="flex-1">
+              <span class="text-[10px] font-semibold text-slate-400 block">電子郵件信箱</span>
+              <p id="drawer-email" class="text-xs text-slate-200 font-medium"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6013030f15142013030f15144e0f12074e080b">[email&#160;protected]</a></p>
+              <a 
+                id="drawer-email-action" 
+                href="#" 
+                class="inline-flex items-center gap-1.5 text-[11px] font-bold text-sky-300 hover:text-sky-400 mt-1.5 bg-sky-950/50 border border-sky-900/30 px-2 py-1 rounded transition-colors"
+              >
+                <i class="fa-solid fa-paper-plane text-[10px]"></i> 發送聯絡電郵
+              </a>
+            </div>
+          </div>
+
+          <!-- Facebook -->
+          <div id="drawer-facebook-container" class="hidden flex items-start gap-3">
+            <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
+              <i class="fa-brands fa-facebook text-blue-400"></i>
+            </div>
+            <div class="flex-1">
+              <span class="text-[10px] font-semibold text-slate-400 block">Facebook 官方專頁</span>
+              <a id="drawer-facebook" href="#" target="_blank" class="text-xs text-blue-400 font-extrabold hover:underline inline-flex items-center gap-1">
+                Facebook 專頁 <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Instagram -->
+          <div id="drawer-instagram-container" class="hidden flex items-start gap-3">
+            <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
+              <i class="fa-brands fa-instagram text-pink-400"></i>
+            </div>
+            <div class="flex-1">
+              <span class="text-[10px] font-semibold text-slate-400 block">Instagram 官方帳號</span>
+              <a id="drawer-instagram" href="#" target="_blank" class="text-xs text-pink-400 font-extrabold hover:underline inline-flex items-center gap-1">
+                @username <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- YouTube -->
+          <div id="drawer-youtube-container" class="hidden flex items-start gap-3">
+            <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
+              <i class="fa-brands fa-youtube text-red-500"></i>
+            </div>
+            <div class="flex-1">
+              <span class="text-[10px] font-semibold text-slate-400 block">YouTube 官方頻道</span>
+              <a id="drawer-youtube" href="#" target="_blank" class="text-xs text-red-400 font-extrabold hover:underline inline-flex items-center gap-1">
+                YouTube 頻道 <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Website -->
+          <div class="flex items-start gap-3">
+            <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="flex-1">
+              <span class="text-[10px] font-semibold text-slate-400 block">官方全球網站</span>
+              <a id="drawer-website" href="#" target="_blank" class="text-xs text-amber-300 font-bold hover:underline inline-flex items-center gap-1">
+                www.scout.org.hk <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Coordinates -->
+          <div class="flex items-start gap-3">
+            <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
+              <i class="fa-solid fa-location-crosshairs"></i>
+            </div>
+            <div class="flex-1">
+              <span class="text-[10px] font-semibold text-slate-400 block">精確座標 (Lat, Lng)</span>
+              <div class="flex items-center gap-2">
+                <p id="drawer-coordinates" class="text-xs text-slate-200 font-mono">22.3025, 114.1687</p>
+                <button 
+                  id="copy-coords-btn" 
+                  class="text-slate-400 hover:text-amber-400 transition-colors focus:outline-none" 
+                  title="複製座標"
+                >
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Official Sources info -->
+        <div id="drawer-source-box" class="bg-violet-950/30 rounded-xl p-4 border border-violet-900/20 space-y-2">
+          <h5 class="text-xs font-bold text-violet-300 flex items-center gap-1.5">
+            <i class="fa-solid fa-shield-halved"></i> 100% 官方可信度認證
+          </h5>
+          <p class="text-[11px] text-slate-400 leading-relaxed">
+            此資料與世界童軍運動組織 (WOSM) 官方資料頁完全對照。您可以點擊下方連結確認原始出處：
+          </p>
+          <a 
+            id="drawer-wosm-source" 
+            href="#" 
+            target="_blank" 
+            class="inline-flex items-center gap-1.5 text-xs font-extrabold text-violet-300 hover:text-violet-100 mt-1"
+          >
+            查閱 scout.org 原始網頁 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Copy Alert Toast overlay (dynamic) -->
+      <div id="copy-toast" class="absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-slate-900 text-white text-xs px-3 py-2 rounded-lg font-bold shadow-lg flex items-center gap-2 opacity-0 transition-opacity duration-300 pointer-events-none">
+        <i class="fa-solid fa-circle-check text-emerald-400"></i> 成功複製座標至剪貼簿！
+      </div>
+    </div>
+  </main>
+
+  <!-- TRAVEL TOOLBOX MODAL (BUSTERED & RE-ENGINEERED TO PREVENT COLD FREEZE / STUCK) -->
+  <div id="travel-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden opacity-0 transition-opacity duration-300">
+    <div class="bg-[#02133e] border border-white/10 rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl flex flex-col max-h-[85vh] transform scale-95 transition-transform duration-300">
+      
+      <!-- Modal Header -->
+      <div class="p-5 border-b border-white/5 bg-[#010c29] flex items-center justify-between">
+        <h3 class="font-extrabold text-base text-amber-400 flex items-center gap-2">
+          <i class="fa-solid fa-passport"></i> ✈️ 全球童軍外訪與行程規劃指南
+        </h3>
+        <button id="close-travel-modal" class="text-slate-400 hover:text-white bg-white/5 hover:bg-white/10 p-1.5 rounded-full transition-colors focus:outline-none">
+          <i class="fa-solid fa-xmark text-base"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body (Scrollable) -->
+      <div class="p-6 overflow-y-auto space-y-5 text-xs leading-relaxed text-slate-200 font-medium">
+        
+        <!-- 1. ILI Guide -->
+        <div class="space-y-1.5">
+          <h4 class="font-black text-[#60a5fa] uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-file-signature"></i> 1. 國際介紹信 (ILI / Letter of Introduction)
+          </h4>
+          <p class="text-slate-300">
+            外訪海外童軍旅團、國家營地或參觀各國總部前，**強烈建議提前 4-6 週向香港童軍總會國際事務部申請正式的 ILI**。這是您的「國際童軍身份護照」，能讓對方總會正式接待您，並獲取合規的探訪權利。
+          </p>
+        </div>
+
+        <!-- 2. Badge Swapping -->
+        <div class="space-y-1.5">
+          <h4 class="font-black text-[#c084fc] uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-arrows-rotate"></i> 2. 交換徽章 (Badge Swapping) 與伴手禮準備
+          </h4>
+          <p class="text-slate-300">
+            交換徽章與旅巾是全球通行的童軍外交！出發前，**建議到香港童軍中心 11 樓用品社，備妥充足的香港地域章、44 區會章、香港特色巾圈、別針或小旗幟**。在外訪、聯誼或營地宿營時，它們是結交各國童軍死黨的絕佳橋樑！
+          </p>
+        </div>
+
+        <!-- 3. Hours and Bookings -->
+        <div class="space-y-1.5">
+          <h4 class="font-black text-[#fbbf24] uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-store"></i> 3. 各國 Scout Shop 與營地預訂提醒
+          </h4>
+          <p class="text-slate-300">
+            各國官方童軍用品社（例如東京、倫敦、新加坡等）通常在週日、當地公眾假期是不營業的，外訪行程規劃時務必查清其工作時間。另外，著名的國際營地（如瑞士 KISC、英國基維爾）暑期及活動旺季極度熱門，通常**需要提前 3-6 個月進行預訂**。
+          </p>
+        </div>
+
+        <!-- 4. Packing List -->
+        <div class="space-y-2 bg-[#010c29] border border-white/5 rounded-xl p-4">
+          <h4 class="font-black text-emerald-400 uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-clipboard-list"></i> 🎒 童軍外訪行李必備 Checklist：
+          </h4>
+          <ul class="grid grid-cols-2 gap-2 text-slate-300 pl-1 list-none">
+            <li class="flex items-center gap-1.5"><i class="fa-solid fa-square-check text-emerald-400"></i> 整齊端莊的官方制服 (Uniform)</li>
+            <li class="flex items-center gap-1.5"><i class="fa-solid fa-square-check text-emerald-400"></i> 多條備用旅巾 & 特色巾圈</li>
+            <li class="flex items-center gap-1.5"><i class="fa-solid fa-square-check text-emerald-400"></i> 充足的香港及區會紀念章</li>
+            <li class="flex items-center gap-1.5"><i class="fa-solid fa-square-check text-emerald-400"></i> 總會核發之國際介紹信 (ILI)</li>
+            <li class="flex items-center gap-1.5"><i class="fa-solid fa-square-check text-emerald-400"></i> 代表自己旅團的獨特贈禮</li>
+            <li class="flex items-center gap-1.5"><i class="fa-solid fa-square-check text-emerald-400"></i> 行程中計劃探訪的地圖與經緯度</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-white/5 bg-[#010c29] text-center">
+        <button id="confirm-travel-modal" class="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black px-8 py-2 rounded-xl text-xs transition-colors shadow-lg">
+          我準備好了，出發探險！ ⚜️
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- APP SCRIPTS -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    // Hong Kong Default Bootstrap state for INSTANT loading!
+    const hkDefaultOrg = {
+      "id": "HK",
+      "flag": "🇭🇰",
+      "country": "香港",
+      "countryEn": "Hong Kong",
+      "org": "SAHK",
+      "orgFull": "香港童軍總會 (The Scout Association of Hong Kong)",
+      "wosmRegion": "Asia-Pacific",
+      "founded": 1911, // Corrected to 1911 based on HK Scouting history!
+      "members": 100000,
+      "lat": 22.3025,
+      "lng": 114.1687,
+      "address": "香港九龍尖沙咀柯士甸道8號香港童軍中心",
+      "phone": "+852 2377 3300",
+      "website": "https://www.scout.org.hk",
+      "email": "scout@scout.org.hk",
+      "instagram": "hkscouting",
+      "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    };
+
+    // Configuration & State
+    const regionFiles = {
+      'Asia-Pacific': 'data/asia-pacific/region.json',
+      'Europe': 'data/europe/region.json',
+      'Interamerica': 'data/americas/region.json',
+      'Arab': 'data/arab/region.json',
+      'Africa': 'data/africa/region.json'
+    };
+    
+    // Maps each country code to its region folder for local JSON loading
+    // Hong Kong (HK) stays separate at data/local/HK.json
+    const countryRegionMap = {
+      'ZA':'africa','KE':'africa','GH':'africa','NG':'africa','ET':'africa','TZ':'africa','CM':'africa',
+      'US':'americas','CA':'americas','BR':'americas','AR':'americas','MX':'americas','CL':'americas','CO':'americas','VE':'americas','CR':'americas','GT':'americas','DO':'americas',
+      'SA':'arab','EG':'arab','AE':'arab','MA':'arab','JO':'arab','TN':'arab','LB':'arab','QA':'arab',
+      'ID':'asia-pacific','JP':'asia-pacific','KR':'asia-pacific','SG':'asia-pacific','TW':'asia-pacific','AU':'asia-pacific','NZ':'asia-pacific','MY':'asia-pacific','PH':'asia-pacific','IN':'asia-pacific','BD':'asia-pacific','LK':'asia-pacific','TH':'asia-pacific','VN':'asia-pacific','MN':'asia-pacific','KH':'asia-pacific','MM':'asia-pacific','NP':'asia-pacific','MO':'asia-pacific',
+      'GB':'europe','FR':'europe','DE':'europe','SE':'europe','NO':'europe','FI':'europe','DK':'europe','NL':'europe','BE':'europe','CH':'europe','IT':'europe','ES':'europe','PL':'europe','IE':'europe','PT':'europe','CZ':'europe','EE':'europe','AT':'europe','GR':'europe','HU':'europe'
+    };
+    
+    let allScouts = [hkDefaultOrg]; // Bootstrap with Hong Kong instantly!
+    let filteredScouts = [hkDefaultOrg]; // Initial filtered list matches Hong Kong
+    let map = null;
+    let markersLayerGroup = null;
+    let localMarkersLayerGroup = null; // Separate layer for Level 3 & 4 sub-markers
+    
+    let currentSelectedOrg = null; // Store current selected L2 organization
+    let currentSelectedOrgId = null; // ID of current selected L2 org
+    let currentL3Data = []; // Store loaded L3 data of the current selected country
+    let activeL3Item = null; // Current selected L3 item detail
+    let activeLevelTab = 3; // L3 tab by default, toggle to 4 for HK districts
+    let activeL4Subregion = 'all'; // Filter for HK regions (港島, 九龍, etc.)
+    
+    // UI elements cache variables (dynamically queried on DOM ready)
+    let searchInput, clearSearchBtn, regionFilters, orgsList, filteredCount, loadingIndicator;
+    let statOrgs, statMembers;
+    let detailDrawer, closeDrawerBtn, backToNationalBtn, drawerFlag, drawerCountry, drawerCountryEn, drawerRegion, drawerOrgFull, drawerOrgShort, drawerFounded, drawerFoundedBadge, drawerMembers, drawerAddress, drawerMapsAction, drawerPhone, drawerPhoneAction, drawerEmail, drawerEmailAction, drawerWebsite, drawerCoordinates, copyCoordsBtn, copyToast, drawerWosmSource;
+    let l3Section, l3List, l3LevelPills, l4SubregionContainer, drawerDescBlock, drawerDescText, drawerCategoryLabel, drawerStatsRow, drawerSourceBox, drawerShortBadge, drawerOrgShortLabel, drawerInstagramContainer, drawerInstagram, drawerFacebookContainer, drawerFacebook, drawerYoutubeContainer, drawerYoutube;
+    
+    // Travel Toolbox UI variables
+    let travelToolboxBtn, travelModal, closeTravelModalBtn, confirmTravelModalBtn;
+
+    // Safely query DOM elements on ready to avoid any race conditions
+    function initDOM() {
+      searchInput = document.getElementById('search-input');
+      clearSearchBtn = document.getElementById('clear-search-btn');
+      regionFilters = document.getElementById('region-filters');
+      orgsList = document.getElementById('orgs-list');
+      filteredCount = document.getElementById('filtered-count');
+      loadingIndicator = document.getElementById('loading-indicator');
+      
+      statOrgs = document.getElementById('stat-orgs');
+      statMembers = document.getElementById('stat-members');
+      
+      detailDrawer = document.getElementById('detail-drawer');
+      closeDrawerBtn = document.getElementById('close-drawer-btn');
+      backToNationalBtn = document.getElementById('back-to-national-btn');
+      drawerFlag = document.getElementById('drawer-flag');
+      drawerCountry = document.getElementById('drawer-country');
+      drawerCountryEn = document.getElementById('drawer-country-en');
+      drawerRegion = document.getElementById('drawer-region');
+      drawerOrgFull = document.getElementById('drawer-org-full');
+      drawerOrgShort = document.getElementById('drawer-org-short');
+      drawerFounded = document.getElementById('drawer-founded');
+      drawerFoundedBadge = document.getElementById('drawer-founded-badge');
+      drawerMembers = document.getElementById('drawer-members');
+      drawerAddress = document.getElementById('drawer-address');
+      drawerMapsAction = document.getElementById('drawer-maps-action');
+      drawerPhone = document.getElementById('drawer-phone');
+      drawerPhoneAction = document.getElementById('drawer-phone-action');
+      drawerEmail = document.getElementById('drawer-email');
+      drawerEmailAction = document.getElementById('drawer-email-action');
+      drawerWebsite = document.getElementById('drawer-website');
+      drawerCoordinates = document.getElementById('drawer-coordinates');
+      copyCoordsBtn = document.getElementById('copy-coords-btn');
+      copyToast = document.getElementById('copy-toast');
+      drawerWosmSource = document.getElementById('drawer-wosm-source');
+      
+      l3Section = document.getElementById('l3-section');
+      l3List = document.getElementById('l3-list');
+      l3LevelPills = document.getElementById('l3-level-pills');
+      l4SubregionContainer = document.getElementById('l4-subregion-container');
+      drawerDescBlock = document.getElementById('drawer-desc-block');
+      drawerDescText = document.getElementById('drawer-desc-text');
+      drawerCategoryLabel = document.getElementById('drawer-category-label');
+      drawerStatsRow = document.getElementById('drawer-stats-row');
+      drawerSourceBox = document.getElementById('drawer-source-box');
+      drawerShortBadge = document.getElementById('drawer-short-badge');
+      drawerOrgShortLabel = document.getElementById('drawer-org-short-label');
+      drawerFacebookContainer = document.getElementById('drawer-facebook-container');
+      drawerFacebook = document.getElementById('drawer-facebook');
+      drawerInstagramContainer = document.getElementById('drawer-instagram-container');
+      drawerInstagram = document.getElementById('drawer-instagram');
+      drawerYoutubeContainer = document.getElementById('drawer-youtube-container');
+      drawerYoutube = document.getElementById('drawer-youtube');
+      
+      // Travel elements
+      travelToolboxBtn = document.getElementById('travel-toolbox-btn');
+      travelModal = document.getElementById('travel-modal');
+      closeTravelModalBtn = document.getElementById('close-travel-modal');
+      confirmTravelModalBtn = document.getElementById('confirm-travel-modal');
+    }
+
+    // Initialize the Leaflet Map
+    function initMap() {
+      map = L.map('map', {
+        zoomControl: false,
+        minZoom: 2,
+        maxZoom: 18
+      }).setView([22.3025, 114.1687], 11); // Start focused tightly on Hong Kong!
+      
+      L.control.zoom({
+        position: 'topright'
+      }).addTo(map);
+
+      // CartoDB Voyager tiles (modern, elegant, high-contrast)
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 20
+      }).addTo(map);
+      
+      markersLayerGroup = L.layerGroup().addTo(map);
+      localMarkersLayerGroup = L.layerGroup().addTo(map);
+    }
+    
+    // Fetch all regions in parallel (safely structured in try/finally to NEVER get stuck rotating!)
+    async function loadData() {
+      if (loadingIndicator) {
+        loadingIndicator.classList.remove('hidden');
+      }
+      
+      try {
+        const promises = Object.keys(regionFiles).map(async (regionKey) => {
+          try {
+            const response = await fetch(regionFiles[regionKey]);
+            if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+            const data = await response.json();
+            if (!Array.isArray(data)) throw new Error('Loaded data is not a valid JSON array');
+            return data.map(item => ({ ...item, wosmRegion: regionKey }));
+          } catch (err) {
+            console.error(`Failed to load region file for ${regionKey}:`, err);
+            return [];
+          }
+        });
+        
+        const results = await Promise.all(promises);
+        const fetchedFlat = results.flat();
+        
+        // Defensive filter against nulls/undefineds to prevent crashes
+        allScouts = [hkDefaultOrg, ...fetchedFlat.filter(org => org && org.id && org.id !== 'HK')];
+        
+        if (statOrgs) {
+          statOrgs.textContent = allScouts.length;
+        }
+        
+        const totalMembers = allScouts.reduce((sum, scout) => sum + (scout && scout.members ? parseInt(scout.members) || 0 : 0), 0);
+        if (statMembers) {
+          statMembers.textContent = `~ ${(totalMembers / 1000000).toFixed(1)}M+`;
+        }
+      } catch (globalErr) {
+        console.error("Global error loading datasets:", globalErr);
+      } finally {
+        // GUARANTEED to execute and hide the loading spinner, preventing endless rotating!
+        if (loadingIndicator) {
+          loadingIndicator.classList.add('hidden');
+        }
+      }
+      
+      // Re-filter only if the active region has changed, otherwise maintain HK view
+      const activeBtn = regionFilters ? regionFilters.querySelector('.region-btn.bg-amber-400') : null;
+      const activeRegion = activeBtn ? activeBtn.dataset.region : 'HK-Special';
+      if (activeRegion !== 'HK-Special') {
+        filterData();
+      }
+    }
+    
+    // Render the Sidebar List
+    function renderList() {
+      if (!orgsList) return;
+      orgsList.innerHTML = '';
+      filteredCount.textContent = filteredScouts.length;
+      
+      if (filteredScouts.length === 0) {
+        orgsList.innerHTML = `
+          <div class="text-center py-10 px-4 text-slate-400">
+            <i class="fa-solid fa-folder-open text-3xl mb-2.5 block"></i>
+            <p class="text-xs font-semibold">找不到符合條件的童軍組織</p>
+            <p class="text-[11px] mt-1 text-slate-500">請嘗試輸入其他關鍵字或變更區域</p>
+          </div>
+        `;
+        return;
+      }
+      
+      filteredScouts.forEach(org => {
+        const item = document.createElement('div');
+        item.className = `p-3 rounded-xl border border-white/5 bg-[#051847] hover:border-amber-400 hover:shadow-md cursor-pointer transition-all duration-200 flex items-center justify-between gap-3 ${currentSelectedOrgId === org.id ? 'border-amber-400 ring-2 ring-amber-400/20 bg-[#09225e]' : ''}`;
+        item.dataset.id = org.id;
+        
+        const membersFormatted = org.members ? 
+          (org.members >= 1000000 ? `${(org.members/1000000).toFixed(1)}M` : org.members.toLocaleString()) : 
+          '未提供';
+          
+        item.innerHTML = `
+          <div class="flex items-center gap-3 overflow-hidden">
+            <span class="text-3xl flex-shrink-0 select-none">${org.flag}</span>
+            <div class="overflow-hidden">
+              <div class="flex items-center gap-1.5">
+                <h3 class="font-extrabold text-sm text-slate-100 tracking-tight truncate">${org.country}</h3>
+                <span class="bg-[#010a24] text-amber-300 border border-white/10 font-bold text-[9px] px-1.5 py-0.5 rounded truncate uppercase">${org.org}</span>
+              </div>
+              <p class="text-[11px] text-slate-400 font-medium truncate">${org.orgFull || org.countryEn}</p>
+            </div>
+          </div>
+          <div class="text-right flex-shrink-0">
+            <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">成員約</span>
+            <span class="text-xs text-slate-700 font-bold">${membersFormatted}</span>
+          </div>
+        `;
+        
+        item.addEventListener('click', () => {
+          selectOrganization(org);
+        });
+        
+        orgsList.appendChild(item);
+      });
+    }
+    
+    // Render National Markers on the Map
+    function renderMarkers() {
+      markersLayerGroup.clearLayers();
+      
+      filteredScouts.forEach(org => {
+        if (!org.lat || !org.lng) return;
+        
+        const isSelected = org.id === currentSelectedOrgId;
+        
+        const iconHtml = `
+          <div class="selected-marker-pulse flex items-center justify-center w-8.5 h-8.5 rounded-full bg-white shadow-lg border-2 ${isSelected ? 'border-amber-400 scale-110 z-50' : 'border-indigo-500 hover:border-amber-400'} hover:scale-115 transition duration-150 relative">
+            <span class="text-base select-none">${org.flag}</span>
+          </div>
+        `;
+        
+        const customIcon = L.divIcon({
+          html: iconHtml,
+          className: 'custom-div-icon',
+          iconSize: [34, 34],
+          iconAnchor: [17, 17]
+        });
+        
+        const marker = L.marker([org.lat, org.lng], { icon: customIcon });
+        
+        marker.on('click', () => {
+          selectOrganization(org);
+        });
+        
+        marker.bindTooltip(`
+          <div class="font-sans p-0.5 text-slate-800">
+            <span class="font-black text-xs">${org.flag} ${org.country}</span>
+            <span class="bg-violet-100 text-violet-800 font-bold text-[9px] px-1 rounded ml-1">${org.org}</span>
+          </div>
+        `, {
+          direction: 'top',
+          offset: [0, -10],
+          opacity: 0.95
+        });
+        
+        marker.addTo(markersLayerGroup);
+      });
+    }
+
+    // Render Level 3 & 4 (Local) Markers on the Map
+    function renderLocalMarkers() {
+      localMarkersLayerGroup.clearLayers();
+      
+      if (!currentL3Data || currentL3Data.length === 0) return;
+      
+      currentL3Data.forEach(item => {
+        if (!item.lat || !item.lng) return;
+        
+        // Match active filters (Level 3 or Level 4)
+        const matchesLevel = (activeLevelTab === 3 && (item.level === 3 || !item.level)) || 
+                             (activeLevelTab === 4 && item.level === 4);
+                             
+        // If Level 4 HK districts, support regional sub-filters
+        const matchesSubregion = activeLevelTab !== 4 || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
+        
+        if (!matchesLevel || !matchesSubregion) return;
+        
+        const isActive = activeL3Item && activeL3Item.id === item.id;
+        
+        // Define color borders based on L3/L4 type
+        let borderColor = 'border-amber-400'; // default
+        if (item.type === 'Campsite') borderColor = 'border-emerald-400';
+        if (item.type === 'Shop') borderColor = 'border-amber-300';
+        if (item.type === 'Region') borderColor = 'border-violet-400';
+        if (item.type === 'Council') borderColor = 'border-blue-400';
+        if (item.type === 'District') borderColor = 'border-purple-400';
+        
+        const activeClass = isActive ? 'ring-4 ring-amber-300 scale-120 z-50' : 'hover:scale-115';
+        
+        const iconHtml = `
+          <div class="flex items-center justify-center w-7.5 h-7.5 rounded-full bg-white shadow-md border-2 ${borderColor} ${activeClass} transition duration-150">
+            <span class="text-sm select-none">${item.flag || '📍'}</span>
+          </div>
+        `;
+        
+        const customIcon = L.divIcon({
+          html: iconHtml,
+          className: 'custom-div-icon',
+          iconSize: [30, 30],
+          iconAnchor: [15, 15]
+        });
+        
+        const marker = L.marker([item.lat, item.lng], { icon: customIcon });
+        
+        marker.on('click', () => {
+          selectL3Item(item);
+        });
+        
+        marker.bindTooltip(`
+          <div class="font-sans p-0.5 text-slate-800">
+            <span class="font-bold text-xs">${item.flag || '📍'} ${item.name}</span>
+            <span class="bg-slate-100 text-slate-700 font-semibold text-[8px] px-1 rounded ml-1">${item.category}</span>
+          </div>
+        `, {
+          direction: 'top',
+          offset: [0, -8],
+          opacity: 0.95
+        });
+        
+        marker.addTo(localMarkersLayerGroup);
+      });
+    }
+    
+    // Select an Organization (L2)
+    function selectOrganization(org) {
+      currentSelectedOrg = org;
+      currentSelectedOrgId = org.id;
+      activeL3Item = null; // Clear active L3 detail
+      activeLevelTab = 3; // Reset to level 3 tab by default
+      activeL4Subregion = 'all'; // Reset sub-region filter
+      
+      // Update sidebar list highlight
+      if (orgsList) {
+        const listItems = orgsList.querySelectorAll('[data-id]');
+        listItems.forEach(item => {
+          if (item.dataset.id === org.id) {
+            item.className = `p-3 rounded-xl border border-amber-400 ring-2 ring-amber-400/20 bg-[#09225e] shadow-md cursor-pointer transition-all duration-200 flex items-center justify-between gap-3`;
+            // item.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+          } else {
+            item.className = `p-3 rounded-xl border border-white/5 bg-[#051847] hover:border-amber-400 hover:shadow-md cursor-pointer transition-all duration-200 flex items-center justify-between gap-3`;
+          }
+        });
+      }
+      
+      renderMarkers();
+      
+      // Reset map view to country HQ
+      if (org.lat && org.lng) {
+        const zoomLv = org.id === 'HK' ? 11 : 5;
+        map.setView([org.lat, org.lng], zoomLv, { animate: true, duration: 1.0 });
+      }
+      
+      // Reset Drawer Header view
+      if (backToNationalBtn) {
+        backToNationalBtn.classList.add('hidden');
+      }
+      
+      // Load and display details
+      openDetailDrawer(org);
+      
+      // Check and fetch L3/L4 Data
+      checkAndLoadL3Data(org.id);
+    }
+    
+    // Fetch L3 local JSON dynamically if available
+    async function checkAndLoadL3Data(countryId) {
+      if (l3Section) l3Section.classList.add('hidden');
+      if (l3List) l3List.innerHTML = '';
+      currentL3Data = [];
+      localMarkersLayerGroup.clearLayers();
+      
+      // Reset subregion filters
+      if (l4SubregionContainer) {
+        l4SubregionContainer.classList.add('hidden');
+        const subBtns = l4SubregionContainer.querySelectorAll('.l4-sub-btn');
+        subBtns.forEach(b => {
+          if (b.dataset.sub === 'all') {
+            b.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
+          } else {
+            b.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5';
+          }
+        });
+      }
+      
+      try {
+        // HK stays at data/local/HK.json, other countries in their region folders
+        const localPath = countryId === 'HK' 
+          ? `data/local/HK.json` 
+          : `data/${countryRegionMap[countryId] || 'unknown'}/local/${countryId}.json`;
+        
+        console.log(`[ScoutWorld] Loading L3 data for ${countryId} from: ${localPath}`);
+        const response = await fetch(localPath);
+        
+        if (!response.ok) {
+          console.warn(`[ScoutWorld] L3 fetch failed for ${countryId}: HTTP ${response.status}`);
+          return;
+        }
+        
+        const localData = await response.json();
+        
+        if (!Array.isArray(localData)) {
+          console.error(`[ScoutWorld] L3 data for ${countryId} is not a valid array!`);
+          return;
+        }
+        
+        currentL3Data = localData;
+        console.log(`[ScoutWorld] ✅ Loaded ${localData.length} L3 items for ${countryId}`);
+        
+        // Check if we have Level 4 data (like Hong Kong districts). If not, hide tab bar and show L3 directly.
+        const hasL4 = localData.some(item => item.level === 4);
+        if (l3LevelPills) {
+          if (hasL4) {
+            l3LevelPills.classList.remove('hidden');
+          } else {
+            l3LevelPills.classList.add('hidden');
+          }
+        }
+        
+        updateTabPillStyles(); // Make sure the visual styles are synced properly!
+        
+        // Populate local items lists
+        renderL3List();
+        renderLocalMarkers();
+        if (l3Section) l3Section.classList.remove('hidden');
+        
+        // Show count in console for debug
+        const l3Count = localData.filter(i => i.level === 3 || !i.level).length;
+        const l4Count = localData.filter(i => i.level === 4).length;
+        console.log(`[ScoutWorld] L3 items: ${l3Count}, L4 items: ${l4Count}`);
+      } catch (err) {
+        console.error(`[ScoutWorld] ❌ Error loading L3 data for ${countryId}:`, err);
+      }
+    }
+    
+    // Render Level 3 / 4 List inside the drawer
+    function renderL3List() {
+      if (!l3List) return;
+      l3List.innerHTML = '';
+      if (!currentL3Data || currentL3Data.length === 0) return;
+      
+      const filteredLocal = currentL3Data.filter(item => {
+        const matchesLevel = (activeLevelTab === 3 && (item.level === 3 || !item.level)) || 
+                             (activeLevelTab === 4 && item.level === 4);
+        const matchesSubregion = activeLevelTab !== 4 || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
+        return matchesLevel && matchesSubregion;
+      });
+      
+      if (filteredLocal.length === 0) {
+        l3List.innerHTML = `
+          <div class="text-center py-6 text-slate-400 text-[11px]">
+            <i class="fa-solid fa-folder-open mb-1 block text-lg"></i>
+            沒有符合該類型的分部。
+          </div>
+        `;
+        return;
+      }
+      
+      filteredLocal.forEach(item => {
+        const row = document.createElement('div');
+        row.className = `p-2 rounded-lg bg-[#010c29] border cursor-pointer transition-all flex items-center justify-between gap-2 shadow-sm text-xs ${activeL3Item && activeL3Item.id === item.id ? 'border-indigo-500 ring-2 ring-indigo-100 bg-[#09225e]/20' : 'border-slate-100 hover:border-amber-400'}`;
+        
+        let badgeColor = 'bg-amber-950/50 text-amber-300 border border-amber-900/30';
+        if (item.type === 'Campsite') badgeColor = 'bg-emerald-950/50 text-emerald-300 border border-emerald-900/30';
+        if (item.type === 'Shop') badgeColor = 'bg-orange-950/50 text-orange-300 border border-orange-900/30';
+        if (item.type === 'Region') badgeColor = 'bg-violet-950/50 text-violet-300 border border-violet-900/30';
+        if (item.type === 'Council') badgeColor = 'bg-blue-950/50 text-blue-300 border border-blue-900/30';
+        if (item.type === 'District') badgeColor = 'bg-purple-950/50 text-purple-300 border border-purple-900/30';
+
+        // Check if item has Facebook or Instagram to render quick-link buttons DIRECTLY in the row!
+        const fbButtonHtml = item.facebook ? `
+          <a 
+            href="${item.facebook}" 
+            target="_blank" 
+            onclick="event.stopPropagation();" 
+            class="text-blue-400 hover:text-blue-300 bg-blue-950/30 hover:bg-blue-950/50 border border-blue-900/20 p-1.5 rounded-full flex items-center justify-center transition-colors shadow-sm"
+            title="瀏覽 Facebook 官方專頁"
+          >
+            <i class="fa-brands fa-facebook text-xs"></i>
+          </a>
+        ` : '';
+        const igButtonHtml = item.instagram ? `
+          <a 
+            href="https://www.instagram.com/${item.instagram}/" 
+            target="_blank" 
+            onclick="event.stopPropagation();" 
+            class="text-pink-400 hover:text-pink-300 bg-pink-950/30 hover:bg-pink-950/50 border border-pink-900/20 p-1.5 rounded-full flex items-center justify-center transition-colors shadow-sm"
+            title="追蹤 Instagram 官方帳號"
+          >
+            <i class="fa-brands fa-instagram text-xs"></i>
+          </a>
+        ` : '';
+
+        row.innerHTML = `
+          <div class="flex items-center gap-2 overflow-hidden flex-1">
+            <span class="text-base flex-shrink-0 select-none">${item.flag || '📍'}</span>
+            <div class="overflow-hidden">
+              <span class="font-extrabold text-slate-100 leading-tight block truncate">${item.name}</span>
+              <span class="text-[9px] text-slate-400 font-semibold block truncate">${item.subregion}</span>
+            </div>
+          </div>
+          <div class="flex items-center gap-1.5 flex-shrink-0">
+            <span class="${badgeColor} font-bold text-[9px] px-1.5 py-0.5 rounded">${item.category.split(' ')[0]}</span>
+            ${fbButtonHtml}
+            ${igButtonHtml}
+          </div>
+        `;
+        
+        row.addEventListener('click', (e) => {
+          e.stopPropagation();
+          selectL3Item(item);
+        });
+        
+        l3List.appendChild(row);
+      });
+    }
+    
+    // Select and focus an L3/L4 Item
+    function selectL3Item(item) {
+      activeL3Item = item;
+      
+      // Update tab active category view to match selection
+      if (item.level === 4) {
+        activeLevelTab = 4;
+        if (l4SubregionContainer) l4SubregionContainer.classList.remove('hidden');
+        // Highlight active subregion tab
+        if (l4SubregionContainer) {
+          const subButtons = l4SubregionContainer.querySelectorAll('.l4-sub-btn');
+          subButtons.forEach(btn => {
+            if (btn.dataset.sub === item.subregion) {
+              btn.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
+            } else {
+              btn.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5';
+            }
+          });
+        }
+      } else {
+        activeLevelTab = 3;
+        if (l4SubregionContainer) l4SubregionContainer.classList.add('hidden');
+      }
+      
+      updateTabPillStyles();
+      renderL3List();
+      renderLocalMarkers();
+      
+      // Zoom map directly to the specific local campsite / council / district
+      if (item.lat && item.lng) {
+        const zoomLevel = item.level === 4 ? 13 : (item.type === 'Region' ? 12 : 12); // zoom closer for local districts
+        map.setView([item.lat, item.lng], zoomLevel, { animate: true, duration: 1.2 });
+      }
+      
+      // Adapt Drawer header to show L3/L4 info
+      if (backToNationalBtn) backToNationalBtn.classList.remove('hidden');
+      drawerFlag.textContent = item.flag || '📍';
+      drawerCountry.textContent = item.name;
+      drawerCountryEn.textContent = item.nameEn || '';
+      drawerRegion.textContent = `📍 ${item.category} (${item.subregion})`;
+      
+      // Update Main block in drawer
+      drawerCategoryLabel.textContent = `所屬大類: ${item.category}`;
+      drawerOrgFull.textContent = item.name;
+      
+      // Hide standard national badges
+      if (drawerStatsRow) drawerStatsRow.classList.add('hidden');
+      if (drawerSourceBox) drawerSourceBox.classList.add('hidden');
+      
+      // Custom short badge for sub-item
+      if (drawerShortBadge) drawerShortBadge.classList.remove('hidden');
+      drawerOrgShortLabel.textContent = '類別';
+      drawerOrgShort.textContent = item.category.split(' ')[0];
+      if (drawerFoundedBadge) drawerFoundedBadge.classList.add('hidden');
+      
+      // Fill details
+      drawerAddress.textContent = item.address || '無';
+      drawerMapsAction.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.name) + ' ' + encodeURIComponent(item.address || '')}`;
+      drawerMapsAction.classList.remove('hidden');
+      
+      // Show custom description
+      if (item.description) {
+        drawerDescText.textContent = item.description;
+        if (drawerDescBlock) drawerDescBlock.classList.remove('hidden');
+      } else {
+        if (drawerDescBlock) drawerDescBlock.classList.add('hidden');
+      }
+      
+      // Local Phone
+      if (item.phone && item.phone !== '—') {
+        drawerPhone.textContent = item.phone;
+        drawerPhoneAction.href = `tel:${item.phone.replace(/[\s\(\)-]/g, '')}`;
+        drawerPhoneAction.classList.remove('hidden');
+      } else {
+        drawerPhone.textContent = '未提供聯絡電話';
+        drawerPhoneAction.classList.add('hidden');
+      }
+      
+      // Local Email
+      if (item.email && item.email !== '—' && item.email !== '') {
+        drawerEmail.textContent = item.email;
+        drawerEmailAction.href = `mailto:${item.email}?subject=⚜️ Inquiry regarding ${item.name}`;
+        drawerEmailAction.classList.remove('hidden');
+      } else {
+        drawerEmail.textContent = '未提供電子信箱';
+        drawerEmailAction.classList.add('hidden');
+      }
+      
+      // Local Facebook support
+      if (item.facebook) {
+        drawerFacebook.textContent = 'Facebook 專頁';
+        drawerFacebook.href = item.facebook;
+        if (drawerFacebookContainer) drawerFacebookContainer.classList.remove('hidden');
+      } else {
+        if (drawerFacebookContainer) drawerFacebookContainer.classList.add('hidden');
+      }
+
+      // Local Instagram support
+      if (item.instagram) {
+        drawerInstagram.textContent = `@${item.instagram}`;
+        drawerInstagram.href = `https://www.instagram.com/${item.instagram}/`;
+        if (drawerInstagramContainer) drawerInstagramContainer.classList.remove('hidden');
+      } else {
+        if (drawerInstagramContainer) drawerInstagramContainer.classList.add('hidden');
+      }
+
+      // Local YouTube support
+      if (item.youtube) {
+        drawerYoutube.textContent = 'YouTube 頻道';
+        drawerYoutube.href = item.youtube;
+        if (drawerYoutubeContainer) drawerYoutubeContainer.classList.remove('hidden');
+      } else {
+        if (drawerYoutubeContainer) drawerYoutubeContainer.classList.add('hidden');
+      }
+      
+      // Local Website
+      if (item.website && item.website !== '—' && item.website !== '') {
+        const urlStr = item.website.startsWith('http') ? item.website : `https://${item.website}`;
+        drawerWebsite.textContent = item.website.replace('https://', '').replace('http://', '').replace('www.', '');
+        drawerWebsite.href = urlStr;
+        drawerWebsite.parentElement.parentElement.classList.remove('hidden');
+      } else {
+        drawerWebsite.parentElement.parentElement.classList.add('hidden');
+      }
+      
+      // Coordinates
+      if (item.lat && item.lng) {
+        drawerCoordinates.textContent = `${item.lat.toFixed(6)}, ${item.lng.toFixed(6)}`;
+        copyCoordsBtn.dataset.coords = `${item.lat},${item.lng}`;
+        copyCoordsBtn.parentElement.parentElement.parentElement.classList.remove('hidden');
+      } else {
+        copyCoordsBtn.parentElement.parentElement.parentElement.classList.add('hidden');
+      }
+      
+      // Scroll drawer content to top
+      detailDrawer.querySelector('.flex-1').scrollTop = 0;
+    }
+    
+    // Open Drawer & Populate L2 details
+    function openDetailDrawer(org) {
+      drawerFlag.textContent = org.flag || '⚜️';
+      drawerCountry.textContent = org.country || '未提供';
+      drawerCountryEn.textContent = org.countryEn || '';
+      
+      const regionNames = {
+        'Asia-Pacific': '亞太童軍區 (Asia-Pacific Region)',
+        'Europe': '歐洲童軍區 (Europe Region)',
+        'Interamerica': '美洲童軍區 (Interamerica Region)',
+        'Arab': '阿拉伯童軍區 (Arab Region)',
+        'Africa': '非洲童軍區 (Africa Region)'
+      };
+      drawerRegion.textContent = regionNames[org.wosmRegion] || org.wosmRegion || '世界童軍運動';
+      
+      drawerCategoryLabel.textContent = '國家級童軍組織名稱';
+      drawerOrgFull.textContent = org.orgFull || `${org.country}童軍運動`;
+      
+      // Show stats & source
+      if (drawerStatsRow) drawerStatsRow.classList.remove('hidden');
+      if (drawerSourceBox) drawerSourceBox.classList.remove('hidden');
+      if (drawerDescBlock) drawerDescBlock.classList.add('hidden');
+      
+      // Local Instagram support for L2 (National)
+      if (org.instagram) {
+        drawerInstagram.textContent = `@${org.instagram}`;
+        drawerInstagram.href = `https://www.instagram.com/${org.instagram}/`;
+        if (drawerInstagramContainer) drawerInstagramContainer.classList.remove('hidden');
+      } else {
+        if (drawerInstagramContainer) drawerInstagramContainer.classList.add('hidden');
+      }
+      
+      // Reset national badges
+      if (drawerShortBadge) drawerShortBadge.classList.remove('hidden');
+      drawerOrgShortLabel.textContent = '簡稱';
+      drawerOrgShort.textContent = org.org || '無';
+      
+      if (org.founded) {
+        drawerFounded.textContent = org.founded;
+        if (drawerFoundedBadge) drawerFoundedBadge.classList.remove('hidden');
+      } else {
+        if (drawerFoundedBadge) drawerFoundedBadge.classList.add('hidden');
+      }
+      
+      drawerMembers.textContent = org.members ? `${org.members.toLocaleString()}+` : '官方統計中';
+      
+      // Address
+      drawerAddress.textContent = org.address || '尚未登錄詳細物理地址。';
+      if (org.address) {
+        drawerMapsAction.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(org.orgFull || org.country + ' ' + org.org) + ' ' + encodeURIComponent(org.address)}`;
+        drawerMapsAction.classList.remove('hidden');
+      } else {
+        drawerMapsAction.classList.add('hidden');
+      }
+      
+      // Phone
+      if (org.phone && org.phone !== '—') {
+        drawerPhone.textContent = org.phone;
+        drawerPhoneAction.href = `tel:${org.phone.replace(/[\s\(\)-]/g, '')}`;
+        drawerPhoneAction.classList.remove('hidden');
+      } else {
+        drawerPhone.textContent = '無官方登記電話';
+        drawerPhoneAction.classList.add('hidden');
+      }
+      
+      // Email
+      if (org.email && org.email !== '—') {
+        drawerEmail.textContent = org.email;
+        drawerEmailAction.href = `mailto:${org.email}?subject=⚜️ Scout World Explorer Contact Query`;
+        drawerEmailAction.classList.remove('hidden');
+      } else {
+        drawerEmail.textContent = '無官方登記電子信箱';
+        drawerEmailAction.classList.add('hidden');
+      }
+      
+      // Website
+      if (org.website && org.website !== '—' && org.website !== '') {
+        const urlStr = org.website.startsWith('http') ? org.website : `https://${org.website}`;
+        drawerWebsite.textContent = org.website.replace('https://', '').replace('http://', '').replace('www.', '');
+        drawerWebsite.href = urlStr;
+        drawerWebsite.parentElement.parentElement.classList.remove('hidden');
+      } else {
+        drawerWebsite.parentElement.parentElement.classList.add('hidden');
+      }
+      
+      // Coordinates
+      if (org.lat && org.lng) {
+        drawerCoordinates.textContent = `${org.lat.toFixed(6)}, ${org.lng.toFixed(6)}`;
+        copyCoordsBtn.dataset.coords = `${org.lat},${org.lng}`;
+        copyCoordsBtn.parentElement.parentElement.parentElement.classList.remove('hidden');
+      } else {
+        copyCoordsBtn.parentElement.parentElement.parentElement.classList.add('hidden');
+      }
+      
+      drawerWosmSource.href = org.wosmSource || 'https://www.scout.org';
+      
+      // Slide Open
+      detailDrawer.classList.remove('translate-x-full');
+    }
+    
+    // Close Drawer
+    function closeDetailDrawer() {
+      detailDrawer.classList.add('translate-x-full');
+      currentSelectedOrgId = null;
+      currentSelectedOrg = null;
+      activeL3Item = null;
+      currentL3Data = [];
+      
+      localMarkersLayerGroup.clearLayers();
+      renderMarkers();
+      
+      if (orgsList) {
+        const listItems = orgsList.querySelectorAll('[data-id]');
+        listItems.forEach(item => {
+          item.className = `p-3 rounded-xl border border-white/5 bg-[#051847] hover:border-amber-400 hover:shadow-md cursor-pointer transition-all duration-200 flex items-center justify-between gap-3`;
+        });
+      }
+    }
+    
+    // Update active tab styling inside the drawer (L3 vs L4)
+    function updateTabPillStyles() {
+      if (!l3LevelPills) return;
+      const pills = l3LevelPills.querySelectorAll('button');
+      pills.forEach(p => {
+        if (parseInt(p.dataset.level) === activeLevelTab) {
+          p.className = 'flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all bg-amber-400 text-slate-950 shadow-sm';
+        } else {
+          p.className = 'flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all text-slate-400 hover:text-amber-400';
+        }
+      });
+    }
+
+    // Filter Data Search logic
+    function filterData() {
+      if (!searchInput) return;
+      const query = searchInput.value.trim().toLowerCase();
+      
+      const activeBtn = regionFilters ? regionFilters.querySelector('.region-btn.bg-amber-400') : null;
+      // Default to HK-Special on load!
+      const activeRegion = activeBtn ? activeBtn.dataset.region : 'HK-Special';
+      
+      filteredScouts = allScouts.filter(org => {
+        const matchesRegion = (activeRegion === 'HK-Special') ? (org.id === 'HK') : (org.wosmRegion === activeRegion);
+        
+        const matchesQuery = !query || 
+          (org.country && org.country.toLowerCase().includes(query)) ||
+          (org.countryEn && org.countryEn.toLowerCase().includes(query)) ||
+          (org.org && org.org.toLowerCase().includes(query)) ||
+          (org.orgFull && org.orgFull.toLowerCase().includes(query)) ||
+          (org.address && org.address.toLowerCase().includes(query));
+          
+        return matchesRegion && matchesQuery;
+      });
+      
+      if (currentSelectedOrgId && !filteredScouts.some(o => o.id === currentSelectedOrgId)) {
+        closeDetailDrawer();
+      }
+      
+      renderList();
+      renderMarkers();
+    }
+    
+    // Setup Listeners and Events
+    function initListeners() {
+      
+      // Input Search
+      searchInput.addEventListener('input', () => {
+        if (searchInput.value.trim() !== '') {
+          clearSearchBtn.classList.remove('hidden');
+        } else {
+          clearSearchBtn.classList.add('hidden');
+        }
+        filterData();
+      });
+      
+      // Clear Search
+      clearSearchBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        clearSearchBtn.classList.add('hidden');
+        filterData();
+        searchInput.focus();
+      });
+      
+      // Region Filters (Auto-jumps to region center on selection!)
+      regionFilters.addEventListener('click', (e) => {
+        const btn = e.target.closest('.region-btn');
+        if (!btn) return;
+        
+        const btns = regionFilters.querySelectorAll('.region-btn');
+        btns.forEach(b => {
+          b.className = 'region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white';
+        });
+        
+        btn.className = 'region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-amber-400 text-slate-950 shadow-sm border border-amber-400 hover:bg-amber-500';
+        
+        const selectedRegion = btn.dataset.region;
+        
+        // Auto flight map to target region!
+        const regionCoordinates = {
+          'HK-Special': { coords: [22.3025, 114.1687], zoom: 11 },
+          'Asia-Pacific': { coords: [15.0, 120.0], zoom: 4 },
+          'Europe': { coords: [50.0, 15.0], zoom: 4 },
+          'Interamerica': { coords: [10.0, -80.0], zoom: 3 },
+          'Arab': { coords: [25.0, 35.0], zoom: 4 },
+          'Africa': { coords: [-2.0, 25.0], zoom: 3 }
+        };
+        
+        const targetView = regionCoordinates[selectedRegion];
+        if (targetView && map) {
+          map.setView(targetView.coords, targetView.zoom, { animate: true, duration: 1.5 });
+        }
+        
+        filterData();
+      });
+      
+      // Level 3 / 4 Tab Pills clicks inside the Drawer
+      l3LevelPills.addEventListener('click', (e) => {
+        const pill = e.target.closest('button');
+        if (!pill) return;
+        
+        activeLevelTab = parseInt(pill.dataset.level);
+        activeL3Item = null; // reset specific selected sub-item
+        
+        if (activeLevelTab === 4) {
+          if (l4SubregionContainer) l4SubregionContainer.classList.remove('hidden');
+        } else {
+          if (l4SubregionContainer) l4SubregionContainer.classList.add('hidden');
+        }
+        
+        updateTabPillStyles();
+        renderL3List();
+        renderLocalMarkers();
+      });
+
+      // L4 Regional Sub-filters inside the Drawer
+      l4SubregionContainer.addEventListener('click', (e) => {
+        const btn = e.target.closest('.l4-sub-btn');
+        if (!btn) return;
+        
+        const btns = l4SubregionContainer.querySelectorAll('.l4-sub-btn');
+        btns.forEach(b => {
+          b.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5';
+        });
+        
+        btn.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
+        activeL4Subregion = btn.dataset.sub;
+        activeL3Item = null;
+        
+        renderL3List();
+        renderLocalMarkers();
+      });
+
+      // Close Drawer
+      closeDrawerBtn.addEventListener('click', closeDetailDrawer);
+      
+      // Back to National HQ
+      backToNationalBtn.addEventListener('click', () => {
+        if (currentSelectedOrg) {
+          selectOrganization(currentSelectedOrg);
+        }
+      });
+      
+      // Close on Esc
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeDetailDrawer();
+        }
+      });
+      
+      // Copy Coords
+      copyCoordsBtn.addEventListener('click', () => {
+        const textToCopy = copyCoordsBtn.dataset.coords;
+        if (!textToCopy) return;
+        
+        navigator.clipboard.writeText(textToCopy).then(() => {
+          copyToast.classList.remove('opacity-0');
+          copyToast.classList.add('opacity-100');
+          setTimeout(() => {
+            copyToast.classList.remove('opacity-100');
+            copyToast.classList.add('opacity-0');
+          }, 2000);
+        }).catch(err => {
+          console.error('Could not copy coordinates to clipboard: ', err);
+        });
+      });
+      
+      // Travel Guide Modal listeners (RE-ENGINEERED WITH SOLID NULL-CHECKS TO PREVENT TYPEERRORS!)
+      travelToolboxBtn.addEventListener('click', () => {
+        travelModal.classList.remove('hidden');
+        setTimeout(() => {
+          travelModal.classList.remove('opacity-0');
+          travelModal.classList.add('opacity-100');
+          
+          const contentContainer = travelModal.querySelector('.transform');
+          if (contentContainer) {
+            contentContainer.classList.remove('scale-95');
+            contentContainer.classList.add('scale-100');
+          }
+        }, 50);
+      });
+
+      function hideTravelModal() {
+        travelModal.classList.remove('opacity-100');
+        travelModal.classList.add('opacity-0');
+        
+        const contentContainer = travelModal.querySelector('.transform');
+        if (contentContainer) {
+          contentContainer.classList.remove('scale-100');
+          contentContainer.classList.add('scale-95');
+        }
+        
+        setTimeout(() => {
+          travelModal.classList.add('hidden');
+        }, 300);
+      }
+
+      closeTravelModalBtn.addEventListener('click', hideTravelModal);
+      confirmTravelModalBtn.addEventListener('click', hideTravelModal);
+      
+      travelModal.addEventListener('click', (e) => {
+        if (e.target === travelModal) {
+          hideTravelModal();
+        }
+      });
+    }
+    
+    // Launch Application
+    window.addEventListener('DOMContentLoaded', () => {
+      initDOM(); // Initialize DOM elements safely!
+      initMap();
+      
+      // Bootstrap Hong Kong view instantly!
+      filterData();
+      selectOrganization(hkDefaultOrg);
+      
+      initListeners();
+      loadData(); // Quietly load other regions in the background
+    });
+  </script>
+</body>
+</html>
