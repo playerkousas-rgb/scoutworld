@@ -30,7 +30,9 @@
     "members": 2286,
     "lat": 26.2285,
     "lng": 50.586,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "phone": "+973 17683989",
+    "email": "mh.scoutbh@hotmail.com"
   },
   {
     "id": "DZ",
@@ -44,7 +46,10 @@
     "members": 61860,
     "lat": 36.7538,
     "lng": 3.0588,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "address": "B.P. 144, Alger Gare, Algeria",
+    "phone": "+213 21 731 728",
+    "email": "scouts.alg1936@gmail.com"
   },
   {
     "id": "EG",
@@ -76,7 +81,10 @@
     "members": 5000,
     "lat": 33.3152,
     "lng": 44.3661,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "address": "P.O. Box 11317, Baghdad, Iraq",
+    "phone": "+964 790 217 4745",
+    "email": "iraqscoutassociation@gmail.com"
   },
   {
     "id": "JO",
@@ -103,13 +111,15 @@
     "country": "科威特",
     "countryEn": "Kuwait",
     "org": "KSA-KW",
-    "orgFull": "科威特童軍協會 (Kuwait Scout Association)",
+    "orgFull": "科威特男童軍協會 (Kuwait Boy Scouts Association)",
     "wosmRegion": "Arab",
     "founded": 1952,
     "members": 6600,
     "lat": 29.3759,
     "lng": 47.9774,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "phone": "+965 2 265 56 231",
+    "email": "kuscout2014@gmail.com"
   },
   {
     "id": "LB",
@@ -136,13 +146,17 @@
     "country": "利比亞",
     "countryEn": "Libya",
     "org": "PSGG",
-    "orgFull": "利比亞公共童軍與女童軍運動 (Public Scout and Girl Guide Movement)",
+    "orgFull": "利比亞男女童軍 (Boy Scouts and Girl Guides of Libya)",
     "wosmRegion": "Arab",
     "founded": 1954,
     "members": 24775,
     "lat": 32.8872,
     "lng": 13.1913,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "address": "P.O. Box 207, Tripoli, Libya",
+    "phone": "+218 21 333 25 81",
+    "website": "http://libyanscout.org.ly/wp/",
+    "email": "info@libyanscout.org.ly"
   },
   {
     "id": "MA",
@@ -175,7 +189,10 @@
     "members": 3724,
     "lat": 18.0735,
     "lng": -15.9582,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "address": "P.O. Box 3201, Nouakchott, Mauritania",
+    "phone": "+222 6663350",
+    "email": "scoutsguidesmauritanie@gmail.com"
   },
   {
     "id": "OM",
@@ -189,7 +206,11 @@
     "members": 35281,
     "lat": 23.5859,
     "lng": 58.4059,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "address": "P.O. Box 1528, Ruwi 112, Oman",
+    "phone": "+968 242 55852",
+    "website": "http://www.osg.om/",
+    "email": "osg@moe.om"
   },
   {
     "id": "PS",
@@ -203,7 +224,11 @@
     "members": 81082,
     "lat": 31.9522,
     "lng": 35.2332,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "address": "P.O. Box 1573, Ramallah, Palestinian Territories",
+    "phone": "+972 569 799 901",
+    "website": "http://www.scout.ps/",
+    "email": "palestine@scout.ps"
   },
   {
     "id": "QA",
@@ -255,7 +280,9 @@
     "members": 14682,
     "lat": 15.5007,
     "lng": 32.5599,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "address": "P.O. Box 122, Khartoum, Sudan",
+    "phone": "+249 183 486 580"
   },
   {
     "id": "SY",
@@ -269,7 +296,10 @@
     "members": 9260,
     "lat": 33.5138,
     "lng": 36.2765,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "phone": "+963 11 445 95 40",
+    "website": "https://www.scouts-sy.org",
+    "email": "info@scouts-sy.org"
   },
   {
     "id": "TN",
@@ -296,12 +326,13 @@
     "country": "葉門",
     "countryEn": "Yemen",
     "org": "YSGA",
-    "orgFull": "葉門童軍與女童軍協會 (Yemen Scouts and Guides Association)",
+    "orgFull": "葉門童軍協會 (Yemen Scout Association)",
     "wosmRegion": "Arab",
     "founded": 1927,
     "members": 7095,
     "lat": 15.3694,
     "lng": 44.191,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries",
+    "email": "yemeniscoutes@mys-ye.com"
   }
 ]
