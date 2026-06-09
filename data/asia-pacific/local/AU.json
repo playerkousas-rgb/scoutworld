@@ -21,21 +21,6 @@
     "description": "Scouts Australia（澳洲童軍總會），1908年成立，WOSM正式成員。總部位於雪梨奧林匹克公園。澳洲童軍是亞太區重要組織，會員約66,000人。以戶外冒險、環境教育及青年領導力為特色。"
   },
   {
-    "id": "AU-CAMP-SYDNEY",
-    "parentCountry": "AU",
-    "level": 3,
-    "type": "Campsite",
-    "flag": "🏕️",
-    "category": "國家營地 (National Camp)",
-    "name": "雪梨童軍營地",
-    "nameEn": "Sydney Scout Camp",
-    "subregion": "雪梨 (Sydney)",
-    "lat": -33.8475,
-    "lng": 151.0706,
-    "address": "Sydney Olympic Park, NSW, Australia",
-    "description": "澳洲主要童軍營地，位於雪梨附近。適合大型活動及訓練。"
-  },
-  {
     "id": "AU-STATE-NSW",
     "parentCountry": "AU",
     "level": 3,
@@ -114,5 +99,53 @@
     "address": "Adelaide, SA, Australia",
     "website": "https://www.sa.scouts.com.au",
     "description": "南澳州童軍會，涵蓋阿德萊德及周邊。"
+  },
+  {
+    "id": "AU-STATE-TAS",
+    "parentCountry": "AU",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "州童軍會 (State Council)",
+    "name": "塔斯馬尼亞州童軍會",
+    "nameEn": "Scouts Tasmania",
+    "subregion": "塔斯馬尼亞 (Tasmania)",
+    "lat": -42.8821,
+    "lng": 147.3272,
+    "address": "Hobart, TAS, Australia",
+    "website": "https://www.tas.scouts.com.au",
+    "description": "塔斯馬尼亞州童軍會，涵蓋塔斯馬尼亞島。"
+  },
+  {
+    "id": "AU-STATE-ACT",
+    "parentCountry": "AU",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "州童軍會 (State Council)",
+    "name": "首都地區童軍會",
+    "nameEn": "ACT Scouts",
+    "subregion": "首都地區 (Australian Capital Territory)",
+    "lat": -35.2809,
+    "lng": 149.1300,
+    "address": "Canberra, ACT, Australia",
+    "website": "https://www.act.scouts.com.au",
+    "description": "首都地區童軍會，涵蓋坎培拉。"
+  },
+  {
+    "id": "AU-STATE-NT",
+    "parentCountry": "AU",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "州童軍會 (State Council)",
+    "name": "北領地童軍會",
+    "nameEn": "Scouts NT",
+    "subregion": "北領地 (Northern Territory)",
+    "lat": -12.4634,
+    "lng": 130.8456,
+    "address": "Darwin, NT, Australia",
+    "website": "https://www.nt.scouts.com.au",
+    "description": "北領地童軍會，涵蓋達爾文及北領地廣大區域。"
   }
 ]

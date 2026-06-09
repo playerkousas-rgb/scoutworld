@@ -46,5 +46,35 @@
     "lng": 101.5,
     "address": "Tsetserleg, Arkhangai, Mongolia",
     "description": "阿爾杭蓋地區童軍會，涵蓋中部草原地區。適合蒙古傳統文化體驗。"
+  },
+  {
+    "id": "MN-REGION-KHOVSGOL",
+    "parentCountry": "MN",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "庫蘇古爾地區童軍會",
+    "nameEn": "Khovsgol Regional Scout Council",
+    "subregion": "庫蘇古爾 (Khovsgol)",
+    "lat": 50.5,
+    "lng": 100.0,
+    "address": "Murun, Khovsgol, Mongolia",
+    "description": "庫蘇古爾地區童軍會，涵蓋北部湖區及森林地區。"
+  },
+  {
+    "id": "MN-REGION-DORNOD",
+    "parentCountry": "MN",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "東方省童軍會",
+    "nameEn": "Dornod Regional Scout Council",
+    "subregion": "東方省 (Dornod)",
+    "lat": 48.0,
+    "lng": 114.5,
+    "address": "Choibalsan, Dornod, Mongolia",
+    "description": "東方省童軍會，涵蓋蒙古東部邊境地區。"
   }
 ]

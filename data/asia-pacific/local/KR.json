@@ -49,5 +49,50 @@
     "lng": 129.0756,
     "address": "Busan, South Korea",
     "description": "釜山地區童軍會，涵蓋韓國第二大城市及南部地區。"
+  },
+  {
+    "id": "KR-REGION-DAEGU",
+    "parentCountry": "KR",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "大邱地區童軍會",
+    "nameEn": "Daegu Regional Scout Council",
+    "subregion": "大邱 (Daegu)",
+    "lat": 35.8722,
+    "lng": 128.602,
+    "address": "Daegu, South Korea",
+    "description": "大邱地區童軍會，涵蓋韓國第三大城市及周邊。"
+  },
+  {
+    "id": "KR-REGION-INCHEON",
+    "parentCountry": "KR",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "仁川地區童軍會",
+    "nameEn": "Incheon Regional Scout Council",
+    "subregion": "仁川 (Incheon)",
+    "lat": 37.4563,
+    "lng": 126.7052,
+    "address": "Incheon, South Korea",
+    "description": "仁川地區童軍會，涵蓋仁川及首爾西部周邊。"
+  },
+  {
+    "id": "KR-REGION-GYEONGGI",
+    "parentCountry": "KR",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "京畿道童軍會",
+    "nameEn": "Gyeonggi Regional Scout Council",
+    "subregion": "京畿道 (Gyeonggi)",
+    "lat": 37.4138,
+    "lng": 127.5183,
+    "address": "Suwon, Gyeonggi, South Korea",
+    "description": "京畿道童軍會，涵蓋首爾周邊最重要省份。"
   }
 ]
