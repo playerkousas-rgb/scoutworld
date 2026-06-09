@@ -11,7 +11,9 @@
     "members": 12475,
     "lat": 34.5553,
     "lng": 69.2075,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "phone": "+1 343 777 7486",
+    "email": "info_anso@yahoo.com"
   },
   {
     "id": "AU",
@@ -64,7 +66,9 @@
     "members": 1256,
     "lat": 4.5353,
     "lng": 114.7276,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "phone": "+673 2 420 901",
+    "email": "info@bruneiscouts.org.bn"
   },
   {
     "id": "BT",
@@ -78,7 +82,11 @@
     "members": 61300,
     "lat": 27.4728,
     "lng": 89.639,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "address": "Kawang Lam, Kawajangsa, Thimphu 11001, Bhutan",
+    "phone": "+975 2 328 098",
+    "website": "https://education.gov.bt",
+    "email": "bhutanscoutsassociation@gmail.com"
   },
   {
     "id": "FJ",
@@ -92,7 +100,10 @@
     "members": 3223,
     "lat": -18.1416,
     "lng": 178.4419,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "address": "GPO Box 443, Suva, Fiji",
+    "phone": "+679 995 4801",
+    "email": "john.naisau@gmail.com"
   },
   {
     "id": "HK",
@@ -206,7 +217,10 @@
     "members": 1500,
     "lat": 1.3127,
     "lng": 172.9768,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "address": "Betio, Tarawa, Kiribati",
+    "phone": "+686 22 517",
+    "email": "scoutkiribati@gmail.com"
   },
   {
     "id": "KR",
@@ -241,7 +255,8 @@
     "members": 500,
     "lat": 51.1694,
     "lng": 71.4491,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "email": "scoutskz@gmail.com"
   },
   {
     "id": "LK",
@@ -329,7 +344,10 @@
     "members": 10726,
     "lat": 3.2028,
     "lng": 73.2207,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "phone": "+960 331 75 14",
+    "website": "https://scout.mv",
+    "email": "info@scout.mv"
   },
   {
     "id": "MY",
@@ -401,7 +419,10 @@
     "members": 5487,
     "lat": -6.3149,
     "lng": 143.9556,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "address": "P.O. Box 44, Konedobu-NCD, Port Moresby, Papua New Guinea",
+    "phone": "+675 340 4834",
+    "email": "skautpng@gmail.com"
   },
   {
     "id": "PH",
@@ -436,7 +457,11 @@
     "members": 703050,
     "lat": 33.6844,
     "lng": 73.0479,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "address": "P.O. Box 1792, Islamabad, Pakistan",
+    "phone": "+92 51 924 9173",
+    "website": "http://www.pakscouts.org",
+    "email": "info@pakscouts.org"
   },
   {
     "id": "RU",
@@ -450,7 +475,8 @@
     "members": 2035,
     "lat": 55.7558,
     "lng": 37.6173,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "email": "asia-pacific@scout.org"
   },
   {
     "id": "SB",
@@ -464,7 +490,8 @@
     "members": 500,
     "lat": -9.6457,
     "lng": 160.1562,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "address": "P.O. Box 276, Honiara, Solomon Islands"
   },
   {
     "id": "SG",
@@ -519,7 +546,9 @@
     "members": 563,
     "lat": 38.5598,
     "lng": 68.774,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "phone": "+992 93 502 6969",
+    "email": "bstaj@mail.ru"
   },
   {
     "id": "TL",
@@ -533,7 +562,10 @@
     "members": 1000,
     "lat": -8.5569,
     "lng": 125.5603,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "address": "P.O. Box 305, Dili, Timor-Leste",
+    "phone": "+670 7723 8694",
+    "email": "secretariat@scout.tl"
   },
   {
     "id": "TW",
