@@ -1,1 +1,81 @@
-[]
+[
+  {
+    "id": "BH-HQ-BSB",
+    "parentCountry": "BH",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇧🇭",
+    "category": "HQ",
+    "name": "جمعية كشافة البحرين",
+    "nameEn": "Boy Scouts of Bahrain HQ",
+    "subregion": "Capital Governorate",
+    "lat": 26.2285,
+    "lng": 50.586,
+    "wosmSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+  },
+  {
+    "id": "BH-REGION-CAPITAL",
+    "parentCountry": "BH",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇧🇭",
+    "category": "Administrative",
+    "name": "كشافة العاصمة",
+    "nameEn": "Bahrain Scouts - Capital Governorate",
+    "subregion": "Al Asmah",
+    "lat": 26.2285,
+    "lng": 50.586
+  },
+  {
+    "id": "BH-REGION-MUHARRAQ",
+    "parentCountry": "BH",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇧🇭",
+    "category": "Administrative",
+    "name": "كشافة المحرق",
+    "nameEn": "Bahrain Scouts - Muharraq Governorate",
+    "subregion": "Muharraq",
+    "lat": 26.2589,
+    "lng": 50.6164
+  },
+  {
+    "id": "BH-REGION-NORTHERN",
+    "parentCountry": "BH",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇧🇭",
+    "category": "Administrative",
+    "name": "كشافة الشمالية",
+    "nameEn": "Bahrain Scouts - Northern Governorate",
+    "subregion": "Ash Shamaliyah",
+    "lat": 26.1457,
+    "lng": 50.4841
+  },
+  {
+    "id": "BH-REGION-SOUTHERN",
+    "parentCountry": "BH",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇧🇭",
+    "category": "Administrative",
+    "name": "كشافة الجنوبية",
+    "nameEn": "Bahrain Scouts - Southern Governorate",
+    "subregion": "Al Janubiyah",
+    "lat": 26.0275,
+    "lng": 50.547
+  },
+  {
+    "id": "BH-SHOP-NATIONAL",
+    "parentCountry": "BH",
+    "level": 3,
+    "type": "Shop",
+    "flag": "🇧🇭",
+    "category": "Shop",
+    "name": "مركز كشافة البحرين",
+    "nameEn": "Bahrain Scout Resource Centre",
+    "subregion": "Capital Governorate",
+    "lat": 26.2285,
+    "lng": 50.586
+  }
+]

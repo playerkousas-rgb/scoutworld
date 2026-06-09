@@ -1,1 +1,96 @@
-[]
+[
+  {
+    "id": "DZ-HQ-SMA",
+    "parentCountry": "DZ",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇩🇿",
+    "category": "HQ",
+    "name": "الكشافة الإسلامية الجزائرية",
+    "nameEn": "Scouts Musulmans Algériens HQ",
+    "subregion": "Algiers",
+    "lat": 36.7538,
+    "lng": 3.0588,
+    "address": "B.P. 144, Alger Gare, Algeria",
+    "phone": "+213 21 731 728",
+    "email": "scouts.alg1936@gmail.com"
+  },
+  {
+    "id": "DZ-REGION-ALGIERS",
+    "parentCountry": "DZ",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇩🇿",
+    "category": "Administrative",
+    "name": "ولاية الجزائر",
+    "nameEn": "SMA - Wilaya d'Alger",
+    "subregion": "Algiers",
+    "lat": 36.7538,
+    "lng": 3.0588
+  },
+  {
+    "id": "DZ-REGION-ORAN",
+    "parentCountry": "DZ",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇩🇿",
+    "category": "Administrative",
+    "name": "ولاية وهران",
+    "nameEn": "SMA - Wilaya d'Oran",
+    "subregion": "Oran",
+    "lat": 35.697,
+    "lng": -0.6333
+  },
+  {
+    "id": "DZ-REGION-CONSTANTINE",
+    "parentCountry": "DZ",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇩🇿",
+    "category": "Administrative",
+    "name": "ولاية قسنطينة",
+    "nameEn": "SMA - Wilaya de Constantine",
+    "subregion": "Constantine",
+    "lat": 36.365,
+    "lng": 6.6147
+  },
+  {
+    "id": "DZ-REGION-SETIF",
+    "parentCountry": "DZ",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇩🇿",
+    "category": "Administrative",
+    "name": "ولاية سطيف",
+    "nameEn": "SMA - Wilaya de Sétif",
+    "subregion": "Sétif",
+    "lat": 36.1898,
+    "lng": 5.4108
+  },
+  {
+    "id": "DZ-REGION-TIZI-OUZOU",
+    "parentCountry": "DZ",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇩🇿",
+    "category": "Administrative",
+    "name": "ولاية تيزي وزو",
+    "nameEn": "SMA - Wilaya de Tizi Ouzou",
+    "subregion": "Tizi Ouzou",
+    "lat": 36.7161,
+    "lng": 4.0496
+  },
+  {
+    "id": "DZ-SHOP-NATIONAL",
+    "parentCountry": "DZ",
+    "level": 3,
+    "type": "Shop",
+    "flag": "🇩🇿",
+    "category": "Shop",
+    "name": "مركز الكشافة",
+    "nameEn": "SMA Scout Resource Centre",
+    "subregion": "Algiers",
+    "lat": 36.7538,
+    "lng": 3.0588
+  }
+]
