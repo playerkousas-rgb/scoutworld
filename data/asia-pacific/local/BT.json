@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "BT-HQ-BST",
+    "parentCountry": "BT",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇧🇹",
+    "category": "國家總部 (National HQ)",
+    "name": "不丹童軍協會",
+    "nameEn": "Bhutan Scout Tshogpa (BST)",
+    "subregion": "廷布 (Thimphu)",
+    "lat": 27.4728,
+    "lng": 89.639,
+    "address": "Kawang Lam, Kawajangsa, Thimphu 11001, Bhutan",
+    "phone": "+975 2 328 098",
+    "email": "bhutanscoutsassociation@gmail.com",
+    "website": "https://education.gov.bt",
+    "description": "不丹童軍協會（Bhutan Scout Tshogpa），1991年成立，1999年成為WOSM成員。童軍計劃以學校為基礎，分為幼童軍（小學）、童軍（中學）、羅浮軍（大專）。強調不丹傳統文化與價值教育。2021年會員已達61,300人，成長迅速。總部位於廷布 Kawajangsa 地區。"
+  },
+  {
+    "id": "BT-CAMP-THIMPHU",
+    "parentCountry": "BT",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏔️",
+    "category": "國家營地 (National Camp)",
+    "name": "廷布童軍營地",
+    "nameEn": "Thimphu Scout Camp",
+    "subregion": "廷布 (Thimphu)",
+    "lat": 27.4728,
+    "lng": 89.639,
+    "address": "Thimphu, Bhutan",
+    "description": "不丹主要童軍營地，位於首都附近。適合高山健行、傳統文化體驗及全國性訓練活動。"
+  },
+  {
+    "id": "BT-REGION-PUNAKHA",
+    "parentCountry": "BT",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏯",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "普那卡地區童軍會",
+    "nameEn": "Punakha Regional Scout Council",
+    "subregion": "普那卡 (Punakha)",
+    "lat": 27.5833,
+    "lng": 89.8667,
+    "address": "Punakha, Bhutan",
+    "description": "不丹重要地區之一，擁有豐富歷史與宗教文化資源。適合結合傳統與戶外活動的童軍團。"
+  }
+]

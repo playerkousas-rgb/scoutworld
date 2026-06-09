@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "TL-HQ-UNETIL",
+    "parentCountry": "TL",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇹🇱",
+    "category": "國家總部 (National HQ)",
+    "name": "東帝汶國家童軍聯盟",
+    "nameEn": "União Nacional dos Escuteiros de Timor-Leste (UNETIL)",
+    "subregion": "帝力 (Dili)",
+    "lat": -8.5569,
+    "lng": 125.5603,
+    "address": "Avenida Becora, P.O. Box 305, Dili, Timor-Leste",
+    "phone": "+670 7723 8694",
+    "email": "secretariat@scout.tl",
+    "website": "https://www.scout.tl",
+    "description": "東帝汶國家童軍聯盟（União Nacional dos Escuteiros de Timor-Leste, UNETIL），2005年成立，WOSM成員。總部位於首都帝力 Avenida Becora。東帝汶童軍有國家理事會及市/區域理事會結構，會員約1,000人。官方網站提供詳細組織架構與培訓資訊。"
+  },
+  {
+    "id": "TL-CAMP-DILI",
+    "parentCountry": "TL",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏝️",
+    "category": "國家營地 (National Camp)",
+    "name": "帝力童軍營地",
+    "nameEn": "Dili Scout Camp",
+    "subregion": "帝力 (Dili)",
+    "lat": -8.5569,
+    "lng": 125.5603,
+    "address": "Dili, Timor-Leste",
+    "description": "東帝汶主要童軍營地，位於首都附近。適合熱帶島嶼活動及社區服務。"
+  }
+]

@@ -1,1 +1,49 @@
-[]
+[
+  {
+    "id": "MV-HQ-SAM",
+    "parentCountry": "MV",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇲🇻",
+    "category": "國家總部 (National HQ)",
+    "name": "馬爾地夫童軍協會",
+    "nameEn": "The Scout Association of Maldives (SAM)",
+    "subregion": "馬累 (Male)",
+    "lat": 3.2028,
+    "lng": 73.2207,
+    "address": "H. Bandaara Villa, Medhuziyaaraiy Magu, Male 20002, Maldives",
+    "phone": "+960 331 75 14",
+    "email": "info@scout.mv",
+    "website": "https://scout.mv",
+    "description": "馬爾地夫童軍協會（The Scout Association of Maldives, SAM），1963年成立，1990年成為WOSM成員。總部位於首都馬累。馬爾地夫童軍以珊瑚島海洋文化、環境保護及青年領導力為特色。目前有超過130個童軍團，會員約10,726人。"
+  },
+  {
+    "id": "MV-CAMP-MALE",
+    "parentCountry": "MV",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏝️",
+    "category": "島嶼營地 (Island Camp)",
+    "name": "馬累童軍活動中心",
+    "nameEn": "Male Scout Activity Centre",
+    "subregion": "馬累 (Male)",
+    "lat": 3.2028,
+    "lng": 73.2207,
+    "address": "Male, Maldives",
+    "description": "馬累主要童軍活動基地，適合小型露營與訓練。馬爾地夫童軍活動多以島嶼為單位，結合潛水、帆船及環保項目。"
+  },
+  {
+    "id": "MV-REGION-ATOLLS",
+    "parentCountry": "MV",
+    "level": 3,
+    "type": "Council",
+    "flag": "🌊",
+    "category": "環礁地區 (Atoll Region)",
+    "name": "馬爾地夫環礁童軍網絡",
+    "nameEn": "Maldives Atoll Scout Network",
+    "subregion": "各環礁 (Atolls)",
+    "lat": 3.2028,
+    "lng": 73.2207,
+    "description": "馬爾地夫童軍以環礁為單位運作，涵蓋多個環礁的童軍團。強調海洋環保與可持續發展。"
+  }
+]

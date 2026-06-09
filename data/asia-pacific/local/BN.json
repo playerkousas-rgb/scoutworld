@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "BN-HQ-PPNBD",
+    "parentCountry": "BN",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇧🇳",
+    "category": "國家總部 (National HQ)",
+    "name": "汶萊國家童軍總會",
+    "nameEn": "Persekutuan Pengakap Negara Brunei Darussalam (PPNBD)",
+    "subregion": "加東 (Gadong)",
+    "lat": 4.9004,
+    "lng": 114.9016,
+    "address": "4th Floor, Scout Complex, Gadong, BE1718 Bandar Seri Begawan, Brunei",
+    "phone": "+673 2 420 901",
+    "email": "info@bruneiscouts.org.bn",
+    "website": "https://www.bruneiscouts.org.bn",
+    "description": "汶萊國家童軍總會（Persekutuan Pengakap Negara Brunei Darussalam），1933年成立，是汶萊最古老的非政府組織。2005年蘇丹正式開幕的童軍綜合大樓位於加東，包括總部辦公室及營地設施。總會提供7至26歲青年計劃，強調自立與社會貢獻。會員約1,256人。皇家贊助人為蘇丹哈桑納爾·博爾基亞。"
+  },
+  {
+    "id": "BN-CAMP-GADONG",
+    "parentCountry": "BN",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏕️",
+    "category": "童軍營地 (Scout Camp)",
+    "name": "加東童軍營地",
+    "nameEn": "Gadong Scout Camp Ground",
+    "subregion": "加東 (Gadong)",
+    "lat": 4.9004,
+    "lng": 114.9016,
+    "address": "Km 6, Jalan Gadong, Bandar Seri Begawan, Brunei",
+    "description": "位於加東童軍綜合大樓旁，佔地約10英畝（4公頃）。1971年由莫哈末·博爾基亞王子主持啟用，提供露營、訓練及戶外活動場地。是汶萊童軍主要活動基地。"
+  },
+  {
+    "id": "BN-SHOP-HQ",
+    "parentCountry": "BN",
+    "level": 3,
+    "type": "Shop",
+    "flag": "🛍️",
+    "category": "童軍用品社 (Scout Shop)",
+    "name": "汶萊童軍用品社",
+    "nameEn": "PPNBD Scout Shop",
+    "subregion": "加東 (Gadong)",
+    "lat": 4.9004,
+    "lng": 114.9016,
+    "address": "Scout Complex, Gadong, Bandar Seri Begawan, Brunei",
+    "phone": "+673 2 420 901",
+    "description": "位於總部大樓內的官方用品社，販售制服、徽章、領巾及露營裝備。"
+  }
+]

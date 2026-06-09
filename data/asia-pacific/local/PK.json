@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "PK-HQ-PBSA",
+    "parentCountry": "PK",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇵🇰",
+    "category": "國家總部 (National HQ)",
+    "name": "巴基斯坦男童軍協會",
+    "nameEn": "Pakistan Boy Scouts Association (PBSA)",
+    "subregion": "伊斯蘭堡 (Islamabad)",
+    "lat": 33.6844,
+    "lng": 73.0479,
+    "address": "National Headquarters, Sumbol Park, Garden Avenue, Islamabad, Pakistan",
+    "phone": "+92 51 924 9173",
+    "email": "info@pakscouts.org",
+    "website": "http://www.pakscouts.org",
+    "description": "巴基斯坦男童軍協會（Pakistan Boy Scouts Association, PBSA），1947年成立，WOSM成員。總部位於伊斯蘭堡 Sumbol Park。巴基斯坦童軍有完善的省級結構，包括旁遮普、信德、開伯爾-普什圖、俾路支等省童軍會，以及特殊單位如巴基斯坦鐵路童軍會。會員約70萬人，是亞太區大型童軍組織之一。"
+  },
+  {
+    "id": "PK-COUNCIL-PUNJAB",
+    "parentCountry": "PK",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "省童軍會 (Provincial Council)",
+    "name": "旁遮普省童軍會",
+    "nameEn": "Punjab Boy Scouts Association",
+    "subregion": "拉合爾 (Lahore)",
+    "lat": 31.5497,
+    "lng": 74.3436,
+    "address": "Lahore, Punjab, Pakistan",
+    "description": "巴基斯坦最大省童軍會，負責旁遮普省童軍活動與訓練。"
+  },
+  {
+    "id": "PK-COUNCIL-SINDH",
+    "parentCountry": "PK",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "省童軍會 (Provincial Council)",
+    "name": "信德省童軍會",
+    "nameEn": "Sindh Boy Scouts Association",
+    "subregion": "卡拉奇 (Karachi)",
+    "lat": 24.8607,
+    "lng": 67.0011,
+    "address": "Karachi, Sindh, Pakistan",
+    "description": "信德省童軍會，涵蓋卡拉奇等主要城市，活動活躍。"
+  }
+]

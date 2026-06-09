@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "SB-HQ-SISA",
+    "parentCountry": "SB",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇸🇧",
+    "category": "國家總部 (National HQ)",
+    "name": "索羅門群島童軍協會",
+    "nameEn": "Solomon Islands Scout Association (SISA)",
+    "subregion": "霍尼亞拉 (Honiara)",
+    "lat": -9.6457,
+    "lng": 160.1562,
+    "address": "P.O. Box 276, Honiara, Solomon Islands (National Youth Congress office, Panatina)",
+    "email": "skautpng@gmail.com",
+    "description": "索羅門群島童軍協會（Solomon Islands Scout Association, SISA），1928年成立，2021年成為WOSM第172位成員。總部位於霍尼亞拉 Panatina。索羅門群島童軍活動以學校為主，涵蓋9個省。會員約500人。與澳洲、巴布亞紐幾內亞、斐濟等國有交流計劃。"
+  },
+  {
+    "id": "SB-CAMP-HONIARA",
+    "parentCountry": "SB",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏝️",
+    "category": "國家營地 (National Camp)",
+    "name": "霍尼亞拉童軍營地",
+    "nameEn": "Honiara Scout Camp",
+    "subregion": "霍尼亞拉 (Honiara)",
+    "lat": -9.6457,
+    "lng": 160.1562,
+    "address": "Honiara, Solomon Islands",
+    "description": "索羅門群島主要童軍營地，位於首都附近。適合熱帶島嶼活動及社區服務。"
+  }
+]

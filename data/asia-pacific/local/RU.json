@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "RU-HQ-ARSA",
+    "parentCountry": "RU",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇷🇺",
+    "category": "國家總部 (National HQ)",
+    "name": "全俄羅斯童軍協會",
+    "nameEn": "All-Russian Scout Association (ARSA)",
+    "subregion": "莫斯科 (Moscow)",
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "address": "Moscow, Russia",
+    "email": "asia-pacific@scout.org",
+    "description": "全俄羅斯童軍協會（All-Russian Scout Association, ARSA），2014年由多個俄羅斯童軍團體合併成立，成為WOSM在俄羅斯的正式成員組織。涵蓋俄羅斯46個地區的童軍活動。會員約2,035人。俄羅斯童軍以多元文化與戶外探險為特色。"
+  },
+  {
+    "id": "RU-CAMP-MOSCOW",
+    "parentCountry": "RU",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏕️",
+    "category": "國家營地 (National Camp)",
+    "name": "莫斯科童軍營地",
+    "nameEn": "Moscow Scout Camp",
+    "subregion": "莫斯科 (Moscow)",
+    "lat": 55.7558,
+    "lng": 37.6173,
+    "address": "Moscow, Russia",
+    "description": "俄羅斯主要童軍營地，位於首都附近。適合森林探險及全國性訓練。"
+  }
+]

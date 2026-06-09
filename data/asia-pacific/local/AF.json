@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "AF-HQ-ANSO",
+    "parentCountry": "AF",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇦🇫",
+    "category": "國家總部 (National HQ)",
+    "name": "阿富汗國家童軍組織",
+    "nameEn": "Afghanistan National Scout Organization (ANSO / ASA)",
+    "subregion": "喀布爾 (Kabul)",
+    "lat": 34.5553,
+    "lng": 69.2075,
+    "address": "Kabul, Afghanistan",
+    "phone": "+1 343 777 7486",
+    "email": "info_anso@yahoo.com",
+    "description": "阿富汗國家童軍組織（Afghanistan National Scout Organization, ANSO），WOSM成員。總部位於喀布爾。由於當地政治與安全形勢複雜，童軍活動主要聚焦於人道救援與社區服務。WOSM亞太支援中心持續與ANSO保持聯繫。會員約12,475人（最新數據）。資料來源：WOSM官方。"
+  }
+]
