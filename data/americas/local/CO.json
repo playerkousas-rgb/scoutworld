@@ -181,6 +181,22 @@
     "description": "哥倫比亞東北部的童軍區域，總部設於布卡拉曼加（Bucaramanga），被譽為「哥倫比亞最美麗的城市」。該區童軍活動涵蓋Chicamocha峽谷（全球最大的峽谷之一，深2,000m）的徒步探險、Los Estoraques獨特地質公園考察及東部平原（Llanos）的生態教育。Bucaramanga海拔959m，氣候宜人，是哥倫比亞最重要的冒險運動中心之一，為童軍野外技能訓練提供絕佳條件。"
   },
   {
+    "id": "CO-COUNCIL-LLANOS",
+    "parentCountry": "CO",
+    "level": 3,
+    "type": "Council",
+    "flag": "🦜",
+    "category": "區域童軍會 (Región Scout)",
+    "name": "亞馬遜-奥里諾科區域童軍會",
+    "nameEn": "Región Amazonía-Orinoquía – ASC",
+    "subregion": "亞馬遜省/比查達省 (Amazonas / Vichada)",
+    "lat": -1.0,
+    "lng": -71.9,
+    "address": "Leticia / Puerto Inírida, Colombia",
+    "website": "https://scout.org.co",
+    "description": "哥倫比亞最獨特的童軍區域之一，覆蓋亞馬遜雨林及奥里諾科平原（Llanos Orientales）。亞馬遜省的首府萊蒂西亞（Leticia）位於哥倫比亞、巴西、秘魯三國交界處，是全球童軍活動區域中最接近赤道雨林核心的地帶。童軍活動以亞馬遜雨林生態保育、粉紅河豚觀察、原住民社區（包括Ticuna、Huitoto、Bora等民族）文化交流及熱帶叢林野外生存訓練為特色。奥里諾科平原则提供無邊的熱帶草原（Los Llanos）探險、河川獨木舟及野生動物（水豚、凱門鱷、巨嘴鳥）觀察。該區是哥倫比亞童軍生物多樣性教育的核心場域，體現了哥倫比亞作為全球第二大生物多樣性國家的特色。"
+  },
+  {
     "id": "CO-HIST-1913",
     "parentCountry": "CO",
     "level": 3,
