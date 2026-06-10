@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "PE-HQ-ASP",
+    "parentCountry": "PE",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇵🇪",
+    "category": "國家總部 (National HQ)",
+    "name": "秘魯童軍協會",
+    "nameEn": "Asociación de Scouts del Perú",
+    "subregion": "利馬 (Lima)",
+    "lat": -12.0464,
+    "lng": -77.0428,
+    "address": "Lima, Peru",
+    "description": "秘魯童軍協會，WOSM成員。總部位於利馬。"
+  },
+  {
+    "id": "PE-REGION-LIMA",
+    "parentCountry": "PE",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "利馬地區童軍會",
+    "nameEn": "Lima Regional Scout Council",
+    "subregion": "利馬 (Lima)",
+    "lat": -12.0464,
+    "lng": -77.0428,
+    "address": "Lima, Peru",
+    "description": "利馬地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

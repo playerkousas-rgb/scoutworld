@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "HT-HQ-ASH",
+    "parentCountry": "HT",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇭🇹",
+    "category": "國家總部 (National HQ)",
+    "name": "海地童軍協會",
+    "nameEn": "Association des Scouts d'Haïti",
+    "subregion": "太子港 (Port-au-Prince)",
+    "lat": 18.5944,
+    "lng": -72.3074,
+    "address": "Port-au-Prince, Haiti",
+    "description": "海地童軍協會，WOSM成員。總部位於太子港。"
+  },
+  {
+    "id": "HT-REGION-PORTAUPRINCE",
+    "parentCountry": "HT",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "太子港地區童軍會",
+    "nameEn": "Port-au-Prince Regional Scout Council",
+    "subregion": "太子港 (Port-au-Prince)",
+    "lat": 18.5944,
+    "lng": -72.3074,
+    "address": "Port-au-Prince, Haiti",
+    "description": "太子港地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

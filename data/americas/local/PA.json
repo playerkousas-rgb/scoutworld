@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "PA-HQ-ASP",
+    "parentCountry": "PA",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇵🇦",
+    "category": "國家總部 (National HQ)",
+    "name": "巴拿馬童軍協會",
+    "nameEn": "Asociación de Scouts de Panamá",
+    "subregion": "巴拿馬城 (Panama City)",
+    "lat": 9.0,
+    "lng": -79.5,
+    "address": "Panama City, Panama",
+    "description": "巴拿馬童軍協會，WOSM成員。總部位於巴拿馬城。"
+  },
+  {
+    "id": "PA-REGION-PANAMACITY",
+    "parentCountry": "PA",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "巴拿馬城地區童軍會",
+    "nameEn": "Panama City Regional Scout Council",
+    "subregion": "巴拿馬城 (Panama City)",
+    "lat": 9.0,
+    "lng": -79.5,
+    "address": "Panama City, Panama",
+    "description": "巴拿馬城地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

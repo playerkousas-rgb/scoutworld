@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "TT-HQ-TTSA",
+    "parentCountry": "TT",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇹🇹",
+    "category": "國家總部 (National HQ)",
+    "name": "千里達及托巴哥童軍協會",
+    "nameEn": "The Scout Association of Trinidad and Tobago",
+    "subregion": "西班牙港 (Port of Spain)",
+    "lat": 10.6549,
+    "lng": -61.5019,
+    "address": "Port of Spain, Trinidad and Tobago",
+    "description": "千里達及托巴哥童軍協會，WOSM成員。總部位於西班牙港。"
+  },
+  {
+    "id": "TT-REGION-PORTOFSPAIN",
+    "parentCountry": "TT",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "西班牙港地區童軍會",
+    "nameEn": "Port of Spain Regional Scout Council",
+    "subregion": "西班牙港 (Port of Spain)",
+    "lat": 10.6549,
+    "lng": -61.5019,
+    "address": "Port of Spain, Trinidad and Tobago",
+    "description": "西班牙港地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

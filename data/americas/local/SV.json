@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "SV-HQ-ASS",
+    "parentCountry": "SV",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇸🇻",
+    "category": "國家總部 (National HQ)",
+    "name": "薩爾瓦多童軍協會",
+    "nameEn": "Asociación de Scouts de El Salvador",
+    "subregion": "聖薩爾瓦多 (San Salvador)",
+    "lat": 13.6929,
+    "lng": -89.2182,
+    "address": "San Salvador, El Salvador",
+    "description": "薩爾瓦多童軍協會，WOSM成員。總部位於聖薩爾瓦多。"
+  },
+  {
+    "id": "SV-REGION-SANSALVADOR",
+    "parentCountry": "SV",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "聖薩爾瓦多地區童軍會",
+    "nameEn": "San Salvador Regional Scout Council",
+    "subregion": "聖薩爾瓦多 (San Salvador)",
+    "lat": 13.6929,
+    "lng": -89.2182,
+    "address": "San Salvador, El Salvador",
+    "description": "聖薩爾瓦多地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

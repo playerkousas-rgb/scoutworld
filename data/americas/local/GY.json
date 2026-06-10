@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "GY-HQ-GSA",
+    "parentCountry": "GY",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇬🇾",
+    "category": "國家總部 (National HQ)",
+    "name": "蓋亞那童軍協會",
+    "nameEn": "Guyana Scout Association",
+    "subregion": "喬治敦 (Georgetown)",
+    "lat": 6.8013,
+    "lng": -58.1551,
+    "address": "Georgetown, Guyana",
+    "description": "蓋亞那童軍協會，WOSM成員。總部位於喬治敦。"
+  },
+  {
+    "id": "GY-REGION-GEORGETOWN",
+    "parentCountry": "GY",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "喬治敦地區童軍會",
+    "nameEn": "Georgetown Regional Scout Council",
+    "subregion": "喬治敦 (Georgetown)",
+    "lat": 6.8013,
+    "lng": -58.1551,
+    "address": "Georgetown, Guyana",
+    "description": "喬治敦地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

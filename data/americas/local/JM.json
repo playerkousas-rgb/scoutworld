@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "JM-HQ-JSA",
+    "parentCountry": "JM",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇯🇲",
+    "category": "國家總部 (National HQ)",
+    "name": "牙買加童軍協會",
+    "nameEn": "The Scout Association of Jamaica",
+    "subregion": "金斯敦 (Kingston)",
+    "lat": 18.0423,
+    "lng": -76.8029,
+    "address": "Kingston, Jamaica",
+    "description": "牙買加童軍協會，WOSM成員。總部位於金斯敦。"
+  },
+  {
+    "id": "JM-REGION-KINGSTON",
+    "parentCountry": "JM",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "金斯敦地區童軍會",
+    "nameEn": "Kingston Regional Scout Council",
+    "subregion": "金斯敦 (Kingston)",
+    "lat": 18.0423,
+    "lng": -76.8029,
+    "address": "Kingston, Jamaica",
+    "description": "金斯敦地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

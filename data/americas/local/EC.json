@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "EC-HQ-ASE",
+    "parentCountry": "EC",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇪🇨",
+    "category": "國家總部 (National HQ)",
+    "name": "厄瓜多童軍協會",
+    "nameEn": "Asociación de Scouts del Ecuador",
+    "subregion": "基多 (Quito)",
+    "lat": -0.1807,
+    "lng": -78.4678,
+    "address": "Quito, Ecuador",
+    "description": "厄瓜多童軍協會，WOSM成員。總部位於基多。"
+  },
+  {
+    "id": "EC-REGION-QUITO",
+    "parentCountry": "EC",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "基多地區童軍會",
+    "nameEn": "Quito Regional Scout Council",
+    "subregion": "基多 (Quito)",
+    "lat": -0.1807,
+    "lng": -78.4678,
+    "address": "Quito, Ecuador",
+    "description": "基多地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

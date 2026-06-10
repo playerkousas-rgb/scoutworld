@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "HN-HQ-ASH",
+    "parentCountry": "HN",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇭🇳",
+    "category": "國家總部 (National HQ)",
+    "name": "洪都拉斯童軍協會",
+    "nameEn": "Asociación de Scouts de Honduras",
+    "subregion": "特古西加爾巴 (Tegucigalpa)",
+    "lat": 14.0723,
+    "lng": -87.1921,
+    "address": "Tegucigalpa, Honduras",
+    "description": "洪都拉斯童軍協會，WOSM成員。總部位於特古西加爾巴。"
+  },
+  {
+    "id": "HN-REGION-TEGUCIGALPA",
+    "parentCountry": "HN",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "特古西加爾巴地區童軍會",
+    "nameEn": "Tegucigalpa Regional Scout Council",
+    "subregion": "特古西加爾巴 (Tegucigalpa)",
+    "lat": 14.0723,
+    "lng": -87.1921,
+    "address": "Tegucigalpa, Honduras",
+    "description": "特古西加爾巴地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

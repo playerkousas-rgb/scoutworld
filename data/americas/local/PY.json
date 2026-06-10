@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "PY-HQ-ASP",
+    "parentCountry": "PY",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇵🇾",
+    "category": "國家總部 (National HQ)",
+    "name": "巴拉圭童軍協會",
+    "nameEn": "Asociación de Scouts del Paraguay",
+    "subregion": "亞松森 (Asunción)",
+    "lat": -25.2637,
+    "lng": -57.5759,
+    "address": "Asunción, Paraguay",
+    "description": "巴拉圭童軍協會，WOSM成員。總部位於亞松森。"
+  },
+  {
+    "id": "PY-REGION-ASUNCION",
+    "parentCountry": "PY",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "亞松森地區童軍會",
+    "nameEn": "Asunción Regional Scout Council",
+    "subregion": "亞松森 (Asunción)",
+    "lat": -25.2637,
+    "lng": -57.5759,
+    "address": "Asunción, Paraguay",
+    "description": "亞松森地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

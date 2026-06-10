@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "GD-HQ-SAG",
+    "parentCountry": "GD",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇬🇩",
+    "category": "國家總部 (National HQ)",
+    "name": "格瑞那達童軍協會",
+    "nameEn": "Scout Association of Grenada",
+    "subregion": "聖喬治 (St. George's)",
+    "lat": 12.0561,
+    "lng": -61.7486,
+    "address": "St. George's, Grenada",
+    "description": "格瑞那達童軍協會，WOSM成員。總部位於聖喬治。"
+  },
+  {
+    "id": "GD-REGION-STGEORGES",
+    "parentCountry": "GD",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "聖喬治地區童軍會",
+    "nameEn": "St. George's Regional Scout Council",
+    "subregion": "聖喬治 (St. George's)",
+    "lat": 12.0561,
+    "lng": -61.7486,
+    "address": "St. George's, Grenada",
+    "description": "聖喬治地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]
