@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "id": "AO-HQ-AEA",
+    "parentCountry": "AO",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇦🇴",
+    "category": "國家總部 (National HQ)",
+    "name": "安哥拉童軍協會",
+    "nameEn": "Associação de Escuteiros de Angola (AEA)",
+    "subregion": "羅安達 (Luanda)",
+    "lat": -8.839,
+    "lng": 13.2894,
+    "address": "Caixa Postal 1479, Luanda, Angola",
+    "email": "bijoucardoso@hotmail.com",
+    "description": "安哥拉童軍協會（Associação de Escuteiros de Angola），1998年成立，WOSM成員。總部位於羅安達。會員約28,011人。"
+  },
+  {
+    "id": "AO-REGION-LUANDA",
+    "parentCountry": "AO",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "羅安達地區童軍會",
+    "nameEn": "Luanda Regional Scout Council",
+    "subregion": "羅安達 (Luanda)",
+    "lat": -8.839,
+    "lng": 13.2894,
+    "address": "Luanda, Angola",
+    "description": "羅安達地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

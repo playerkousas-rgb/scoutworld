@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "SN-HQ-FSS",
+    "parentCountry": "SN",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇸🇳",
+    "category": "國家總部 (National HQ)",
+    "name": "塞內加爾童軍聯盟",
+    "nameEn": "Fédération Scout du Sénégal",
+    "subregion": "達喀爾 (Dakar)",
+    "lat": 14.7167,
+    "lng": -17.4677,
+    "address": "Dakar, Senegal",
+    "description": "塞內加爾童軍聯盟，WOSM成員。總部位於達喀爾。"
+  },
+  {
+    "id": "SN-REGION-DAKAR",
+    "parentCountry": "SN",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "達喀爾地區童軍會",
+    "nameEn": "Dakar Regional Scout Council",
+    "subregion": "達喀爾 (Dakar)",
+    "lat": 14.7167,
+    "lng": -17.4677,
+    "address": "Dakar, Senegal",
+    "description": "達喀爾地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

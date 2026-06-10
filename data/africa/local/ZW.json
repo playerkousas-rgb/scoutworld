@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "ZW-HQ-ZSA",
+    "parentCountry": "ZW",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇿🇼",
+    "category": "國家總部 (National HQ)",
+    "name": "辛巴威童軍協會",
+    "nameEn": "Zimbabwe Scout Association",
+    "subregion": "哈拉雷 (Harare)",
+    "lat": -17.8252,
+    "lng": 31.0335,
+    "address": "Harare, Zimbabwe",
+    "description": "辛巴威童軍協會，WOSM成員。總部位於哈拉雷。"
+  },
+  {
+    "id": "ZW-REGION-HARARE",
+    "parentCountry": "ZW",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "哈拉雷地區童軍會",
+    "nameEn": "Harare Regional Scout Council",
+    "subregion": "哈拉雷 (Harare)",
+    "lat": -17.8252,
+    "lng": 31.0335,
+    "address": "Harare, Zimbabwe",
+    "description": "哈拉雷地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

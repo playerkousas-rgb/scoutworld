@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "TG-HQ-FST",
+    "parentCountry": "TG",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇹🇬",
+    "category": "國家總部 (National HQ)",
+    "name": "多哥童軍聯盟",
+    "nameEn": "Fédération Scout du Togo",
+    "subregion": "洛梅 (Lomé)",
+    "lat": 6.1725,
+    "lng": 1.2314,
+    "address": "Lomé, Togo",
+    "description": "多哥童軍聯盟，WOSM成員。總部位於洛梅。"
+  },
+  {
+    "id": "TG-REGION-LOME",
+    "parentCountry": "TG",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "洛梅地區童軍會",
+    "nameEn": "Lomé Regional Scout Council",
+    "subregion": "洛梅 (Lomé)",
+    "lat": 6.1725,
+    "lng": 1.2314,
+    "address": "Lomé, Togo",
+    "description": "洛梅地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

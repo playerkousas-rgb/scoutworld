@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "NA-HQ-NSA",
+    "parentCountry": "NA",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇳🇦",
+    "category": "國家總部 (National HQ)",
+    "name": "納米比亞童軍協會",
+    "nameEn": "Namibia Scout Association",
+    "subregion": "溫得和克 (Windhoek)",
+    "lat": -22.5609,
+    "lng": 17.0658,
+    "address": "Windhoek, Namibia",
+    "description": "納米比亞童軍協會，WOSM成員。總部位於溫得和克。"
+  },
+  {
+    "id": "NA-REGION-WINDHOEK",
+    "parentCountry": "NA",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "溫得和克地區童軍會",
+    "nameEn": "Windhoek Regional Scout Council",
+    "subregion": "溫得和克 (Windhoek)",
+    "lat": -22.5609,
+    "lng": 17.0658,
+    "address": "Windhoek, Namibia",
+    "description": "溫得和克地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

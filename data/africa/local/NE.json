@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "NE-HQ-FSN",
+    "parentCountry": "NE",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇳🇪",
+    "category": "國家總部 (National HQ)",
+    "name": "尼日童軍聯盟",
+    "nameEn": "Fédération Scout du Niger",
+    "subregion": "尼阿美 (Niamey)",
+    "lat": 13.5127,
+    "lng": 2.1128,
+    "address": "Niamey, Niger",
+    "description": "尼日童軍聯盟，WOSM成員。總部位於尼阿美。"
+  },
+  {
+    "id": "NE-REGION-NIAMEY",
+    "parentCountry": "NE",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "尼阿美地區童軍會",
+    "nameEn": "Niamey Regional Scout Council",
+    "subregion": "尼阿美 (Niamey)",
+    "lat": 13.5127,
+    "lng": 2.1128,
+    "address": "Niamey, Niger",
+    "description": "尼阿美地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

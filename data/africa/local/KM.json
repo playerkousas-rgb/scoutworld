@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "KM-HQ-WM",
+    "parentCountry": "KM",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇰🇲",
+    "category": "國家總部 (National HQ)",
+    "name": "葛摩童軍",
+    "nameEn": "Wezo Mbeli (WM)",
+    "subregion": "莫洛尼 (Moroni)",
+    "lat": -11.875,
+    "lng": 43.8722,
+    "address": "Boîte Postale 8278, Place de France, Moroni, Comoros",
+    "phone": "+269 362 4667",
+    "email": "scout@wezombeli.org",
+    "website": "https://www.wezombeli.org",
+    "description": "葛摩童軍（Wezo Mbeli），1975年成立，WOSM成員。總部位於莫洛尼。會員約2,200人。"
+  },
+  {
+    "id": "KM-REGION-MORONI",
+    "parentCountry": "KM",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "莫洛尼地區童軍會",
+    "nameEn": "Moroni Regional Scout Council",
+    "subregion": "莫洛尼 (Moroni)",
+    "lat": -11.875,
+    "lng": 43.8722,
+    "address": "Moroni, Comoros",
+    "description": "莫洛尼地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

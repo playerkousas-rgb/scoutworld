@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "MU-HQ-MSA",
+    "parentCountry": "MU",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇲🇺",
+    "category": "國家總部 (National HQ)",
+    "name": "模里西斯童軍協會",
+    "nameEn": "Mauritius Scout Association",
+    "subregion": "路易港 (Port Louis)",
+    "lat": -20.1609,
+    "lng": 57.5012,
+    "address": "Port Louis, Mauritius",
+    "description": "模里西斯童軍協會，WOSM成員。總部位於路易港。"
+  },
+  {
+    "id": "MU-REGION-PORTLOUIS",
+    "parentCountry": "MU",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "路易港地區童軍會",
+    "nameEn": "Port Louis Regional Scout Council",
+    "subregion": "路易港 (Port Louis)",
+    "lat": -20.1609,
+    "lng": 57.5012,
+    "address": "Port Louis, Mauritius",
+    "description": "路易港地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

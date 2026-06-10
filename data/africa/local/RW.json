@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "RW-HQ-RSA",
+    "parentCountry": "RW",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇷🇼",
+    "category": "國家總部 (National HQ)",
+    "name": "盧旺達童軍協會",
+    "nameEn": "Rwanda Scout Association",
+    "subregion": "基加利 (Kigali)",
+    "lat": -1.9579,
+    "lng": 30.1127,
+    "address": "Kigali, Rwanda",
+    "description": "盧旺達童軍協會，WOSM成員。總部位於基加利。"
+  },
+  {
+    "id": "RW-REGION-KIGALI",
+    "parentCountry": "RW",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "基加利地區童軍會",
+    "nameEn": "Kigali Regional Scout Council",
+    "subregion": "基加利 (Kigali)",
+    "lat": -1.9579,
+    "lng": 30.1127,
+    "address": "Kigali, Rwanda",
+    "description": "基加利地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

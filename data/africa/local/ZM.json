@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "ZM-HQ-ZSA",
+    "parentCountry": "ZM",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇿🇲",
+    "category": "國家總部 (National HQ)",
+    "name": "尚比亞童軍協會",
+    "nameEn": "Zambia Scout Association",
+    "subregion": "路沙卡 (Lusaka)",
+    "lat": -15.3875,
+    "lng": 28.3228,
+    "address": "Lusaka, Zambia",
+    "description": "尚比亞童軍協會，WOSM成員。總部位於路沙卡。"
+  },
+  {
+    "id": "ZM-REGION-LUSAKA",
+    "parentCountry": "ZM",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "路沙卡地區童軍會",
+    "nameEn": "Lusaka Regional Scout Council",
+    "subregion": "路沙卡 (Lusaka)",
+    "lat": -15.3875,
+    "lng": 28.3228,
+    "address": "Lusaka, Zambia",
+    "description": "路沙卡地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

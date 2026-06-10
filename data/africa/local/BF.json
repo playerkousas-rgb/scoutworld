@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "BF-HQ-ASBF",
+    "parentCountry": "BF",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇧🇫",
+    "category": "國家總部 (National HQ)",
+    "name": "布吉納法索童軍聯盟",
+    "nameEn": "Fédération Burkinabé du Scoutisme (ASBF)",
+    "subregion": "瓦加杜古 (Ouagadougou)",
+    "lat": 12.3723,
+    "lng": -1.5197,
+    "address": "01 BP 2548, Ouagadougou 01, Burkina Faso",
+    "phone": "+226 70173559",
+    "email": "asbfenint@gmail.com",
+    "description": "布吉納法索童軍聯盟（Fédération Burkinabé du Scoutisme），1943年成立，WOSM成員。總部位於瓦加杜古。會員約7,674人。"
+  },
+  {
+    "id": "BF-REGION-OUAGADOUGOU",
+    "parentCountry": "BF",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "瓦加杜古地區童軍會",
+    "nameEn": "Ouagadougou Regional Scout Council",
+    "subregion": "瓦加杜古 (Ouagadougou)",
+    "lat": 12.3723,
+    "lng": -1.5197,
+    "address": "Ouagadougou, Burkina Faso",
+    "description": "瓦加杜古地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

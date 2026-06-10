@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "ST-HQ-AESTP",
+    "parentCountry": "ST",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇸🇹",
+    "category": "國家總部 (National HQ)",
+    "name": "聖多美和普林西比童軍協會",
+    "nameEn": "Associação dos Escuteiros de São Tomé e Príncipe",
+    "subregion": "聖多美 (São Tomé)",
+    "lat": 0.3302,
+    "lng": 6.7333,
+    "address": "São Tomé, São Tomé and Príncipe",
+    "description": "聖多美和普林西比童軍協會，WOSM成員。總部位於聖多美。"
+  },
+  {
+    "id": "ST-REGION-SAOTOME",
+    "parentCountry": "ST",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "聖多美地區童軍會",
+    "nameEn": "São Tomé Regional Scout Council",
+    "subregion": "聖多美 (São Tomé)",
+    "lat": 0.3302,
+    "lng": 6.7333,
+    "address": "São Tomé, São Tomé and Príncipe",
+    "description": "聖多美地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "SL-HQ-SLSA",
+    "parentCountry": "SL",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇸🇱",
+    "category": "國家總部 (National HQ)",
+    "name": "塞拉利昂童軍協會",
+    "nameEn": "Sierra Leone Scout Association",
+    "subregion": "自由城 (Freetown)",
+    "lat": 8.4657,
+    "lng": -13.2317,
+    "address": "Freetown, Sierra Leone",
+    "description": "塞拉利昂童軍協會，WOSM成員。總部位於自由城。"
+  },
+  {
+    "id": "SL-REGION-FREETOWN",
+    "parentCountry": "SL",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "自由城地區童軍會",
+    "nameEn": "Freetown Regional Scout Council",
+    "subregion": "自由城 (Freetown)",
+    "lat": 8.4657,
+    "lng": -13.2317,
+    "address": "Freetown, Sierra Leone",
+    "description": "自由城地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "BJ-HQ-SB",
+    "parentCountry": "BJ",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇧🇯",
+    "category": "國家總部 (National HQ)",
+    "name": "貝南童軍",
+    "nameEn": "Scoutisme Béninois (SB)",
+    "subregion": "科托努 (Cotonou)",
+    "lat": 6.4969,
+    "lng": 2.6042,
+    "address": "01 B.P. 2560, Cotonou, Benin",
+    "phone": "+229 01 62 16 86 01",
+    "email": "scoutismebenin@yahoo.fr",
+    "description": "貝南童軍（Scoutisme Béninois），1932年成立，WOSM成員。總部位於科托努。會員約7,776人。"
+  },
+  {
+    "id": "BJ-REGION-COTONOU",
+    "parentCountry": "BJ",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "科托努地區童軍會",
+    "nameEn": "Cotonou Regional Scout Council",
+    "subregion": "科托努 (Cotonou)",
+    "lat": 6.4969,
+    "lng": 2.6042,
+    "address": "Cotonou, Benin",
+    "description": "科托努地區童軍會，涵蓋最大城市及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

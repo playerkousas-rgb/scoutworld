@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "SC-HQ-SSA",
+    "parentCountry": "SC",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇸🇨",
+    "category": "國家總部 (National HQ)",
+    "name": "塞席爾童軍協會",
+    "nameEn": "Scouts Association of Seychelles",
+    "subregion": "維多利亞 (Victoria)",
+    "lat": -4.6191,
+    "lng": 55.4513,
+    "address": "Victoria, Seychelles",
+    "description": "塞席爾童軍協會，WOSM成員。總部位於維多利亞。"
+  },
+  {
+    "id": "SC-REGION-VICTORIA",
+    "parentCountry": "SC",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "維多利亞地區童軍會",
+    "nameEn": "Victoria Regional Scout Council",
+    "subregion": "維多利亞 (Victoria)",
+    "lat": -4.6191,
+    "lng": 55.4513,
+    "address": "Victoria, Seychelles",
+    "description": "維多利亞地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]

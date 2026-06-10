@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "UG-HQ-UGA",
+    "parentCountry": "UG",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇺🇬",
+    "category": "國家總部 (National HQ)",
+    "name": "烏干達童軍協會",
+    "nameEn": "Uganda Scout Association",
+    "subregion": "坎帕拉 (Kampala)",
+    "lat": 0.3476,
+    "lng": 32.5825,
+    "address": "Kampala, Uganda",
+    "description": "烏干達童軍協會，WOSM成員。總部位於坎帕拉。"
+  },
+  {
+    "id": "UG-REGION-KAMPALA",
+    "parentCountry": "UG",
+    "level": 3,
+    "type": "Council",
+    "flag": "🏛️",
+    "category": "地區童軍會 (Regional Council)",
+    "name": "坎帕拉地區童軍會",
+    "nameEn": "Kampala Regional Scout Council",
+    "subregion": "坎帕拉 (Kampala)",
+    "lat": 0.3476,
+    "lng": 32.5825,
+    "address": "Kampala, Uganda",
+    "description": "坎帕拉地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+  }
+]
