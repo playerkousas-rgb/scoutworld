@@ -13,8 +13,14 @@
     "lng": -61.8453,
     "address": "P.O Box W215, St. John's, Antigua & Barbuda",
     "phone": "+1 268 464 8104",
-    "email": "secretary@antiguaandbarbudascouts.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/antiguascouts",
+    "socialVerificationSource": "https://vymaps.com/AG/Antigua-Barbuda-Scout-Association-692232741154069/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/8824/ABSA%20Logo.jpg?itok=LEw6NFR6",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "AR",
@@ -31,9 +37,16 @@
     "address": "Libertad 1282, C1012AAZ Buenos Aires, Argentina",
     "phone": "+54 11 4805-7770",
     "website": "https://www.scouts.org.ar",
-    "email": "scouts@scouts.org.ar",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "scoutsargentina"
+    "instagram": "scoutsargentina",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/ScoutsArgentina/",
+    "youtube": "https://www.youtube.com/@scoutsdeargentinasa",
+    "socialVerificationSource": "https://www.facebook.com/ScoutsArgentina/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3074/Argentina.png?itok=FAaYP0PR",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "AW",
@@ -49,8 +62,14 @@
     "lng": -69.9683,
     "phone": "+297 593 0907",
     "website": "https://scoutingaruba.com",
-    "email": "hestong@setarnet.aw",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/ScoutingAruba/",
+    "socialVerificationSource": "https://www.facebook.com/ScoutingAruba/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3073/1200px-Scouting_Aruba.svg.png?itok=NwuGYHE8",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "BB",
@@ -66,8 +85,15 @@
     "lng": -59.5483,
     "address": "Hazelwood, Upper Collymore Rock, St. Michael BB14004, Barbados",
     "phone": "+1 246 429 4051",
-    "email": "headquarters@barbadosscouts.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "website": "https://www.barbadosscouts.org",
+    "facebook": "https://www.facebook.com/barbadosscouts/",
+    "socialVerificationSource": "https://www.facebook.com/barbadosscouts/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5780/BBSA%20Logo.gif?itok=u0x6vTCW",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "BO",
@@ -83,9 +109,17 @@
     "lng": -66.1568,
     "address": "C. Litoral No. 300 esquina Belzu, Margen Norte Laguna Alalay, Cochabamba, Bolivia",
     "phone": "+591 4 423 1025",
-    "website": "https://www.scoutsdebolivia.org",
-    "email": "scoutasb@scoutsdebolivia.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "https://www.scoutsdebolivia.org/",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/asbscoutsdebolivia",
+    "instagram": "scoutsdebolivia",
+    "socialVerificationSource": "https://www.scoutsdebolivia.org/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3078/Bolivia.png?itok=gj_m-bLE",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "youtube": "https://www.youtube.com/@ScoutsdeBolivia"
   },
   {
     "id": "BR",
@@ -102,9 +136,15 @@
     "address": "Rua Jaceguay 27, Curitiba, PR, Brazil",
     "phone": "+55 41 3353-1733",
     "website": "https://www.escoteiros.org.br",
-    "email": "escoteiros@escoteiros.org.br",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "escoteirosdobrasil"
+    "instagram": "escoteirosdobrasil",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/EscoteirosDoBrasilOficial/",
+    "socialVerificationSource": "https://www.facebook.com/EscoteirosDoBrasilOficial/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5274/brazil_logo-vertical-colorido-selo.png?itok=lgKBdynv",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "BS",
@@ -120,8 +160,14 @@
     "lng": -77.3554,
     "address": "P.O. Box N-4272, Dolphin Drive, Nassau, Bahamas",
     "phone": "+1 242 325 2757",
-    "email": "hq@scoutbahamas.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scouts242/",
+    "socialVerificationSource": "https://www.facebook.com/scouts242/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/4531/Bahamas.png?itok=DxpJXcIj",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "BZ",
@@ -137,9 +183,16 @@
     "lng": -88.1862,
     "address": "P.O. Box 431, Belize City, Belize",
     "phone": "+501 223 7216",
-    "website": "https://www.scoutsbelize.org",
-    "email": "contact.scoutsofbelize@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutassociationbelize/",
+    "instagram": "scoutsofbelize",
+    "socialVerificationSource": "https://www.facebook.com/scoutassociationbelize/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3077/Belize.png?itok=gHEj3_Nv",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "CA",
@@ -156,9 +209,16 @@
     "address": "1345 Baseline Road, Ottawa, ON K2C 0A7, Canada",
     "phone": "+1 613-224-5131",
     "website": "https://www.scouts.ca",
-    "email": "scouts@scouts.ca",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "scoutscanada"
+    "instagram": "scoutscanada",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutscanada",
+    "youtube": "https://www.youtube.com/user/scoutscanada",
+    "socialVerificationSource": "https://www.scouts.ca/camps/home.html",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/8637/SCOUTS_Logo_vertical_COUL_RGB.png?itok=epOr8_9S",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "CL",
@@ -174,10 +234,17 @@
     "lng": -70.6693,
     "address": "República 95, Santiago, Chile",
     "phone": "+56 2 2222 8391",
-    "website": "https://www.guiasyscouts.cl",
-    "email": "contacto@guiasyscouts.cl",
+    "website": "https://guiasyscoutsdechile.org/",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "guiasyscouts"
+    "instagram": "agschile",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://facebook.com/agsch",
+    "youtube": "https://www.youtube.com/@AGSChile",
+    "socialVerificationSource": "https://linktr.ee/agschile",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3090/Chile.png?itok=8LOQ1Fhk",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "CO",
@@ -194,9 +261,14 @@
     "address": "Calle 63 No 22-35, Bogotá, Colombia",
     "phone": "+57 601 245 4235",
     "website": "https://www.scouts.org.co",
-    "email": "oficina@scouts.org.co",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "scoutscolombia"
+    "instagram": "scoutscolombia",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "socialVerificationSource": "https://www.instagram.com/scoutscolombia/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3093/Colombia.png?itok=RCoECFC0",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "CR",
@@ -213,9 +285,15 @@
     "address": "Sabana Oeste, San José, Costa Rica",
     "phone": "+506 2222-9898",
     "website": "https://www.siemprelistos.or.cr",
-    "email": "asociacion@siemprelistos.or.cr",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "guiasyscoutscr"
+    "instagram": "guiasyscoutscr",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/GuiasyScoutsCR/",
+    "socialVerificationSource": "https://www.facebook.com/GuiasyScoutsCR/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3091/Costa%20Rica.png?itok=LwG4zM4l",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "CW",
@@ -231,8 +309,15 @@
     "lng": -68.9335,
     "address": "Kaya Wladimir \"Coco\" Balentien 41, Willemstad, Curaçao",
     "phone": "+599 9 5118322",
-    "email": "info@scoutingantiano.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "website": "https://scoutingantiano.org/",
+    "facebook": "https://www.facebook.com/scoutingantiano/",
+    "socialVerificationSource": "https://scoutingantiano.org/groups/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3092/Curacao.png?itok=EgNUzD39",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "DM",
@@ -248,9 +333,15 @@
     "lng": -61.3795,
     "address": "P.O. Box 2108, High Street, Roseau, Dominica",
     "phone": "+1 767 616 4555",
-    "website": "https://www.webspawner.com/users/dcascouts/",
-    "email": "scoutsdominica@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/p/Dominica-National-Scout-Organisation-100072069000761/",
+    "socialVerificationSource": "https://www.facebook.com/p/Dominica-National-Scout-Organisation-100072069000761/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3240/Dominica.jpg?itok=9ybMRC6C",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "DO",
@@ -266,10 +357,16 @@
     "lng": -69.9312,
     "address": "Calle Hostos No. 352, Zona Colonial, Santo Domingo, Dominican Republic",
     "phone": "+1 809-685-6111",
-    "website": "http://www.scoutsdominicanos.org.do",
-    "email": "contacto@scoutsdominicanos.org.do",
+    "website": "",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "scoutsdominicanos"
+    "instagram": "scoutsdominicanos",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "socialVerificationSource": "https://www.facebook.com/scoutsdominicanos/",
+    "facebook": "https://www.facebook.com/scoutsdominicanos/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3235/Rep%20Dominicana.jpg?itok=cA6hFqRq",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "EC",
@@ -284,9 +381,16 @@
     "lat": -0.1807,
     "lng": -78.4678,
     "phone": "+593 2 226 6629",
-    "website": "https://www.scoutsecuador.org",
-    "email": "info@scoutsecuador.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutsecuador/",
+    "instagram": "scoutsecuador",
+    "socialVerificationSource": "https://www.instagram.com/scoutsecuador/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3342/Ecuador.png?itok=NvGzO9o2",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "GD",
@@ -301,8 +405,14 @@
     "lat": 12.1165,
     "lng": -61.679,
     "phone": "+1 473 435 0385",
-    "email": "scoutsgrenada@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/The-Scout-Association-of-Grenada-187732964604448/",
+    "socialVerificationSource": "https://www.unscouts.org/jobs-1/grenada",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3244/Scout_Association_of_Grenada.png?itok=fER5vdED",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "GT",
@@ -319,9 +429,15 @@
     "address": "Oficina Nacional, Ciudad de Guatemala, Guatemala",
     "phone": "+502 2331-4148",
     "website": "http://www.scouts.org.gt",
-    "email": "scouts@scouts.org.gt",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "scoutsguatemala"
+    "instagram": "scoutsguatemala",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutsguatemala/",
+    "socialVerificationSource": "https://www.facebook.com/scoutsguatemala/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/9972/Flor-de-lis-oficial%20%281%29.jpg?itok=bj9vmFEC",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "GY",
@@ -337,8 +453,15 @@
     "lng": -58.1551,
     "address": "Woolford Avenue, Non Pariel Park, Georgetown, Guyana",
     "phone": "+592 225 3225",
-    "email": "info@scouts.org.gy",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/ScoutsGuyana/",
+    "instagram": "Scouts.Guyana",
+    "socialVerificationSource": "https://guyanachronicle.com/2022/08/19/scout-association-elects-new-executives/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3247/Guyana.png?itok=W7Fuc3bm",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "HN",
@@ -355,8 +478,15 @@
     "address": "Colonia Rubén Darío, 4ta calle, 2da avenida, Tegucigalpa, Honduras",
     "phone": "+504 2235 8809",
     "website": "https://www.scoutsdehonduras.com",
-    "email": "den@scoutsdehonduras.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutsdehonduras/",
+    "instagram": "scouts.de.honduras",
+    "socialVerificationSource": "https://www.facebook.com/scoutsdehonduras/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/2930/download-1.png?itok=xOoBjGmR",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "HT",
@@ -372,9 +502,14 @@
     "lng": -72.335,
     "address": "20, rue Patrice Lumumba, Delmas 19, B.P.6111, Port-au-Prince, Haiti",
     "phone": "+509 32 28 2380",
-    "website": "https://scoutsdhaiti.org",
-    "email": "info@scoutsdhaiti.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry; WOSM-listed website unavailable in automated check",
+    "socialVerificationSource": "https://www.scout.org/where-we-work/scouting-worldwide",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3238/Haiti.png?itok=IWA8slxl",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "JM",
@@ -390,9 +525,15 @@
     "lng": -76.7968,
     "address": "2d Camp Road, Kingston 5, Jamaica",
     "phone": "+1 876 926 7209",
-    "website": "https://scoutja.com",
-    "email": "office@scoutjamaica.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "https://scoutja.com/",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/ScoutJamaica/",
+    "socialVerificationSource": "https://www.facebook.com/ScoutJamaica/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3327/Jamaica.jpg?itok=SFrn5ao_",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "LC",
@@ -407,8 +548,12 @@
     "lat": 14.0165,
     "lng": -60.9753,
     "phone": "+1 758 452 2434",
-    "email": "stlucia.scouts@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3249/Saint%20Lucia.png?itok=mujnsTKc",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "MX",
@@ -424,10 +569,17 @@
     "lng": -99.1332,
     "address": "Córdoba 57, Col. Roma, Del. Cuauhtémoc, CDMX, Mexico",
     "phone": "+52 55 5208 7122",
-    "website": "https://www.scouts.org.mx",
-    "email": "oficina.nacional@scouts.org.mx",
+    "website": "https://scouts.org.mx/",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "scoutsmex"
+    "instagram": "scoutsmexicooficial",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutsdemexico/",
+    "youtube": "https://www.youtube.com/@ScoutsMexicoOficial",
+    "socialVerificationSource": "https://bio.link/scoutsmx",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3242/Mexico.png?itok=IfOqXkoo",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "NI",
@@ -442,9 +594,15 @@
     "lat": 12.1364,
     "lng": -86.2514,
     "phone": "+505 2249 2580",
-    "website": "https://www.scoutsdenicaragua.org",
-    "email": "info@scoutsdenicaragua.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "https://scoutsdenicaragua.org",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/asociaciondescoutsdenicaragua/",
+    "socialVerificationSource": "https://www.facebook.com/asociaciondescoutsdenicaragua/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3236/Nicaragua.png?itok=jeIUbY6p",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "PA",
@@ -460,8 +618,16 @@
     "lng": -79.5199,
     "address": "Apartado 0818-00770, Panamá, Panama",
     "phone": "+507 261 4036",
-    "email": "casascout@scoutspanama.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "website": "https://scoutsdepanama.org/",
+    "facebook": "https://facebook.com/ScoutsPanama",
+    "instagram": "scoutspanama",
+    "socialVerificationSource": "https://scoutsdepanama.org/sobre-nosotros/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/6816/liz_nacional.jpg?itok=sme03OI_",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "PE",
@@ -476,9 +642,17 @@
     "lat": -12.0464,
     "lng": -77.0428,
     "phone": "+51 1 242 5380",
-    "website": "https://www.scout.org.pe",
-    "email": "comunicaciones@scout.org.pe",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "https://scout.org.pe/",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutsdelperu",
+    "instagram": "scoutsdelperu",
+    "youtube": "https://www.youtube.com/@ScoutsdelPeru",
+    "socialVerificationSource": "https://scout.org.pe/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3071/Peru.png?itok=9g5WjaBO",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "PY",
@@ -493,9 +667,16 @@
     "lat": -25.2637,
     "lng": -57.5759,
     "phone": "+595 21 511 356",
-    "website": "https://www.scouts.org.py",
-    "email": "secretaria@scouts.org.py",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "https://scouts.org.py",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutsdelparaguay/",
+    "instagram": "scoutsparaguay",
+    "socialVerificationSource": "https://www.facebook.com/scoutsdelparaguay/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5502/E520BC23-1902-49F4-9BEC-7769F72EB797.jpeg?itok=eLqO89LK",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "SR",
@@ -510,8 +691,12 @@
     "lat": 5.852,
     "lng": -55.2038,
     "address": "Mr. E. Brumastraat 67-69, Paramaribo, Suriname",
-    "email": "boyscouts.suriname@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3250/Suriname.png?itok=r7BUg-SC",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "SV",
@@ -526,9 +711,15 @@
     "lat": 13.6988,
     "lng": -89.1914,
     "phone": "+503 2525 3951",
-    "website": "https://www.scouts.org.sv",
-    "email": "osn@scouts.org.sv",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "website": "https://scouts.org.sv",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/ScoutsSV/",
+    "socialVerificationSource": "https://www.facebook.com/ScoutsSV/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3241/El%20Salvador.png?itok=ubGkGt1J",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "TT",
@@ -544,8 +735,17 @@
     "lng": -61.5086,
     "address": "1a St. Ann's Road, St. Ann's, Port of Spain, Trinidad & Tobago",
     "phone": "+1 868 624 7271",
-    "email": "headquarters@scouts.tt",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "website": "https://scouts.tt/",
+    "facebook": "https://www.facebook.com/TTScouts/",
+    "instagram": "scoutstt",
+    "socialVerificationSource": "https://scouts.tt/",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3245/Trinidad%20y%20Tobago.png?itok=MNXJjQX7",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "US",
@@ -562,8 +762,16 @@
     "address": "1325 West Walnut Hill Lane, Irving, TX 75015, USA",
     "phone": "+1 972-580-2000",
     "website": "https://www.scouting.org",
-    "email": "feedback@scouting.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/theboyscoutsofamerica",
+    "instagram": "boyscoutsofamerica",
+    "youtube": "https://www.youtube.com/boyscoutsofamericavideos",
+    "socialVerificationSource": "https://www.capitolareascouting.org/about/media-press-inquiries/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3243/Estados%20Unidos.png?itok=a-DEHmAQ",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "UY",
@@ -579,8 +787,15 @@
     "lng": -56.1645,
     "phone": "+598 2 411 8840",
     "website": "https://msu.edu.uy",
-    "email": "msu@msu.edu.uy",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/MovimientoScoutdelUruguay",
+    "instagram": "msu_oficial",
+    "socialVerificationSource": "https://msu.edu.uy",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3246/Uruguay.png?itok=gDo4Wd_f",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "VC",
@@ -595,8 +810,14 @@
     "lat": 13.1561,
     "lng": -61.2147,
     "phone": "+1 784 456 5680",
-    "email": "scoutssvg@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/p/Scout-Association-of-St-Vincent-and-the-Grenadines-61552371834629/",
+    "socialVerificationSource": "https://www.facebook.com/p/Scout-Association-of-St-Vincent-and-the-Grenadines-61552371834629/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3248/Saint%20Vincent%20and%20the%20Grenadines.png?itok=w6hqLPNC",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   },
   {
     "id": "VE",
@@ -612,9 +833,13 @@
     "lng": -66.9036,
     "address": "Avenida Juan de Urpín, Caracas, Venezuela",
     "phone": "+58 212-5714343",
-    "website": "http://www.scoutsvenezuela.org.ve",
-    "email": "contacto@scoutsvenezuela.org.ve",
+    "website": "https://www.scouts.org.ve",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/interamerica/countries",
-    "instagram": "scoutsvenezuela"
+    "instagram": "scoutsvenezuela",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3234/Venezuela.png?itok=9sjpk6LE",
+    "logoSource": "https://www.scout.org/where-we-work/regions/interamerica/countries"
   }
 ]

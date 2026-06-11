@@ -12,21 +12,11 @@
     "lat": 13.6929,
     "lng": -89.2182,
     "address": "San Salvador, El Salvador",
-    "description": "薩爾瓦多童軍協會，WOSM成員。總部位於聖薩爾瓦多。"
-  },
-  {
-    "id": "SV-REGION-SANSALVADOR",
-    "parentCountry": "SV",
-    "level": 3,
-    "type": "Council",
-    "flag": "🏛️",
-    "category": "地區童軍會 (Regional Council)",
-    "name": "聖薩爾瓦多地區童軍會",
-    "nameEn": "San Salvador Regional Scout Council",
-    "subregion": "聖薩爾瓦多 (San Salvador)",
-    "lat": 13.6929,
-    "lng": -89.2182,
-    "address": "San Salvador, El Salvador",
-    "description": "聖薩爾瓦多地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+    "description": "薩爾瓦多童軍協會，WOSM成員。總部位於聖薩爾瓦多。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ imported from WOSM/local data; source verification pending",
+    "website": "https://scouts.org.sv",
+    "facebook": "https://www.facebook.com/ScoutsSV/",
+    "socialVerificationSource": "https://www.facebook.com/ScoutsSV/"
   }
 ]

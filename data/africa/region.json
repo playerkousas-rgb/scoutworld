@@ -12,8 +12,16 @@
     "lat": -8.839,
     "lng": 13.2894,
     "address": "Caixa Postal 1479, Luanda, Angola",
-    "email": "bijoucardoso@hotmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "website": "https://www.aeascout.org",
+    "facebook": "https://www.facebook.com/AssociacaodeescuteirosdeAngolaAEA/",
+    "instagram": "associacaodeescuteirosdeangola",
+    "socialVerificationSource": "https://www.facebook.com/AssociacaodeescuteirosdeAngolaAEA/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5677/AEA%20logo.png?itok=zLY7NfLk",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "BF",
@@ -29,8 +37,14 @@
     "lng": -1.5197,
     "address": "01 BP 2548, Ouagadougou 01, Burkina Faso",
     "phone": "+226 70173559",
-    "email": "asbfenint@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scouts.centre.bf/",
+    "socialVerificationSource": "https://www.facebook.com/scouts.centre.bf/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3812/BURKINA%20FASO-01.png?itok=9kn6ZTZl",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "BI",
@@ -47,8 +61,14 @@
     "address": "B.P. 550, Bujumbura, Burundi",
     "phone": "+257 226441",
     "website": "https://www.scoutsburundi.org",
-    "email": "scoutsasb@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/p/Association-des-Scouts-du-Burundi-ASB-100067969852976/",
+    "socialVerificationSource": "https://www.facebook.com/p/Association-des-Scouts-du-Burundi-ASB-100067969852976/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3813/BURUNDI-01.png?itok=pYLZvJNj",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "BJ",
@@ -64,8 +84,13 @@
     "lng": 2.6042,
     "address": "01 B.P. 2560, Cotonou, Benin",
     "phone": "+229 01 62 16 86 01",
-    "email": "scoutismebenin@yahoo.fr",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "website": "https://scoutismebeninois.org/",
+    "socialVerificationSource": "https://scoutismebeninois.org/",
+    "logoUrl": ""
   },
   {
     "id": "BW",
@@ -81,8 +106,14 @@
     "lng": 25.9086,
     "address": "P.O. Box 125, Gaborone, Botswana",
     "phone": "+267 393 8460",
-    "email": "info@scouts.co.bw",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "website": "",
+    "facebook": "https://www.facebook.com/bwscouts/",
+    "socialVerificationSource": "https://www.facebook.com/bwscouts/",
+    "logoUrl": ""
   },
   {
     "id": "CD",
@@ -96,7 +127,15 @@
     "members": 62842,
     "lat": -4.4419,
     "lng": 15.2663,
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "email": "",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "website": "https://www.scout.cd/",
+    "facebook": "https://www.facebook.com/fescoutrdc/",
+    "socialVerificationSource": "https://www.cics.org/places/federation-des-scouts-de-la-rep-dem-du-congo-fesco/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3820/SCT_Emblem_rgb_round%20Purple_video.png?itok=6dFmJCPz",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "CI",
@@ -112,8 +151,14 @@
     "lng": -4.0083,
     "address": "05 BP 3207, Abidjan, Côte d'Ivoire",
     "phone": "+225 0707731249",
-    "email": "info@fiscout.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/p/F%C3%A9d%C3%A9ration-Ivoirienne-du-Scoutisme-100064950420061/",
+    "socialVerificationSource": "https://www.facebook.com/p/F%C3%A9d%C3%A9ration-Ivoirienne-du-Scoutisme-100064950420061/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/10420/WhatsApp%20Image%202023-12-18%20at%201.34.23%20PM.jpeg?itok=LbpVuSza",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "CM",
@@ -129,9 +174,14 @@
     "lng": 11.5021,
     "address": "P.O. Box 2123, Yaoundé, Cameroon",
     "phone": "+237 222 23 1234",
-    "website": "http://www.scoutscameroun.org",
-    "email": "scoutscameroun@yahoo.fr",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "website": "",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/ScoutOfCameroon/",
+    "socialVerificationSource": "https://www.facebook.com/ScoutOfCameroon/",
+    "logoUrl": ""
   },
   {
     "id": "CV",
@@ -147,8 +197,14 @@
     "lng": -23.5092,
     "address": "Caixa Postal 817, Praia, Cape Verde",
     "phone": "+238 9789348",
-    "email": "aecvescutismo@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/Associa%C3%A7%C3%A3o-dos-Escuteiros-de-Cabo-Verde-AECV-173290489389263/",
+    "socialVerificationSource": "https://www.facebook.com/Associa%C3%A7%C3%A3o-dos-Escuteiros-de-Cabo-Verde-AECV-173290489389263/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5855/LogoAECV.png?itok=re9SsfHM",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "ET",
@@ -164,10 +220,16 @@
     "lng": 38.74,
     "address": "P.O. Box 1111, Addis Ababa, Ethiopia",
     "phone": "+251 11 155 3100",
-    "website": "http://www.ethiopiascouts.org",
-    "email": "ethiopiascouts@gmail.com",
+    "website": "",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
-    "instagram": "ethiopiascouts"
+    "instagram": "ethiopiascouts",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/p/Ethiopia-Scout-Association-100064300525238/",
+    "socialVerificationSource": "https://www.facebook.com/p/Ethiopia-Scout-Association-100064300525238/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/8694/ESA%20Logo%20standard.jpg?itok=MFX0mZAw",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "GA",
@@ -182,7 +244,12 @@
     "lat": 0.4163,
     "lng": 9.4673,
     "address": "B.P. 1008, Libreville, Gabon",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "email": "",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3843/GABON-01.png?itok=RpwBPgW5",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "GH",
@@ -198,10 +265,16 @@
     "lng": -0.187,
     "address": "P.O. Box 108, Accra, Ghana",
     "phone": "+233 30 266 7381",
-    "website": "http://www.ghanascout.org",
-    "email": "info@ghanascout.org",
+    "website": "https://ghanascout.org/",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
-    "instagram": "ghanascout"
+    "instagram": "Ghanascout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/ghanascout",
+    "socialVerificationSource": "https://ghanascout.org/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/10345/GSA%20LOGO.png?itok=sHQFLpi0",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "GM",
@@ -217,8 +290,14 @@
     "lng": -16.579,
     "address": "P.O. Box 2433, Serrekunda, Banjul, Gambia",
     "phone": "+220 3690287",
-    "email": "ic@gambiascout.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/thegambiascoutassociation/",
+    "socialVerificationSource": "https://www.facebook.com/thegambiascoutassociation/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/10896/SCOUT-Tranparent-1.png?itok=f-huxzqT",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "GN",
@@ -234,8 +313,12 @@
     "lng": -13.7122,
     "address": "BP 2016, Archeveché de Conakry, Conakry, Guinea",
     "phone": "+224 666500614",
-    "email": "scoutsdeguinee@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3756/logo.jpg?itok=riTgc5wL",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "KE",
@@ -251,10 +334,16 @@
     "lng": 36.8219,
     "address": "Rowallan Camp, Kibera Drive, Nairobi, Kenya",
     "phone": "+254 20 202 2315",
-    "website": "https://www.kscouts.org",
-    "email": "info@kenyascouts.org",
+    "website": "https://kenyascouts.org/",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
-    "instagram": "kenyascouts"
+    "instagram": "kenyascouts",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/TheKenyaScoutsAssociation",
+    "youtube": "https://www.youtube.com/@KenyaScouts",
+    "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/",
+    "logoUrl": ""
   },
   {
     "id": "KM",
@@ -270,9 +359,13 @@
     "lng": 43.8722,
     "address": "Boîte Postale 8278, Place de France, Moroni, Comoros",
     "phone": "+269 362 4667",
-    "website": "https://www.wezombeli.org",
-    "email": "scout@wezombeli.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "website": "https://www.wezombeli.org/",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "socialVerificationSource": "https://www.wezombeli.org/",
+    "logoUrl": ""
   },
   {
     "id": "LR",
@@ -288,9 +381,16 @@
     "lng": -10.7969,
     "address": "Town Hall Community, P.O Box 1977, Paynesville City, Liberia",
     "phone": "+231 776818975",
-    "website": "https://www.scoutliberia.org",
-    "email": "info@scoutliberia.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "website": "",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/liberiascoutassociation/",
+    "instagram": "liberiascoutassociation",
+    "socialVerificationSource": "https://www.facebook.com/liberiascoutassociation/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3878/LIBERIA-01.png?itok=Y1zVmZF7",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "LS",
@@ -306,8 +406,15 @@
     "lng": 27.4818,
     "address": "P.O. Box 2164, Cathedral Area, Maseru 102, Lesotho",
     "phone": "+266 59199776",
-    "email": "lesothoscouts@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/p/Lesotho-Scouts-Association-100069170088611/",
+    "instagram": "lesothoscouts",
+    "socialVerificationSource": "https://www.facebook.com/p/Lesotho-Scouts-Association-100069170088611/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3877/SCT_Emblem_rgb_round%20Purple_video.png?itok=fKMVBpq1",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "MG",
@@ -323,8 +430,15 @@
     "lng": 47.5079,
     "address": "B.P. 771, Antananarivo 101, Madagascar",
     "phone": "+261 341155526",
-    "website": "https://scouts.mg",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "website": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "email": "",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutsmdg/",
+    "socialVerificationSource": "https://www.facebook.com/scoutsmdg/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/4639/IMG_1694.JPG?itok=EU3JVbno",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "MU",
@@ -341,8 +455,14 @@
     "address": "National HQ - Baden Powell House, 5 Baden-Powell Street, Quatre-Bornes 72231, Mauritius",
     "phone": "+230 466 6771",
     "website": "https://www.scoutsmauritius.org",
-    "email": "msa.admin@scoutsmauritius.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/mauritiusscouts/",
+    "socialVerificationSource": "https://www.facebook.com/mauritiusscouts/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3742/LOGO%20MAURITIUS%20SCOUTS.jpg?itok=nqbCUvIy",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "MW",
@@ -358,8 +478,14 @@
     "lng": 33.7741,
     "address": "Private Bag A 231, Malangalanga Kuunika House, Lilongwe, Malawi",
     "phone": "+265 999647764",
-    "email": "scoutmalawi@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/ScoutsInMalawi/",
+    "socialVerificationSource": "https://www.facebook.com/ScoutsInMalawi/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/10629/SM%20Logo.png?itok=6YbfpnC6",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "MZ",
@@ -375,9 +501,15 @@
     "lng": 32.5732,
     "address": "Caixa Postal 3610, Maputo, Mozambique",
     "phone": "+258 840437194",
-    "website": "http://mozscouts.org",
-    "email": "scoutsmoz@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "website": "http://mozscouts.org/",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/lemoscouts/",
+    "socialVerificationSource": "https://www.facebook.com/lemoscouts/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5783/EMBLEMA%20LEMO.GIF?itok=_wSe1Kzf",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "NA",
@@ -393,8 +525,14 @@
     "lng": 17.0658,
     "address": "P.O. Box 31100, Pioneerspark, Windhoek, Namibia",
     "phone": "+264 61 227974",
-    "email": "scoutnam@mweb.com.na",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutsofnamibia",
+    "socialVerificationSource": "https://www.facebook.com/scoutsofnamibia",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3974/NAMIBIE-01.png?itok=_ydswCV5",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "NE",
@@ -410,9 +548,15 @@
     "lng": 2.1254,
     "address": "B.P. 11157, Niamey, Niger",
     "phone": "+227 96882019",
-    "website": "https://www.scoutsniger.org",
-    "email": "scoutsniger@yahoo.fr",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "website": "",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutsniger/",
+    "socialVerificationSource": "https://www.facebook.com/scoutsniger/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/7641/IMG-20211111-WA0048.jpg?itok=bx3k8Azp",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "NG",
@@ -428,10 +572,15 @@
     "lng": 3.3792,
     "address": "1 Baden Powell Road, Ikoyi, Lagos, Nigeria",
     "phone": "+234 1 234 5678",
-    "website": "http://www.nigerianscouts.org",
-    "email": "nigeria.scout@gmail.com",
+    "website": "https://www.scout.org.ng/join-scouts",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
-    "instagram": "nigerianscouts"
+    "instagram": "scouts_nigeria_",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "socialVerificationSource": "https://scout.com.ng/contact/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/8124/download.jpg?itok=1OfgQzqZ",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "RW",
@@ -447,9 +596,16 @@
     "lng": 29.8739,
     "address": "B.P. 775, Kigali KN 2Av 262, Rwanda",
     "phone": "+250 784 669 246",
-    "website": "https://rwandascout.org",
-    "email": "info@rwandascout.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "website": "https://www.rwandascout.org/",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/rwandascout",
+    "instagram": "rwandascout",
+    "socialVerificationSource": "https://www.rwandascout.org/who-we-are-2/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3990/Rwanda-01.png?itok=7AuUuwvn",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "SC",
@@ -464,8 +620,16 @@
     "lat": -4.6796,
     "lng": 55.492,
     "phone": "+248 2813238",
-    "email": "seyscouts@yahoo.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "website": "",
+    "facebook": "https://web.facebook.com/profile.php?id=61551884245981",
+    "instagram": "seychellesscoutassociation",
+    "socialVerificationSource": "https://seychellesscoutassociation.com/about-us/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3998/SEYCHELLES-01.png?itok=avT1LcEy",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "SL",
@@ -481,8 +645,14 @@
     "lng": -13.2299,
     "address": "National Headquarters, P.O. Box 781, Freetown, Sierra Leone",
     "phone": "+232 76632753",
-    "email": "sierraleonescout4763@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/scoutssl/",
+    "socialVerificationSource": "https://www.facebook.com/scoutssl/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/6155/scout%20emblem.jpg?itok=IdkTMeof",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "SN",
@@ -497,7 +667,15 @@
     "lat": 14.6937,
     "lng": -17.4441,
     "address": "B.P. 744, Dakar-RP, Senegal",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "email": "",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/CSScoutisme/",
+    "instagram": "scoutsdusenegal",
+    "socialVerificationSource": "https://www.instagram.com/scoutsdusenegal/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/6258/logo%20CSS%20vrai.png?itok=h6wlPUM3",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "SS",
@@ -512,8 +690,12 @@
     "lat": 6.877,
     "lng": 31.307,
     "phone": "+211 925093972",
-    "email": "scoutsouthsudan@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/4001/South%20Sudan-01.png?itok=c8ltZQ1o",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "ST",
@@ -527,8 +709,12 @@
     "members": 1398,
     "lat": 0.1864,
     "lng": 6.6131,
-    "email": "aestp.scout@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3992/.png?itok=uScFBJt8",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "SZ",
@@ -545,8 +731,14 @@
     "address": "P.O. Box 581, Mbabane H100, Eswatini",
     "phone": "+268 78726946",
     "website": "https://eswatiniscout.org",
-    "email": "nationaloffice@eswatiniscout.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/eswatiniscouts/",
+    "socialVerificationSource": "https://www.facebook.com/eswatiniscouts/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/8284/SCT_Logo_ESTWATINI_rgb_co.png?itok=-pokBGbO",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "TD",
@@ -562,8 +754,12 @@
     "lng": 15.0557,
     "address": "B.P. 773, N'Djaména, Chad",
     "phone": "+235 637 07 85",
-    "email": "scoutchad@yahoo.fr",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3817/SCT_Emblem_rgb_round%20Purple_video.png?itok=hsoXmnID",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "TG",
@@ -579,8 +775,14 @@
     "lng": 1.2228,
     "address": "B.P. 10014, Lomé, Togo",
     "phone": "+228 93 00 7676",
-    "email": "astscout@hotmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/TOGOSCOUT/",
+    "socialVerificationSource": "https://www.facebook.com/TOGOSCOUT/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5832/LOGO%20AST1.PNG?itok=IMLymA3C",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "TZ",
@@ -596,10 +798,15 @@
     "lng": 35.7454,
     "address": "P.O. Box 222, Dar es Salaam, Tanzania",
     "phone": "+255 22 211 1234",
-    "website": "http://www.scouts.or.tz",
-    "email": "info@scouts.or.tz",
+    "website": "",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
-    "instagram": "tanzaniascouts"
+    "instagram": "tanzaniascouts",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/TanzaniaScouts/",
+    "socialVerificationSource": "https://www.facebook.com/TanzaniaScouts/",
+    "logoUrl": ""
   },
   {
     "id": "UG",
@@ -615,8 +822,14 @@
     "lng": 32.5825,
     "address": "P.O. Box 1294, Kampala, Uganda",
     "phone": "+256 777340464",
-    "email": "Scouts@ugandascouts.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/UgScouts/",
+    "socialVerificationSource": "https://www.facebook.com/UgScouts/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/4013/UGANDA%20SCOUTS%20ASSOCIATION%20EMBLEM-01.png?itok=Vw2Sru0S",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "ZA",
@@ -633,9 +846,16 @@
     "address": "P.O. Box 2434, Cape Town 8000, South Africa",
     "phone": "+27 21 685 8420",
     "website": "https://www.scouts.org.za",
-    "email": "ceo@scouts.org.za",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
-    "instagram": "scoutssa"
+    "instagram": "scoutssa",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/SAScout",
+    "youtube": "https://www.youtube.com/@scoutssouthafrica",
+    "socialVerificationSource": "https://www.scouts.org.za/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/4000/SouthAfrica_527_co-01.png?itok=tyoxAvCM",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "ZM",
@@ -651,8 +871,14 @@
     "lng": 28.3228,
     "address": "P.O. Box 31278, Lusaka, Zambia",
     "phone": "+260 211 254687",
-    "email": "zsaheadquarters@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/Zambiascouts/",
+    "socialVerificationSource": "https://www.facebook.com/Zambiascouts/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/8543/ZSA%20Longo.png?itok=tI76mNaa",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   },
   {
     "id": "ZW",
@@ -667,7 +893,13 @@
     "lat": -17.8292,
     "lng": 31.0522,
     "phone": "+263 772287920",
-    "email": "zimbabwescouts@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "facebook": "https://www.facebook.com/ScoutsZimbabwe/",
+    "socialVerificationSource": "https://www.facebook.com/ScoutsZimbabwe/",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/4018/SCT_Emblem_rgb_round%20Purple_video.png?itok=_YbdNqVx",
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
   }
 ]

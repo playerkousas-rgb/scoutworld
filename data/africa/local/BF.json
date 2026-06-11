@@ -13,22 +13,11 @@
     "lng": -1.5197,
     "address": "01 BP 2548, Ouagadougou 01, Burkina Faso",
     "phone": "+226 70173559",
-    "email": "asbfenint@gmail.com",
-    "description": "布吉納法索童軍聯盟（Fédération Burkinabé du Scoutisme），1943年成立，WOSM成員。總部位於瓦加杜古。會員約7,674人。"
-  },
-  {
-    "id": "BF-REGION-OUAGADOUGOU",
-    "parentCountry": "BF",
-    "level": 3,
-    "type": "Council",
-    "flag": "🏛️",
-    "category": "地區童軍會 (Regional Council)",
-    "name": "瓦加杜古地區童軍會",
-    "nameEn": "Ouagadougou Regional Scout Council",
-    "subregion": "瓦加杜古 (Ouagadougou)",
-    "lat": 12.3723,
-    "lng": -1.5197,
-    "address": "Ouagadougou, Burkina Faso",
-    "description": "瓦加杜古地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+    "email": "",
+    "description": "布吉納法索童軍聯盟（Fédération Burkinabé du Scoutisme），1943年成立，WOSM成員。總部位於瓦加杜古。會員約7,674人。 Facebook 資訊來源主要為地區／公開頁，未必代表全國總會，出發前請以 WOSM 或最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ imported from WOSM/local data; source verification pending; social source is regional/public page, verify national status before travel",
+    "facebook": "https://www.facebook.com/scouts.centre.bf/",
+    "socialVerificationSource": "https://www.facebook.com/scouts.centre.bf/"
   }
 ]
