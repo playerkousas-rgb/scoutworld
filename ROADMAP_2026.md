@@ -111,3 +111,8 @@ Every 6–12 months:
 - check social channels
 - check camps and Scout Shops
 - update reports
+
+## World resources layer
+
+- Initial layer completed: WSB, KISC, SCENES directory, WOSM Services, JOTA-JOTI, World Scout Foundation.
+- Future: add selected SCENES centre deep links by country only if official and useful for travel planning.

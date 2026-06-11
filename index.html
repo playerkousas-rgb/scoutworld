@@ -237,6 +237,12 @@
             ⚜️ 香港 (Hong Kong)
           </button>
           <button 
+            data-region="Global" 
+            class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
+          >
+            🌐 世界資源
+          </button>
+          <button 
             data-region="Asia-Pacific" 
             class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
           >
@@ -271,7 +277,7 @@
       
       <!-- List Stats -->
       <div class="bg-[#010a24] px-4 py-2 text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between flex-shrink-0">
-        <span>WOSM成員列表 (<span id="filtered-count">0</span>)</span>
+        <span>WOSM成員 / 全球資源列表 (<span id="filtered-count">0</span>)</span>
         <span id="loading-indicator" class="text-amber-400 flex items-center gap-1">
           <i class="fa-solid fa-circle-notch animate-spin"></i> 載入中...
         </span>
@@ -721,6 +727,7 @@
 
     // Configuration & State
     const regionFiles = {
+      'Global': 'data/world/region.json',
       'Asia-Pacific': 'data/asia-pacific/region.json',
       'Europe': 'data/europe/region.json',
       'Interamerica': 'data/americas/region.json',
@@ -731,6 +738,7 @@
     // Maps each country code to its region folder for local JSON loading
     // Hong Kong (HK) stays separate at data/local/HK.json
     const countryRegionMap = {
+      'WORLD':'world',
       'AO':'africa', 'BF':'africa', 'BI':'africa', 'BJ':'africa', 'BW':'africa', 'CD':'africa', 'CI':'africa', 'CM':'africa', 'CV':'africa', 'ET':'africa', 'GA':'africa', 'GH':'africa', 'GM':'africa', 'GN':'africa', 'KE':'africa', 'KM':'africa', 'LR':'africa', 'LS':'africa', 'MG':'africa', 'MU':'africa', 'MW':'africa', 'MZ':'africa', 'NA':'africa', 'NE':'africa', 'NG':'africa', 'RW':'africa', 'SC':'africa', 'SL':'africa', 'SN':'africa', 'SS':'africa', 'ST':'africa', 'SZ':'africa', 'TD':'africa', 'TG':'africa', 'TZ':'africa', 'UG':'africa', 'ZA':'africa', 'ZM':'africa', 'ZW':'africa',
       'AG':'americas', 'AR':'americas', 'AW':'americas', 'BB':'americas', 'BO':'americas', 'BR':'americas', 'BS':'americas', 'BZ':'americas', 'CA':'americas', 'CL':'americas', 'CO':'americas', 'CR':'americas', 'CW':'americas', 'DM':'americas', 'DO':'americas', 'EC':'americas', 'GD':'americas', 'GT':'americas', 'GY':'americas', 'HN':'americas', 'HT':'americas', 'JM':'americas', 'LC':'americas', 'MX':'americas', 'NI':'americas', 'PA':'americas', 'PE':'americas', 'PY':'americas', 'SR':'americas', 'SV':'americas', 'TT':'americas', 'US':'americas', 'UY':'americas', 'VC':'americas', 'VE':'americas',
       'AE':'arab', 'BH':'arab', 'DZ':'arab', 'EG':'arab', 'IQ':'arab', 'JO':'arab', 'KW':'arab', 'LB':'arab', 'LY':'arab', 'MA':'arab', 'MR':'arab', 'OM':'arab', 'PS':'arab', 'QA':'arab', 'SA':'arab', 'SD':'arab', 'SY':'arab', 'TN':'arab', 'YE':'arab',
@@ -1497,6 +1505,7 @@
       drawerCountryEn.textContent = org.countryEn || '';
       
       const regionNames = {
+        'Global': '全球童軍資源層 (World Scouting Resources)',
         'Asia-Pacific': '亞太童軍區 (Asia-Pacific Region)',
         'Europe': '歐洲童軍區 (Europe Region)',
         'Interamerica': '美洲童軍區 (Interamerica Region)',
@@ -1505,7 +1514,7 @@
       };
       drawerRegion.textContent = regionNames[org.wosmRegion] || org.wosmRegion || '世界童軍運動';
       
-      drawerCategoryLabel.textContent = 'WOSM成員組織名稱';
+      drawerCategoryLabel.textContent = org.id === 'WORLD' ? '全球資源層名稱' : 'WOSM成員組織名稱';
       drawerOrgFull.textContent = org.orgFull || `${org.country}童軍運動`;
       
       // Show stats & source
@@ -1598,7 +1607,7 @@
       }
       
       drawerWosmSource.href = org.wosmSource || 'https://www.scout.org';
-      drawerWosmSource.innerHTML = '查閱 WOSM / scout.org 原始資料 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>';
+      drawerWosmSource.innerHTML = org.id === 'WORLD' ? '查閱 World Scouting 原始資料 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>' : '查閱 WOSM / scout.org 原始資料 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>';
       
       // Slide Open
       detailDrawer.classList.remove('translate-x-full');
@@ -1704,6 +1713,7 @@
         // Auto flight map to target region!
         const regionCoordinates = {
           'HK-Special': { coords: [22.3025, 114.1687], zoom: 11 },
+          'Global': { coords: [20.0, 20.0], zoom: 2 },
           'Asia-Pacific': { coords: [15.0, 120.0], zoom: 4 },
           'Europe': { coords: [50.0, 15.0], zoom: 4 },
           'Interamerica': { coords: [10.0, -80.0], zoom: 3 },
