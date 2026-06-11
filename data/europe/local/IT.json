@@ -14,8 +14,11 @@
     "address": "Piazza Pasquale Paoli 18, 00186 Roma, Italy",
     "phone": "+39 06 68134716",
     "website": "https://www.scouteguide.it/",
-    "email": "info@scouteguide.it",
-    "description": "Federazione Italiana dello Scautismo（FIS）是義大利 WOSM／WAGGGS 承認的國家童軍與女童軍聯合會，聯合 AGESCI 與 CNGEI。FIS 官方 Contatti 頁列出地址 Piazza Pasquale Paoli 18, Roma。"
+    "email": "",
+    "description": "Federazione Italiana dello Scautismo（FIS）是義大利 WOSM／WAGGGS 承認的國家童軍與女童軍聯合會，聯合 AGESCI 與 CNGEI。FIS 官方 Contatti 頁列出地址 Piazza Pasquale Paoli 18, Roma。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scouteguide.it/"
   },
   {
     "id": "IT-HQ-AGESCI-ROMA",
@@ -32,10 +35,14 @@
     "address": "Piazza Pasquale Paoli 18, 00186 Roma, Italy",
     "phone": "+39 06 681661",
     "website": "https://www.agesci.it/contatti/",
-    "email": "infoscout@agesci.it",
+    "email": "",
     "instagram": "agesci.nazionale",
-    "facebook": "agesci",
-    "description": "AGESCI 是 FIS 旗下主要會員組織之一，為義大利天主教共教育童軍與女童軍組織。AGESCI 官方 Contatti 頁列出全國總部位於 Piazza Pasquale Paoli 18, Roma。"
+    "facebook": "https://www.facebook.com/agesci/",
+    "description": "AGESCI 是 FIS 旗下主要會員組織之一，為義大利天主教共教育童軍與女童軍組織。AGESCI 官方 Contatti 頁列出全國總部位於 Piazza Pasquale Paoli 18, Roma。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.agesci.it/contatti/",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
   },
   {
     "id": "IT-HQ-CNGEI-ROMA",
@@ -52,8 +59,15 @@
     "address": "Via Pio Emanuelli 122, 00143 Roma, Italy",
     "phone": "+39 06 54221391",
     "website": "https://cngei.it/contatti/",
-    "email": "sc@cngei.it",
-    "description": "CNGEI 是 FIS 旗下會員組織之一，為義大利世俗、非宗教童軍組織。CNGEI 官方 Contatti 頁列出中央辦公室地址 Via Pio Emanuelli 122, Roma。"
+    "email": "",
+    "description": "CNGEI 是 FIS 旗下會員組織之一，為義大利世俗、非宗教童軍組織。CNGEI 官方 Contatti 頁列出中央辦公室地址 Via Pio Emanuelli 122, Roma。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://cngei.it/contatti/",
+    "facebook": "https://www.facebook.com/cngei.it",
+    "instagram": "cngei",
+    "youtube": "https://www.youtube.com/channel/UCj54lt4yHxzjRQPl6ztZp_Q",
+    "socialVerificationSource": "https://linktr.ee/cngei"
   },
   {
     "id": "IT-CENTRE-CNGEI-STUDI-TRIESTE",
@@ -70,8 +84,11 @@
     "address": "Via Torrebianca 30, 34122 Trieste, Italy",
     "phone": "+39 06 54221391",
     "website": "https://cngei.it/contatti/",
-    "email": "sc@cngei.it",
-    "description": "CNGEI 官方 Contatti 頁列出 Centro Studi Scout “Eletta e Franco Olivo” 位於 Trieste, Via Torrebianca 30，收藏與推廣義大利及世界童軍歷史資料、文獻、制服與研究資源。"
+    "email": "",
+    "description": "CNGEI 官方 Contatti 頁列出 Centro Studi Scout “Eletta e Franco Olivo” 位於 Trieste, Via Torrebianca 30，收藏與推廣義大利及世界童軍歷史資料、文獻、制服與研究資源。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://cngei.it/contatti/"
   },
   {
     "id": "IT-SHOP-FIORDALISO-ROMA",
@@ -88,7 +105,13 @@
     "address": "Piazza Pasquale Paoli 18, 00186 Roma, Italy",
     "phone": "+39 06 68808270",
     "website": "https://www.fiordaliso.it/",
-    "description": "Fiordaliso 是 AGESCI 關聯童軍用品與出版／裝備網絡。Fiordaliso 官方資料列出 Piazza Pasquale Paoli 18, Roma，並販售制服、徽章、戶外用品與 Scout Tech 等用品。"
+    "description": "Fiordaliso 是 AGESCI 關聯童軍用品與出版／裝備網絡。Fiordaliso 官方資料列出 Piazza Pasquale Paoli 18, Roma，並販售制服、徽章、戶外用品與 Scout Tech 等用品。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.fiordaliso.it/",
+    "facebook": "https://www.facebook.com/Fiordaliso-Srl-SB-436000986933447",
+    "instagram": "fiordaliso_srlsb",
+    "socialVerificationSource": "https://www.fiordaliso.it/"
   },
   {
     "id": "IT-CAMP-COLICO-KELLY",
@@ -105,7 +128,10 @@
     "address": "Via Lido, 23823 Colico LC, Italy",
     "phone": "+39 0341 930164",
     "website": "https://cba.agesci.it/base/campo-scuola-nazionale-giulio-uccellini-kelly-colico/",
-    "description": "AGESCI Comunità Basi 官方頁列出 Colico 的 Campo Scuola Nazionale Giulio Uccellini “Kelly” 為全國級訓練基地，用於單位營、領袖訓練、專項技能營與宗教助理訓練。"
+    "description": "AGESCI Comunità Basi 官方頁列出 Colico 的 Campo Scuola Nazionale Giulio Uccellini “Kelly” 為全國級訓練基地，用於單位營、領袖訓練、專項技能營與宗教助理訓練。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://cba.agesci.it/base/campo-scuola-nazionale-giulio-uccellini-kelly-colico/"
   },
   {
     "id": "IT-CAMP-SCRICCIOLO-TENACE",
@@ -121,7 +147,10 @@
     "lng": 9.363,
     "address": "Colico / Mera River - Lake Como area, Italy",
     "website": "https://cba.agesci.it/base/base-scout-scricciolo-tenace/",
-    "description": "AGESCI Comunità Basi 官方頁列出 Scricciolo Tenace 為可直接進入 Mera river 與 Lake Como 的水上基地，配有船艇、12 個室內床位與約 30 人帳篷空間，需由相關航海隊協助活動。"
+    "description": "AGESCI Comunità Basi 官方頁列出 Scricciolo Tenace 為可直接進入 Mera river 與 Lake Como 的水上基地，配有船艇、12 個室內床位與約 30 人帳篷空間，需由相關航海隊協助活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://cba.agesci.it/base/base-scout-scricciolo-tenace/"
   },
   {
     "id": "IT-CAMP-VOLPE-ASTUTA",
@@ -137,7 +166,10 @@
     "lng": 13.3246,
     "address": "Via Micciulla 5, Altarello di Baida, Palermo, Sicily, Italy",
     "website": "https://cba.agesci.it/base/base-scout-volpe-astuta/",
-    "description": "AGESCI Comunità Basi 官方頁列出 Base Scout “Volpe Astuta” 位於 Palermo, Via Micciulla 5；該地為被國家沒收後轉作社會用途的前黑手黨資產，是推動合法、公民與反黑手黨教育的重要童軍基地。"
+    "description": "AGESCI Comunità Basi 官方頁列出 Base Scout “Volpe Astuta” 位於 Palermo, Via Micciulla 5；該地為被國家沒收後轉作社會用途的前黑手黨資產，是推動合法、公民與反黑手黨教育的重要童軍基地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://cba.agesci.it/base/base-scout-volpe-astuta/"
   },
   {
     "id": "IT-CAMP-MARIO-MAZZA-VILLA-BURI",
@@ -153,7 +185,10 @@
     "lng": 11.0435,
     "address": "Villa Buri, San Michele Extra, Verona, Italy",
     "website": "https://cba.agesci.it/base/base-scout-mario-mazza/",
-    "description": "AGESCI Comunità Basi 官方頁列出 Base Scout “Mario Mazza” 位於 Verona 的 Villa Buri 約 13 公頃公園內，歷史上為義大利最早重要童軍訓練基地之一，提供營地、會議與教育活動空間。"
+    "description": "AGESCI Comunità Basi 官方頁列出 Base Scout “Mario Mazza” 位於 Verona 的 Villa Buri 約 13 公頃公園內，歷史上為義大利最早重要童軍訓練基地之一，提供營地、會議與教育活動空間。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://cba.agesci.it/base/base-scout-mario-mazza/"
   },
   {
     "id": "IT-CAMP-CNGEI-COLLE-ARA",
@@ -169,7 +204,13 @@
     "lng": 12.885,
     "address": "Via Colle dell’Ara 50, 04010 Cori LT, Italy",
     "website": "https://velletri.cngei.it/dove-trovarci/base-scout/",
-    "description": "CNGEI Velletri 官方頁列出 Base Scout Colle dell’Ara 位於 Giulianello / Cori，全年可用於出隊、過夜與夏季營，位於 Monti Lepini 丘陵森林區，鄰近 Lago di Giulianello。"
+    "description": "CNGEI Velletri 官方頁列出 Base Scout Colle dell’Ara 位於 Giulianello / Cori，全年可用於出隊、過夜與夏季營，位於 Monti Lepini 丘陵森林區，鄰近 Lago di Giulianello。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://velletri.cngei.it/dove-trovarci/base-scout/",
+    "facebook": "https://www.facebook.com/basescoutgiulianello",
+    "instagram": "basescout_colledellara",
+    "socialVerificationSource": "https://velletri.cngei.it/dove-trovarci/base-scout/"
   },
   {
     "id": "IT-GROUP-FINDER-CNGEI",
@@ -185,8 +226,12 @@
     "lng": 12.4895,
     "address": "CNGEI groups across Italy; contact via Via Pio Emanuelli 122, Roma",
     "website": "https://cngei.it/dove-trovarci/",
-    "email": "sc@cngei.it",
-    "description": "CNGEI 官方 Dove trovarci 頁提供全國地區與童軍分會搜尋，供查找附近的世俗童軍團。此項以 CNGEI 全國總部作為網絡代表座標。"
+    "email": "",
+    "description": "CNGEI 官方 Dove trovarci 頁提供全國地區與童軍分會搜尋，供查找附近的世俗童軍團。此項以 CNGEI 全國總部作為網絡代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://cngei.it/dove-trovarci/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "IT-COUNCIL-AGESCI-LOMBARDIA",
@@ -202,7 +247,11 @@
     "lng": 9.1896,
     "address": "Milan / Lombardy, Italy",
     "website": "https://www.agesci.it/",
-    "description": "AGESCI 在義大利各地設有區域／地方團網絡；此項標示北義 Lombardia / Milan 活躍童軍地區，具體地方團資訊應透過 AGESCI 或地方區域網站查詢。"
+    "description": "AGESCI 在義大利各地設有區域／地方團網絡；此項標示北義 Lombardia / Milan 活躍童軍地區，具體地方團資訊應透過 AGESCI 或地方區域網站查詢。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.agesci.it/",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
   },
   {
     "id": "IT-COUNCIL-AGESCI-CAMPANIA",
@@ -218,6 +267,10 @@
     "lng": 14.2488,
     "address": "Naples / Campania, Italy",
     "website": "https://www.agesci.it/",
-    "description": "AGESCI 在義大利各地設有區域／地方團網絡；此項標示南義 Campania / Naples 活躍童軍地區，具體地方團資訊應透過 AGESCI 或地方區域網站查詢。"
+    "description": "AGESCI 在義大利各地設有區域／地方團網絡；此項標示南義 Campania / Naples 活躍童軍地區，具體地方團資訊應透過 AGESCI 或地方區域網站查詢。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.agesci.it/",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
   }
 ]

@@ -14,8 +14,14 @@
     "address": "Chausseestr. 128/129, 10115 Berlin, Germany",
     "phone": "+49 30 288 789 535",
     "website": "https://pfadfinden-in-deutschland.de/",
-    "email": "info@pfadfinden-in-deutschland.de",
-    "description": "Ring deutscher Pfadfinder*innenverbände（rdp）是德國 WOSM／WAGGGS 國家童軍與女童軍聯合平台。官方網站列明 rdp 代表五個會員組織、約 170,000 名成員，在青年政策、國際童軍與公共倡議上代表德國童軍。"
+    "email": "",
+    "description": "Ring deutscher Pfadfinder*innenverbände（rdp）是德國 WOSM／WAGGGS 國家童軍與女童軍聯合平台。官方網站列明 rdp 代表五個會員組織、約 170,000 名成員，在青年政策、國際童軍與公共倡議上代表德國童軍。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadfinden-in-deutschland.de/",
+    "facebook": "https://www.facebook.com/pfadfindenindeutschland",
+    "instagram": "rdppfadfinden",
+    "socialVerificationSource": "https://pfadfinden-in-deutschland.de/"
   },
   {
     "id": "DE-HQ-DPSG-MOENCHENGLADBACH",
@@ -32,10 +38,15 @@
     "address": "Bismarckplatz 7/7a, 41061 Mönchengladbach, Germany",
     "phone": "+49 2161 91823810",
     "website": "https://dpsg.de/",
-    "email": "info@dpsg.de",
+    "email": "",
     "instagram": "dpsg.de",
-    "facebook": "dpsg.de",
-    "description": "DPSG 是 rdp 五個會員組織之一，也是德國天主教共教育童軍組織。官方 Impressum 列出其聯邦辦公室位於 Mönchengladbach。"
+    "facebook": "https://www.facebook.com/dpsg.de/",
+    "description": "DPSG 是 rdp 五個會員組織之一，也是德國天主教共教育童軍組織。官方 Impressum 列出其聯邦辦公室位於 Mönchengladbach。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://dpsg.de/",
+    "youtube": "https://www.youtube.com/user/scoutedich",
+    "socialVerificationSource": "https://dpsg.de/"
   },
   {
     "id": "DE-HQ-BDP-IMMENHAUSEN",
@@ -52,9 +63,15 @@
     "address": "Kesselhaken 23, 34376 Immenhausen, Germany",
     "phone": "+49 5673 995840",
     "website": "https://www.pfadfinden.de/",
-    "email": "info@pfadfinden.de",
+    "email": "",
     "instagram": "pfadfinden",
-    "description": "BdP 是 rdp 會員組織之一，為跨信仰、共教育的德國童軍組織。官方 Impressum 列出總部位於 Immenhausen 的 Zentrum Pfadfinden。"
+    "description": "BdP 是 rdp 會員組織之一，為跨信仰、共教育的德國童軍組織。官方 Impressum 列出總部位於 Immenhausen 的 Zentrum Pfadfinden。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.pfadfinden.de/",
+    "facebook": "https://www.facebook.com/pfadfinden/",
+    "youtube": "https://www.youtube.com/@bdppfadfinden",
+    "socialVerificationSource": "https://www.facebook.com/pfadfinden/"
   },
   {
     "id": "DE-HQ-VCP-KASSEL",
@@ -71,8 +88,14 @@
     "address": "Wichernweg 3, 34121 Kassel, Germany",
     "phone": "+49 561 784370",
     "website": "https://vcp.de/",
-    "email": "info@vcp.de",
-    "description": "VCP 是 rdp 會員組織之一，為德國基督教／新教背景的共教育童軍組織。官方 Impressum 列明聯邦辦公室位於 Kassel。"
+    "email": "",
+    "description": "VCP 是 rdp 會員組織之一，為德國基督教／新教背景的共教育童軍組織。官方 Impressum 列明聯邦辦公室位於 Kassel。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://vcp.de/",
+    "facebook": "https://www.facebook.com/vcp.de",
+    "instagram": "vcp_de",
+    "socialVerificationSource": "https://vcp.de/"
   },
   {
     "id": "DE-HQ-PSG-DUESSELDORF",
@@ -89,8 +112,14 @@
     "address": "Carl-Mosterts-Platz 1, 40477 Düsseldorf, Germany",
     "phone": "+49 211 4403830",
     "website": "https://www.pfadfinderinnen.de/",
-    "email": "info@pfadfinderinnen.de",
-    "description": "PSG 是 rdp 會員組織之一，為德國天主教女童軍組織。官方 Kontakt 頁列出 PSG Bundesamt 位於 Düsseldorf。"
+    "email": "",
+    "description": "PSG 是 rdp 會員組織之一，為德國天主教女童軍組織。官方 Kontakt 頁列出 PSG Bundesamt 位於 Düsseldorf。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.pfadfinderinnen.de/",
+    "facebook": "https://www.facebook.com/PSGBundesverband",
+    "instagram": "pfadfinderinnen",
+    "socialVerificationSource": "https://www.pfadfinderinnen.de/"
   },
   {
     "id": "DE-HQ-BMPPD-WIESBADEN",
@@ -106,8 +135,15 @@
     "lng": 8.2411,
     "address": "Saalgasse 11, 65183 Wiesbaden, Germany",
     "website": "https://muslimische-pfadfinder.de/",
-    "email": "vorstand@muslimische-pfadfinder.de",
-    "description": "BMPPD 是 rdp 會員組織之一，為德國穆斯林童軍與女童軍組織。官方 Impressum 列出 Bundeszentrale 位於 Wiesbaden。"
+    "email": "",
+    "description": "BMPPD 是 rdp 會員組織之一，為德國穆斯林童軍與女童軍組織。官方 Impressum 列出 Bundeszentrale 位於 Wiesbaden。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://muslimische-pfadfinder.de/",
+    "facebook": "https://www.facebook.com/BMPPD",
+    "instagram": "muslimischepfadfinder",
+    "youtube": "https://www.youtube.com/channel/UCx46rK53X8CXiwxMj_yZ7fA",
+    "socialVerificationSource": "https://muslimische-pfadfinder.de/"
   },
   {
     "id": "DE-CAMP-WESTERNOHE",
@@ -124,9 +160,12 @@
     "address": "Zum Weitstein 50, 56479 Westernohe, Germany",
     "phone": "+49 2664 5070",
     "website": "https://bundeszentrum.dpsg.de/",
-    "email": "westernohe@dpsg.de",
-    "facebook": "westernohe",
-    "description": "DPSG 官方聯邦中心與大型營地，設有房舍、營地、教育活動與物資服務。官方 Impressum 列明 Westernohe 聯絡電話與地址，為德國最重要的天主教童軍營地之一。"
+    "email": "",
+    "facebook": "https://www.facebook.com/westernohe/",
+    "description": "DPSG 官方聯邦中心與大型營地，設有房舍、營地、教育活動與物資服務。官方 Impressum 列明 Westernohe 聯絡電話與地址，為德國最重要的天主教童軍營地之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://bundeszentrum.dpsg.de/"
   },
   {
     "id": "DE-CAMP-IMMENHAUSEN",
@@ -143,9 +182,13 @@
     "address": "Kesselhaken 23, 34376 Immenhausen, Germany",
     "phone": "+49 5673 995840",
     "website": "https://www.pfadfinden.de/",
-    "email": "info@pfadfinden.de",
+    "email": "",
     "instagram": "zentrum_pfadfinden",
-    "description": "BdP 總部所在地，同時作為全國活動、訓練與營隊中心使用；Nominatim/OSM 亦標示為 BdP Bundeszentrum camp_site。"
+    "description": "BdP 總部所在地，同時作為全國活動、訓練與營隊中心使用；Nominatim/OSM 亦標示為 BdP Bundeszentrum camp_site。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.pfadfinden.de/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "DE-CAMP-RIENECK",
@@ -162,8 +205,16 @@
     "address": "Schloßberg 1, 97794 Rieneck, Germany",
     "phone": "+49 9354 902317",
     "website": "https://www.burg-rieneck.de/",
-    "email": "info@burg-rieneck.de",
-    "description": "Burg Rieneck 官方頁列明其為 Bildungs- und Erholungswerk Burg Rieneck e.V.，並標示為「Burg der Pfadfinderinnen und Pfadfinder in Europa」及 VCP 相關場地。中世紀城堡現作童軍、青年教育、研習與住宿使用。"
+    "email": "",
+    "description": "Burg Rieneck 官方頁列明其為 Bildungs- und Erholungswerk Burg Rieneck e.V.，並標示為「Burg der Pfadfinderinnen und Pfadfinder in Europa」及 VCP 相關場地。中世紀城堡現作童軍、青年教育、研習與住宿使用。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.burg-rieneck.de/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/BurgRieneck",
+    "instagram": "burgrieneck.de",
+    "youtube": "https://www.youtube.com/@burgrieneck4624",
+    "socialVerificationSource": "https://www.burg-rieneck.de/"
   },
   {
     "id": "DE-CAMP-GROSSZERLANG",
@@ -180,8 +231,11 @@
     "address": "Birkenweg 15, 16831 Großzerlang, Germany",
     "phone": "+49 33921 70333",
     "website": "https://vcp-bundeszeltplatz.de/",
-    "email": "bzg-info@vcp.de",
-    "description": "VCP 官方聯邦帳篷營地，位於 Brandenburg 的湖區，官方地址頁列出 Birkenweg 15 及座標 53°11’51″N 12°56’58″E，適合營隊、划艇與自然活動。"
+    "email": "",
+    "description": "VCP 官方聯邦帳篷營地，位於 Brandenburg 的湖區，官方地址頁列出 Birkenweg 15 及座標 53°11’51″N 12°56’58″E，適合營隊、划艇與自然活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://vcp-bundeszeltplatz.de/"
   },
   {
     "id": "DE-SHOP-RUESTHAUS",
@@ -198,8 +252,11 @@
     "address": "Zum Weitstein 50, 56479 Westernohe, Germany",
     "phone": "+49 2664 50790",
     "website": "https://www.ruesthaus.de/",
-    "email": "info@ruesthaus.de",
-    "description": "Rüsthaus 是 DPSG 相關官方裝備與童軍用品商店，官方 Impressum 列出地址位於 Westernohe，提供制服、徽章、露營用品與 DPSG 用品。"
+    "email": "",
+    "description": "Rüsthaus 是 DPSG 相關官方裝備與童軍用品商店，官方 Impressum 列出地址位於 Westernohe，提供制服、徽章、露營用品與 DPSG 用品。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.ruesthaus.de/"
   },
   {
     "id": "DE-SHOP-FAHRTENBEDARF",
@@ -216,7 +273,10 @@
     "address": "Wichernweg 3, 34121 Kassel, Germany",
     "phone": "+49 561 7843777",
     "website": "https://www.fahrtenbedarf.de/",
-    "email": "freizeit@fahrtenbedarf.de",
-    "description": "Freizeit- und Fahrtenbedarf GmbH 官方 Impressum 指出其屬於 VCP，並經營 VCP-Shop、Verbändebedarf、帳篷、戶外裝備與童軍用品。"
+    "email": "",
+    "description": "Freizeit- und Fahrtenbedarf GmbH 官方 Impressum 指出其屬於 VCP，並經營 VCP-Shop、Verbändebedarf、帳篷、戶外裝備與童軍用品。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.fahrtenbedarf.de/"
   }
 ]

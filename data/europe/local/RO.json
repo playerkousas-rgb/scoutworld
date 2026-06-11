@@ -14,8 +14,15 @@
     "address": "Strada Vigilenței nr. 7, Sector 5, București, Romania",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "WOSM Europe 列 Cercetașii României 為羅馬尼亞 WOSM 成員 National Scout Organization，地址 Str. Vigilenței nr. 7, București。ONCR 官方 Termeni și condiții 亦列組織 sediu social 為 București, Str. Vigilenței nr. 7, sector 5，email contact@scout.ro。"
+    "email": "",
+    "description": "WOSM Europe 列 Cercetașii României 為羅馬尼亞 WOSM 成員 National Scout Organization，地址 Str. Vigilenței nr. 7, București。ONCR 官方 Termeni și condiții 亦列組織 sediu social 為 București, Str. Vigilenței nr. 7, sector 5，contact details。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-HQ-ONCR-CORRESPONDENCE-REGIEI",
@@ -32,8 +39,11 @@
     "address": "Bd. Regiei nr. 6B, etaj 4, 060204, Sector 6, București, Romania",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/contact/",
-    "email": "contact@scout.ro",
-    "description": "ONCR 官方 Contact 頁列電話 +40 723 723 827、電郵 contact@scout.ro，並列 poștal correspondence address 為 Bd. Regiei, nr. 6B, etaj 4, cod poştal 060204, sector 6, Bucureşti。"
+    "email": "",
+    "description": "ONCR 官方 Contact 頁列電話 +40 723 723 827，並列 poștal correspondence address 為 Bd. Regiei, nr. 6B, etaj 4, cod poştal 060204, sector 6, Bucureşti。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/contact/"
   },
   {
     "id": "RO-SHOP-RO-SCOUT-SHOP",
@@ -50,8 +60,15 @@
     "address": "Strada Vigilenței nr. 7, București; online shop",
     "phone": "+40 747 289 334",
     "website": "https://shop.scout.ro/",
-    "email": "shop@scout.ro",
-    "description": "Scout Shop 官方 About 頁說 SC Ro Scout Shop SRL 是 Organizația Națională „Cercetașii României” 的官方商店，由 ONCR 全資持有，生產及銷售 ecusoane、eșarfe、uniformă、outdoor/camping 及活動材料；官方商店頁亦列制服、徽章、露營用品等分類。"
+    "email": "",
+    "description": "Scout Shop 官方 About 頁說 SC Ro Scout Shop SRL 是 Organizația Națională „Cercetașii României” 的官方商店，由 ONCR 全資持有，生產及銷售 ecusoane、eșarfe、uniformă、outdoor/camping 及活動材料；官方商店頁亦列制服、徽章、露營用品等分類。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://shop.scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-CAMP-NOCRICH-HABERMANN",
@@ -68,8 +85,15 @@
     "address": "No. 208, Nocrich, Sibiu County, Romania",
     "phone": "+40 770 216 390",
     "website": "http://www.nocrich.scout.ro/",
-    "email": "nocrich@scout.ro",
-    "description": "Centrul Cercetășesc Nocrich – H.C. Habermann 是 ONCR 的 scout educational youth centre，EU Youth Portal 及 ONCR 官方文章均描述其由 ONCR 於 2010 年在 Transylvania/Nocrich 發展，舉辦夏令營、國際志願者、陶藝工作坊和非形式教育活動。"
+    "email": "",
+    "description": "Centrul Cercetășesc Nocrich – H.C. Habermann 是 ONCR 的 scout educational youth centre，EU Youth Portal 及 ONCR 官方文章均描述其由 ONCR 於 2010 年在 Transylvania/Nocrich 發展，舉辦夏令營、國際志願者、陶藝工作坊和非形式教育活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.nocrich.scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-CAMP-NATIONAL-SUMMER-CAMPS-NETWORK",
@@ -86,8 +110,15 @@
     "address": "Nationwide; coordination through ONCR and local centres",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR 官方新聞多次提到全國及地方 camp，包括 Camp de Nocrich、camp de supravieţuire “Pierdut în Pădure” 在 Săcărâmb, Hunedoara、Camp Național de Lupișori，以及多個 Centre Locale 的 campuri。此項作為官方 camp programme / camp network 入口，非單一固定營地。"
+    "email": "",
+    "description": "ONCR 官方新聞多次提到全國及地方 camp，包括 Camp de Nocrich、camp de supravieţuire “Pierdut în Pădure” 在 Săcărâmb, Hunedoara、Camp Național de Lupișori，以及多個 Centre Locale 的 campuri。此項作為官方 camp programme / camp network 入口，非單一固定營地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-CAMP-SACARAMB-SURVIVAL",
@@ -104,8 +135,15 @@
     "address": "Săcărâmb, Hunedoara County, Romania",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR 官方新聞中提到 campul de supravieţuire „Pierdut în Pădure” 於 Săcărâmb, jud. Hunedoara 舉行。此項只作代表性活動地區記錄，實際年度營地以 ONCR / local centre 公布為準。"
+    "email": "",
+    "description": "ONCR 官方新聞中提到 campul de supravieţuire „Pierdut în Pădure” 於 Săcărâmb, jud. Hunedoara 舉行。此項只作代表性活動地區記錄，實際年度營地以 ONCR / local centre 公布為準。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-LOCAL-CENTRES-NETWORK",
@@ -122,8 +160,15 @@
     "address": "Nationwide local centres; contact via ONCR national office",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR 官方內容及合作資料記錄羅馬尼亞童軍由多個 Centre Locale / groups 組成；近期官方活動頁亦列多個 active local centres。此項作為官方地方中心總入口。"
+    "email": "",
+    "description": "ONCR 官方內容及合作資料記錄羅馬尼亞童軍由多個 Centre Locale / groups 組成；近期官方活動頁亦列多個 active local centres。此項作為官方地方中心總入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-BUCHAREST-CENTRES",
@@ -140,8 +185,15 @@
     "address": "București; local centres including ALB, Steaua Polară, Sfântul Nicolae, Scout Sfânta Tereza and others",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR 官方活動文章列出多個 București local centres，如 Steaua Polară, Cercetașii Franciscani București, Scout Sfânta Tereza, Sfântul Nicolae 等；Festivalul Luminii București 亦由 ONCR 及 București scouts 組織。"
+    "email": "",
+    "description": "ONCR 官方活動文章列出多個 București local centres，如 Steaua Polară, Cercetașii Franciscani București, Scout Sfânta Tereza, Sfântul Nicolae 等；Festivalul Luminii București 亦由 ONCR 及 București scouts 組織。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-SFANTUL-NICOLAE-BUCHAREST",
@@ -158,8 +210,15 @@
     "address": "Calea Plevnei nr. 61, Sector 1, București, Romania",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR 官方 local-centre archive / event references list Centrul Local Sfântul Nicolae in București; newer ONCR programme pages also mention CL Sfântul Nicolae București among participating centres."
+    "email": "",
+    "description": "ONCR 官方 local-centre archive / event references list Centrul Local Sfântul Nicolae in București; newer ONCR programme pages also mention CL Sfântul Nicolae București among participating centres.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-CLUJ",
@@ -176,8 +235,16 @@
     "address": "Cluj-Napoca, Romania; contact via local centres or ONCR",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR 官方和 programme pages 多次提及 Cluj-Napoca local centres，例如 CL Nord Cluj、CL Vest Cluj、Scout Cluj 及 local festival / projects。此項為 Cluj 地區代表點。"
+    "email": "",
+    "description": "ONCR 官方和 programme pages 多次提及 Cluj-Napoca local centres，例如 CL Nord Cluj、CL Vest Cluj、Scout Cluj 及 local festival / projects。此項為 Cluj 地區代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://scout.ro/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-TIMISOARA-LICOS",
@@ -194,8 +261,15 @@
     "address": "Timișoara, Romania; contact via ONCR/local centre",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR official archive and recent event category mention C.L. Licos Timișoara as an active local centre participating in national activities and events."
+    "email": "",
+    "description": "ONCR official archive and recent event category mention C.L. Licos Timișoara as an active local centre participating in national activities and events.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-IASI-SAPATINO",
@@ -212,8 +286,15 @@
     "address": "Iași, Romania; contact via ONCR/local centre",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR official activity pages mention CL Sapatino Iași in national projects, including water/plastic pollution education activities and local centre participation lists."
+    "email": "",
+    "description": "ONCR official activity pages mention CL Sapatino Iași in national projects, including water/plastic pollution education activities and local centre participation lists.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-BRASOV-ORIZONT",
@@ -230,8 +311,15 @@
     "address": "Brașov, Romania; contact via ONCR/local centre",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR official national page lists CL Orizont Brașov among centres involved in funded programmes and camps; Brașov is also repeatedly listed in national ONCR public events."
+    "email": "",
+    "description": "ONCR official national page lists CL Orizont Brașov among centres involved in funded programmes and camps; Brașov is also repeatedly listed in national ONCR public events.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-ALBA-IULIA-AXENTE-SEVER",
@@ -248,8 +336,15 @@
     "address": "Alba Iulia, Romania; contact via ONCR/local centre",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR official pages and archives mention CL Axente Sever – Alba Iulia among active local centres and camp/programme participants."
+    "email": "",
+    "description": "ONCR official pages and archives mention CL Axente Sever – Alba Iulia among active local centres and camp/programme participants.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-CONSTANTA-MARINI",
@@ -266,8 +361,15 @@
     "address": "Bd. Tomis nr. 40, Constanța, Romania",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR official local-centre archive lists Cercetașii Marini, Constanța, including Bd. Tomis nr. 40. This entry records the Black Sea / sea scout local centre representative point."
+    "email": "",
+    "description": "ONCR official local-centre archive lists Cercetașii Marini, Constanța, including Bd. Tomis nr. 40. This entry records the Black Sea / sea scout local centre representative point.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-AETOS-DROBETA",
@@ -284,8 +386,15 @@
     "address": "Drobeta-Turnu Severin, Romania; contact via ONCR/local centre",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR official event pages mention Aetos Drobeta-Turnu Severin as a participating local centre in national water/plastic pollution education and community projects."
+    "email": "",
+    "description": "ONCR official event pages mention Aetos Drobeta-Turnu Severin as a participating local centre in national water/plastic pollution education and community projects.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-MIRCEA-RAMNICU-VALCEA",
@@ -302,8 +411,15 @@
     "address": "Râmnicu Vâlcea, Romania; contact via ONCR/local centre",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR official pages list CL Mircea cel Bătrân, Râmnicu Vâlcea among active local centres and programme participants."
+    "email": "",
+    "description": "ONCR official pages list CL Mircea cel Bătrân, Râmnicu Vâlcea among active local centres and programme participants.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   },
   {
     "id": "RO-COUNCIL-CL-SIBIU-CETATEA-ROSIE",
@@ -320,7 +436,14 @@
     "address": "Sibiu, Romania; contact via ONCR/local centre",
     "phone": "+40 723 723 827",
     "website": "https://scout.ro/",
-    "email": "contact@scout.ro",
-    "description": "ONCR official explorer / national pages mention local centres in Sibiu including Cetatea Roșie Sibiu, and Nocrich Scout Centre is also located in Sibiu county."
+    "email": "",
+    "description": "ONCR official explorer / national pages mention local centres in Sibiu including Cetatea Roșie Sibiu, and Nocrich Scout Centre is also located in Sibiu county.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.ro/",
+    "facebook": "https://www.facebook.com/ONCercetasiiRomaniei",
+    "instagram": "cercetasii_romaniei",
+    "youtube": "https://www.youtube.com/c/ONCercetasiiRomaniei",
+    "socialVerificationSource": "https://scout.ro/"
   }
 ]

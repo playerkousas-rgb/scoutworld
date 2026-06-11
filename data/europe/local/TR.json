@@ -14,8 +14,15 @@
     "address": "Ata Mahallesi, Mavi Ladin Sitesi, 3520. Sokak No:4, Yenimahalle / Ankara, Türkiye",
     "phone": "+90 312 441 59 00; +90 312 441 59 01; +90 312 441 59 02",
     "website": "https://tif.org.tr/",
-    "email": "tifburo@tif.org.tr",
-    "description": "WOSM Europe 列 Türkiye İzcilik Federasyonu 為 Türkiye 的 WOSM 成員 National Scout Organization。TİF 官方 Teşkilat 頁列辦公地址為 Ata Mahallesi Mavi Ladin Sitesi 3520. Sokak No:4 Yenimahalle/ANKARA，電話 0312 441 59 00-01-02；TİF 官方首頁亦說該 federasyon 是 Türkiye 唯一 WOSM / WAGGGS 成員組織。"
+    "email": "",
+    "description": "WOSM Europe 列 Türkiye İzcilik Federasyonu 為 Türkiye 的 WOSM 成員 National Scout Organization。TİF 官方 Teşkilat 頁列辦公地址為 Ata Mahallesi Mavi Ladin Sitesi 3520. Sokak No:4 Yenimahalle/ANKARA，電話 0312 441 59 00-01-02；TİF 官方首頁亦說該 federasyon 是 Türkiye 唯一 WOSM / WAGGGS 成員組織。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-HQ-TIF-ANKARA-OLD-CANKAYA",
@@ -32,8 +39,11 @@
     "address": "Sümer 2 Sokak 25/4, Kızılay / Çankaya / Ankara, Türkiye",
     "phone": "+90 312 441 59 00",
     "website": "https://tif.org.tr/",
-    "email": "tifburo@tif.org.tr",
-    "description": "TİF 的舊版 iletişim 頁及其他公開資料曾列 Sümer 2 Sokak 25/4, Kızılay/Çankaya/ANKARA 作為 TİF Genel Merkez。因官方現行 Teşkilat 頁已列 Yenimahalle 地址，本項只作歷史／舊辦公地址參考。"
+    "email": "",
+    "description": "TİF 的舊版 iletişim 頁及其他公開資料曾列 Sümer 2 Sokak 25/4, Kızılay/Çankaya/ANKARA 作為 TİF Genel Merkez。因官方現行 Teşkilat 頁已列 Yenimahalle 地址，本項只作歷史／舊辦公地址參考。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-CAMP-BOLU-TEVFIK-GUNDAY",
@@ -50,8 +60,15 @@
     "address": "Bolu Aladağ Başalan Yaylası, Bolu, Türkiye",
     "phone": "+90 530 668 48 82; +90 543 719 88 64",
     "website": "https://tif.org.tr/bolu",
-    "email": "bolu@tif.org.tr",
-    "description": "TİF 官方 Bolu 頁列 Tevfik R. Günday İzcilik Kamp ve Eğitim Merkezi 位於 Bolu Aladağ Başalan Yaylası，為 tecrübeli izciler camp 及 lider eğitimleri 而設，具中心建築、revir、訓練設備及可容納約 1800 名 scouts 的 çadır alanı。座標為代表性近似點，實際路線按官方 Bolu 頁指引。"
+    "email": "",
+    "description": "TİF 官方 Bolu 頁列 Tevfik R. Günday İzcilik Kamp ve Eğitim Merkezi 位於 Bolu Aladağ Başalan Yaylası，為 tecrübeli izciler camp 及 lider eğitimleri 而設，具中心建築、revir、訓練設備及可容納約 1800 名 scouts 的 çadır alanı。座標為代表性近似點，實際路線按官方 Bolu 頁指引。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/bolu",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-CAMP-ISTANBUL-BEYKOZ",
@@ -68,8 +85,15 @@
     "address": "Küçüksu Caddesi 365, 34815 Beykoz, İstanbul, Türkiye",
     "phone": "+90 533 811 92 11",
     "website": "https://tif.org.tr/istanbul",
-    "email": "istanbul@tif.org.tr",
-    "description": "TİF 官方 İstanbul 頁列 İstanbul Beykoz İzcilik Kamp ve Eğitim Merkezi，提供官方 Google Maps 座標 41.06157684326172, 29.107749938964844，詳細地址 Küçüksu Caddesi 365, 34815 İstanbul, Beykoz。"
+    "email": "",
+    "description": "TİF 官方 İstanbul 頁列 İstanbul Beykoz İzcilik Kamp ve Eğitim Merkezi，提供官方 Google Maps 座標 41.06157684326172, 29.107749938964844，詳細地址 Küçüksu Caddesi 365, 34815 İstanbul, Beykoz。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/istanbul",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-CAMP-KONYA-IZCI-EVI",
@@ -86,8 +110,15 @@
     "address": "Karahüyük, Meram Belediyesi Dutlu Kültür Parkı, 42140 Meram / Konya, Türkiye",
     "phone": "+90 312 441 59 00",
     "website": "http://www.tifake.org/",
-    "email": "konya@tif.org.tr",
-    "description": "TİFAKE / TİF course announcement lists Konya İzci Evi – Karahüyük, Meram Belediyesi Dutlu Kültür Parkı, 42140 Meram/KONYA as official scout training course location for TİFAKE 5. This entry records the venue as an official training/camp contact point."
+    "email": "",
+    "description": "TİFAKE / TİF course announcement lists Konya İzci Evi – Karahüyük, Meram Belediyesi Dutlu Kültür Parkı, 42140 Meram/KONYA as official scout training course location for TİFAKE 5. This entry records the venue as an official training/camp contact point.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.tifake.org/",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-CAMP-NATIONAL-CAMPS-PROGRAMME",
@@ -104,8 +135,15 @@
     "address": "Nationwide TİF-approved camps and courses; coordinated via TİF HQ",
     "phone": "+90 312 441 59 00",
     "website": "https://tif.org.tr/duyurular",
-    "email": "tifburo@tif.org.tr",
-    "description": "TİF official website publishes national course and camp announcements, including Oymakbaşı, Kümebaşı, Ocakbaşı, TİFAKE and other training/camp activities. TİF terminology and rules describe Federasyon-approved camps including ulusal, bölgesel, mahalli, kulüp and ünite camps."
+    "email": "",
+    "description": "TİF official website publishes national course and camp announcements, including Oymakbaşı, Kümebaşı, Ocakbaşı, TİFAKE and other training/camp activities. TİF terminology and rules describe Federasyon-approved camps including ulusal, bölgesel, mahalli, kulüp and ünite camps.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/duyurular",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-IL-TEMSILCILIKLERI-NETWORK",
@@ -122,8 +160,15 @@
     "address": "Nationwide İl Temsilcilikleri; contact via TİF Teşkilat page",
     "phone": "+90 312 441 59 00",
     "website": "https://tif.org.tr/teskilat",
-    "email": "tifburo@tif.org.tr",
-    "description": "TİF official Teşkilat page lists İl Temsilcilikleri with names, telephone numbers, cities and city-specific @tif.org.tr emails across Türkiye. This entry is the national provincial representative network reference."
+    "email": "",
+    "description": "TİF official Teşkilat page lists İl Temsilcilikleri with names, telephone numbers, cities and city-specific contact details across Türkiye. This entry is the national provincial representative network reference.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-ISTANBUL",
@@ -140,8 +185,15 @@
     "address": "İstanbul, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 532 211 95 84",
     "website": "https://tif.org.tr/teskilat",
-    "email": "istanbul@tif.org.tr",
-    "description": "TİF official Teşkilat page lists İstanbul İl Temsilciliği contact Ramazan Kartal, phone 0532 211 95 84, email istanbul@tif.org.tr."
+    "email": "",
+    "description": "TİF official Teşkilat page lists İstanbul İl Temsilciliği contact Ramazan Kartal, phone 0532 211 95 84, contact details.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-ANKARA",
@@ -158,8 +210,15 @@
     "address": "Ankara, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 505 782 16 45",
     "website": "https://tif.org.tr/teskilat",
-    "email": "ankara@tif.org.tr",
-    "description": "TİF official Teşkilat page lists Ankara İl Temsilciliği contact Bülent Yurtseven, phone 0505 782 16 45, email ankara@tif.org.tr."
+    "email": "",
+    "description": "TİF official Teşkilat page lists Ankara İl Temsilciliği contact Bülent Yurtseven, phone 0505 782 16 45, contact details.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-IZMIR",
@@ -176,8 +235,15 @@
     "address": "İzmir, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 531 383 82 33",
     "website": "https://tif.org.tr/teskilat",
-    "email": "izmir@tif.org.tr",
-    "description": "TİF official Teşkilat page lists İzmir İl Temsilciliği contact Mehmet Hacımusalar, phone 0531 383 82 33, email izmir@tif.org.tr."
+    "email": "",
+    "description": "TİF official Teşkilat page lists İzmir İl Temsilciliği contact Mehmet Hacımusalar, phone 0531 383 82 33, contact details.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-ADANA",
@@ -194,8 +260,15 @@
     "address": "Adana, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 532 501 90 41",
     "website": "https://tif.org.tr/teskilat",
-    "email": "adana@tif.org.tr",
-    "description": "TİF official Teşkilat page lists Adana İl Temsilciliği contact Zeliha Sıcak, phone 0532 501 90 41, email adana@tif.org.tr."
+    "email": "",
+    "description": "TİF official Teşkilat page lists Adana İl Temsilciliği contact Zeliha Sıcak, phone 0532 501 90 41, contact details.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-BURSA",
@@ -212,8 +285,15 @@
     "address": "Bursa, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 542 690 22 30",
     "website": "https://tif.org.tr/teskilat",
-    "email": "bursa@tif.org.tr",
-    "description": "TİF official Teşkilat page lists Bursa İl Temsilciliği contact Ali Mutlu, phone 0542 690 22 30, email bursa@tif.org.tr."
+    "email": "",
+    "description": "TİF official Teşkilat page lists Bursa İl Temsilciliği contact Ali Mutlu, phone 0542 690 22 30, contact details.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-KONYA",
@@ -230,8 +310,15 @@
     "address": "Konya, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 533 267 33 00",
     "website": "https://tif.org.tr/teskilat",
-    "email": "konya@tif.org.tr",
-    "description": "TİF official Teşkilat page lists Konya İl Temsilciliği contact Mahmut Keten, phone 0533 267 33 00, email konya@tif.org.tr. Konya is also used for official scout training such as Konya İzci Evi / TİFAKE courses."
+    "email": "",
+    "description": "TİF official Teşkilat page lists Konya İl Temsilciliği contact Mahmut Keten, phone 0533 267 33 00, contact details. Konya is also used for official scout training such as Konya İzci Evi / TİFAKE courses.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-BOLU",
@@ -248,8 +335,15 @@
     "address": "Bolu, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 507 207 11 27",
     "website": "https://tif.org.tr/teskilat",
-    "email": "bolu@tif.org.tr",
-    "description": "TİF official Teşkilat page lists Bolu İl Temsilciliği contact Muhammet Emin Akşit, phone 0507 207 11 27, email bolu@tif.org.tr. Bolu also hosts TİF Tevfik R. Günday national camp/training centre."
+    "email": "",
+    "description": "TİF official Teşkilat page lists Bolu İl Temsilciliği contact Muhammet Emin Akşit, phone 0507 207 11 27, contact details. Bolu also hosts TİF Tevfik R. Günday national camp/training centre.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-ERZURUM",
@@ -266,8 +360,15 @@
     "address": "Erzurum, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 505 583 84 27",
     "website": "https://tif.org.tr/teskilat",
-    "email": "erzurum@tif.org.tr",
-    "description": "TİF official Teşkilat page lists Erzurum İl Temsilciliği contact Nuri Karslı, phone 0505 583 84 27, email erzurum@tif.org.tr."
+    "email": "",
+    "description": "TİF official Teşkilat page lists Erzurum İl Temsilciliği contact Nuri Karslı, phone 0505 583 84 27, contact details.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-SAMSUN",
@@ -284,8 +385,15 @@
     "address": "Samsun, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 530 327 27 49",
     "website": "https://tif.org.tr/teskilat",
-    "email": "samsun@tif.org.tr",
-    "description": "TİF official Teşkilat page lists Samsun İl Temsilciliği contact Ahat Aygül, phone 0530 327 27 49, email samsun@tif.org.tr."
+    "email": "",
+    "description": "TİF official Teşkilat page lists Samsun İl Temsilciliği contact Ahat Aygül, phone 0530 327 27 49, contact details.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-DIYARBAKIR",
@@ -302,8 +410,15 @@
     "address": "Diyarbakır, Türkiye; provincial contact via TİF Teşkilat",
     "phone": "+90 536 780 64 64",
     "website": "https://tif.org.tr/teskilat",
-    "email": "diyarbakir@tif.org.tr",
-    "description": "TİF official Teşkilat page lists Diyarbakır İl Temsilciliği contact Burhanettin Turan, phone 0536 780 64 64, email diyarbakir@tif.org.tr."
+    "email": "",
+    "description": "TİF official Teşkilat page lists Diyarbakır İl Temsilciliği contact Burhanettin Turan, phone 0536 780 64 64, contact details.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   },
   {
     "id": "TR-COUNCIL-ANTALYA",
@@ -320,7 +435,14 @@
     "address": "Antalya, Türkiye; contact via TİF central office",
     "phone": "+90 312 441 59 00",
     "website": "https://tif.org.tr/teskilat",
-    "email": "tifburo@tif.org.tr",
-    "description": "TİF official Teşkilat page lists Antalya under provincial contacts with central office phone/email when no named representative is shown."
+    "email": "",
+    "description": "TİF official Teşkilat page lists Antalya under provincial contacts with central office phone/contact details when no named representative is shown.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tif.org.tr/teskilat",
+    "facebook": "https://www.facebook.com/izcilikfederasyonu",
+    "instagram": "izcilikfederasyonu",
+    "youtube": "https://www.youtube.com/channel/UChKeZO822cLZHfkLJ8Tv56Q",
+    "socialVerificationSource": "https://tif.org.tr/"
   }
 ]

@@ -14,8 +14,14 @@
     "address": "Rue de l'Industrie 10, 1000 Brussels, Belgium",
     "phone": "+32 2 508 12 00",
     "website": "https://guiding-scouting.be/",
-    "email": "info@guiding-scouting.be",
-    "description": "比利時 WOSM／WAGGGS 國家級聯合平台，整合 Les Scouts、Scouts en Gidsen Vlaanderen、Guides Catholiques de Belgique、Scouts et Guides Pluralistes 等主要童軍與女童軍組織。"
+    "email": "",
+    "description": "比利時 WOSM／WAGGGS 國家級聯合平台，整合 Les Scouts、Scouts en Gidsen Vlaanderen、Guides Catholiques de Belgique、Scouts et Guides Pluralistes 等主要童軍與女童軍組織。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://guiding-scouting.be/",
+    "facebook": "https://www.facebook.com/GuidingScoutingBelgium",
+    "youtube": "https://www.youtube.com/channel/UCSHB7yyWOiPA_c6RW7Krw2Q",
+    "socialVerificationSource": "https://guiding-scouting.be/"
   },
   {
     "id": "BE-WOSM-EUROPE",
@@ -31,7 +37,10 @@
     "lng": 4.3694,
     "address": "Rue de l'Industrie 10, 1000 Brussels, Belgium",
     "website": "https://www.scout.org/europe",
-    "description": "世界童軍運動組織歐洲區支援中心，支援整個歐洲童軍區的會員組織發展、國際合作及歐洲青年政策倡議。"
+    "description": "世界童軍運動組織歐洲區支援中心，支援整個歐洲童軍區的會員組織發展、國際合作及歐洲青年政策倡議。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scout.org/europe"
   },
   {
     "id": "BE-HQ-LES-SCOUTS",
@@ -48,8 +57,15 @@
     "address": "Rue de Dublin 21, 1050 Ixelles, Brussels, Belgium",
     "phone": "+32 2 508 12 00",
     "website": "https://lesscouts.be/",
-    "email": "lesscouts@lesscouts.be",
-    "description": "Les Scouts 是比利時法語及德語區主要 WOSM 童軍組織，總部 Le 21 位於布魯塞爾 Ixelles，負責聯邦支援、訓練與國際聯絡。"
+    "email": "",
+    "description": "Les Scouts 是比利時法語及德語區主要 WOSM 童軍組織，總部 Le 21 位於布魯塞爾 Ixelles，負責聯邦支援、訓練與國際聯絡。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lesscouts.be/",
+    "facebook": "https://www.facebook.com/lesscouts",
+    "instagram": "lesscouts",
+    "youtube": "https://www.youtube.com/@LesScouts",
+    "socialVerificationSource": "https://www.lesscouts.tel/"
   },
   {
     "id": "BE-HQ-SGV-ANTWERP",
@@ -66,8 +82,13 @@
     "address": "Wilrijkstraat 45, 2140 Antwerpen, Belgium",
     "phone": "+32 3 231 16 20",
     "website": "https://www.scoutsengidsenvlaanderen.be/",
-    "email": "info@scoutsengidsenvlaanderen.be",
-    "description": "Scouts en Gidsen Vlaanderen 是佛拉芒區主要童軍與女童軍組織，安特衛普 Wilrijkstraat 45 同時設有總部、Hopper 服務與 Het Scoutshuis 城市青年中心。"
+    "email": "",
+    "description": "Scouts en Gidsen Vlaanderen 是佛拉芒區主要童軍與女童軍組織，安特衛普 Wilrijkstraat 45 同時設有總部、Hopper 服務與 Het Scoutshuis 城市青年中心。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutsengidsenvlaanderen.be/",
+    "instagram": "scoutsgidsenvl",
+    "socialVerificationSource": "https://www.instagram.com/scoutsgidsenvl/"
   },
   {
     "id": "BE-HQ-GCB-BRUSSELS",
@@ -84,8 +105,15 @@
     "address": "Rue Paul-Émile Janson 35, 1050 Brussels, Belgium",
     "phone": "+32 2 538 40 70",
     "website": "https://www.guides.be/",
-    "email": "gcb@guides.be",
-    "description": "Guides Catholiques de Belgique 是比利時法語區及布魯塞爾的重要 WAGGGS 女童軍組織，Carrick 總部提供行政、訓練與制服徽章支援。"
+    "email": "",
+    "description": "Guides Catholiques de Belgique 是比利時法語區及布魯塞爾的重要 WAGGGS 女童軍組織，Carrick 總部提供行政、訓練與制服徽章支援。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.guides.be/",
+    "facebook": "https://www.facebook.com/GuidesBe",
+    "instagram": "GuidesBe",
+    "youtube": "https://www.youtube.com/user/GuidesBelgique",
+    "socialVerificationSource": "https://www.guides.be/"
   },
   {
     "id": "BE-HQ-SGP-BRUSSELS",
@@ -102,8 +130,13 @@
     "address": "Avenue de la Porte de Hal 38/39, 1060 Brussels, Belgium",
     "phone": "+32 2 539 23 19",
     "website": "https://www.sgp.be/",
-    "email": "info@sgp.be",
-    "description": "Scouts et Guides Pluralistes de Belgique 是比利時法語區多元、跨信念童軍與女童軍組織，總部位於布魯塞爾 Saint-Gilles。"
+    "email": "",
+    "description": "Scouts et Guides Pluralistes de Belgique 是比利時法語區多元、跨信念童軍與女童軍組織，總部位於布魯塞爾 Saint-Gilles。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.sgp.be/",
+    "instagram": "scouts_guides_pluralistes",
+    "socialVerificationSource": "https://www.instagram.com/scouts_guides_pluralistes/"
   },
   {
     "id": "BE-SHOP-HOPPER-ANTWERP",
@@ -120,8 +153,11 @@
     "address": "Wilrijkstraat 45, 2140 Antwerpen, Belgium",
     "phone": "+32 3 231 62 68",
     "website": "https://www.hopper.be/en/shop",
-    "email": "winkel@hopper.be",
-    "description": "Scouts en Gidsen Vlaanderen 旗下 Hopper 官方童軍用品店與客服／倉務地址，販售制服、領巾、徽章、露營裝備及青年戶外活動用品。"
+    "email": "",
+    "description": "Scouts en Gidsen Vlaanderen 旗下 Hopper 官方童軍用品店與客服／倉務地址，販售制服、領巾、徽章、露營裝備及青年戶外活動用品。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.hopper.be/en/shop"
   },
   {
     "id": "BE-CENTRE-SCOUTSHUIS",
@@ -138,8 +174,11 @@
     "address": "Wilrijkstraat 45, 2140 Antwerpen, Belgium",
     "phone": "+32 3 226 46 06",
     "website": "https://www.hopper.be/en/youth-centres/het-scoutshuis/",
-    "email": "scoutshuis@hopper.be",
-    "description": "Hopper 城市型青年中心，位於安特衛普 Scoutshuis，可住宿約 76 人，另有會議空間，適合領袖訓練、城市探索與國際童軍短住。"
+    "email": "",
+    "description": "Hopper 城市型青年中心，位於安特衛普 Scoutshuis，可住宿約 76 人，另有會議空間，適合領袖訓練、城市探索與國際童軍短住。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.hopper.be/en/youth-centres/het-scoutshuis/"
   },
   {
     "id": "BE-CAMP-DE-KLUIS",
@@ -156,8 +195,11 @@
     "address": "Kluis 1, 3051 St.-Joris-Weert, Belgium",
     "phone": "+32 16 47 71 72",
     "website": "https://www.hopper.be/en/youth-centres/de-kluis/",
-    "email": "kluis@hopper.be",
-    "description": "佛拉芒最具代表性的童軍青年營地之一，被 Hopper 介紹為佛拉芒最古老的青年住宿地；設有多棟房舍與營地，帳篷區容量可達約 1200 人。"
+    "email": "",
+    "description": "佛拉芒最具代表性的童軍青年營地之一，被 Hopper 介紹為佛拉芒最古老的青年住宿地；設有多棟房舍與營地，帳篷區容量可達約 1200 人。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.hopper.be/en/youth-centres/de-kluis/"
   },
   {
     "id": "BE-CAMP-MERKENVELD",
@@ -174,8 +216,11 @@
     "address": "Merkenveldweg 15, 8210 Loppem, Belgium",
     "phone": "+32 50 27 76 98",
     "website": "https://www.hopper.be/en/youth-centres/merkenveld/",
-    "email": "merkenveld@hopper.be",
-    "description": "位於西佛蘭德 Loppem 的大型 Hopper 青年中心，擁有約 20 公頃遊戲森林與 10 公頃營地草地，營地容量可達約 1300 人，適合大型營隊。"
+    "email": "",
+    "description": "位於西佛蘭德 Loppem 的大型 Hopper 青年中心，擁有約 20 公頃遊戲森林與 10 公頃營地草地，營地容量可達約 1300 人，適合大型營隊。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.hopper.be/en/youth-centres/merkenveld/"
   },
   {
     "id": "BE-CAMP-FRESNAYE",
@@ -191,7 +236,14 @@
     "lng": 4.2762,
     "address": "Prins Boudewijnlaan 2, 1653 Dworp, Belgium",
     "website": "https://lesscouts.be/en/contacts/la-fresnaye",
-    "description": "Les Scouts 三個聯邦中心之一，面積約 6 公頃，全年開放，可接待最多約 230 人；設有多個以童軍命名的住宿與活動模組。"
+    "description": "Les Scouts 三個聯邦中心之一，面積約 6 公頃，全年開放，可接待最多約 230 人；設有多個以童軍命名的住宿與活動模組。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lesscouts.be/en/contacts/la-fresnaye",
+    "facebook": "https://www.facebook.com/lesscouts",
+    "instagram": "lesscouts",
+    "youtube": "https://www.youtube.com/@LesScouts",
+    "socialVerificationSource": "Les Scouts centre pages"
   },
   {
     "id": "BE-CAMP-COURRIERE",
@@ -207,7 +259,14 @@
     "lng": 4.9836,
     "address": "Rue Bâtis de Corère 6, 5336 Courrière, Belgium",
     "website": "https://lesscouts.be/en/contacts/le-chateau-de-courriere",
-    "description": "Les Scouts 主要訓練中心之一，17 世紀城堡農莊改建，設有約 118 張床與 13 個會議空間，常用於幹部、領袖訓練與聯邦會議。"
+    "description": "Les Scouts 主要訓練中心之一，17 世紀城堡農莊改建，設有約 118 張床與 13 個會議空間，常用於幹部、領袖訓練與聯邦會議。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lesscouts.be/en/contacts/le-chateau-de-courriere",
+    "facebook": "https://www.facebook.com/lesscouts",
+    "instagram": "lesscouts",
+    "youtube": "https://www.youtube.com/@LesScouts",
+    "socialVerificationSource": "Les Scouts centre pages"
   },
   {
     "id": "BE-CAMP-MONT-GODINNE",
@@ -223,6 +282,13 @@
     "lng": 4.8956,
     "address": "Rue du Centre 113, 5530 Mont-Godinne, Belgium",
     "website": "https://lesscouts.be/en/contacts/le-refuge-de-mont-godinne",
-    "description": "Les Scouts 聯邦中心之一，位於那慕爾以南約 15 公里，可自主管理接待約 40 人，適合小隊週末、單位訓練、遠足、攀岩、洞穴與默茲河谷戶外活動。"
+    "description": "Les Scouts 聯邦中心之一，位於那慕爾以南約 15 公里，可自主管理接待約 40 人，適合小隊週末、單位訓練、遠足、攀岩、洞穴與默茲河谷戶外活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lesscouts.be/en/contacts/le-refuge-de-mont-godinne",
+    "facebook": "https://www.facebook.com/lesscouts",
+    "instagram": "lesscouts",
+    "youtube": "https://www.youtube.com/@LesScouts",
+    "socialVerificationSource": "Les Scouts centre pages"
   }
 ]

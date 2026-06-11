@@ -14,9 +14,15 @@
     "address": "str. Petar Parchevich 15, floor 4, office 11, Sofia 1000, Bulgaria",
     "phone": "+359 883 437 439",
     "website": "https://scout.bg/",
-    "email": "scoutbg@abv.bg",
-    "facebook": "scoutbg",
-    "description": "Организация на българските скаути（ОБС）是保加利亞唯一 WOSM 正式成員童軍組織。總部資料以 WOSM 歐洲區會員名錄及 ОБС 官方網站為準。"
+    "email": "",
+    "facebook": "https://www.facebook.com/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BD%D0%B0-%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D1%82%D0%B5-%D0%A1%D0%BA%D0%B0%D1%83%D1%82%D0%B8-142846249098369",
+    "description": "Организация на българските скаути（ОБС）是保加利亞唯一 WOSM 正式成員童軍組織。總部資料以 WOSM 歐洲區會員名錄及 ОБС 官方網站為準。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.bg/",
+    "instagram": "scoutbg",
+    "youtube": "https://www.youtube.com/@scoutBG",
+    "socialVerificationSource": "https://scout.bg/"
   },
   {
     "id": "BG-CENTRE-VARNA-MIKC",
@@ -32,8 +38,12 @@
     "lng": 27.9167,
     "address": "Varna, Bulgaria",
     "website": "https://scout.bg/",
-    "email": "scoutbg@abv.bg",
-    "description": "ОБС 官方資料提到曾在瓦爾納由 СК „Морски вълк“ 俱樂部場地支援 МИКЦ „СКАУТ“，提供青年資訊、訓練、諮詢與志工支援服務。此點以瓦爾納市作為代表座標。"
+    "email": "",
+    "description": "ОБС 官方資料提到曾在瓦爾納由 СК „Морски вълк“ 俱樂部場地支援 МИКЦ „СКАУТ“，提供青年資訊、訓練、諮詢與志工支援服務。此點以瓦爾納市作為代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://scout.bg/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "BG-CAMP-CHUMERNA",
@@ -49,7 +59,11 @@
     "lng": 25.96,
     "address": "Hut Chumerna area, Elena Balkan, Bulgaria",
     "website": "https://scout.bg/index.php?option=com_tags&view=tag&id=16:lyubopitno",
-    "description": "ОБС 官方文章記載全國冬季營曾於 Чумерна 山屋／Буковец 山屋一帶舉行，並集合全國多個童軍俱樂部參與；此點標示為官方活動使用的山區營隊地點，而非 ОБС 自有永久營地。"
+    "description": "ОБС 官方文章記載全國冬季營曾於 Чумерна 山屋／Буковец 山屋一帶舉行，並集合全國多個童軍俱樂部參與；此點標示為官方活動使用的山區營隊地點，而非 ОБС 自有永久營地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://scout.bg/index.php?option=com_tags&view=tag&id=16:lyubopitno",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "BG-CAMP-BORISOVA-GRADINA",
@@ -65,7 +79,10 @@
     "lng": 23.3399,
     "address": "Borisova Gradina, Sofia, Bulgaria",
     "website": "https://youth.gabrovo.bg/en/i-v-gabrovo-shte-ima-mladezhki-skautski-otryad/",
-    "description": "保加利亞童軍歷史資料記載，1925 年第一屆全國童軍營會曾在索菲亞 Borisova Garden 一帶舉行，為保加利亞童軍運動早期重要地標。"
+    "description": "保加利亞童軍歷史資料記載，1925 年第一屆全國童軍營會曾在索菲亞 Borisova Garden 一帶舉行，為保加利亞童軍運動早期重要地標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://youth.gabrovo.bg/en/i-v-gabrovo-shte-ima-mladezhki-skautski-otryad/"
   },
   {
     "id": "BG-CAMP-ASPARUHOV-PARK",
@@ -81,7 +98,11 @@
     "lng": 27.9076,
     "address": "Asparuhov Park, Varna, Bulgaria",
     "website": "https://scout.bg/index.php?option=com_content&view=featured",
-    "description": "ОБС 官方活動記錄中，瓦爾納與舒門童軍曾於 Asparuhov Park 進行植樹與環境教育行動；此點標示為童軍服務學習與戶外活動地點。"
+    "description": "ОБС 官方活動記錄中，瓦爾納與舒門童軍曾於 Asparuhov Park 進行植樹與環境教育行動；此點標示為童軍服務學習與戶外活動地點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://scout.bg/index.php?option=com_content&view=featured",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "BG-CLUB-SOFIA-BROWN-BEAR",
@@ -96,8 +117,11 @@
     "lat": 42.6977,
     "lng": 23.3217,
     "address": "Sofia, Bulgaria",
-    "website": "http://www.brownbearscout.org/",
-    "description": "ОБС 官方「Къде сме／Скаутски клубове」名單列出的索菲亞地方童軍俱樂部之一，以索菲亞市中心座標標示。"
+    "website": "https://scout.bg/",
+    "description": "ОБС 官方「Къде сме／Скаутски клубове」名單列出的索菲亞地方童軍俱樂部之一，以索菲亞市中心座標標示。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "club website unavailable; retained from official Bulgarian scouting source; verify current status before travel",
+    "verificationSource": "https://scout.bg/"
   },
   {
     "id": "BG-CLUB-SOFIA-PLANINETS",
@@ -113,7 +137,10 @@
     "lng": 23.3217,
     "address": "Sofia, Bulgaria",
     "website": "https://www.facebook.com/profile.php?id=61578198337437",
-    "description": "ОБС 官方地方俱樂部名單列出的索菲亞童軍俱樂部之一。"
+    "description": "ОБС 官方地方俱樂部名單列出的索菲亞童軍俱樂部之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/profile.php?id=61578198337437"
   },
   {
     "id": "BG-CLUB-SOFIA-VITOSHA-LALE",
@@ -129,7 +156,10 @@
     "lng": 23.3217,
     "address": "Sofia, Bulgaria",
     "website": "https://www.facebook.com/profile.php?id=61560284260898",
-    "description": "ОБС 官方地方俱樂部名單列出的索菲亞童軍俱樂部之一，名稱意為「維托沙鬱金香」。"
+    "description": "ОБС 官方地方俱樂部名單列出的索菲亞童軍俱樂部之一，名稱意為「維托沙鬱金香」。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/profile.php?id=61560284260898"
   },
   {
     "id": "BG-CLUB-VARNA-MORSKI-VALK",
@@ -145,7 +175,10 @@
     "lng": 27.9167,
     "address": "Varna, Bulgaria",
     "website": "https://www.facebook.com/MorskiValkVarna/",
-    "description": "ОБС 官方地方俱樂部名單列出的瓦爾納童軍俱樂部之一，亦與瓦爾納青年資訊／志工中心活動相關。"
+    "description": "ОБС 官方地方俱樂部名單列出的瓦爾納童軍俱樂部之一，亦與瓦爾納青年資訊／志工中心活動相關。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/MorskiValkVarna/"
   },
   {
     "id": "BG-CLUB-VARNA-VLADISLAV",
@@ -161,7 +194,10 @@
     "lng": 27.9167,
     "address": "Varna, Bulgaria",
     "website": "https://www.facebook.com/VarnaScouts/",
-    "description": "ОБС 官方地方俱樂部名單列出的瓦爾納童軍俱樂部之一，官方活動記錄中曾參與環境教育與手作服務活動。"
+    "description": "ОБС 官方地方俱樂部名單列出的瓦爾納童軍俱樂部之一，官方活動記錄中曾參與環境教育與手作服務活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/VarnaScouts/"
   },
   {
     "id": "BG-CLUB-VARNA-KOMPAS",
@@ -177,7 +213,10 @@
     "lng": 27.9167,
     "address": "Varna, Bulgaria",
     "website": "https://www.facebook.com/compass.varna/",
-    "description": "ОБС 官方地方俱樂部名單列出的瓦爾納童軍俱樂部之一；官方活動記錄中曾與舒門童軍一同參與 Asparuhov Park 植樹行動。"
+    "description": "ОБС 官方地方俱樂部名單列出的瓦爾納童軍俱樂部之一；官方活動記錄中曾與舒門童軍一同參與 Asparuhov Park 植樹行動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/compass.varna/"
   },
   {
     "id": "BG-CLUB-VARNA-ALBATROS",
@@ -193,7 +232,10 @@
     "lng": 27.9167,
     "address": "Varna, Bulgaria",
     "website": "https://www.facebook.com/Albatross.Scouts",
-    "description": "ОБС 官方地方俱樂部名單列出的瓦爾納童軍俱樂部之一。"
+    "description": "ОБС 官方地方俱樂部名單列出的瓦爾納童軍俱樂部之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/Albatross.Scouts"
   },
   {
     "id": "BG-CLUB-SHABLA-YASTREBITE",
@@ -209,7 +251,10 @@
     "lng": 28.5339,
     "address": "Shabla, Bulgaria",
     "website": "https://www.facebook.com/%D0%A1%D0%BA%D0%B0%D1%83%D1%82%D1%81%D0%BA%D0%B8-%D0%BA%D0%BB%D1%83%D0%B1-%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5-225630277464444/",
-    "description": "ОБС 官方地方俱樂部名單列出的黑海北岸沙布拉童軍俱樂部，名稱意為「獵鷹」。"
+    "description": "ОБС 官方地方俱樂部名單列出的黑海北岸沙布拉童軍俱樂部，名稱意為「獵鷹」。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/%D0%A1%D0%BA%D0%B0%D1%83%D1%82%D1%81%D0%BA%D0%B8-%D0%BA%D0%BB%D1%83%D0%B1-%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5-225630277464444/"
   },
   {
     "id": "BG-CLUB-PLEVEN-LAVCHE",
@@ -225,7 +270,10 @@
     "lng": 24.6061,
     "address": "Pleven, Bulgaria",
     "website": "https://www.facebook.com/%D0%A1%D0%BA%D0%B0%D1%83%D1%82%D1%81%D0%BA%D0%B8-%D0%9A%D0%BB%D1%83%D0%B1-%D0%9B%D1%8A%D0%B2%D1%87%D0%B5-453470678145414/",
-    "description": "ОБС 官方地方俱樂部名單列出的普列文童軍俱樂部，官方活動記錄中曾參與回收手作與環境教育。"
+    "description": "ОБС 官方地方俱樂部名單列出的普列文童軍俱樂部，官方活動記錄中曾參與回收手作與環境教育。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/%D0%A1%D0%BA%D0%B0%D1%83%D1%82%D1%81%D0%BA%D0%B8-%D0%9A%D0%BB%D1%83%D0%B1-%D0%9B%D1%8A%D0%B2%D1%87%D0%B5-453470678145414/"
   },
   {
     "id": "BG-CLUB-PLEVEN-DIVI-PCHELI",
@@ -241,7 +289,10 @@
     "lng": 24.6061,
     "address": "Pleven, Bulgaria",
     "website": "https://www.facebook.com/profile.php?id=100086485176783",
-    "description": "ОБС 官方地方俱樂部名單列出的普列文童軍俱樂部，名稱意為「野蜂」。"
+    "description": "ОБС 官方地方俱樂部名單列出的普列文童軍俱樂部，名稱意為「野蜂」。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/profile.php?id=100086485176783"
   },
   {
     "id": "BG-CLUB-ELENA-OSTRETS",
@@ -257,7 +308,10 @@
     "lng": 25.8774,
     "address": "Elena, Bulgaria",
     "website": "https://www.facebook.com/ostretsscouts.free.bg/",
-    "description": "ОБС 官方地方俱樂部名單列出的埃萊納童軍俱樂部，官方活動記錄中曾參與鳥屋製作與自然保育行動。"
+    "description": "ОБС 官方地方俱樂部名單列出的埃萊納童軍俱樂部，官方活動記錄中曾參與鳥屋製作與自然保育行動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/ostretsscouts.free.bg/"
   },
   {
     "id": "BG-CLUB-RUSE-PRISTA",
@@ -273,7 +327,10 @@
     "lng": 25.9542,
     "address": "Ruse, Bulgaria",
     "website": "https://www.facebook.com/Prista-Scouting-BG-Russe-214659952011182/",
-    "description": "ОБС 官方地方俱樂部名單列出的多瑙河畔魯塞童軍俱樂部，官方活動記錄中曾推動垃圾分類與減塑教育。"
+    "description": "ОБС 官方地方俱樂部名單列出的多瑙河畔魯塞童軍俱樂部，官方活動記錄中曾推動垃圾分類與減塑教育。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/Prista-Scouting-BG-Russe-214659952011182/"
   },
   {
     "id": "BG-CLUB-RUSE-PESHTEREN-MECHOK",
@@ -289,7 +346,10 @@
     "lng": 25.9542,
     "address": "Ruse, Bulgaria",
     "website": "https://www.facebook.com/profile.php?id=100088410319258",
-    "description": "ОБС 官方地方俱樂部名單列出的魯塞童軍俱樂部，名稱意為「洞穴熊」。"
+    "description": "ОБС 官方地方俱樂部名單列出的魯塞童軍俱樂部，名稱意為「洞穴熊」。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/profile.php?id=100088410319258"
   },
   {
     "id": "BG-CLUB-SHUMEN-MADARSKI-KONNIK",
@@ -305,7 +365,10 @@
     "lng": 27.0197,
     "address": "Shumen, Bulgaria",
     "website": "https://www.facebook.com/groups/shumen.scouts/",
-    "description": "ОБС 官方地方俱樂部名單列出的舒門童軍俱樂部；官方活動記錄中曾與瓦爾納童軍一同參與植樹與環境教育。"
+    "description": "ОБС 官方地方俱樂部名單列出的舒門童軍俱樂部；官方活動記錄中曾與瓦爾納童軍一同參與植樹與環境教育。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/groups/shumen.scouts/"
   },
   {
     "id": "BG-CLUB-SHUMEN-KRESLIV-OREL",
@@ -321,7 +384,10 @@
     "lng": 27.0197,
     "address": "Shumen, Bulgaria",
     "website": "https://www.facebook.com/profile.php?id=100087327551813",
-    "description": "ОБС 官方地方俱樂部名單列出的舒門童軍俱樂部，名稱意為「尖叫鷹」。"
+    "description": "ОБС 官方地方俱樂部名單列出的舒門童軍俱樂部，名稱意為「尖叫鷹」。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/profile.php?id=100087327551813"
   },
   {
     "id": "BG-CLUB-SMOLYAN-RODOPSKI",
@@ -337,7 +403,10 @@
     "lng": 24.5913,
     "address": "Smolyan, Bulgaria",
     "website": "https://www.facebook.com/%D0%A0%D0%BE%D0%B4%D0%BE%D0%BF%D1%81%D0%BA%D0%B8-%D1%81%D0%BA%D0%B0%D1%83%D1%82-%D0%A1%D0%BC%D0%BE%D0%BB%D1%8F%D0%BD-Rodopski-scout-Smolyan-130343137040357/",
-    "description": "ОБС 官方地方俱樂部名單列出的羅多彼山區斯莫梁童軍俱樂部；官方活動記錄中曾參與回收手作與環境教育。"
+    "description": "ОБС 官方地方俱樂部名單列出的羅多彼山區斯莫梁童軍俱樂部；官方活動記錄中曾參與回收手作與環境教育。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/%D0%A0%D0%BE%D0%B4%D0%BE%D0%BF%D1%81%D0%BA%D0%B8-%D1%81%D0%BA%D0%B0%D1%83%D1%82-%D0%A1%D0%BC%D0%BE%D0%BB%D1%8F%D0%BD-Rodopski-scout-Smolyan-130343137040357/"
   },
   {
     "id": "BG-CLUB-MONTANA-VALTSITE",
@@ -353,7 +422,10 @@
     "lng": 23.2203,
     "address": "Montana, Bulgaria",
     "website": "https://www.facebook.com/profile.php?id=100085333092550",
-    "description": "ОБС 官方地方俱樂部名單列出的蒙塔納童軍俱樂部，名稱意為「狼群」。"
+    "description": "ОБС 官方地方俱樂部名單列出的蒙塔納童軍俱樂部，名稱意為「狼群」。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/profile.php?id=100085333092550"
   },
   {
     "id": "BG-CLUB-PERNIK-KRAKRA",
@@ -369,7 +441,10 @@
     "lng": 22.8823,
     "address": "Pernik, Bulgaria",
     "website": "https://scout.bg/",
-    "description": "ОБС 官方地方俱樂部名單列出的佩爾尼克童軍俱樂部，以中世紀保加利亞貴族 Krakra Pernishki 命名。"
+    "description": "ОБС 官方地方俱樂部名單列出的佩爾尼克童軍俱樂部，以中世紀保加利亞貴族 Krakra Pernishki 命名。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.bg/"
   },
   {
     "id": "BG-CLUB-KARLOVO-BALKAN",
@@ -385,7 +460,10 @@
     "lng": 24.8048,
     "address": "Karlovo, Bulgaria",
     "website": "https://www.facebook.com/profile.php?id=61558533763510",
-    "description": "ОБС 官方地方俱樂部名單列出的卡爾洛沃童軍俱樂部，位於中部巴爾幹山麓。"
+    "description": "ОБС 官方地方俱樂部名單列出的卡爾洛沃童軍俱樂部，位於中部巴爾幹山麓。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.facebook.com/profile.php?id=61558533763510"
   },
   {
     "id": "BG-CLUB-SLIVEN-VYATAR-BORA",
@@ -401,6 +479,10 @@
     "lng": 26.2634,
     "address": "Sliven, Bulgaria",
     "website": "https://scout.bg/index.php?option=com_content&view=article&id=201:sliven-scout-group&catid=42:news&Itemid=1046",
-    "description": "ОБС 官方網站新近列出的斯利文童軍俱樂部，官方新聞記錄新領袖加入並宣誓，標示為持續發展中的地方童軍據點。"
+    "description": "ОБС 官方網站新近列出的斯利文童軍俱樂部，官方新聞記錄新領袖加入並宣誓，標示為持續發展中的地方童軍據點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://scout.bg/index.php?option=com_content&view=article&id=201:sliven-scout-group&catid=42:news&Itemid=1046",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   }
 ]

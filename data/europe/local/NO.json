@@ -13,9 +13,12 @@
     "lng": 10.736747,
     "address": "P.O. Box 6910, St. Olavsplass, Oslo 0130, Norway",
     "phone": "+47 22 99 22 30",
-    "website": "https://www.scout.no/",
-    "email": "nsf@speiding.no",
-    "description": "WOSM Europe 列 Speiderne i Norge 為 Norway 的 NSO Federation，代表挪威童軍加入 WOSM；成員包括 Norges speiderforbund 及 Norges KFUK-KFUM-speidere。地址及電話按 WOSM／NSF 公開聯絡資料記錄。"
+    "website": "https://speiding.no/",
+    "email": "",
+    "description": "WOSM Europe 列 Speiderne i Norge 為 Norway 的 NSO Federation，代表挪威童軍加入 WOSM；成員包括 Norges speiderforbund 及 Norges KFUK-KFUM-speidere。地址及電話按 WOSM／NSF 公開聯絡資料記錄。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://speiding.no/"
   },
   {
     "id": "NO-HQ-NSF-OSLO",
@@ -32,8 +35,11 @@
     "address": "St. Olavs gate 25, 0166 Oslo, Norway; Postboks 6910 St. Olavs plass, 0130 Oslo",
     "phone": "+47 22 99 22 30",
     "website": "https://speiding.no/",
-    "email": "nsf@speiding.no",
-    "description": "Norges speiderforbund 官方 Kontakt oss 頁列 Forbundskontoret 地址 St. Olavs gate 25, 0166 Oslo，郵寄地址 Postboks 6910 St. Olavs plass, 0130 Oslo，電話 22 99 22 30，電郵 nsf@speiding.no；英文頁稱其為 The Norwegian Guide and Scout Association。"
+    "email": "",
+    "description": "Norges speiderforbund 官方 Kontakt oss 頁列 Forbundskontoret 地址 St. Olavs gate 25, 0166 Oslo，郵寄地址 Postboks 6910 St. Olavs plass, 0130 Oslo，電話 22 99 22 30；英文頁稱其為 The Norwegian Guide and Scout Association。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://speiding.no/"
   },
   {
     "id": "NO-HQ-KFUK-KFUM-OSLO",
@@ -50,8 +56,11 @@
     "address": "Postboks 6810 St. Olavs plass, 0130 Oslo, Norway",
     "phone": "+47 22 99 15 50",
     "website": "https://kmspeider.no/",
-    "email": "post@kmspeider.no",
-    "description": "WOSM Europe 列 Norges KFUK-KFUM-speidere 為挪威 NSA，郵寄地址 Postboks 6810 St. Olavs plass, Oslo 0130；KFUK-KFUM-speiderne 官方頁腳亦列同一郵寄地址及總機 22 99 15 50。"
+    "email": "",
+    "description": "WOSM Europe 列 Norges KFUK-KFUM-speidere 為挪威 NSA，郵寄地址 Postboks 6810 St. Olavs plass, Oslo 0130；KFUK-KFUM-speiderne 官方頁腳亦列同一郵寄地址及總機 22 99 15 50。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://kmspeider.no/"
   },
   {
     "id": "NO-SHOP-SPEIDER-SPORT",
@@ -68,8 +77,11 @@
     "address": "Rosenborgveien 15, 1630 Gamle Fredrikstad, Norway; online shop",
     "phone": "+47 67 22 33 35",
     "website": "https://www.speidersport.no/",
-    "email": "nsf@speiding.no",
-    "description": "Norges speiderforbund 官方 Medlemsfordeler 頁說 Speider-sport 是 speidernes egen butikk，售賣 speiderdrakt、profilartikler、turtøy 及戶外裝備，且由 Norges speiderforbund 擁有，盈餘支持挪威童軍工作。KFUK-KFUM-speiderne 官方頁亦指已與 Speider-sport AS 建立 felles speiderbutikk 合作。"
+    "email": "",
+    "description": "Norges speiderforbund 官方 Medlemsfordeler 頁說 Speider-sport 是 speidernes egen butikk，售賣 speiderdrakt、profilartikler、turtøy 及戶外裝備，且由 Norges speiderforbund 擁有，盈餘支持挪威童軍工作。KFUK-KFUM-speiderne 官方頁亦指已與 Speider-sport AS 建立 felles speiderbutikk 合作。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.speidersport.no/"
   },
   {
     "id": "NO-CAMP-TREDALEN-HVALER",
@@ -86,8 +98,11 @@
     "address": "Tredalen, Spjærøy, Hvaler, Norway",
     "phone": "+47 22 99 22 30",
     "website": "https://speiding.no/english/",
-    "email": "nsf@speiding.no",
-    "description": "NSF 官方 English 頁列 Tredalen 為 national campsite，位於海邊，適合水上及陸上活動，可 pionering、游泳、釣魚、健行至 Ytre Hvaler national park，並有三座建築及兩個營區，可容納約 30 人室內及 270 人戶外帳篷。"
+    "email": "",
+    "description": "NSF 官方 English 頁列 Tredalen 為 national campsite，位於海邊，適合水上及陸上活動，可 pionering、游泳、釣魚、健行至 Ytre Hvaler national park，並有三座建築及兩個營區，可容納約 30 人室內及 270 人戶外帳篷。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://speiding.no/english/"
   },
   {
     "id": "NO-CAMP-SOLSTOLEN-HAUGASTOL",
@@ -104,8 +119,11 @@
     "address": "Murstadvegen 20, 3595 Haugastøl, Norway",
     "phone": "+47 22 99 22 30",
     "website": "https://speiding.no/english/",
-    "email": "nsf@speiding.no",
-    "description": "NSF 官方 English 頁列 Solstølen 為 national campsite／speiderhytte，位於 Haugastøl 附近海拔 1000 米的 Hardangervidda 山區，適合 Rallarvegen 單車、健行、滑雪及山區戶外活動，地址 Murstadvegen 20, 3595 Haugastøl。"
+    "email": "",
+    "description": "NSF 官方 English 頁列 Solstølen 為 national campsite／speiderhytte，位於 Haugastøl 附近海拔 1000 米的 Hardangervidda 山區，適合 Rallarvegen 單車、健行、滑雪及山區戶外活動，地址 Murstadvegen 20, 3595 Haugastøl。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://speiding.no/english/"
   },
   {
     "id": "NO-CAMP-HAVBRAATT-SCOUT-SHIP",
@@ -122,8 +140,12 @@
     "address": "Mobile scout ship; enquiries via Norges speiderforbund, Oslo",
     "phone": "+47 22 99 22 30",
     "website": "https://speiding.no/english/",
-    "email": "nsf@speiding.no",
-    "description": "NSF 官方 English 頁列 Havbraatt 為 NSF’s “Scout-ship”，45 feet cutter，可作日間、週末及較長航海 expedition 租用，通常配備熟悉船隻的 skipper；可載 25 人航行、11 人睡眠。因屬流動船隻，本項以 NSF 聯絡／船務代表點記錄。"
+    "email": "",
+    "description": "NSF 官方 English 頁列 Havbraatt 為 NSF’s “Scout-ship”，45 feet cutter，可作日間、週末及較長航海 expedition 租用，通常配備熟悉船隻的 skipper；可載 25 人航行、11 人睡眠。因屬流動船隻，本項以 NSF 聯絡／船務代表點記錄。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://speiding.no/english/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "NO-CAMP-NORDTANGEN-GRAN",
@@ -140,8 +162,11 @@
     "address": "Nordtangen leirsted, Gran, Innlandet, Norway",
     "phone": "+47 22 99 15 50",
     "website": "https://kmspeider.no/kontakt-oss/nordtangen/",
-    "email": "post@kmspeider.no",
-    "description": "KFUK-KFUM-speiderne 官方 Nordtangen 頁說 Nordtangen 位於 Jarenvatnet 湖畔、Gran på Hadeland，90 mål 場地可作童軍營、團體旅行、課程、領袖聚會或 teambuilding；戶外營區可容納 800 人，並有主屋、Gammelstua、衛浴、湖邊營火場、碼頭、泳灘及 12 艘獨木舟。"
+    "email": "",
+    "description": "KFUK-KFUM-speiderne 官方 Nordtangen 頁說 Nordtangen 位於 Jarenvatnet 湖畔、Gran på Hadeland，90 mål 場地可作童軍營、團體旅行、課程、領袖聚會或 teambuilding；戶外營區可容納 800 人，並有主屋、Gammelstua、衛浴、湖邊營火場、碼頭、泳灘及 12 艘獨木舟。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://kmspeider.no/kontakt-oss/nordtangen/"
   },
   {
     "id": "NO-MUSEUM-SPEIDER-SANDVIKA",
@@ -158,8 +183,11 @@
     "address": "Industriveien 40, 1337 Sandvika, Norway",
     "phone": "+47 22 99 22 30",
     "website": "https://speiding.no/english/",
-    "email": "nsf@speiding.no",
-    "description": "NSF 官方 English 頁在 visiting Norway 資料中列 Scout Museum，地址 Industriveien 40, 1337 Sandvika，並說博物館逢星期二開放。本項以 Council 類型記錄為童軍文化／歷史資源點。"
+    "email": "",
+    "description": "NSF 官方 English 頁在 visiting Norway 資料中列 Scout Museum，地址 Industriveien 40, 1337 Sandvika，並說博物館逢星期二開放。本項以 Council 類型記錄為童軍文化／歷史資源點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://speiding.no/english/"
   },
   {
     "id": "NO-COUNCIL-NSF-DISTRICTS-GROUPFINDER",
@@ -176,8 +204,11 @@
     "address": "Nationwide; contact via NSF Head Office, Oslo",
     "phone": "+47 22 99 22 30",
     "website": "https://blispeider.no/bli-medlem",
-    "email": "nsf@speiding.no",
-    "description": "NSF 官方 English 頁說 NSF organized in 25 districts, which organise about 350 local scout groups, total about 18,000 members；亦提供 blispeider.no/bli-medlem 作地方 group map / contact finder。"
+    "email": "",
+    "description": "NSF 官方 English 頁說 NSF organized in 25 districts, which organise about 350 local scout groups, total about 18,000 members；亦提供 blispeider.no/bli-medlem 作地方 group map / contact finder。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://blispeider.no/bli-medlem"
   },
   {
     "id": "NO-COUNCIL-KFUK-KFUM-GROUPS",
@@ -194,62 +225,11 @@
     "address": "Nationwide; contact via KFUK-KFUM-speiderne, Oslo",
     "phone": "+47 22 99 15 50",
     "website": "https://kmspeider.no/",
-    "email": "post@kmspeider.no",
-    "description": "KFUK-KFUM-speiderne 官方網站提供 Bli speider／lokalt 入口及全國活動、krets／gruppe 支援資料；本項作為 KFUK-KFUM 挪威地方小組網絡總入口。"
-  },
-  {
-    "id": "NO-COUNCIL-OSLO-SCOUT-AREA",
-    "parentCountry": "NO",
-    "level": 3,
-    "type": "Council",
-    "flag": "🇳🇴",
-    "category": "地方童軍區代表點 (Local Scout Area)",
-    "name": "Oslo 童軍地區代表點",
-    "nameEn": "Oslo Scout Area Representative Point",
-    "subregion": "Oslo",
-    "lat": 59.9133301,
-    "lng": 10.7389701,
-    "address": "Oslo, Norway; local groups via NSF/KFUK-KFUM group finders",
-    "phone": "+47 22 99 22 30",
-    "website": "https://blispeider.no/bli-medlem",
-    "email": "nsf@speiding.no",
-    "description": "Oslo 是 NSF 總部所在地，亦有多個 NSF/KFUK-KFUM 地方小組。本項是首都地區代表點，實際小組以官方 group finder 為準。"
-  },
-  {
-    "id": "NO-COUNCIL-BERGEN-SCOUT-AREA",
-    "parentCountry": "NO",
-    "level": 3,
-    "type": "Council",
-    "flag": "🇳🇴",
-    "category": "地方童軍區代表點 (Local Scout Area)",
-    "name": "Bergen 童軍地區代表點",
-    "nameEn": "Bergen Scout Area Representative Point",
-    "subregion": "Bergen / Vestland",
-    "lat": 60.3943055,
-    "lng": 5.3259192,
-    "address": "Bergen, Norway; local groups via official group finders",
-    "phone": "+47 22 99 22 30",
-    "website": "https://blispeider.no/bli-medlem",
-    "email": "nsf@speiding.no",
-    "description": "NSF 官方 English 頁說挪威全國各地都有地方 group，並提供 group map。此項作為西部 Bergen 地區童軍代表點。"
-  },
-  {
-    "id": "NO-COUNCIL-TRONDHEIM-SCOUT-AREA",
-    "parentCountry": "NO",
-    "level": 3,
-    "type": "Council",
-    "flag": "🇳🇴",
-    "category": "地方童軍區代表點 (Local Scout Area)",
-    "name": "Trondheim 童軍地區代表點",
-    "nameEn": "Trondheim Scout Area Representative Point",
-    "subregion": "Trondheim / Trøndelag",
-    "lat": 63.4304475,
-    "lng": 10.3952118,
-    "address": "Trondheim, Norway; local groups via official group finders",
-    "phone": "+47 22 99 22 30",
-    "website": "https://blispeider.no/bli-medlem",
-    "email": "nsf@speiding.no",
-    "description": "NSF 官方 English 頁說挪威全國各地都有地方 group，並提供 group map。此項作為中部 Trondheim / Trøndelag 童軍代表點。"
+    "email": "",
+    "description": "KFUK-KFUM-speiderne 官方網站提供 Bli speider／lokalt 入口及全國活動、krets／gruppe 支援資料；本項作為 KFUK-KFUM 挪威地方小組網絡總入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://kmspeider.no/"
   },
   {
     "id": "NO-CAMP-LANDSLEIR-GJOVIK-2025",
@@ -266,7 +246,14 @@
     "address": "GOBB Arena / Vind area, Gjøvik, Norway",
     "phone": "+47 22 99 22 30",
     "website": "https://landsleir.no/",
-    "email": "nsf@speiding.no",
-    "description": "Speidernes landsleir 2025 是 Speiderne i Norge 首次為挪威所有童軍聯合舉辦的全國大露營，於 2025 年 7 月 5–12 日在 Gjøvik / GOBB Arena 一帶舉行，官方及地方童軍資料記錄有過萬名參與者。此項作為近期全國大露營地點代表。"
+    "email": "",
+    "description": "Speidernes landsleir 2025 是 Speiderne i Norge 首次為挪威所有童軍聯合舉辦的全國大露營，於 2025 年 7 月 5–12 日在 Gjøvik / GOBB Arena 一帶舉行，官方及地方童軍資料記錄有過萬名參與者。此項作為近期全國大露營地點代表。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://landsleir.no/",
+    "facebook": "https://www.facebook.com/speiding",
+    "instagram": "speiding",
+    "youtube": "https://www.youtube.com/user/NorgesSpeiderforbund",
+    "socialVerificationSource": "https://landsleir.no/"
   }
 ]

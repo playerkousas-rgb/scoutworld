@@ -14,8 +14,15 @@
     "address": "Tömörkény u. 3/A, 1025 Budapest, Hungary",
     "phone": "+36 20 548 1766",
     "website": "https://www.cserkesz.hu/",
-    "email": "hello@mcssz.hu",
-    "description": "Magyar Cserkészszövetség（MCSSZ）是匈牙利 WOSM 成員童軍組織。官方 Országos iroda 頁列出地址 Tömörkény u. 3/A、hello@mcssz.hu、電話 +36 20 548 1766，並註明 WOSM 會員身份。"
+    "email": "",
+    "description": "Magyar Cserkészszövetség（MCSSZ）是匈牙利 WOSM 成員童軍組織。官方 Országos iroda 頁列出地址 Tömörkény u. 3/A、電話 +36 20 548 1766，並註明 WOSM 會員身份。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cserkesz.hu/",
+    "facebook": "https://www.facebook.com/MCSSZ",
+    "instagram": "hungarian_scouts",
+    "youtube": "https://www.youtube.com/cserkeszek",
+    "socialVerificationSource": "https://www.cserkesz.hu/"
   },
   {
     "id": "HU-CONTACT-INTERNATIONAL",
@@ -31,8 +38,14 @@
     "lng": 19.0069,
     "address": "1535 Budapest, Pf. 941, Hungary",
     "website": "https://www.cserkesz.hu/hungarian-scout-association",
-    "email": "intercom@mcssz.hu",
-    "description": "MCSSZ 官方英文頁列出國際聯絡信箱 intercom@mcssz.hu 與郵政地址 1535 Budapest, Pf. 941，用於國際童軍聯繫。"
+    "email": "",
+    "description": "MCSSZ 官方英文頁列出國際聯絡信箱 與郵政地址 1535 Budapest, Pf. 941，用於國際童軍聯繫。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cserkesz.hu/hungarian-scout-association",
+    "facebook": "https://www.facebook.com/MCSSZ",
+    "instagram": "hungarian_scouts",
+    "socialVerificationSource": "https://www.cserkesz.hu/"
   },
   {
     "id": "HU-UNITS-MAP",
@@ -48,8 +61,15 @@
     "lng": 19.0069,
     "address": "Scout groups across Hungary; contact via MCSSZ National Office",
     "website": "https://www.cserkesz.hu/kapcsolat/csapatok",
-    "email": "hello@mcssz.hu",
-    "description": "MCSSZ 官方 Csapatok 頁說明匈牙利童軍在全國不同地點以 csapatok（地方團）運作，並提供官方地圖協助尋找最近童軍隊。此項以總部作為全國網絡代表座標。"
+    "email": "",
+    "description": "MCSSZ 官方 Csapatok 頁說明匈牙利童軍在全國不同地點以 csapatok（地方團）運作，並提供官方地圖協助尋找最近童軍隊。此項以總部作為全國網絡代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.cserkesz.hu/kapcsolat/csapatok",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/MCSSZ",
+    "instagram": "hungarian_scouts",
+    "socialVerificationSource": "https://www.cserkesz.hu/"
   },
   {
     "id": "HU-DISTRICTS-MAP",
@@ -65,8 +85,15 @@
     "lng": 19.0069,
     "address": "Scout districts across Hungary; contact via MCSSZ National Office",
     "website": "https://www.cserkesz.hu/kapcsolat/cserkeszkeruletek",
-    "email": "hello@mcssz.hu",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出匈牙利童軍區與區級領導，並提供地圖與各區網站連結。此項為全國童軍區網絡代表點。"
+    "email": "",
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出匈牙利童軍區與區級領導，並提供地圖與各區網站連結。此項為全國童軍區網絡代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.cserkesz.hu/kapcsolat/cserkeszkeruletek",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/MCSSZ",
+    "instagram": "hungarian_scouts",
+    "socialVerificationSource": "https://www.cserkesz.hu/"
   },
   {
     "id": "HU-CAMP-CSOBANKA",
@@ -82,7 +109,10 @@
     "lng": 18.9724,
     "address": "Margitliget 1, 2014 Csobánka, Hungary",
     "website": "https://archiv.cserkesz.hu/szovetseg/szertar/szallashelyek.html",
-    "description": "MCSSZ 官方舊網站住宿頁列出 Csobánkai Közép-európai Cserkészpark，描述其位於 Csobánka 邊界、Dera stream 旁、Oszoly forest 旁，作為青年中心、住宿與營地使用。"
+    "description": "MCSSZ 官方舊網站住宿頁列出 Csobánkai Közép-európai Cserkészpark，描述其位於 Csobánka 邊界、Dera stream 旁、Oszoly forest 旁，作為青年中心、住宿與營地使用。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://archiv.cserkesz.hu/szovetseg/szertar/szallashelyek.html"
   },
   {
     "id": "HU-CAMP-SZTRILICH-PAL",
@@ -98,7 +128,10 @@
     "lng": 18.91,
     "address": "Nagykovácsi area, Pest County, Hungary",
     "website": "https://archiv.cserkesz.hu/hir/beszamolo/25-eves-sztrilich-pal-cserkeszpark.html",
-    "description": "MCSSZ 官方舊網站文章記錄 Sztrilich Pál Cserkészpark 的歷史、營地運作與大型活動支援；此地為匈牙利童軍重要戶外營地之一。"
+    "description": "MCSSZ 官方舊網站文章記錄 Sztrilich Pál Cserkészpark 的歷史、營地運作與大型活動支援；此地為匈牙利童軍重要戶外營地之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://archiv.cserkesz.hu/hir/beszamolo/25-eves-sztrilich-pal-cserkeszpark.html"
   },
   {
     "id": "HU-CENTRE-TELEKI-TISZA",
@@ -114,7 +147,10 @@
     "lng": 18.8906,
     "address": "Kossuth Lajos u. 2, 2094 Nagykovácsi, Hungary",
     "website": "https://scoutevent.hu/teleki-tisza-kastely/",
-    "description": "ScoutEvent 官方頁列出 Teleki-Tisza-kastély 地址為 2094 Nagykovácsi, Kossuth Lajos u. 2，並提供住宿、活動、營隊與場地租用功能；此場地由匈牙利童軍相關活動平台管理。"
+    "description": "ScoutEvent 官方頁列出 Teleki-Tisza-kastély 地址為 2094 Nagykovácsi, Kossuth Lajos u. 2，並提供住宿、活動、營隊與場地租用功能；此場地由匈牙利童軍相關活動平台管理。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scoutevent.hu/teleki-tisza-kastely/"
   },
   {
     "id": "HU-DISTRICT-I-BUDAI",
@@ -130,7 +166,10 @@
     "lng": 19.0069,
     "address": "Budapest / Buda, Hungary",
     "website": "https://iker.cserkesz.hu/",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 I. Budai cserkészkerület，官方頁列出其區級領導與網站。"
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 I. Budai cserkészkerület，官方頁列出其區級領導與網站。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://iker.cserkesz.hu/"
   },
   {
     "id": "HU-DISTRICT-II-NORTH",
@@ -146,7 +185,11 @@
     "lng": 20.79,
     "address": "Northern Hungary / Miskolc, Hungary",
     "website": "https://2ker.cserkesz.hu/",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 II. Észak-magyarországi cserkészkerület。此點以 Miskolc 作代表座標。"
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 II. Észak-magyarországi cserkészkerület。此點以 Miskolc 作代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://2ker.cserkesz.hu/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "HU-DISTRICT-III-WEST",
@@ -162,7 +205,11 @@
     "lng": 17.6343,
     "address": "Western Hungary / Győr, Hungary",
     "website": "http://3ker.cserkesz.hu/",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 III. Nyugat-magyarországi cserkészkerület。此點以 Győr 作代表座標。"
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 III. Nyugat-magyarországi cserkészkerület。此點以 Győr 作代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "http://3ker.cserkesz.hu/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "HU-DISTRICT-IV-CENTRAL-TRANS",
@@ -178,7 +225,11 @@
     "lng": 18.4108,
     "address": "Central Transdanubia / Székesfehérvár, Hungary",
     "website": "https://www.facebook.com/4kercserkesz",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 IV. Közép-dunántúli cserkészkerület。官方頁提供 Facebook 連結，此點以 Székesfehérvár 作代表座標。"
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 IV. Közép-dunántúli cserkészkerület。官方頁提供 Facebook 連結，此點以 Székesfehérvár 作代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.facebook.com/4kercserkesz",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "HU-DISTRICT-V-SOUTH-ALFOLD",
@@ -194,7 +245,11 @@
     "lng": 20.1486,
     "address": "Southern Great Plain / Szeged, Hungary",
     "website": "http://www.otker.cserkesz.hu/",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 V. Dél-alföldi cserkészkerület。此點以 Szeged 作代表座標。"
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 V. Dél-alföldi cserkészkerület。此點以 Szeged 作代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "http://www.otker.cserkesz.hu/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "HU-DISTRICT-VI-SOUTH-TRANS",
@@ -210,7 +265,11 @@
     "lng": 18.228,
     "address": "Southern Transdanubia / Pécs, Hungary",
     "website": "https://www.facebook.com/VIcserkeszKerulet",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 VI. Dél-dunántúli cserkészkerület。此點以 Pécs 作代表座標。"
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 VI. Dél-dunántúli cserkészkerület。此點以 Pécs 作代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.facebook.com/VIcserkeszKerulet",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "HU-DISTRICT-VIII-WEST-ALFOLD",
@@ -226,7 +285,11 @@
     "lng": 19.6921,
     "address": "Western Great Plain / Kecskemét, Hungary",
     "website": "http://8ker.cserkesz.hu/",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 VIII. Nyugat-alföldi cserkészkerület。此點以 Kecskemét 作代表座標。"
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 VIII. Nyugat-alföldi cserkészkerület。此點以 Kecskemét 作代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "http://8ker.cserkesz.hu/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "HU-DISTRICT-IX-NORTH-ALFOLD",
@@ -242,7 +305,11 @@
     "lng": 21.626,
     "address": "Northern Great Plain / Debrecen, Hungary",
     "website": "https://www.facebook.com/alfoldicserkesz",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 IX. Észak-alföldi cserkészkerület。此點以 Debrecen 作代表座標。"
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 IX. Észak-alföldi cserkészkerület。此點以 Debrecen 作代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.facebook.com/alfoldicserkesz",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "HU-DISTRICT-X-PESTI",
@@ -258,6 +325,9 @@
     "lng": 19.0402,
     "address": "Budapest / Pest, Hungary",
     "website": "http://www.xcserkesz.hu/",
-    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 X. Pesti cserkészkerület，負責布達佩斯 Pest 側相關童軍網絡。"
+    "description": "MCSSZ 官方 Cserkészkerületek 頁列出的 X. Pesti cserkészkerület，負責布達佩斯 Pest 側相關童軍網絡。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.xcserkesz.hu/"
   }
 ]

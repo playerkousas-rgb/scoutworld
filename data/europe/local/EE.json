@@ -14,9 +14,15 @@
     "address": "Juurdeveo 22A-2, Tallinn 11313, Estonia",
     "phone": "+372 5344 5171",
     "website": "https://skaut.ee/",
-    "email": "info@skaut.ee",
-    "instagram": "eestiskaudid",
-    "description": "Eesti Skautide Ühing（ESÜ）是愛沙尼亞 WOSM 成員童軍組織。官方 Main contacts 頁列出法律與郵政地址為 Tallinn Juurdeveo 22A-2，並稱此處為 Tallinn Scout House / ESÜ Office。"
+    "email": "",
+    "instagram": "eestiskautideuhing",
+    "description": "Eesti Skautide Ühing（ESÜ）是愛沙尼亞 WOSM 成員童軍組織。官方 Main contacts 頁列出法律與郵政地址為 Tallinn Juurdeveo 22A-2，並稱此處為 Tallinn Scout House / ESÜ Office。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skaut.ee/",
+    "facebook": "https://www.facebook.com/skaudid",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/"
   },
   {
     "id": "EE-SHOP-TALLINN-OFFICE",
@@ -33,8 +39,15 @@
     "address": "Juurdeveo 22A-2, Tallinn 11313, Estonia",
     "phone": "+372 5344 5171",
     "website": "https://skaut.ee/en/pood/",
-    "email": "info@skaut.ee",
-    "description": "ESÜ 官方 Main contacts 頁指出，其 Tallinn office 可購買 scout merchandise and insignias，亦可借用童軍文獻與裝備；官方 Shop 頁則作線上商店入口。"
+    "email": "",
+    "description": "ESÜ 官方 Main contacts 頁指出，其 Tallinn office 可購買 scout merchandise and insignias，亦可借用童軍文獻與裝備；官方 Shop 頁則作線上商店入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skaut.ee/en/pood/",
+    "facebook": "https://www.facebook.com/skaudid",
+    "instagram": "eestiskautideuhing",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/"
   },
   {
     "id": "EE-CAMP-TAGAMETSA",
@@ -50,7 +63,12 @@
     "lng": 25.339,
     "address": "Rassi küla, Türi vald, 72007 Järvamaa, Estonia",
     "website": "https://tagametsa.ee/",
-    "description": "Tagametsa 是 ESÜ 擁有與營運的森林童軍營地與活動中心。官方 Tagametsa 網站列明 ESÜ 於 1999 年購得此地，現有森林環境教育路線、營火、桑拿、露營區、床位與自然活動。"
+    "description": "Tagametsa 是 ESÜ 擁有與營運的森林童軍營地與活動中心。官方 Tagametsa 網站列明 ESÜ 於 1999 年購得此地，現有森林環境教育路線、營火、桑拿、露營區、床位與自然活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tagametsa.ee/",
+    "facebook": "https://www.facebook.com/TagametsaJahiloss",
+    "socialVerificationSource": "https://tagametsa.ee/"
   },
   {
     "id": "EE-REGION-NORTH",
@@ -66,8 +84,15 @@
     "lng": 24.7573,
     "address": "North Estonia / Tallinn area, Estonia",
     "website": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
-    "email": "ravala@skaut.ee",
-    "description": "ESÜ 官方 Units 頁列出 Põhja-Eesti piirkond 下的 RÄVÄLÄ SKAUTIDE MALEV，為北愛沙尼亞單位集合，涵蓋 Tallinn、Keila、Harku、Viimsi、Maardu 等地童軍單位。"
+    "email": "",
+    "description": "ESÜ 官方 Units 頁列出 Põhja-Eesti piirkond 下的 RÄVÄLÄ SKAUTIDE MALEV，為北愛沙尼亞單位集合，涵蓋 Tallinn、Keila、Harku、Viimsi、Maardu 等地童軍單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "facebook": "https://www.facebook.com/skaudid",
+    "instagram": "eestiskautideuhing",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/"
   },
   {
     "id": "EE-UNIT-TONDISALU",
@@ -83,8 +108,16 @@
     "lng": 24.7433,
     "address": "Tallinna Skaudimaja, Juurdeveo 22A-2, Tallinn, Estonia",
     "website": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
-    "email": "tondisalu@skaut.ee",
-    "description": "ESÜ 官方 Units 頁列出 Tondisalu 的活動區域為 Tallinn-Väike，聚會地點為 Tallinna Skaudimaja, Juurdeveo 22A-2，是塔林 Scout House 常駐地方單位之一。"
+    "email": "",
+    "description": "ESÜ 官方 Units 頁列出 Tondisalu 的活動區域為 Tallinn-Väike，聚會地點為 Tallinna Skaudimaja, Juurdeveo 22A-2，是塔林 Scout House 常駐地方單位之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/skaudid",
+    "instagram": "eestiskautideuhing",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/"
   },
   {
     "id": "EE-UNIT-TORMILIND",
@@ -100,8 +133,16 @@
     "lng": 24.7433,
     "address": "Tallinna Skaudimaja, Juurdeveo 22A-2, Tallinn, Estonia",
     "website": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
-    "email": "tormilind@skaut.ee",
-    "description": "ESÜ 官方 Units 頁列出 Tormilind 的活動區域為 Tallinn / Tallinn-Väike，聚會地點為 Tallinna Skaudimaja，並開設 Hundud、Skaudid、Vanemskaudid 等年齡段。"
+    "email": "",
+    "description": "ESÜ 官方 Units 頁列出 Tormilind 的活動區域為 Tallinn / Tallinn-Väike，聚會地點為 Tallinna Skaudimaja，並開設 Hundud、Skaudid、Vanemskaudid 等年齡段。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/skaudid",
+    "instagram": "eestiskautideuhing",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/"
   },
   {
     "id": "EE-UNIT-SATURN",
@@ -116,9 +157,13 @@
     "lat": 59.4372,
     "lng": 24.7573,
     "address": "Põhja-Tallinn, Tallinn, Estonia",
-    "website": "https://saturn-skaut.ee/web/",
-    "email": "saturn@skaut.ee",
-    "description": "ESÜ 官方 Units 頁列出 Saturn 活動區域為 Põhja-Tallinn，是俄語與愛沙尼亞語浸入式單位。"
+    "website": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "email": "",
+    "description": "ESÜ 官方 Units 頁列出 Saturn 活動區域為 Põhja-Tallinn，是俄語與愛沙尼亞語浸入式單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official units list linked; previous unit website returned 500; verify current status before travel",
+    "verificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "EE-UNIT-SIIL",
@@ -134,7 +179,11 @@
     "lng": 24.7573,
     "address": "Lasnamäe, Tallinn and Maardu, Estonia",
     "website": "https://www.skaudidsiil.org/",
-    "description": "ESÜ 官方 Units 頁列出 Siil 活動區域為 Lasnamäe、Tallinn 與 Maardu，是俄語與愛沙尼亞語浸入式地方童軍單位。"
+    "description": "ESÜ 官方 Units 頁列出 Siil 活動區域為 Lasnamäe、Tallinn 與 Maardu，是俄語與愛沙尼亞語浸入式地方童軍單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.skaudidsiil.org/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "EE-UNIT-OKOSKAUDID",
@@ -150,8 +199,14 @@
     "lng": 24.7433,
     "address": "Tallinn, Viimsi and Tartu, Estonia",
     "website": "http://oko.skaut.ee/",
-    "email": "oko@skaut.ee",
-    "description": "ESÜ 官方 Units 頁列出 Ökoskaudid 活動區域包括 Tallinn、Viimsi 與 Tartu，並有在 Juurdeveo 22A-2 聚會的隊伍，是具環境教育特色的童軍單位。"
+    "email": "",
+    "description": "ESÜ 官方 Units 頁列出 Ökoskaudid 活動區域包括 Tallinn、Viimsi 與 Tartu，並有在 Juurdeveo 22A-2 聚會的隊伍，是具環境教育特色的童軍單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "http://oko.skaut.ee/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/okoskaudid",
+    "socialVerificationSource": "http://oko.skaut.ee/"
   },
   {
     "id": "EE-REGION-SOUTH-TSGM",
@@ -167,8 +222,14 @@
     "lng": 26.729,
     "address": "Tartu and Valga counties, Estonia",
     "website": "https://tsgm.skaut.ee/",
-    "email": "tsgm@skaut.ee",
-    "description": "ESÜ 官方 Units 頁列出 Lõuna-Eesti piirkond 下的 Tartumaa Skautide ja Gaidide Malev（TSGM），活動區域為 Tartu- ja Valgamaa，下轄 Ilves、Mesilased 等單位。"
+    "email": "",
+    "description": "ESÜ 官方 Units 頁列出 Lõuna-Eesti piirkond 下的 Tartumaa Skautide ja Gaidide Malev（TSGM），活動區域為 Tartu- ja Valgamaa，下轄 Ilves、Mesilased 等單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://tsgm.skaut.ee/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/TartuSkaudidGaidid",
+    "socialVerificationSource": "https://tsgm.skaut.ee/"
   },
   {
     "id": "EE-UNIT-TARTU-ILVES",
@@ -184,8 +245,16 @@
     "lng": 26.729,
     "address": "Tartu, Estonia",
     "website": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
-    "email": "ott@skaut.ee",
-    "description": "ESÜ 官方 Units 頁列出的 TSGM / Ilves，活動區域為 Tartu，設有 Hundud、Skaudid、Vanemskaudid 等年齡段。"
+    "email": "",
+    "description": "ESÜ 官方 Units 頁列出的 TSGM / Ilves，活動區域為 Tartu，設有 Hundud、Skaudid、Vanemskaudid 等年齡段。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/skaudid",
+    "instagram": "eestiskautideuhing",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/"
   },
   {
     "id": "EE-UNIT-TARTU-MESILASED",
@@ -201,8 +270,16 @@
     "lng": 26.729,
     "address": "Tartu, Estonia",
     "website": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
-    "email": "ott@skaut.ee",
-    "description": "ESÜ 官方 Units 頁列出的 TSGM / Mesilased，活動區域為 Tartu。"
+    "email": "",
+    "description": "ESÜ 官方 Units 頁列出的 TSGM / Mesilased，活動區域為 Tartu。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/skaudid",
+    "instagram": "eestiskautideuhing",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/"
   },
   {
     "id": "EE-UNIT-PARNU-PAASUSABA",
@@ -218,8 +295,16 @@
     "lng": 24.5026,
     "address": "Pärnu, Estonia",
     "website": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
-    "email": "ragnar@skaut.ee",
-    "description": "ESÜ 官方 Units 頁在 Lääne-Eesti piirkond 下列出 Pääsusaba，活動區域為 Pärnu。"
+    "email": "",
+    "description": "ESÜ 官方 Units 頁在 Lääne-Eesti piirkond 下列出 Pääsusaba，活動區域為 Pärnu。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/skaudid",
+    "instagram": "eestiskautideuhing",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/"
   },
   {
     "id": "EE-UNIT-RAKVERE",
@@ -235,7 +320,15 @@
     "lng": 26.3617,
     "address": "Rakvere, Estonia",
     "website": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
-    "description": "ESÜ 官方 Units 頁在 Ida-Eesti piirkond 下列出 Rakvere Skaudid，活動區域為 Rakvere。"
+    "description": "ESÜ 官方 Units 頁在 Ida-Eesti piirkond 下列出 Rakvere Skaudid，活動區域為 Rakvere。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/skaudid",
+    "instagram": "eestiskautideuhing",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/"
   },
   {
     "id": "EE-UNIT-NARVA-SEA",
@@ -251,7 +344,15 @@
     "lng": 28.1919,
     "address": "Narva and Narva-Jõesuu, Estonia",
     "website": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
-    "email": "mihhail.land@gmail.com",
-    "description": "ESÜ 官方 Units 頁列出 Narva Meriskaudid，活動區域為 Narva 與 Narva-Jõesuu，屬俄語地方海童軍單位。"
+    "email": "",
+    "description": "ESÜ 官方 Units 頁列出 Narva Meriskaudid，活動區域為 Narva 與 Narva-Jõesuu，屬俄語地方海童軍單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/skaudid",
+    "instagram": "eestiskautideuhing",
+    "youtube": "https://www.youtube.com/channel/UCQVsjd8l1yzRjmAQhIwY6hw",
+    "socialVerificationSource": "https://skaut.ee/en/kontakt-2/skaudiuksused/"
   }
 ]

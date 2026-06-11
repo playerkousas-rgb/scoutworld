@@ -14,8 +14,14 @@
     "address": "168 Ceyhun Hacıbəyli / 30L Jeyhun Haji Bayli St, Baku 1106, Azerbaijan",
     "phone": "+994 70 804 28 04",
     "website": "https://scout.az",
-    "email": "info@scout.az",
-    "description": "Azərbaycan Skautlar Assosiasiyası（ASA）國家總部，負責亞塞拜然童軍全國行政、青年計畫、國際代表與各地分會支援。"
+    "email": "",
+    "description": "Azərbaycan Skautlar Assosiasiyası（ASA）國家總部，負責亞塞拜然童軍全國行政、青年計畫、國際代表與各地分會支援。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-SHOP-MOBILE",
@@ -31,8 +37,14 @@
     "lng": 49.8436,
     "address": "Baku, Azerbaijan / event venues across Azerbaijan",
     "website": "https://scout.az/category/dus%C9%99rg%C9%99l%C9%99r/",
-    "email": "info@scout.az",
-    "description": "ASA 在部分營隊與全國活動中設置流動 Scout Shop，販售徽章、領巾圈、營隊紀念品及童軍配件。此點以巴庫總部作為聯絡座標，實際販售地點依活動公告而定。"
+    "email": "",
+    "description": "ASA 在部分營隊與全國活動中設置流動 Scout Shop，販售徽章、領巾圈、營隊紀念品及童軍配件。此點以巴庫總部作為聯絡座標，實際販售地點依活動公告而定。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az/category/dus%C9%99rg%C9%99l%C9%99r/",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-CAMP-NABRAN",
@@ -48,7 +60,14 @@
     "lng": 48.6916,
     "address": "Nabran, Khachmaz District, Azerbaijan",
     "website": "https://www.scout.az/structure/asa/",
-    "description": "ASA 歷史資料記載，亞塞拜然童軍運動於 1997 年由 Namik Jafarov 等人在北部 Nabran 舉行首個童軍營隊後正式發展；此點標示為歷史起點與北部海岸營隊區。"
+    "description": "ASA 歷史資料記載，亞塞拜然童軍運動於 1997 年由 Namik Jafarov 等人在北部 Nabran 舉行首個童軍營隊後正式發展；此點標示為歷史起點與北部海岸營隊區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scout.az/structure/asa/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-CAMP-SHUSHA",
@@ -64,7 +83,13 @@
     "lng": 46.7512,
     "address": "Shusha, Azerbaijan",
     "website": "https://scout.az/2023/04/02/shusha-2023-international-scout-camp/",
-    "description": "ASA 與青年及體育部支持舉辦的國際童軍人道行動準備營，內容涵蓋人道行動、搜救技能與衝突後重建知識。"
+    "description": "ASA 與青年及體育部支持舉辦的國際童軍人道行動準備營，內容涵蓋人道行動、搜救技能與衝突後重建知識。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az/2023/04/02/shusha-2023-international-scout-camp/",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-CAMP-QABALA",
@@ -80,7 +105,13 @@
     "lng": 47.8402,
     "address": "Gabala / Nic, Azerbaijan",
     "website": "https://scout.az/category/dus%C9%99rg%C9%99l%C9%99r/",
-    "description": "ASA 營隊公告曾列出蓋貝萊 Nic 鎮等地作為童軍冬季營／主題營地點；此區亦曾承辦 2017 年世界童軍青年論壇相關活動。"
+    "description": "ASA 營隊公告曾列出蓋貝萊 Nic 鎮等地作為童軍冬季營／主題營地點；此區亦曾承辦 2017 年世界童軍青年論壇相關活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az/category/dus%C9%99rg%C9%99l%C9%99r/",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-CAMP-GOYGOL",
@@ -96,7 +127,14 @@
     "lng": 46.324,
     "address": "Goygol, Azerbaijan",
     "website": "https://scout.az/category/dus%C9%99rg%C9%99l%C9%99r/",
-    "description": "ASA 公告曾提及與 Göygöl 地方政府支持的童軍冬季營活動；此點標示為西部山湖區童軍營隊參考區。"
+    "description": "ASA 公告曾提及與 Göygöl 地方政府支持的童軍冬季營活動；此點標示為西部山湖區童軍營隊參考區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://scout.az/category/dus%C9%99rg%C9%99l%C9%99r/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-BRANCH-SHAKI",
@@ -112,7 +150,13 @@
     "lng": 47.1975,
     "address": "Shaki, Azerbaijan",
     "website": "https://scout.az",
-    "description": "ASA 地方分會／活動城市之一，負責西北部沙基地區童軍與青年活動連結。"
+    "description": "ASA 地方分會／活動城市之一，負責西北部沙基地區童軍與青年活動連結。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-BRANCH-BARDA",
@@ -128,7 +172,13 @@
     "lng": 47.1246,
     "address": "Barda, Azerbaijan",
     "website": "https://scout.az",
-    "description": "ASA 地方分會／活動城市之一，服務中部平原地區童軍拓展與社區服務。"
+    "description": "ASA 地方分會／活動城市之一，服務中部平原地區童軍拓展與社區服務。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-BRANCH-NAKHCHIVAN",
@@ -144,7 +194,13 @@
     "lng": 45.407,
     "address": "Nakhchivan, Azerbaijan",
     "website": "https://scout.az",
-    "description": "ASA 在納希切萬自治共和國的地方童軍據點，補足亞塞拜然西南飛地的童軍地理覆蓋。"
+    "description": "ASA 在納希切萬自治共和國的地方童軍據點，補足亞塞拜然西南飛地的童軍地理覆蓋。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-BRANCH-ISMAYILLI",
@@ -160,7 +216,14 @@
     "lng": 48.1486,
     "address": "Ismayilli, Azerbaijan",
     "website": "https://scout.az",
-    "description": "伊斯梅爾雷是 ASA 地方分會／活動區之一，具備高加索山區戶外教育與自然探索潛力。"
+    "description": "伊斯梅爾雷是 ASA 地方分會／活動區之一，具備高加索山區戶外教育與自然探索潛力。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://scout.az",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-BRANCH-KHACHMAZ",
@@ -176,7 +239,14 @@
     "lng": 48.8012,
     "address": "Khachmaz, Azerbaijan",
     "website": "https://scout.az",
-    "description": "北部哈奇馬斯區為 ASA 地方童軍活動區之一，並鄰近 Nabran 童軍歷史營隊區。"
+    "description": "北部哈奇馬斯區為 ASA 地方童軍活動區之一，並鄰近 Nabran 童軍歷史營隊區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://scout.az",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-BRANCH-ZAQATALA",
@@ -192,7 +262,14 @@
     "lng": 46.7595,
     "address": "Zaqatala, Azerbaijan",
     "website": "https://scout.az",
-    "description": "扎加塔拉位於亞塞拜然西北部，是 ASA 地方分會／活動區之一，可連結高加索山麓自然教育資源。"
+    "description": "扎加塔拉位於亞塞拜然西北部，是 ASA 地方分會／活動區之一，可連結高加索山麓自然教育資源。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://scout.az",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-BRANCH-AGHJABADI",
@@ -208,7 +285,13 @@
     "lng": 47.4607,
     "address": "Aghjabadi, Azerbaijan",
     "website": "https://scout.az",
-    "description": "ASA 在阿格賈貝迪地區的地方分會／活動據點，支援中南部社區童軍拓展。"
+    "description": "ASA 在阿格賈貝迪地區的地方分會／活動據點，支援中南部社區童軍拓展。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-BRANCH-GANJA",
@@ -224,7 +307,13 @@
     "lng": 46.3597,
     "address": "Ganja, Azerbaijan",
     "website": "https://scout.az",
-    "description": "占賈是亞塞拜然西部重要城市，也是 ASA 地方分會／活動城市之一，適合青年交流、服務學習與西部童軍活動。"
+    "description": "占賈是亞塞拜然西部重要城市，也是 ASA 地方分會／活動城市之一，適合青年交流、服務學習與西部童軍活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   },
   {
     "id": "AZ-BRANCH-YEVLAKH",
@@ -240,6 +329,12 @@
     "lng": 47.1467,
     "address": "Yevlakh, Azerbaijan",
     "website": "https://scout.az",
-    "description": "葉夫拉赫是 ASA 地方分會／活動城市之一，位於交通樞紐位置，有利於跨區童軍活動集結。"
+    "description": "葉夫拉赫是 ASA 地方分會／活動城市之一，位於交通樞紐位置，有利於跨區童軍活動集結。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.az",
+    "facebook": "https://www.facebook.com/scoutsofazerbaijan",
+    "instagram": "scoutsofazerbaijan",
+    "socialVerificationSource": "https://scout.az"
   }
 ]

@@ -14,10 +14,14 @@
     "address": "Hraunbær 123, 110 Reykjavík, Iceland",
     "phone": "+354 550 9800",
     "website": "https://www.skatarnir.is/",
-    "email": "skatarnir@skatarnir.is",
+    "email": "",
     "instagram": "skatarnir",
-    "facebook": "skatarnir",
-    "description": "Bandalag íslenskra skáta（Skátarnir）是冰島 WOSM／WAGGGS 國家童軍與女童軍組織。Skátarnir 官方網站與 Contact page 列出總部 Hraunbær 123, Reykjavík、電話 550 9800 及 skatarnir@skatarnir.is。"
+    "facebook": "https://facebook.com/skatarnir",
+    "description": "Bandalag íslenskra skáta（Skátarnir）是冰島 WOSM／WAGGGS 國家童軍與女童軍組織。Skátarnir 官方網站與 Contact page 列出總部 Hraunbær 123, Reykjavík、電話 550 9800 及。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.skatarnir.is/",
+    "socialVerificationSource": "https://www.skatarnir.is/"
   },
   {
     "id": "IS-SHOP-SKATABUDIN",
@@ -34,8 +38,12 @@
     "address": "Hraunbær 123, 110 Reykjavík, Iceland",
     "phone": "+354 550 9800",
     "website": "https://skatarnir.is/",
-    "email": "skatarnir@skatarnir.is",
-    "description": "Skátarnir 官方網站主選單列出 Skátabúðin 作為童軍用品店；官方新聞亦提到 Skátabúðin 會因全國大營暫時移至 Úlfljótsvatn。此項以 Skátarnir 總部作常設聯絡座標。"
+    "email": "",
+    "description": "Skátarnir 官方網站主選單列出 Skátabúðin 作為童軍用品店；官方新聞亦提到 Skátabúðin 會因全國大營暫時移至 Úlfljótsvatn。此項以 Skátarnir 總部作常設聯絡座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skatarnir.is/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "IS-CAMP-ULFLJOTSVATN",
@@ -52,10 +60,13 @@
     "address": "Úlfljótsvatn, 801 Selfoss, Iceland",
     "phone": "+354 482 2674",
     "website": "https://ulfljotsvatn.is/",
-    "email": "ulfljotsvatn@skatar.is",
+    "email": "",
     "instagram": "ulfljotsvatn",
-    "facebook": "Ulfljotsvatn",
-    "description": "Úlfljótsvatn 官方網站稱其為冰島童軍戶外中心，自 1941 年起為冰島童軍之家，位於 Þingvallavatn 以南，提供營地、夏令營、戶外活動、團隊建設、攀岩塔、划艇、露營與住宿。"
+    "facebook": "https://www.facebook.com/Ulfljotsvatn/",
+    "description": "Úlfljótsvatn 官方網站稱其為冰島童軍戶外中心，自 1941 年起為冰島童軍之家，位於 Þingvallavatn 以南，提供營地、夏令營、戶外活動、團隊建設、攀岩塔、划艇、露營與住宿。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://ulfljotsvatn.is/"
   },
   {
     "id": "IS-CAMP-HAMRAR",
@@ -71,7 +82,11 @@
     "lng": -18.0978,
     "address": "Hamrar, Akureyri, Iceland",
     "website": "https://www.skatarnir.is/",
-    "description": "Skátarnir 官方網站列出 Hamrar útilífsmiðstöð 作為冰島童軍相關戶外中心，並在 2026 年 Skátaþing 新聞中提到全國童軍大營 Landsmót skáta 將於 Hamrar 舉行。此項標示為北部童軍戶外活動與全國大營場地。"
+    "description": "Skátarnir 官方網站列出 Hamrar útilífsmiðstöð 作為冰島童軍相關戶外中心，並在 2026 年 Skátaþing 新聞中提到全國童軍大營 Landsmót skáta 將於 Hamrar 舉行。此項標示為北部童軍戶外活動與全國大營場地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.skatarnir.is/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "IS-GROUP-FINDER",
@@ -87,8 +102,15 @@
     "lng": -21.794,
     "address": "Scout groups across Iceland; contact via Skátamiðstöðin, Hraunbær 123",
     "website": "https://www.skatarnir.is/vertu-me%C3%B0",
-    "email": "skatarnir@skatarnir.is",
-    "description": "Skátarnir 官方網站提供 Skátafélög á Íslandi 地圖與地方童軍團搜尋，並列出 Reykjavík、Kópavogur、Hafnarfjörður、Landsbyggðin 等分類。此項以總部作全國網絡代表座標。"
+    "email": "",
+    "description": "Skátarnir 官方網站提供 Skátafélög á Íslandi 地圖與地方童軍團搜尋，並列出 Reykjavík、Kópavogur、Hafnarfjörður、Landsbyggðin 等分類。此項以總部作全國網絡代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.skatarnir.is/vertu-me%C3%B0",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://facebook.com/skatarnir",
+    "instagram": "skatarnir",
+    "socialVerificationSource": "https://www.skatarnir.is/vertu-me%C3%B0"
   },
   {
     "id": "IS-REGION-REYKJAVIK",
@@ -104,7 +126,13 @@
     "lng": -21.9422,
     "address": "Reykjavík, Iceland",
     "website": "https://www.skatarnir.is/vertu-me%C3%B0",
-    "description": "Skátarnir 官方首頁與 group finder 將 Reykjavík 列為地方童軍團分類之一，供尋找首都區童軍團。"
+    "description": "Skátarnir 官方首頁與 group finder 將 Reykjavík 列為地方童軍團分類之一，供尋找首都區童軍團。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.skatarnir.is/vertu-me%C3%B0",
+    "facebook": "https://facebook.com/skatarnir",
+    "instagram": "skatarnir",
+    "socialVerificationSource": "https://www.skatarnir.is/vertu-me%C3%B0"
   },
   {
     "id": "IS-REGION-KOPAVOGUR",
@@ -120,7 +148,13 @@
     "lng": -21.9048,
     "address": "Kópavogur, Iceland",
     "website": "https://www.skatarnir.is/vertu-me%C3%B0",
-    "description": "Skátarnir 官方首頁與 group finder 將 Kópavogur 列為地方童軍團分類之一。"
+    "description": "Skátarnir 官方首頁與 group finder 將 Kópavogur 列為地方童軍團分類之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.skatarnir.is/vertu-me%C3%B0",
+    "facebook": "https://facebook.com/skatarnir",
+    "instagram": "skatarnir",
+    "socialVerificationSource": "https://www.skatarnir.is/vertu-me%C3%B0"
   },
   {
     "id": "IS-REGION-HAFNARFJORDUR",
@@ -136,7 +170,13 @@
     "lng": -21.9576,
     "address": "Hafnarfjörður, Iceland",
     "website": "https://www.skatarnir.is/vertu-me%C3%B0",
-    "description": "Skátarnir 官方首頁與 group finder 將 Hafnarfjörður 列為地方童軍團分類之一。"
+    "description": "Skátarnir 官方首頁與 group finder 將 Hafnarfjörður 列為地方童軍團分類之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.skatarnir.is/vertu-me%C3%B0",
+    "facebook": "https://facebook.com/skatarnir",
+    "instagram": "skatarnir",
+    "socialVerificationSource": "https://www.skatarnir.is/vertu-me%C3%B0"
   },
   {
     "id": "IS-REGION-LANDSBYGGDIN",
@@ -152,6 +192,13 @@
     "lng": -18.1122,
     "address": "Regional scout groups across Iceland; representative point Akureyri",
     "website": "https://www.skatarnir.is/vertu-me%C3%B0",
-    "description": "Skátarnir 官方 group finder 將 Landsbyggðin（首都區外地方城鎮）列為地方童軍團分類之一。此項以 Akureyri 作代表座標，涵蓋冰島各地方童軍團。"
+    "description": "Skátarnir 官方 group finder 將 Landsbyggðin（首都區外地方城鎮）列為地方童軍團分類之一。此項以 Akureyri 作代表座標，涵蓋冰島各地方童軍團。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.skatarnir.is/vertu-me%C3%B0",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://facebook.com/skatarnir",
+    "instagram": "skatarnir",
+    "socialVerificationSource": "https://www.skatarnir.is/vertu-me%C3%B0"
   }
 ]

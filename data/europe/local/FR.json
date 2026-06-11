@@ -14,8 +14,14 @@
     "address": "21-37 rue de Stalingrad, Immeuble Le Baudran - Hall D, 94110 Arcueil, France",
     "phone": "+33 1 43 37 03 57",
     "website": "https://www.scoutisme-francais.fr/",
-    "email": "info@scoutisme-francais.org",
-    "description": "Fédération du Scoutisme Français 是法國被 WOSM 與 WAGGGS 承認的國家童軍與女童軍聯合會。官方英文頁列明其由多個法國童軍／女童軍協會組成，代表法國超過 125,000 名童軍與女童軍。"
+    "email": "",
+    "description": "Fédération du Scoutisme Français 是法國被 WOSM 與 WAGGGS 承認的國家童軍與女童軍聯合會。官方英文頁列明其由多個法國童軍／女童軍協會組成，代表法國超過 125,000 名童軍與女童軍。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutisme-francais.fr/",
+    "facebook": "http://facebook.com/scoutismefr",
+    "instagram": "scoutismefr",
+    "socialVerificationSource": "https://www.scoutisme-francais.fr/"
   },
   {
     "id": "FR-HQ-SGDF-ARCUEIL",
@@ -32,9 +38,15 @@
     "address": "21-37 rue de Stalingrad, Immeuble Le Baudran - Bâtiment D, 94110 Arcueil, France",
     "phone": "+33 1 44 52 37 37",
     "website": "https://sgdf.fr/",
-    "email": "scoutsguides@sgdf.fr",
+    "email": "",
     "instagram": "scoutsetguidesdefrance",
-    "description": "Scouts et Guides de France 是 Scoutisme Français 會員組織之一，為法國主要天主教童軍與女童軍組織。SGDF 官方 Jambville legal notice 及 WAGGGS France listing 均列出 Arcueil Le Baudran 地址。"
+    "description": "Scouts et Guides de France 是 Scoutisme Français 會員組織之一，為法國主要天主教童軍與女童軍組織。SGDF 官方 Jambville legal notice 及 WAGGGS France listing 均列出 Arcueil Le Baudran 地址。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sgdf.fr/",
+    "socialVerificationSource": "https://sgdf.fr/",
+    "facebook": "https://www.facebook.com/scoutsetguides",
+    "youtube": "https://www.youtube.com/c/SgdfFr"
   },
   {
     "id": "FR-HQ-EEDF-NOISY",
@@ -51,8 +63,15 @@
     "address": "12 place Georges Pompidou, 93167 Noisy-le-Grand Cedex, France",
     "phone": "+33 1 48 15 17 66",
     "website": "https://www.eedf.fr/",
-    "email": "accueil.national@eedf.fr",
-    "description": "EEDF 是 Scoutisme Français 會員組織之一，為法國世俗／非宗教童軍教育組織。官方首頁與 Contact 頁列出 Noisy-le-Grand national headquarters 與 accueil.national@eedf.fr。"
+    "email": "",
+    "description": "EEDF 是 Scoutisme Français 會員組織之一，為法國世俗／非宗教童軍教育組織。官方首頁與 Contact 頁列出 Noisy-le-Grand national headquarters 。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.eedf.fr/",
+    "facebook": "https://www.facebook.com/EEDF.pageofficielle",
+    "instagram": "eedf_officiel",
+    "youtube": "https://www.youtube.com/channel/UCIqifCJDDpkQ1mYkQFVpaaw",
+    "socialVerificationSource": "https://www.eedf.fr/"
   },
   {
     "id": "FR-HQ-EEUDF-CLICHY",
@@ -69,8 +88,14 @@
     "address": "15 rue Klock, 92110 Clichy, France",
     "phone": "+33 1 55 46 90 35",
     "website": "https://eeudf.org/",
-    "email": "sn@eeudf.org",
-    "description": "EEUdF 是 Scoutisme Français 會員組織之一，為法國新教背景童軍與女童軍組織。官方 Contact 頁列出 Secrétariat National 位於 Clichy, rue Klock 15。"
+    "email": "",
+    "description": "EEUdF 是 Scoutisme Français 會員組織之一，為法國新教背景童軍與女童軍組織。官方 Contact 頁列出 Secrétariat National 位於 Clichy, rue Klock 15。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://eeudf.org/",
+    "facebook": "https://www.facebook.com/EEUdF",
+    "instagram": "eeudf",
+    "socialVerificationSource": "https://eeudf.org/"
   },
   {
     "id": "FR-HQ-EEIF-PARIS",
@@ -87,10 +112,13 @@
     "address": "27 avenue de Ségur, 75007 Paris, France",
     "phone": "+33 1 47 83 60 33",
     "website": "https://www.eeif.org/",
-    "email": "centre.national@eeif.org",
+    "email": "",
     "instagram": "eeifcentrenational",
-    "facebook": "EclaireusesEclaireursIsraelitesdeFranceEEIF",
-    "description": "EEIF 是 Scoutisme Français 會員組織之一，為法國猶太童軍與女童軍運動。Scoutisme Français 官方英文頁列出其官方聯絡電郵 centre.national@eeif.org；EEIF 官方社群頁列出 Centre National 位於 Paris, avenue de Ségur。"
+    "facebook": "https://www.facebook.com/EclaireusesEclaireursIsraelitesdeFranceEEIF/",
+    "description": "EEIF 是 Scoutisme Français 會員組織之一，為法國猶太童軍與女童軍運動。Scoutisme Français 官方英文頁列出其官方聯絡資料；EEIF 官方社群頁列出 Centre National 位於 Paris, avenue de Ségur。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.eeif.org/"
   },
   {
     "id": "FR-HQ-SMF-DRANCY",
@@ -107,8 +135,11 @@
     "address": "29 Allée Marcel Paul, 93700 Drancy, France",
     "phone": "+33 1 48 96 18 84",
     "website": "https://scoutsmusulmans.fr/",
-    "email": "contact@scoutsmusulmans.fr",
-    "description": "Scouts Musulmans de France 是 Scoutisme Français 會員組織之一。Scoutisme Français 官方英文頁列出 contact@scoutsmusulmans.fr；CNAJEP 會員資料與法國政府企業目錄列出地址 29 Allée Marcel Paul, Drancy。"
+    "email": "",
+    "description": "Scouts Musulmans de France 是 Scoutisme Français 會員組織之一。Scoutisme Français 官方英文頁列出；CNAJEP 會員資料與法國政府企業目錄列出地址 29 Allée Marcel Paul, Drancy。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scoutsmusulmans.fr/"
   },
   {
     "id": "FR-HQ-EDLN-CHAMBERY",
@@ -125,8 +156,15 @@
     "address": "45 Chemin du Peney, 73000 Chambéry, France",
     "phone": "+33 7 68 89 51 9",
     "website": "https://www.edln.org/",
-    "email": "info@edln.org",
-    "description": "Éclaireuses et Éclaireurs de la Nature 是 Scoutisme Français 會員組織之一，結合童軍教育、正念實踐與生態教育。Scoutisme Français 官方英文頁列出 info@edln.org；組織登記資料列出 Chambéry, Chemin du Peney 45。"
+    "email": "",
+    "description": "Éclaireuses et Éclaireurs de la Nature 是 Scoutisme Français 會員組織之一，結合童軍教育、正念實踐與生態教育。Scoutisme Français 官方英文頁列出；組織登記資料列出 Chambéry, Chemin du Peney 45。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.edln.org/",
+    "facebook": "https://www.facebook.com/Eclaireursdelanature",
+    "instagram": "edln_officiel",
+    "youtube": "https://www.youtube.com/channel/UC-3nMloD98BC6rtOiLWtHEQ",
+    "socialVerificationSource": "https://www.edln.org/"
   },
   {
     "id": "FR-CAMP-JAMBVILLE",
@@ -143,8 +181,14 @@
     "address": "Château de Jambville, 78440 Jambville, France",
     "phone": "+33 1 34 75 40 84",
     "website": "https://jambville.sgdf.fr/",
-    "email": "jambville@sgdf.fr",
-    "description": "Jambville 是 Scouts et Guides de France 的國家訓練與活動中心，位於 Vexin 自然區的城堡與森林園區。SGDF 官方網站與 Jambville legal notice 均指向此中心，供訓練、住宿、營隊與大型聚會使用。"
+    "email": "",
+    "description": "Jambville 是 Scouts et Guides de France 的國家訓練與活動中心，位於 Vexin 自然區的城堡與森林園區。SGDF 官方網站與 Jambville legal notice 均指向此中心，供訓練、住宿、營隊與大型聚會使用。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://jambville.sgdf.fr/",
+    "facebook": "https://www.facebook.com/centreactivitesjambvillesgdf",
+    "instagram": "chateau_de_jambville_sgdf",
+    "socialVerificationSource": "https://jambville.sgdf.fr/"
   },
   {
     "id": "FR-SHOP-SGDF-JAMBVILLE",
@@ -161,8 +205,15 @@
     "address": "Château de Jambville, 78440 Jambville, France",
     "phone": "+33 1 34 75 41 00",
     "website": "https://sgdf.fr/boutique/",
-    "email": "boutique@sgdf.fr",
-    "description": "SGDF 官方 Boutique & Editions 頁列明 La Boutique du Scoutisme 位於 Château de Jambville，販售 Scouts et Guides de France 制服、徽章、戶外、團體及教育用品。"
+    "email": "",
+    "description": "SGDF 官方 Boutique & Editions 頁列明 La Boutique du Scoutisme 位於 Château de Jambville，販售 Scouts et Guides de France 制服、徽章、戶外、團體及教育用品。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sgdf.fr/boutique/",
+    "facebook": "https://www.facebook.com/scoutsetguides",
+    "instagram": "scoutsetguidesdefrance",
+    "youtube": "https://www.youtube.com/c/SgdfFr",
+    "socialVerificationSource": "https://sgdf.fr/"
   },
   {
     "id": "FR-CAMP-BECOURS",
@@ -179,8 +230,15 @@
     "address": "Hameau de Bécours, 12520 Verrières, France",
     "phone": "+33 7 49 62 07 16",
     "website": "https://www.eedf.fr/terrains-et-centres/becours-centre-permanent/",
-    "email": "becours@eedf.fr",
-    "description": "EEDF 官方 Terrains & Centres 頁列出 Bécours 為 permanent international centre，位於 Aveyron 的廢村改造基地，有大型營地與住宿，面向童軍、學校與青年團體。"
+    "email": "",
+    "description": "EEDF 官方 Terrains & Centres 頁列出 Bécours 為 permanent international centre，位於 Aveyron 的廢村改造基地，有大型營地與住宿，面向童軍、學校與青年團體。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.eedf.fr/terrains-et-centres/becours-centre-permanent/",
+    "facebook": "https://www.facebook.com/EEDF.pageofficielle",
+    "instagram": "eedf_officiel",
+    "youtube": "https://www.youtube.com/channel/UCIqifCJDDpkQ1mYkQFVpaaw",
+    "socialVerificationSource": "https://www.eedf.fr/terrains-et-centres/becours-centre-permanent/"
   },
   {
     "id": "FR-BASES-SGDF",
@@ -196,7 +254,15 @@
     "lng": 2.3372,
     "address": "SGDF bases across France",
     "website": "https://sgdf.fr/bases/",
-    "email": "basesetlocaux@sgdf.fr",
-    "description": "SGDF 官方 Les bases SGDF 頁提供全國童軍基地地圖與聯絡方式，說明這些基地由志工團隊維護、管理與運作，供營隊、戶外生活與工程服務使用。此點以 SGDF 總部作為網絡代表座標。"
+    "email": "",
+    "description": "SGDF 官方 Les bases SGDF 頁提供全國童軍基地地圖與聯絡方式，說明這些基地由志工團隊維護、管理與運作，供營隊、戶外生活與工程服務使用。此點以 SGDF 總部作為網絡代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://sgdf.fr/bases/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/scoutsetguides",
+    "instagram": "scoutsetguidesdefrance",
+    "youtube": "https://www.youtube.com/c/SgdfFr",
+    "socialVerificationSource": "https://sgdf.fr/"
   }
 ]

@@ -15,7 +15,12 @@
     "phone": "+44 20 8433 7100",
     "website": "https://www.scouts.org.uk/",
     "instagram": "scouts",
-    "description": "The Scouts 官方資料列明英國總部位於 Gilwell Park, Chingford, London。Gilwell Park 同時是世界童軍重要歷史地點與 Scout Adventures 活動中心。"
+    "description": "The Scouts 官方資料列明英國總部位於 Gilwell Park, Chingford, London。Gilwell Park 同時是世界童軍重要歷史地點與 Scout Adventures 活動中心。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scouts.org.uk/",
+    "facebook": "https://www.facebook.com/scoutassociation",
+    "socialVerificationSource": "https://www.scouts.org.uk/contact-us/"
   },
   {
     "id": "GB-CAMP-GILWELL",
@@ -32,9 +37,12 @@
     "address": "Gilwell Park, Bury Road, Chingford, London E4 7QW, United Kingdom",
     "phone": "+44 20 8138 0191",
     "website": "https://www.scoutadventures.org.uk/centre/gilwell-park",
-    "email": "info@scoutadventures.org.uk",
+    "email": "",
     "instagram": "scouts",
-    "description": "Scout Adventures 官方頁稱 Gilwell Park 是世界聞名的童軍歷史地點與活動中心，佔地約 108 英畝，提供住宿、露營、歷史導覽、戶外活動與國際志工計畫。"
+    "description": "Scout Adventures 官方頁稱 Gilwell Park 是世界聞名的童軍歷史地點與活動中心，佔地約 108 英畝，提供住宿、露營、歷史導覽、戶外活動與國際志工計畫。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/gilwell-park"
   },
   {
     "id": "GB-SHOP-SCOUT-STORE",
@@ -50,9 +58,12 @@
     "lng": -0.2597,
     "address": "Scout Store, Unit A1, Dolphin Way, Shoreham-by-Sea, West Sussex BN43 6NZ, United Kingdom",
     "website": "https://shop.scouts.org.uk/",
-    "email": "customer.services@scouts.org.uk",
+    "email": "",
     "instagram": "scoutstoreuk",
-    "description": "Scout Store 官方 Contact Us 頁列出配送中心位於 Shoreham-by-Sea, Dolphin Way Unit A1。Scout Store 是 The Scout Association 官方制服、徽章、紀念品與戶外用品零售平台。"
+    "description": "Scout Store 官方 Contact Us 頁列出配送中心位於 Shoreham-by-Sea, Dolphin Way Unit A1。Scout Store 是 The Scout Association 官方制服、徽章、紀念品與戶外用品零售平台。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://shop.scouts.org.uk/"
   },
   {
     "id": "GB-CAMP-BROWNSEA",
@@ -69,7 +80,10 @@
     "address": "Brownsea Island, Poole Harbour, Poole, Dorset BH13 7EE, United Kingdom",
     "phone": "+44 1202 707744",
     "website": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island",
-    "description": "Brownsea Island 是 1907 年貝登堡實驗營所在地。National Trust 官方頁列出 Outdoor Centre campsite 及 Brownsea Island 地址，適合童軍朝聖、自然觀察與戶外活動。"
+    "description": "Brownsea Island 是 1907 年貝登堡實驗營所在地。National Trust 官方頁列出 Outdoor Centre campsite 及 Brownsea Island 地址，適合童軍朝聖、自然觀察與戶外活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island"
   },
   {
     "id": "GB-CAMP-BROADSTONE-WARREN",
@@ -86,7 +100,10 @@
     "address": "Broadstone Warren, Lewes Road, Forest Row RH18 5JS, United Kingdom",
     "phone": "+44 1342 649244",
     "website": "https://www.scoutadventures.org.uk/centre/broadstone-warren",
-    "description": "Scout Adventures 官方頁列出 Broadstone Warren 位於 Forest Row，佔地約 400 英畝，鄰近 Ashdown Forest，提供露營、住宿與多種戶外活動。"
+    "description": "Scout Adventures 官方頁列出 Broadstone Warren 位於 Forest Row，佔地約 400 英畝，鄰近 Ashdown Forest，提供露營、住宿與多種戶外活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/broadstone-warren"
   },
   {
     "id": "GB-CAMP-YOULBURY",
@@ -103,7 +120,10 @@
     "address": "Youlbury, Boars Hill, Oxford OX1 5HD, United Kingdom",
     "phone": "+44 1865 638530",
     "website": "https://www.scoutadventures.org.uk/centre/youlbury",
-    "description": "Scout Adventures 官方頁列出 Youlbury 位於 Oxfordshire 的 Boars Hill，佔地約 42 英畝林地，提供露營、住宿、高空挑戰與傳統戶外技能活動。"
+    "description": "Scout Adventures 官方頁列出 Youlbury 位於 Oxfordshire 的 Boars Hill，佔地約 42 英畝林地，提供露營、住宿、高空挑戰與傳統戶外技能活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/youlbury"
   },
   {
     "id": "GB-CAMP-GREAT-TOWER",
@@ -120,7 +140,10 @@
     "address": "Great Tower, Birks Road, Newby Bridge, Cumbria LA23 3PQ, United Kingdom",
     "phone": "+44 1539 885298",
     "website": "https://www.scoutadventures.org.uk/centre/great-tower",
-    "description": "Scout Adventures 官方頁列出 Great Tower 位於 Lake District、Newby Bridge 附近，提供約 250 英畝林地與岩地、住宿、露營、湖區登山與水上活動。"
+    "description": "Scout Adventures 官方頁列出 Great Tower 位於 Lake District、Newby Bridge 附近，提供約 250 英畝林地與岩地、住宿、露營、湖區登山與水上活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/great-tower"
   },
   {
     "id": "GB-HQ-SCOTLAND-FORDELL",
@@ -137,8 +160,11 @@
     "address": "Fordell Firs, Hillend, Dunfermline, Fife KY11 7HQ, Scotland",
     "phone": "+44 1383 419073",
     "website": "https://scouts.scot/contact-us/",
-    "email": "hello@scouts.scot",
-    "description": "Scouts Scotland 官方 Contact Us 頁列出郵寄地址 Fordell Firs, Hillend, Dunfermline, Fife。Fordell Firs 亦是 Scotland 的 Scout Adventures 活動中心之一。"
+    "email": "",
+    "description": "Scouts Scotland 官方 Contact Us 頁列出郵寄地址 Fordell Firs, Hillend, Dunfermline, Fife。Fordell Firs 亦是 Scotland 的 Scout Adventures 活動中心之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scouts.scot/contact-us/"
   },
   {
     "id": "GB-HQ-WALES-CAERPHILLY",
@@ -155,9 +181,12 @@
     "address": "Castle House, Southern Street, Caerphilly CF83 1LH, Wales",
     "phone": "+44 1446 795277",
     "website": "https://scoutscymru.org.uk/contact/",
-    "email": "admin@scoutscymru.org.uk",
+    "email": "",
     "instagram": "scoutscymru",
-    "description": "ScoutsCymru 官方 Contact 頁列出總部地址為 Castle House, Southern Street, Caerphilly CF83 1LH，負責支援威爾斯地區的 Scout Association 活動。"
+    "description": "ScoutsCymru 官方 Contact 頁列出總部地址為 Castle House, Southern Street, Caerphilly CF83 1LH，負責支援威爾斯地區的 Scout Association 活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scoutscymru.org.uk/contact/"
   },
   {
     "id": "GB-CAMP-YR-HAFOD",
@@ -174,7 +203,10 @@
     "address": "Yr Hafod, Ogwen Valley, Eryri / Snowdonia, Wales LL57 3LZ, United Kingdom",
     "phone": "+44 845 519 6114",
     "website": "https://www.scoutadventures.org.uk/centre/yr-hafod",
-    "description": "Scout Adventures 官方頁列出 Yr Hafod 位於 Eryri / Snowdonia 的 Ogwen Valley，是由經驗豐富的 Scout 志工營運的山區住宿與訓練中心，可提供 Mountain Training、導航、DofE Gold 等活動。"
+    "description": "Scout Adventures 官方頁列出 Yr Hafod 位於 Eryri / Snowdonia 的 Ogwen Valley，是由經驗豐富的 Scout 志工營運的山區住宿與訓練中心，可提供 Mountain Training、導航、DofE Gold 等活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/yr-hafod"
   },
   {
     "id": "GB-HQ-NI-CASTLEREAGH",
@@ -191,8 +223,15 @@
     "address": "Northern Ireland Scout Office, 109 Old Milltown Road, Castlereagh, Belfast BT8 7SP, Northern Ireland",
     "phone": "+44 28 9049 2829",
     "website": "https://www.scoutsni.org/home/contact/",
-    "email": "communications@scoutsni.org",
-    "description": "Scouts NI 官方 Contact 頁列出郵寄地址為 Northern Ireland Scout Office, 109 Old Milltown Rd, Castlereagh, Belfast BT8 7SP，並提供 communications@scoutsni.org 作加入與志工聯絡。"
+    "email": "",
+    "description": "Scouts NI 官方 Contact 頁列出郵寄地址為 Northern Ireland Scout Office, 109 Old Milltown Rd, Castlereagh, Belfast BT8 7SP，並提供 作加入與志工聯絡。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutsni.org/home/contact/",
+    "facebook": "https://www.facebook.com/scoutsni",
+    "instagram": "scoutsni",
+    "youtube": "https://www.youtube.com/user/UKScoutAssociation",
+    "socialVerificationSource": "https://www.scoutsni.org/home/contact/"
   },
   {
     "id": "GB-CAMP-CRAWFORDSBURN",
@@ -209,8 +248,15 @@
     "address": "Crawfordsburn Scout Centre, Crawfordsburn, County Down BT19 1JS, Northern Ireland",
     "phone": "+44 28 9185 3307",
     "website": "https://www.scoutsni.org/home/contact/",
-    "email": "info.crawfordsburn@scoutsni.org",
-    "description": "Scouts NI 官方 Contact 頁列出 Crawfordsburn Activity Centre 的電話與電郵。Scout Adventures 官方 All Centres 頁亦列出 Crawfordsburn, Northern Ireland 為全英活動中心之一。"
+    "email": "",
+    "description": "Scouts NI 官方 Contact 頁列出 Crawfordsburn Activity Centre 的電話等聯絡資料。Scout Adventures 官方 All Centres 頁亦列出 Crawfordsburn, Northern Ireland 為全英活動中心之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutsni.org/home/contact/",
+    "facebook": "https://www.facebook.com/scoutsni",
+    "instagram": "scoutsni",
+    "youtube": "https://www.youtube.com/user/UKScoutAssociation",
+    "socialVerificationSource": "https://www.scoutsni.org/home/contact/"
   },
   {
     "id": "GB-SHOP-GLASGOW",
@@ -227,6 +273,12 @@
     "address": "21 Elmbank Street, Glasgow G2 4PB, United Kingdom",
     "phone": "+44 141 248 5941",
     "website": "https://www.glasgowscoutshop.com/",
-    "description": "Glasgow Scout Shop 是蘇格蘭著名地區童軍用品實體店，位於 Glasgow 市中心，提供制服、徽章與戶外用品。"
+    "description": "Glasgow Scout Shop 是蘇格蘭著名地區童軍用品實體店，位於 Glasgow 市中心，提供制服、徽章與戶外用品。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.glasgowscoutshop.com/",
+    "facebook": "https://www.facebook.com/TheGlasgowScoutShop",
+    "instagram": "glasgowscoutshop",
+    "socialVerificationSource": "https://www.glasgowscoutshop.com/"
   }
 ]

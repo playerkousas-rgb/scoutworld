@@ -14,8 +14,15 @@
     "address": "Główna Kwatera ZHP, ul. Marii Konopnickiej 6, 00-491 Warszawa, Poland",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/",
-    "email": "sekretariat@zhp.pl",
-    "description": "WOSM Europe 列 Związek Harcerstwa Polskiego（ZHP）為波蘭 WOSM 成員 National Scout Organization，地址 Marii Konopnickiej 6, Warszawa。ZHP 官方 Kontakt 頁列 Główna Kwatera ZHP 地址、sekretariat@zhp.pl 及 +48 22 339 06 45。"
+    "email": "",
+    "description": "WOSM Europe 列 Związek Harcerstwa Polskiego（ZHP）為波蘭 WOSM 成員 National Scout Organization，地址 Marii Konopnickiej 6, Warszawa。ZHP 官方 Kontakt 頁列 Główna Kwatera ZHP 地址 及 +48 22 339 06 45。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://zhp.pl/",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-SHOP-4-ZYWIOLY-WARSAW",
@@ -32,8 +39,11 @@
     "address": "Marii Konopnickiej 6, 00-491 Warszawa, Poland",
     "phone": "+48 600 353 352",
     "website": "https://4zywioly.pl/",
-    "email": "zamowienia@4zywioly.pl",
-    "description": "4 Żywioły 官方網站標示 Centralna Składnica Harcerska 4 Żywioły 是 ZHP 官方商店及官方制服生產商，地址 Marii Konopnickiej 6, Warszawa，售賣 mundury、chusty、pagony、turystyka、biwak 及 harcerskie gadżety。"
+    "email": "",
+    "description": "4 Żywioły 官方網站標示 Centralna Składnica Harcerska 4 Żywioły 是 ZHP 官方商店及官方制服生產商，地址 Marii Konopnickiej 6, Warszawa，售賣 mundury、chusty、pagony、turystyka、biwak 及 harcerskie gadżety。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://4zywioly.pl/"
   },
   {
     "id": "PL-CAMP-PERKOZ-OLSZTYNEK",
@@ -50,8 +60,11 @@
     "address": "ul. Waszeta 1, 11-015 Olsztynek, Poland",
     "phone": "+48 500 114 078",
     "website": "https://perkoz.zhp.pl/",
-    "email": "sekretariat@zhp.pl",
-    "description": "Perkoz 官方 Kontakt 頁列地址 ul. Waszeta 1, 11-015 Olsztynek 及電話 +48 500 114 078。ZHP 官方公告稱 Ośrodek Szkoleniowo-Wypoczynkowy ZHP “Perkoz” 用於 ZHP obozy、harcerska akcja letnia 及接待歐洲 scouts。"
+    "email": "",
+    "description": "Perkoz 官方 Kontakt 頁列地址 ul. Waszeta 1, 11-015 Olsztynek 及電話 +48 500 114 078。ZHP 官方公告稱 Ośrodek Szkoleniowo-Wypoczynkowy ZHP “Perkoz” 用於 ZHP obozy、harcerska akcja letnia 及接待歐洲 scouts。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://perkoz.zhp.pl/"
   },
   {
     "id": "PL-CAMP-CWM-GDYNIA",
@@ -67,9 +80,12 @@
     "lng": 18.5527261,
     "address": "al. Jana Pawła II 5, 81-345 Gdynia, Poland",
     "phone": "+48 58 620 90 37",
-    "website": "http://www.cwm.zhp.pl/contact.html",
-    "email": "cwm@zhp.pl",
-    "description": "Centrum Wychowania Morskiego ZHP 官方 contact 頁列地址 al. Jana Pawła II 5, 81-345 Gdynia、電話 58 620-90-37、電郵 cwm@zhp.pl。ZHP 公告亦說 CWM ZHP 在 Nowa Marina Gdynia 獲得辦公、訓練會議及 ZHP yachts 後勤空間。"
+    "website": "https://zhp.pl/",
+    "email": "",
+    "description": "Centrum Wychowania Morskiego ZHP 官方 contact 頁列地址 al. Jana Pawła II 5, 81-345 Gdynia、電話 58 620-90-37。ZHP 公告亦說 CWM ZHP 在 Nowa Marina Gdynia 獲得辦公、訓練會議及 ZHP yachts 後勤空間。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "CWM site unavailable; retained with ZHP national source; verify current status before travel",
+    "verificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-CAMP-PRZERWANKI-CYRANKA",
@@ -86,8 +102,11 @@
     "address": "Przerwanki, gmina Pozezdrze, 11-610, Poland",
     "phone": "+48 602 262 488",
     "website": "https://przerwanki.pl/",
-    "email": "przerwanki@zhp.pl",
-    "description": "Harcerska Baza Obozowa Cyranka 官方網站說基地由 harcerze dla harcerzy 建立，位於 Mazury、Gołdapiwo 湖北岸的松雲杉林中，提供醫療、救生員泳區、營木及 harcerskie tradycje 等夏令營支援。"
+    "email": "",
+    "description": "Harcerska Baza Obozowa Cyranka 官方網站說基地由 harcerze dla harcerzy 建立，位於 Mazury、Gołdapiwo 湖北岸的松雲杉林中，提供醫療、救生員泳區、營木及 harcerskie tradycje 等夏令營支援。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://przerwanki.pl/"
   },
   {
     "id": "PL-CAMP-GLODOWKA-TATRA",
@@ -104,8 +123,16 @@
     "address": "Polana Głodówka, 34-530 Bukowina Tatrzańska, Poland",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/",
-    "email": "sekretariat@zhp.pl",
-    "description": "Głodówka 是 ZHP 傳統山區中心／山屋，現由 Fundacja Harcerstwa Polskiego Schronisko Głodówka 管理；公開資料列地址 Polana Głodówka, Bukowina Tatrzańska，並說服務 harcerze、青年及訪客。此項記錄為 ZHP 山區活動基地代表點。"
+    "email": "",
+    "description": "Głodówka 是 ZHP 傳統山區中心／山屋，現由 Fundacja Harcerstwa Polskiego Schronisko Głodówka 管理；公開資料列地址 Polana Głodówka, Bukowina Tatrzańska，並說服務 harcerze、青年及訪客。此項記錄為 ZHP 山區活動基地代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-ZHP-JOIN-FINDER",
@@ -122,8 +149,15 @@
     "address": "Nationwide; contact through ZHP chorągwie and hufce map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方「Gdzie się zapisać?」頁說家長可透過 chorągwie / hufce map 尋找最近 drużyna；ZHP 有超過 8000 drużyn，chorągiew 通常覆蓋整個 województwo，hufiec 可覆蓋區、gmina 或 powiat。"
+    "email": "",
+    "description": "ZHP 官方「Gdzie się zapisać?」頁說家長可透過 chorągwie / hufce map 尋找最近 drużyna；ZHP 有超過 8000 drużyn，chorągiew 通常覆蓋整個 województwo，hufiec 可覆蓋區、gmina 或 powiat。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-BIALOSTOCKA",
@@ -140,8 +174,16 @@
     "address": "Białystok / Podlaskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Białostocka 為 chorągwie ZHP 之一；此項以 Białystok 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Białostocka 為 chorągwie ZHP 之一；此項以 Białystok 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-DOLNOSLASKA",
@@ -158,8 +200,16 @@
     "address": "Wrocław / Dolnośląskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Dolnośląska 為 chorągwie ZHP 之一；此項以 Wrocław 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Dolnośląska 為 chorągwie ZHP 之一；此項以 Wrocław 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-GDANSKA",
@@ -176,8 +226,16 @@
     "address": "Gdańsk / Pomorskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Gdańska 為 chorągwie ZHP 之一；此項以 Gdańsk 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Gdańska 為 chorągwie ZHP 之一；此項以 Gdańsk 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-KIELECKA",
@@ -194,8 +252,16 @@
     "address": "Kielce / Świętokrzyskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Kielecka 為 chorągwie ZHP 之一；此項以 Kielce 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Kielecka 為 chorągwie ZHP 之一；此項以 Kielce 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-KRAKOWSKA",
@@ -212,8 +278,16 @@
     "address": "Kraków / Małopolskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Krakowska 為 chorągwie ZHP 之一；此項以 Kraków 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Krakowska 為 chorągwie ZHP 之一；此項以 Kraków 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-KUJAWSKO-POMORSKA",
@@ -230,8 +304,16 @@
     "address": "Toruń / Kujawsko-Pomorskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Kujawsko-Pomorska 為 chorągwie ZHP 之一；此項以 Toruń 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Kujawsko-Pomorska 為 chorągwie ZHP 之一；此項以 Toruń 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-LUBELSKA",
@@ -248,8 +330,16 @@
     "address": "Lublin / Lubelskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Lubelska 為 chorągwie ZHP 之一；此項以 Lublin 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Lubelska 為 chorągwie ZHP 之一；此項以 Lublin 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-LODZKA",
@@ -266,8 +356,16 @@
     "address": "Łódź / Łódzkie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Łódzka 為 chorągwie ZHP 之一；此項以 Łódź 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Łódzka 為 chorągwie ZHP 之一；此項以 Łódź 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-MAZOWIECKA",
@@ -284,8 +382,16 @@
     "address": "Mazowieckie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Mazowiecka 為 chorągwie ZHP 之一；此項以 Warsaw/Mazowieckie 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Mazowiecka 為 chorągwie ZHP 之一；此項以 Warsaw/Mazowieckie 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-OPOLSKA",
@@ -302,8 +408,16 @@
     "address": "Opole / Opolskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Opolska 為 chorągwie ZHP 之一；此項以 Opole 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Opolska 為 chorągwie ZHP 之一；此項以 Opole 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-PODKARPACKA",
@@ -320,8 +434,16 @@
     "address": "Rzeszów / Podkarpackie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Podkarpacka 為 chorągwie ZHP 之一；此項以 Rzeszów 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Podkarpacka 為 chorągwie ZHP 之一；此項以 Rzeszów 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-STOLECZNA",
@@ -338,8 +460,15 @@
     "address": "Warszawa Metropolitan Area; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Stołeczna 為 chorągwie ZHP 之一，並說 Chorągiew Stołeczna 例外地覆蓋 Obszar Metropolitarny Warszawy。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Stołeczna 為 chorągwie ZHP 之一，並說 Chorągiew Stołeczna 例外地覆蓋 Obszar Metropolitarny Warszawy。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-SLASKA",
@@ -356,8 +485,16 @@
     "address": "Katowice / Śląskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Śląska 為 chorągwie ZHP 之一；此項以 Katowice 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Śląska 為 chorągwie ZHP 之一；此項以 Katowice 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-WARMINSKO-MAZURSKA",
@@ -374,8 +511,16 @@
     "address": "Olsztyn / Warmińsko-Mazurskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Warmińsko-Mazurska 為 chorągwie ZHP 之一；Perkoz 亦由此 chorągiew 管理合作。本項以 Olsztyn 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Warmińsko-Mazurska 為 chorągwie ZHP 之一；Perkoz 亦由此 chorągiew 管理合作。本項以 Olsztyn 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-WIELKOPOLSKA",
@@ -392,8 +537,16 @@
     "address": "Poznań / Wielkopolskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Wielkopolska 為 chorągwie ZHP 之一；此項以 Poznań 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Wielkopolska 為 chorągwie ZHP 之一；此項以 Poznań 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-ZACHODNIOPOMORSKA",
@@ -410,8 +563,16 @@
     "address": "Szczecin / Zachodniopomorskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Zachodniopomorska 為 chorągwie ZHP 之一；此項以 Szczecin 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Zachodniopomorska 為 chorągwie ZHP 之一；此項以 Szczecin 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   },
   {
     "id": "PL-COUNCIL-ZIEMI-LUBUSKIEJ",
@@ -428,7 +589,15 @@
     "address": "Zielona Góra / Lubuskie; contact via ZHP chorągwie map",
     "phone": "+48 22 339 06 45",
     "website": "https://zhp.pl/gdzie-sie-zapisac/",
-    "email": "sekretariat@zhp.pl",
-    "description": "ZHP 官方加入頁列 Ziemi Lubuskiej 為 chorągwie ZHP 之一；此項以 Zielona Góra 作為區域代表點。"
+    "email": "",
+    "description": "ZHP 官方加入頁列 Ziemi Lubuskiej 為 chorągwie ZHP 之一；此項以 Zielona Góra 作為區域代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://zhp.pl/gdzie-sie-zapisac/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ZHPpl",
+    "instagram": "zhp_pl",
+    "youtube": "https://www.youtube.com/channel/UCsCWq9pskPuqOqCjrAKQ_sg",
+    "socialVerificationSource": "https://zhp.pl/"
   }
 ]

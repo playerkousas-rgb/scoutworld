@@ -14,8 +14,11 @@
     "address": "ul. M. Bogdanovicha 95/3, Slutsk 223610, Belarus",
     "phone": "+375 29 632 2403",
     "website": "https://belscout.by/",
-    "email": "scoutbrsa@gmail.com",
-    "description": "Белорусская Республиканская Скаутская Ассоциация（БРСА）官方網站目前列出的聯絡地址與電話。資料以 БРСА 官方「Контакты」頁為準。"
+    "email": "",
+    "description": "Белорусская Республиканская Скаутская Ассоциация（БРСА）官方網站目前列出的聯絡地址與電話。資料以 БРСА 官方「Контакты」頁為準。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://belscout.by/"
   },
   {
     "id": "BY-HQ-MINSK-WOSM",
@@ -32,8 +35,11 @@
     "address": "Y. Chechota St. 23-100, Minsk 220025, Belarus",
     "phone": "+375 29 773 79 06",
     "website": "https://www.scout.org/user/117696",
-    "email": "info@belscout.by",
-    "description": "Scout.org 上 BRSA profile 曾列出的明斯克聯絡地址；因 БРСА 官方網站目前另列 Slutsk 聯絡點，此項保留作 WOSM 登錄／歷史聯絡參考。"
+    "email": "",
+    "description": "Scout.org 上 BRSA profile 曾列出的明斯克聯絡地址；因 БРСА 官方網站目前另列 Slutsk 聯絡點，此項保留作 WOSM 登錄／歷史聯絡參考。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scout.org/user/117696"
   },
   {
     "id": "BY-REGION-MINSK",
@@ -49,7 +55,10 @@
     "lng": 27.5618,
     "address": "Minsk, Belarus",
     "website": "https://belscout.by/o-nas/",
-    "description": "БРСА 官方歷史頁記載 1988 年首個復興時期童軍隊在明斯克出現；WOSM 亦指出白俄羅斯童軍會員主要分布於明斯克與格羅德諾一帶。"
+    "description": "БРСА 官方歷史頁記載 1988 年首個復興時期童軍隊在明斯克出現；WOSM 亦指出白俄羅斯童軍會員主要分布於明斯克與格羅德諾一帶。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://belscout.by/o-nas/"
   },
   {
     "id": "BY-REGION-GRODNO",
@@ -65,7 +74,11 @@
     "lng": 23.8343,
     "address": "Grodno, Belarus",
     "website": "https://www.scout.org/node/100",
-    "description": "WOSM 關於 BRSA 成為世界童軍成員的官方新聞指出，會員分布遍及全國，但以明斯克及格羅德諾區域為主；此點標示格羅德諾童軍活動區。"
+    "description": "WOSM 關於 BRSA 成為世界童軍成員的官方新聞指出，會員分布遍及全國，但以明斯克及格羅德諾區域為主；此點標示格羅德諾童軍活動區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scout.org/node/100",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "BY-CAMP-VYSOKI-BEREG",
@@ -81,7 +94,11 @@
     "lng": 26.8343,
     "address": "TOK Vysokiy Bereg, Nikolayevshchina / Stolbtsy District, Minsk Region, Belarus",
     "website": "https://belscout.by/leto2023/",
-    "description": "БРСА 官方「Скаутское лето—2023」列出的第一期營隊地點：лагерь «Летонаоборот–35» 於 ТОК «Высокий берег», г. Столбцы 舉行。此點標示為官方活動使用的夏季營地點。"
+    "description": "БРСА 官方「Скаутское лето—2023」列出的第一期營隊地點：лагерь «Летонаоборот–35» 於 ТОК «Высокий берег», г. Столбцы 舉行。此點標示為官方活動使用的夏季營地點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://belscout.by/leto2023/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "BY-CAMP-LAVRINOVKA",
@@ -97,7 +114,11 @@
     "lng": 27.7569,
     "address": "Lavrinovka, Glubokoye District, Vitebsk Region, Belarus",
     "website": "https://belscout.by/leto2023/",
-    "description": "БРСА 官方「Скаутское лето—2023」列出的第二期活動：лагерь «Пять костров» 於 Лавриновка, г. Глубокое 一帶舉行。此點標示為官方活動使用的夏季營地點。"
+    "description": "БРСА 官方「Скаутское лето—2023」列出的第二期活動：лагерь «Пять костров» 於 Лавриновка, г. Глубокое 一帶舉行。此點標示為官方活動使用的夏季營地點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://belscout.by/leto2023/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "BY-ACTIVITY-MINSK-BOTANICAL",
@@ -113,7 +134,11 @@
     "lng": 27.6123,
     "address": "Central Botanical Garden, Minsk, Belarus",
     "website": "https://belscout.by/osnovnye-meropriyatiya-na-skautskoe-leto-2024/",
-    "description": "БРСА 官方 2024 夏季活動清單列出在明斯克植物園參與家庭職業節「Букидс」等公眾活動；此點標示為 BRSA 公眾展示與服務活動地點。"
+    "description": "БРСА 官方 2024 夏季活動清單列出在明斯克植物園參與家庭職業節「Букидс」等公眾活動；此點標示為 BRSA 公眾展示與服務活動地點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://belscout.by/osnovnye-meropriyatiya-na-skautskoe-leto-2024/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "BY-REGION-GOMEL",
@@ -129,7 +154,11 @@
     "lng": 31.0132,
     "address": "Gomel, Belarus",
     "website": "https://belscout.by/o-nas/",
-    "description": "白俄羅斯童軍運動歷史上與戈梅利地區有長期連結；此點作為 BRSA 全國童軍網絡的地方活動區參考，具體團隊聯絡應以 BRSA 官方渠道確認。"
+    "description": "白俄羅斯童軍運動歷史上與戈梅利地區有長期連結；此點作為 BRSA 全國童軍網絡的地方活動區參考，具體團隊聯絡應以 BRSA 官方渠道確認。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://belscout.by/o-nas/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "BY-REGION-BREST",
@@ -145,7 +174,11 @@
     "lng": 23.6852,
     "address": "Brest, Belarus",
     "website": "https://belscout.by/registracziya-v-brsa/",
-    "description": "BRSA 以 патруль／отряд／дружина 等地方單位形式組織童軍。此點以布列斯特作為西南部地方童軍活動區參考，實際加入與聯絡須透過 BRSA 官方申請表及電郵確認。"
+    "description": "BRSA 以 патруль／отряд／дружина 等地方單位形式組織童軍。此點以布列斯特作為西南部地方童軍活動區參考，實際加入與聯絡須透過 BRSA 官方申請表及官方渠道確認。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://belscout.by/registracziya-v-brsa/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "BY-REGION-VITEBSK",
@@ -161,6 +194,10 @@
     "lng": 30.207,
     "address": "Vitebsk, Belarus",
     "website": "https://belscout.by/leto2023/",
-    "description": "維捷布斯克州包含 BRSA 夏季活動地點 Lavrinovka／Glubokoye 一帶；此點標示東北部童軍活動區。"
+    "description": "維捷布斯克州包含 BRSA 夏季活動地點 Lavrinovka／Glubokoye 一帶；此點標示東北部童軍活動區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://belscout.by/leto2023/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   }
 ]

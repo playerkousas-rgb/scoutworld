@@ -14,9 +14,15 @@
     "address": "Töölönkatu 55, 00250 Helsinki, Finland",
     "phone": "+358 9 8865 1100",
     "website": "https://scouts.fi/contact-information/",
-    "email": "palvelu@partio.fi",
-    "instagram": "suomenpartiolaiset",
-    "description": "Suomen Partiolaiset – Finlands Scouter ry 是芬蘭唯一的國家童軍與女童軍組織，同時屬於 WOSM 與 WAGGGS。官方 Contact information 頁列出總部／Scout Station 位於 Helsinki, Töölönkatu 55。"
+    "email": "",
+    "instagram": "partioscout",
+    "description": "Suomen Partiolaiset – Finlands Scouter ry 是芬蘭唯一的國家童軍與女童軍組織，同時屬於 WOSM 與 WAGGGS。官方 Contact information 頁列出總部／Scout Station 位於 Helsinki, Töölönkatu 55。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scouts.fi/contact-information/",
+    "socialVerificationSource": "https://scouts.fi/contact-information/",
+    "facebook": "https://www.facebook.com/partio",
+    "youtube": "https://www.youtube.com/user/partioscout"
   },
   {
     "id": "FI-SHOP-SCANDINAVIAN-OUTDOOR",
@@ -32,7 +38,10 @@
     "lng": 24.937,
     "address": "Yrjönkatu 29, 00100 Helsinki, Finland",
     "website": "https://scandinavianoutdoor.com/",
-    "description": "Scandinavian Outdoor 線上與實體店販售 Suomen Partiolaiset 相關 Partiotuote 童軍徽章、制服與戶外用品。芬蘭童軍官方資料亦指出部分品牌產品由 Scandinavian Outdoor 販售並捐助 Partion ystävät 基金。"
+    "description": "Scandinavian Outdoor 線上與實體店販售 Suomen Partiolaiset 相關 Partiotuote 童軍徽章、制服與戶外用品。芬蘭童軍官方資料亦指出部分品牌產品由 Scandinavian Outdoor 販售並捐助 Partion ystävät 基金。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scandinavianoutdoor.com/"
   },
   {
     "id": "FI-CAMP-EVO",
@@ -48,7 +57,14 @@
     "lng": 25.2169,
     "address": "Evon retkeilyalue, Hämeenlinna, Finland",
     "website": "https://www.partio.fi/ajankohtaista/kajo-finnjamboree-tayttyy-riemukkaista-kohtaamisista/",
-    "description": "Evo 是芬蘭國家大露營 Finnjamboree 的重要森林營地區。芬蘭童軍官方新聞指出 Kajo Finnjamboree 在 Hämeenlinna 的 Evo 舉行，且 Evo 曾承辦 Kilke 2010、Roihu 2016、Kajo 2022 等全國大營。"
+    "description": "Evo 是芬蘭國家大露營 Finnjamboree 的重要森林營地區。芬蘭童軍官方新聞指出 Kajo Finnjamboree 在 Hämeenlinna 的 Evo 舉行，且 Evo 曾承辦 Kilke 2010、Roihu 2016、Kajo 2022 等全國大營。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.partio.fi/ajankohtaista/kajo-finnjamboree-tayttyy-riemukkaista-kohtaamisista/",
+    "facebook": "https://www.facebook.com/finnjamboree2022",
+    "instagram": "kajo_2022",
+    "youtube": "https://www.youtube.com/user/partioscout",
+    "socialVerificationSource": "https://www.partio.fi/ajankohtaista/kajo-finnjamboree-tayttyy-riemukkaista-kohtaamisista/"
   },
   {
     "id": "FI-COUNCIL-LAPPI",
@@ -64,7 +80,13 @@
     "lng": 25.7304,
     "address": "Lapland / Rovaniemi, Finland",
     "website": "https://lappi.partio.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 11 個 Scout districts 之一，服務北部 Lapland 區域童軍。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 11 個 Scout districts 之一，服務北部 Lapland 區域童軍。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lappi.partio.fi/",
+    "facebook": "https://www.facebook.com/LapinPartiolaiset",
+    "instagram": "lappipartio",
+    "socialVerificationSource": "https://lappi.partio.fi/"
   },
   {
     "id": "FI-COUNCIL-POHJANMAA",
@@ -80,7 +102,14 @@
     "lng": 21.6159,
     "address": "Ostrobothnia / Vaasa, Finland",
     "website": "https://pohjanmaa.partio.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Pohjanmaa / Ostrobothnia 區域。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Pohjanmaa / Ostrobothnia 區域。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pohjanmaa.partio.fi/",
+    "facebook": "https://www.facebook.com/pohjanmaan.partiolaiset",
+    "instagram": "pohjanmaapartio",
+    "youtube": "https://www.youtube.com/@pohjanmaapartio",
+    "socialVerificationSource": "https://pohjanmaa.partio.fi/"
   },
   {
     "id": "FI-COUNCIL-JARVI-SUOMI",
@@ -96,7 +125,13 @@
     "lng": 25.7496,
     "address": "Jyväskylä / Lakeland Finland",
     "website": "https://jarvisuomi.partio.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務中東部湖區。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務中東部湖區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://jarvisuomi.partio.fi/",
+    "facebook": "https://www.facebook.com/JarviSuomenPartiolaiset",
+    "instagram": "jarvisuomenpartiolaiset",
+    "socialVerificationSource": "https://jarvisuomi.partio.fi/"
   },
   {
     "id": "FI-COUNCIL-POHJOIS-SAVO",
@@ -112,7 +147,14 @@
     "lng": 27.6784,
     "address": "Kuopio / North Savo, Finland",
     "website": "https://scouts.fi/contact-information/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district 之一，服務 North Savo 區域；官方頁未列單獨英文網址，聯絡可經芬蘭童軍總部。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district 之一，服務 North Savo 區域；官方頁未列單獨英文網址，聯絡可經芬蘭童軍總部。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scouts.fi/contact-information/",
+    "facebook": "https://www.facebook.com/partio",
+    "instagram": "partioscout",
+    "youtube": "https://www.youtube.com/user/partioscout",
+    "socialVerificationSource": "https://scouts.fi/contact-information/"
   },
   {
     "id": "FI-COUNCIL-LOUNAIS-SUOMI",
@@ -128,7 +170,14 @@
     "lng": 22.267,
     "address": "Turku / Southwest Finland",
     "website": "https://lounaissuomi.partio.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Turku 與西南芬蘭區域。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Turku 與西南芬蘭區域。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lounaissuomi.partio.fi/",
+    "facebook": "https://www.facebook.com/LounaisSuomenPartiopiiri",
+    "instagram": "lspartiopiiri",
+    "youtube": "https://www.youtube.com/channel/UCMrxAC-bWsIKM8zSdSS4ZJQ",
+    "socialVerificationSource": "https://lounaissuomi.partio.fi/"
   },
   {
     "id": "FI-COUNCIL-HAME",
@@ -144,7 +193,14 @@
     "lng": 23.7616,
     "address": "Tampere / Häme, Finland",
     "website": "https://hp.partio.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Häme 及 Tampere 一帶；Evo 大營地亦位於此廣義區域附近。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Häme 及 Tampere 一帶；Evo 大營地亦位於此廣義區域附近。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://hp.partio.fi/",
+    "facebook": "https://www.facebook.com/hppartio",
+    "instagram": "hppartio",
+    "youtube": "https://www.youtube.com/user/partioscout",
+    "socialVerificationSource": "https://hp.partio.fi/"
   },
   {
     "id": "FI-COUNCIL-KYMENLAAKSO",
@@ -160,7 +216,14 @@
     "lng": 26.7041,
     "address": "Kouvola / Kymenlaakso, Finland",
     "website": "https://kymenlaakso.partio.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Kymenlaakso 區域。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Kymenlaakso 區域。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://kymenlaakso.partio.fi/",
+    "facebook": "https://www.facebook.com/kymenlaaksonpartiopiiri",
+    "instagram": "kymipartio",
+    "youtube": "https://www.youtube.com/channel/UCnVAOx_t9VTvtH0PYNiRgVg",
+    "socialVerificationSource": "https://kymenlaakso.partio.fi/"
   },
   {
     "id": "FI-COUNCIL-ETELA-KARJALA",
@@ -176,7 +239,13 @@
     "lng": 28.1862,
     "address": "Lappeenranta / South Karelia, Finland",
     "website": "https://etelakarjala.partio.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 South Karelia 區域。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 South Karelia 區域。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://etelakarjala.partio.fi/",
+    "facebook": "https://www.facebook.com/etelakarjalanpartiolaiset",
+    "instagram": "etelakarjalanpartiolaiset",
+    "socialVerificationSource": "https://etelakarjala.partio.fi/"
   },
   {
     "id": "FI-COUNCIL-UUSIMAA",
@@ -192,7 +261,13 @@
     "lng": 24.656,
     "address": "Uusimaa / Espoo, Finland",
     "website": "https://uusimaa.partio.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Uusimaa 區域但不含首都圈獨立區。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Uusimaa 區域但不含首都圈獨立區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://uusimaa.partio.fi/",
+    "facebook": "http://www.facebook.com/uudenmaanpartiopiiri",
+    "instagram": "uusimaa_partio",
+    "socialVerificationSource": "https://uusimaa.partio.fi/"
   },
   {
     "id": "FI-COUNCIL-PAKSU",
@@ -208,7 +283,12 @@
     "lng": 24.9189,
     "address": "Töölönkatu 55, 00250 Helsinki, Finland",
     "website": "https://paakaupunkiseudunpartiolaiset.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Helsinki capital region。其辦公與活動聯絡可使用 Partioasema / Scout Station。"
+    "description": "芬蘭童軍官方 Contact information 頁列出的 Scout district，服務 Helsinki capital region。其辦公與活動聯絡可使用 Partioasema / Scout Station。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://paakaupunkiseudunpartiolaiset.fi/",
+    "facebook": "https://www.facebook.com/PaakaupunkiseudunPartiolaiset",
+    "socialVerificationSource": "https://paakaupunkiseudunpartiolaiset.fi/"
   },
   {
     "id": "FI-COUNCIL-FISS",
@@ -224,6 +304,13 @@
     "lng": 24.9435,
     "address": "Helsinki / Swedish-speaking Finland",
     "website": "https://www.scout.fi/",
-    "description": "芬蘭童軍官方 Contact information 頁列出 Finlands Svenska Scouter r.f.，為瑞典語童軍區／聯盟，服務芬蘭瑞典語童軍群體。"
+    "description": "芬蘭童軍官方 Contact information 頁列出 Finlands Svenska Scouter r.f.，為瑞典語童軍區／聯盟，服務芬蘭瑞典語童軍群體。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scout.fi/",
+    "facebook": "https://www.facebook.com/fissc",
+    "instagram": "fissc",
+    "youtube": "http://www.youtube.com/user/fisscen",
+    "socialVerificationSource": "https://www.scout.fi/"
   }
 ]

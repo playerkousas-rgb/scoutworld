@@ -14,8 +14,14 @@
     "address": "Viskaļu iela 36a, Rīga, LV-1006, Latvia",
     "phone": "+371 27852614",
     "website": "https://skauti.lv/",
-    "email": "info@skautiungaidas.lv",
-    "description": "Biedrība “Latvijas Skautu un gaidu centrālā organizācija”（LSGCO）是拉脫維亞 WOSM／WAGGGS 成員童軍與女童軍組織。官方 Kontakti 頁列出法律與實際地址均為 Rīga, Viskaļu iela 36a。"
+    "email": "",
+    "description": "Biedrība “Latvijas Skautu un gaidu centrālā organizācija”（LSGCO）是拉脫維亞 WOSM／WAGGGS 成員童軍與女童軍組織。官方 Kontakti 頁列出法律與實際地址均為 Rīga, Viskaļu iela 36a。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/",
+    "facebook": "https://www.facebook.com/skautiungaidas",
+    "instagram": "skautiungaidas",
+    "socialVerificationSource": "https://jaunatneslietas.gov.lv/route-overview/latvijas-skauti-un-gaidas"
   },
   {
     "id": "LV-MUSEUM-NATIONAL",
@@ -31,8 +37,11 @@
     "lng": 24.1883,
     "address": "No current permanent premises; contact via LSGCO, Viskaļu iela 36a, Rīga",
     "website": "https://skauti.lv/par-mums/latvijas-gaidu-un-skautu-muzejs/",
-    "email": "info@skauti.lv",
-    "description": "LSGCO 官方 museum page 說明 Latvijas Gaidu un skautu muzejs 是波羅的海唯一此類博物館，但目前沒有固定館舍，正在尋找新場地；聯絡可透過 info@skauti.lv。"
+    "email": "",
+    "description": "LSGCO 官方 museum page 說明 Latvijas Gaidu un skautu muzejs 是波羅的海唯一此類博物館，但目前沒有固定館舍，正在尋找新場地；聯絡可透過。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/latvijas-gaidu-un-skautu-muzejs/"
   },
   {
     "id": "LV-SHOP-UNIFORM-ORDER",
@@ -48,8 +57,12 @@
     "lng": 24.1883,
     "address": "Orders via unit leaders; contact LSGCO HQ, Viskaļu iela 36a, Rīga",
     "website": "https://skauti.lv/formas/",
-    "email": "info@skautiungaidas.lv",
-    "description": "LSGCO 官方 Formas 頁列出帶組織標誌的服裝與用品，並明確說明訂購需透過 vienību priekšnieki（各地方單位負責人）進行；此項以總部作全國訂購網絡代表座標。"
+    "email": "",
+    "description": "LSGCO 官方 Formas 頁列出帶組織標誌的服裝與用品，並明確說明訂購需透過 vienību priekšnieki（各地方單位負責人）進行；此項以總部作全國訂購網絡代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skauti.lv/formas/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "LV-HOUSE-PROJECT-RIGA",
@@ -65,8 +78,11 @@
     "lng": 24.1052,
     "address": "Planned in Rīga or Pierīga; current contact via LSGCO",
     "website": "https://skauti.lv/skautu-un-gaidu-maja/",
-    "email": "fonds@skauti.lv",
-    "description": "LSGCO 官方 #SkautuGaiduMāja 頁說明組織正籌建永久活動基地，目標是在 Rīga 或近郊建立包含辦公室、會議與訓練室、歷史展覽、倉庫及戶外綠地的 Skautu un gaidu māja。此項為計畫中基地，非既有營地。"
+    "email": "",
+    "description": "LSGCO 官方 #SkautuGaiduMāja 頁說明組織正籌建永久活動基地，目標是在 Rīga 或近郊建立包含辦公室、會議與訓練室、歷史展覽、倉庫及戶外綠地的 Skautu un gaidu māja。此項為計畫中基地，非既有營地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/skautu-un-gaidu-maja/"
   },
   {
     "id": "LV-UNIT-FINDER",
@@ -82,8 +98,12 @@
     "lng": 24.1883,
     "address": "Scout and guide units across Latvia; contact via LSGCO HQ",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "info@skautiungaidas.lv",
-    "description": "LSGCO 官方 Meklē tuvāko vienību 頁列出現正接受成員的地方單位、活動地區、年齡段、負責人與聯絡方式。此項以總部作全國網絡代表座標。"
+    "email": "",
+    "description": "LSGCO 官方 Meklē tuvāko vienību 頁列出現正接受成員的地方單位、活動地區、年齡段、負責人與聯絡方式。此項以總部作全國網絡代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source"
   },
   {
     "id": "LV-REGION-RIGA",
@@ -99,7 +119,10 @@
     "lng": 24.1052,
     "address": "Rīga, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "description": "LSGCO 官方 unit finder 列出多個 Rīga 地方單位，包括 Rīgas 1., Rīgas 7., Rīgas 22., Rīgas 141., Rīgas 155. 等 skautu un gaidu vienības。"
+    "description": "LSGCO 官方 unit finder 列出多個 Rīga 地方單位，包括 Rīgas 1., Rīgas 7., Rīgas 22., Rīgas 141., Rīgas 155. 等 skautu un gaidu vienības。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   },
   {
     "id": "LV-UNIT-RIGA-1",
@@ -115,8 +138,11 @@
     "lng": 24.1052,
     "address": "Rīga, Centrs, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "atis.kengis@skautiungaidas.lv",
-    "description": "LSGCO 官方 unit finder 列出的 Rīgas 1. skautu vienība，活動地點 Rīga, Centrs，設有 Mazskauti/guntiņas、Skauti/gaidas、Dižskauti/dižgaidas 等階段。"
+    "email": "",
+    "description": "LSGCO 官方 unit finder 列出的 Rīgas 1. skautu vienība，活動地點 Rīga, Centrs，設有 Mazskauti/guntiņas、Skauti/gaidas、Dižskauti/dižgaidas 等階段。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   },
   {
     "id": "LV-UNIT-RIGA-141",
@@ -132,9 +158,12 @@
     "lng": 24.1052,
     "address": "Rīga, Āgenskalns, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "141vieniba@gmail.com",
+    "email": "",
     "instagram": "141vieniba",
-    "description": "LSGCO 官方 unit finder 列出的 Rīgas 141. skautu un gaidu vienība，活動地點 Rīga, Āgenskalns。"
+    "description": "LSGCO 官方 unit finder 列出的 Rīgas 141. skautu un gaidu vienība，活動地點 Rīga, Āgenskalns。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   },
   {
     "id": "LV-UNIT-JURMALA-SEA",
@@ -150,9 +179,12 @@
     "lng": 23.7887,
     "address": "Jūrmala, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "skautu.osta@gmail.com",
+    "email": "",
     "instagram": "juras_skauti_gaidas",
-    "description": "LSGCO 官方 unit finder 列出的 Jūrmalas 3. jūras skautu un gaidu vienība，為 Jūrmala 海童軍／女童軍單位。"
+    "description": "LSGCO 官方 unit finder 列出的 Jūrmalas 3. jūras skautu un gaidu vienība，為 Jūrmala 海童軍／女童軍單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   },
   {
     "id": "LV-UNIT-VALMIERA-4",
@@ -168,9 +200,12 @@
     "lng": 25.4262,
     "address": "Valmiera, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "skauti@valmiera.edu.lv",
+    "email": "",
     "instagram": "valmieras4.skv",
-    "description": "LSGCO 官方 unit finder 列出的 Valmieras 4. skautu vienība，提供多個年齡階段活動。"
+    "description": "LSGCO 官方 unit finder 列出的 Valmieras 4. skautu vienība，提供多個年齡階段活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   },
   {
     "id": "LV-UNIT-OGRESGALS-5",
@@ -186,9 +221,12 @@
     "lng": 24.7338,
     "address": "Ogresgals, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "janis.Iklavs@gmail.com",
+    "email": "",
     "instagram": "og_skauti",
-    "description": "LSGCO 官方 unit finder 列出的 Ogresgala 5. skautu un gaidu vienība。"
+    "description": "LSGCO 官方 unit finder 列出的 Ogresgala 5. skautu un gaidu vienība。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   },
   {
     "id": "LV-UNIT-JEKABPILS-9",
@@ -204,8 +242,11 @@
     "lng": 25.8688,
     "address": "Jēkabpils, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "ilmarsluksts@inbox.lv",
-    "description": "LSGCO 官方 unit finder 列出的 Jēkabpils 9. skautu un gaidu vienība。"
+    "email": "",
+    "description": "LSGCO 官方 unit finder 列出的 Jēkabpils 9. skautu un gaidu vienība。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   },
   {
     "id": "LV-UNIT-TUKUMS-12",
@@ -221,9 +262,12 @@
     "lng": 23.1525,
     "address": "Tukums, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "inga.kuple@skautiungaidas.lv",
+    "email": "",
     "instagram": "12.sk.g.v",
-    "description": "LSGCO 官方 unit finder 列出的 Tukuma 12. skautu un gaidu vienība。"
+    "description": "LSGCO 官方 unit finder 列出的 Tukuma 12. skautu un gaidu vienība。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   },
   {
     "id": "LV-UNIT-LIEPAJA-14",
@@ -239,9 +283,12 @@
     "lng": 21.0071,
     "address": "Liepāja, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "14.sgvieniba@gmail.com",
+    "email": "",
     "instagram": "liepajasskautiungaidas",
-    "description": "LSGCO 官方 unit finder 列出的 Liepājas 14. skautu un gaidu vienība。"
+    "description": "LSGCO 官方 unit finder 列出的 Liepājas 14. skautu un gaidu vienība。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   },
   {
     "id": "LV-UNIT-SIGULDA-83",
@@ -257,7 +304,10 @@
     "lng": 24.8567,
     "address": "Sigulda, Latvia",
     "website": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/",
-    "email": "gatis.kalnins@skautiungaidas.lv",
-    "description": "LSGCO 官方 unit finder 列出的 Siguldas 83. skautu un gaidu vienība。"
+    "email": "",
+    "description": "LSGCO 官方 unit finder 列出的 Siguldas 83. skautu un gaidu vienība。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauti.lv/par-mums/mekle-tuvako-vienibu/"
   }
 ]

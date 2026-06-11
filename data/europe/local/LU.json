@@ -13,7 +13,12 @@
     "lng": 6.1298,
     "address": "B.P. 330, L-2013 Luxembourg",
     "website": "https://sil.lu/",
-    "description": "Scouting in Luxembourg a.s.b.l. 是盧森堡 WOSM／WAGGGS 國家童軍與女童軍聯合平台，由 FNEL 與 LGS 組成。官方 Contact 頁列出 B.P. 330 作為 SIL 聯絡地址。"
+    "description": "Scouting in Luxembourg a.s.b.l. 是盧森堡 WOSM／WAGGGS 國家童軍與女童軍聯合平台，由 FNEL 與 LGS 組成。官方 Contact 頁列出 B.P. 330 作為 SIL 聯絡地址。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sil.lu/",
+    "facebook": "https://www.facebook.com/Scouting-in-Luxembourg-419475258251779",
+    "socialVerificationSource": "https://sil.lu/"
   },
   {
     "id": "LU-HQ-FNEL-CENTS",
@@ -30,10 +35,14 @@
     "address": "61A Rue de Trèves, L-2630 Luxembourg-Cents, Luxembourg",
     "phone": "+352 26 48 04 50",
     "website": "https://www.fnel.lu/en/fnel-office",
-    "email": "office@fnel.lu",
+    "email": "",
     "instagram": "fnelscoutenaguiden",
-    "facebook": "fnel.scoutenaguiden",
-    "description": "FNEL 是 Scouting in Luxembourg 的會員組織之一。FNEL 官方 Office 與 SIL Contact 頁列出總部位於 Luxembourg-Cents, Rue de Trèves 61A。"
+    "facebook": "https://www.facebook.com/fnel.scoutenaguiden",
+    "description": "FNEL 是 Scouting in Luxembourg 的會員組織之一。FNEL 官方 Office 與 SIL Contact 頁列出總部位於 Luxembourg-Cents, Rue de Trèves 61A。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.fnel.lu/en/fnel-office",
+    "socialVerificationSource": "https://www.fnel.lu/en/fnel-office"
   },
   {
     "id": "LU-HQ-LGS-GEISSEREI",
@@ -50,8 +59,15 @@
     "address": "5, rue Munchen-Tesch, L-2173 Luxembourg, Luxembourg",
     "phone": "+352 26 94 84",
     "website": "https://lgs.lu/contact/",
-    "email": "info@lgs.lu",
-    "description": "LGS 是 Scouting in Luxembourg 的會員組織之一，亦是盧森堡最大青年運動之一。LGS 官方 Contact 頁列出 Géisserei 行政辦公室地址 5, rue Munchen-Tesch。"
+    "email": "",
+    "description": "LGS 是 Scouting in Luxembourg 的會員組織之一，亦是盧森堡最大青年運動之一。LGS 官方 Contact 頁列出 Géisserei 行政辦公室地址 5, rue Munchen-Tesch。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lgs.lu/contact/",
+    "facebook": "https://www.facebook.com/LGS.lu",
+    "instagram": "guidenascouten",
+    "youtube": "https://www.youtube.com/user/guidenascouten",
+    "socialVerificationSource": "https://lgs.lu/contact/"
   },
   {
     "id": "LU-SHOP-FNEL-CENTS",
@@ -68,8 +84,11 @@
     "address": "61A Rue de Trèves, L-2630 Luxembourg, Luxembourg",
     "phone": "+352 26 48 04 50",
     "website": "https://shop.fnel.lu/",
-    "email": "shop@fnel.lu",
-    "description": "FNEL 官方 Shop 頁列出實體店位於 61A Rue de Trèves，販售 Scout uniform、服飾、露營用品、書籍、指南針與配件等。"
+    "email": "",
+    "description": "FNEL 官方 Shop 頁列出實體店位於 61A Rue de Trèves，販售 Scout uniform、服飾、露營用品、書籍、指南針與配件等。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://shop.fnel.lu/"
   },
   {
     "id": "LU-SHOP-LGS-GARE",
@@ -86,8 +105,15 @@
     "address": "1, rue Jean Origer, L-2269 Luxembourg, Luxembourg",
     "phone": "+352 48 86 18",
     "website": "https://lgs.lu/shop/",
-    "email": "shop@frenn.lgs.lu",
-    "description": "LGS 官方 Shop 頁說明 LGS Shop 由 LESSURE Workwear 在 Gare 經營，提供制服襯衫、領巾、腰帶、旗幟、徽章、T-shirt、外套及 LGS 相關用品。"
+    "email": "",
+    "description": "LGS 官方 Shop 頁說明 LGS Shop 由 LESSURE Workwear 在 Gare 經營，提供制服襯衫、領巾、腰帶、旗幟、徽章、T-shirt、外套及 LGS 相關用品。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lgs.lu/shop/",
+    "facebook": "https://www.facebook.com/LGS.lu",
+    "instagram": "guidenascouten",
+    "youtube": "https://www.youtube.com/user/guidenascouten",
+    "socialVerificationSource": "https://lgs.lu/"
   },
   {
     "id": "LU-CAMP-FNEL-HOMEFNEL",
@@ -104,8 +130,14 @@
     "address": "61A Rue de Trèves, L-2630 Luxembourg, Luxembourg",
     "phone": "+352 26 48 04 50",
     "website": "https://www.fnel.lu/en/home-fnel",
-    "email": "office@fnel.lu",
-    "description": "FNEL 官方 Chalets 頁列出 homeFNEL 位於 61A rue de Trèves，具 Dortoir、Ecocabane、Camping 等容量類型，作為 FNEL 城市童軍住宿與活動基地。"
+    "email": "",
+    "description": "FNEL 官方 Chalets 頁列出 homeFNEL 位於 61A rue de Trèves，具 Dortoir、Ecocabane、Camping 等容量類型，作為 FNEL 城市童軍住宿與活動基地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.fnel.lu/en/home-fnel",
+    "facebook": "https://www.facebook.com/fnel.scoutenaguiden",
+    "instagram": "fnelscoutenaguiden",
+    "socialVerificationSource": "https://www.fnel.lu/"
   },
   {
     "id": "LU-CAMP-MISAERSHAFF",
@@ -122,8 +154,11 @@
     "address": "Ferme Misère / Misaershaff, L-8808 Arsdorf, Luxembourg",
     "phone": "+352 26 48 04 50",
     "website": "https://www.misaershaff.lu/",
-    "email": "misaershaff@fnel.lu",
-    "description": "Misaershaff 官方網站稱其為 FNEL 附屬 National Youth Scout Center，位於 Upper Sûre Lake 保護區附近，提供大型營地、40 床住宿、會議空間、戶外廚房、營火與自然教育；EcoLabel 資料亦標示其 SCENES 中心身份。"
+    "email": "",
+    "description": "Misaershaff 官方網站稱其為 FNEL 附屬 National Youth Scout Center，位於 Upper Sûre Lake 保護區附近，提供大型營地、40 床住宿、會議空間、戶外廚房、營火與自然教育；EcoLabel 資料亦標示其 SCENES 中心身份。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.misaershaff.lu/"
   },
   {
     "id": "LU-CAMP-COLPACH",
@@ -140,8 +175,11 @@
     "address": "1, Um Rëschweier, L-8526 Colpach-Bas, Luxembourg",
     "phone": "+352 23 62 96 78",
     "website": "https://campsite.lu/",
-    "email": "colpach@fnel.lu",
-    "description": "FNEL Chalets 及 campsite.lu 官方頁列出 Colpach / Rëschweier scout chalet，位於 Colpach-Bas 郊外，含 18 床 chalet 與 0.89 ha camping ground，全年可供團體與童軍使用。"
+    "email": "",
+    "description": "FNEL Chalets 及 campsite.lu 官方頁列出 Colpach / Rëschweier scout chalet，位於 Colpach-Bas 郊外，含 18 床 chalet 與 0.89 ha camping ground，全年可供團體與童軍使用。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://campsite.lu/"
   },
   {
     "id": "LU-LGS-GROUPS-NETWORK",
@@ -157,8 +195,15 @@
     "lng": 6.1333,
     "address": "LGS local groups across Luxembourg; contact via Géisserei",
     "website": "https://lgs.lu/gruppen/",
-    "email": "info@lgs.lu",
-    "description": "LGS 官方 Gruppen 頁列出全國各地地方團，按 Stad Lëtzebuerg、Zentrum、Süden、Norden、Osten、Westen 與 Spezialiséiert Gruppen 分類。"
+    "email": "",
+    "description": "LGS 官方 Gruppen 頁列出全國各地地方團，按 Stad Lëtzebuerg、Zentrum、Süden、Norden、Osten、Westen 與 Spezialiséiert Gruppen 分類。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lgs.lu/gruppen/",
+    "facebook": "https://www.facebook.com/LGS.lu",
+    "instagram": "guidenascouten",
+    "youtube": "https://www.youtube.com/user/guidenascouten",
+    "socialVerificationSource": "https://lgs.lu/"
   },
   {
     "id": "LU-LGS-STAD-LETZEBUERG",
@@ -174,7 +219,14 @@
     "lng": 6.1298,
     "address": "Luxembourg City local groups",
     "website": "https://lgs.lu/gruppen/",
-    "description": "LGS 官方地方團頁列出 Stad Lëtzebuerg 旗下多個團，例如 Beggen、Bouneweg、Cents、Gasperich、Lampertsbierg、Belair、Gare、Kiem、Zéisseng 等。"
+    "description": "LGS 官方地方團頁列出 Stad Lëtzebuerg 旗下多個團，例如 Beggen、Bouneweg、Cents、Gasperich、Lampertsbierg、Belair、Gare、Kiem、Zéisseng 等。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lgs.lu/gruppen/",
+    "facebook": "https://www.facebook.com/LGS.lu",
+    "instagram": "guidenascouten",
+    "youtube": "https://www.youtube.com/user/guidenascouten",
+    "socialVerificationSource": "https://lgs.lu/"
   },
   {
     "id": "LU-LGS-SUDEN",
@@ -190,7 +242,14 @@
     "lng": 5.985,
     "address": "Southern Luxembourg local groups",
     "website": "https://lgs.lu/gruppen/",
-    "description": "LGS 官方地方團頁列出 Süden 區域地方團，包括 Bettembourg、Differdange、Dudelange、Esch-Belval、Esch-Uelzecht、Pétange、Schifflange、Suessem 等。"
+    "description": "LGS 官方地方團頁列出 Süden 區域地方團，包括 Bettembourg、Differdange、Dudelange、Esch-Belval、Esch-Uelzecht、Pétange、Schifflange、Suessem 等。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://lgs.lu/gruppen/",
+    "facebook": "https://www.facebook.com/LGS.lu",
+    "instagram": "guidenascouten",
+    "youtube": "https://www.youtube.com/user/guidenascouten",
+    "socialVerificationSource": "https://lgs.lu/"
   },
   {
     "id": "LU-FNEL-CAMPS-NETWORK",
@@ -206,7 +265,14 @@
     "lng": 6.1513,
     "address": "FNEL chalets and scout camps across Luxembourg",
     "website": "https://www.fnel.lu/scoutcamps/home",
-    "email": "office@fnel.lu",
-    "description": "FNEL 官方 Scoutcamps / Chalets 頁列出多個童軍營地與 chalet，例如 homeFNEL、Misäershaff、Colpach/Rëschweier、Chalet Robert Schaffner 等。此項以 FNEL Office 作網絡代表座標。"
+    "email": "",
+    "description": "FNEL 官方 Scoutcamps / Chalets 頁列出多個童軍營地與 chalet，例如 homeFNEL、Misäershaff、Colpach/Rëschweier、Chalet Robert Schaffner 等。此項以 FNEL Office 作網絡代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.fnel.lu/scoutcamps/home",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/fnel.scoutenaguiden",
+    "instagram": "fnelscoutenaguiden",
+    "socialVerificationSource": "https://www.fnel.lu/"
   }
 ]

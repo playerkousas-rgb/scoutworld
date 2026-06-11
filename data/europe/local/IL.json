@@ -13,8 +13,11 @@
     "lng": 34.7945,
     "address": "49 Lochamei Galipoli St., Tel Aviv, Israel",
     "website": "https://www.isf-shalom.org/",
-    "email": "seyal@israelscouts.org",
-    "description": "以色列童軍與女童軍聯合會是 WOSM／WAGGGS 承認的以色列國家童軍聯合平台。WOSM 名錄列出 Federation 與旗下多個 NSA；Tzofim 官方頁說明其成立於 1954 年，包含 Hebrew Scouts、Orthodox Christian Scouts、Muslim Scouts、Druze Scouts、Catholic Scouts 等組織，並負責與 WOSM/WAGGGS 對接。"
+    "email": "",
+    "description": "以色列童軍與女童軍聯合會是 WOSM／WAGGGS 承認的以色列國家童軍聯合平台。WOSM 名錄列出 Federation 與旗下多個 NSA；Tzofim 官方頁說明其成立於 1954 年，包含 Hebrew Scouts、Orthodox Christian Scouts、Muslim Scouts、Druze Scouts、Catholic Scouts 等組織，並負責與 WOSM/WAGGGS 對接。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.isf-shalom.org/"
   },
   {
     "id": "IL-HQ-HEBREW-SCOUTS-TELAVIV",
@@ -32,8 +35,11 @@
     "phone": "+972 54 244 0240",
     "website": "https://www.zofim.org.il/",
     "instagram": "zofim_bareshet",
-    "facebook": "tzofim",
-    "description": "תנועת הצופים העבריים בישראל（Tzofim / Hebrew Scouts）是以色列童軍聯合會中的主要會員組織。WOSM 名錄列出其網站與電話；官方網站與商業資料列出總部位於 Tel Aviv, Lochamei Galipoli 49。"
+    "facebook": "https://www.facebook.com/tzofim/",
+    "description": "תנועת הצופים העבריים בישראל（Tzofim / Hebrew Scouts）是以色列童軍聯合會中的主要會員組織。WOSM 名錄列出其網站與電話；官方網站與商業資料列出總部位於 Tel Aviv, Lochamei Galipoli 49。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.zofim.org.il/"
   },
   {
     "id": "IL-CONTACT-TRIPS-CAMPS",
@@ -50,8 +56,11 @@
     "address": "Nationwide service; Hebrew Scouts HQ, 49 Lochamei Galipoli St., Tel Aviv",
     "phone": "+972 3 506 1100",
     "website": "https://www.zofim.org.il/moked/",
-    "email": "moked@zofim.org.il",
-    "description": "Tzofim 官方「מוקד הטיולים והמחנות」頁列出全國旅行與營隊服務熱線，於全國童軍活動期間 24 小時提供支援，聯絡電話 03-5061100，電郵 moked@zofim.org.il。"
+    "email": "",
+    "description": "Tzofim 官方「מוקד הטיולים והמחנות」頁列出全國旅行與營隊服務熱線，於全國童軍活動期間 24 小時提供支援，聯絡電話 03-5061100。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.zofim.org.il/moked/"
   },
   {
     "id": "IL-CAMP-MEGINIM-FOREST",
@@ -67,7 +76,14 @@
     "lng": 34.9286,
     "address": "Ya'ar HaMeginim, near Karmei Yosef, Israel",
     "website": "https://www.zofim.org.il/mifalim/",
-    "description": "Tzofim 官方「אירועים בתנועה」頁說明夏季營每年 7 月在全國多個森林舉行，南起 יער מגינים（Karmei Yosef）北至 יער לימונים（Safed），共同時使用六個森林、三個梯次，約 55,000 名成員參與。此點標示其中南部／中部代表營地森林。"
+    "description": "Tzofim 官方「אירועים בתנועה」頁說明夏季營每年 7 月在全國多個森林舉行，南起 יער מגינים（Karmei Yosef）北至 יער לימונים（Safed），共同時使用六個森林、三個梯次，約 55,000 名成員參與。此點標示其中南部／中部代表營地森林。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.zofim.org.il/mifalim/",
+    "facebook": "https://www.facebook.com/tzofim",
+    "instagram": "zofim_bareshet",
+    "youtube": "https://www.youtube.com/user/zofimbareshet",
+    "socialVerificationSource": "https://www.zofim.org.il/"
   },
   {
     "id": "IL-CAMP-LIMONIM-FOREST",
@@ -83,7 +99,14 @@
     "lng": 35.4858,
     "address": "Ya'ar Nahal Limonim, near Safed, Israel",
     "website": "https://www.zofim.org.il/mifalim/",
-    "description": "Tzofim 官方活動頁列明夏季營地範圍由 Karmei Yosef 的 Meginim Forest 至 Safed 附近的 Limonim Forest，並以多個森林並行運作。此點標示北部代表營地森林。"
+    "description": "Tzofim 官方活動頁列明夏季營地範圍由 Karmei Yosef 的 Meginim Forest 至 Safed 附近的 Limonim Forest，並以多個森林並行運作。此點標示北部代表營地森林。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.zofim.org.il/mifalim/",
+    "facebook": "https://www.facebook.com/tzofim",
+    "instagram": "zofim_bareshet",
+    "youtube": "https://www.youtube.com/user/zofimbareshet",
+    "socialVerificationSource": "https://www.zofim.org.il/"
   },
   {
     "id": "IL-AREA-TRIBES-MAP",
@@ -99,7 +122,15 @@
     "lng": 34.7945,
     "address": "Tzofim tribes across Israel; contact via Tel Aviv HQ",
     "website": "https://www.zofim.org.il/tribemap/",
-    "description": "Tzofim 官方網站提供「שבטים והנהגות」地圖，列出全國約 240 個 tribes（שבטים）與多個 regional leaderships（הנהגות）。此項以 Tel Aviv 總部作為全國網絡代表座標。"
+    "description": "Tzofim 官方網站提供「שבטים והנהגות」地圖，列出全國約 240 個 tribes（שבטים）與多個 regional leaderships（הנהגות）。此項以 Tel Aviv 總部作為全國網絡代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.zofim.org.il/tribemap/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/tzofim",
+    "instagram": "zofim_bareshet",
+    "youtube": "https://www.youtube.com/user/zofimbareshet",
+    "socialVerificationSource": "https://www.zofim.org.il/"
   },
   {
     "id": "IL-AREA-TELAVIV-YAFO",
@@ -115,7 +146,14 @@
     "lng": 34.7818,
     "address": "Tel Aviv-Yafo, Israel",
     "website": "https://www.zofim.org.il/area/%d7%94%d7%a0%d7%94%d7%92%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
-    "description": "Tzofim 官方 tribemap 列出 הנהגת תל אביב-יפו 及其下屬多個 local tribes，包括 sea scouts groups。此點標示特拉維夫－雅法地區童軍網絡。"
+    "description": "Tzofim 官方 tribemap 列出 הנהגת תל אביב-יפו 及其下屬多個 local tribes，包括 sea scouts groups。此點標示特拉維夫－雅法地區童軍網絡。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.zofim.org.il/area/%d7%94%d7%a0%d7%94%d7%92%d7%aa-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91-%d7%99%d7%a4%d7%95/",
+    "facebook": "https://www.facebook.com/tzofim",
+    "instagram": "zofim_bareshet",
+    "youtube": "https://www.youtube.com/user/zofimbareshet",
+    "socialVerificationSource": "https://www.zofim.org.il/"
   },
   {
     "id": "IL-AREA-HAIFA",
@@ -131,7 +169,14 @@
     "lng": 34.9984,
     "address": "Haifa, Israel",
     "website": "https://www.zofim.org.il/area/haifa/",
-    "description": "Tzofim 官方 tribemap 列出 הנהגת חיפה，代表 Haifa 地區童軍與海童軍活動網絡。"
+    "description": "Tzofim 官方 tribemap 列出 הנהגת חיפה，代表 Haifa 地區童軍與海童軍活動網絡。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.zofim.org.il/area/haifa/",
+    "facebook": "https://www.facebook.com/tzofim",
+    "instagram": "zofim_bareshet",
+    "youtube": "https://www.youtube.com/user/zofimbareshet",
+    "socialVerificationSource": "https://www.zofim.org.il/"
   },
   {
     "id": "IL-AREA-JERUSALEM-YEHUDA",
@@ -147,7 +192,14 @@
     "lng": 35.2258,
     "address": "Jerusalem, Israel",
     "website": "https://www.zofim.org.il/area/yehuda/",
-    "description": "Tzofim 官方 tribemap 列出 הנהגת יהודה，代表 Jerusalem / Yehuda 一帶的童軍活動網絡。"
+    "description": "Tzofim 官方 tribemap 列出 הנהגת יהודה，代表 Jerusalem / Yehuda 一帶的童軍活動網絡。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.zofim.org.il/area/yehuda/",
+    "facebook": "https://www.facebook.com/tzofim",
+    "instagram": "zofim_bareshet",
+    "youtube": "https://www.youtube.com/user/zofimbareshet",
+    "socialVerificationSource": "https://www.zofim.org.il/"
   },
   {
     "id": "IL-AREA-DAROM",
@@ -163,7 +215,15 @@
     "lng": 34.7925,
     "address": "Southern Israel / Be'er Sheva, Israel",
     "website": "https://www.zofim.org.il/area/darom/",
-    "description": "Tzofim 官方 tribemap 列出 הנהגת דרום，代表以色列南部、內蓋夫等地童軍活動區。"
+    "description": "Tzofim 官方 tribemap 列出 הנהגת דרום，代表以色列南部、內蓋夫等地童軍活動區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.zofim.org.il/area/darom/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/tzofim",
+    "instagram": "zofim_bareshet",
+    "youtube": "https://www.youtube.com/user/zofimbareshet",
+    "socialVerificationSource": "https://www.zofim.org.il/"
   },
   {
     "id": "IL-HQ-ARAB-SCOUTS",
@@ -179,7 +239,10 @@
     "lng": 35.3048,
     "address": "Israel; contact via Israel Boy and Girl Scouts Federation",
     "website": "https://www.scout.org/where-we-work/scouting-worldwide",
-    "description": "WOSM Scouting Worldwide 名錄列出 The Arab School Scout Association 為以色列國家童軍聯合會下的 National Scout Association。公開地址未列明，聯絡應經以色列童軍聯合會。此點以 Nazareth 作阿拉伯社群代表座標。"
+    "description": "WOSM Scouting Worldwide 名錄列出 The Arab School Scout Association 為以色列國家童軍聯合會下的 National Scout Association。公開地址未列明，聯絡應經以色列童軍聯合會。此點以 Nazareth 作阿拉伯社群代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scout.org/where-we-work/scouting-worldwide"
   },
   {
     "id": "IL-HQ-DRUZE-SCOUTS",
@@ -195,7 +258,10 @@
     "lng": 35.1724,
     "address": "Israel; contact via Israel Boy and Girl Scouts Federation",
     "website": "https://www.scout.org/where-we-work/scouting-worldwide",
-    "description": "WOSM Scouting Worldwide 名錄列出 The Druze Scouts Association 為以色列國家童軍聯合會下的 National Scout Association。公開地址未列明，聯絡應經以色列童軍聯合會。此點以 Shfaram 作北部德魯茲社群代表座標。"
+    "description": "WOSM Scouting Worldwide 名錄列出 The Druze Scouts Association 為以色列國家童軍聯合會下的 National Scout Association。公開地址未列明，聯絡應經以色列童軍聯合會。此點以 Shfaram 作北部德魯茲社群代表座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scout.org/where-we-work/scouting-worldwide"
   },
   {
     "id": "IL-HQ-CATHOLIC-SCOUTS",
@@ -211,7 +277,10 @@
     "lng": 35.1724,
     "address": "c/o Raed Haddad, 312/15, Shafa-Amr 20200, Israel",
     "website": "https://www.scout.org/where-we-work/scouting-worldwide",
-    "description": "WOSM Scouting Worldwide 名錄列出 The Israeli Catholic Scouts Association 為以色列聯合會下的 National Scout Association，地址為 c/o Raed Haddad, Shafa-Amr 20200。"
+    "description": "WOSM Scouting Worldwide 名錄列出 The Israeli Catholic Scouts Association 為以色列聯合會下的 National Scout Association，地址為 c/o Raed Haddad, Shafa-Amr 20200。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scout.org/where-we-work/scouting-worldwide"
   },
   {
     "id": "IL-HQ-ORTHODOX-SCOUTS",
@@ -227,6 +296,9 @@
     "lng": 35.2258,
     "address": "Israel; contact via Israel Boy and Girl Scouts Federation",
     "website": "https://www.scout.org/where-we-work/scouting-worldwide",
-    "description": "WOSM Scouting Worldwide 名錄列出 The Orthodox Scout Association 為以色列童軍聯合會下的 National Scout Association。公開地址未列明，聯絡應經以色列童軍聯合會。"
+    "description": "WOSM Scouting Worldwide 名錄列出 The Orthodox Scout Association 為以色列童軍聯合會下的 National Scout Association。公開地址未列明，聯絡應經以色列童軍聯合會。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scout.org/where-we-work/scouting-worldwide"
   }
 ]

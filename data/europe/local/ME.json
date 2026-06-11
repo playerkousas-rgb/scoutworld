@@ -14,8 +14,14 @@
     "address": "Bracana Bracanovića 70A, Podgorica 81000, Montenegro",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "WOSM Europe Member Organization by Country 頁列 Savez Izviđača Crne Gore（SICG）為黑山 WOSM 成員 National Scout Organization，地址 Bracana Bracanovića 70A, Podgorica 81000，電話 +382 68 836 399，網站 scouts.org.me，電郵 sicg@t-com.me。WAGGGS Montenegro profile 亦列此組織及 Podgorica 聯絡地址。"
+    "email": "",
+    "description": "WOSM Europe Member Organization by Country 頁列 Savez Izviđača Crne Gore（SICG）為黑山 WOSM 成員 National Scout Organization，地址 Bracana Bracanovića 70A, Podgorica 81000，電話 +382 68 836 399，網站 scouts.org.me。WAGGGS Montenegro profile 亦列此組織及 Podgorica 聯絡地址。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-COUNCIL-NATIONAL-UNITS",
@@ -32,8 +38,14 @@
     "address": "National coordination via SICG HQ, Podgorica",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "WAGGGS Montenegro profile 指黑山童軍單位曾在 Podgorica、Cetinje、Nikšić、Tivat 及全國多地發展；SICG 公開夥伴資料亦描述由約 20 個 izviđački odredi／samostalne čete 組成。本項作為全國地方單位查詢入口。"
+    "email": "",
+    "description": "WAGGGS Montenegro profile 指黑山童軍單位曾在 Podgorica、Cetinje、Nikšić、Tivat 及全國多地發展；SICG 公開夥伴資料亦描述由約 20 個 izviđački odredi／samostalne čete 組成。本項作為全國地方單位查詢入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-CAMP-GRAHOVO-SCOUT-CENTRE",
@@ -50,26 +62,15 @@
     "address": "Grahovo, Municipality of Nikšić, Montenegro",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "SICG 及合作報道多次將 Grahovo 描述為黑山童軍正在建設的 izviđački kamp／izviđačko-omladinski centar，並指出地點鄰近 Grahovo Lake、森林及 Nikšić。此項記錄為官方重點國家營地／青年中心代表點。"
-  },
-  {
-    "id": "ME-CAMP-GRAHOVO-JAMBOREE",
-    "parentCountry": "ME",
-    "level": 3,
-    "type": "Campsite",
-    "flag": "🇲🇪",
-    "category": "全國大露營地點 (National Jamboree Site)",
-    "name": "Grahovo 黑山童軍大露營地點",
-    "nameEn": "Grahovo Montenegro Jamboree Site",
-    "subregion": "Grahovo / Nikšić",
-    "lat": 42.6509,
-    "lng": 18.673,
-    "address": "Grahovo, Municipality of Nikšić, Montenegro",
-    "phone": "+382 68 836 399",
-    "website": "https://jamboree-montenegro.me/about-jamboree/",
-    "email": "sicg@t-com.me",
-    "description": "6. Smotra SICG／Montenegro Jamboree 官方資料列活動在 Grahovo, Nikšić 舉行，項目包括童軍技能工作坊、戶外活動、Grahovo forest 單車、Grahovo Lake 水上活動及前往 Nikšić、Kotor 的行程。此項作為大型全國／國際童軍露營活動地點。"
+    "email": "",
+    "description": "SICG 及合作報道多次將 Grahovo 描述為黑山童軍正在建設的 izviđački kamp／izviđačko-omladinski centar，並指出地點鄰近 Grahovo Lake、森林及 Nikšić。此項記錄為官方重點國家營地／青年中心代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-COUNCIL-PODGORICA",
@@ -86,8 +87,15 @@
     "address": "Podgorica, Montenegro; contact via SICG HQ",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "WAGGGS Montenegro profile 指 Podgorica 是黑山童軍單位發展城市之一；SICG 總部亦位於 Podgorica。本項為首都地方童軍單位代表點，實際小隊／聚會地點以 SICG 官方回覆為準。"
+    "email": "",
+    "description": "WAGGGS Montenegro profile 指 Podgorica 是黑山童軍單位發展城市之一；SICG 總部亦位於 Podgorica。本項為首都地方童軍單位代表點，實際小隊／聚會地點以 SICG 官方回覆為準。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-COUNCIL-NIKSIC",
@@ -104,8 +112,15 @@
     "address": "Nikšić, Montenegro; contact via SICG HQ",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "WAGGGS Montenegro profile 指 Nikšić 是黑山早期及現代童軍重點城市之一；地方政府與 SICG 亦曾就 Grahovo 國家營地、Nikšić 童軍中心角色及活動合作。本項為 Nikšić 地區童軍代表點。"
+    "email": "",
+    "description": "WAGGGS Montenegro profile 指 Nikšić 是黑山早期及現代童軍重點城市之一；地方政府與 SICG 亦曾就 Grahovo 國家營地、Nikšić 童軍中心角色及活動合作。本項為 Nikšić 地區童軍代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-COUNCIL-CETINJE-GOJKA-KRUSKA",
@@ -122,8 +137,15 @@
     "address": "Cetinje, Montenegro; contact via SICG HQ",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "SICG 的 Boranka 環境行動報道列明 Cetinje 的 Izviđački odred “Gojka Kruška” 是當地實施單位之一。此項記錄 Cetinje 活躍地方童軍單位代表點。"
+    "email": "",
+    "description": "SICG 的 Boranka 環境行動報道列明 Cetinje 的 Izviđački odred “Gojka Kruška” 是當地實施單位之一。此項記錄 Cetinje 活躍地方童軍單位代表點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-COUNCIL-BAR-24-NOVEMBAR",
@@ -140,8 +162,14 @@
     "address": "Bar, Montenegro; contact via SICG HQ",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "Bar 市及 SICG 的 Boranka 報道提及 Izviđački odred “24. novembar” 及其 50 週年，並指出 Bar 長期支持童軍活動。本項記錄 Bar 的代表地方童軍單位。"
+    "email": "",
+    "description": "Bar 市及 SICG 的 Boranka 報道提及 Izviđački odred “24. novembar” 及其 50 週年，並指出 Bar 長期支持童軍活動。本項記錄 Bar 的代表地方童軍單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-COUNCIL-TIVAT",
@@ -158,8 +186,15 @@
     "address": "Tivat, Montenegro; contact via SICG HQ",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "WAGGGS Montenegro profile 指 Tivat 是黑山童軍單位發展城市之一。此項為 Boka Kotorska 海岸地區童軍代表點；實際活躍小隊及活動需透過 SICG 查詢。"
+    "email": "",
+    "description": "WAGGGS Montenegro profile 指 Tivat 是黑山童軍單位發展城市之一。此項為 Boka Kotorska 海岸地區童軍代表點；實際活躍小隊及活動需透過 SICG 查詢。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-COUNCIL-PLAV-HISTORIC",
@@ -176,8 +211,15 @@
     "address": "Plav, Montenegro; contact via SICG HQ",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "SICG 公開夥伴資料記錄黑山正式童軍活動於 1955 年在 Plav 成立第一個 odred “Budo Tomović” 開始。此項以 Plav 作為歷史及地方童軍代表點，並非聲稱固定會址。"
+    "email": "",
+    "description": "SICG 公開夥伴資料記錄黑山正式童軍活動於 1955 年在 Plav 成立第一個 odred “Budo Tomović” 開始。此項以 Plav 作為歷史及地方童軍代表點，並非聲稱固定會址。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-COUNCIL-BERANE",
@@ -194,8 +236,15 @@
     "address": "Berane, Montenegro; contact via SICG HQ",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "SICG 公開夥伴資料提到早期童軍 odredi 亦在 Ivangrad（今 Berane）等地成立。本項作為東北部地方童軍代表點；最新活動狀態以 SICG 官方渠道為準。"
+    "email": "",
+    "description": "SICG 公開夥伴資料提到早期童軍 odredi 亦在 Ivangrad（今 Berane）等地成立。本項作為東北部地方童軍代表點；最新活動狀態以 SICG 官方渠道為準。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   },
   {
     "id": "ME-CAMPAIGN-BORANKA-BAR-CETINJE-NIKSIC",
@@ -212,7 +261,14 @@
     "address": "Representative point: Golo Brdo, Sutomore / Bar; actions also in Cetinje and Nikšić areas",
     "phone": "+382 68 836 399",
     "website": "https://www.scouts.org.me/",
-    "email": "sicg@t-com.me",
-    "description": "SICG 近年在黑山推行 Boranka 植林及環境教育行動，報道列出 Bar 的 Golo Brdo、Cetinje 及 Nikšić／Vojnik 等地行動。本項作為服務計劃網絡代表點，方便 L3 顯示童軍社區服務活動。"
+    "email": "",
+    "description": "SICG 近年在黑山推行 Boranka 植林及環境教育行動，報道列出 Bar 的 Golo Brdo、Cetinje 及 Nikšić／Vojnik 等地行動。本項作為服務計劃網絡代表點，方便 L3 顯示童軍社區服務活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel; representative area/network point, verify exact location before travel",
+    "verificationSource": "https://www.scouts.org.me/",
+    "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
+    "facebook": "https://www.facebook.com/ScoutsMontenegro",
+    "instagram": "scouts_montenegro",
+    "socialVerificationSource": "https://www.scouts.org.me/"
   }
 ]

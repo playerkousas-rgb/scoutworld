@@ -13,8 +13,14 @@
     "lng": 9.5096,
     "address": "Obergass 12, 9494 Schaan, Liechtenstein",
     "website": "https://pfadi.li/",
-    "email": "ppl@pfadi.li",
-    "description": "Pfadfinder und Pfadfinderinnen Liechtensteins（PPL）是列支敦士登 WOSM／WAGGGS 國家童軍與女童軍組織。PPL 官方網站頁尾列出總部 Obergass 12, Schaan 與 ppl@pfadi.li。"
+    "email": "",
+    "description": "Pfadfinder und Pfadfinderinnen Liechtensteins（PPL）是列支敦士登 WOSM／WAGGGS 國家童軍與女童軍組織。PPL 官方網站頁尾列出總部 Obergass 12, Schaan 。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-SHOP-SCHAAN",
@@ -30,8 +36,14 @@
     "lng": 9.5096,
     "address": "Obergass 12, 9494 Schaan, Liechtenstein",
     "website": "https://www.pfadi.li/en/communication/scout-shop",
-    "email": "scoutshop@pfadi.li",
-    "description": "PPL 官方 Scout Shop 頁說明店舖位於 Scout House (PPL) 一樓，由志工營運，提供制服、徽章及童軍用品，除固定開放日外可透過 scoutshop@pfadi.li 預約。"
+    "email": "",
+    "description": "PPL 官方 Scout Shop 頁說明店舖位於 Scout House (PPL) 一樓，由志工營運，提供制服、徽章及童軍用品，除固定開放日外可透過 預約。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.pfadi.li/en/communication/scout-shop",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-CAMP-HOMES-NETWORK",
@@ -47,8 +59,14 @@
     "lng": 9.5096,
     "address": "Scout homes and camping grounds across Liechtenstein; contact via PPL",
     "website": "https://pfadi.li/en/organization/scout-homes-camping-grounds/pfadfinderheim-balzers",
-    "email": "ppl@pfadi.li",
-    "description": "PPL 官方 Scout Homes/Camping Grounds 頁列出各地方單位管理或由市鎮提供的童軍屋與營地，部分可供營隊租用；包括 Balzers、Triesen、Malbun、Vaduz、Schaan、Mauren、Schellenberg、Gamprin、Ruggell 等地。"
+    "email": "",
+    "description": "PPL 官方 Scout Homes/Camping Grounds 頁列出各地方單位管理或由市鎮提供的童軍屋與營地，部分可供營隊租用；包括 Balzers、Triesen、Malbun、Vaduz、Schaan、Mauren、Schellenberg、Gamprin、Ruggell 等地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/scout-homes-camping-grounds/pfadfinderheim-balzers",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-CAMP-BALZERS-SCOUT-HOME",
@@ -64,8 +82,14 @@
     "lng": 9.5014,
     "address": "Fürstenstrasse 57, 9496 Balzers, Liechtenstein",
     "website": "https://pfadi.li/en/organization/scout-homes-camping-grounds/pfadfinderheim-balzers",
-    "email": "balzers@pfadi.li",
-    "description": "PPL 官方 Scout Homes 頁列出 Balzers Scout Home，地址 Fürstenstrasse 57，由 Pfadfinderbewegung Gutenberg Balzers 管理。"
+    "email": "",
+    "description": "PPL 官方 Scout Homes 頁列出 Balzers Scout Home，地址 Fürstenstrasse 57，由 Pfadfinderbewegung Gutenberg Balzers 管理。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/scout-homes-camping-grounds/pfadfinderheim-balzers",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-UNIT-BALZERS",
@@ -81,8 +105,14 @@
     "lng": 9.5014,
     "address": "Fürstenstrasse 57, Postfach 301, 9496 Balzers, Liechtenstein",
     "website": "https://pfadi.li/en/organization/units/pfadfinderbewegung-gutenberg-balzers",
-    "email": "balzers@pfadi.li",
-    "description": "PPL 官方 Units 頁列出 Gutenberg Balzers 為九個地方單位之一，成立於 1938 年左右，現有約 100 名成員，管理 Balzers Scout Home 與 Oberäckerle 等場地。"
+    "email": "",
+    "description": "PPL 官方 Units 頁列出 Gutenberg Balzers 為九個地方單位之一，成立於 1938 年左右，現有約 100 名成員，管理 Balzers Scout Home 與 Oberäckerle 等場地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/units/pfadfinderbewegung-gutenberg-balzers",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-UNIT-TRIESEN",
@@ -98,7 +128,13 @@
     "lng": 9.5275,
     "address": "Triesen, Liechtenstein",
     "website": "https://pfadi.li/en/organization/units/triesen",
-    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Triesen 地區童軍與女童軍。"
+    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Triesen 地區童軍與女童軍。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/units/triesen",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-UNIT-TRIESENBERG",
@@ -114,7 +150,13 @@
     "lng": 9.5434,
     "address": "Triesenberg, Liechtenstein",
     "website": "https://pfadi.li/en/organization/units/triesenberg",
-    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務山區 Triesenberg 地區。"
+    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務山區 Triesenberg 地區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/units/triesenberg",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-UNIT-VADUZ",
@@ -130,7 +172,13 @@
     "lng": 9.5228,
     "address": "Vaduz, Liechtenstein",
     "website": "https://pfadi.li/en/organization/units/vaduz",
-    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務首都 Vaduz。"
+    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務首都 Vaduz。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/units/vaduz",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-UNIT-SCHAAN-PLANKEN",
@@ -146,7 +194,13 @@
     "lng": 9.5103,
     "address": "Schaan / Planken, Liechtenstein",
     "website": "https://pfadi.li/en/organization/units/fuerst-franz-und-fuerstin-gina-pfadfinderinnen-schaan-planken",
-    "description": "PPL 官方 Units 頁列出的九個地方單位之一。官方頁介紹 Schaan 早在 1931 年成立首個列支敦士登童軍單位，1938 年已接納女童軍。"
+    "description": "PPL 官方 Units 頁列出的九個地方單位之一。官方頁介紹 Schaan 早在 1931 年成立首個列支敦士登童軍單位，1938 年已接納女童軍。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/units/fuerst-franz-und-fuerstin-gina-pfadfinderinnen-schaan-planken",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-UNIT-GAMPRIN-BENDERN",
@@ -162,7 +216,13 @@
     "lng": 9.5026,
     "address": "Gamprin-Bendern, Liechtenstein",
     "website": "https://pfadi.li/en/organization/units/pfadfinderinnen-st-felix-gamprin-bendern",
-    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Gamprin-Bendern 地區。"
+    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Gamprin-Bendern 地區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/units/pfadfinderinnen-st-felix-gamprin-bendern",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-UNIT-MAUREN-SCHAANWALD",
@@ -178,7 +238,13 @@
     "lng": 9.5513,
     "address": "Mauren / Schaanwald, Liechtenstein",
     "website": "https://pfadi.li/en/organization/units/pfadfinderinnen-st-peter-und-paul-mauren-schaanwald",
-    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Mauren / Schaanwald 地區。"
+    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Mauren / Schaanwald 地區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/units/pfadfinderinnen-st-peter-und-paul-mauren-schaanwald",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-UNIT-RUGGELL",
@@ -194,7 +260,13 @@
     "lng": 9.5263,
     "address": "Ruggell, Liechtenstein",
     "website": "https://pfadi.li/en/organization/units/pfadfinderinnen-st-fridolin-ruggell",
-    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Ruggell 地區。"
+    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Ruggell 地區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/units/pfadfinderinnen-st-fridolin-ruggell",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   },
   {
     "id": "LI-UNIT-SCHELLENBERG",
@@ -210,6 +282,12 @@
     "lng": 9.5458,
     "address": "Schellenberg, Liechtenstein",
     "website": "https://pfadi.li/en/organization/units/schellenberg",
-    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Schellenberg 地區。"
+    "description": "PPL 官方 Units 頁列出的九個地方單位之一，服務 Schellenberg 地區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://pfadi.li/en/organization/units/schellenberg",
+    "facebook": "https://www.facebook.com/PfadiLiechtenstein",
+    "instagram": "pfadi.li",
+    "socialVerificationSource": "https://pfadi.li/"
   }
 ]

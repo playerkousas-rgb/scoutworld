@@ -14,8 +14,15 @@
     "address": "Mokrohájska cesta 6, 841 04 Bratislava, Slovakia",
     "phone": "+421 948 310 100; +421 2 446 40 154",
     "website": "https://skauting.sk/",
-    "email": "ustredie@skauting.sk",
-    "description": "WOSM Europe 列 Slovenský skauting 為斯洛伐克 WOSM 成員 National Scout Organization。官方 Kontakt 頁列 Slovenský skauting, o. z. 地址 Mokrohájska cesta 6, 841 04 Bratislava，電話 02-446 40 154，手機 0948 310 100，電郵 ustredie@skauting.sk。"
+    "email": "",
+    "description": "WOSM Europe 列 Slovenský skauting 為斯洛伐克 WOSM 成員 National Scout Organization。官方 Kontakt 頁列 Slovenský skauting, o. z. 地址 Mokrohájska cesta 6, 841 04 Bratislava，電話 02-446 40 154，手機 0948 310 100。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-SHOP-SCOUTSHOP-SK",
@@ -32,8 +39,15 @@
     "address": "Online shop; linked from Slovenský skauting, Mokrohájska cesta 6, Bratislava",
     "phone": "+421 948 310 100",
     "website": "https://www.scoutshop.sk/",
-    "email": "ustredie@skauting.sk",
-    "description": "Slovenský skauting 官方網站頂部直接連結 Scoutshop。官方家長指引頁說 skautská rovnošata、šatky、nášivky、odznaky、tričká 等 skautský tovar 可在 skautskom internetovom obchode ScoutShop.sk 訂購。"
+    "email": "",
+    "description": "Slovenský skauting 官方網站頂部直接連結 Scoutshop。官方家長指引頁說 skautská rovnošata、šatky、nášivky、odznaky、tričká 等 skautský tovar 可在 skautskom internetovom obchode ScoutShop.sk 訂購。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutshop.sk/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-ZBORY-FINDER",
@@ -50,8 +64,15 @@
     "address": "Nationwide; search via official skautské zbory map",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/zbory/",
-    "email": "ustredie@skauting.sk",
-    "description": "Slovenský skauting 官方 Kontakt / Oblasti pages 提供「Nájsť skautský zbor」及「Zbory v oblastiach」入口；地方 zbory 是加入 skauting 的主要單位。"
+    "email": "",
+    "description": "Slovenský skauting 官方 Kontakt / Oblasti pages 提供「Nájsť skautský zbor」及「Zbory v oblastiach」入口；地方 zbory 是加入 skauting 的主要單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/zbory/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-CAMP-UBYTOVANIE-NETWORK",
@@ -68,8 +89,15 @@
     "address": "Scout accommodation around Slovakia; contact via specific scout groups or SLSK HQ",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/odporucame/ubytovanie/",
-    "email": "ustredie@skauting.sk",
-    "description": "Slovenský skauting 官方 Ubytovanie 頁列出面向 scouts、非 scouts、國內外訪客的 skautské ubytovanie；若需其他城市住宿，官方建議聯絡具體 skautský zbor。"
+    "email": "",
+    "description": "Slovenský skauting 官方 Ubytovanie 頁列出面向 scouts、非 scouts、國內外訪客的 skautské ubytovanie；若需其他城市住宿，官方建議聯絡具體 skautský zbor。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/odporucame/ubytovanie/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-CAMP-SKAUTSKY-DOM-BANSKA-STIAVNICA",
@@ -86,8 +114,15 @@
     "address": "Skautský dom, near Trojičné námestie, Banská Štiavnica, Slovakia",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/odporucame/ubytovanie/",
-    "email": "ustredie@skauting.sk",
-    "description": "官方 Ubytovanie 頁列 Hostel Skautský dom v Banskej Štiavnici，位於 Trojičné námestie 約 100m、Starý zámok 城牆下，有花園及 renesančný dom，適合旅客、大團體及家庭。"
+    "email": "",
+    "description": "官方 Ubytovanie 頁列 Hostel Skautský dom v Banskej Štiavnici，位於 Trojičné námestie 約 100m、Starý zámok 城牆下，有花園及 renesančný dom，適合旅客、大團體及家庭。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/odporucame/ubytovanie/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-CAMP-CHATA-KANNE-FRICOVCE",
@@ -104,8 +139,15 @@
     "address": "Kanné valley, Fričovce, Prešov district, Slovakia",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/odporucame/ubytovanie/",
-    "email": "ustredie@skauting.sk",
-    "description": "官方 Ubytovanie 頁列 Chata Kanné pri Fričovciach，位於 Branisko 下方 Kanné valley，設有木屋、課室／睡眠空間、廚房，夏季可在鄰近建築或帳篷住宿，鄰近 Kamenná Baba、Branisko、Spišský hrad 等自然文化資源。"
+    "email": "",
+    "description": "官方 Ubytovanie 頁列 Chata Kanné pri Fričovciach，位於 Branisko 下方 Kanné valley，設有木屋、課室／睡眠空間、廚房，夏季可在鄰近建築或帳篷住宿，鄰近 Kamenná Baba、Branisko、Spišský hrad 等自然文化資源。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/odporucame/ubytovanie/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-CAMP-HODRUSA",
@@ -122,8 +164,15 @@
     "address": "near Hornohodrušské jazero, Hodruša-Hámre, Slovakia",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/odporucame/ubytovanie/",
-    "email": "ustredie@skauting.sk",
-    "description": "官方 Ubytovanie 頁列 Skautské táborisko na Hodruši，位於 Štiavnické vrchy 森林中、Hornohodrušské jazero 附近，已有近百年吸引 scouts；容量約 120 人，由多個小營地組成，可同時容納多個 oddiely 或較大型 scout action。"
+    "email": "",
+    "description": "官方 Ubytovanie 頁列 Skautské táborisko na Hodruši，位於 Štiavnické vrchy 森林中、Hornohodrušské jazero 附近，已有近百年吸引 scouts；容量約 120 人，由多個小營地組成，可同時容納多個 oddiely 或較大型 scout action。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/odporucame/ubytovanie/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-CAMP-SKUTSKE-TABORY-PROGRAMME",
@@ -140,8 +189,15 @@
     "address": "Nationwide camps organized by local scout groups, reported to SLSK HQ",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/ustredie/administrativa/skautske-tabory/",
-    "email": "ustredie@skauting.sk",
-    "description": "官方 Skautské tábory 頁說 scout camp 是全年活動的 vyvrcholením，營隊須提前兩週向 Ústredie 上報；官方新聞亦提到志願者每年為超過 5,000 名兒童在全 Slovakia 組織 summer scout camps。"
+    "email": "",
+    "description": "官方 Skautské tábory 頁說 scout camp 是全年活動的 vyvrcholením，營隊須提前兩週向 Ústredie 上報；官方新聞亦提到志願者每年為超過 5,000 名兒童在全 Slovakia 組織 summer scout camps。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/ustredie/administrativa/skautske-tabory/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-OBLASTI-NETWORK",
@@ -158,8 +214,15 @@
     "address": "Nationwide skautské oblasti; contact via SLSK HQ",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/oblasti/",
-    "email": "ustredie@skauting.sk",
-    "description": "官方 Skautské oblasti 頁說 areas are an intermediate level between national level and zbory, connecting scout groups and independent oddiely in regions; they provide information, volunteer education, development and regional activities。"
+    "email": "",
+    "description": "官方 Skautské oblasti 頁說 areas are an intermediate level between national level and zbory, connecting scout groups and independent oddiely in regions; they provide information, volunteer education, development and regional activities。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/oblasti/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-BRATISLAVSKA",
@@ -176,8 +239,15 @@
     "address": "Bratislava region; contact via SLSK oblast pages",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/oblasti/bratislavska-skautska-rada/",
-    "email": "ustredie@skauting.sk",
-    "description": "SLSK official skautské oblasti pages list Bratislavská skautská rada; it supports scout groups in the Bratislava region."
+    "email": "",
+    "description": "SLSK official skautské oblasti pages list Bratislavská skautská rada; it supports scout groups in the Bratislava region.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/oblasti/bratislavska-skautska-rada/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-ZAPADOSLOVENSKA",
@@ -194,8 +264,15 @@
     "address": "Strelecká 3, 917 01 Trnava, Slovakia",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/oblasti/zapadoslovenska-skautska-oblast/",
-    "email": "ustredie@skauting.sk",
-    "description": "Official SLSK region page lists Západoslovenská skautská oblasť with address Strelecká 3, 917 01 Trnava and member zbory such as Trnava, Púchov, Nové Mesto nad Váhom and others."
+    "email": "",
+    "description": "Official SLSK region page lists Západoslovenská skautská oblasť with address Strelecká 3, 917 01 Trnava and member zbory such as Trnava, Púchov, Nové Mesto nad Váhom and others.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/oblasti/zapadoslovenska-skautska-oblast/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-NITRIANSKA",
@@ -212,8 +289,15 @@
     "address": "Nitra region; contact via SLSK oblast pages",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/oblasti/",
-    "email": "ustredie@skauting.sk",
-    "description": "Official SLSK area coordination data lists Nitrianska skautská oblasť kniežaťa Pribinu as a scout region; SLSK pages explain areas connect zbory in their region."
+    "email": "",
+    "description": "Official SLSK area coordination data lists Nitrianska skautská oblasť kniežaťa Pribinu as a scout region; SLSK pages explain areas connect zbory in their region.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/oblasti/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-ZILINSKA",
@@ -230,8 +314,15 @@
     "address": "Žilina region; contact via SLSK oblast pages",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/oblasti/",
-    "email": "ustredie@skauting.sk",
-    "description": "Official SLSK area coordination data lists Žilinská skautská oblasť. This entry uses Žilina as the regional representative point."
+    "email": "",
+    "description": "Official SLSK area coordination data lists Žilinská skautská oblasť. This entry uses Žilina as the regional representative point.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/oblasti/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-STREDOSLOVENSKA",
@@ -247,9 +338,16 @@
     "lng": 19.1247135,
     "address": "Ulica SNP 26, 962 01 Zvolenská Slatina; Central Slovakia",
     "phone": "+421 948 310 100",
-    "website": "https://skauting.sk/kontakt/oblasti/stredoslovenska-oblast/",
-    "email": "ustredie@skauting.sk",
-    "description": "Official SLSK Stredoslovenská oblasť page lists this region, with contact details and member zbory in Zvolen, Banská Štiavnica, Banská Bystrica, Lučenec, Detva and others."
+    "website": "https://skauting.sk/kontakt/oblasti/",
+    "email": "",
+    "description": "Official SLSK Stredoslovenská oblasť page lists this region, with contact details and member zbory in Zvolen, Banská Štiavnica, Banská Bystrica, Lučenec, Detva and others.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official areas list linked; specific area page returned 500; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/oblasti/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-PODTATRANSKA",
@@ -266,8 +364,15 @@
     "address": "Tatras region; contact via SLSK oblast pages",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/oblasti/",
-    "email": "ustredie@skauting.sk",
-    "description": "Official SLSK coordination data lists Podtatranská skautská oblasť; this entry uses Poprad / Tatry as its representative point."
+    "email": "",
+    "description": "Official SLSK coordination data lists Podtatranská skautská oblasť; this entry uses Poprad / Tatry as its representative point.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/oblasti/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-VYCHODOSLOVENSKA",
@@ -284,8 +389,15 @@
     "address": "V. Clementisa 16, 080 01 Prešov, Slovakia",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/oblasti/vychodoslovenska-oblast/",
-    "email": "ustredie@skauting.sk",
-    "description": "Official SLSK Východoslovenská oblasť page lists address V. Clementisa 16, 080 01 Prešov and member zbory including Košice, Prešov, Sabinov, Stropkov, Vranov nad Topľou, Humenné and others."
+    "email": "",
+    "description": "Official SLSK Východoslovenská oblasť page lists address V. Clementisa 16, 080 01 Prešov and member zbory including Košice, Prešov, Sabinov, Stropkov, Vranov nad Topľou, Humenné and others.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/oblasti/vychodoslovenska-oblast/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-ROMSKA",
@@ -302,8 +414,15 @@
     "address": "Roma scout groups in eastern Slovakia; contact via SLSK HQ",
     "phone": "+421 948 310 100",
     "website": "https://skauting.sk/kontakt/oblasti/",
-    "email": "ustredie@skauting.sk",
-    "description": "SLSK official article about areas notes that Rómska skautská oblasť consists of Roma scout groups from Terňa, Kecerovce and Varhaňovce. This entry is a representative regional/network point."
+    "email": "",
+    "description": "SLSK official article about areas notes that Rómska skautská oblasť consists of Roma scout groups from Terňa, Kecerovce and Varhaňovce. This entry is a representative regional/network point.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skauting.sk/kontakt/oblasti/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-BIELE-VRANY-KOSICE",
@@ -320,8 +439,15 @@
     "address": "Košice, Slovakia; contact via Východoslovenská oblasť / 68zbor.sk",
     "phone": "+421 948 310 100",
     "website": "https://www.68zbor.sk/",
-    "email": "68zbor@skauting.sk",
-    "description": "Official SLSK Východoslovenská oblasť page lists 68. zbor Biele vrany Košice with email 68zbor@skauting.sk and website 68zbor.sk."
+    "email": "",
+    "description": "Official SLSK Východoslovenská oblasť page lists 68. zbor Biele vrany Košice with contact details and website 68zbor.sk.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.68zbor.sk/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-GERONIMO-PRESOV",
@@ -338,8 +464,15 @@
     "address": "Prešov, Slovakia; contact via Východoslovenská oblasť",
     "phone": "+421 948 310 100",
     "website": "https://www.skautingpresov.sk/",
-    "email": "49zbor@skauting.sk",
-    "description": "Official SLSK Východoslovenská oblasť page lists 49. zbor Geronimo Prešov with 49zbor@skauting.sk and website skautingpresov.sk."
+    "email": "",
+    "description": "Official SLSK Východoslovenská oblasť page lists 49. zbor Geronimo Prešov with and website skautingpresov.sk.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.skautingpresov.sk/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   },
   {
     "id": "SK-COUNCIL-ZVOLEN-27",
@@ -356,7 +489,14 @@
     "address": "Zvolen, Slovakia; contact via Stredoslovenská oblasť",
     "phone": "+421 948 310 100",
     "website": "https://27zborzvolen.sk/",
-    "email": "ustredie@skauting.sk",
-    "description": "Official SLSK Stredoslovenská oblasť page lists 27. zbor Zvolen and website 27zborzvolen.sk as a member group in the Central Slovakia region."
+    "email": "",
+    "description": "Official SLSK Stredoslovenská oblasť page lists 27. zbor Zvolen and website 27zborzvolen.sk as a member group in the Central Slovakia region.",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://27zborzvolen.sk/",
+    "facebook": "https://www.facebook.com/slovensky.skauting",
+    "instagram": "slovensky.skauting",
+    "youtube": "https://www.youtube.com/user/skautsk",
+    "socialVerificationSource": "https://skauting.sk/"
   }
 ]

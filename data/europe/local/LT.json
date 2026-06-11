@@ -14,8 +14,15 @@
     "address": "Trakų g. 18, LT-44236 Kaunas, Lithuania",
     "phone": "+370 614 79646",
     "website": "https://skautai.lt/",
-    "email": "info@skautai.lt",
-    "description": "Lietuvos skautija 是立陶宛 WOSM 成員童軍組織。官方 Kontaktai 頁列出 nacionalinis biuras 位於 Kaunas, Trakų g. 18，並提供 info@skautai.lt 與電話。"
+    "email": "",
+    "description": "Lietuvos skautija 是立陶宛 WOSM 成員童軍組織。官方 Kontaktai 頁列出 nacionalinis biuras 位於 Kaunas, Trakų g. 18，並提供 與電話。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/"
   },
   {
     "id": "LT-SHOP-KAUNAS",
@@ -32,8 +39,13 @@
     "address": "Trakų g. 18, Kaunas, Lithuania",
     "phone": "+370 677 07880",
     "website": "https://parduotuve.skautai.lt/",
-    "email": "parduotuve@skautai.lt",
-    "description": "Lietuvos skautija 官方 parduotuvė 頁列出童軍用品店，販售制服、領巾、徽章與營隊用品，聯絡地址為 Trakų g. 18, Kaunas。"
+    "email": "",
+    "description": "Lietuvos skautija 官方 parduotuvė 頁列出童軍用品店，販售制服、領巾、徽章與營隊用品，聯絡地址為 Trakų g. 18, Kaunas。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://parduotuve.skautai.lt/",
+    "facebook": "https://www.facebook.com/people/Skaut%C5%B3-turgelis/100064601625203",
+    "socialVerificationSource": "https://parduotuve.skautai.lt/"
   },
   {
     "id": "LT-GROUP-FINDER",
@@ -49,8 +61,15 @@
     "lng": 23.9288,
     "address": "Regional scout units across Lithuania; contact via Trakų g. 18, Kaunas",
     "website": "https://skautai.lt/kontaktai",
-    "email": "info@skautai.lt",
-    "description": "Lietuvos skautija 官方 Kontaktai 頁提供「Pasirink savo kraštą」區域聯絡入口，列出各 kraštas（區域）童軍、海童軍、空童軍負責人與聯絡方式。"
+    "email": "",
+    "description": "Lietuvos skautija 官方 Kontaktai 頁提供「Pasirink savo kraštą」區域聯絡入口，列出各 kraštas（區域）童軍、海童軍、空童軍負責人與聯絡方式。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-CAMP-SKAUTU-SLENIS-WOODSIDE",
@@ -66,8 +85,15 @@
     "lng": 24.6799,
     "address": "Rojaus Sodų g. 1A, Sukinių k., Ukmergės r., Lithuania",
     "website": "https://www.skautuslenis.lt/skautu-slenio-woodside-stovyklaviete/",
-    "email": "skautu.slenis@gmail.com",
-    "description": "Skautų slėnis 官方頁列出 WoodSide 營地地址與座標，提供木屋、帳篷營地、活動空間與 Skautų slėnis 教育活動。Lietuvos skautija 官方 30 週年活動頁亦使用 Skautų slėnis – WoodSide 作活動地點。"
+    "email": "",
+    "description": "Skautų slėnis 官方頁列出 WoodSide 營地地址與座標，提供木屋、帳篷營地、活動空間與 Skautų slėnis 教育活動。Lietuvos skautija 官方 30 週年活動頁亦使用 Skautų slėnis – WoodSide 作活動地點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.skautuslenis.lt/skautu-slenio-woodside-stovyklaviete/",
+    "facebook": "https://www.facebook.com/skautuslenis",
+    "instagram": "skautu_slenis",
+    "youtube": "https://www.youtube.com/@SkautuSlenis",
+    "socialVerificationSource": "https://www.skautuslenis.lt/"
   },
   {
     "id": "LT-CAMP-SKAUTU-SLENIS-LAKESIDE",
@@ -83,8 +109,15 @@
     "lng": 24.7553,
     "address": "Ežero g. 21, Špokiškio k., Širvintų r., Lithuania",
     "website": "https://www.skautuslenis.lt/skautu-slenio-lakeside-stovyklaviete/",
-    "email": "skautu.slenis@gmail.com",
-    "description": "Skautų slėnis 官方頁列出 LakeSide 湖畔營地地址與座標，說明其接待 Lietuvos skautai 及國際童軍團、青年組織、學校活動、露營與體驗教育。"
+    "email": "",
+    "description": "Skautų slėnis 官方頁列出 LakeSide 湖畔營地地址與座標，說明其接待 Lietuvos skautai 及國際童軍團、青年組織、學校活動、露營與體驗教育。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.skautuslenis.lt/skautu-slenio-lakeside-stovyklaviete/",
+    "facebook": "https://www.facebook.com/skautuslenis",
+    "instagram": "skautu_slenis",
+    "youtube": "https://www.youtube.com/@SkautuSlenis",
+    "socialVerificationSource": "https://www.skautuslenis.lt/"
   },
   {
     "id": "LT-REGION-VILNIUS",
@@ -100,8 +133,15 @@
     "lng": 25.2829,
     "address": "Vilnius region, Lithuania",
     "website": "https://skautai.lt/kontaktai/krastas/vilniaus",
-    "email": "vilniaus@skautai.lt",
-    "description": "Lietuvos skautija 官方 Vilniaus kraštas 聯絡頁列出該區 Skautai、Jūrų skautai、Oro skautai 聯絡人與電郵。"
+    "email": "",
+    "description": "Lietuvos skautija 官方 Vilniaus kraštas 聯絡頁列出該區 Skautai、Jūrų skautai、Oro skautai 聯絡人等聯絡資料。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai/krastas/vilniaus",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-REGION-KAUNAS",
@@ -117,8 +157,15 @@
     "lng": 23.9045,
     "address": "Kaunas region, Lithuania",
     "website": "https://skautai.lt/kontaktai/krastas/kauno",
-    "email": "kauno@skautai.lt",
-    "description": "Lietuvos skautija 官方 Kauno kraštas 聯絡頁列出 Kaunas 地區 Skautai 與 Jūrų skautai 聯絡人。"
+    "email": "",
+    "description": "Lietuvos skautija 官方 Kauno kraštas 聯絡頁列出 Kaunas 地區 Skautai 與 Jūrų skautai 聯絡人。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai/krastas/kauno",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-REGION-KLAIPEDA",
@@ -134,8 +181,15 @@
     "lng": 21.135,
     "address": "Klaipėda region, Lithuania",
     "website": "https://skautai.lt/kontaktai/krastas/klaipedos",
-    "email": "klaipedos@skautai.lt",
-    "description": "Lietuvos skautija 官方 Klaipėdos kraštas 聯絡頁列出 Klaipėda 地區 Skautai 與 Jūrų skautai 聯絡人，包括 juru@skautai.lt。"
+    "email": "",
+    "description": "Lietuvos skautija 官方 Klaipėdos kraštas 聯絡頁列出 Klaipėda 地區 Skautai 與 Jūrų skautai 聯絡人，包括。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai/krastas/klaipedos",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-REGION-SIAULIAI",
@@ -151,8 +205,15 @@
     "lng": 23.3158,
     "address": "Šiauliai region, Lithuania",
     "website": "https://www.skautai.lt/kontaktai/krastas/siauliu",
-    "email": "siauliu@skautai.lt",
-    "description": "Lietuvos skautija 官方 Šiaulių kraštas 聯絡頁列出該區 Krašto seniūnė 與副手，以及 siauliu@skautai.lt。"
+    "email": "",
+    "description": "Lietuvos skautija 官方 Šiaulių kraštas 聯絡頁列出該區 Krašto seniūnė 與副手，以及。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.skautai.lt/kontaktai/krastas/siauliu",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-REGION-PANEVEZYS",
@@ -168,7 +229,14 @@
     "lng": 24.3578,
     "address": "Panevėžys region, Lithuania",
     "website": "https://skautai.lt/kontaktai/krastas/panevezio",
-    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Panevėžio kraštas 作為區域聯絡入口。"
+    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Panevėžio kraštas 作為區域聯絡入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai/krastas/panevezio",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-REGION-UTENA",
@@ -184,7 +252,14 @@
     "lng": 25.6026,
     "address": "Utena region, Lithuania",
     "website": "https://skautai.lt/kontaktai/krastas/utenos",
-    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Utenos kraštas 作為區域聯絡入口。"
+    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Utenos kraštas 作為區域聯絡入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai/krastas/utenos",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-REGION-TELSIAI",
@@ -200,7 +275,14 @@
     "lng": 22.2491,
     "address": "Telšiai region, Lithuania",
     "website": "https://skautai.lt/kontaktai/krastas/telsiu",
-    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Telšių kraštas 作為區域聯絡入口。"
+    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Telšių kraštas 作為區域聯絡入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai/krastas/telsiu",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-REGION-TAURAGE",
@@ -216,7 +298,14 @@
     "lng": 22.2903,
     "address": "Tauragė region, Lithuania",
     "website": "https://skautai.lt/kontaktai/krastas/taurages",
-    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Tauragės kraštas 作為區域聯絡入口。"
+    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Tauragės kraštas 作為區域聯絡入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai/krastas/taurages",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-REGION-MARIJAMPOLE",
@@ -232,7 +321,14 @@
     "lng": 23.3504,
     "address": "Marijampolė region, Lithuania",
     "website": "https://skautai.lt/kontaktai/krastas/marijampoles",
-    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Marijampolės kraštas 作為區域聯絡入口。"
+    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Marijampolės kraštas 作為區域聯絡入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai/krastas/marijampoles",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   },
   {
     "id": "LT-REGION-ALYTUS",
@@ -248,6 +344,13 @@
     "lng": 24.0459,
     "address": "Alytus region, Lithuania",
     "website": "https://skautai.lt/kontaktai/krastas/alytaus",
-    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Alytaus kraštas 作為區域聯絡入口。"
+    "description": "Lietuvos skautija 官方 Kontaktai 頁列出 Alytaus kraštas 作為區域聯絡入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://skautai.lt/kontaktai/krastas/alytaus",
+    "facebook": "https://www.facebook.com/skautija",
+    "instagram": "lietuvos_skautija",
+    "youtube": "https://www.youtube.com/user/Skautija",
+    "socialVerificationSource": "https://skautai.lt/kontaktai"
   }
 ]

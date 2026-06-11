@@ -14,8 +14,14 @@
     "address": "Immeuble l'Arche, 19 Avenue des Papalins, 98000 Monaco",
     "phone": "+377 93 30 98 36",
     "website": "https://guides-scouts-monaco.asso.mc/",
-    "email": "secretariat@guides-scouts-monaco.asso.mc",
-    "description": "WOSM Scouting Worldwide 及 AGSM 官方 Contact／Nous rejoindre 頁均列此為 Association des Guides et Scouts de Monaco（AGSM）地址。AGSM 是摩納哥的 WOSM 成員 National Scout Organization，負責摩納哥童軍與女童軍聯絡、登記、國際及行政事務。"
+    "email": "",
+    "description": "WOSM Scouting Worldwide 及 AGSM 官方 Contact／Nous rejoindre 頁均列此為 Association des Guides et Scouts de Monaco（AGSM）地址。AGSM 是摩納哥的 WOSM 成員 National Scout Organization，負責摩納哥童軍與女童軍聯絡、登記、國際及行政事務。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://guides-scouts-monaco.asso.mc/",
+    "facebook": "https://www.facebook.com/associationguidesscoutsmonaco",
+    "instagram": "guides_et_scouts_de_monaco",
+    "socialVerificationSource": "https://guides-scouts-monaco.asso.mc/"
   },
   {
     "id": "MC-ACTIVITY-LOCAL-CAP-DAIL",
@@ -32,8 +38,14 @@
     "address": "5 Avenue Prince Rainier III, 06320 Cap d’Ail, France",
     "phone": "+377 93 30 98 36",
     "website": "https://guides-scouts-monaco.asso.mc/contact/",
-    "email": "secretariat@guides-scouts-monaco.asso.mc",
-    "description": "AGSM 官方 Contact 頁列出「Local d’activités」為 5 avenue Prince Rainier III, 06320 Cap d’Ail。此項不是獨立國家營地，而是摩納哥邊境旁的官方活動／集會地點，作為 L3 活動基地記錄。"
+    "email": "",
+    "description": "AGSM 官方 Contact 頁列出「Local d’activités」為 5 avenue Prince Rainier III, 06320 Cap d’Ail。此項不是獨立國家營地，而是摩納哥邊境旁的官方活動／集會地點，作為 L3 活動基地記錄。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://guides-scouts-monaco.asso.mc/contact/",
+    "facebook": "https://www.facebook.com/associationguidesscoutsmonaco",
+    "instagram": "guides_et_scouts_de_monaco",
+    "socialVerificationSource": "https://guides-scouts-monaco.asso.mc/"
   },
   {
     "id": "MC-CAMP-SUMMER-PROGRAMME",
@@ -50,8 +62,14 @@
     "address": "Association des Guides et Scouts de Monaco, L’Arche, 19 Avenue des Papalins, 98000 Monaco",
     "phone": "+377 93 30 98 36",
     "website": "https://guides-scouts-monaco.asso.mc/camps-dete/",
-    "email": "secretariat@guides-scouts-monaco.asso.mc",
-    "description": "AGSM 官方 Camps d’été 頁以年度方式公布各分支營期及地點（例如 2025 年 Farfadets 在 Beuil、Louveteaux/Jeannettes 在 Kandersteg、Scouts/Guides 在 Pyrénées、Pionniers/Caravelles 在 Slovénie）。因未見官方固定國家營地，本項以總部作為年度營地計劃／查詢聯絡點。"
+    "email": "",
+    "description": "AGSM 官方 Camps d’été 頁以年度方式公布各分支營期及地點（例如 2025 年 Farfadets 在 Beuil、Louveteaux/Jeannettes 在 Kandersteg、Scouts/Guides 在 Pyrénées、Pionniers/Caravelles 在 Slovénie）。因未見官方固定國家營地，本項以總部作為年度營地計劃／查詢聯絡點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://guides-scouts-monaco.asso.mc/camps-dete/",
+    "facebook": "https://www.facebook.com/associationguidesscoutsmonaco",
+    "instagram": "guides_et_scouts_de_monaco",
+    "socialVerificationSource": "https://guides-scouts-monaco.asso.mc/"
   },
   {
     "id": "MC-BRANCH-FARFADETS",
@@ -68,8 +86,14 @@
     "address": "Association des Guides et Scouts de Monaco, 19 Avenue des Papalins, 98000 Monaco",
     "phone": "+377 93 30 98 36",
     "website": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
-    "email": "secretariat@guides-scouts-monaco.asso.mc",
-    "description": "AGSM 官方 La vie scoute 頁列明摩納哥童軍生活由 5 個 Branches／sous-sections 組成；Farfadets 是 6 至 8 歲分支，並與家長共同參與。"
+    "email": "",
+    "description": "AGSM 官方 La vie scoute 頁列明摩納哥童軍生活由 5 個 Branches／sous-sections 組成；Farfadets 是 6 至 8 歲分支，並與家長共同參與。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
+    "facebook": "https://www.facebook.com/associationguidesscoutsmonaco",
+    "instagram": "guides_et_scouts_de_monaco",
+    "socialVerificationSource": "https://guides-scouts-monaco.asso.mc/"
   },
   {
     "id": "MC-BRANCH-LOUVETEAUX-JEANNETTES",
@@ -86,8 +110,14 @@
     "address": "Association des Guides et Scouts de Monaco, 19 Avenue des Papalins, 98000 Monaco",
     "phone": "+377 93 30 98 36",
     "website": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
-    "email": "secretariat@guides-scouts-monaco.asso.mc",
-    "description": "AGSM 官方 La vie scoute 頁列出 Louveteaux-Jeannettes 為 8 至 11 歲分支；分支由 Maîtrise（受訓或受訓中的義務領袖團隊）負責。"
+    "email": "",
+    "description": "AGSM 官方 La vie scoute 頁列出 Louveteaux-Jeannettes 為 8 至 11 歲分支；分支由 Maîtrise（受訓或受訓中的義務領袖團隊）負責。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
+    "facebook": "https://www.facebook.com/associationguidesscoutsmonaco",
+    "instagram": "guides_et_scouts_de_monaco",
+    "socialVerificationSource": "https://guides-scouts-monaco.asso.mc/"
   },
   {
     "id": "MC-BRANCH-SCOUTS-GUIDES",
@@ -104,8 +134,14 @@
     "address": "Association des Guides et Scouts de Monaco, 19 Avenue des Papalins, 98000 Monaco",
     "phone": "+377 93 30 98 36",
     "website": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
-    "email": "secretariat@guides-scouts-monaco.asso.mc",
-    "description": "AGSM 官方 La vie scoute 頁列出 Scouts-Guides 為 11 至 14 歲分支；活動包括星期六分支集會、露營週末、服務／籌款、靈修時間、自然夏令營及國際交流。"
+    "email": "",
+    "description": "AGSM 官方 La vie scoute 頁列出 Scouts-Guides 為 11 至 14 歲分支；活動包括星期六分支集會、露營週末、服務／籌款、靈修時間、自然夏令營及國際交流。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
+    "facebook": "https://www.facebook.com/associationguidesscoutsmonaco",
+    "instagram": "guides_et_scouts_de_monaco",
+    "socialVerificationSource": "https://guides-scouts-monaco.asso.mc/"
   },
   {
     "id": "MC-BRANCH-PIONNIERS-CARAVELLES",
@@ -122,8 +158,14 @@
     "address": "Association des Guides et Scouts de Monaco, 19 Avenue des Papalins, 98000 Monaco",
     "phone": "+377 93 30 98 36",
     "website": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
-    "email": "secretariat@guides-scouts-monaco.asso.mc",
-    "description": "AGSM 官方 La vie scoute 頁列出 Pionniers-Caravelles 為 14 至 17 歲分支；官方 Camps d’été 頁亦按此分支公布年度夏令營安排。"
+    "email": "",
+    "description": "AGSM 官方 La vie scoute 頁列出 Pionniers-Caravelles 為 14 至 17 歲分支；官方 Camps d’été 頁亦按此分支公布年度夏令營安排。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
+    "facebook": "https://www.facebook.com/associationguidesscoutsmonaco",
+    "instagram": "guides_et_scouts_de_monaco",
+    "socialVerificationSource": "https://guides-scouts-monaco.asso.mc/"
   },
   {
     "id": "MC-BRANCH-COMPAGNONS-ROUTIERS",
@@ -140,7 +182,13 @@
     "address": "Association des Guides et Scouts de Monaco, 19 Avenue des Papalins, 98000 Monaco",
     "phone": "+377 93 30 98 36",
     "website": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
-    "email": "secretariat@guides-scouts-monaco.asso.mc",
-    "description": "AGSM 官方 La vie scoute 頁列出 Compagnons 為 17 至 25 歲分支；官方網站導覽亦使用「17 ans et plus : Compagnons et Routiers」。本項記錄摩納哥青年成人／羅浮童軍分支的官方聯絡入口。"
+    "email": "",
+    "description": "AGSM 官方 La vie scoute 頁列出 Compagnons 為 17 至 25 歲分支；官方網站導覽亦使用「17 ans et plus : Compagnons et Routiers」。本項記錄摩納哥青年成人／羅浮童軍分支的官方聯絡入口。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://guides-scouts-monaco.asso.mc/la-vie-scoute/",
+    "facebook": "https://www.facebook.com/associationguidesscoutsmonaco",
+    "instagram": "guides_et_scouts_de_monaco",
+    "socialVerificationSource": "https://guides-scouts-monaco.asso.mc/"
   }
 ]

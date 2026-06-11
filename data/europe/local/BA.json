@@ -13,7 +13,13 @@
     "lng": 18.4126,
     "address": "Sarajevo, Bosnia and Herzegovina",
     "website": "https://sifbih.ba/",
-    "description": "波士尼亞與赫塞哥維納童軍的國家級 WOSM 成員組織，由戰後各構成童軍組織逐步整合而成；此點以首都塞拉耶佛作為全國行政與國際聯絡參考座標。"
+    "description": "波士尼亞與赫塞哥維納童軍的國家級 WOSM 成員組織，由戰後各構成童軍組織逐步整合而成；此點以首都塞拉耶佛作為全國行政與國際聯絡參考座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/",
+    "facebook": "https://www.facebook.com/groups/376168102539874",
+    "instagram": "si_fbih",
+    "socialVerificationSource": "https://sifbih.ba/"
   },
   {
     "id": "BA-FED-SIFBIH",
@@ -29,7 +35,10 @@
     "lng": 18.4126,
     "address": "Federation of Bosnia and Herzegovina",
     "website": "https://sifbih.ba/",
-    "description": "SIFBiH 是波赫聯邦範圍內的主要童軍組織，官網列出 Zenica、Mostar、Konjic、Ilidža、Sarajevo、Banovići 等多個地方童軍隊與活動。"
+    "description": "SIFBiH 是波赫聯邦範圍內的主要童軍組織，官網列出 Zenica、Mostar、Konjic、Ilidža、Sarajevo、Banovići 等多個地方童軍隊與活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/"
   },
   {
     "id": "BA-RS-BANJA-LUKA",
@@ -44,8 +53,11 @@
     "lat": 44.7721,
     "lng": 17.1918,
     "address": "Banja Luka, Bosnia and Herzegovina",
-    "website": "https://en.scoutwiki.org/Savjet_izvi%C4%91a%C4%8Dkih_organizacija_u_Bosni_i_Hercegovini",
-    "description": "塞族共和國童軍會是波赫國家童軍聯合架構的重要組成之一，歷史上與波赫聯邦童軍會共同促成波赫加入 WOSM。"
+    "website": "https://scoutrs.org/",
+    "description": "Savez Izvidjaca Republike Srpske 是 WOSM Europe 波士尼亞與赫塞哥維納條目列出的 NSA 之一；WOSM 同頁列出其網站 scoutrs.org。此項保留作 Republika Srpska 童軍組織入口，出發前請以 WOSM 及該組織最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "WOSM Europe lists Savez Izvidjaca Republike Srpske as NSA; website from WOSM entry; verify current status before travel",
+    "verificationSource": "https://www.scout.org/where-we-work/regions/europe/countries"
   },
   {
     "id": "BA-DISTRICT-BRCKO",
@@ -60,8 +72,11 @@
     "lat": 44.8771,
     "lng": 18.8095,
     "address": "Brčko, Bosnia and Herzegovina",
-    "website": "https://en.wikipedia.org/wiki/Savez_izvi%C4%91a%C4%8Da_Bosne_i_Hercegovine",
-    "description": "布爾奇科特區童軍組織曾是波赫國家童軍聯合架構的一部分；此點標示為跨實體中立特區的童軍活動參考區。"
+    "website": "",
+    "description": "Scouts of the Brčko District 是 WOSM Europe 波士尼亞與赫塞哥維納條目列出的 NSA 之一。未找到穩定官方網站，故不提供外部網站；此項只作 WOSM 已列名組織入口，出發前請以 WOSM 或波赫國家童軍聯合架構最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "WOSM Europe lists Scouts of the Brčko District as NSA; no dedicated website found; verify before travel",
+    "verificationSource": "https://www.scout.org/where-we-work/regions/europe/countries"
   },
   {
     "id": "BA-CAMP-BORACKO-LAKE",
@@ -77,7 +92,10 @@
     "lng": 18.0309,
     "address": "Boračko jezero, 88405 Konjic, Bosnia and Herzegovina",
     "website": "https://sifbih.ba/wp-content/uploads/2023/12/2024_Jamboree_FinalInformation-Kit_SIFBIH_ENG.pdf",
-    "description": "Boračko Lake 是波赫最重要的童軍湖畔營地帶，資料列出此處有 SIG Zenica、OI Neretva Konjic、OI Stari Grad Mostar 等多個童軍中心，並承辦 SIFBiH Smotra／Jamboree 與跨族群和平童軍營。"
+    "description": "Boračko Lake 是波赫最重要的童軍湖畔營地帶，資料列出此處有 SIG Zenica、OI Neretva Konjic、OI Stari Grad Mostar 等多個童軍中心，並承辦 SIFBiH Smotra／Jamboree 與跨族群和平童軍營。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/wp-content/uploads/2023/12/2024_Jamboree_FinalInformation-Kit_SIFBIH_ENG.pdf"
   },
   {
     "id": "BA-CAMP-ZENICA-BORACKO",
@@ -93,7 +111,10 @@
     "lng": 18.0309,
     "address": "Boračko jezero, Konjic, Bosnia and Herzegovina",
     "website": "https://www.fokus.ba/magazin/zivot-zdravlje/savez-izvidjaca-grada-zenica-spreman-za-65-izvidjacko-ljeto-boracko-jezero-2023/2661299/",
-    "description": "澤尼察城市童軍會 SIGZ 管理的波拉奇科湖營地，報導記載面積約 10,500 平方米，設有平房、木屋與帳篷區，可作為大型夏令營與國際交流營地。"
+    "description": "澤尼察城市童軍會 SIGZ 管理的波拉奇科湖營地，報導記載面積約 10,500 平方米，設有平房、木屋與帳篷區，可作為大型夏令營與國際交流營地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.fokus.ba/magazin/zivot-zdravlje/savez-izvidjaca-grada-zenica-spreman-za-65-izvidjacko-ljeto-boracko-jezero-2023/2661299/"
   },
   {
     "id": "BA-CAMP-NERETVA-KONJIC",
@@ -109,8 +130,11 @@
     "lng": 18.0309,
     "address": "88405 Boračko jezero, Konjic, Bosnia and Herzegovina",
     "website": "https://sifbih.ba/oi-neretva-konjic/",
-    "email": "konjic.oineretva@gmail.com",
-    "description": "OI Neretva Konjic 在 Boračko Lake 的童軍營地，資料列明約可容納 130 名參加者，具廚房、餐廳、衛浴與帳篷／部分固定住宿設施。"
+    "email": "",
+    "description": "OI Neretva Konjic 在 Boračko Lake 的童軍營地，資料列明約可容納 130 名參加者，具廚房、餐廳、衛浴與帳篷／部分固定住宿設施。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/oi-neretva-konjic/"
   },
   {
     "id": "BA-CAMP-STARI-GRAD-MOSTAR",
@@ -126,8 +150,11 @@
     "lng": 18.0309,
     "address": "Boračko jezero, Konjic, Bosnia and Herzegovina",
     "website": "https://sifbih.ba/oi-stari-grad-mostar/",
-    "email": "oistarigrad@gmail.com",
-    "description": "OI Stari Grad Mostar 在 Boračko Lake 的營地設有木屋、廚房、遮棚餐廳、販售／小賣部與衛生設施，資料記載容量約 100 人。"
+    "email": "",
+    "description": "OI Stari Grad Mostar 在 Boračko Lake 的營地設有木屋、廚房、遮棚餐廳、販售／小賣部與衛生設施，資料記載容量約 100 人。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/oi-stari-grad-mostar/"
   },
   {
     "id": "BA-COUNCIL-ZENICA-SMET",
@@ -143,9 +170,12 @@
     "lng": 17.9069,
     "address": "Maršala Tita 20, 72000 Zenica, Bosnia and Herzegovina",
     "website": "https://sifbih.ba/oi-smet-zenica/",
-    "email": "oi_smet@sigze.org",
+    "email": "",
     "instagram": "oi_smet_zenica",
-    "description": "澤尼察 Smet 童軍隊是 SIFBiH 成員隊之一，源自戰後澤尼察童軍組織重整，支援本地青少年童軍教育與戶外活動。"
+    "description": "澤尼察 Smet 童軍隊是 SIFBiH 成員隊之一，源自戰後澤尼察童軍組織重整，支援本地青少年童軍教育與戶外活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/oi-smet-zenica/"
   },
   {
     "id": "BA-COUNCIL-ZENICA-ZMAJEVAC",
@@ -161,9 +191,12 @@
     "lng": 17.9069,
     "address": "Maršala Tita 20, 72000 Zenica, Bosnia and Herzegovina",
     "website": "https://sifbih.ba/oi-zmajevac-zenica/",
-    "email": "oi-zmajevac@sigze.org",
-    "facebook": "oizmajevac",
-    "description": "Zmajevac 是澤尼察主要童軍隊之一，官網資料提到每年提供大量登山、射箭、戲劇、水上與戶外活動，服務 6 至 25 歲青少年。"
+    "email": "",
+    "facebook": "https://www.facebook.com/oizmajevac/",
+    "description": "Zmajevac 是澤尼察主要童軍隊之一，官網資料提到每年提供大量登山、射箭、戲劇、水上與戶外活動，服務 6 至 25 歲青少年。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/oi-zmajevac-zenica/"
   },
   {
     "id": "BA-COUNCIL-KONJIC-NERETVA",
@@ -180,8 +213,11 @@
     "address": "Omladinska 4, 88400 Konjic, Bosnia and Herzegovina",
     "phone": "+387 61 570 408",
     "website": "https://sifbih.ba/oi-neretva-konjic/",
-    "email": "konjic.oineretva@gmail.com",
-    "description": "OI Neretva Konjic 成立於 1956 年，於 Omladinska 4 擁有 Dom izviđača（童軍之家），並在 Boračko Lake 管理營地。"
+    "email": "",
+    "description": "OI Neretva Konjic 成立於 1956 年，於 Omladinska 4 擁有 Dom izviđača（童軍之家），並在 Boračko Lake 管理營地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/oi-neretva-konjic/"
   },
   {
     "id": "BA-COUNCIL-ILIDZA-IGMAN92",
@@ -198,10 +234,13 @@
     "address": "Trg branilaca Hrasnice bb, Ilidža, Bosnia and Herzegovina",
     "phone": "+387 62 138 428",
     "website": "https://www.igman92.org",
-    "email": "igman92.scoutgroup@gmail.com",
+    "email": "",
     "instagram": "scouts.igman92",
-    "youtube": "@scouts.igman92",
-    "description": "Igman 92 Ilidža 創立於 1958 年，現服務伊利扎全區；除童軍教育外，也以民防救援服務隊形式參與地方社區服務。"
+    "youtube": "https://www.youtube.com/@scouts.igman92",
+    "description": "Igman 92 Ilidža 創立於 1958 年，現服務伊利扎全區；除童軍教育外，也以民防救援服務隊形式參與地方社區服務。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.igman92.org"
   },
   {
     "id": "BA-COUNCIL-SARAJEVO-POFALICI",
@@ -219,7 +258,10 @@
     "phone": "+387 61 501 800",
     "website": "https://sifbih.ba/oi-pofalici-novo-sarajevo/",
     "instagram": "oi_pofalici",
-    "description": "Pofalići–Novo Sarajevo 童軍隊由學校童軍小組發展而來，2023 年正式登記並加入 SIFBiH，常駐於新塞拉耶佛 Dječija kuća 青少年空間。"
+    "description": "Pofalići–Novo Sarajevo 童軍隊由學校童軍小組發展而來，2023 年正式登記並加入 SIFBiH，常駐於新塞拉耶佛 Dječija kuća 青少年空間。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/oi-pofalici-novo-sarajevo/"
   },
   {
     "id": "BA-COUNCIL-MOSTAR-STARI-GRAD",
@@ -235,9 +277,12 @@
     "lng": 17.8163,
     "address": "Gojka Vukovića bb, 88000 Mostar, Bosnia and Herzegovina",
     "website": "https://sifbih.ba/oi-stari-grad-mostar/",
-    "email": "oistarigrad@gmail.com",
+    "email": "",
     "instagram": "oistarigrad",
-    "description": "莫斯塔爾 Stari Grad 童軍隊創立於 1964 年，是波赫重要歷史童軍隊之一，擁有 Boračko Lake 營地並長期參與全國童軍活動。"
+    "description": "莫斯塔爾 Stari Grad 童軍隊創立於 1964 年，是波赫重要歷史童軍隊之一，擁有 Boračko Lake 營地並長期參與全國童軍活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sifbih.ba/oi-stari-grad-mostar/"
   },
   {
     "id": "BA-COUNCIL-PRIJEDOR",
@@ -253,7 +298,10 @@
     "lng": 16.7124,
     "address": "Prijedor, Bosnia and Herzegovina",
     "website": "https://sdgs.scout.org/project/izvidjaci-mogu",
-    "description": "普里耶多爾童軍長期與澤尼察童軍合作推動跨族群童軍營與和平教育活動，如 Jednostavno izviđaštvo、Izviđači to mogu 等項目。"
+    "description": "普里耶多爾童軍長期與澤尼察童軍合作推動跨族群童軍營與和平教育活動，如 Jednostavno izviđaštvo、Izviđači to mogu 等項目。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://sdgs.scout.org/project/izvidjaci-mogu"
   },
   {
     "id": "BA-COUNCIL-PRNJAVOR",
@@ -269,6 +317,9 @@
     "lng": 17.6632,
     "address": "Prnjavor, Bosnia and Herzegovina",
     "website": "https://www.scout.org/node/1668",
-    "description": "Prnjavor 童軍曾與 Zenica、Prijedor 童軍共同參與 Boračko Lake 的 Simply Scouting 跨族群夏令營，是波赫童軍和平與對話教育的重要合作城市。"
+    "description": "Prnjavor 童軍曾與 Zenica、Prijedor 童軍共同參與 Boračko Lake 的 Simply Scouting 跨族群夏令營，是波赫童軍和平與對話教育的重要合作城市。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scout.org/node/1668"
   }
 ]

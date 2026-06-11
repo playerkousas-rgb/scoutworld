@@ -14,9 +14,12 @@
     "address": "Government Building Complex Z48, 2063 Strovolos, Nicosia, Cyprus",
     "phone": "+357 22 663 587",
     "website": "https://www.cyprusscouts.org/",
-    "email": "info@cyprusscouts.org",
-    "facebook": "CyprusScoutsAssociation",
-    "description": "Σώμα Προσκόπων Κύπρου（Cyprus Scouts Association）是塞浦路斯 WOSM 成員組織。官方聯絡頁列出中央行政辦公室位於尼科西亞 Strovolos 的 Government Building Complex Z48。"
+    "email": "",
+    "facebook": "https://www.facebook.com/CyprusScoutsAssociation/",
+    "description": "Σώμα Προσκόπων Κύπρου（Cyprus Scouts Association）是塞浦路斯 WOSM 成員組織。官方聯絡頁列出中央行政辦公室位於尼科西亞 Strovolos 的 Government Building Complex Z48。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/"
   },
   {
     "id": "CY-SHOP-HQ",
@@ -33,7 +36,10 @@
     "address": "Government Building Complex Z48, 2063 Strovolos, Nicosia, Cyprus",
     "phone": "+357 22 663 587",
     "website": "https://www.cyprusscouts.org/",
-    "description": "塞浦路斯童軍總會官方文件提及 Προσκοπικό Πρατήριο（童軍用品處／Scout Shop），此點以總會中央行政辦公室作為聯絡與採購參考座標。"
+    "description": "塞浦路斯童軍總會官方文件提及 Προσκοπικό Πρατήριο（童軍用品處／Scout Shop），此點以總會中央行政辦公室作為聯絡與採購參考座標。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/"
   },
   {
     "id": "CY-CAMP-KORNOS",
@@ -49,7 +55,10 @@
     "lng": 33.4047,
     "address": "Old Nicosia–Limassol Road / B1, Kornos, Cyprus",
     "website": "https://www.cyprusscouts.org/other/ekpaideftiko-kentro-kornou/",
-    "description": "塞浦路斯童軍總會官方活動與公告多次使用 Εκπαιδευτικό Κέντρο Κόρνου（Kornos Training Centre）作訓練、會議及總會行政活動地點，是 SPK 核心訓練基地。"
+    "description": "塞浦路斯童軍總會官方活動與公告多次使用 Εκπαιδευτικό Κέντρο Κόρνου（Kornos Training Centre）作訓練、會議及總會行政活動地點，是 SPK 核心訓練基地。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/other/ekpaideftiko-kentro-kornou/"
   },
   {
     "id": "CY-CAMP-PLATANIA",
@@ -65,7 +74,10 @@
     "lng": 32.9282,
     "address": "Platania area, near Kakopetria, Troodos Mountains, Cyprus",
     "website": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
-    "description": "塞浦路斯童軍總會官方營地頁列明，Platania 營地位於 Troodos 山脈 Platania 區、距 Kakopetria 約 15 分鐘，設有電力、飲用水、衛浴、宿舍、帳篷平台、專業廚房、餐廳、營火場與運動場，可容納最多約 180 人。"
+    "description": "塞浦路斯童軍總會官方營地頁列明，Platania 營地位於 Troodos 山脈 Platania 區、距 Kakopetria 約 15 分鐘，設有電力、飲用水、衛浴、宿舍、帳篷平台、專業廚房、餐廳、營火場與運動場，可容納最多約 180 人。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/"
   },
   {
     "id": "CY-CAMP-LOUMATA-AETON",
@@ -81,7 +93,10 @@
     "lng": 32.8812,
     "address": "Near Troodos Square, Troodos Mountains, Cyprus",
     "website": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
-    "description": "官方營地頁指出「Λούματα των Αετών」位於 Troodos 山脈、靠近 Troodos Square，具飲用水、熱水、衛浴、廚房及四個房間，適合 Scout Troops、Communities 與 Rover/Network 成員進行更接近森林生活的營隊。"
+    "description": "官方營地頁指出「Λούματα των Αετών」位於 Troodos 山脈、靠近 Troodos Square，具飲用水、熱水、衛浴、廚房及四個房間，適合 Scout Troops、Communities 與 Rover/Network 成員進行更接近森林生活的營隊。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/"
   },
   {
     "id": "CY-CAMP-VAVATSINIA",
@@ -97,7 +112,10 @@
     "lng": 33.2289,
     "address": "Vavatsinia village entrance, Larnaca District, Cyprus",
     "website": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
-    "description": "官方營地頁列明 Vavatsinia 營地位於 Vavatsinia 村入口、海拔約 800 米，距拉納卡約 50 公里；設有餐廳、宿舍、衛浴、營火場、帳篷平台與大型宿舍，適合短期營隊及小狼／系統活動。"
+    "description": "官方營地頁列明 Vavatsinia 營地位於 Vavatsinia 村入口、海拔約 800 米，距拉納卡約 50 公里；設有餐廳、宿舍、衛浴、營火場、帳篷平台與大型宿舍，適合短期營隊及小狼／系統活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/"
   },
   {
     "id": "CY-CAMP-KAPPARIS",
@@ -113,7 +131,10 @@
     "lng": 34.0088,
     "address": "Kapparis, Paralimni, Cyprus",
     "website": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
-    "description": "Kapparis 是塞浦路斯童軍總會官方營地頁列出的營地之一，位於 Paralimni / Famagusta 海岸區。官方營地頁仍保留此營地條目，詳細設施需向 SPK 查詢。"
+    "description": "Kapparis 是塞浦路斯童軍總會官方營地頁列出的營地之一，位於 Paralimni / Famagusta 海岸區。官方營地頁仍保留此營地條目，詳細設施需向 SPK 查詢。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/"
   },
   {
     "id": "CY-COUNCIL-NICOSIA",
@@ -129,7 +150,10 @@
     "lng": 33.3639,
     "address": "Nicosia District, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "description": "塞浦路斯童軍總會官方「Επαρχιακές Εφορείες – Προσκοπικά Συστήματα」頁列明全國分為 7 個地區童軍會並有 52 個童軍系統；尼科西亞為其中主要地區。"
+    "description": "塞浦路斯童軍總會官方「Επαρχιακές Εφορείες – Προσκοπικά Συστήματα」頁列明全國分為 7 個地區童軍會並有 52 個童軍系統；尼科西亞為其中主要地區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   },
   {
     "id": "CY-COUNCIL-LARNACA",
@@ -145,8 +169,11 @@
     "lng": 33.6236,
     "address": "Larnaca District, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "email": "larnaca@cyprusscouts.org",
-    "description": "官方地區童軍會頁列出拉納卡地區童軍會與其屬下多個 Scout / Sea Scout / Air Scout 系統。"
+    "email": "",
+    "description": "官方地區童軍會頁列出拉納卡地區童軍會與其屬下多個 Scout / Sea Scout / Air Scout 系統。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   },
   {
     "id": "CY-COUNCIL-LIMASSOL",
@@ -162,7 +189,10 @@
     "lng": 33.0333,
     "address": "Limassol District, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "description": "利馬索爾地區童軍會是 SPK 7 個地區童軍會之一，官方頁列出多個 Sea Scout、Air Scout 與陸上童軍系統。"
+    "description": "利馬索爾地區童軍會是 SPK 7 個地區童軍會之一，官方頁列出多個 Sea Scout、Air Scout 與陸上童軍系統。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   },
   {
     "id": "CY-COUNCIL-PAPHOS",
@@ -178,7 +208,10 @@
     "lng": 32.4232,
     "address": "Paphos District, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "description": "帕福斯地區童軍會是塞浦路斯童軍總會官方列出的地區童軍會之一，負責西部地區童軍系統支援。"
+    "description": "帕福斯地區童軍會是塞浦路斯童軍總會官方列出的地區童軍會之一，負責西部地區童軍系統支援。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   },
   {
     "id": "CY-COUNCIL-FAMAGUSTA",
@@ -194,9 +227,12 @@
     "lng": 33.6236,
     "address": "Oum Haram 61, 6026 Larnaca, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "email": "ammochostos@cyprusscouts.org",
+    "email": "",
     "instagram": "scouts_ammoch",
-    "description": "官方地區童軍會頁列出法馬古斯塔地區童軍會辦公地址為 Larnaca 的 Oum Haram 61，並列出 Paralimni、Deryneia、Meneou 等地童軍系統。"
+    "description": "官方地區童軍會頁列出法馬古斯塔地區童軍會辦公地址為 Larnaca 的 Oum Haram 61，並列出 Paralimni、Deryneia、Meneou 等地童軍系統。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   },
   {
     "id": "CY-COUNCIL-KYRENIA",
@@ -212,8 +248,11 @@
     "lng": 33.3639,
     "address": "Nicosia / Kyrenia Scout systems, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "email": "kyrenia@cyprusscouts.org",
-    "description": "官方地區童軍會頁列出凱里尼亞地區童軍會及其 Sea Scout systems；多個團組目前以尼科西亞／Strovolos／Lakatamia 等地為活動地址。"
+    "email": "",
+    "description": "官方地區童軍會頁列出凱里尼亞地區童軍會及其 Sea Scout systems；多個團組目前以尼科西亞／Strovolos／Lakatamia 等地為活動地址。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   },
   {
     "id": "CY-COUNCIL-MORFOU",
@@ -229,8 +268,11 @@
     "lng": 32.9929,
     "address": "Morphou Bay District, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "email": "morfou@cyprusscouts.org",
-    "description": "莫爾富灣地區童軍會是 SPK 官方列出的 7 個地區童軍會之一，官方頁列出 Evrychou、Peristerona 等童軍系統。"
+    "email": "",
+    "description": "莫爾富灣地區童軍會是 SPK 官方列出的 7 個地區童軍會之一，官方頁列出 Evrychou、Peristerona 等童軍系統。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   },
   {
     "id": "CY-GROUP-71-KAIMAKLI",
@@ -246,8 +288,11 @@
     "lng": 33.3639,
     "address": "Thermopylas 3, 1021 Nicosia, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "email": "71sp@cyprusscouts.org",
-    "description": "SPK 官方童軍系統名單列出的尼科西亞歷史地方團之一，地址位於 Kaimakli 的 Thermopylas 3。"
+    "email": "",
+    "description": "SPK 官方童軍系統名單列出的尼科西亞歷史地方團之一，地址位於 Kaimakli 的 Thermopylas 3。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   },
   {
     "id": "CY-GROUP-23-LARNACA-SEA",
@@ -263,9 +308,12 @@
     "lng": 33.6236,
     "address": "Old GSZ, Stadiou Street, 6020 Larnaca, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "email": "23snp@cyprusscouts.org",
+    "email": "",
     "instagram": "23seascouts",
-    "description": "SPK 官方名單列出的拉納卡海童軍系統，位於舊 GSZ／Stadiou Street，是拉納卡地區主要 Sea Scout group 之一。"
+    "description": "SPK 官方名單列出的拉納卡海童軍系統，位於舊 GSZ／Stadiou Street，是拉納卡地區主要 Sea Scout group 之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   },
   {
     "id": "CY-GROUP-21-PARALIMNI-SEA",
@@ -281,8 +329,11 @@
     "lng": 33.9869,
     "address": "Antoni Papadopoulou 2, 5282 Paralimni, Cyprus",
     "website": "https://www.cyprusscouts.org/scoutgroups/",
-    "email": "21snp@cyprusscouts.org",
+    "email": "",
     "instagram": "21seascouts",
-    "description": "SPK 官方名單列出的 Paralimni Sea Scout group，位於法馬古斯塔區近海地帶，支援海童軍活動。"
+    "description": "SPK 官方名單列出的 Paralimni Sea Scout group，位於法馬古斯塔區近海地帶，支援海童軍活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.cyprusscouts.org/scoutgroups/"
   }
 ]

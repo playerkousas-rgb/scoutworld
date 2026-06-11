@@ -14,9 +14,15 @@
     "address": "Calle Lago Calafate 3 Bajo, 28018 Madrid, Spain",
     "phone": "+34 91 517 54 42",
     "website": "https://scout.es/",
-    "email": "asde@scout.es",
+    "email": "",
     "instagram": "scout_es",
-    "description": "Scouts de España / ASDE 是西班牙 WOSM 成員架構內主要全國童軍組織之一。官方 Contact 頁列出地址為 Madrid, Lago Calafate 3 Bajo，並說明 ASDE 由 18 個聯邦組織組成，代表 16 個自治區及 Ceuta、Melilla。"
+    "description": "Scouts de España / ASDE 是西班牙 WOSM 成員架構內主要全國童軍組織之一。官方 Contact 頁列出地址為 Madrid, Lago Calafate 3 Bajo，並說明 ASDE 由 18 個聯邦組織組成，代表 16 個自治區及 Ceuta、Melilla。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.es/",
+    "facebook": "https://www.facebook.com/ScoutsdeEspana",
+    "youtube": "https://www.youtube.com/user/SCOUTSASDE",
+    "socialVerificationSource": "https://scout.es/"
   },
   {
     "id": "ES-HQ-MSC-MADRID",
@@ -33,9 +39,15 @@
     "address": "Calle Boldano 6, 28027 Madrid, Spain",
     "phone": "+34 91 056 06 22",
     "website": "https://scouts.es/",
-    "email": "msc@scouts.es",
+    "email": "",
     "instagram": "scouts_msc",
-    "description": "Scouts MSC 是西班牙天主教童軍運動，屬於 WOSM 西班牙成員架構。官方 Aviso Legal / Privacy pages 列出地址為 Calle Boldano 6, Madrid，電話為 91 056 06 22。"
+    "description": "Scouts MSC 是西班牙天主教童軍運動，屬於 WOSM 西班牙成員架構。官方 Aviso Legal / Privacy pages 列出地址為 Calle Boldano 6, Madrid，電話為 91 056 06 22。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scouts.es/",
+    "facebook": "http://www.facebook.com/scoutses",
+    "youtube": "https://www.youtube.com/user/ScoutsMSCvideos",
+    "socialVerificationSource": "https://scouts.es/"
   },
   {
     "id": "ES-HQ-FCEG-BARCELONA",
@@ -52,10 +64,14 @@
     "address": "Carrer de la Mare de Déu del Pilar 16-18, Barcelona, Spain",
     "phone": "+34 722 78 40 59",
     "website": "https://fceg.cat/",
-    "email": "fceg@fceg.cat",
+    "email": "",
     "instagram": "somdecau",
-    "facebook": "somdecau.cat",
-    "description": "FCEG 是加泰隆尼亞童軍與女童軍聯合組織，為西班牙童軍架構內重要自治區組織。官方 Contacte 頁列出 Barcelona, Mare de Déu del Pilar 16-18 與 fceg@fceg.cat。"
+    "facebook": "https://www.facebook.com/somdecau.cat/",
+    "description": "FCEG 是加泰隆尼亞童軍與女童軍聯合組織，為西班牙童軍架構內重要自治區組織。官方 Contacte 頁列出 Barcelona, Mare de Déu del Pilar 16-18 。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "https://fceg.cat/",
+    "socialVerificationSource": "https://fceg.cat/"
   },
   {
     "id": "ES-HQ-FEE-BARCELONA",
@@ -71,7 +87,13 @@
     "lng": 2.1525,
     "address": "Gran Via de les Corts Catalanes 416, 1º 4ª, 08015 Barcelona, Spain",
     "website": "http://www.scoutsfee.es/",
-    "description": "Federación de Escultismo en España 是西班牙被 WOSM 承認的國家童軍聯合平台，由 ASDE、Scouts MSC 及 FCEG 等組織構成。此項保留作全國 WOSM 代表架構參考。"
+    "description": "Federación de Escultismo en España 是西班牙被 WOSM 承認的國家童軍聯合平台，由 ASDE、Scouts MSC 及 FCEG 等組織構成。此項保留作全國 WOSM 代表架構參考。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.scoutsfee.es/",
+    "facebook": "https://www.facebook.com/scoutsfee",
+    "instagram": "scoutsfee",
+    "socialVerificationSource": "http://www.scoutsfee.es/"
   },
   {
     "id": "ES-SHOP-ASDE-MADRID",
@@ -88,8 +110,11 @@
     "address": "Calle Entre Arroyos 19 Posterior, CASA SCOUT, 28030 Madrid, Spain",
     "phone": "+34 910 913 322",
     "website": "https://latiendascoutdemadrid.com/",
-    "email": "pedidos@latiendascoutdemadrid.com",
-    "description": "ASDE 官方 Uniformidad 頁列出 La Tienda Scout Madrid 為授權 uniformidad ASDE distributor。店舖官方 Contact 頁列出地址為 Calle Entre Arroyos 19 Posterior, CASA SCOUT, Madrid。"
+    "email": "",
+    "description": "ASDE 官方 Uniformidad 頁列出 La Tienda Scout Madrid 為授權 uniformidad ASDE distributor。店舖官方 Contact 頁列出地址為 Calle Entre Arroyos 19 Posterior, CASA SCOUT, Madrid。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://latiendascoutdemadrid.com/"
   },
   {
     "id": "ES-SHOP-MSC-ONLINE",
@@ -105,8 +130,11 @@
     "lng": -3.6405,
     "address": "Calle Boldano 6, 28027 Madrid, Spain",
     "website": "https://latienda.scouts.es/",
-    "email": "msc@scouts.es",
-    "description": "Scouts MSC 官方 shop legal notice 指向 Movimiento Scout Católico，地址 Calle Boldano 6。此項標示 Scouts MSC 童軍用品與徽章線上採購點。"
+    "email": "",
+    "description": "Scouts MSC 官方 shop legal notice 指向 Movimiento Scout Católico，地址 Calle Boldano 6。此項標示 Scouts MSC 童軍用品與徽章線上採購點。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://latienda.scouts.es/"
   },
   {
     "id": "ES-CAMP-GRIEBAL",
@@ -122,9 +150,12 @@
     "lng": 0.2034,
     "address": "Griébal, near Aínsa, Huesca, Spain",
     "website": "https://scout.es/centros-scout/centro-scout-de-griebal/",
-    "email": "griebal@griebal.org",
+    "email": "",
     "instagram": "scoutsgriebal",
-    "description": "ASDE 官方 Centros Scouts 頁列出 Griébal Scout Centre 為國際童軍露營中心，位於 Aragón Pyrenees 的 Aínsa / Sobrarbe，由 ASDE Scouts de Aragón 自 1989 年管理，為童軍修復與國際志工項目。"
+    "description": "ASDE 官方 Centros Scouts 頁列出 Griébal Scout Centre 為國際童軍露營中心，位於 Aragón Pyrenees 的 Aínsa / Sobrarbe，由 ASDE Scouts de Aragón 自 1989 年管理，為童軍修復與國際志工項目。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.es/centros-scout/centro-scout-de-griebal/"
   },
   {
     "id": "ES-CAMP-BERMEJALES",
@@ -140,8 +171,15 @@
     "lng": -3.8902,
     "address": "Arenas del Rey, Granada, Spain",
     "website": "https://scout.es/centros-scout/centro-scout-de-bermejales/",
-    "email": "bermejales@scoutsdeandalucia.org",
-    "description": "ASDE 官方 Centros Scouts 頁列出 Centro Scout Bermejales，位於 Granada 的 Arenas del Rey，由 ASDE Scouts de Andalucía 管理，用於自然環境中的童軍活動與露營。"
+    "email": "",
+    "description": "ASDE 官方 Centros Scouts 頁列出 Centro Scout Bermejales，位於 Granada 的 Arenas del Rey，由 ASDE Scouts de Andalucía 管理，用於自然環境中的童軍活動與露營。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.es/centros-scout/centro-scout-de-bermejales/",
+    "facebook": "https://www.facebook.com/ScoutsdeEspana",
+    "instagram": "scout_es",
+    "youtube": "https://www.youtube.com/user/SCOUTSASDE",
+    "socialVerificationSource": "https://scout.es/centros-scout/"
   },
   {
     "id": "ES-CAMP-CERRO-MULERA",
@@ -157,8 +195,15 @@
     "lng": -5.4852,
     "address": "Less than 5 km from Ubrique, Cádiz, Spain",
     "website": "https://scout.es/centros-scout/centro-scout-cerro-mulera/",
-    "email": "cerromulera@scoutsdeandalucia.org",
-    "description": "ASDE 官方 Centros Scouts 頁列出 Centro Scout Cerro Mulera，由 Scouts de Andalucía 管理，位於 Grazalema 與 Los Alcornocales 自然公園之間、Hurones 水庫尾端附近，適合戶外童軍活動。"
+    "email": "",
+    "description": "ASDE 官方 Centros Scouts 頁列出 Centro Scout Cerro Mulera，由 Scouts de Andalucía 管理，位於 Grazalema 與 Los Alcornocales 自然公園之間、Hurones 水庫尾端附近，適合戶外童軍活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.es/centros-scout/centro-scout-cerro-mulera/",
+    "facebook": "https://www.facebook.com/ScoutsdeEspana",
+    "instagram": "scout_es",
+    "youtube": "https://www.youtube.com/user/SCOUTSASDE",
+    "socialVerificationSource": "https://scout.es/centros-scout/"
   },
   {
     "id": "ES-CAMP-MURCIA-COTO-CUADROS",
@@ -174,8 +219,15 @@
     "lng": -1.1034,
     "address": "Paraje Coto de los Cuadros, El Esparragal, Murcia, Spain",
     "website": "https://scout.es/centros-scout/centro-de-actividades-exploradores-de-murcia/",
-    "email": "murcia@scout.es",
-    "description": "ASDE 官方 Centros Scouts 頁列出 Exploradores de Murcia 活動中心，位於 Coto de los Cuadros，用於環境教育、可持續發展與森林屋修復相關活動。"
+    "email": "",
+    "description": "ASDE 官方 Centros Scouts 頁列出 Exploradores de Murcia 活動中心，位於 Coto de los Cuadros，用於環境教育、可持續發展與森林屋修復相關活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.es/centros-scout/centro-de-actividades-exploradores-de-murcia/",
+    "facebook": "https://www.facebook.com/ScoutsdeEspana",
+    "instagram": "scout_es",
+    "youtube": "https://www.youtube.com/user/SCOUTSASDE",
+    "socialVerificationSource": "https://scout.es/centros-scout/"
   },
   {
     "id": "ES-CAMP-CEUTA",
@@ -191,8 +243,15 @@
     "lng": -5.3622,
     "address": "Calamocarro-Benzú, 51004 Ceuta, Spain",
     "website": "https://scout.es/centros-scout/centro-scout-ceuta/",
-    "email": "ceuta@scout.es",
-    "description": "ASDE 官方 Centros Scouts 頁列出 Centro Scout Ciudad de Ceuta，位於 Calamocarro-Benzú，為 Scouts de Ceuta 使用的圍欄營地與自然活動空間，屬 Natura 2000 區域。"
+    "email": "",
+    "description": "ASDE 官方 Centros Scouts 頁列出 Centro Scout Ciudad de Ceuta，位於 Calamocarro-Benzú，為 Scouts de Ceuta 使用的圍欄營地與自然活動空間，屬 Natura 2000 區域。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scout.es/centros-scout/centro-scout-ceuta/",
+    "facebook": "https://www.facebook.com/ScoutsdeEspana",
+    "instagram": "scout_es",
+    "youtube": "https://www.youtube.com/user/SCOUTSASDE",
+    "socialVerificationSource": "https://scout.es/centros-scout/"
   },
   {
     "id": "ES-COUNCIL-ARAGON",
@@ -208,7 +267,10 @@
     "lng": -0.8891,
     "address": "Zaragoza / Aragón, Spain",
     "website": "https://scoutsdearagon.org/",
-    "description": "ASDE 官方 Griébal 頁列出 Griébal Scout Centre 由 ASDE Scouts de Aragón 管理；此項標示阿拉貢自治區童軍組織。"
+    "description": "ASDE 官方 Griébal 頁列出 Griébal Scout Centre 由 ASDE Scouts de Aragón 管理；此項標示阿拉貢自治區童軍組織。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scoutsdearagon.org/"
   },
   {
     "id": "ES-COUNCIL-ANDALUCIA",
@@ -224,7 +286,14 @@
     "lng": -5.972,
     "address": "Andalusia, Spain",
     "website": "https://scoutsdeandalucia.org/",
-    "description": "ASDE 官方 Centros Scouts 頁列出 Bermejales 與 Cerro Mulera 均由 ASDE Scouts de Andalucía 管理；此項標示安達盧西亞自治區童軍組織。"
+    "description": "ASDE 官方 Centros Scouts 頁列出 Bermejales 與 Cerro Mulera 均由 ASDE Scouts de Andalucía 管理；此項標示安達盧西亞自治區童軍組織。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scoutsdeandalucia.org/",
+    "facebook": "https://www.facebook.com/scoutsdeandalucia.asde",
+    "instagram": "scouts_andalucia",
+    "youtube": "https://www.youtube.com/user/ScoutsAndalucia",
+    "socialVerificationSource": "https://scoutsdeandalucia.org/"
   },
   {
     "id": "ES-COUNCIL-MURCIA",
@@ -240,8 +309,15 @@
     "lng": -1.1307,
     "address": "Murcia, Spain",
     "website": "http://exmu.es/",
-    "email": "murcia@scout.es",
-    "description": "ASDE 官方 Murcia 活動中心頁列出 Centro de Actividades 由 ASDE-Exploradores de Murcia 管理；此項標示穆爾西亞自治區童軍組織。"
+    "email": "",
+    "description": "ASDE 官方 Murcia 活動中心頁列出 Centro de Actividades 由 ASDE-Exploradores de Murcia 管理；此項標示穆爾西亞自治區童軍組織。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "http://exmu.es/",
+    "facebook": "https://www.facebook.com/ASDE.Murcia",
+    "instagram": "asde_exmu",
+    "youtube": "https://www.youtube.com/user/SCOUTSASDE",
+    "socialVerificationSource": "http://exmu.es/"
   },
   {
     "id": "ES-COUNCIL-CEUTA",
@@ -257,7 +333,12 @@
     "lng": -5.3198,
     "address": "Ceuta, Spain",
     "website": "https://scoutsdeceuta.scout.es/",
-    "email": "ceuta@scout.es",
-    "description": "ASDE 官方 Centro Scout Ciudad de Ceuta 頁列出該中心由 Scouts de Ceuta 使用／管理；此項標示休達地區童軍組織。"
+    "email": "",
+    "description": "ASDE 官方 Centro Scout Ciudad de Ceuta 頁列出該中心由 Scouts de Ceuta 使用／管理；此項標示休達地區童軍組織。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scoutsdeceuta.scout.es/",
+    "facebook": "https://www.facebook.com/groups/297114063668155",
+    "socialVerificationSource": "https://scoutsdeceuta.scout.es/"
   }
 ]
