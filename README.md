@@ -103,7 +103,8 @@ git push -u origin main
   "address": "Rumah Pengakap, Jalan Hang Jebat, Kuala Lumpur, Malaysia",
   "phone": "+60 3 20 78 08 36",
   "website": "https://www.scouts.my",
-  "email": "info@scouts.my",
+  "email": "",
+  "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
   "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
 }
 ```
@@ -125,4 +126,11 @@ git push -u origin main
 本專案致力於打造「童軍 WIKI」，讓所有想去海外旅行或交流的童軍都能在此找到最實用的資訊。
 
 如果您有任何建議或發現資料錯誤，歡迎聯繫：
-📧 [ai@skwscout.org.hk](mailto:ai@skwscout.org.hk)
+請使用 GitHub Issues 或專案維護渠道提交意見。
+
+
+## 聯絡政策補充（個人旅行 vs 正式訪問）
+
+- 正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介。
+- 個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，不等同正式訪問；請按當地公開安排自行確認開放時間、預約或入場規則。
+- Facebook、Instagram、YouTube 等社交平台可保留作資訊及國際友誼交流渠道，但不是正式聯絡渠道。
