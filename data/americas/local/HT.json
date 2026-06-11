@@ -14,9 +14,10 @@
     "address": "Port-au-Prince, Haiti",
     "description": "Association Nationale des Scouts d’Haïti。WOSM worldwide listing includes scoutsdhaiti.org as website; website availability may be unstable, so verify via WOSM and latest public sources before travel. 正式交流仍須按香港童軍總會程序處理。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "L3/HQ WOSM member entry; WOSM-listed website unavailable in automated check; verify current status before travel",
+    "verificationStatus": "L3/HQ WOSM member entry; public social channel cross-referenced by CICS; WOSM-listed website may be unstable, verify current status before travel",
     "website": "",
-    "socialVerificationSource": "https://www.scout.org/where-we-work/scouting-worldwide",
-    "verificationSource": "https://www.scout.org/where-we-work/scouting-worldwide"
+    "socialVerificationSource": "https://www.cics.org/places/scouts-dhaiti/",
+    "verificationSource": "https://www.scout.org/where-we-work/scouting-worldwide",
+    "facebook": "https://www.facebook.com/scoutsdhaiti/"
   }
 ]

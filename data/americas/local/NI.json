@@ -17,6 +17,7 @@
     "verificationStatus": "L3/HQ WOSM member entry with public social/website; Nicaragua NGO status should be verified before travel",
     "website": "https://scoutsdenicaragua.org",
     "facebook": "https://www.facebook.com/asociaciondescoutsdenicaragua/",
-    "socialVerificationSource": "https://www.facebook.com/asociaciondescoutsdenicaragua/"
+    "socialVerificationSource": "https://www.facebook.com/asociaciondescoutsdenicaragua/",
+    "verificationSource": "https://scoutsdenicaragua.org"
   }
 ]
