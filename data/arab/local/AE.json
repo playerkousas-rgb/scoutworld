@@ -40,7 +40,8 @@
     "description": "阿聯酋最活躍的國家童軍營地，設施豪華先進，擁有多功能大會堂、沙地障礙賽道與高空歷奇設施。沙迦是阿聯酋童軍運動的發源地（1954年），此營地承載著悠久的童軍傳統。每年舉辦沙迦國際童軍聚會，2025年吸引了來自80個國家的300名參與者。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://uaescouts.ae"
+    "verificationSource": "https://uaescouts.ae",
+    "socialVerificationSource": "https://uaescouts.ae"
   },
   {
     "id": "AE-CAMP-AWI",
@@ -61,7 +62,8 @@
     "description": "位於杜拜郊區的傳統沙漠營地。以騎駱駝越野、星空露營與沙漠野外生存技能培訓聞名。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://uaescouts.ae"
+    "verificationSource": "https://uaescouts.ae",
+    "socialVerificationSource": "https://uaescouts.ae"
   },
   {
     "id": "AE-CAMP-MARMOUM",
@@ -80,7 +82,9 @@
     "description": "位於杜拜阿爾馬蒙沙漠保護區內的童軍營地。2023年12月，第33屆阿拉伯童軍大露營在此舉辦，來自19個阿拉伯國家的超過1,500名童軍參與，活動主題聚焦文化交融、環境保護和可持續發展。活動由杜拜王儲Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum贊助。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://uaescouts.ae"
+    "verificationSource": "https://uaescouts.ae",
+    "instagram": "emirates_scouts",
+    "socialVerificationSource": "https://uaescouts.ae"
   },
   {
     "id": "AE-SHOP-NATIONAL",
@@ -100,6 +104,8 @@
     "description": "阿聯酋童軍官方用品中心，設於杜拜國家總部內。提供童軍制服、徽章、露營裝備等物資，採用現代化管理。是前往中東參與大露營或交流時必訪的機構。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://uaescouts.ae"
+    "verificationSource": "https://uaescouts.ae",
+    "instagram": "emirates_scouts",
+    "socialVerificationSource": "https://uaescouts.ae"
   }
 ]

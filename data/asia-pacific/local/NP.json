@@ -19,7 +19,9 @@
     "website": "https://nepalscouts.org/",
     "verificationStatus": "L3/HQ retained from WOSM/local official data; verify current status before travel",
     "verificationSource": "https://nepalscouts.org/",
-    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel",
+    "facebook": "https://www.facebook.com/nepalscouts1952/",
+    "socialVerificationSource": "https://www.facebook.com/nepalscouts1952/"
   },
   {
     "id": "NP-CAMP-KISC",
