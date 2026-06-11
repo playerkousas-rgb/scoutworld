@@ -11,23 +11,12 @@
     "subregion": "霍尼亞拉 (Honiara)",
     "lat": -9.6457,
     "lng": 160.1562,
-    "address": "P.O. Box 276, Honiara, Solomon Islands (National Youth Congress office, Panatina)",
-    "email": "skautpng@gmail.com",
-    "description": "索羅門群島童軍協會（Solomon Islands Scout Association, SISA），1928年成立，2021年成為WOSM第172位成員。總部位於霍尼亞拉 Panatina。索羅門群島童軍活動以學校為主，涵蓋9個省。會員約500人。與澳洲、巴布亞紐幾內亞、斐濟等國有交流計劃。"
-  },
-  {
-    "id": "SB-CAMP-HONIARA",
-    "parentCountry": "SB",
-    "level": 3,
-    "type": "Campsite",
-    "flag": "🏝️",
-    "category": "國家營地 (National Camp)",
-    "name": "霍尼亞拉童軍營地",
-    "nameEn": "Honiara Scout Camp",
-    "subregion": "霍尼亞拉 (Honiara)",
-    "lat": -9.6457,
-    "lng": 160.1562,
-    "address": "Honiara, Solomon Islands",
-    "description": "索羅門群島主要童軍營地，位於首都附近。適合熱帶島嶼活動及社區服務。"
+    "address": "P.O. Box 276, Honiara, Solomon Islands",
+    "email": "",
+    "description": "Solomon Islands Scouts Facebook 可作公開資訊及活動近況參考；資料作旅行資訊用途，出發前請以最新公開資訊覆核。正式海外探訪、交流或以香港童軍身份聯絡仍須按香港童軍總會程序處理。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/p/Solomon-Islands-Scouts-100083165740724/",
+    "verificationStatus": "L3/HQ retained from WOSM/local official data; verify current status before travel",
+    "verificationSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   }
 ]

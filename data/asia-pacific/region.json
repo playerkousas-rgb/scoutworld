@@ -13,7 +13,12 @@
     "lng": 69.2075,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "phone": "+1 343 777 7486",
-    "email": "info_anso@yahoo.com"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "address": "Kabul, Afghanistan",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/7133/ANSO%20Final%20Log-%20Emblem%202020.png?itok=1yuPCd4O",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "AU",
@@ -30,11 +35,15 @@
     "address": "Level 2, Quad 3, 102 Bennelong Parkway, Sydney Olympic Park, NSW 2127, Australia",
     "phone": "+61 2 8440 5900",
     "website": "https://scouts.com.au",
-    "email": "scouts@scouts.com.au",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "scouts.australia",
     "facebook": "https://www.facebook.com/ScoutsAustralia",
-    "youtube": "https://www.youtube.com/user/ScoutsAustralia"
+    "youtube": "https://www.youtube.com/user/ScoutsAustralia",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3714/SCOUTS~1.JPG?itok=OziVv6lW",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "BD",
@@ -48,11 +57,16 @@
     "members": 2000000,
     "lat": 23.734,
     "lng": 90.4055,
-    "address": "National Headquarters, Kakrail, Dhaka, Bangladesh",
+    "address": "60 Anjuman Mufidul Islam Road, Kakrail, Dhaka 1000, Bangladesh",
     "phone": "+880 248313651",
     "website": "https://www.scouts.gov.bd",
-    "email": "scouts@bangla.net",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3033/3%20Bangladesh.jpg?itok=08XFtfOg",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "BN",
@@ -67,8 +81,16 @@
     "lat": 4.5353,
     "lng": 114.7276,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "phone": "+673 2 420 901",
-    "email": "info@bruneiscouts.org.bn"
+    "phone": "+673 2 420 901 / +673 2 425 312 / +673 2 420 904",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "address": "Brunei",
+    "website": "https://www.bruneiscouts.org.bn",
+    "facebook": "https://www.facebook.com/scoutinginbrunei/",
+    "instagram": "bruneiscout",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/8417/LOGO%20PPNBD%20UPDATED.png?itok=IKRmxfDC",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "BT",
@@ -83,10 +105,15 @@
     "lat": 27.4728,
     "lng": 89.639,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "address": "Kawang Lam, Kawajangsa, Thimphu 11001, Bhutan",
-    "phone": "+975 2 328 098",
-    "website": "https://education.gov.bt",
-    "email": "bhutanscoutsassociation@gmail.com"
+    "address": "Bhutan Scouts Association, Department of Education Programme, Ministry of Education and Skills Development, Kawang Lam, Kawajangsa, Thimphu 11001, Bhutan",
+    "phone": "+975 2 328098",
+    "website": "https://education.gov.bt/pages/bhutan-scouts/",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/bhutanscouts/",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3034/4%20Bhutan.jpg?itok=xlNgO_Fu",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "FJ",
@@ -102,8 +129,12 @@
     "lng": 178.4419,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "address": "GPO Box 443, Suva, Fiji",
-    "phone": "+679 995 4801",
-    "email": "john.naisau@gmail.com"
+    "phone": "+679 9954801 / +679 9094564",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/FIJISCOUTS/",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": ""
   },
   {
     "id": "HK",
@@ -120,9 +151,13 @@
     "address": "香港九龍尖沙咀柯士甸道8號香港童軍中心",
     "phone": "+852 2377 3300",
     "website": "https://www.scout.org.hk",
-    "email": "scout@scout.org.hk",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "instagram": "hkscouting"
+    "instagram": "hkscouting",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3039/9%20Hong%20Kong.jpg?itok=34U2Ekfd",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "ID",
@@ -136,14 +171,18 @@
     "members": 25000000,
     "lat": -6.1754,
     "lng": 106.8272,
-    "address": "Jalan Medan Merdeka Timur No. 6, Gambir, Jakarta Pusat 10110, Indonesia",
-    "phone": "+62 21 350 7645",
-    "website": "https://pramuka.or.id",
-    "email": "kwarnas@pramuka.or.id",
+    "address": "Jalan Medan Merdeka Timur No. 6, Jakarta 10110, Indonesia",
+    "phone": "+62 21 350 7645 / +62 21 350 7642",
+    "website": "https://pramuka.id",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "kwarnasgerakanpramuka",
     "facebook": "https://www.facebook.com/kwarnaspramuka",
-    "youtube": "https://www.youtube.com/channel/UCDgDf5wpiYNZ7MQTKCMtfMA"
+    "youtube": "https://www.youtube.com/channel/UCDgDf5wpiYNZ7MQTKCMtfMA",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3041/11%20Indonesia.jpg?itok=cC6xH2UL",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "IN",
@@ -160,11 +199,15 @@
     "address": "Lakshmi Mazumdar Bhawan, 16, Mahatma Gandhi Marg, New Delhi, India",
     "phone": "+91 011-23378667",
     "website": "https://www.bsgindia.org",
-    "email": "info@bsgindia.org",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "bsgindia",
     "facebook": "https://www.facebook.com/BHARATSCOUTSANDGUIDES/",
-    "youtube": "https://www.youtube.com/@TheBharatScoutsandGuides"
+    "youtube": "https://www.youtube.com/@TheBharatScoutsandGuides",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5457/BSG%20LOGO.png?itok=-zgFgsQb",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "JP",
@@ -181,11 +224,14 @@
     "address": "〒167-0022 東京都杉並区下井草4-4-3 スカウト会館",
     "phone": "+81 3 6913 6262",
     "website": "https://www.scout.or.jp",
-    "email": "saj@scout.or.jp",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "scout_association_of_japan",
     "facebook": "https://www.facebook.com/scout.assoc.japan/",
-    "youtube": "https://www.youtube.com/@scoutassociationofjapan"
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "youtube": "https://www.youtube.com/@scoutassociationofjapan",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": ""
   },
   {
     "id": "KH",
@@ -199,11 +245,15 @@
     "members": 22000,
     "lat": 11.5564,
     "lng": 104.9282,
-    "address": "Phnom Penh, Cambodia",
+    "address": "P.O Box 181, Phnom Penh, Cambodia",
     "phone": "+855 23 212 527",
     "website": "",
-    "email": "info@cambodianscout.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/the.cambodia.scouts/",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": ""
   },
   {
     "id": "KI",
@@ -219,8 +269,13 @@
     "lng": 172.9768,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "address": "Betio, Tarawa, Kiribati",
-    "phone": "+686 22 517",
-    "email": "scoutkiribati@gmail.com"
+    "phone": "+686 22 517 / +686 28 654",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/kiribatiscouts",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3043/13%20Kiribati.jpg?itok=43E5L2wD",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "KR",
@@ -237,11 +292,15 @@
     "address": "10F 14, Gukhoe-daero 62-gil, Yeongdeungpo-gu, Seoul 07235, South Korea",
     "phone": "+82 2 6335 2000",
     "website": "https://www.scout.or.kr",
-    "email": "international@scout.or.kr",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "korea_scout_association",
     "facebook": "https://www.facebook.com/scoutkorea/",
-    "youtube": "https://www.youtube.com/@KoreaScoutAssociation"
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "youtube": "https://www.youtube.com/@KoreaScoutAssociation",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3873/KOREA-01.png?itok=xLjwDBKL",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "KZ",
@@ -256,7 +315,12 @@
     "lat": 51.1694,
     "lng": 71.4491,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "email": "scoutskz@gmail.com"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "address": "Kazakhstan",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5348/0007_Eng.jpg?itok=A8MNGock",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "LK",
@@ -273,8 +337,12 @@
     "address": "Sir Chittampalam A. Gardiner Mawatha, Colombo, Sri Lanka",
     "phone": "+94 11 243 3131",
     "website": "https://www.scout.lk",
-    "email": "srilankascout@gmail.com",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3055/26%20Sri%20Lanka.jpg?itok=0UcYDkIX",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "MM",
@@ -288,12 +356,17 @@
     "members": 21007,
     "lat": 16.8661,
     "lng": 96.1951,
-    "address": "Yangon, Myanmar",
-    "phone": "+95 1 222 058",
-    "website": "https://www.scout.org/en/myanmar",
-    "email": "info@myanmarscouts.org",
+    "address": "240-C, Upper Pazuntaung Road, Satsun Quarter, Mingalar Taungnyunt Township, Yangon 11221, Myanmar",
+    "phone": "+95 996 221 9595 / +95 942 111 9802",
+    "website": "",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "description": "緬甸童軍運動歷史曲折：1916年傳入，曾是WOSM成員，1964年因軍事政變解散後地下運作48年。2012年前總統Thein Sein支持下重建，2016年8月11日重新成為WOSM第164位成員。目前因政治環境限制，童軍活動處於非正式暫停狀態。口號：「時刻準備（Always Prepared）」，會員約21,007人（2021年）。"
+    "description": "緬甸童軍運動歷史曲折：1916年傳入，曾是WOSM成員，1964年因軍事政變解散後地下運作48年。2012年前總統Thein Sein支持下重建，2016年8月11日重新成為WOSM第164位成員。目前因政治環境限制，童軍活動處於非正式暫停狀態。口號：「時刻準備（Always Prepared）」，會員約21,007人（2021年）。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/myanmarscouts.org/",
+    "instagram": "myanmarscout",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": ""
   },
   {
     "id": "MN",
@@ -307,11 +380,16 @@
     "members": 10000,
     "lat": 47.9188,
     "lng": 106.9176,
-    "address": "Ulaanbaatar, Mongolia",
+    "address": "Mogul Town, Ar Zaisan street, 11th khoroo, Khan-Uul district, Ulaanbaatar 94-201, Mongolia",
     "phone": "+976 11 32 41 71",
     "website": "https://www.scout.mn",
-    "email": "scout@mongol.net",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/ScoutMongolia/",
+    "instagram": "scout_mongolia",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": ""
   },
   {
     "id": "MO",
@@ -328,9 +406,13 @@
     "address": "澳門氹仔盧伯德圓形地 氹仔炮台",
     "phone": "+853 2878 0411",
     "website": "https://www.scout.org.mo",
-    "email": "info@scout.org.mo",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "facebook": "https://www.facebook.com/scout.mo"
+    "facebook": "https://www.facebook.com/scout.mo",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3884/MACAO.png?itok=EIeir8Kv",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "MV",
@@ -347,7 +429,15 @@
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "phone": "+960 331 75 14",
     "website": "https://scout.mv",
-    "email": "info@scout.mv"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "address": "H. Bandaara Villa, Medhuziyaaraiy Magu, Male 20002, Maldives",
+    "facebook": "https://www.facebook.com/ScoutsMaldives/",
+    "instagram": "scoutsmaldives",
+    "youtube": "https://youtube.com/@ScoutsMv",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/7298/SAM%20Logo.png?itok=ytFqduv0",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "MY",
@@ -361,13 +451,16 @@
     "members": 73500,
     "lat": 3.139,
     "lng": 101.6869,
-    "address": "4 Jalan Hang Jebat, 50150 Kuala Lumpur, Malaysia",
-    "phone": "+60 3 2078 0836",
-    "website": "https://www.pengakapmalaysia.org",
-    "email": "ppm@pengakapmalaysia.org",
+    "address": "Persekutuan Pengakap Malaysia (Scouts Association of Malaysia), Kuala Lumpur 50150, Malaysia",
+    "phone": "+60 3 20 78 08 36",
+    "website": "",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "pengakapmalaysia",
-    "facebook": "https://www.facebook.com/pengakapmalaysia/"
+    "facebook": "https://www.facebook.com/pengakapmalaysia/",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": ""
   },
   {
     "id": "NP",
@@ -381,11 +474,16 @@
     "members": 70000,
     "lat": 27.7172,
     "lng": 85.324,
-    "address": "Lainchaur, Kathmandu, Nepal",
+    "address": "P.O.Box 1037, Kathmandu, Nepal",
     "phone": "+977 1 451 90 01",
-    "website": "",
-    "email": "info@nepalscouts.org",
-    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "website": "https://nepalscouts.org/",
+    "email": "",
+    "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5408/Final%20logo_term%20logo%20copy%208.png?itok=eekNsx7M",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "NZ",
@@ -402,10 +500,14 @@
     "address": "Level 1, 1 Kaiwharawhara Road, Wellington 6035, New Zealand",
     "phone": "+64 4 815 9260",
     "website": "https://scouts.nz",
-    "email": "reception@scouts.nz",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "scoutsaotearoa",
-    "facebook": "https://www.facebook.com/ScoutsAotearoa/"
+    "facebook": "https://www.facebook.com/ScoutsAotearoa/",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/7201/SCT_Logo_Aotearoa%20NewZealand_rgb_co.png?itok=SzAZ1mn5",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "PG",
@@ -420,9 +522,14 @@
     "lat": -6.3149,
     "lng": 143.9556,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "address": "P.O. Box 44, Konedobu-NCD, Port Moresby, Papua New Guinea",
-    "phone": "+675 340 4834",
-    "email": "skautpng@gmail.com"
+    "address": "P.O. Box 44, Konedobu-NCD, National Capital District 125, Port Moresby NCD, Papua New Guinea",
+    "phone": "+675 3404834 / +675 78566173",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/p/Scout-Association-of-PNG-100063680632243/",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/9086/Scout%20New%20Logo%20-%20HD.jpg?itok=0W4nSqLm",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "PH",
@@ -436,14 +543,18 @@
     "members": 1900000,
     "lat": 14.5908,
     "lng": 120.9834,
-    "address": "181 Natividad Almeda-Lopez Street, Ermita, Manila 1000, Philippines",
-    "phone": "+63 2 527 8317",
+    "address": "Boy Scouts of the Philippines, 5/F BSP National Office Building, Manila 1000, Philippines",
+    "phone": "+63 2 8 527 5112",
     "website": "https://scouts.gov.ph",
-    "email": "bsp@scouts.gov.ph",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "boyscoutsph",
     "facebook": "https://www.facebook.com/boyscoutsPH/",
-    "twitter": "@boyscoutsPH"
+    "twitter": "@boyscoutsPH",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/6971/291D360B-C7BE-43C2-9551-746A4BB2FE83.jpeg?itok=K5fOSyWM",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "PK",
@@ -461,7 +572,12 @@
     "address": "P.O. Box 1792, Islamabad, Pakistan",
     "phone": "+92 51 924 9173",
     "website": "http://www.pakscouts.org",
-    "email": "info@pakscouts.org"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/pakscouts.org/",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3052/22%20Pakistan.jpg?itok=iKok6RqD",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "RU",
@@ -476,7 +592,13 @@
     "lat": 55.7558,
     "lng": 37.6173,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "email": "asia-pacific@scout.org"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "address": "Moscow, Russia",
+    "website": "",
+    "facebook": "https://www.facebook.com/rasn.org",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": ""
   },
   {
     "id": "SB",
@@ -491,7 +613,11 @@
     "lat": -9.6457,
     "lng": 160.1562,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "address": "P.O. Box 276, Honiara, Solomon Islands"
+    "address": "P.O. Box 276, Honiara, Solomon Islands",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/p/Solomon-Islands-Scouts-100083165740724/",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": ""
   },
   {
     "id": "SG",
@@ -508,11 +634,15 @@
     "address": "1 Bishan Street 12, Singapore 579808",
     "phone": "+65 6259 2858",
     "website": "https://www.scout.sg",
-    "email": "hq@scout.org.sg",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "singaporescouts",
     "facebook": "https://www.facebook.com/SingaporeScouts/",
-    "youtube": "https://www.youtube.com/@SingaporeScoutAssociation"
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "youtube": "https://www.youtube.com/@SingaporeScoutAssociation",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3054/25%20Singapore.jpg?itok=URcxp-t2",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "TH",
@@ -526,13 +656,17 @@
     "members": 828000,
     "lat": 13.1673,
     "lng": 100.9304,
-    "address": "60/38 Sukhumvit Road, Bangphra, Si Racha, Chonburi 20110, Thailand",
-    "phone": "+66 38 190 798",
+    "address": "60/38 Sukhumvit Road, Bangphra Sub-District, Si Racha District 20110, Thailand",
+    "phone": "+66 3819 0834 / +66 3819 0793-99",
     "website": "https://www.scoutthailand.org",
-    "email": "saraban@scoutthailand.org",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "nsotscoutthailand",
-    "facebook": "https://www.facebook.com/scoutthailand/"
+    "facebook": "https://www.facebook.com/scoutthailand/",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3056/27%20Thailand.jpg?itok=9jNk7w5z",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "TJ",
@@ -548,7 +682,12 @@
     "lng": 68.774,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "phone": "+992 93 502 6969",
-    "email": "bstaj@mail.ru"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "address": "P.O. Box 194, Dushanbe, Tajikistan",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/4009/SCT_Emblem_rgb_round%20Purple_video.png?itok=Nlr58p0F",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "TL",
@@ -564,8 +703,14 @@
     "lng": 125.5603,
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "address": "P.O. Box 305, Dili, Timor-Leste",
-    "phone": "+670 7723 8694",
-    "email": "secretariat@scout.tl"
+    "phone": "+670 77238694",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "website": "",
+    "facebook": "https://www.facebook.com/unetl/",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3057/28%20Timor%20Leste.jpg?itok=MTo9oGuw",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "TW",
@@ -582,11 +727,15 @@
     "address": "104 台北市中山區建國北路一段23巷9號4樓（中華童軍會館）",
     "phone": "+886 2 2740 1336",
     "website": "http://www.scout.org.tw",
-    "email": "scouts@scout.org.tw",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
     "instagram": "scouts_tgasc",
     "facebook": "https://www.facebook.com/scoutstw/",
-    "youtube": "https://www.youtube.com/channel/UCigs1RvZakaMWv3DZQdpibQ"
+    "youtube": "https://www.youtube.com/channel/UCigs1RvZakaMWv3DZQdpibQ",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3037/7%20TGA%20Scouts%20of%20China.jpg?itok=WvdqSzWP",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   },
   {
     "id": "VN",
@@ -602,9 +751,13 @@
     "lng": 106.7009,
     "address": "Ho Chi Minh City, Vietnam",
     "phone": "+84 8 903303123",
-    "website": "https://vietnamscouts.org",
-    "email": "info@vietnamscouts.org",
+    "website": "",
+    "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
-    "facebook": "https://www.facebook.com/pathfinderscoutsvietnam/"
+    "facebook": "https://www.facebook.com/pathfinderscoutsvietnam/",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L2 WOSM official member organization entry",
+    "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/8867/LOGOHDVN-01.jpg?itok=fdWj-jCu",
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   }
 ]

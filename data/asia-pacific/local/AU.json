@@ -13,12 +13,121 @@
     "lng": 151.0706,
     "address": "Level 2, Quad 3, 102 Bennelong Parkway, Sydney Olympic Park, NSW 2127, Australia",
     "phone": "+61 2 8440 5900",
-    "email": "scouts@scouts.com.au",
+    "email": "",
     "website": "https://scouts.com.au",
     "instagram": "scouts.australia",
     "facebook": "https://www.facebook.com/ScoutsAustralia",
     "youtube": "https://www.youtube.com/user/ScoutsAustralia",
-    "description": "Scouts Australia（澳洲童軍總會），1908年成立，WOSM正式成員。總部位於雪梨奧林匹克公園。澳洲童軍是亞太區重要組織，會員約66,000人。以戶外冒險、環境教育及青年領導力為特色。"
+    "description": "Scouts Australia（澳洲童軍總會），1908年成立，WOSM正式成員。總部位於雪梨奧林匹克公園。澳洲童軍是亞太區重要組織，會員約66,000人。以戶外冒險、環境教育及青年領導力為特色。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ retained from WOSM/local official data; verify current status before travel",
+    "verificationSource": "https://scouts.com.au"
+  },
+  {
+    "id": "AU-SHOP-NATIONAL",
+    "parentCountry": "AU",
+    "level": 3,
+    "type": "Shop",
+    "flag": "🇦🇺",
+    "category": "童軍用品社 / 網上商店 (Scout Shop)",
+    "name": "澳洲 Scout Shop",
+    "nameEn": "The Scout Shop Australia",
+    "subregion": "Online / Australia",
+    "lat": -33.8475,
+    "lng": 151.0706,
+    "address": "Online store; supports Scouts Australia Branches",
+    "phone": "",
+    "website": "https://scoutshop.com.au",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "description": "澳洲 Scout Shop 網上商店，提供制服、戶外用品及交換徽章等。頁面列明所有購買均支持澳洲童軍各 Branch。個人旅行購物請按網站及當地公開安排處理。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scoutshop.com.au/",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
+  },
+  {
+    "id": "AU-SHOP-EXURBIA-SA",
+    "parentCountry": "AU",
+    "level": 3,
+    "type": "Shop",
+    "flag": "🇦🇺",
+    "category": "童軍用品 / 戶外用品商店 (Scout & Outdoor Store)",
+    "name": "Exurbia / Scout Outdoor Centre",
+    "nameEn": "Exurbia – The Adventure Supply Co. (formerly Scout Outdoor Centre)",
+    "subregion": "South Australia",
+    "lat": -34.921,
+    "lng": 138.637,
+    "address": "134A The Parade, Norwood, South Australia",
+    "phone": "",
+    "website": "https://exurbia.com.au/scout-outdoor-centre/",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "description": "Scout Outdoor Centre 已轉為 Exurbia。官方頁面列明 Exurbia 由 Scouts SA 擁有及營運，銷售收益支持 South Australia 青年計劃，零售店位於 134A The Parade, Norwood，亦提供網上商店。個人購物請按官方網站確認營業安排。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://exurbia.com.au/scout-outdoor-centre/"
+  },
+  {
+    "id": "AU-CAMP-WOODHOUSE-SA",
+    "parentCountry": "AU",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇦🇺",
+    "category": "活動中心 / 營地 (Adventure Park / Activity Centre)",
+    "name": "Woodhouse Adventure Park",
+    "nameEn": "Woodhouse Adventure Park, Scouts SA",
+    "subregion": "South Australia",
+    "lat": -35.004,
+    "lng": 138.716,
+    "address": "Piccadilly, Adelaide Hills, South Australia",
+    "phone": "",
+    "website": "https://woodhouse.org.au/",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "description": "Woodhouse Adventure Park 位於 Adelaide Hills / Piccadilly，網站列明全年每日開放，提供 day visit、住宿及戶外冒險活動選項。作個人旅行或活動參考時，請按官方網站確認開放、票務及預訂安排。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://woodhouse.org.au/"
+  },
+  {
+    "id": "AU-CAMP-GILWELL-VIC",
+    "parentCountry": "AU",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇦🇺",
+    "category": "大型童軍營地 (Major Scout Campsite)",
+    "name": "Gilwell Park Victoria",
+    "nameEn": "Gilwell Park, Scouts Victoria",
+    "subregion": "Victoria",
+    "lat": -37.958,
+    "lng": 145.558,
+    "address": "Gembrook, Victoria, Australia",
+    "phone": "",
+    "website": "https://scoutsvictoria.com.au/about-us/campsites/gilwell-park/",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "description": "Scouts Victoria Campsites 頁列 Gilwell Park（Gembrook）為 Major Campsites 之一。Scouts Victoria 表示其主要營地可供租用，地點涵蓋海邊至雪地，並有住宿、活動及設施。出發前請按官方頁面確認預訂及開放安排。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://scoutsvictoria.com.au/about-us/campsites/"
+  },
+  {
+    "id": "AU-CAMP-CATARACT",
+    "parentCountry": "AU",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇦🇺",
+    "category": "大型活動中心 / 營地 (Activity Centre / Scout Camp)",
+    "name": "Cataract Activity Centre",
+    "nameEn": "Cataract Activity Centre / Cataract Scout Park",
+    "subregion": "New South Wales",
+    "lat": -34.265,
+    "lng": 150.83,
+    "address": "Baden Powell Drive, Appin NSW 2560, Australia",
+    "phone": "+61 2 4631 6697",
+    "website": "https://cataract.nsw.scouts.com.au/",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "description": "Scouts NSW Cataract Activity Centre 位於 Campbelltown 與 Wollongong 之間，官方頁面列明佔地 163 hectares，提供日營、過夜活動、會議空間及住宿，並列明 centre is open to all groups。個人旅行或團體活動請按官方公開安排查詢。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://cataract.nsw.scouts.com.au/"
   },
   {
     "id": "AU-STATE-NSW",
@@ -34,7 +143,10 @@
     "lng": 151.2093,
     "address": "Sydney, NSW, Australia",
     "website": "https://www.nsw.scouts.com.au",
-    "description": "澳洲最大州童軍會，涵蓋雪梨及新南威爾斯全州。會員眾多，活動豐富。"
+    "description": "澳洲最大州童軍會，涵蓋雪梨及新南威爾斯全州。會員眾多，活動豐富。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.nsw.scouts.com.au"
   },
   {
     "id": "AU-STATE-VIC",
@@ -50,7 +162,11 @@
     "lng": 144.9631,
     "address": "Melbourne, VIC, Australia",
     "website": "https://www.vic.scouts.com.au",
-    "description": "維多利亞州童軍會，涵蓋墨爾本及周邊地區。"
+    "description": "維多利亞州童軍會，涵蓋墨爾本及周邊地區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.vic.scouts.com.au",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
   },
   {
     "id": "AU-STATE-QLD",
@@ -66,7 +182,11 @@
     "lng": 153.0251,
     "address": "Brisbane, QLD, Australia",
     "website": "https://www.qld.scouts.com.au",
-    "description": "昆士蘭州童軍會，涵蓋布里斯本及大堡礁地區。"
+    "description": "昆士蘭州童軍會，涵蓋布里斯本及大堡礁地區。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.qld.scouts.com.au",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
   },
   {
     "id": "AU-STATE-WA",
@@ -82,7 +202,11 @@
     "lng": 115.8605,
     "address": "Perth, WA, Australia",
     "website": "https://www.wa.scouts.com.au",
-    "description": "西澳州童軍會，涵蓋珀斯及西澳廣大區域。"
+    "description": "西澳州童軍會，涵蓋珀斯及西澳廣大區域。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.wa.scouts.com.au",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
   },
   {
     "id": "AU-STATE-SA",
@@ -98,7 +222,10 @@
     "lng": 138.6007,
     "address": "Adelaide, SA, Australia",
     "website": "https://www.sa.scouts.com.au",
-    "description": "南澳州童軍會，涵蓋阿德萊德及周邊。"
+    "description": "南澳州童軍會，涵蓋阿德萊德及周邊。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.sa.scouts.com.au"
   },
   {
     "id": "AU-STATE-TAS",
@@ -114,7 +241,10 @@
     "lng": 147.3272,
     "address": "Hobart, TAS, Australia",
     "website": "https://www.tas.scouts.com.au",
-    "description": "塔斯馬尼亞州童軍會，涵蓋塔斯馬尼亞島。"
+    "description": "塔斯馬尼亞州童軍會，涵蓋塔斯馬尼亞島。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.tas.scouts.com.au"
   },
   {
     "id": "AU-STATE-ACT",
@@ -127,10 +257,14 @@
     "nameEn": "ACT Scouts",
     "subregion": "首都地區 (Australian Capital Territory)",
     "lat": -35.2809,
-    "lng": 149.1300,
+    "lng": 149.13,
     "address": "Canberra, ACT, Australia",
     "website": "https://www.act.scouts.com.au",
-    "description": "首都地區童軍會，涵蓋坎培拉。"
+    "description": "首都地區童軍會，涵蓋坎培拉。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.act.scouts.com.au",
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
   },
   {
     "id": "AU-STATE-NT",
@@ -146,6 +280,9 @@
     "lng": 130.8456,
     "address": "Darwin, NT, Australia",
     "website": "https://www.nt.scouts.com.au",
-    "description": "北領地童軍會，涵蓋達爾文及北領地廣大區域。"
+    "description": "北領地童軍會，涵蓋達爾文及北領地廣大區域。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.nt.scouts.com.au"
   }
 ]

@@ -13,12 +13,36 @@
     "lng": 77.2473,
     "address": "Lakshmi Mazumdar Bhawan, 16, Mahatma Gandhi Marg, New Delhi, India",
     "phone": "+91 011-23378667",
-    "email": "info@bsgindia.org",
+    "email": "",
     "website": "https://www.bsgindia.org",
     "instagram": "bsgindia",
     "facebook": "https://www.facebook.com/BHARATSCOUTSANDGUIDES/",
     "youtube": "https://www.youtube.com/@TheBharatScoutsandGuides",
-    "description": "The Bharat Scouts and Guides（印度童軍與女童軍），1909年成立，WOSM成員。總部位於新德里。印度童軍是世界最大童軍組織之一，會員約570萬人。以社區服務、災難應變及青年領導力為特色。"
+    "description": "The Bharat Scouts and Guides（印度童軍與女童軍），1909年成立，WOSM成員。總部位於新德里。印度童軍是世界最大童軍組織之一，會員約570萬人。以社區服務、災難應變及青年領導力為特色。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ retained from WOSM/local official data; verify current status before travel",
+    "verificationSource": "https://www.bsgindia.org"
+  },
+  {
+    "id": "IN-NTC-PACHMARHI",
+    "parentCountry": "IN",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇮🇳",
+    "category": "國家訓練中心 / 營地 (National Training Centre)",
+    "name": "印度國家訓練中心 Pachmarhi",
+    "nameEn": "The Bharat Scouts and Guides National Training Centre, Pachmarhi",
+    "subregion": "Madhya Pradesh",
+    "lat": 22.467,
+    "lng": 78.433,
+    "address": "National Training Centre, Pachmarhi, Madhya Pradesh 461881, India",
+    "phone": "",
+    "website": "https://www.bsgindia.org/",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "description": "Bharat Scouts and Guides 公開資料及舊官方資料均列 National Training Centre 位於 Pachmarhi, Madhya Pradesh，為印度童軍訓練、露營及冒險活動重要中心；資料提及 Pachmarhi 具自然環境、露營、遠足、攀岩及探險活動條件。正式參與課程或交流須依程序處理；個人旅行資料請以 BSG 最新官方公告覆核。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.bsgindia.org/our_centers.php"
   },
   {
     "id": "IN-STATE-DELHI",
@@ -33,7 +57,11 @@
     "lat": 28.6272,
     "lng": 77.2473,
     "address": "New Delhi, India",
-    "description": "德里國家首都地區童軍會，方便旅行者查詢首都活動。"
+    "description": "Delhi State Bharat Scouts and Guides。此項作省／州級資料入口及地圖代表點；BSG national / regional structure references state associations; direct local page pending。出發前請以國家總會、州會社交平台或最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "structure-known; direct official local link pending",
+    "email": "",
+    "verificationSource": "https://www.bsgindia.org/our_centers.php"
   },
   {
     "id": "IN-STATE-MAHARASHTRA",
@@ -48,7 +76,11 @@
     "lat": 19.076,
     "lng": 72.8777,
     "address": "Mumbai, Maharashtra, India",
-    "description": "馬哈拉施特拉州童軍會，涵蓋孟買及周邊。方便西印度旅行者。"
+    "description": "Maharashtra State Bharat Scouts and Guides。此項作省／州級資料入口及地圖代表點；BSG national / regional structure references state associations; direct local page pending。出發前請以國家總會、州會社交平台或最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "structure-known; direct official local link pending",
+    "email": "",
+    "verificationSource": "https://www.bsgindia.org/our_centers.php"
   },
   {
     "id": "IN-STATE-TAMILNADU",
@@ -63,7 +95,11 @@
     "lat": 13.0827,
     "lng": 80.2707,
     "address": "Chennai, Tamil Nadu, India",
-    "description": "泰米爾納德邦童軍會，涵蓋清奈及南印度地區。"
+    "description": "Tamil Nadu State Bharat Scouts and Guides。此項作省／州級資料入口及地圖代表點；BSG national / regional structure references state associations; direct local page pending。出發前請以國家總會、州會社交平台或最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "structure-known; direct official local link pending",
+    "email": "",
+    "verificationSource": "https://www.bsgindia.org/our_centers.php"
   },
   {
     "id": "IN-STATE-KARNATAKA",
@@ -78,7 +114,11 @@
     "lat": 12.9716,
     "lng": 77.5946,
     "address": "Bengaluru, Karnataka, India",
-    "description": "卡納塔克邦童軍會，涵蓋班加羅爾及周邊。方便南印度旅行者。"
+    "description": "Karnataka State Bharat Scouts and Guides。此項作省／州級資料入口及地圖代表點；BSG national / regional structure references state associations; direct local page pending。出發前請以國家總會、州會社交平台或最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "structure-known; direct official local link pending",
+    "email": "",
+    "verificationSource": "https://www.bsgindia.org/our_centers.php"
   },
   {
     "id": "IN-STATE-WESTBENGAL",
@@ -93,7 +133,11 @@
     "lat": 22.5726,
     "lng": 88.3639,
     "address": "Kolkata, West Bengal, India",
-    "description": "西孟加拉邦童軍會，涵蓋加爾各答及東印度地區。"
+    "description": "West Bengal State Bharat Scouts and Guides。此項作省／州級資料入口及地圖代表點；BSG national / regional structure references state associations; direct local page pending。出發前請以國家總會、州會社交平台或最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "structure-known; direct official local link pending",
+    "email": "",
+    "verificationSource": "https://www.bsgindia.org/our_centers.php"
   },
   {
     "id": "IN-STATE-RAJASTHAN",
@@ -108,7 +152,11 @@
     "lat": 26.9124,
     "lng": 75.7873,
     "address": "Jaipur, Rajasthan, India",
-    "description": "拉賈斯坦邦童軍會，涵蓋齋浦爾及沙漠地區。方便西北印度旅行者。"
+    "description": "Rajasthan State Bharat Scouts and Guides。此項作省／州級資料入口及地圖代表點；BSG national / regional structure references state associations; direct local page pending。出發前請以國家總會、州會社交平台或最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "structure-known; direct official local link pending",
+    "email": "",
+    "verificationSource": "https://www.bsgindia.org/our_centers.php"
   },
   {
     "id": "IN-STATE-GUJARAT",
@@ -123,7 +171,11 @@
     "lat": 23.0225,
     "lng": 72.5714,
     "address": "Ahmedabad, Gujarat, India",
-    "description": "古吉拉特邦童軍會，涵蓋艾哈邁達巴德及西部地區。"
+    "description": "Gujarat State Bharat Scouts and Guides。此項作省／州級資料入口及地圖代表點；BSG national / regional structure references state associations; direct local page pending。出發前請以國家總會、州會社交平台或最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "structure-known; direct official local link pending",
+    "email": "",
+    "verificationSource": "https://www.bsgindia.org/our_centers.php"
   },
   {
     "id": "IN-STATE-UTTARPRADESH",
@@ -138,6 +190,10 @@
     "lat": 26.8467,
     "lng": 80.9462,
     "address": "Lucknow, Uttar Pradesh, India",
-    "description": "北方邦童軍會，涵蓋勒克瑙及北部重要地區。"
+    "description": "Uttar Pradesh State Bharat Scouts and Guides。此項作省／州級資料入口及地圖代表點；BSG national / regional structure references state associations; direct local page pending。出發前請以國家總會、州會社交平台或最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "structure-known; direct official local link pending",
+    "email": "",
+    "verificationSource": "https://www.bsgindia.org/our_centers.php"
   }
 ]

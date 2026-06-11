@@ -11,24 +11,13 @@
     "subregion": "金邊 (Phnom Penh)",
     "lat": 11.5564,
     "lng": 104.9282,
-    "address": "Phnom Penh, Cambodia",
+    "address": "P.O Box 181, Phnom Penh, Cambodia",
     "phone": "+855 23 212 527",
-    "email": "info@cambodianscout.org",
-    "description": "Cambodian National Scouts（柬埔寨國家童軍），2000年成立，WOSM成員。總部位於金邊。柬埔寨童軍會員約22,000人。以社區服務及青年發展為特色。"
-  },
-  {
-    "id": "KH-REGION-PHNOMPENH",
-    "parentCountry": "KH",
-    "level": 3,
-    "type": "Council",
-    "flag": "🏛️",
-    "category": "地區童軍會 (Regional Council)",
-    "name": "金邊地區童軍會",
-    "nameEn": "Phnom Penh Regional Scout Council",
-    "subregion": "金邊 (Phnom Penh)",
-    "lat": 11.5564,
-    "lng": 104.9282,
-    "address": "Phnom Penh, Cambodia",
-    "description": "金邊地區童軍會，涵蓋首都及周邊。方便旅行者查詢當地聯繫。"
+    "email": "",
+    "description": "Cambodian National Scouts（柬埔寨國家童軍），2000年成立，WOSM成員。總部位於金邊。柬埔寨童軍會員約22,000人。以社區服務及青年發展為特色。 Facebook page「The Cambodia Scouts」可作最新活動及資訊參考；正式交流或以香港童軍身份聯絡仍須按香港童軍總會程序處理。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "facebook": "https://www.facebook.com/the.cambodia.scouts/",
+    "verificationStatus": "L3/HQ retained from WOSM/local official data; verify current status before travel",
+    "verificationSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
   }
 ]

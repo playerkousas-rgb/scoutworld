@@ -13,10 +13,13 @@
     "lng": 46.6753,
     "address": "P.O. Box 766, Riyadh 11421, Saudi Arabia",
     "phone": "+966 11 403 9911",
-    "email": "info@scouts.org.sa",
+    "email": "",
     "website": "http://www.scouts.org.sa",
     "instagram": "scouts_sa",
-    "description": "沙烏地阿拉伯童軍協會（Saudi Arabian Scouts Association / SASA）成立於1961年，由皇家法令正式設立。雖然官方成立年份為1961年，但童軍活動早在1940年代便已在沙國境內的學校開展。1963年正式加入世界童軍運動組織（WOSM），成為阿拉伯地區的重要成員。SASA由教育部管轄，強調將伊斯蘭價值觀與童軍精神相結合，口號為「隨時準備」（Kun Musta'idan）。沙國童軍以每年動員數千人服務朝覲（Hajj）的志願工作聞名全球。近年推動Vision 2030改革，已設立首批女性童軍單位。"
+    "description": "沙烏地阿拉伯童軍協會（Saudi Arabian Scouts Association / SASA）成立於1961年，由皇家法令正式設立。雖然官方成立年份為1961年，但童軍活動早在1940年代便已在沙國境內的學校開展。1963年正式加入世界童軍運動組織（WOSM），成為阿拉伯地區的重要成員。SASA由教育部管轄，強調將伊斯蘭價值觀與童軍精神相結合，口號為「隨時準備」（Kun Musta'idan）。沙國童軍以每年動員數千人服務朝覲（Hajj）的志願工作聞名全球。近年推動Vision 2030改革，已設立首批女性童軍單位。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.scouts.org.sa"
   },
   {
     "id": "SA-CAMP-RIY",
@@ -34,7 +37,10 @@
     "phone": "+966 11 402 1212",
     "website": "http://www.scouts.org.sa",
     "instagram": "scouts_sa",
-    "description": "沙烏地阿拉伯童軍協會直營的國家級沙漠與綠洲營地。設備極其現代化，常年舉辦全國童軍大露營與中東地區領袖培訓班。"
+    "description": "沙烏地阿拉伯童軍協會直營的國家級沙漠與綠洲營地。設備極其現代化，常年舉辦全國童軍大露營與中東地區領袖培訓班。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.scouts.org.sa"
   },
   {
     "id": "SA-CAMP-TAI",
@@ -52,7 +58,10 @@
     "phone": "+966 11 402 1212",
     "website": "http://www.scouts.org.sa",
     "instagram": "scouts_sa",
-    "description": "位於沙國避暑勝地塔伊夫的高山森林營地。氣候宜人，以山地攀登、野外定向與傳統阿拉伯帳篷紮營著稱。"
+    "description": "位於沙國避暑勝地塔伊夫的高山森林營地。氣候宜人，以山地攀登、野外定向與傳統阿拉伯帳篷紮營著稱。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.scouts.org.sa"
   },
   {
     "id": "SA-CAMP-JED",
@@ -69,7 +78,10 @@
     "address": "Makkah Al Mukarramah, Saudi Arabia",
     "phone": "+966 12 530 1111",
     "website": "http://www.scouts.org.sa",
-    "description": "每年朝覲（Hajj）季節期間，沙烏地童軍協會動員超過3,000名童軍在麥加及聖地區域設立服務營地。童軍協助迷路的朝覲者返回營地、提供醫療護送、分發資訊手冊、維持秩序等。此項服務始於1961年，最初僅150名童軍參與，現已發展為全球最大規模的童軍志願服務項目之一。"
+    "description": "每年朝覲（Hajj）季節期間，沙烏地童軍協會動員超過3,000名童軍在麥加及聖地區域設立服務營地。童軍協助迷路的朝覲者返回營地、提供醫療護送、分發資訊手冊、維持秩序等。此項服務始於1961年，最初僅150名童軍參與，現已發展為全球最大規模的童軍志願服務項目之一。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.scouts.org.sa"
   },
   {
     "id": "SA-CAMP-ABHA",
@@ -86,7 +98,10 @@
     "address": "Asir National Park, Abha, Saudi Arabia",
     "phone": "+966 11 402 1212",
     "website": "http://www.scouts.org.sa",
-    "description": "位於沙烏地阿拉伯西南部阿西爾山區的高海拔童軍營地，海拔約2,200米。阿西爾地區氣候涼爽、植被豐富，與沙國其他沙漠地區形成鮮明對比。營地以高山遠足、攀岩和環境教育活動為特色。"
+    "description": "位於沙烏地阿拉伯西南部阿西爾山區的高海拔童軍營地，海拔約2,200米。阿西爾地區氣候涼爽、植被豐富，與沙國其他沙漠地區形成鮮明對比。營地以高山遠足、攀岩和環境教育活動為特色。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.scouts.org.sa"
   },
   {
     "id": "SA-SHOP-NATIONAL",
@@ -103,132 +118,9 @@
     "address": "SASA Headquarters, Riyadh",
     "phone": "+966 11 403 9911",
     "website": "http://www.scouts.org.sa",
-    "description": "沙烏地阿拉伯童軍官方用品中心，設於國家總部內。提供童軍制服、徽章、露營裝備等物資。各國童軍前來交流時可在此取得阿拉伯特色童軍紀念布章。"
-  },
-  {
-    "id": "SA-REGION-RIYADH",
-    "parentCountry": "SA",
-    "level": 3,
-    "type": "Council",
-    "flag": "🏙️",
-    "category": "首都童軍辦事處 (Capital Region)",
-    "name": "沙烏地童軍 - 利雅德省",
-    "nameEn": "Saudi Scouts - Riyadh Province",
-    "subregion": "利雅德 (Riyadh)",
-    "lat": 24.7136,
-    "lng": 46.6753,
-    "description": "利雅德是沙烏地阿拉伯首都和最大城市，人口超過700萬。國家童軍總部和主要培訓中心均位於此。首都地區童軍活動最為密集，涵蓋學校和社區童軍團。SASA的JOTA-JOTI活動主場站設於利雅德總部和朱拜勒工業學院。"
-  },
-  {
-    "id": "SA-REGION-JEDDAH",
-    "parentCountry": "SA",
-    "level": 3,
-    "type": "Council",
-    "flag": "🌊",
-    "category": "紅海沿岸童軍辦事處 (Red Sea Region)",
-    "name": "沙烏地童軍 - 麥加省（吉達）",
-    "nameEn": "Saudi Scouts - Makkah Province (Jeddah)",
-    "subregion": "吉達 (Jeddah)",
-    "lat": 21.5433,
-    "lng": 39.1728,
-    "description": "吉達是沙國第二大城市和紅海沿岸最重要的港口。麥加省童軍辦事處管轄範圍包括聖城麥加和麥地那，負責每年朝覲季節的童軍志願服務部署。該區童軍活動結合宗教服務和紅海海洋環境保護項目。"
-  },
-  {
-    "id": "SA-REGION-DAMMAM",
-    "parentCountry": "SA",
-    "level": 3,
-    "type": "Council",
-    "flag": "🛢️",
-    "category": "東部省童軍辦事處 (Eastern Province Region)",
-    "name": "沙烏地童軍 - 東部省",
-    "nameEn": "Saudi Scouts - Eastern Province",
-    "subregion": "達曼 (Dammam)",
-    "lat": 26.3927,
-    "lng": 49.9777,
-    "description": "東部省是沙烏地阿拉伯石油工業的核心區域，涵蓋達曼、達蘭和朱拜勒等城市。該區童軍活動結合工業安全和環境保護主題。沙國童軍的JOTA-JOTI無線電活動在朱拜勒工業學院設有重要場站。"
-  },
-  {
-    "id": "SA-REGION-ABHA",
-    "parentCountry": "SA",
-    "level": 3,
-    "type": "Council",
-    "flag": "🏔️",
-    "category": "山區童軍辦事處 (Mountain Region)",
-    "name": "沙烏地童軍 - 阿西爾省",
-    "nameEn": "Saudi Scouts - Asir Province",
-    "subregion": "艾卜哈 (Abha)",
-    "lat": 18.2164,
-    "lng": 42.5053,
-    "description": "阿西爾省位於沙烏地阿拉伯西南部，以涼爽氣候和壯麗山景聞名。該省童軍活動結合高山環境教育和農業社區服務，與其他沙漠省份的童軍活動形成鮮明對比。"
-  },
-  {
-    "id": "SA-HISTORY-1961",
-    "parentCountry": "SA",
-    "level": 3,
-    "type": "Historic",
-    "flag": "📜",
-    "category": "歷史發源地 (Heritage Site)",
-    "name": "沙烏地阿拉伯童軍發源地 — 利雅德",
-    "nameEn": "Saudi Scouting Origin - Riyadh",
-    "subregion": "利雅德 (Riyadh)",
-    "lat": 24.7136,
-    "lng": 46.6753,
-    "description": "沙烏地阿拉伯的童軍活動最早可追溯至1940年代，在學校中以非正式形式開展。隨著1954年教育部的設立，童軍運動被納入國家教育框架。1961年，國王正式頒布皇家法令設立沙烏地阿拉伯童軍協會。1963年正式加入WOSM，同年首次派童軍代表團參加在希臘舉行的世界童軍活動。1983年，Abdullah O. Nasseef博士獲頒世界童軍最高榮譽「銅狼獎」。"
-  },
-  {
-    "id": "SA-HAJJ-SCOUTING",
-    "parentCountry": "SA",
-    "level": 3,
-    "type": "Activity",
-    "flag": "🕋",
-    "category": "朝覲服務童軍特色 (Hajj Service Scouting)",
-    "name": "沙烏地童軍朝覲志願服務傳統",
-    "nameEn": "Saudi Scouts Hajj Volunteer Service Programme",
-    "subregion": "麥加及聖地區域",
-    "lat": 21.4225,
-    "lng": 39.8262,
-    "description": "沙烏地童軍最具標誌性的活動是每年朝覲（Hajj）期間的志願服務。自1961年以來，童軍在麥加、米納、阿拉法特和麥地那等聖地為數百萬朝覲者提供引導、醫療護送、翻譯和資訊分發服務。服務從最初的150名童軍擴展至如今每年超過3,000人。1965至1974年間更邀請了來自阿拉伯和伊斯蘭國家的童軍共同參與。SASA是全球首批獲得WOSM全球支持評估工具（GSAT）認證的國家協會之一。"
-  },
-  {
-    "id": "SA-DESERT-SCOUTING",
-    "parentCountry": "SA",
-    "level": 3,
-    "type": "Activity",
-    "flag": "🐪",
-    "category": "沙漠童軍特色 (Desert Scouting)",
-    "name": "沙烏地阿拉伯沙漠童軍傳統",
-    "nameEn": "Saudi Arabia Desert Scouting Programme",
-    "subregion": "全國沙漠地區",
-    "lat": 24.7136,
-    "lng": 46.6753,
-    "description": "沙烏地阿拉伯大部分國土為沙漠，童軍組織充分利用這一地理特徵開展沙漠訓練。童軍學習傳統貝都因人的沙漠生存技能，包括沙漠導航、尋找水源、星空識別、駱駝騎乘和帳篷搭建等。利雅德附近的Thumamah沙漠和南部魯卜哈利沙漠都是重要的童軍訓練場地。"
-  },
-  {
-    "id": "SA-MESSENGER-PEACE",
-    "parentCountry": "SA",
-    "level": 3,
-    "type": "Activity",
-    "flag": "🕊️",
-    "category": "和平使者童軍特色 (Messengers of Peace)",
-    "name": "沙烏地童軍和平使者倡議",
-    "nameEn": "Saudi Scouts Messengers of Peace Initiative",
-    "subregion": "利雅德 (Riyadh)",
-    "lat": 24.7136,
-    "lng": 46.6753,
-    "description": "沙烏地阿拉伯童軍協會是WOSM「和平使者」（Messengers of Peace）倡議的重要參與者。SASA副會長Abdullah bin Suleiman Al-Fahad博士是12名世界童軍委員會民選成員之一，也是世界童軍基金執行委員會成員。沙國童軍在利雅德舉辦的國際「和平之地」活動曾接待來自超過70個國家的1,300名童軍，以跨文化交流和和平建設為主題。"
-  },
-  {
-    "id": "SA-VISION2030",
-    "parentCountry": "SA",
-    "level": 3,
-    "type": "Activity",
-    "flag": "🔮",
-    "category": "願景2030童軍特色 (Vision 2030 Scouting)",
-    "name": "沙烏地童軍願景2030改革",
-    "nameEn": "Saudi Scouts Vision 2030 Reform Programme",
-    "subregion": "全國",
-    "lat": 24.7136,
-    "lng": 46.6753,
-    "description": "隨著沙烏地阿拉伯「願景2030」改革計劃的推進，童軍組織也在經歷重大轉型。最顯著的變化是設立了首批女性童軍單位，在大學中建立女子 rover 童軍團。2019年在利雅德舉辦了阿拉伯地區女性與女童賦權工作坊。童軍活動也更加強調數碼技能、創新思維和可持續發展，與國家現代化目標相一致。"
+    "description": "沙烏地阿拉伯童軍官方用品中心，設於國家總部內。提供童軍制服、徽章、露營裝備等物資。各國童軍前來交流時可在此取得阿拉伯特色童軍紀念布章。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "http://www.scouts.org.sa"
   }
 ]

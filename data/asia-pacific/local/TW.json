@@ -13,12 +13,15 @@
     "lng": 121.5375,
     "address": "104 台北市中山區建國北路一段23巷9號4樓（中華童軍會館）",
     "phone": "+886 2 2740 1336",
-    "email": "scouts@scout.org.tw",
+    "email": "",
     "website": "https://www.scout.org.tw",
     "facebook": "https://www.facebook.com/scoutstw/",
     "instagram": "scouts_tgasc",
     "youtube": "https://www.youtube.com/channel/UCigs1RvZakaMWv3DZQdpibQ",
-    "description": "社團法人中華民國童軍總會（世界童軍運動組織登記名：Scouts of China）。1912年由嚴家麟創立，是亞洲歷史最悠久的童軍組織之一。會長由國家元首賴清德擔任，理事長林明裕。2022年會員約53,105人。總部設於台北市建國北路的中華童軍會館。"
+    "description": "社團法人中華民國童軍總會（世界童軍運動組織登記名：Scouts of China）。1912年由嚴家麟創立，是亞洲歷史最悠久的童軍組織之一。會長由國家元首賴清德擔任，理事長林明裕。2022年會員約53,105人。總部設於台北市建國北路的中華童軍會館。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ retained from WOSM/local official data; verify current status before travel",
+    "verificationSource": "https://www.scout.org.tw"
   },
   {
     "id": "TW-SHOP-HQ",
@@ -34,9 +37,12 @@
     "lng": 121.5376,
     "address": "台北市中山區建國北路一段23巷9號1樓",
     "phone": "+886 2 2751 7976",
-    "website": "https://www.scoutshop.com.tw",
-    "email": "scout.goods@msa.hinet.net",
-    "description": "台灣官方童軍文物供應中心，位於中華童軍會館1樓。販售各級童軍制服、縣市布章紀念章、領巾、晉級書籍及露營野外活動裝備。來台北必去的童軍景點！"
+    "website": "https://www.scoutshop.com.tw/",
+    "email": "",
+    "description": "中華民國童軍文物供應中心 / Scout Shop TW，網站提供童軍制服、徽章、領巾、紀念品及童軍用品等公開購物資訊。個人旅行購物請按網站及現場公開安排確認。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://www.scoutshop.com.tw/"
   },
   {
     "id": "TW-CAMP-YANGMING",
@@ -53,7 +59,11 @@
     "address": "台北市北投區竹子湖路1-10號",
     "phone": "+886 2 2862 6995",
     "website": "https://www.scout.org.tw",
-    "description": "陽明山國家公園內的童軍專屬營地，海拔約600公尺，面積6公頃。由中華民國童軍總會直轄管理。設有營舍（168人）、露營區（25營位）、營火場3座、餐廳、會議室。可容納約500人。是北台灣最經典童軍營地，鄰近陽明山國家公園管理處及竹子湖。"
+    "description": "中華民國童軍總會苗圃營地頁介紹陽明山童軍露營場源流、位置及設施，作為台北陽明山地區童軍露營及木章訓練相關場地。個人旅行或參觀前請以官方頁及最新公告確認開放安排。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official/legacy Scout Association camp list; verify current status before travel",
+    "verificationSource": "https://www.scout.org.tw/autopage_detail/1/438",
+    "email": ""
   },
   {
     "id": "TW-CAMP-DAKENG",
@@ -69,7 +79,11 @@
     "lng": 120.7675,
     "address": "台中市北屯區民政里北坑巷（大坑風景區內）",
     "phone": "+886 4 2239 0685",
-    "description": "中部最負盛名的童軍營地，位於大坑風景區內。可容納約1,500人。設有大型營火場、炊事場、會議室及完善水電設施。經常舉辦全國性及全市大露營與木章訓練。"
+    "description": "中華民國童軍總會舊營地資料列「中正露營區」，地址為台中市北屯區民政里北坑巷，管理單位為台中市政府教育局，容量約 1500。出發前請以台中市童軍會或場地最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "legacy official camp list referenced earlier; original URL currently unavailable; verify current status before travel",
+    "verificationSource": "https://www.scout.org.tw/",
+    "email": ""
   },
   {
     "id": "TW-CAMP-CHENGCHING",
@@ -81,59 +95,15 @@
     "name": "澄清湖青年活動中心（童軍營地）",
     "nameEn": "Cheng Ching Lake Youth Center",
     "subregion": "高雄市 (Kaohsiung)",
-    "lat": 22.6580,
-    "lng": 120.3550,
+    "lat": 22.658,
+    "lng": 120.355,
     "address": "高雄市鳥松區文前路140號",
     "phone": "+886 7 371 7181",
-    "description": "位於澄清湖風景區內，可容納約1,200人。設有露營區、營火場、會議室、餐廳等完善設施。南台灣大型童軍活動與訓練的重要基地。"
-  },
-  {
-    "id": "TW-CAMP-GEZHI",
-    "parentCountry": "TW",
-    "level": 3,
-    "type": "Campsite",
-    "flag": "🏫",
-    "category": "童軍營地 (Campsite)",
-    "name": "格致童軍營地",
-    "nameEn": "Gezhi Scout Camp",
-    "subregion": "台北市 (Taipei)",
-    "lat": 25.1092,
-    "lng": 121.5301,
-    "address": "台北市士林區仰德大道四段75號（格致國中）",
-    "phone": "+886 2 2861 6613",
-    "description": "位於陽明山仰德大道上，由格致國中代管。容納約160人，適合中小型童軍活動及訓練。陽明山第二個童軍營地選擇。"
-  },
-  {
-    "id": "TW-CAMP-NUANDONG",
-    "parentCountry": "TW",
-    "level": 3,
-    "type": "Campsite",
-    "flag": "🌲",
-    "category": "童軍營地 (Campsite)",
-    "name": "暖東童軍營地",
-    "nameEn": "Nuandong Scout Camp",
-    "subregion": "基隆市 (Keelung)",
-    "lat": 25.0810,
-    "lng": 121.7375,
-    "address": "基隆市暖暖區東勢坑221號",
-    "capacity": "600人",
-    "description": "基隆市童軍會管理的營地，位於暖暖山區。容納約600人。設有營火場、炊事場及室內活動空間。適合北台灣東北角露營活動。"
-  },
-  {
-    "id": "TW-CAMP-WUJIANKENG",
-    "parentCountry": "TW",
-    "level": 3,
-    "type": "Campsite",
-    "flag": "🌊",
-    "category": "童軍營地 (Campsite)",
-    "name": "武荖坑營地",
-    "nameEn": "Wulaokeng Campsite",
-    "subregion": "宜蘭縣 (Yilan)",
-    "lat": 24.6050,
-    "lng": 121.8200,
-    "address": "宜蘭縣蘇澳鎮新城南路61號（武荖坑風景區）",
-    "phone": "+886 3 996 4050",
-    "description": "宜蘭著名的露營地，位於武荖坑風景區內。附近有冷泉及武荖坑溪。宜蘭綠色博覽會亦曾在此舉辦。"
+    "description": "中華民國童軍總會舊營地資料列「澄清湖青年中心」，地址為高雄市鳥松區文前路 140 號，容量約 1200。出發前請以場地或高雄市童軍會最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "legacy official camp list referenced earlier; original URL currently unavailable; verify current status before travel",
+    "verificationSource": "https://www.scout.org.tw/",
+    "email": ""
   },
   {
     "id": "TW-CAMP-SAIJIA",
@@ -145,11 +115,15 @@
     "name": "賽嘉童軍營地",
     "nameEn": "Saijia Scout Camp",
     "subregion": "屏東縣 (Pingtung)",
-    "lat": 22.7550,
-    "lng": 120.6590,
+    "lat": 22.755,
+    "lng": 120.659,
     "address": "屏東縣三地門鄉賽嘉村",
     "phone": "+886 8 732 6415",
-    "description": "位於屏東北大武山山麓，可容納約1,000人。以賽嘉飛行傘基地聞名，結合飛行體驗與童軍露營。南台灣極具特色的營地。"
+    "description": "中華民國童軍總會舊營地資料列「賽嘉營地」，地址為屏東縣三地門賽嘉村，容量約 1000，管理單位為屏東縣政府教育局。出發前請以最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "legacy official camp list referenced earlier; original URL currently unavailable; verify current status before travel",
+    "verificationSource": "https://www.scout.org.tw/",
+    "email": ""
   },
   {
     "id": "TW-CAMP-LIYUTAN",
@@ -161,11 +135,15 @@
     "name": "鯉魚潭童軍營地",
     "nameEn": "Liyu Tan Scout Camp",
     "subregion": "花蓮縣 (Hualien)",
-    "lat": 23.9330,
-    "lng": 121.5080,
+    "lat": 23.933,
+    "lng": 121.508,
     "address": "花蓮縣壽豐鄉池南路一段8號（鯉魚潭風景區）",
     "phone": "+886 3 864 1691",
-    "description": "位於花蓮鯉魚潭畔，可容納約1,000人。花東縱谷經典營地，適合露營、水上活動及自然觀察。是東台灣童軍活動的重要基地。"
+    "description": "中華民國童軍總會舊營地資料列「鯉魚潭營地」，地址為花蓮縣壽豐鄉池南路一段 8 號，容量約 1000，管理單位為花東縱谷國家風景區管理處。出發前請以最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "legacy official camp list referenced earlier; original URL currently unavailable; verify current status before travel",
+    "verificationSource": "https://www.scout.org.tw/",
+    "email": ""
   },
   {
     "id": "TW-CAMP-CORALPOND",
@@ -177,11 +155,15 @@
     "name": "珊瑚潭童軍營地",
     "nameEn": "Coral Pond Scout Camp",
     "subregion": "台南市 (Tainan)",
-    "lat": 23.2100,
-    "lng": 120.3700,
+    "lat": 23.21,
+    "lng": 120.37,
     "address": "台南市官田區嘉南村100號（烏山頭水庫）",
     "phone": "+886 6 698 2092",
-    "description": "位於烏山頭水庫（珊瑚潭）風景區內，可容納約1,500人。由台南市童軍會管理。結合水庫風光與童軍活動。"
+    "description": "中華民國童軍總會舊營地資料列「珊瑚潭童軍營地」，地址為台南市官田區嘉南村 100 號，管理單位為台南市童軍會，容量約 1500。出發前請以最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "legacy official camp list referenced earlier; original URL currently unavailable; verify current status before travel",
+    "verificationSource": "https://www.scout.org.tw/",
+    "email": ""
   },
   {
     "id": "TW-CAMP-TSEMGWEN",
@@ -193,12 +175,15 @@
     "name": "曾文青年活動中心（童軍營地）",
     "nameEn": "Tsengwen Youth Activity Center",
     "subregion": "台南市 (Tainan)",
-    "lat": 23.2500,
-    "lng": 120.5200,
+    "lat": 23.25,
+    "lng": 120.52,
     "address": "台南市楠西區密枝里70之1號（曾文水庫風景區內）",
     "phone": "+886 6 575 3431",
     "website": "https://tsengwen.cyh.org.tw",
-    "description": "位於曾文水庫風景區內，設有鳳凰及菩提兩大露營區，可容納約800人露營。另有套房住宿。由救國團經營，常舉辦童軍訓練及生態觀察活動。"
+    "description": "位於曾文水庫風景區內，設有鳳凰及菩提兩大露營區，可容納約800人露營。另有套房住宿。由救國團經營，常舉辦童軍訓練及生態觀察活動。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationSource": "https://tsengwen.cyh.org.tw"
   },
   {
     "id": "TW-CAMP-FUXINGSHAN",
@@ -210,11 +195,15 @@
     "name": "福星山童軍營地",
     "nameEn": "Fuxingshan Scout Camp",
     "subregion": "苗栗縣 (Miaoli)",
-    "lat": 24.5600,
-    "lng": 120.8100,
+    "lat": 24.56,
+    "lng": 120.81,
     "address": "苗栗市大同里福星山20號",
     "phone": "+886 37 325 002",
-    "description": "位於苗栗市福星山公園內。可容納約1,200人。由苗栗縣童軍會管理。中部客家地區經典營地。"
+    "description": "中華民國童軍總會舊營地資料列「福星山營地」，地址為苗栗市大同里福星山 20 號，管理單位為苗栗縣童軍理事會，容量約 1200。出發前請以最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "legacy official camp list referenced earlier; original URL currently unavailable; verify current status before travel",
+    "verificationSource": "https://www.scout.org.tw/",
+    "email": ""
   },
   {
     "id": "TW-CAMP-XINLONGGANG",
@@ -226,11 +215,15 @@
     "name": "新龍崗童軍營地",
     "nameEn": "Xinlonggang Scout Camp",
     "subregion": "台中市 (Taichung)",
-    "lat": 24.1900,
-    "lng": 120.8100,
+    "lat": 24.19,
+    "lng": 120.81,
     "address": "台中市新社區復盛村中和街國中巷10號",
     "phone": "+886 4 2581 8230",
-    "description": "位於台中市新社山區。可容納約800人。新社花海及香菇聞名，每年大露營季節熱門營地。"
+    "description": "中華民國童軍總會舊營地資料列「新龍崗營地」，地址為台中市新社區復盛村中和街國中巷 10 號，容量約 800。出發前請以最新公開資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "legacy official camp list referenced earlier; original URL currently unavailable; verify current status before travel",
+    "verificationSource": "https://www.scout.org.tw/",
+    "email": ""
   },
   {
     "id": "TW-TAIPEI-COUNCIL",
@@ -246,9 +239,12 @@
     "lng": 121.5375,
     "address": "10491 台北市中山區建國北路一段23巷9號3樓",
     "phone": "+886 2 2740 6110",
-    "email": "tpescout@mail.taipei.gov.tw",
+    "email": "",
     "website": "https://www.tpscout.org",
-    "description": "全台灣最重要的縣市童軍會之一，與總會同在中華童軍會館辦公。負責台北市各級童軍團的推廣與訓練。擁有陽明山童軍營地管理權。"
+    "description": "全台灣最重要的縣市童軍會之一，與總會同在中華童軍會館辦公。負責台北市各級童軍團的推廣與訓練。擁有陽明山童軍營地管理權。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public website listed; verify before travel",
+    "verificationSource": "https://www.tpscout.org"
   },
   {
     "id": "TW-NEWTAIPEI-COUNCIL",
@@ -264,7 +260,11 @@
     "lng": 121.4617,
     "address": "新北市板橋區",
     "website": "http://www.ntpcscout.org.tw",
-    "description": "台灣童軍人口最多的縣市之一。管理新北市29個行政區內的童軍團，擁有豐富的都會與郊山活動資源。"
+    "description": "台灣童軍人口最多的縣市之一。管理新北市29個行政區內的童軍團，擁有豐富的都會與郊山活動資源。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public website listed; verify before travel",
+    "email": "",
+    "verificationSource": "http://www.ntpcscout.org.tw"
   },
   {
     "id": "TW-TAOYUAN-COUNCIL",
@@ -277,9 +277,12 @@
     "nameEn": "Taoyuan City Scout Council",
     "subregion": "桃園市 (Taoyuan)",
     "lat": 24.9936,
-    "lng": 121.3010,
+    "lng": 121.301,
     "address": "桃園市桃園區",
-    "description": "北台灣重要童軍樞紐。管理桃園國際機場所在地桃園市的童軍活動，擁有石門水庫周邊營地資源。"
+    "description": "桃園市童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-TAICHUNG-COUNCIL",
@@ -295,8 +298,11 @@
     "lng": 120.6736,
     "address": "台中市西區三民路一段171號",
     "phone": "+886 4 2222 3653",
-    "website": "http://www.tcscout.org.tw",
-    "description": "中部最大童軍會。經常於大坑中正露營區舉辦全市大露營。管理新龍崗、福壽山等中部營地。"
+    "website": "",
+    "description": "台中市童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-TAINAN-COUNCIL",
@@ -309,9 +315,12 @@
     "nameEn": "Tainan City Scout Council",
     "subregion": "台南市 (Tainan)",
     "lat": 22.9997,
-    "lng": 120.2270,
+    "lng": 120.227,
     "address": "台南市東區",
-    "description": "台灣歷史古都的童軍總樞紐。結合古蹟文化推廣在地童軍運動。管理珊瑚潭（烏山頭）營地。"
+    "description": "台南市童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-KAOHSIUNG-COUNCIL",
@@ -326,7 +335,10 @@
     "lat": 22.6273,
     "lng": 120.3014,
     "address": "高雄市三民區",
-    "description": "南台灣最重要的童軍樞紐。經常在澄清湖及旗津舉辦海上與戶外活動。管理澄清湖營地。"
+    "description": "高雄市童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-KEELUNG-COUNCIL",
@@ -341,7 +353,10 @@
     "lat": 25.1276,
     "lng": 121.7392,
     "address": "基隆市中正區",
-    "description": "北台灣港口城市。管理暖東營地。結合海洋文化推廣海上童軍活動。"
+    "description": "基隆市童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-HCCHU-CITY-COUNCIL",
@@ -356,7 +371,10 @@
     "lat": 24.8138,
     "lng": 120.9675,
     "address": "新竹市東區",
-    "description": "科技城市的童軍會。管理竹科周邊童軍團，結合科技教育推廣STEM童軍活動。"
+    "description": "新竹市童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-HCCHU-COUNTY-COUNCIL",
@@ -371,7 +389,10 @@
     "lat": 24.8333,
     "lng": 121.0167,
     "address": "新竹縣竹北市",
-    "description": "涵蓋新竹縣山林與客家聚落的童軍活動。擁有豐富的露營與自然探索資源。"
+    "description": "新竹縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-MIAOLI-COUNCIL",
@@ -386,7 +407,10 @@
     "lat": 24.5613,
     "lng": 120.8214,
     "address": "苗栗市",
-    "description": "客家山城童軍會。管理福星山營地（可容1,200人）。苗栗擁有豐富的客家文化與山林資源。"
+    "description": "苗栗縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-CHANGHUA-COUNCIL",
@@ -401,7 +425,10 @@
     "lat": 24.0517,
     "lng": 120.5361,
     "address": "彰化市",
-    "description": "中部農業大縣。八卦山脈為主要活動場域。擁有扇形車庫等在地文化資源。"
+    "description": "彰化縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-NANTOU-COUNCIL",
@@ -416,7 +443,10 @@
     "lat": 23.9167,
     "lng": 120.6833,
     "address": "南投市中興新村",
-    "description": "台灣唯一不靠海的縣市。擁有玉山、日月潭、溪頭等全國級戶外活動資源。管理奇萊山及瑞竹童軍營地。"
+    "description": "南投縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-YUNLIN-COUNCIL",
@@ -431,7 +461,10 @@
     "lat": 23.7078,
     "lng": 120.5439,
     "address": "雲林縣斗六市",
-    "description": "農業大縣。管理斗六地區童軍活動。2026年曾在此舉行童軍進程說明會。"
+    "description": "雲林縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-CHIAYI-CITY-COUNCIL",
@@ -446,7 +479,10 @@
     "lat": 23.4796,
     "lng": 120.4491,
     "address": "嘉義市東區",
-    "description": "阿里山入口城市。結合森林鐵道與高山健行推廣童軍活動。"
+    "description": "嘉義市童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-CHIAYI-COUNTY-COUNCIL",
@@ -461,7 +497,10 @@
     "lat": 23.4513,
     "lng": 120.2555,
     "address": "嘉義縣太保市",
-    "description": "涵蓋阿里山國家風景區。擁有豐富的山地及海岸露營資源。"
+    "description": "嘉義縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-PINGTUNG-COUNCIL",
@@ -473,10 +512,13 @@
     "name": "屏東縣童軍會",
     "nameEn": "Pingtung County Scout Council",
     "subregion": "屏東縣 (Pingtung)",
-    "lat": 22.6750,
-    "lng": 120.4920,
+    "lat": 22.675,
+    "lng": 120.492,
     "address": "屏東市",
-    "description": "台灣最南端的童軍會。管理賽嘉營地及墾丁國家公園周邊活動。結合熱帶海洋與原住民文化。"
+    "description": "屏東縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-YILAN-COUNCIL",
@@ -488,10 +530,13 @@
     "name": "宜蘭縣童軍會",
     "nameEn": "Yilan County Scout Council",
     "subregion": "宜蘭縣 (Yilan)",
-    "lat": 24.7500,
-    "lng": 121.7500,
+    "lat": 24.75,
+    "lng": 121.75,
     "address": "宜蘭市",
-    "description": "東北角的童軍會。擁有好山好水，武荖坑、武塔等營地及豐富的冷泉與海洋資源。"
+    "description": "宜蘭縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-HUALIEN-COUNCIL",
@@ -503,10 +548,13 @@
     "name": "花蓮縣童軍會",
     "nameEn": "Hualien County Scout Council",
     "subregion": "花蓮縣 (Hualien)",
-    "lat": 23.9920,
-    "lng": 121.6260,
+    "lat": 23.992,
+    "lng": 121.626,
     "address": "花蓮市",
-    "description": "台灣後山花蓮的童軍會。管理鯉魚潭營地。結合太魯閣國家公園及東海岸推廣戶外冒險活動。"
+    "description": "花蓮縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-TAITUNG-COUNCIL",
@@ -521,7 +569,10 @@
     "lat": 22.7583,
     "lng": 121.1443,
     "address": "台東市",
-    "description": "東台灣原鄉童軍會。管理嘉豐營地。結合原住民文化及太平洋海岸線推廣童軍活動。"
+    "description": "台東縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-PENGHU-COUNCIL",
@@ -536,7 +587,10 @@
     "lat": 23.5641,
     "lng": 119.5863,
     "address": "澎湖縣馬公市",
-    "description": "台灣離島童軍會。管理湖西苗圃童軍營地。澎湖國際海上花火節期間可與各國童軍交流。"
+    "description": "澎湖縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-KINMEN-COUNCIL",
@@ -551,7 +605,10 @@
     "lat": 24.4367,
     "lng": 118.3186,
     "address": "金門縣金城鎮",
-    "description": "前線戰地童軍會。金門擁有獨特的戰地景觀、閩南古厝及高粱酒文化。離島交流的絕佳選擇。"
+    "description": "金門縣童軍會。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-LIENCHIANG-COUNCIL",
@@ -563,10 +620,13 @@
     "name": "連江縣童軍會 (馬祖)",
     "nameEn": "Lienchiang County Scout Council (Matsu)",
     "subregion": "連江縣 (Lienchiang/Matsu)",
-    "lat": 26.1500,
-    "lng": 119.9500,
+    "lat": 26.15,
+    "lng": 119.95,
     "address": "連江縣南竿鄉",
-    "description": "馬祖列島的童軍會。擁有戰地坑道、藍眼淚及獨特閩東文化。台灣最北端的童軍組織。"
+    "description": "連江縣童軍會 (馬祖)。此項作台灣縣市級童軍會資料入口及地圖代表點；未附直接官方頁者，出發前請透過中華民國童軍總會、縣市教育局或公開社交資訊覆核。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "local scout council entry; direct public source pending",
+    "email": ""
   },
   {
     "id": "TW-PROVINCIAL-COUNCIL",
@@ -582,6 +642,10 @@
     "lng": 121.5375,
     "address": "台北市中山區建國北路一段23巷9號",
     "website": "https://www.twscout.org.tw",
-    "description": "臺灣省童軍會（因精省現已轉型為功能較弱之組織）。早期負責省轄縣市（桃竹苗中彰投雲嘉南屏東宜花東澎）的童軍業務協調。主要作為各縣市童軍會之間的聯繫平台。"
+    "description": "臺灣省童軍會（因精省現已轉型為功能較弱之組織）。早期負責省轄縣市（桃竹苗中彰投雲嘉南屏東宜花東澎）的童軍業務協調。主要作為各縣市童軍會之間的聯繫平台。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "public website listed; verify before travel",
+    "email": "",
+    "verificationSource": "https://www.twscout.org.tw"
   }
 ]
