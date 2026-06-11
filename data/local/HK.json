@@ -14,11 +14,36 @@
     "address": "九龍柯士甸道童軍徑香港童軍中心",
     "phone": "+852 23773300",
     "website": "https://www.scout.org.hk/",
-    "email": "scoutcraft@scout.org.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/hkscout",
     "instagram": "hkscouting",
     "youtube": "https://www.youtube.com/channel/UCzWCJnS0wHFMq1rkqzZSXUw",
-    "description": "香港童軍總會（The Scout Association of Hong Kong），1911年成立，WOSM正式成員。總部位於九龍尖沙咀香港童軍中心。"
+    "description": "香港童軍總會（The Scout Association of Hong Kong），1911年成立，WOSM正式成員。總部位於九龍尖沙咀香港童軍中心。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.scout.org.hk/"
+  },
+  {
+    "id": "HK-DEPT-IL",
+    "parentCountry": "HK",
+    "level": 3,
+    "type": "Department",
+    "flag": "🇭🇰",
+    "category": "總會部門 (Association Headquarters Department)",
+    "name": "香港童軍總會國際署",
+    "nameEn": "International Branch, Scout Association of Hong Kong",
+    "subregion": "總部直轄",
+    "lat": 22.3026,
+    "lng": 114.1694,
+    "address": "香港九龍柯士甸道童軍徑香港童軍中心10樓1017室",
+    "phone": "+852 2957 6400",
+    "fax": "+852 2302 1001",
+    "website": "https://scout.org.hk/tc/scout-units/association-headquarters/index.html?id=10",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "description": "國際署是香港童軍總會的外事單位，負責與海外童軍會聯絡、海外探訪／活動申請、國際介紹信及相關轉介服務。根據政策通告第02/2018號，個別成員或單位與海外童軍組織通訊必須經由總會轉介；如需安排轉介，請直接聯絡總會國際署。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://scout.org.hk/tc/scout-units/association-headquarters/index.html?id=10"
   },
   {
     "id": "HK-SHOP-HQ",
@@ -35,10 +60,13 @@
     "address": "九龍柯士甸道童軍徑香港童軍中心11樓",
     "phone": "+852 2957 6444",
     "website": "https://www.hkscoutshop.org.hk",
-    "email": "scoutshop@scout.org.hk",
+    "email": "",
     "description": "香港童軍總會直屬用品社，提供最齊全的香港童軍制服、進度章、精美紀念品與露營裝備。",
     "instagram": "hkscouting",
-    "youtube": "https://www.youtube.com/channel/UCzWCJnS0wHFMq1rkqzZSXUw"
+    "youtube": "https://www.youtube.com/channel/UCzWCJnS0wHFMq1rkqzZSXUw",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.hkscoutshop.org.hk"
   },
   {
     "id": "HK-CAMP-GILWELL",
@@ -56,7 +84,10 @@
     "website": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=7",
     "description": "飛鵝山上的經典高山露營地，保留原始自然風貌，提供繩網陣、營地定向及先鋒工程訓練。",
     "phone": "+852 2327 4831",
-    "email": "gilwell@scout.org.hk"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=7"
   },
   {
     "id": "HK-CAMP-TAITAM",
@@ -74,7 +105,10 @@
     "website": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=1",
     "description": "提供露營、日營、水上活動、先鋒工程及繩網等豐富訓練設施的港島區主要營地。",
     "phone": "+852 2892 6366",
-    "email": "taitam@scout.org.hk"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=1"
   },
   {
     "id": "HK-CAMP-TAIMEITUK",
@@ -92,7 +126,10 @@
     "website": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=3",
     "description": "專注於水上活動訓練的中心，是香港海上童軍(Sea Scout)的搖籃。",
     "phone": "+852 2666 8488",
-    "email": "taimeituk@scout.org.hk"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=3"
   },
   {
     "id": "HK-CAMP-SHATIN",
@@ -110,7 +147,10 @@
     "website": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=4",
     "description": "位於沙田市區邊緣的寧靜營地，適合日營、黃昏營與基礎露營。",
     "phone": "+852 2665 8082",
-    "email": "ttz@scout.org.hk"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=4"
   },
   {
     "id": "HK-CAMP-TUNGTSZ",
@@ -128,7 +168,10 @@
     "website": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=2",
     "description": "新界東區設施最完善的營地，設有宿營、露營區，並提供射箭、攀石與原野烹飪體驗。",
     "phone": "+852 2666 8477",
-    "email": "tungtsz@scout.org.hk"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=2"
   },
   {
     "id": "HK-CAMP-PAKSHAWAN",
@@ -146,7 +189,10 @@
     "website": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=6",
     "description": "西貢白沙灣著名的海上童軍基地，擁有獨木舟、帆船及竹筏紮作等完善水上設施。",
     "phone": "+852 2792 1901",
-    "email": "pakshawansac@scout.org.hk"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=6"
   },
   {
     "id": "HK-CAMP-TAITONG",
@@ -164,7 +210,10 @@
     "website": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=5",
     "description": "位於元朗大棠的自然營地。擁有豐富的戶外綠色空間。",
     "phone": "+852 2478 2466",
-    "email": "taitong@scout.org.hk"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://scout.org.hk/tc/scout-units/camp-sites-facilities/camp-sites-activity-centres/index.html?id=5"
   },
   {
     "id": "HK-REG-KR",
@@ -180,12 +229,15 @@
     "lng": 114.1694,
     "address": "九龍柯士甸道童軍徑香港童軍中心 9樓 926室",
     "phone": "+852-2957 6488",
-    "email": "enquiry@krscout.org",
+    "email": "",
     "website": "https://krscout.org/",
     "description": "九龍地域於1961年成立，是香港童軍總會轄下的五個地域之一。設有九區，發展到有229個旅及519個團，負責九龍區的童軍活動及訓練。",
     "facebook": "https://www.facebook.com/scout.kr/",
     "instagram": "krscoutpr",
-    "youtube": "https://www.youtube.com/channel/UCpdoMF5kawv9z0aPluUWYpg"
+    "youtube": "https://www.youtube.com/channel/UCpdoMF5kawv9z0aPluUWYpg",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://krscout.org/"
   },
   {
     "id": "HK-REG-NTR",
@@ -202,9 +254,12 @@
     "address": "新界葵涌和宜合道308號鄧肇堅男女童軍中心4樓",
     "phone": "+852 24255999",
     "fax": "+852 2481 7445",
-    "email": "ntr@scout.org.hk",
+    "email": "",
     "website": "https://www.scout-ntr.org.hk/mainweb/big5/global/home.php",
-    "description": "新界地域於1958年成立，1987年搬至現今的鄧肇堅男女童軍中心。負責新界區的童軍活動及訓練。"
+    "description": "新界地域於1958年成立，1987年搬至現今的鄧肇堅男女童軍中心。負責新界區的童軍活動及訓練。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.scout-ntr.org.hk/mainweb/big5/global/home.php"
   },
   {
     "id": "HK-REG-NTER",
@@ -221,11 +276,14 @@
     "address": "大埔運頭角里15號羅定邦童軍中心",
     "phone": "+852 26679100",
     "fax": "+852 2667 0298",
-    "email": "nter@scout.org.hk",
+    "email": "",
     "website": "https://www.nter-hkscout.org/",
     "description": "新界東地域總部設於法定古蹟羅定邦童軍中心（舊北區理民府），建於1981年11月13日，1988年至2000年撥作環保署大埔區分處，2002年成為新界東地域總部。",
     "facebook": "https://www.facebook.com/nteryouthscout/?tn-str=k*F",
-    "instagram": "nteryouthscout"
+    "instagram": "nteryouthscout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.nter-hkscout.org/"
   },
   {
     "id": "HK-REG-EKR",
@@ -242,11 +300,14 @@
     "address": "九龍柯士甸道童軍徑香港童軍中心9樓923室",
     "phone": "+852 29576466",
     "fax": "+852 2302 1168",
-    "email": "ekr@scout.org.hk",
+    "email": "",
     "website": "https://hkscout-ekr.org/",
     "description": "東九龍地域於1977年起定於觀塘和樂村，1994年遷往香港童軍中心。負責東九龍區的童軍活動及訓練。",
     "facebook": "https://www.facebook.com/HKScout.EKR/?locale=zh_HK",
-    "instagram": "hkscout.ekr"
+    "instagram": "hkscout.ekr",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://hkscout-ekr.org/"
   },
   {
     "id": "HK-REG-HKIR",
@@ -262,12 +323,15 @@
     "lng": 114.1795,
     "address": "香港灣仔日善街23號香港童軍百周年紀念大樓19樓",
     "phone": "+852 25744296",
-    "email": "hkir@scout.org.hk",
+    "email": "",
     "website": "https://www.hkirscout.org.hk/tc/home/index.html",
     "description": "港島地域是香港童軍總會五個地域之一，成立於1951年。總部設於香港童軍百周年紀念大樓，負責港島區的童軍活動及訓練。",
     "facebook": "https://www.facebook.com/share/18os2xVWeZ/?mibextid=wwXIfr",
     "instagram": "hkirscout",
-    "youtube": "https://www.youtube.com/channel/UC3n9PetO64XZ9nGzzZBa5Dw"
+    "youtube": "https://www.youtube.com/channel/UC3n9PetO64XZ9nGzzZBa5Dw",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.hkirscout.org.hk/tc/home/index.html"
   },
   {
     "id": "HK-DIST-KLC",
@@ -284,9 +348,12 @@
     "nameEn": "Kowloon City District",
     "address": "九龍東頭二村榮東樓地下 1-3 號 王錦輝活動中心",
     "phone": "+852 27186609",
-    "email": "enquiry@klcscout.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/klcscout",
-    "instagram": "klcscout1961"
+    "instagram": "klcscout1961",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.klcscout.hk/"
   },
   {
     "id": "HK-DIST-KLT",
@@ -304,8 +371,11 @@
     "address": "九龍塘律倫街十一號",
     "description": "九龍塘區總部設有禮堂及對出空地，提供完善室內外活動空間。",
     "phone": "+852 23369229",
-    "email": "klg@krscout.org",
-    "facebook": "https://www.facebook.com/share/g/1K8DYwWSaa/?mibextid=wwXIfr"
+    "email": "",
+    "facebook": "https://www.facebook.com/share/g/1K8DYwWSaa/?mibextid=wwXIfr",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.scout-kowloontong.org/"
   },
   {
     "id": "HK-DIST-KLB",
@@ -323,8 +393,11 @@
     "address": "九龍啟業邨啟祥樓地下G5及6室",
     "phone": "+852 23449543",
     "fax": "+852 2344 9543",
-    "email": "klb_hq@yahoo.com.hk",
-    "facebook": "https://www.facebook.com/KLBD.Scout.HK"
+    "email": "",
+    "facebook": "https://www.facebook.com/KLBD.Scout.HK",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.hkscout-klb.org/web2017/"
   },
   {
     "id": "HK-DIST-HMT",
@@ -340,7 +413,10 @@
     "website": "https://hmt.krscout.org/",
     "nameEn": "Ho Man Tin District",
     "address": "九龍何文田愛民村嘉民樓614室",
-    "email": "hmt@krscout.org"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://hmt.krscout.org/"
   },
   {
     "id": "HK-DIST-YLE",
@@ -356,9 +432,12 @@
     "website": "https://yle.scout-ntr.org.hk/",
     "nameEn": "Yuen Long East District",
     "address": "新界元朗青山公路2B號 元朗東區區會中心",
-    "email": "eastyuenlong@gmail.com",
+    "email": "",
     "facebook": "https://www.facebook.com/share/1Ee1oyuyLG/?mibextid=wwXIfr",
-    "phone": "+852 24771345"
+    "phone": "+852 24771345",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://yle.scout-ntr.org.hk/"
   },
   {
     "id": "HK-DIST-YLW",
@@ -374,9 +453,12 @@
     "website": "https://www.ylw-scout.org.hk/",
     "nameEn": "Yuen Long West District",
     "address": "新界元朗公園北路35號",
-    "email": "info@ylw-scout.org.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/HKSTMWD/",
-    "phone": "+852 24783633"
+    "phone": "+852 24783633",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.ylw-scout.org.hk/"
   },
   {
     "id": "HK-DIST-NKC",
@@ -392,8 +474,11 @@
     "website": "https://www.nkcscout.org/",
     "nameEn": "North Kwai Chung District",
     "address": "新界葵涌和宜合道 308 號鄧肇堅男女童軍中心5樓507室",
-    "email": "webmaster@nkcscout.org",
-    "phone": "+852 24255999"
+    "email": "",
+    "phone": "+852 24255999",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.nkcscout.org/"
   },
   {
     "id": "HK-DIST-SPH",
@@ -410,10 +495,13 @@
     "nameEn": "Shap Pat Heung District",
     "address": "元朗凹頭楊屋村104號",
     "description": "十八鄉區總部設有演講室及空地，適合舉辦訓練班與集會。",
-    "email": "sph@sph-scout.org.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/share/1H2oSqjqUQ/?mibextid=wwXIfr",
     "instagram": "sphd_scout",
-    "phone": "+852 24768010"
+    "phone": "+852 24768010",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.sph-scout.org.hk/"
   },
   {
     "id": "HK-DIST-SKC",
@@ -429,9 +517,12 @@
     "website": "https://skc.scout-ntr.org.hk/",
     "nameEn": "South Kwai Chung District",
     "address": "新界葵涌和宜合道308號 鄧肇堅男女童軍中心5樓506室",
-    "email": "skcdist@yahoo.com.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/share/g/1NAedDYQ9z/?mibextid=wwXIfr",
-    "phone": "+852 24255999"
+    "phone": "+852 24255999",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://skc.scout-ntr.org.hk/"
   },
   {
     "id": "HK-DIST-TPN",
@@ -447,9 +538,12 @@
     "website": "https://tpnscout.org/",
     "nameEn": "Tai Po North District",
     "address": "大埔運頭角里15號羅定邦童軍中心19室",
-    "email": "info@tpnscout.org",
+    "email": "",
     "facebook": "https://www.facebook.com/tpnscout",
-    "instagram": "tpn.scout"
+    "instagram": "tpn.scout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://tpnscout.org/"
   },
   {
     "id": "HK-DIST-TPS",
@@ -466,9 +560,12 @@
     "nameEn": "Tai Po South District",
     "address": "大埔運頭角里15號羅定邦童軍中心21室",
     "phone": "+852 63716821",
-    "email": "district@tps.org.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/tpsscout/?locale=zh_HK",
-    "instagram": "tai_po_south_district"
+    "instagram": "tai_po_south_district",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "http://www.tps.org.hk/"
   },
   {
     "id": "HK-DIST-LANTAU",
@@ -483,9 +580,12 @@
     "lng": 113.931843,
     "nameEn": "Lantau Island District",
     "address": "順東路與赤臘角南路交界處",
-    "email": "lantauscout@gmail.com",
+    "email": "",
     "facebook": "https://www.facebook.com/lantauscouts/?locale=zh_HK",
-    "instagram": "lantau_scout"
+    "instagram": "lantau_scout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.scout.org.hk/"
   },
   {
     "id": "HK-DIST-TKO",
@@ -502,9 +602,12 @@
     "nameEn": "Tseung Kwan O District",
     "address": "香港將軍澳寶林村寶寧樓313-314室",
     "phone": "+852 27042988",
-    "email": "enquiry@tko-scout.org.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/share/g/17raVBqaeW/?mibextid=wwXIfr",
-    "instagram": "tkoscout"
+    "instagram": "tkoscout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://hkscout-tko.org/"
   },
   {
     "id": "HK-DIST-TME",
@@ -520,8 +623,11 @@
     "website": "http://www.scout.org.hk/TME",
     "nameEn": "Tuen Mun East District",
     "address": "屯門虎地屯富路27號 鑽禧紀念館",
-    "email": "tmedscout@gmail.com",
-    "instagram": "tmescout"
+    "email": "",
+    "instagram": "tmescout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "http://www.scout.org.hk/TME"
   },
   {
     "id": "HK-DIST-TMW",
@@ -537,9 +643,12 @@
     "website": "https://tmw.scout-ntr.org.hk/",
     "nameEn": "Tuen Mun West District",
     "address": "屯門屯富路27號鑽禧館",
-    "email": "tmw@scout-ntr.org.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/share/1EZW2cvj9t/?mibextid=wwXIfr",
-    "phone": "+852 24512333"
+    "phone": "+852 24512333",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://tmw.scout-ntr.org.hk/"
   },
   {
     "id": "HK-DIST-TWS",
@@ -557,8 +666,11 @@
     "address": "九龍 慈雲山 慈民邨 民裕樓 10 號地下",
     "phone": "+852 23283338",
     "fax": "+852 2328 3312",
-    "email": "tws@scouting.org.hk",
-    "facebook": "https://www.facebook.com/twsdscout/?locale=zh_HK"
+    "email": "",
+    "facebook": "https://www.facebook.com/twsdscout/?locale=zh_HK",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://group.scout.org.hk/tws/"
   },
   {
     "id": "HK-DIST-MK",
@@ -574,9 +686,12 @@
     "website": "https://sites.google.com/view/hkscoutmkd/",
     "nameEn": "Mong Kok District",
     "address": "香港九龍大角咀櫸樹街110号林百欣中心 2樓 香港童軍總會旺角區會",
-    "email": "mk@krscout.org",
+    "email": "",
     "facebook": "https://www.facebook.com/p/香港童軍總會-旺角區-100075948442190/",
-    "instagram": "mkdscout"
+    "instagram": "mkdscout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://sites.google.com/view/hkscoutmkd/"
   },
   {
     "id": "HK-DIST-CW",
@@ -592,9 +707,12 @@
     "website": "https://chaiwanscout.org.hk/v3/",
     "nameEn": "Chai Wan District",
     "address": "香港柴灣漁灣邨漁安樓地下 23 號舖",
-    "email": "cw@hkirscout.org.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/chaiwanscout/",
-    "instagram": "chaiwanscout"
+    "instagram": "chaiwanscout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://chaiwanscout.org.hk/v3/"
   },
   {
     "id": "HK-DIST-STN",
@@ -610,8 +728,11 @@
     "website": "https://www.stnscout.org/",
     "nameEn": "Sha Tin North District",
     "address": "香港新界大埔運頭角里15號羅定邦童軍中心",
-    "email": "info@stnscout.org",
-    "facebook": "https://www.facebook.com/stnscout/?locale=zh_HK"
+    "email": "",
+    "facebook": "https://www.facebook.com/stnscout/?locale=zh_HK",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.stnscout.org/"
   },
   {
     "id": "HK-DIST-STS",
@@ -628,9 +749,12 @@
     "nameEn": "Sha Tin South District",
     "address": "香港沙田大圍顯和里顯徑鄰里社區中心4樓406室",
     "phone": "+852 21329636",
-    "email": "info@stsd-scout.org",
+    "email": "",
     "facebook": "https://www.facebook.com/p/香港童軍總會-新界東地域-沙田南區-100064868370588/?locale=zh_HK",
-    "instagram": "stsdscout"
+    "instagram": "stsdscout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.stsd-scout.org/"
   },
   {
     "id": "HK-DIST-STE",
@@ -647,9 +771,12 @@
     "nameEn": "Sha Tin East District",
     "address": "新界沙田禾輋邨厚和樓 425-426 號",
     "phone": "+852 39564045",
-    "email": "web@stescout.org",
+    "email": "",
     "facebook": "https://www.facebook.com/stescout/",
-    "instagram": "ste.scout"
+    "instagram": "ste.scout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.stescout.org/website/"
   },
   {
     "id": "HK-DIST-STW",
@@ -666,9 +793,12 @@
     "nameEn": "Sha Tin West District",
     "address": "新界沙田禾輋邨厚和樓平台427-428號",
     "phone": "+852 26924542",
-    "email": "enquiry@stwscout.org",
+    "email": "",
     "facebook": "https://www.facebook.com/stwscout/",
-    "instagram": "stwscout"
+    "instagram": "stwscout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.stwscout.org/wp/"
   },
   {
     "id": "HK-DIST-YT",
@@ -684,9 +814,12 @@
     "website": "https://ytd.krscout.org/",
     "nameEn": "Yau Tsim District",
     "address": "九龍柯士甸道童軍徑香港童軍中心9樓927室",
-    "email": "yt@krscout.org",
+    "email": "",
     "facebook": "https://www.facebook.com/p/香港童軍總會油尖區-Scout-Association-of-Hong-Kong-Yau-Tsim-District-100079941172382/?locale=zh_HK",
-    "instagram": "yau_tsim_scout"
+    "instagram": "yau_tsim_scout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://ytd.krscout.org/"
   },
   {
     "id": "HK-DIST-SM",
@@ -702,8 +835,11 @@
     "website": "https://group.scout.org.hk/smd/",
     "nameEn": "Sham Mong District",
     "address": "九龍深水埗昌新里1號南昌邨南昌社區中心4樓",
-    "email": "info@shammongscout.org",
-    "facebook": "https://www.facebook.com/p/香港童軍總會深旺區-61571978408046/"
+    "email": "",
+    "facebook": "https://www.facebook.com/p/香港童軍總會深旺區-61571978408046/",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://group.scout.org.hk/smd/"
   },
   {
     "id": "HK-DIST-SSPE",
@@ -720,8 +856,11 @@
     "nameEn": "Sham Shui Po East District",
     "address": "大坑東社區中心一樓101室 陳其鑣教授會長堂",
     "phone": "+852 31889109",
-    "email": "sspe@krscout.org",
-    "facebook": "https://www.facebook.com/scoutsspe/?locale=zh_HK"
+    "email": "",
+    "facebook": "https://www.facebook.com/scoutsspe/?locale=zh_HK",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://sspe.krscout.org/"
   },
   {
     "id": "HK-DIST-SSPW",
@@ -738,9 +877,12 @@
     "nameEn": "Sham Shui Po West District",
     "address": "九龍深水埗麗閣邨麗荷樓316-317室",
     "phone": "+852 27201106",
-    "email": "sspw@krscout.org",
+    "email": "",
     "facebook": "https://www.facebook.com/share/g/1DNs7w76HQ/?mibextid=wwXIfr",
-    "instagram": "sspw_scout"
+    "instagram": "sspw_scout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://sspw.krscout.org/"
   },
   {
     "id": "HK-DIST-HKN",
@@ -758,8 +900,11 @@
     "address": "香港北角民新街42號",
     "description": "港島北區總部設有活動室及對出空地，可供外界團體申請使用舉辦康體活動。",
     "phone": "+852 25621872",
-    "email": "hknscout@gmail.com",
-    "facebook": "https://www.facebook.com/hknscout"
+    "email": "",
+    "facebook": "https://www.facebook.com/hknscout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.hknscout.org/"
   },
   {
     "id": "HK-DIST-HKS",
@@ -775,9 +920,12 @@
     "website": "https://sites.google.com/hkirscout.org.hk/hks",
     "nameEn": "Hong Kong South District",
     "address": "香港灣仔日善街23號香港童軍百周年紀念大樓18樓1802室",
-    "email": "hks@hkirscout.org.hk",
+    "email": "",
     "description": "港島南區每月第一個星期五晚上7:00-8:00辦公。",
-    "phone": "+852 2835 7777"
+    "phone": "+852 2835 7777",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://sites.google.com/hkirscout.org.hk/hks"
   },
   {
     "id": "HK-DIST-HKW",
@@ -797,7 +945,10 @@
     "fax": "+852 2517 6182",
     "description": "港島西區逢星期二6:00-8:30pm辦公。",
     "facebook": "https://www.facebook.com/share/1CfrHrrLfp/?mibextid=wwXIfr",
-    "instagram": "hkw.scout"
+    "instagram": "hkw.scout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://group.scout.org.hk/hkw/"
   },
   {
     "id": "HK-DIST-WC",
@@ -815,10 +966,13 @@
     "address": "香港灣仔日善街23號 香港童軍百周年紀念大樓1108室",
     "phone": "+852 25749311",
     "fax": "+852 3011 5215",
-    "email": "admin@wanchaiscout.org.hk",
+    "email": "",
     "description": "灣仔區逢星期一至三、五9:30am-7:00pm，星期四5:30pm-10:00pm辦公。",
     "facebook": "https://www.facebook.com/wanchaiscout/?locale=zh_HK",
-    "instagram": "wanchaiscout"
+    "instagram": "wanchaiscout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.wanchaiscout.org.hk/index.php?lang=zh-tw"
   },
   {
     "id": "HK-DIST-PF",
@@ -834,8 +988,11 @@
     "website": "https://sites.google.com/view/pikfung-district",
     "nameEn": "Pik Fung District",
     "address": "新界粉嶺祥華邨祥禮樓二樓225-227室",
-    "email": "pf@nter-hkscout.org",
-    "facebook": "https://www.facebook.com/scoutpfd/?locale=zh_HK"
+    "email": "",
+    "facebook": "https://www.facebook.com/scoutpfd/?locale=zh_HK",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://sites.google.com/view/pikfung-district"
   },
   {
     "id": "HK-DIST-SMP",
@@ -851,8 +1008,11 @@
     "website": "https://sites.google.com/view/smpscout",
     "nameEn": "Sau Mau Ping District",
     "address": "九龍觀塘和樂邨居安樓六樓",
-    "email": "smp.sahk@gmail.com",
-    "facebook": "https://www.facebook.com/SMP.Scout.HK/"
+    "email": "",
+    "facebook": "https://www.facebook.com/SMP.Scout.HK/",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://sites.google.com/view/smpscout"
   },
   {
     "id": "HK-DIST-SKW",
@@ -869,9 +1029,12 @@
     "nameEn": "Shau Kei Wan District",
     "address": "香港筲箕灣愛東邨愛旭樓地下22&27號",
     "phone": "+852 25579838",
-    "email": "info@skwscout.org.hk",
+    "email": "",
     "facebook": "https://www.facebook.com/skwscout",
-    "instagram": "skwscout"
+    "instagram": "skwscout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.skwscout.org.hk/"
   },
   {
     "id": "HK-DIST-HH",
@@ -888,8 +1051,11 @@
     "nameEn": "Hung Hom District",
     "address": "九龍馬頭圍邨芙蓉樓地下104室",
     "phone": "+852 27123841",
-    "email": "hhd@scout.org.hk",
-    "facebook": "https://www.facebook.com/krhhd/?locale=zh_HK"
+    "email": "",
+    "facebook": "https://www.facebook.com/krhhd/?locale=zh_HK",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://hhd.krscout.org/"
   },
   {
     "id": "HK-DIST-VIC",
@@ -906,10 +1072,13 @@
     "address": "香港中半山波老道12號東翼一樓",
     "phone": "+852 25222925",
     "fax": "+852 2522 2925",
-    "email": "vic@hkirscout.org.hk",
+    "email": "",
     "description": "維多利亞城區逢星期一6:30-8:30pm、星期六5:00-11:00pm辦公。",
     "facebook": "https://www.facebook.com/vicscout.org/?locale=zh_HK",
-    "instagram": "victoria_city_scout"
+    "instagram": "victoria_city_scout",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.scout.org.hk/"
   },
   {
     "id": "HK-DIST-TW",
@@ -925,9 +1094,12 @@
     "website": "https://www.twdscout.org.hk/",
     "nameEn": "Tsuen Wan District",
     "address": "新界葵涌和宜合道308號鄧肇堅男女童軍中心508室",
-    "email": "info@twdscout.org.hk",
+    "email": "",
     "facebook": "https://zh-hk.facebook.com/twdscout/",
-    "phone": "+852 24255999"
+    "phone": "+852 24255999",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.twdscout.org.hk/"
   },
   {
     "id": "HK-DIST-SK",
@@ -943,8 +1115,11 @@
     "website": "https://www.hkscout-skd.org/",
     "nameEn": "Sai Kung District",
     "address": "九龍將軍澳寶林邨寶寧樓313-314室",
-    "email": "sk@hkscout-ekr.org",
-    "facebook": "https://www.facebook.com/share/g/1DY5GxS2L9/?mibextid=wwXIfr"
+    "email": "",
+    "facebook": "https://www.facebook.com/share/g/1DY5GxS2L9/?mibextid=wwXIfr",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.hkscout-skd.org/"
   },
   {
     "id": "HK-DIST-KTD",
@@ -962,8 +1137,11 @@
     "address": "香港九龍觀塘和樂村居安樓六樓 觀塘區總部",
     "phone": "+852 23432176",
     "fax": "+852 2343 2176",
-    "email": "mail.ktd@gmail.com",
-    "description": "觀塘區逢星期四8:00pm-9:30pm辦公。"
+    "email": "",
+    "description": "觀塘區逢星期四8:00pm-9:30pm辦公。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "http://hkscout-ktd.org/ktdweb/"
   },
   {
     "id": "HK-DIST-SJD",
@@ -980,7 +1158,10 @@
     "nameEn": "Silver Jubilee District",
     "address": "九龍柯士甸道童軍徑香港童軍中心",
     "phone": "+852 2957 6377",
-    "email": "sjd@scout.org.hk"
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "http://group.scout.org.hk/sjd/"
   },
   {
     "id": "HK-DIST-SY",
@@ -996,9 +1177,12 @@
     "website": "https://www.syd-hkscout.org/",
     "nameEn": "Sheung Yue District",
     "address": "新界粉嶺祥華邨祥禮樓 225 - 227 室",
-    "email": "info@syd-hkscout.org",
+    "email": "",
     "facebook": "https://www.facebook.com/sheungyue",
-    "instagram": "scout_nter_syd"
+    "instagram": "scout_nter_syd",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.syd-hkscout.org/"
   },
   {
     "id": "HK-DIST-ISL",
@@ -1014,9 +1198,12 @@
     "website": "https://sites.google.com/view/islands-scout",
     "nameEn": "Islands District",
     "address": "長洲觀音灣路28號",
-    "email": "islands.scout@gmail.com",
+    "email": "",
     "facebook": "https://www.facebook.com/islands.scout/?locale=zh_HK",
-    "phone": "+852 46551984"
+    "phone": "+852 46551984",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://sites.google.com/view/islands-scout"
   },
   {
     "id": "HK-DIST-TY",
@@ -1032,8 +1219,11 @@
     "website": "https://tyd.scout-ntr.org.hk/",
     "nameEn": "Tsing Yi District",
     "address": "青衣長康邨康美樓C301室",
-    "email": "tyd.hkscout@gmail.com",
-    "facebook": "https://www.facebook.com/p/香港童軍總會青衣區-100064358604698/?locale=zh_HK"
+    "email": "",
+    "facebook": "https://www.facebook.com/p/香港童軍總會青衣區-100064358604698/?locale=zh_HK",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://tyd.scout-ntr.org.hk/"
   },
   {
     "id": "HK-DIST-LYM",
@@ -1048,11 +1238,14 @@
     "lng": 114.2261,
     "website": "https://www.hkscout-lym.org/",
     "nameEn": "Lei Yue Mun District",
-    "email": "lym@scouting.org.hk",
+    "email": "",
     "description": "鯉魚門區逢星期四7:30pm-9:00pm辦公。",
     "address": "九龍觀塘和樂邨居安樓六樓",
     "facebook": "https://www.facebook.com/share/196PfTeU1b/?mibextid=wwXIfr",
-    "phone": "+852 23890837"
+    "phone": "+852 23890837",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://www.hkscout-lym.org/"
   },
   {
     "id": "HK-DIST-WTS",
@@ -1068,9 +1261,12 @@
     "website": "https://hkscout-wts.org/",
     "nameEn": "Wong Tai Sin District",
     "address": "九龍黃大仙下村龍裕樓地下101-103號",
-    "email": "wtsdistrict2021@gmail.com",
+    "email": "",
     "facebook": "https://www.facebook.com/wtsscout",
     "instagram": "wtsscout",
-    "phone": "+852 23241931"
+    "phone": "+852 23241931",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "Hong Kong local retained official/local data; verify current status before travel",
+    "verificationSource": "https://hkscout-wts.org/"
   }
 ]
