@@ -12,6 +12,7 @@ Scout World 目前已完成可供 Git / Vercel 測試及後續維護的精簡交
 - group finder / local finder / 地區網絡入口
 - 香港 L4 地域及 44 區會
 - WOSM / World Scouting 全球資源層：World Scout Bureau、KISC、SCENES、WOSM Services、JOTA-JOTI、World Scout Foundation
+- 童軍網購／用品資訊列表：由既有 source-backed Scout Shop entries 整理成專門入口
 
 正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，仍須按香港童軍總會程序經總會國際署處理／轉介。本站不公開海外官方電郵。
 
@@ -27,10 +28,10 @@ Scout World 目前已完成可供 Git / Vercel 測試及後續維護的精簡交
 | Arab | 19 | 35 | 35/35 | 0 |
 | Africa | 39 | 50 | 50/50 | 0 |
 | Hong Kong L4 local | — | 59 | 59/59 | 0 |
-| Global resources | 1 | 7 | 7/7 | 0 |
-| **Total** | **174** | **1003** | **1003/1003** | **0** |
+| Global resources | 2 | 69 | 69/69 | 0 |
+| **Total** | **175** | **1065** | **1065/1065** | **0** |
 
-全資料總 entries（L2 + local/resource）：1177。
+全資料總 entries（L2 + local/resource）：1240。
 
 ---
 
@@ -74,6 +75,7 @@ Scout World 目前已完成可供 Git / Vercel 測試及後續維護的精簡交
 - World Scout Bureau Geneva legal / Europe Support Centre representative point
 - Kandersteg International Scout Centre (KISC)
 - SCENES global directory
+- Scout online shop / shop information directory（62 entries）
 - WOSM Services Platform
 - JOTA-JOTI
 - World Scout Foundation
@@ -86,6 +88,9 @@ Scout World 目前已完成可供 Git / Vercel 測試及後續維護的精簡交
 ### 7. UI / UX 完成項
 
 - Badge legend modal。
+- 手機版 drawer 改為 bottom sheet，進入官方組織後仍可看到上方國家／L3 小地圖。
+- 世界 / L3 地圖新增「全螢幕地圖」按鈕，方便手機查看 markers；按 Esc 或「退出全螢幕」可返回。
+- Header shortcut：`香港` 直接跳入香港 L4；`網購商店` 直接跳入童軍網購／用品資訊列表。
 - L3 filters：全部 / Shop / 營地 / HQ / 有來源 / 需覆核。
 - 選國家後地圖只顯示該 L2 + 其 L3 / L4 點。
 - 選國家後自動 fit map 到該國／地區相關點。
@@ -104,15 +109,15 @@ Scout World 目前已完成可供 Git / Vercel 測試及後續維護的精簡交
 - JSON parse：通過
 - Inline JavaScript syntax check：通過
 - Email scan：0 hits
-- Coordinates：1177 entries scanned；missing 0；invalid 0
+- Coordinates：1240 entries scanned；missing 0；invalid 0
 
 ### Link check
 
 最新 link check：
 
-- OK：720
+- OK：719
 - WARN_BLOCKED：17
-- ERROR：33
+- ERROR：34
 - BAD_NOT_FOUND：0
 - BAD_STATUS：0
 
@@ -130,7 +135,7 @@ Scout World 目前已完成可供 Git / Vercel 測試及後續維護的精簡交
 
 沒有。
 
-- local / resource verificationSource：1003/1003
+- local / resource verificationSource：1065/1065
 - pending：0
 - email exposure：0
 - coordinates missing / invalid：0
@@ -144,6 +149,7 @@ Scout World 目前已完成可供 Git / Vercel 測試及後續維護的精簡交
 3. 如日後要擴充 SCENES，可逐個國家加入高價值 SCENES centre，但必須有官方 source。
 4. L3 logo 暫未做；如做，只可用 official NSO / camp / shop / WOSM source。
 5. 每年做一次資料覆核。
+6. 網購商店 directory 由現有 Shop entries 衍生；日後可逐步標記 shipping / uniform / souvenir notes。
 
 ---
 

@@ -35,6 +35,27 @@
       font-family: 'Outfit', 'Noto Sans TC', sans-serif;
       background-color: #02133e;
     }
+
+
+    /* Custom app-level fullscreen map mode (works even when browser Fullscreen API is unavailable) */
+    #map-panel.map-fullscreen {
+      position: fixed !important;
+      inset: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      z-index: 70 !important;
+      background: #02133e;
+    }
+    #map-panel.map-fullscreen #map {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    #map-panel.map-fullscreen #map-fullscreen-btn {
+      z-index: 90 !important;
+    }
+    body.map-fullscreen-active {
+      overflow: hidden;
+    }
     
     /* Scrollbar Styling */
     ::-webkit-scrollbar {
@@ -93,6 +114,10 @@
       #detail-drawer {
         width: 100% !important;
         max-width: 100vw;
+        top: 45vh !important;
+        height: 55vh !important;
+        border-top: 1px solid rgba(255,255,255,0.12);
+        border-radius: 18px 18px 0 0;
       }
       #drawer-header {
         padding: 12px 16px;
@@ -187,16 +212,14 @@
           <span class="text-slate-400 block font-semibold">覆蓋大區組織</span>
           <span id="stat-orgs" class="text-amber-300 font-bold text-sm">63</span>
         </div>
-        <div class="bg-white/5 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 text-center">
-          <span class="text-slate-400 block font-semibold">香港童軍細分</span>
-          <span class="text-emerald-400 font-bold text-sm">已啟用 (L4 區會)</span>
-        </div>
-        <div class="bg-white/5 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 text-center">
-          <span class="text-slate-400 block font-semibold">資料來源</span>
-          <a href="https://www.scout.org" target="_blank" class="text-blue-300 hover:underline font-bold text-sm flex items-center gap-1 justify-center">
-            scout.org <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-          </a>
-        </div>
+        <button id="hk-shortcut-card" class="bg-white/5 hover:bg-amber-400/15 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 hover:border-amber-300 text-center transition-all focus:outline-none" title="直接返回香港 L4 地圖及區會資料">
+          <span class="text-slate-400 block font-semibold">香港</span>
+          <span class="text-emerald-400 font-bold text-sm">L4 區會地圖</span>
+        </button>
+        <button id="online-shop-card" class="bg-white/5 hover:bg-amber-400/15 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 hover:border-amber-300 text-center transition-all focus:outline-none" title="查看各地童軍網購／用品資訊列表">
+          <span class="text-slate-400 block font-semibold">網購商店</span>
+          <span class="text-amber-300 font-bold text-sm">Scout Shop</span>
+        </button>
       </div>
     </div>
   </header>
@@ -230,12 +253,6 @@
         
         <!-- Region Tabs Slider (⚜️ Hong Kong has special 1st tab priority!) -->
         <div class="flex gap-1.5 overflow-x-auto pb-1 -mx-2 px-2 scrollbar-none" id="region-filters">
-          <button 
-            data-region="HK-Special" 
-            class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-amber-400 text-slate-950 shadow-sm border border-amber-400 hover:bg-amber-500"
-          >
-            ⚜️ 香港 (Hong Kong)
-          </button>
           <button 
             data-region="Global" 
             class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
@@ -297,11 +314,20 @@
     </div>
     
     <!-- RIGHT AREA: Map and Responsive Overlay -->
-    <div class="flex-1 flex flex-col relative overflow-hidden h-[45vh] md:h-auto">
+    <div id="map-panel" class="flex-1 flex flex-col relative overflow-hidden h-[45vh] md:h-auto">
       
       <!-- Map Container -->
       <div id="map" class="w-full h-full z-10"></div>
       
+      <!-- Fullscreen Map Button -->
+      <button
+        id="map-fullscreen-btn"
+        class="absolute top-4 left-4 bg-[#051847] hover:bg-[#09225e] text-amber-300 px-3 py-2 rounded-full font-black text-[11px] shadow-xl flex items-center gap-2 transition-all z-20 border border-white/10"
+        title="全螢幕觀看世界 / L3 地圖"
+      >
+        <i class="fa-solid fa-expand"></i> 全螢幕地圖
+      </button>
+
       <!-- Floating Traveler's Guide Button (FAB) -->
       <button 
         id="badge-legend-btn" 
@@ -738,7 +764,7 @@
     // Maps each country code to its region folder for local JSON loading
     // Hong Kong (HK) stays separate at data/local/HK.json
     const countryRegionMap = {
-      'WORLD':'world',
+      'WORLD':'world', 'SHOPPING':'world',
       'AO':'africa', 'BF':'africa', 'BI':'africa', 'BJ':'africa', 'BW':'africa', 'CD':'africa', 'CI':'africa', 'CM':'africa', 'CV':'africa', 'ET':'africa', 'GA':'africa', 'GH':'africa', 'GM':'africa', 'GN':'africa', 'KE':'africa', 'KM':'africa', 'LR':'africa', 'LS':'africa', 'MG':'africa', 'MU':'africa', 'MW':'africa', 'MZ':'africa', 'NA':'africa', 'NE':'africa', 'NG':'africa', 'RW':'africa', 'SC':'africa', 'SL':'africa', 'SN':'africa', 'SS':'africa', 'ST':'africa', 'SZ':'africa', 'TD':'africa', 'TG':'africa', 'TZ':'africa', 'UG':'africa', 'ZA':'africa', 'ZM':'africa', 'ZW':'africa',
       'AG':'americas', 'AR':'americas', 'AW':'americas', 'BB':'americas', 'BO':'americas', 'BR':'americas', 'BS':'americas', 'BZ':'americas', 'CA':'americas', 'CL':'americas', 'CO':'americas', 'CR':'americas', 'CW':'americas', 'DM':'americas', 'DO':'americas', 'EC':'americas', 'GD':'americas', 'GT':'americas', 'GY':'americas', 'HN':'americas', 'HT':'americas', 'JM':'americas', 'LC':'americas', 'MX':'americas', 'NI':'americas', 'PA':'americas', 'PE':'americas', 'PY':'americas', 'SR':'americas', 'SV':'americas', 'TT':'americas', 'US':'americas', 'UY':'americas', 'VC':'americas', 'VE':'americas',
       'AE':'arab', 'BH':'arab', 'DZ':'arab', 'EG':'arab', 'IQ':'arab', 'JO':'arab', 'KW':'arab', 'LB':'arab', 'LY':'arab', 'MA':'arab', 'MR':'arab', 'OM':'arab', 'PS':'arab', 'QA':'arab', 'SA':'arab', 'SD':'arab', 'SY':'arab', 'TN':'arab', 'YE':'arab',
@@ -761,8 +787,8 @@
     let activeL3TypeFilter = 'all'; // Filter L3 by type/quality
     
     // UI elements cache variables (dynamically queried on DOM ready)
-    let searchInput, clearSearchBtn, regionFilters, orgsList, filteredCount, loadingIndicator;
-    let statOrgs, statMembers;
+    let searchInput, clearSearchBtn, regionFilters, orgsList, filteredCount, loadingIndicator, mapPanel, mapFullscreenBtn;
+    let statOrgs, statMembers, hkShortcutCard, onlineShopCard;
     let detailDrawer, closeDrawerBtn, backToNationalBtn, drawerFlag, drawerLogo, drawerCountry, drawerCountryEn, drawerRegion, drawerOrgFull, drawerOrgShort, drawerFounded, drawerFoundedBadge, drawerMembers, drawerAddress, drawerMapsAction, drawerPhone, drawerPhoneAction, drawerEmail, drawerEmailAction, drawerWebsite, drawerCoordinates, copyCoordsBtn, copyToast, drawerWosmSource;
     let l3Section, l3List, l3LevelPills, l4SubregionContainer, l3TypeFilters, drawerDescBlock, drawerDescText, drawerVerificationBadges, drawerCategoryLabel, drawerStatsRow, drawerSourceBox, drawerShortBadge, drawerOrgShortLabel, drawerInstagramContainer, drawerInstagram, drawerFacebookContainer, drawerFacebook, drawerYoutubeContainer, drawerYoutube;
     
@@ -777,9 +803,13 @@
       orgsList = document.getElementById('orgs-list');
       filteredCount = document.getElementById('filtered-count');
       loadingIndicator = document.getElementById('loading-indicator');
+      mapPanel = document.getElementById('map-panel');
+      mapFullscreenBtn = document.getElementById('map-fullscreen-btn');
       
       statOrgs = document.getElementById('stat-orgs');
       statMembers = document.getElementById('stat-members');
+      hkShortcutCard = document.getElementById('hk-shortcut-card');
+      onlineShopCard = document.getElementById('online-shop-card');
       
       detailDrawer = document.getElementById('detail-drawer');
       closeDrawerBtn = document.getElementById('close-drawer-btn');
@@ -1675,8 +1705,84 @@
       renderMarkers();
     }
     
+    function setMapFullscreen(active) {
+      if (!mapPanel || !mapFullscreenBtn) return;
+      mapPanel.classList.toggle('map-fullscreen', active);
+      document.body.classList.toggle('map-fullscreen-active', active);
+      mapFullscreenBtn.innerHTML = active
+        ? '<i class="fa-solid fa-compress"></i> 退出全螢幕'
+        : '<i class="fa-solid fa-expand"></i> 全螢幕地圖';
+      mapFullscreenBtn.title = active ? '退出全螢幕地圖' : '全螢幕觀看世界 / L3 地圖';
+      setTimeout(() => {
+        if (map) {
+          map.invalidateSize();
+          if (active && currentSelectedOrg) {
+            fitMapToSelectedCountryPoints();
+          }
+        }
+      }, 120);
+    }
+
+    function toggleMapFullscreen() {
+      if (!mapPanel) return;
+      setMapFullscreen(!mapPanel.classList.contains('map-fullscreen'));
+    }
+
+    function setRegionButtonActive(regionName) {
+      if (!regionFilters) return;
+      const btns = regionFilters.querySelectorAll('.region-btn');
+      btns.forEach(b => {
+        if (b.dataset.region === regionName) {
+          b.className = 'region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-amber-400 text-slate-950 shadow-sm border border-amber-400 hover:bg-amber-500';
+        } else {
+          b.className = 'region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white';
+        }
+      });
+    }
+
+    async function ensureWorldRegionLoaded() {
+      if (allScouts.some(o => o.id === 'SHOPPING')) return;
+      try {
+        const response = await fetch('data/world/region.json');
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        if (Array.isArray(data)) {
+          data.forEach(item => {
+            if (item && item.id && !allScouts.some(o => o.id === item.id)) {
+              allScouts.push({ ...item, wosmRegion: 'Global' });
+            }
+          });
+        }
+      } catch (err) {
+        console.error('[ScoutWorld] Failed to preload world/shopping region:', err);
+      }
+    }
+
+    function jumpToHongKong() {
+      if (searchInput) searchInput.value = '';
+      if (clearSearchBtn) clearSearchBtn.classList.add('hidden');
+      setRegionButtonActive('');
+      filteredScouts = [hkDefaultOrg];
+      renderList();
+      selectOrganization(hkDefaultOrg);
+    }
+
+    async function jumpToOnlineShopDirectory() {
+      if (searchInput) searchInput.value = '';
+      if (clearSearchBtn) clearSearchBtn.classList.add('hidden');
+      await ensureWorldRegionLoaded();
+      setRegionButtonActive('Global');
+      filteredScouts = allScouts.filter(org => org.wosmRegion === 'Global');
+      renderList();
+      const shopping = allScouts.find(org => org.id === 'SHOPPING');
+      if (shopping) selectOrganization(shopping);
+    }
+
     // Setup Listeners and Events
     function initListeners() {
+      if (hkShortcutCard) hkShortcutCard.addEventListener('click', jumpToHongKong);
+      if (onlineShopCard) onlineShopCard.addEventListener('click', jumpToOnlineShopDirectory);
+      if (mapFullscreenBtn) mapFullscreenBtn.addEventListener('click', toggleMapFullscreen);
       
       // Input Search
       searchInput.addEventListener('input', () => {
@@ -1792,6 +1898,10 @@
       // Close on Esc
       window.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
+          if (mapPanel && mapPanel.classList.contains('map-fullscreen')) {
+            setMapFullscreen(false);
+            return;
+          }
           closeDetailDrawer();
         }
       });
