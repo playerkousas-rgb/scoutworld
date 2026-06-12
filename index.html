@@ -1097,6 +1097,11 @@
         const marker = L.marker([item.lat, item.lng], { icon: customIcon });
         
         marker.on('click', () => {
+          if (currentSelectedOrgId === 'SHOPPING') {
+            const targetUrl = item.website || item.verificationSource || item.facebook || '';
+            if (targetUrl) window.open(targetUrl, '_blank', 'noopener');
+            return;
+          }
           selectL3Item(item);
         });
         
@@ -1221,10 +1226,20 @@
         // Check if we have Level 4 data (like Hong Kong districts). If not, hide tab bar and show L3 directly.
         const hasL4 = localData.some(item => item.level === 4);
         if (l3LevelPills) {
-          if (hasL4) {
+          if (hasL4 && countryId !== 'SHOPPING') {
             l3LevelPills.classList.remove('hidden');
           } else {
             l3LevelPills.classList.add('hidden');
+          }
+        }
+
+        // Shopping directory is intentionally simple: direct link cards only, no extra filters needed.
+        if (l3TypeFilters) {
+          if (countryId === 'SHOPPING') {
+            l3TypeFilters.classList.add('hidden');
+            activeL3TypeFilter = 'all';
+          } else {
+            l3TypeFilters.classList.remove('hidden');
           }
         }
         
@@ -1292,6 +1307,32 @@
       
       filteredLocal.forEach(item => {
         const row = document.createElement('div');
+
+        // Dedicated shopping directory: one tap opens the shop website directly.
+        if (currentSelectedOrgId === 'SHOPPING') {
+          const targetUrl = item.website || item.verificationSource || item.facebook || '';
+          row.className = 'p-3 rounded-xl bg-[#010c29] border border-white/10 hover:border-amber-400 hover:bg-[#09225e] cursor-pointer transition-all flex items-center justify-between gap-3 shadow-sm text-xs';
+          row.innerHTML = `
+            <div class="flex items-center gap-3 overflow-hidden flex-1">
+              <span class="text-xl flex-shrink-0 select-none">🛒</span>
+              <div class="overflow-hidden">
+                <span class="font-extrabold text-slate-100 leading-tight block truncate">${item.name}</span>
+                <span class="text-[10px] text-slate-400 font-semibold block truncate">${item.nameEn || 'Scout Shop'} · 點擊直接前往網購站</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-1.5 flex-shrink-0">
+              <span class="bg-amber-950/50 text-amber-300 border border-amber-900/30 font-black text-[10px] px-2 py-1 rounded-full">前往</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-amber-300"></i>
+            </div>
+          `;
+          row.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (targetUrl) window.open(targetUrl, '_blank', 'noopener');
+          });
+          l3List.appendChild(row);
+          return;
+        }
+
         row.className = `p-2 rounded-lg bg-[#010c29] border cursor-pointer transition-all flex items-center justify-between gap-2 shadow-sm text-xs ${activeL3Item && activeL3Item.id === item.id ? 'border-indigo-500 ring-2 ring-indigo-100 bg-[#09225e]/20' : 'border-slate-100 hover:border-amber-400'}`;
         
         let badgeColor = 'bg-amber-950/50 text-amber-300 border border-amber-900/30';
