@@ -440,6 +440,7 @@
             <button data-type="Shop" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">Shop</button>
             <button data-type="Campsite" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">營地</button>
             <button data-type="Headquarters" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">HQ</button>
+            <button data-type="Region" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">地域</button>
             <button data-type="verified" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">有來源</button>
             <button data-type="verify" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">需覆核</button>
           </div>
@@ -1685,7 +1686,9 @@
       const activeRegion = activeBtn ? activeBtn.dataset.region : 'HK-Special';
       
       filteredScouts = allScouts.filter(org => {
-        const matchesRegion = (activeRegion === 'HK-Special') ? (org.id === 'HK') : (org.wosmRegion === activeRegion);
+        const matchesRegion = (activeRegion === 'HK-Special')
+          ? (org.id === 'HK')
+          : (activeRegion === 'Asia-Pacific' ? (org.wosmRegion === activeRegion || org.id === 'HK') : (org.wosmRegion === activeRegion));
         
         const matchesQuery = !query || 
           (org.country && org.country.toLowerCase().includes(query)) ||
@@ -1742,6 +1745,14 @@
 
     async function ensureWorldRegionLoaded() {
       if (allScouts.some(o => o.id === 'SHOPPING')) return;
+      const fallbackShopping = {
+        id: 'SHOPPING', flag: '🛒', country: '童軍網購商店', countryEn: 'Scout Online Shops',
+        org: 'SHOP', orgFull: '全球童軍網購／用品資訊列表 (Scout online shop directory)',
+        wosmRegion: 'Global', members: 62, lat: 22.3025, lng: 114.1687,
+        address: 'Online directory compiled from source-backed Scout Shop entries',
+        website: '', email: '', verificationStatus: 'global shopping directory derived from source-backed Scout Shop entries; verify purchase/shipping before ordering',
+        locationAccuracy: 'Online directory; marker placed at Hong Kong as user planning shortcut'
+      };
       try {
         const response = await fetch('data/world/region.json');
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -1754,7 +1765,8 @@
           });
         }
       } catch (err) {
-        console.error('[ScoutWorld] Failed to preload world/shopping region:', err);
+        console.error('[ScoutWorld] Failed to preload world/shopping region; using fallback:', err);
+        if (!allScouts.some(o => o.id === 'SHOPPING')) allScouts.push(fallbackShopping);
       }
     }
 
@@ -1775,7 +1787,13 @@
       filteredScouts = allScouts.filter(org => org.wosmRegion === 'Global');
       renderList();
       const shopping = allScouts.find(org => org.id === 'SHOPPING');
-      if (shopping) selectOrganization(shopping);
+      if (shopping) {
+        selectOrganization(shopping);
+        // Explicitly reload the shopping list in case the first async fetch was interrupted on mobile.
+        setTimeout(() => checkAndLoadL3Data('SHOPPING'), 80);
+      } else {
+        console.error('[ScoutWorld] SHOPPING directory entry not available.');
+      }
     }
 
     // Setup Listeners and Events

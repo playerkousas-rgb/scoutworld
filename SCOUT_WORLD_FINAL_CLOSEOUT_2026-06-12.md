@@ -91,6 +91,8 @@ Scout World 目前已完成可供 Git / Vercel 測試及後續維護的精簡交
 - 手機版 drawer 改為 bottom sheet，進入官方組織後仍可看到上方國家／L3 小地圖。
 - 世界 / L3 地圖新增「全螢幕地圖」按鈕，方便手機查看 markers；按 Esc 或「退出全螢幕」可返回。
 - Header shortcut：`香港` 直接跳入香港 L4；`網購商店` 直接跳入童軍網購／用品資訊列表。
+- 香港 HQ 已在香港 local L3 顯示；L3 filter 新增 `地域`，可單獨查看五大地域。
+- 香港同時歸屬 Asia-Pacific：頂部有特殊香港 shortcut，但在亞太區列表亦會出現香港。
 - L3 filters：全部 / Shop / 營地 / HQ / 有來源 / 需覆核。
 - 選國家後地圖只顯示該 L2 + 其 L3 / L4 點。
 - 選國家後自動 fit map 到該國／地區相關點。
