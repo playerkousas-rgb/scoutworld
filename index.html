@@ -582,6 +582,17 @@
             </div>
           </div>
 
+          <!-- Official activity / jamboree search -->
+          <div id="drawer-official-search-container" class="hidden">
+            <button
+              id="drawer-official-search-action"
+              class="w-full bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-xs px-4 py-3 rounded-xl shadow-lg border-2 border-[#02133e] flex items-center justify-center gap-2 transition-all"
+              title="以此官方網站搜尋活動、大露營及國際資訊"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i> 搜尋官方活動 / 大露營
+            </button>
+          </div>
+
           <!-- Coordinates -->
           <div class="flex items-start gap-3">
             <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
@@ -790,7 +801,7 @@
     // UI elements cache variables (dynamically queried on DOM ready)
     let searchInput, clearSearchBtn, regionFilters, orgsList, filteredCount, loadingIndicator, mapPanel, mapFullscreenBtn;
     let statOrgs, statMembers, hkShortcutCard, onlineShopCard;
-    let detailDrawer, closeDrawerBtn, backToNationalBtn, drawerFlag, drawerLogo, drawerCountry, drawerCountryEn, drawerRegion, drawerOrgFull, drawerOrgShort, drawerFounded, drawerFoundedBadge, drawerMembers, drawerAddress, drawerMapsAction, drawerPhone, drawerPhoneAction, drawerEmail, drawerEmailAction, drawerWebsite, drawerCoordinates, copyCoordsBtn, copyToast, drawerWosmSource;
+    let detailDrawer, closeDrawerBtn, backToNationalBtn, drawerFlag, drawerLogo, drawerCountry, drawerCountryEn, drawerRegion, drawerOrgFull, drawerOrgShort, drawerFounded, drawerFoundedBadge, drawerMembers, drawerAddress, drawerMapsAction, drawerPhone, drawerPhoneAction, drawerEmail, drawerEmailAction, drawerWebsite, drawerCoordinates, copyCoordsBtn, copyToast, drawerWosmSource, drawerOfficialSearchContainer, drawerOfficialSearchAction;
     let l3Section, l3List, l3LevelPills, l4SubregionContainer, l3TypeFilters, drawerDescBlock, drawerDescText, drawerVerificationBadges, drawerCategoryLabel, drawerStatsRow, drawerSourceBox, drawerShortBadge, drawerOrgShortLabel, drawerInstagramContainer, drawerInstagram, drawerFacebookContainer, drawerFacebook, drawerYoutubeContainer, drawerYoutube;
     
     // Travel Toolbox UI variables
@@ -836,6 +847,8 @@
       copyCoordsBtn = document.getElementById('copy-coords-btn');
       copyToast = document.getElementById('copy-toast');
       drawerWosmSource = document.getElementById('drawer-wosm-source');
+      drawerOfficialSearchContainer = document.getElementById('drawer-official-search-container');
+      drawerOfficialSearchAction = document.getElementById('drawer-official-search-action');
       
       l3Section = document.getElementById('l3-section');
       l3List = document.getElementById('l3-list');
@@ -1548,6 +1561,7 @@
       } else {
         drawerWebsite.parentElement.parentElement.classList.add('hidden');
       }
+      updateOfficialSearchButton(item);
       
       // Coordinates
       if (item.lat && item.lng) {
@@ -1668,6 +1682,7 @@
       } else {
         drawerWebsite.parentElement.parentElement.classList.add('hidden');
       }
+      updateOfficialSearchButton(org);
       
       // Coordinates
       if (org.lat && org.lng) {
@@ -1749,6 +1764,32 @@
       renderMarkers();
     }
     
+    function buildOfficialSearchUrl(item = {}) {
+      const website = item.website || '';
+      if (!website) return '';
+      let host = '';
+      try {
+        host = new URL(website.startsWith('http') ? website : `https://${website}`).hostname.replace(/^www\./, '');
+      } catch (err) {
+        return '';
+      }
+      if (!host) return '';
+      const terms = '大露營 OR 活動 OR 國際 OR jamboree OR camporee OR event OR international';
+      return `https://www.google.com/search?q=${encodeURIComponent(`site:${host} ${terms}`)}`;
+    }
+
+    function updateOfficialSearchButton(item = {}) {
+      if (!drawerOfficialSearchContainer || !drawerOfficialSearchAction) return;
+      const searchUrl = buildOfficialSearchUrl(item);
+      if (searchUrl) {
+        drawerOfficialSearchAction.onclick = () => window.open(searchUrl, '_blank', 'noopener');
+        drawerOfficialSearchContainer.classList.remove('hidden');
+      } else {
+        drawerOfficialSearchAction.onclick = null;
+        drawerOfficialSearchContainer.classList.add('hidden');
+      }
+    }
+
     function setMapFullscreen(active) {
       if (!mapPanel || !mapFullscreenBtn) return;
       mapPanel.classList.toggle('map-fullscreen', active);
