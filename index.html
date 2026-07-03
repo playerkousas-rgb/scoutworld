@@ -260,6 +260,12 @@
             🌐 世界資源
           </button>
           <button 
+            data-region="SCENES" 
+            class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-emerald-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
+          >
+            🌿 SCENES
+          </button>
+          <button 
             data-region="Asia-Pacific" 
             class="region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white"
           >
@@ -766,6 +772,7 @@
     // Configuration & State
     const regionFiles = {
       'Global': 'data/world/region.json',
+      'SCENES': 'data/scenes/region.json',
       'Asia-Pacific': 'data/asia-pacific/region.json',
       'Europe': 'data/europe/region.json',
       'Interamerica': 'data/americas/region.json',
@@ -930,7 +937,8 @@
         allScouts = [hkDefaultOrg, ...fetchedFlat.filter(org => org && org.id && org.id !== 'HK')];
         
         if (statOrgs) {
-          statOrgs.textContent = allScouts.length;
+          // Exclude SCENES centres from the WOSM member-org count
+          statOrgs.textContent = allScouts.filter(o => o.wosmRegion !== 'SCENES').length;
         }
         
         const totalMembers = allScouts.reduce((sum, scout) => sum + (scout && scout.members ? parseInt(scout.members) || 0 : 0), 0);
@@ -1030,8 +1038,10 @@
         
         const isSelected = org.id === currentSelectedOrgId;
         
+        const markerBorder = (org.wosmRegion === 'SCENES') ? 'border-emerald-400' : 'border-indigo-500';
+        
         const iconHtml = `
-          <div class="selected-marker-pulse flex items-center justify-center w-8.5 h-8.5 rounded-full bg-white shadow-lg border-2 ${isSelected ? 'border-amber-400 scale-110 z-50' : 'border-indigo-500 hover:border-amber-400'} hover:scale-115 transition duration-150 relative">
+          <div class="selected-marker-pulse flex items-center justify-center w-8.5 h-8.5 rounded-full bg-white shadow-lg border-2 ${isSelected ? 'border-amber-400 scale-110 z-50' : markerBorder + ' hover:border-amber-400'} hover:scale-115 transition duration-150 relative">
             <span class="text-base select-none">${org.flag}</span>
           </div>
         `;
@@ -1198,6 +1208,9 @@
       if (l3List) l3List.innerHTML = '';
       currentL3Data = [];
       localMarkersLayerGroup.clearLayers();
+      
+      // SCENES centres are self-contained entries (shown directly in the drawer); no L3 sub-file to load.
+      if (typeof countryId === 'string' && countryId.startsWith('SCENES-')) return;
       
       // Reset subregion filters
       if (l4SubregionContainer) {
@@ -1389,6 +1402,7 @@
             </div>
           </div>
           <div class="flex items-center gap-1.5 flex-shrink-0">
+            ${item.scenes ? '<span class="bg-green-500/20 text-green-200 border border-green-400/30 font-bold text-[9px] px-1.5 py-0.5 rounded inline-flex items-center gap-0.5" title="WOSM SCENES 環境卓越童軍中心"><i class="fa-solid fa-leaf"></i> SCENES</span>' : ''}
             <span class="${badgeColor} font-bold text-[9px] px-1.5 py-0.5 rounded">${item.category.split(' ')[0]}</span>
             ${fbButtonHtml}
             ${igButtonHtml}
@@ -1409,6 +1423,7 @@
       if (!drawerVerificationBadges) return;
       drawerVerificationBadges.innerHTML = '';
       const badges = [];
+      if (item.scenes) badges.unshift(['🌿 SCENES 環境卓越中心', 'bg-green-500/20 text-green-200 border-green-400/30']);
       const status = (item.verificationStatus || '').toLowerCase();
       if (status.includes('wosm')) badges.push(['WOSM', 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
       if (status.includes('official') || status.includes('source page linked')) badges.push(['官方/來源頁', 'bg-emerald-500/20 text-emerald-200 border-emerald-400/30']);
@@ -1596,7 +1611,8 @@
         'Europe': '歐洲童軍區 (Europe Region)',
         'Interamerica': '美洲童軍區 (Interamerica Region)',
         'Arab': '阿拉伯童軍區 (Arab Region)',
-        'Africa': '非洲童軍區 (Africa Region)'
+        'Africa': '非洲童軍區 (Africa Region)',
+        'SCENES': '🌿 WOSM SCENES 環境卓越童軍中心 (SCENES Network)'
       };
       drawerRegion.textContent = regionNames[org.wosmRegion] || org.wosmRegion || '世界童軍運動';
       
@@ -1920,6 +1936,7 @@
         const regionCoordinates = {
           'HK-Special': { coords: [22.3025, 114.1687], zoom: 11 },
           'Global': { coords: [20.0, 20.0], zoom: 2 },
+          'SCENES': { coords: [30.0, 10.0], zoom: 2 },
           'Asia-Pacific': { coords: [15.0, 120.0], zoom: 4 },
           'Europe': { coords: [50.0, 15.0], zoom: 4 },
           'Interamerica': { coords: [10.0, -80.0], zoom: 3 },
