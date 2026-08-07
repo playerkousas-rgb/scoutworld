@@ -9,7 +9,7 @@
    - 其他頁面導航: network-first，離線時回退到主頁
    ============================================================ */
 
-const VERSION = 'scoutworld-v2026.08.07';
+const VERSION = 'scoutworld-v2026.08.07.2';
 
 const APP_SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-data`;
@@ -31,7 +31,7 @@ const APP_SHELL = [
   '/og-cover.jpg'
 ];
 
-// 核心資料（離線首選）：全球六大區 + 世界資源層 + 搜尋索引
+// 核心資料（離線首選）：全球六大區 + 世界資源層 + 搜尋索引 + 地點數量
 const CORE_DATA = [
   '/data/local/HK.json',
   '/data/africa/region.json',
@@ -41,7 +41,8 @@ const CORE_DATA = [
   '/data/europe/region.json',
   '/data/scenes/region.json',
   '/data/world/region.json',
-  '/data/search-index.json'
+  '/data/search-index.json',
+  '/data/place-counts.json'
 ];
 
 const TILE_HOSTS = [

@@ -17,6 +17,7 @@ import sys
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(ROOT, 'data')
 OUTPUT = os.path.join(DATA_DIR, 'search-index.json')
+COUNTS_OUTPUT = os.path.join(DATA_DIR, 'place-counts.json')
 
 # folder name -> default flag prefix hint (not strictly required; entries keep their own flag)
 
@@ -85,8 +86,23 @@ def main():
     index = l2 + l3
     with open(OUTPUT, 'w', encoding='utf-8') as fh:
         json.dump(index, fh, ensure_ascii=False, separators=(',', ':'))
+
+    # 額外輸出：每個國家嘅地方地點數量（列表徽章用）
+    counts = {}
+    for row in l3:
+        c = row['c']
+        if c not in counts:
+            counts[c] = {'l3': 0, 'l4': 0}
+        if row.get('lvl') == 4:
+            counts[c]['l4'] += 1
+        else:
+            counts[c]['l3'] += 1
+    with open(COUNTS_OUTPUT, 'w', encoding='utf-8') as fh:
+        json.dump(counts, fh, ensure_ascii=False, separators=(',', ':'))
+
     size_kb = os.path.getsize(OUTPUT) / 1024
     print(f'✅ search-index.json 已生成：L2={len(l2)}，L3/L4={len(l3)}，合共={len(index)} 條，大小 {size_kb:.1f} KB')
+    print(f'✅ place-counts.json 已生成：{len(counts)} 個國家/代碼嘅地點數量')
 
 
 if __name__ == '__main__':

@@ -546,6 +546,9 @@
           <div id="l3-list" class="space-y-2 max-h-56 overflow-y-auto pr-1">
             <!-- Dynamically loaded local items -->
           </div>
+
+          <!-- Local data coverage note (資料量提示) -->
+          <div id="l3-note" class="hidden text-[10px] leading-relaxed font-semibold rounded-lg px-2.5 py-2"></div>
         </div>
         
         <!-- Stats Badges -->
@@ -977,6 +980,8 @@
     let searchIndexPromise = null;
     let pendingL3JumpId = null;  // 全域搜尋直達：待選取嘅 L3/L4 項目 id
     let searchHitToken = 0;      // 防止舊嘅非同步直達覆寫新選擇
+    let placeCounts = {};        // 各國地方地點數量（列表徽章 + 資料量提示）
+    let l3Note = null;           // L3 區塊資料量提示元素
 
     // Safely query DOM elements on ready to avoid any race conditions
     function initDOM() {
@@ -1055,6 +1060,7 @@
       hotDestinations = document.getElementById('hot-destinations');
       globalResults = document.getElementById('global-results');
       copyToastText = document.getElementById('copy-toast-text');
+      l3Note = document.getElementById('l3-note');
     }
 
     // Initialize the Leaflet Map
@@ -1131,6 +1137,17 @@
         filterData();
       }
 
+      // 載入各國「地點數量」徽章資料（小檔 4KB，失敗都唔影響主功能）
+      try {
+        const pcRes = await fetch('data/place-counts.json');
+        if (pcRes.ok) {
+          placeCounts = await pcRes.json();
+          renderList(); // 更新列表徽章
+        }
+      } catch (e) {
+        console.warn('[ScoutWorld] place-counts 載入失敗：', e);
+      }
+
       // 全球數據載好：解鎖 🔥 熱門目的地捷徑
       if (hotDestinations) {
         hotDestinations.classList.remove('opacity-40', 'pointer-events-none');
@@ -1195,6 +1212,14 @@
           <div class="text-right flex-shrink-0">
             <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">成員約</span>
             <span class="text-xs text-slate-700 font-bold">${membersFormatted}</span>
+            ${(() => {
+              const pc = placeCounts[org.id];
+              if (!pc) return '';
+              const n = (pc.l3 || 0) + (pc.l4 || 0);
+              if (!n) return '';
+              const richCls = n >= 5 ? 'text-orange-600 border-orange-900/40 bg-orange-950/50' : 'text-slate-500 border-white/10 bg-[#010a24]';
+              return `<span class="inline-flex items-center gap-0.5 mt-1 border rounded px-1.5 py-0.5 text-[9px] font-black ${richCls}" title="本站收錄此地區 ${n} 個當地地點（營地/用品社/單位）">🏕️ ${n} 地點</span>`;
+            })()}
           </div>
         `;
         
@@ -1458,6 +1483,24 @@
         renderLocalMarkers();
         fitMapToSelectedCountryPoints();
         if (l3Section) l3Section.classList.remove('hidden');
+
+        // 資料量提示：豐富/單薄一目了然，單薄國家引導去官方活動搜尋
+        if (l3Note) {
+          const totalLocal = localData.length;
+          if (totalLocal <= 1) {
+            l3Note.className = 'text-[10px] leading-relaxed font-semibold rounded-lg px-2.5 py-2 bg-amber-950/40 border border-amber-900/40 text-amber-200';
+            l3Note.innerHTML = '⚠️ 此地區暫時只收錄咗基本資料。建議用下面「<strong>搜尋官方活動 / 大露營</strong>」同原始資料規劃行程——歡迎經 GitHub 回報新發現俾我哋補充！';
+          } else {
+            const shopCount = localData.filter(d => d.type === 'Shop').length;
+            const campCount = localData.filter(d => d.type === 'Campsite').length;
+            const bits = [];
+            if (campCount) bits.push(`🏕️ 營地 ${campCount}`);
+            if (shopCount) bits.push(`🛒 用品社 ${shopCount}`);
+            l3Note.className = 'text-[10px] leading-relaxed font-semibold rounded-lg px-2.5 py-2 bg-[#010c29] border border-white/5 text-slate-400';
+            l3Note.innerHTML = `✅ 已收錄 <span class="text-emerald-400 font-black">${totalLocal}</span> 個地方地點${bits.length ? '（' + bits.join('・') + '）' : ''} — 持續更新中`;
+          }
+          l3Note.classList.remove('hidden');
+        }
 
         // 全域搜尋直達：地方資料載好後，自動選中目標營地/用品社/區會
         if (pendingL3JumpId) {
