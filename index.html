@@ -2259,6 +2259,8 @@
           parentName = parent ? (parent.country || '') : hit.c;
         }
         const sub = [parentName, hit.s].filter(Boolean).join(' · ');
+        // 中英雙語顯示：英文名與中文名不同時補多行（跨境搜尋 Vajiravudh、Gilwell 都睇得明）
+        const enLine = (hit.e && hit.e !== hit.n) ? `<span class="block text-[9px] text-slate-500 font-semibold truncate">${escapeHtml(hit.e)}</span>` : '';
         return `
           <button class="global-hit w-full text-left p-2 rounded-lg bg-[#051847] hover:bg-[#09225e] border border-white/5 hover:border-amber-400 transition-all flex items-center justify-between gap-2" data-hid="${escapeHtml(hit.i)}" data-cc="${escapeHtml(hit.c)}" data-lvl="${hit.lvl}">
             <span class="flex items-center gap-2 overflow-hidden">
@@ -2266,6 +2268,7 @@
               <span class="overflow-hidden">
                 <span class="block text-[11px] font-extrabold text-slate-100 truncate">${escapeHtml(hit.n)}</span>
                 <span class="block text-[9px] text-slate-400 font-semibold truncate">${escapeHtml(sub || hit.e || '')}</span>
+                ${enLine}
               </span>
             </span>
             <span class="flex items-center gap-1 flex-shrink-0">
