@@ -10,7 +10,7 @@
 
 - **0 個國家完全無地方資料檔案** —— 所有 173 個 WOSM 成員都有 `local/*.json`，揀邊個國家都開到資料。
 - **資料質素乾淨**：缺座標 0 項、缺類型 0 項、缺來源 0 項（承 Phase 1 清理成果）。
-- 地方地點總數：**1,077 項**（橫跨 175 個代碼）。
+- 地方地點總數：**1,106 項**（2026-08-07 第3波後）（橫跨 175 個代碼）。
 
 ## ⚠️ 要留意：80 個國家「資料單薄」（≤1 項，多數只得總部）
 
@@ -81,3 +81,20 @@
 - 重複去重：LK-CAMP-PEDRO（保留原有含官方 FB 的更佳條目）
 - 馬來西亞：官網未有公開營地清單可核實，按準確原則本波不新增
 - 亞太小島國/中亞（AF BT KH KI KZ MM MN MV PG PK RU SB TJ TL）保留單一 HQ 條目——官方公開資料稀缺，唔做估估下嘅填充
+
+## 🚀 官方來源豐富化第 3 波（2026-08-07 完成）— 歐洲區開展：英國 GB
+
+英國係香港童軍外遊歐洲第一站。今波目標：**補齊全英 Scout Adventures 官方活動中心名單 + 官方小組探訪工具**。
+
+| 國家 | 前 → 後 | 新增內容 | 官方來源 |
+|---|---|---|---|
+| 🇬🇧 英國 GB | 13 → **16** | **Lochgoilhead**（Scouts Scotland 三大全國中心之一，Loch Lomond 國家公園水上歷奇）、**Meggernie**（Perthshire Glen Lyon 高地露營營地）、**全英小組搜尋**（官方 Find your local Scout Group，全英超過 7,500 個小組，香港旅團探訪英國單位第一步） | scoutadventures.org.uk 官方中心頁（逐頁確認電話/地址）＋ scouts.scot/outdoor-centres ＋ scouts.org.uk/groups |
+
+### ⚠️ 審計中發現嘅過時資訊（結論：**不納入**，免誤導）
+- **Hawkhirst Scout Adventures（英格蘭北部 Kielder）已於 2025-03-31 停止運作**（scouts.org.uk 2024-11 官方公告）。
+- **Downe 活動中心** 2021 年關閉、2024-10 售予 Friends of Downe Activity Centre，已非 TSA 旗下。
+- **Woodhouse Park** 已交還 Avon Scouts 營運。
+- 對照官方 **Scout Adventures「All Centres」現行名單共 9 中心**（Gilwell、Broadstone Warren、Youlbury、Great Tower、Yr Hafod、Crawfordsburn、Fordell Firs、Lochgoilhead、Meggernie）——本站 GB.json 現已 **9/9 全齊** ✅。
+- **Blair Atholl 蘇格蘭國際小隊大露營**：官方活動專網今次無法連通、scouts.scot 相關頁面 404，為免引用過時二手資料，**按準確原則暫緩收錄**，待官方渠道可達後補。
+
+- 地方地點總數：**1,103 → 1,106**（+3）；搜尋索引 **1,326** 條。
