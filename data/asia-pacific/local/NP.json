@@ -44,5 +44,26 @@
     "verificationStatus": "public official/source page linked; verify current status before travel",
     "verificationSource": "https://nepalscouts.org/kakani-international-scout-centre-kisc/",
     "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
+  },
+  {
+    "id": "NP-CAMP-SUNDARIJAL",
+    "parentCountry": "NP",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🏕️",
+    "category": "國家訓練中心 (National Training Centre)",
+    "name": "Sundarijal 國家童軍訓練中心（加德滿都）",
+    "nameEn": "Nepal Scouts National Training Center, Sundarijal",
+    "subregion": "加德滿都・Sundarijal (Kathmandu)",
+    "lat": 27.7598,
+    "lng": 85.4185,
+    "locationAccuracy": "Representative point at Sundarijal area; not exact centre entrance",
+    "address": "Sundarijal, Kathmandu, Nepal",
+    "phone": "",
+    "email": "",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "description": "尼泊爾童軍國家訓練中心，位於加德滿都東北郊 Sundarijal（ Shivapuri 國家公園入口一帶），係全國領袖訓練主場地。另一國際訓練中心 Kakani 已收錄在本資料庫（曾辦2018年全國大露營）。遊客遊覽加德滿都谷地時可順道探訪。",
+    "verificationStatus": "documented in national scouting references (secondary); verify before travel",
+    "verificationSource": "https://en.wikipedia.org/wiki/Nepal_Scouts"
   }
 ]
