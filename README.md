@@ -1,8 +1,23 @@
 # ⚜️ Scout World Explorer — WOSM Global Directory
 
-### 全球童軍總部官方資料庫 | 旅行前查詢工具
+### 香港童軍外遊規劃首選 | 全球童軍總部・營地・用品社資料庫
 
-資料 100% 來自 [scout.org](https://www.scout.org/) WOSM 官方成員頁面，直接對照原始來源。本專案為重構優化版：**放棄多語言繁重欄位，並將資料分區域（Region）儲存於不同 JSON 檔案中**，以大幅減輕載入負擔，並使日常維護更加清晰、直覺！
+🌐 **正式網址：[https://scoutworld.vercel.app/](https://scoutworld.vercel.app/)**
+
+專為香港童軍而設：**出發前計劃「到外地探訪童軍單位、購買用品、預訂露營」**的一站式規劃工具。資料 100% 來自 [scout.org](https://www.scout.org/) WOSM 官方成員頁面，直接對照原始來源。本專案為重構優化版：**放棄多語言繁重欄位，並將資料分區域（Region）儲存於不同 JSON 檔案中**，以大幅減輕載入負擔，並使日常維護更加清晰、直覺！
+
+---
+
+## 🆕 2026-08 大改版：規劃體驗全面升級
+
+*   🔥 **熱門目的地捷徑**：日本・台灣・韓國・新加坡・泰國・澳洲・英國（基維爾）・瑞士（KISC）一撳直達。
+*   🌍 **全球地點搜尋**：內建 1297+ 條索引（`data/search-index.json`），輸入 `KISC`、`東京`、`Shop` 即時直達任何營地／用品社／區會，輸入兩個字自動生效。
+*   🔗 **目的地分享連結**：每個國家／組織都有專屬網址（如 `scoutworld.vercel.app/#GB`），詳情頁「分享」掣一鍵複製或經 WhatsApp／Telegram 直送團友；朋友打開即直達。
+*   📴 **PWA 離線模式**：Service Worker（`sw.js`）快取 App 外殼、資料 JSON 及地圖圖磚——**出發前睇過嘅資料，旅途中斷網都睇得返**；可「加入主畫面」當 App 用。
+*   ✈️ **外遊規劃五部曲**：工具箱升級為「揀目的地 → 辦手續（國際署 ILI）→ 訂營地 → 查用品社 → 執手信」完整流程，附 1868 熱線、外遊警示等應急資訊。
+*   🔍 **SEO 全面補完**：meta description、Open Graph／Twitter 分享卡（1200×630）、JSON-LD 結構化資料、favicon、`robots.txt`、`sitemap.xml`、canonical —— Google 搵「童軍外遊」「KISC 營地」搵得到！
+
+---
 
 ---
 
@@ -22,9 +37,18 @@
 ```text
 scout-world-explorer/
 ├── index.html              ← 互動主程式（單一 HTML / JS / CSS 文件，包含 Leaflet 地圖）
+├── sw.js                   ← PWA Service Worker（離線快取：外殼/資料/地圖圖磚）
+├── manifest.webmanifest    ← PWA 安裝描述檔（加入主畫面）
+├── robots.txt              ← 搜尋引擎爬蟲指引
+├── sitemap.xml             ← 網站地圖（SEO）
+├── favicon.ico / *.png     ← 圖標（32px / Apple 180px / PWA 192·512px）
+├── og-cover.jpg            ← 1200×630 社交媒體分享卡
+├── tools_search_index_build.py ← 全球地點搜尋索引生成器（改完 data 後執行）
+├── tools_link_check.py     ← 連結健康檢查工具
 ├── vercel.json             ← Vercel 路由與靜態快取設定
 ├── README.md               ← 專案說明文件
 └── data/
+    ├── search-index.json   ← 全球地點搜尋索引（自動生成，勿手改）
     ├── local/
     │   └── HK.json         ← 🇭🇰 香港本地細分（自成一家，5大地域 + 44區會 + 營地）
     ├── africa/
@@ -110,6 +134,10 @@ git push -u origin main
 ```
 
 ### 💡 實用小秘訣：
+*   **改完任何 `data/**/*.json` 後**，記得重新生成全球搜尋索引，否則新地點唔會出現喺搜尋結果：
+    ```bash
+    python3 tools_search_index_build.py
+    ```
 *   **WOSM 官方來源**：
     *   亞太區：[https://www.scout.org/where-we-work/regions/asia-pacific/countries](https://www.scout.org/where-we-work/regions/asia-pacific/countries)
     *   歐洲區：[https://www.scout.org/where-we-work/regions/europe/countries](https://www.scout.org/where-we-work/regions/europe/countries)
