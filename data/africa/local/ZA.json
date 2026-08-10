@@ -71,5 +71,26 @@
     "instagram": "scoutssa",
     "youtube": "https://www.youtube.com/@scoutssouthafrica",
     "socialVerificationSource": "https://www.scouts.org.za/"
+  },
+  {
+    "id": "ZA-COUNCIL-VISIT-SA",
+    "parentCountry": "ZA",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇿🇦",
+    "category": "官方國際訪客探訪程序 (International Visitor Protocol)",
+    "name": "SCOUTS South Africa 國際訪客探訪須知",
+    "nameEn": "SCOUTS South Africa — Visiting SA as a Scouting Member",
+    "subregion": "Nationwide",
+    "lat": -26.15,
+    "lng": 28.0,
+    "locationAccuracy": "Representative point — 豪登省總部一帶示意點",
+    "address": "Nationwide; National Scout Office, Johannesburg/Cape Town, South Africa",
+    "website": "https://www.scouts.org.za/members/international-info/visiting-sa-as-a-scouting-member/",
+    "email": "",
+    "description": "南非童軍協會官方《Visiting SA as a Scouting Member》頁（2026-08-08 核實）：**所有**國際童軍訪客（觀光或交流）在聯絡任何南非本地單位之前，必須先經官方 International Queries Form 向國際委員會登記，並上載**本國 NSO 介紹信**（National Scout Organisation letterhead 或 WOSM 格式，由國際專員／總專員簽署）——亦係南非兒童保護政策要求團體旅行另需提交行程表及團員名單表格；另設官方「Scout Groups near you」地圖（scouts.org.za/scouts-near-you/）。香港旅團到南非（開普敦 safari 圈中檔必經點）想探訪本地單位，此程序係必經之門。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official visiting protocol page verified 2026-08-08",
+    "verificationSource": "https://www.scouts.org.za/members/international-info/visiting-sa-as-a-scouting-member/"
   }
 ]
