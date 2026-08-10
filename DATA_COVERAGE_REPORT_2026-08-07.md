@@ -613,3 +613,32 @@ L3 類型篩選列加新 chip：撳一下淨顯示 `visitorNote` 以 ✅ 開頭�
 - /tmp 轉窗抹咗 jsdom＋舊測試檔 → **重建濃縮 suite 保留每波精華斷言**（19 tests，含全鏈路：GB→對外開放→精準出列）
 - **19/19 全綠**；總數不變 1,143／SW bump `v2026.08.10.10`
 - 待辦保持誠實：其餘 221-18=203 個零 chips 營地繼續用「需覆核／有來源」badge 示人
+
+## 🔁 大掃第二迴・第 26 波（2026-08-10 完成）— AU/CA/ID/NZ 標誌營地結構化
+
+延續第 25 波模式：全數 9 個目標營地逐一實抓官方頁面，能核實先寫、核實唔到就誠實留空。
+
+### A. 已完成結構化（9/9 場地，全部 2026-08-10 實抓官方頁）
+
+| 場地 | 💰 | 📅 | 🕐 | 🌏 | 亮點 |
+|---|---|---|---|---|---|
+| 🇦🇺 Woodhouse Adventure Park | ✅ 日票A$22（4人A$72） | ✅ venue.life 預訂 | ✅ 每日9–17全年無休 | ✅ 公眾開放 | 官方頁全齊；Scouts SA 會員八折；補電話 |
+| 🇦🇺 Gilwell Park Victoria | — | —（查詢制） | — | ✅ 官方列明童軍/學校/企業/會議租用 | 補官方電話 03 5967 8888；改掛 Gilwell 專頁來源 |
+| 🇦🇺 Cataract Activity Centre | — | ✅ 官方啟動頁 | — | ✅ 官方明言 "open to all groups" | 1981年起接待童軍；10營位各設熱水淋浴 |
+| 🇦🇺 Camp Cottermouth | — | ✅（改掛官方 Booking Enquiry 頁） | — | ⚠️ 外團未列明→國際署字眼 | 守規則5唔自己估 |
+| 🇨🇦 Haliburton Scout Reserve | — | ✅ Doubleknot facilitysearch/4646（2026季） | — | ⚠️ 官網未列外團程序→國際署字眼 | 近5,000英畝、22個只可乘船到達營位；「國際常客」舊描述降格為經驗之談標註 |
+| 🇮🇩 Buperta Cibubur | —（誠實空置） | — | — | ⚠️ 未列明→國際署字眼 | 官方頁純歷史（210公頃/1973首屆Jamnas/1981亞太/2008東盟）；Kompas 2023 收費報道列 secondary 於覆核欄，唔入 fee chip |
+| 🇮🇩 Buper Taman Tunas Wiguna（日惹 DIY） | — | ✅ 官方「Pesan Buper」預訂頁 | — | ⚠️ 未列明→國際署字眼 | WhatsApp 預約制（官網列） |
+| 🇳🇿 Brookfield 戶外教育中心 | — | — | — | ✅ 官方明言 Scouts and others（學校/家庭/音樂節皆可） | 260公頃、1958年 Crowther 遺贈史補正 |
+| 🇳🇿 Ruapehu Lodge | — | ✅ 官方預訂表格（PDF） | — | ✅ 官方明言 "ANYONE can stay"（會員優先；夏季最少16人） | 31床暖氣山屋；冬季檔期 3月31日截申請 |
+
+### B. 誠實守綫紀錄
+- **Cibubur 收費**：國家級報章 Kompas 有 2023 實測數字，但非官方 → 只入 verificationStatus 標 secondary，fee chip 留空
+- **Gilwell VIC**：官方頁連去 Scout Adventures 查詢但冇公開預訂表格／價目 → bookingUrl/fee 留空
+- **Cottermouth／Haliburton／Cibubur／DIY 外團准入**：官方冇寫 → 統一「⚠️ 出發前經總會國際署／連盟確認」，唔會搏 ✅
+
+### C. 實時庫存（重算）
+- 結構化 chips 全庫：💰 fee **9**・📅 bookingUrl **38**・🕐 openingHours **13**・🌏 visitorNote **43**（✅29・⚠️12・❌2・❓0… 誤差屬歷史條目）
+- 241 個 Campsite 中零結構化 chips：221 → **195**（今波再減 9… 含 Gilwell VIC 等全項更新）
+- 動態實測：AU 撳「🌏對外開放」→ Woodhouse/Gilwell VIC/Cataract ✅ 出列，⚠️ Cottermouth 正確被濾走
+- **20/20 jsdom 全綠**（新增第26波斷言：含「HSR bookingUrl 完全匹配 Doubleknot 4646」「Cibubur 誠實 chip-free」反斷言）；L3/L4 總數 1,143 不變（本波純結構化零新增）；SW bump `v2026.08.10.11`

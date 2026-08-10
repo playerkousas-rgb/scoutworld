@@ -27,6 +27,12 @@ Completed so far:
 
 2026-08-07 → 2026-08-10 完成嘅 11 波重點：
 
+- 🔁 大掃第二迴第26波（2026-08-10）：AU/CA/ID/NZ 9營地結構化——Woodhouse 四chip全齊（A$22日票/venue.life預訂/全年9–5/公眾開放）、Gilwell VIC對外租用✅＋電話、Cataract官方「open to all groups」、HSR Doubleknot 2026預訂、日惹官方Pesan Buper頁、Brookfield「Scouts and others」✅、Ruapehu「ANYONE can stay」✅；誠實守綫：Cibubur收費只見傳媒→fee留空列secondary、Cottermouth等4場外團准入未明→國際署字眼；全庫📅38・🌏43；jsdom 20/20
+- 🔍 全軍大掃第25波（2026-08-10）：L3篩選列「🌏對外開放」掣——visitorNote以✅開頭先出列（GB實測16→8精準）；18個歐洲標誌營地結構化（GB全9中心含Gilwell國際訪客明證＋Hirsch Gallery開放時間、Zellhof/OurChalet/HouensOdde/Vässarö/Kragenäs國際營、白浪島NT渡輪）；測試基建/tmp抹檔後重建19/19綠
+- 🌏 第24波（2026-08-10）：visitorNote准入欄位16場地（✅9/❌2/⚠️4/❓1）＋詳情頁indigo 🌏 chip＋列表快掃；DATA_POLICY規則5（官方冇寫就用國際署字眼唔自己估）
+- 🏷️ 第21+22波（2026-08-10）：11項Shop/HQ openingHours chips＋🕐teal chip；kenyascouts.org騎劫域名連結全數移除（5處）＋DATA_POLICY規則4
+- 🏕️ 第23波（2026-08-10）：地蔵山野營場官方實抓全chip（¥600/¥800、申請書程序）＋山中野營場誠實tertiary零chip；京都/靜岡查無官方→誠實略過（地點總數1,143）
+
 - APAC：HK 59 深層、TW 34、日本/韓國/澳洲/新加坡/泰國三柱；馬來西亞 scoutmy.org 新門戶補回；澳門官網持續 500 留覆查清單
 - Europe：GB Scout Adventures 9/9 中心齊（Hawkhirst 結業即時剔除）、法德瑞比利時意官方揀團器、13 小國審計無填充
 - Americas：加拿大 Haliburton/Byng/Find a Group、墨西哥 Meztitla、南美 UEB/阿根廷營地/秘魯用品社

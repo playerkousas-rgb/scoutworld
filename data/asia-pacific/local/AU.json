@@ -79,13 +79,17 @@
     "lat": -35.004,
     "lng": 138.716,
     "address": "Piccadilly, Adelaide Hills, South Australia",
-    "phone": "",
+    "phone": "+61 8 8339 3333",
     "website": "https://woodhouse.org.au/",
     "email": "",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "description": "Woodhouse Adventure Park 位於 Adelaide Hills / Piccadilly，網站列明全年每日開放，提供 day visit、住宿及戶外冒險活動選項。作個人旅行或活動參考時，請按官方網站確認開放、票務及預訂安排。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://woodhouse.org.au/"
+    "description": "Woodhouse Adventure Park 位於 Adelaide Hills / Piccadilly（距阿德萊德市中心約25分鐘車程），Scouts SA 旗下 54 公頃戶外冒險樂園，宿位約 200。官方日票頁列明全年每日 9:00–17:00 開放，設 Tube Slide（週末及公眾假期，視乎天氣）、攀石、迷宮、Cox's Creek 水上活動等；另有露營、小木屋及宿舍，並承接學校戶外教育、家庭日營、婚禮及企業團隊活動。Scouts SA 會員日票八折；入場人士須簽 waiver，活動須穿包頭鞋。",
+    "verificationStatus": "official camp website (tier: official) fetched 2026-08-10 — 日票價、全年每日 9:00–17:00 開放及 venue.life 預訂頁均已實抓核實；宿營收費另見官方 accommodation 頁，出發前再確認",
+    "verificationSource": "https://woodhouse.org.au/dayadventures/dayvisit/",
+    "fee": "日票 A$22（4人票 A$72，5歲以下免費）",
+    "bookingUrl": "https://book.venue.life/woodhouse/book/day-adventure-pass",
+    "openingHours": "每日 9:00–17:00（全年無休）",
+    "visitorNote": "✅ 公眾每日開放；家庭/學校/企業團體均可入場"
   },
   {
     "id": "AU-CAMP-GILWELL-VIC",
@@ -100,13 +104,14 @@
     "lat": -37.958,
     "lng": 145.558,
     "address": "Gembrook, Victoria, Australia",
-    "phone": "",
+    "phone": "+61 3 5967 8888",
     "website": "https://scoutsvictoria.com.au/about-us/campsites/gilwell-park/",
     "email": "",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "description": "Scouts Victoria Campsites 頁列 Gilwell Park（Gembrook）為 Major Campsites 之一。Scouts Victoria 表示其主要營地可供租用，地點涵蓋海邊至雪地，並有住宿、活動及設施。出發前請按官方頁面確認預訂及開放安排。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://scoutsvictoria.com.au/about-us/campsites/"
+    "description": "Scouts Victoria 主要營地 Gilwell Park 位於 Dandenong Ranges 東面 Gembrook 附近，距墨爾本 CBD 約 60 分鐘車程（Pakenham 以北 23 公里）。官方營地頁列明多年來曾舉辦數以百計活動，包括童軍營、學校戶外教育課程、企業團隊活動及會議；租場由 Scouts Victoria 旗下 Scout Adventures（scoutadventures.com.au）負責接洽。官方另公開 Gilwell Park Master Plan 文件。",
+    "verificationStatus": "official Scouts Victoria Gilwell Park page (tier: official) fetched 2026-08-10 — 位置、租用對象及營運方 Scout Adventures 已實抓核實；頁面未列公開收費表，查詢經官方營運方",
+    "verificationSource": "https://scoutsvictoria.com.au/about-us/campsites/gilwell-park/",
+    "visitorNote": "✅ 對外租用：童軍營/學校/企業/會議（官方列明）"
   },
   {
     "id": "AU-CAMP-CATARACT",
@@ -125,9 +130,11 @@
     "website": "https://cataract.nsw.scouts.com.au/",
     "email": "",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "description": "Scouts NSW Cataract Activity Centre 位於 Campbelltown 與 Wollongong 之間，官方頁面列明佔地 163 hectares，提供日營、過夜活動、會議空間及住宿，並列明 centre is open to all groups。個人旅行或團體活動請按官方公開安排查詢。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://cataract.nsw.scouts.com.au/"
+    "description": "Scouts NSW Cataract Activity Centre 位於 Campbelltown 與 Wollongong 之間，官方童軍專頁稱佔地逾 136 公頃（首頁另標 163 公頃），自 1981 年接待童軍及女童軍團，曾舉辦 Cuborees 及 Jamborees。設 10 個各有獨立廁所及熱水淋浴間嘅營位、旅舍、駐場廚師膳食套餐及會議空間；活動包括 40 米水滑梯、攀石、繩網、業餘電台等。官方首頁明言 “The Centre is open to all groups”。",
+    "verificationStatus": "official Scouts NSW Cataract pages (tier: official) fetched 2026-08-10 — 「open to all groups」聲明及童軍營位/設施已實抓核實；收費及開放時間未於公開頁面列明，預訂經官方查詢頁",
+    "verificationSource": "https://cataract.nsw.scouts.com.au/",
+    "bookingUrl": "https://cataract.nsw.scouts.com.au/cataract/scouts/",
+    "visitorNote": "✅ 官方列明 open to all groups（童軍/學校/社區/家庭/企業）"
   },
   {
     "id": "AU-STATE-NSW",
@@ -331,7 +338,8 @@
     "description": "Scouts ACT 營運的團體住宿營地（官網頁腳列「Copyright 2026 Scouts ACT」），位於 Cotter 河一帶灌木林，距國會山莊約15分鐘車程，毗鄰 Murrumbidgee River 自然保護區，可遠眺 Brindabella 山脈。官網首頁：14間冷氣連浴室大通舖木屋共可住約120人，其中2間大木屋及全部共用設施全面無障礙；4間中屋（共約16人）及2間單人小屋；提供全包膳食（早、早茶、午、下午茶、兩道菜晚餐），可配合特別飲食需要；另設草地營區連營地廚房。預訂經官網 Booking Enquiry。",
     "verificationStatus": "official camp website (tier: official) fetched 2026-08-10 — footer lists address and phone; capacity details per official homepage; reconfirm booking terms before travel",
     "verificationSource": "https://campcottermouth.com.au/",
-    "bookingUrl": "https://campcottermouth.com.au/"
+    "bookingUrl": "https://campcottermouth.com.au/contact/",
+    "visitorNote": "⚠️ 外團准入未於官網列明，出發前經總會國際署／連盟確認"
   },
   {
     "id": "AU-CAMP-THELEA-TAS",
