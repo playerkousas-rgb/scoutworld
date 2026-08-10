@@ -18,10 +18,12 @@
     "instagram": "korea_scout_association",
     "facebook": "https://www.facebook.com/scoutkorea/",
     "youtube": "https://www.youtube.com/@KoreaScoutAssociation",
-    "description": "Korea Scout Association（韓國童軍連盟），1922年成立，WOSM正式成員。總部位於首爾。韓國童軍會員約214,005人。以紀律、戶外教育及國際交流為特色。",
+    "description": "Korea Scout Association（韓國童軍連盟），1922年成立，WOSM正式成員。總部位於首爾永登浦。韓國童軍會員約214,005人。以紀律、戶外教育及國際交流為特色。總會設 Scout Hall 對外場租（官方設施頁 2026-08-10 實抓）：上午 09–12 ₩250,000／下午 13–18 ₩400,000／全日 ₩600,000／晚間 18–21 ₩300,000，超時日間 ₩100,000/h・晚間 ₩150,000/h（VAT 另計）；青少年團體、傷殘人士及長約客戶八折，**童軍活動須經負責部門查詢（02-6335-2005）**；預訂須全額預付，用前 5 日取消全退（其後扣 50%），場內禁飲食、免費車位 1 個——適合香港團交流活動/典禮場地。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "L3/HQ retained from WOSM/local official data; verify current status before travel",
-    "verificationSource": "https://www.scout.or.kr"
+    "verificationStatus": "official KSA site + facility/reservation page (tier: official) fetched 2026-08-10 — 地址及電話與官方頁尾一致；Scout Hall 場租全表/折扣/取消條款實抓自官方 시설안내,예약 頁",
+    "verificationSource": "https://scout.or.kr/association/facility",
+    "fee": "總會Scout Hall ₩25萬/場起",
+    "bookingUrl": "https://scout.or.kr/association/facility"
   },
   {
     "id": "KR-SHOP-HQ",
@@ -257,15 +259,16 @@
     "subregion": "江原道・高城 (Goseong, Gangwon)",
     "lat": 38.3772,
     "lng": 128.4678,
-    "locationAccuracy": "Representative point at Goseong town area; camp is in Toseong-myeon Sinpyeong-ri",
-    "address": "강원도 고성군 토성면 신평리 (Sinpyeong-ri, Toseong-myeon, Goseong, Gangwon)",
-    "phone": "",
+    "locationAccuracy": "Representative point — 高城郡土城面一帶；道路地址據 secondary（韓國觀光公社 tripinfo）",
+    "address": "강원특별자치도 고성군 토성면 잼버리로 244（高城郡土城面 Jamboree-ro 244）",
+    "phone": "+82 33 633 8107",
     "email": "",
-    "website": "https://scout.or.kr/scout/jamboree",
+    "website": "http://wjs.or.kr/",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "description": "1991年第17屆世界大露營（WSJ）主會場，其後多次承辦韓國全國大露營及亞太大露營（2000、2004、2008、2018國際分隊大露營等），係韓國童軍史上最具傳奇嘅營地。官方大露營年表列明場地位於高城郡土城面新坪里。對童軍歷史有興趣嘅香港團友值得一遊。",
-    "verificationStatus": "official KSA jamboree history page verified (2026-08)",
-    "verificationSource": "https://scout.or.kr/scout/jamboree"
+    "description": "1991年第17屆世界大露營（WSJ）主會場原址，現為**江原特別自治道省營「世界大露營修練場」**（官網 wjs.or.kr 營運中，列明查詢時間 09:00–18:00）。據韓國觀光公社資料（secondary）：野營區 25,900㎡、可同時容納 8,000 人；另有新館及 A/B/C 三棟生活館、綜合運動場、網球場、禮堂及室內集會場、冒險設施、民俗遊樂場、營火場等；背山面海（雪嶽山與東海之間），高城傳媒報道曾七度承辦國際級大露營。對童軍歷史有興趣嘅香港團友極具朝聖價值。",
+    "verificationStatus": "venue official site wjs.or.kr (tier: official) fetched 2026-08-10 — 省營名稱「강원특별자치도세계잼버리수련장」、查詢時間 09:00–18:00、電話 033-633-8107 已實抓核實；地址及場館容量 secondary（韓國觀光公社 KTO via tripinfo）；官網首頁未見公開網上預訂系統；KSA 官方設施頁 2026-08-10 實抓未列此場（現只載總會 Scout Hall 場租）",
+    "verificationSource": "http://wjs.or.kr/",
+    "visitorNote": "⚠️ 江原道省營青少年修練設施，外團安排未列明，出發前經總會國際署／連盟確認"
   },
   {
     "id": "KR-SHOP-ONLINE",
@@ -308,7 +311,7 @@
     "website": "https://scout.or.kr/association/facility",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "韓國童軍連盟官方設施目錄列明嘅全國性野營場（29,950㎡，連盟直營），位於首爾東南車程約一個鐘嘅京畿道廣州市道尺面。設10人用帳幕30頂、野營場可容950人；室內有多用途室、領袖會議室、講堂、廁浴；野外設冒險遊樂設施10種（宇宙旅行等）、營火場、炊事場、野外劇場、宣誓禮場。官方列明團體項目：1日體驗（生活安全、生存、傳統飲食、工藝）及1泊2日/2泊3日住宿型挑戰營、印第安營等。利用需經連盟設施頁提交申請書。",
-    "verificationStatus": "official KSA facility page (tier: official) read 2026-08-10 — name, Gyeonggi Gwangju Jinu-ri 884 address, phone 031-764-1634, 950-pax capacity and programs confirmed from official listing; page JS-rendered, verify before travel",
+    "verificationStatus": "official KSA facility page (tier: official) read 2026-08-10 — name, Gyeonggi Gwangju Jinu-ri 884 address, phone 031-764-1634, 950-pax capacity and programs confirmed from official listing; page JS-rendered；2026-08-10 重抓該設施頁已改版、現只展示總會 Scout Hall 場租內容——Gonjiam 預訂入口或已轉 scoutcenter.scout.or.kr 系統（暫未能連線核實），出行前再確認",
     "verificationSource": "https://scout.or.kr/association/facility",
     "bookingUrl": "https://scout.or.kr/association/facility"
   }

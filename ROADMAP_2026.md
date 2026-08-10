@@ -27,6 +27,8 @@ Completed so far:
 
 2026-08-07 → 2026-08-10 完成嘅 11 波重點：
 
+- 🔁 大掃第三迴第27波（2026-08-10，FOR童軍視角）：韓總會 Scout Hall 場租全表 chips（₩25萬起・青少年八折・童軍活動經部門查詢）＋江原大露營修練場深度修復（搵到場地自家官網 wjs.or.kr＋電話＋8,000人容量列secondary）＋昆池岩誠實標註設施頁改版＋MX Meztitla「對國際團開放」降格 tertiary；TH×4 重抓維持 chip-free；MY Kem Kotaraya 候任（州網正文讀唔出按規矩暫緩）；jsdom 21/21
+
 - 🔁 大掃第二迴第26波（2026-08-10）：AU/CA/ID/NZ 9營地結構化——Woodhouse 四chip全齊（A$22日票/venue.life預訂/全年9–5/公眾開放）、Gilwell VIC對外租用✅＋電話、Cataract官方「open to all groups」、HSR Doubleknot 2026預訂、日惹官方Pesan Buper頁、Brookfield「Scouts and others」✅、Ruapehu「ANYONE can stay」✅；誠實守綫：Cibubur收費只見傳媒→fee留空列secondary、Cottermouth等4場外團准入未明→國際署字眼；全庫📅38・🌏43；jsdom 20/20
 - 🔍 全軍大掃第25波（2026-08-10）：L3篩選列「🌏對外開放」掣——visitorNote以✅開頭先出列（GB實測16→8精準）；18個歐洲標誌營地結構化（GB全9中心含Gilwell國際訪客明證＋Hirsch Gallery開放時間、Zellhof/OurChalet/HouensOdde/Vässarö/Kragenäs國際營、白浪島NT渡輪）；測試基建/tmp抹檔後重建19/19綠
 - 🌏 第24波（2026-08-10）：visitorNote准入欄位16場地（✅9/❌2/⚠️4/❓1）＋詳情頁indigo 🌏 chip＋列表快掃；DATA_POLICY規則5（官方冇寫就用國際署字眼唔自己估）
