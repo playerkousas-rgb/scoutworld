@@ -85,7 +85,9 @@
     "verificationStatus": "public official/source page linked; verify current status before travel",
     "verificationSource": "https://www.zellhof.at",
     "facebook": "https://www.facebook.com/zellhof",
-    "socialVerificationSource": "https://www.zellhof.at"
+    "socialVerificationSource": "https://www.zellhof.at",
+    "bookingUrl": "https://www.zellhof.at",
+    "visitorNote": "✅ 國際童軍中心——歐洲童軍交流/志工服務熱門地（國際團體常客）"
   },
   {
     "id": "AT-CAMP-SCOUT-CAMP-AUSTRIA",

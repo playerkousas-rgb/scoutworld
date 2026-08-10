@@ -559,6 +559,7 @@
             <button data-type="Region" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">地域</button>
             <button data-type="verified" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">有來源</button>
             <button data-type="verify" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">需覆核</button>
+            <button data-type="access" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5" title="只顯示外國團體／公眾用得嘅場地（visitorNote 已核實 ✅）">🌏 對外開放</button>
           </div>
 
           <div id="l3-list" class="space-y-2 max-h-56 overflow-y-auto pr-1">
@@ -1561,6 +1562,10 @@
     // Render Level 3 / 4 List inside the drawer
 
     function matchesL3TypeFilter(item) {
+      // 🌏 對外開放：有 visitorNote 且以 ✅ 開頭（全軍大掃結構化欄位）
+      if (activeL3TypeFilter === 'access') {
+        return (item.visitorNote || '').trim().startsWith('✅');
+      }
       if (activeL3TypeFilter === 'all') return true;
       if (activeL3TypeFilter === 'verified') return !!item.verificationSource;
       if (activeL3TypeFilter === 'verify') {

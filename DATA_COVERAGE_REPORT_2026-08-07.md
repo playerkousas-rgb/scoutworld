@@ -597,3 +597,19 @@ Issue templates 同 CONTRIBUTING 要**合併入 `main`（default branch）**先�
 - UI：詳情頁 indigo 🌏 chip 逐項顯示；列表行 🌏 快掃圖標
 - **28/28 jsdom 全綠**（含反向斷言：TH 4 營地無 chip）；SW bump `v2026.08.10.9`
 - 覆蓋位置：而家結構化 chips 總數 = fee 7・預訂 14・時間 11・准入 16 = **48 項**
+
+## 🔍 全軍大掃・第 25 波（2026-08-10 完成）— 對外開放篩選掣 + 歐洲標誌營地結構化
+
+全庫掃描：241 個 Campsite 中 221 個零結構化 chips。今波處理咗兩層：
+
+### A. 18 個歐洲標誌營地結構化（全部源自已核實官方頁／描述）
+- 🇬🇧 **GB×9 全部 Scout Adventures 體系**：Gilwell（官方頁明寫 "We welcome UK and **international day visitors**"→✅chip＋Hirsch Gallery 開放時間 chip＋中心電話）、Lochgoilhead/Youlbury/Great Tower/Broadstone/Yr Hafod/Meggernie（青年團體皆可預訂✅＋預訂頁）、白浪島（NT 公眾渡輪✅）、Crawfordsburn（⚠️ 北愛查詢制）
+- 🇦🇹 Zellhof（國際中心✅）・🇨🇭 Our Chalet（WAGGGS 世界中心✅）・🇩🇰 Houens Odde ✅・🇮🇪 Larch Hill ⚠️・🇳🇱 Buitenzorg ⚠️・🇸🇪 Vässarö+Kragenäs ✅（國際頁面）・Vindalsö ⚠️・🇵🇹 Idanha 國家場 ✅
+
+### B. 「🌏 對外開放」篩選掣
+L3 類型篩選列加新 chip：撳一下淨顯示 `visitorNote` 以 ✅ 開頭嘅場地——一秒答「呢個國家邊度外國人去得」。GB 實測 16→8 個精準出列（Gilwell、白浪島、Youlbury…）。
+
+### 測試基建
+- /tmp 轉窗抹咗 jsdom＋舊測試檔 → **重建濃縮 suite 保留每波精華斷言**（19 tests，含全鏈路：GB→對外開放→精準出列）
+- **19/19 全綠**；總數不變 1,143／SW bump `v2026.08.10.10`
+- 待辦保持誠實：其餘 221-18=203 個零 chips 營地繼續用「需覆核／有來源」badge 示人
