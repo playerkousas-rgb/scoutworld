@@ -22,7 +22,8 @@
     "verificationSource": "https://scouts.do/contactos/",
     "socialVerificationSource": "https://www.facebook.com/scoutsdominicanos/",
     "facebook": "https://www.facebook.com/scoutsdominicanos/",
-    "locationAccuracy": "Representative point — Parque de Hostos 園區範圍代表點，非精確門牌"
+    "locationAccuracy": "Representative point — Parque de Hostos 園區範圍代表點，非精確門牌",
+    "openingHours": "週一至五 08:00–18:00；週六 09:00–12:00（週日休息）"
   },
   {
     "id": "DO-BRANCH-NORTE",
