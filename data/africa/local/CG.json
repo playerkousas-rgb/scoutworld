@@ -1,0 +1,24 @@
+[
+  {
+    "id": "CG-HQ-SC",
+    "parentCountry": "CG",
+    "level": 3,
+    "type": "Headquarters",
+    "flag": "🇨🇬",
+    "category": "國家總部 (National HQ)",
+    "name": "剛果童軍運動",
+    "nameEn": "Scoutisme Congolais (SC)",
+    "subregion": "布拉柴維爾 (Brazzaville)",
+    "lat": -4.2634,
+    "lng": 15.2429,
+    "locationAccuracy": "Representative point — 城市代表點（官方名錄未提供精確門牌座標）",
+    "address": "Direction Générale de la Jeunesse, Bacongo, Brazzaville, Republic of the Congo",
+    "phone": "",
+    "email": "",
+    "description": "Scoutisme Congolais 全國總部，設於布拉柴維爾 Bacongo 區青年事務總局。剛果童軍1963年首獲WOSM承認，1965-91年被禁後復會，2011年全國統一；WOSM非洲區官方名錄2026-08-10在冊。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "L3/HQ official website + WOSM Africa directory verified 2026-08-10",
+    "verificationSource": "https://www.scout.org/where-we-work/regions/africa/countries ; https://www.scoutismecongolais.org",
+    "website": "https://www.scoutismecongolais.org"
+  }
+]
