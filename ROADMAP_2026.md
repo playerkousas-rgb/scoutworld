@@ -27,6 +27,8 @@ Completed so far:
 
 2026-08-07 → 2026-08-10 完成嘅 11 波重點：
 
+- 🔁 大掃第四迴第28波（2026-08-10 歐洲小國＋美洲）：16營地結構化——BE Hopper雙子（De Kluis佛拉芒最老＋Merkenveld無障礙容量1,300）、FR Jambville全年365日+官方預訂表、EE Tagametsa「學校及公眾」✅、ES Griébal國際營✅、AR Centro Scout搵到自家/reservar價目頁✅、US四大高冒險基地（Sea Base官方明言公眾家庭營✅＋2027註冊、Philmont/Summit/NT⚠️＋預訂link）、CZ Kaprálův⚠️、CY四營（Platania 6–8月主營期；Kapparis官方章節空白誠實標註）、AT Scout Camp Austria SSL失效警告；🚨補鑊：肯雅騎劫域名kenyascouts.org匿埋verificationSource×4會render成可撳連結→全數拔除＋規則4補充；測試套件搬入repo（tools_runtime_test.js）12/12綠；chips📅47・🌏58
+
 - 🔁 大掃第三迴第27波（2026-08-10，FOR童軍視角）：韓總會 Scout Hall 場租全表 chips（₩25萬起・青少年八折・童軍活動經部門查詢）＋江原大露營修練場深度修復（搵到場地自家官網 wjs.or.kr＋電話＋8,000人容量列secondary）＋昆池岩誠實標註設施頁改版＋MX Meztitla「對國際團開放」降格 tertiary；TH×4 重抓維持 chip-free；MY Kem Kotaraya 候任（州網正文讀唔出按規矩暫緩）；jsdom 21/21
 
 - 🔁 大掃第二迴第26波（2026-08-10）：AU/CA/ID/NZ 9營地結構化——Woodhouse 四chip全齊（A$22日票/venue.life預訂/全年9–5/公眾開放）、Gilwell VIC對外租用✅＋電話、Cataract官方「open to all groups」、HSR Doubleknot 2026預訂、日惹官方Pesan Buper頁、Brookfield「Scouts and others」✅、Ruapehu「ANYONE can stay」✅；誠實守綫：Cibubur收費只見傳媒→fee留空列secondary、Cottermouth等4場外團准入未明→國際署字眼；全庫📅38・🌏43；jsdom 20/20

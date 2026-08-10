@@ -75,10 +75,12 @@
     "lng": 32.9282,
     "address": "Platania area, near Kakopetria, Troodos Mountains, Cyprus",
     "website": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
-    "description": "塞浦路斯童軍總會官方營地頁列明，Platania 營地位於 Troodos 山脈 Platania 區、距 Kakopetria 約 15 分鐘，設有電力、飲用水、衛浴、宿舍、帳篷平台、專業廚房、餐廳、營火場與運動場，可容納最多約 180 人。",
+    "description": "塞浦路斯童軍總會（Σ.Π.Κ.）營地總頁詳列嘅山村營地：Troodos 山 Platania 地區，距 Kakopetria 中心村約 15 分鐘。官方設施清單：電力及飲用水、廁所浴室、床鋪宿舍、8 人營帳底座、專業廚房、餐廳、營火場、運動場、聖喬治小教堂；小溪穿場而過，15 分鐘步行有求生訓練區。最多容納 180 人；主營期 6–8 月（官方註明夏季長滿）。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/"
+    "verificationStatus": "official SPK camp list page (tier: official) fetched 2026-08-10 — 設施/180人容量/6–8月主營期已實抓核實；價目及預訂安排未公開",
+    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
+    "openingHours": "主營期 6–8 月",
+    "visitorNote": "⚠️ 總會自營營地，外團安排未列明，出發前經總會國際署／連盟確認"
   },
   {
     "id": "CY-CAMP-LOUMATA-AETON",
@@ -94,10 +96,11 @@
     "lng": 32.8812,
     "address": "Near Troodos Square, Troodos Mountains, Cyprus",
     "website": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
-    "description": "官方營地頁指出「Λούματα των Αετών」位於 Troodos 山脈、靠近 Troodos Square，具飲用水、熱水、衛浴、廚房及四個房間，適合 Scout Troops、Communities 與 Rover/Network 成員進行更接近森林生活的營隊。",
+    "description": "官方營地總頁列明：Troodos 山近 Plateia（廣場）一帶嘅「由零開始」森林宿營場——設飲用水、熱水（需自備 gas 罐）、廁所浴室、廚房（焗爐雪櫃以 gas 運作）及四間房。官方定位：適合分區（Ομάδα）、社區（Κοινότητα）及 Network 成員營——營期所有事務須由參加者自行組織，提供真正森林生活體驗。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/"
+    "verificationStatus": "official SPK camp list page (tier: official) fetched 2026-08-10 — 設施及定位（自助式森林營）已核實；價目及預訂未公開",
+    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
+    "visitorNote": "⚠️ 總會自營營地，外團安排未列明，出發前經總會國際署／連盟確認"
   },
   {
     "id": "CY-CAMP-VAVATSINIA",
@@ -113,10 +116,11 @@
     "lng": 33.2289,
     "address": "Vavatsinia village entrance, Larnaca District, Cyprus",
     "website": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
-    "description": "官方營地頁列明 Vavatsinia 營地位於 Vavatsinia 村入口、海拔約 800 米，距拉納卡約 50 公里；設有餐廳、宿舍、衛浴、營火場、帳篷平台與大型宿舍，適合短期營隊及小狼／系統活動。",
+    "description": "官方營地總頁列明：2011 年落成嘅山區營地，位於 Vavatsinia 村入口（海拔約 800 米、距拉納卡 50 公里）。設大型有蓋室內餐廳、領袖宿舍、廁所浴室、營火場、營帳底座及大型床鋪宿舍。官方指一向「由會員及非會員使用（και όχι μόνο）」，定位兩至三日短營及小隊營；附近多條山徑（通 Machaira 山及 Lefkara 村）。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/"
+    "verificationStatus": "official SPK camp list page (tier: official) fetched 2026-08-10 — 設施/2011年啟用/「會員及非會員皆用」原文已核實；價目及預訂未公開",
+    "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
+    "visitorNote": "⚠️ 官方指「會員及非會員皆有使用」（原文含糊），出發前經總會國際署／連盟確認"
   },
   {
     "id": "CY-CAMP-KAPPARIS",
@@ -134,7 +138,7 @@
     "website": "https://www.cyprusscouts.org/kataskinotikoi-choroi/",
     "description": "Kapparis 是塞浦路斯童軍總會官方營地頁列出的營地之一，位於 Paralimni / Famagusta 海岸區。官方營地頁仍保留此營地條目，詳細設施需向 SPK 查詢。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationStatus": "⚠️ official SPK camp list page fetched 2026-08-10 — 該頁 Kapparis 章節內容空白（\"Your Content Goes Here\"）；地點存在但設施詳情官方未刊，出行前經總會國際署／SPK 確認",
     "verificationSource": "https://www.cyprusscouts.org/kataskinotikoi-choroi/"
   },
   {
