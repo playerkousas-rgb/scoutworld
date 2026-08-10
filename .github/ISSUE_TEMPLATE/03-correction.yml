@@ -1,0 +1,36 @@
+name: ✏️ 修正建議
+description: 翻譯唔順、分類唔啱、介面可以改善？任何令 Scout World 更好用嘅建議都歡迎。
+title: "[修正建議] "
+labels: ["improvement", "community-tip"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        唔使係完美嘅提案——講低你嘅觀察，我哋一齊執靚佢。
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 範疇
+      options:
+        - 資料內容（名稱 / 分類 / 坐標位置）
+        - 中文 / 外文翻譯
+        - 介面功能 / 使用體驗
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 詳情
+      description: 而家係點？你覺得應該係點？點解咁會更好？
+      placeholder: 例如：呢個營地而家分咗落「用品店」，應該搬返去「營地」…
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: 參考來源網址（如適用）
+      description: 如果係資料性修正，附個來源會處理得快好多
+      placeholder: https://…
+    validations:
+      required: false

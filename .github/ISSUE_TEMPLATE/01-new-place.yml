@@ -1,0 +1,87 @@
+name: 🗺️ 報料新地點
+description: 喺邊度見到值得收錄嘅童軍總部、用品店、營地或者博物館？話我哋知！
+title: "[新地點] "
+labels: ["new-place", "community-tip"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        多謝你幫 Scout World 壯大資料庫！🙏
+
+        **我哋嘅鐵律：準確 > 數量。** 每個新地點都需要一個**可以畀我哋親自查證嘅來源網址**——
+        冇來源嘅報料我哋會禮貌哂謝，但唔會收錄，以免誤導出發前嘅童軍。
+
+        🥇 官方網站／官方註冊名冊　🥈 官方社交媒體　🥉 傳媒／學校公文　（旅行 blog 只作輔助）
+  - type: dropdown
+    id: place-type
+    attributes:
+      label: 地點類型
+      options:
+        - 營地 / 訓練中心 / 童軍中心
+        - 童軍用品店
+        - 童軍總部 / 會所
+        - 地區童軍會 / 區會
+        - 博物館 / 文物中心
+        - 其他（下面講明）
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: 國家 / 地區
+      description: 例如：日本 Japan、芬蘭 Finland
+      placeholder: 例如：日本 Japan
+    validations:
+      required: true
+  - type: input
+    id: place-name
+    attributes:
+      label: 地點名稱
+      description: 原文名稱最好，有中文譯名可以一齊寫
+      placeholder: 例如：那須野営場（Nasu Scout Camp）
+    validations:
+      required: true
+  - type: textarea
+    id: address
+    attributes:
+      label: 地址 / 位置
+      description: 有門牌就寫門牌；淨係知道大約位置都歡迎寫明（我哋會用「代表點」徽章標示）
+      placeholder: 例如：〒325-0103 栃木県那須塩原市…
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: 來源網址（最重要！）
+      description: 一個你親自開過、證明呢個地點存在同營運中嘅網址——優先官方網站／官方名冊
+      placeholder: https://…
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 補充資料
+      description: 電話、開放時間、收費、預訂方法、交通——有幾多寫幾多，註明出自邊度
+      placeholder: 例如：收費 ¥100/人/日；逢星期三、五 11:00–19:00 營業…
+    validations:
+      required: false
+  - type: dropdown
+    id: discovery
+    attributes:
+      label: 你點樣發現呢個地點？
+      options:
+        - 親身到訪過
+        - 當地童軍朋友介紹
+        - 官方網站／名冊睇到
+        - 網上其他來源
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交前確認
+      options:
+        - label: 上面嘅來源網址我親自開過，內容真係講緊呢個地點
+          required: true
+        - label: 我明白冇來源／查證唔到嘅地點唔會被收錄
+          required: true

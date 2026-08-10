@@ -34,6 +34,7 @@ Completed so far:
 - Arab：黎巴嫩 LSA、約旦總部更新
 - Caribbean+Oceania：BB 用品社、BS 營地、DO 北辦、NZ venues/Waiora 錯置修正
 - 深度強化第13波（2026-08-10 後段）：日本首次有營地——連盟直轄那須野營場＋高萩Scout Field（官方價目/預約程序全譯）；澳洲營地補齊六區——QLD Baden-Powell Park、ACT Camp Cottermouth、TAS The Lea（全部官方頁 2026-08-10 抓取；地點總數 1,136）
+- Phase 6 貢獻流程上線（2026-08-10）：GitHub issue 三表（報料新地點／死連回報／修正建議）＋ CONTRIBUTING.md＋README 重寫＋網站頁尾「📮 報料／修正」入口；表格守門「來源網址必填」接軌 zero-hallucination 政策；templates 待合併 main 生效
 - 深度強化第17波（2026-08-10 凌晨四更）：東南亞官方總重核——泰國 NSOT 官方營地名冊 4/4 全中全升級（Vajiravudh 1962開幕498萊/Ban Rai 拉瑪六世猛虎兵團演習聖地/Trang 南部國家營/Rattarasarn 1966開幕＋2026採購公告現役）；星加坡 scout.sg 實抓（SLDC 營運 Sarimbun 實锤）；檳城官方 2026 活動鐵證；Makiling 誠實留 secondary（零新增純準確度）
 - 深度強化第16波（2026-08-10 凌晨三更）：日本第二擊——大阪連盟官方網 SWO 三寶（會館用品櫃位營業時間全公示＋直屬「キャンプおおさか」¥100/人/日收費及預訂程序全譯）；富士山周邊縣營地查無官方證據→誠實候任（地點總數 1,141）
 - 深度強化第15波（2026-08-10 深夜二更）：歐洲營地 booster 審計45國 L3——芬蘭 Kiljava 全官方實用詳盡（首都區童軍基金會、預訂規則全譯）＋希臘聖安德魯斯中心（ΣΕΠ 屬下、馬拉松旁、2025 活動證實）；克羅地亞官方目錄 camps.scouts.hr 拉唔到→誠實列入覆核（地點總數 1,139）

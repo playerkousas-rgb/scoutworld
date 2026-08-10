@@ -491,3 +491,32 @@ NSOT 官網 `camp.php` 官方名冊**只列 4 個國家營**——同我哋庫�
 | jsdom 測試 | 22/22 → **23/23 全綠** |
 
 > 泰國模式同台灣係姊妹：教育部官網放完整《營地名冊＋沿革＋採購軌跡》，一次過可以對晒四個營地生死。呢類「政府軟公開數據」係準確度嘅金礦。
+
+## 🤝 Phase 6 貢獻流程上線（2026-08-10 完成）— 社群報料通道打通
+
+17 波內容擴展完成之後，下一步係令資料庫可以**靠社群持續喂養**：海外華人童軍、旅行者見到新地點或死連，一條龍回報。
+
+### 落地內容
+
+| 組件 | 位置 | 作用 |
+|---|---|---|
+| 🗺️ 報料新地點表格 | `.github/ISSUE_TEMPLATE/01-new-place.yml` | 結構化收料：類型／國家／名稱／地址／**來源網址（必填）**／補充；雙重確認 checkbox |
+| 🔗 死連／過期回報表 | `.github/ISSUE_TEMPLATE/02-outdated-info.yml` | 6 類問題（死連／**騎劫**／過期／關閉／收費變／其他）＋「今日親自試過」確認 |
+| ✏️ 修正建議表 | `.github/ISSUE_TEMPLATE/03-correction.yml` | 翻譯／分類／介面一般建議 |
+| Chooser config | `.github/ISSUE_TEMPLATE/config.yml` | 關空白 issue，導流向 CONTRIBUTING 同 DATA_POLICY |
+| 貢獻指南 | `CONTRIBUTING.md`（新建） | 三表入口、**準確 > 數量**鐵律、來源四級制（官方→官方社交→第三方→blog）、唔收清單、進階 JSON 格式 |
+| README 重寫 | `README.md` | 項目定位、223 個 L2＋1,141 地點現況、三表入口直連、技術棧一句 |
+| 網站頁尾入口 | `index.html` sidebar footer | 「📮 報料／修正」琥珀色連結直達 `issues/new/choose`——用家喺網站見到錯一撳就回報 |
+
+### 表格守門設計
+- 「來源網址」欄設為 required：冇來源嘅報料從入口就擋住，維持 zero-hallucination 政策
+- 表頭直接寫明：「冇來源嘅報料會禮貌哂謝」——期望管理
+- 死連表預設「我今日親自試過」checkbox：減少一時网络抖路誤報
+
+### ⚠️ 生效條件（誠實註記）
+Issue templates 同 CONTRIBUTING 要**合併入 `main`（default branch）**先會喺 GitHub issue chooser 顯示；
+合併前頁尾「報料／修正」入口會落到 chooser 但只見舊介面。Vercel 網站嘅頁尾連結隨本次部署即時生效。
+
+| 指標 | 今波 |
+|---|---|
+| jsdom 測試 | 23/23 → **24/24 全綠**（新增貢獻流程測試：頁尾入口／四檔存在／表格守門字句／CONTRIBUTING 三連結） |
