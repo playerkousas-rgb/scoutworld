@@ -147,3 +147,19 @@
 
 ### 📊 歐洲區狀態：**完成** ✅
 47 國全部有資料檔；熱門旅遊國（英法意西荷比瑞德／北歐四國／奧愛）具備「官方小組搜尋＋全國中心＋用品社」三大支柱。**下一步建議：美洲區（加拿大、美國、中美、南美）。**
+
+## 🚀 官方來源豐富化第 6 波（2026-08-08 完成）— 美洲區開展：加拿大＋美國 +4
+
+美洲係熱門度僅次於亞太嘅香港童軍外遊區。開波先搞最熱門兩國。
+
+| 國家 | 前 → 後 | 新增內容 | 官方來源 |
+|---|---|---|---|
+| 🇨🇦 加拿大 CA | 3 → **6** | **Haliburton Scout Reserve**（全國最大童軍營地，4,900 英畝，Kennabi 湖 22 個船達營位，WOSM SCENES 認證，2026 季官方預訂系統連結）、**Camp Byng**（卑詩省旗艦海濱營，200 英畝＋1.2km 海岸線，Pacific Jamboree 場地）、**Find a Group** 官方小組搜尋（年齡段＋地區篩選＋免費熱線 1-888-855-3336） | hsrcamp.ca 官方營網 ＋ scouts.doubleknot.com 官方預訂系統 ＋ scouts.ca/join |
+| 🇺🇸 美國 US | 6 → **7** | **Be A Scout** 全美單位定位器（ZIP 搜尋＋五支部篩選＋國際訪客入口） | beascout.scouting.org（Scouting America 官方） |
+
+### 更新＋審計備忘
+- 加拿大「Book a Property」條目已更新為官方核實版：全國 **120+／125+ 個營產**互動地圖（scouts.ca/camps/home.html）。
+- **Blue Springs/Mount Nemo/Camp Samac/Camp Opemikon/Attawandaron** 等安省名營 **早已收錄喺本站世界 SCENES 層**（SCENES-CA-09～14）→ 唔重複加入 L3，全球搜尋一樣搵到。
+- ⚠️ 搵唔到官方 Scout Shop 美國門市一覽頁（scoutshop.org 無 store locator）→ 不新增，避免過時資料。
+
+- 地方地點總數：**1,112 → 1,116**（+4）；搜尋索引 **1,336** 條。
