@@ -219,3 +219,28 @@
 - 敘利亞 SY／也門 YE／利比亞 LY／蘇丹 SD：安全局勢下不宜鼓勵旅遊，維持 HQ only。
 
 - 地方地點總數：**1,123 → 1,124**（+1）；搜尋索引 **1,344** 條。
+## 🚀 官方來源豐富化第 11 波（2026-08-10 完成）— 加勒比＋大洋洲掃描：+4 條目、修正 2 個錯誤資料
+
+### 修正（準確優先）⚠️
+| 項目 | 問題 | 修正 |
+|---|---|---|
+| 🇳🇿 NZ-CAMP-WAIORA | **誤置喺 Hamilton／Waikato**（連錯誤座標） | 官網核實：實際位於**但尼丁以北 Silverstream Valley**（Otago），官網未公開街道地址 → 改 Representative 代表點 |
+| 🇩🇴 DO-HQ-ASD | 舊址 Calle Hostos No.352, Zona Colonial 過時 | 官網聯絡頁核實現址：Calle Arzobispo Portes #1（Parque Eugenio María de Hostos 園內, Ciudad Nueva），電話更正為 +1 809 682 3948，補辦公時間 |
+
+### 新增（全部官方來源核實，除特別標明）
+| 國家 | 前 → 後 | 新增內容 | 官方來源 |
+|---|---|---|---|
+| 🇳🇿 紐西蘭 NZ | 7 → **8** | **Find a Group 官方揀團器**（全紐 300+ 團，郊區名＋5–500km 半徑搜尋，可租會址；有 e-Scouts 線上團）；Motu Moana 補街道地址/電話（90-142 Connaught St, Blockhouse Bay, 1941年起總會持有）、Waiora/場地條目經官方 venues 頁複核 | scouts.nz/join、scouts.nz/venues、各營地官網 |
+| 🇧🇧 巴貝多 BB | 1 → **2** | **BBSA Scout Shop 官方用品社**（總部 Hazelwood 地段：制服/襟章/戶外裝備/紀念品；營業時間 二四 10:00–16:00、六 09:30–12:30；電話 +1 246 426 9379） | scoutshop.barbadosscouts.org 聯絡頁 |
+| 🇧🇸 巴哈馬 BS | 1 → **2** | **Adelaide Village 30 英畝童軍營地**（1926 年政府捐贈，露營/遠足；⚠️ 第三手 Wikipedia 來源，已標明出行前必須經總部確認）；總部補 Baden Powell House 名址（bahamaslocal 二手，已標明） | WOSM scout.org worldwide 名錄（電話/郵址）|
+| 🇩🇴 多明尼加 DO | 1 → **2** | **Oficina Scout Norte 北部辦事處**（聖地亞哥 Zona Monumental，+1 809 583 0847，服務 Cibao 地區） | scouts.do/contactos 官方聯絡頁 |
+| 🇫🇯 斐濟 FJ | 2 → 2（強化） | 總部補街道地址 34 Holland Street, Suva（官方 FB）＋ WOSM APR 名錄複核電話 | scout.org APR countries 頁 |
+| 🇯🇲 牙買加 JM | 1 → 1（強化） | 總部補地址 2D Camp Road, Kingston 5（⚠️ 第三手 Wikipedia 已標明）；官網 scoutja.com 核實運作中 | scoutja.com |
+
+### 誠實放棄清單（覆查清單）
+- 🇹🇹 千里達 scouts.tt：Cloudflare 522 源站故障（2026-08-10）；TT 維持 2 條。
+- 🇦🇼 阿魯巴 scoutingaruba.com：HTTP 500。
+- 🇦🇬🇧🇿🇩🇲🇬🇩🇬🇾🇭🇹🇱🇨🇸🇷🇻🇨 加勒比小島＋🇵🇬🇸🇧🇰🇮 大洋洲島國：無可核實官方公開資料，維持 HQ only。
+- 薩摩亞／湯加／瓦努阿圖等波利尼西亞微型國家：現時 L2 層未有國家條目，需先評估建 L2，列入路線圖討論。
+
+- 地方地點總數：**1,124 → 1,128**（+4）；搜尋索引 **1,348** 條；覆蓋國家/代碼維持 175。
