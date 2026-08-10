@@ -539,3 +539,31 @@ Issue templates 同 CONTRIBUTING 要**合併入 `main`（default branch）**先�
 - **23/23 全綠**，零資料檔改動（1,141 地點不變）
 
 > 下一步介面位可考慮：收藏夾分享（URL hash 編碼收藏清單俾團友）、營地收費結構化欄位（`fee`/`bookingUrl`）配合徽章顯示。
+
+## 🏕️ 資料結構化第 20 波（2026-08-10 完成）— 營地 fee/bookingUrl chips
+
+營地嘅實用資料（幾錢？點訂？）由 description 長文升級做**結構化欄位**，詳情頁一眼睇到。
+
+### 新欄位（DATA_POLICY 規則 3）
+- `fee`：短字串（≤25字），**只可以由已核實官方來源提取**——查唔到就留空，寧缺勿濫
+- `bookingUrl`：單一官方預訂／收費詳情頁 URL
+- UI 自動渲染：詳情頁 💰 收費 chip ＋ 📅 預訂連結 chip；列表行顯示 💰📅 圖標快掃
+
+### 今波入數（16 個營地，全部源自 waves 13–17 已核實官方頁）
+
+| 收費費 chip（7） | 費用 |
+|---|---|
+| JP 大阪營地 | ¥100/人/日 |
+| JP 那須野營場 | 露營10人/區 ¥8,000起 |
+| JP 高萩 Scout Field | 宿房 ¥2,000/人/晚起 |
+| TW 大坑 | 免費（MOE 名冊列明） |
+| TW 曾文 | 豪華營位 NT$4,000/營位 |
+| AU BP Park | 公眾須 AU$20 年籍 |
+| AU The Lea | 夏季露營 $15/成人起 |
+
+| 預訂連結 chip（14） | 韓國 scoutcenter 專站、希臘 picktime、台灣陽明山/曾文、芬蘭 Kiljava、紐西蘭×2（Waiora /register、Motu Moana）、澳洲×3（BP Park、Cottermouth、The Lea 誠實淨費——官方註明夏季**不設預訂**所以不加連結）、加拿大 Byng Doubleknot、日本×3 |
+
+### 誠實守綫測試
+- 反向斷言：The Lea 有 fee 但官方註明唔設預訂 → 必須**無** bookingUrl；泰國 4 營地 NSOT 名冊無線上預訂 → 全部 chip-free
+- jsdom 全鏈路：JP hot-chip → 大阪行見 💰📅 → 撳入詳情見 ¥100 chip＋swo.to 連結 — **24/24 全綠**
+- SW bump `v2026.08.10.2`；總數不變（1,141 地點／1,364 索引）

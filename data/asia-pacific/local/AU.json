@@ -305,7 +305,9 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "Scouts Queensland 自置自營的 Baden-Powell Campsite, Training & Activity Centre，位於布里斯本西北 Samford Village，步行可達村內商店食肆。主要供童軍、女童軍及社區團體使用；公眾露營者須先登記「Supporter of Scouting」年費會籍（AU$20）方可使用指定公眾營位（草地，部分連電/水），到場後須先向場地經理 check-in。官方頁自述洗手設施陳舊但熱水穩定，另有部分加熱泳池（童軍使用時公眾不得靠近）；指定區域可帶狗；2WD可達；預訂最長14日，任何12個月內在全昆士蘭童軍營場合計最多100日；學校假期常因大型活動暫停公眾營位。",
     "verificationStatus": "official Scouts Queensland booking page (tier: official) fetched 2026-08-10; public-stay membership terms apply and may change — reconfirm before travel",
-    "verificationSource": "https://camping.scoutsqld.com.au/bp-park-booking-public/"
+    "verificationSource": "https://camping.scoutsqld.com.au/bp-park-booking-public/",
+    "fee": "公眾須 AU$20 年籍",
+    "bookingUrl": "https://camping.scoutsqld.com.au/bp-park-booking-public/"
   },
   {
     "id": "AU-CAMP-COTTERMOUTH-ACT",
@@ -327,7 +329,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "Scouts ACT 營運的團體住宿營地（官網頁腳列「Copyright 2026 Scouts ACT」），位於 Cotter 河一帶灌木林，距國會山莊約15分鐘車程，毗鄰 Murrumbidgee River 自然保護區，可遠眺 Brindabella 山脈。官網首頁：14間冷氣連浴室大通舖木屋共可住約120人，其中2間大木屋及全部共用設施全面無障礙；4間中屋（共約16人）及2間單人小屋；提供全包膳食（早、早茶、午、下午茶、兩道菜晚餐），可配合特別飲食需要；另設草地營區連營地廚房。預訂經官網 Booking Enquiry。",
     "verificationStatus": "official camp website (tier: official) fetched 2026-08-10 — footer lists address and phone; capacity details per official homepage; reconfirm booking terms before travel",
-    "verificationSource": "https://campcottermouth.com.au/"
+    "verificationSource": "https://campcottermouth.com.au/",
+    "bookingUrl": "https://campcottermouth.com.au/"
   },
   {
     "id": "AU-CAMP-THELEA-TAS",
@@ -349,6 +352,7 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "塔斯曼尼亞童軍1949年購入的營地（此前多年已用作露營），現由 The Lea Board of Management 管理並設全職管理員；137.3公頃灌木林屬 National Parks & Wildlife Act 1970 指定保育區，距荷伯特約15分鐘車程。官網活動頁列出攀樹、飛索、低空繩網、Burma 橋、緣繩下降、定向、山區單車及營火等活動；另有小木屋及場地租用。童軍及學校等團體全年可用；夏季（12月1日至3月）開放公眾灌木露營，官網註明2026年季度將於12月重開，夏季露營不設預訂、只收信用卡：供電位$35/2位成人、不供電$15/成人（家庭價另列）。保育區內禁寵物及個別營火。",
     "verificationStatus": "official pages (tier: official) fetched 2026-08-10 — summer-camping page (season, rates, phone) and about page (1949 purchase, 137.3 ha); reconfirm season arrangements before travel",
-    "verificationSource": "https://www.thelea.com.au/summer-camping.html"
+    "verificationSource": "https://www.thelea.com.au/summer-camping.html",
+    "fee": "夏季露營 $15/成人起"
   }
 ]

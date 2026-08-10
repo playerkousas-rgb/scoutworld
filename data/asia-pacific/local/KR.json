@@ -240,7 +240,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "韓國童軍連盟官方設施目錄列明嘅全國訓練中心，32,135㎡，位於京畿道高陽市。第一野營場可容500人、第二野營場120人，設活動場、運動場、營火場、停車場、野外淋浴及公共炊事台，另有宿所、講堂等室內設施；對童軍隊、領袖以至家庭及學校團體開放（韓國旅遊資料：家庭露營及學校修練教育常用）。官方稱「中央訓練院/서삼릉청소년야영장」雙名運作，預約經 scoutcenter.scout.or.kr 專站（提交利用申請書）。首爾近郊，香港團交流宿營方便（1968年落成、1993年升格屬 secondary 資料，未見官方頁佐證）。",
     "verificationStatus": "official KSA facility page (tier: official) read 2026-08-10 — name, address (Wondang-dong 200-5), phone 031-967-9164 and capacity/facilities confirmed from official listing; history years per secondary sources; page JS-rendered, verify before travel",
-    "verificationSource": "https://scout.or.kr/association/facility"
+    "verificationSource": "https://scout.or.kr/association/facility",
+    "bookingUrl": "https://scoutcenter.scout.or.kr"
   },
   {
     "id": "KR-CAMP-GANGWON-JAMBOREE",
@@ -306,6 +307,7 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "韓國童軍連盟官方設施目錄列明嘅全國性野營場（29,950㎡，連盟直營），位於首爾東南車程約一個鐘嘅京畿道廣州市道尺面。設10人用帳幕30頂、野營場可容950人；室內有多用途室、領袖會議室、講堂、廁浴；野外設冒險遊樂設施10種（宇宙旅行等）、營火場、炊事場、野外劇場、宣誓禮場。官方列明團體項目：1日體驗（生活安全、生存、傳統飲食、工藝）及1泊2日/2泊3日住宿型挑戰營、印第安營等。利用需經連盟設施頁提交申請書。",
     "verificationStatus": "official KSA facility page (tier: official) read 2026-08-10 — name, Gyeonggi Gwangju Jinu-ri 884 address, phone 031-764-1634, 950-pax capacity and programs confirmed from official listing; page JS-rendered, verify before travel",
-    "verificationSource": "https://scout.or.kr/association/facility"
+    "verificationSource": "https://scout.or.kr/association/facility",
+    "bookingUrl": "https://scout.or.kr/association/facility"
   }
 ]

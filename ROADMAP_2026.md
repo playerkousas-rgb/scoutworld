@@ -34,6 +34,7 @@ Completed so far:
 - Arab：黎巴嫩 LSA、約旦總部更新
 - Caribbean+Oceania：BB 用品社、BS 營地、DO 北辦、NZ venues/Waiora 錯置修正
 - 深度強化第13波（2026-08-10 後段）：日本首次有營地——連盟直轄那須野營場＋高萩Scout Field（官方價目/預約程序全譯）；澳洲營地補齊六區——QLD Baden-Powell Park、ACT Camp Cottermouth、TAS The Lea（全部官方頁 2026-08-10 抓取；地點總數 1,136）
+- 營地結構化（2026-08-10）：16 營地 fee/bookingUrl 欄位（7 收費＋14 預訂連結，全部源自已核實官方頁；The Lea「不設預訂」誠實淨費）＋詳情頁 💰/📅 chips＋列表快掃圖標；jsdom 24/24
 - 界面升級（2026-08-10）：⭐ 收藏夾——詳情頁/列表行星星掣＋側欄收藏面板（localStorage 離線快照、點行直達詳情、SW 版本 bump）；jsdom 全鏈路測試 23/23
 - Phase 6 貢獻流程上線（2026-08-10）：GitHub issue 三表（報料新地點／死連回報／修正建議）＋ CONTRIBUTING.md＋README 重寫＋網站頁尾「📮 報料／修正」入口；表格守門「來源網址必填」接軌 zero-hallucination 政策；templates 待合併 main 生效
 - 深度強化第17波（2026-08-10 凌晨四更）：東南亞官方總重核——泰國 NSOT 官方營地名冊 4/4 全中全升級（Vajiravudh 1962開幕498萊/Ban Rai 拉瑪六世猛虎兵團演習聖地/Trang 南部國家營/Rattarasarn 1966開幕＋2026採購公告現役）；星加坡 scout.sg 實抓（SLDC 營運 Sarimbun 實锤）；檳城官方 2026 活動鐵證；Makiling 誠實留 secondary（零新增純準確度）

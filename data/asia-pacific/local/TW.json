@@ -63,7 +63,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "official GASC camp pages (tier: official) fetched 2026-08-10 — 2022 rename, 2025-09 sixth contract and rental rules confirmed; verify availability before travel",
     "verificationSource": "https://www.scout.org.tw/autopage_detail/1/438",
-    "email": ""
+    "email": "",
+    "bookingUrl": "https://www.scout.org.tw/autopage_detail/1/438"
   },
   {
     "id": "TW-CAMP-DAKENG",
@@ -83,7 +84,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "verified via MOE official nationwide scout-camp table (tier: official) fetched 2026-08-10 — managed by Taichung Scout Council for the Education Bureau, scout-priority, open; table not dated, reconfirm current terms before travel",
     "verificationSource": "https://www.taiwan.net.tw/userfiles/file/%E3%80%90%E5%85%AC%E6%9C%89%E3%80%911_%E4%B8%AD%E5%A4%AE-05%E6%95%99%E8%82%B2%E9%83%A8-%E5%9C%8B%E7%AB%A5%E8%BB%8D%E7%87%9F%E5%9C%B0(%E6%95%99%E8%82%B2%E9%A1%9E)%E4%BD%BF%E7%94%A8%E7%8F%BE%E6%B3%81%E4%B8%80%E8%A6%BD%E8%A1%A8x36.pdf",
-    "email": ""
+    "email": "",
+    "fee": "免費（台中市教育局委管）"
   },
   {
     "id": "TW-CAMP-CHENGCHING",
@@ -184,7 +186,9 @@
     "description": "救國團曾文青年活動中心位於曾文水庫大壩旁，群山環抱，設鳳凰、菩提兩大露營區（約800人）及套房住宿、500人餐廳，係南台灣童軍訓練及學校戶外教育重鎮。近年升級打造「曾文露樹村 Zengwen TreeCamp Village」：設經典露營、車宿區及親子露營區，豪華營位（官方頁列每營位$4,000、111年前優惠$2,800）免搭帳、連兩大床、冷氣、早餐及水庫門票；另有獨角仙生態園區。2026年獲台南露營場考核「優等」（官網2026-07新聞），線上訂房系統運作中。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "official site (tier: official) fetched 2026-08-10 — 2026 news posts live incl. Tainan campsite excellence award; glamping rates per official page; verify current season terms before travel",
-    "verificationSource": "https://tsengwencamp.cyh.org.tw/"
+    "verificationSource": "https://tsengwencamp.cyh.org.tw/",
+    "fee": "豪華營位 NT$4,000/營位",
+    "bookingUrl": "https://tsengwencamp.cyh.org.tw/"
   },
   {
     "id": "TW-CAMP-FUXINGSHAN",

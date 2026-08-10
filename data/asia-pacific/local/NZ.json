@@ -63,7 +63,8 @@
     "verificationStatus": "official camp website + Scouts Aotearoa venues page verified 2026-08-10",
     "verificationSource": "https://www.motumoanacamp.co.nz/",
     "phone": "0800 667 267 (0800 MMSCAMP, NZ only)",
-    "locationAccuracy": "Representative point — Connaught Street 海邊營地方位代表點；以官網街道地址為準"
+    "locationAccuracy": "Representative point — Connaught Street 海邊營地方位代表點；以官網街道地址為準",
+    "bookingUrl": "https://motumoanacamp.co.nz/"
   },
   {
     "id": "NZ-CAMP-WAIORA",
@@ -84,7 +85,8 @@
     "email": "",
     "verificationStatus": "official camp website + Scouts Aotearoa venues page verified 2026-08-10；⚠️ 已修正先前誤置：原標示 Hamilton/Waikato 屬錯誤，實際位於但尼丁 Silverstream Valley",
     "verificationSource": "https://www.waiorascoutcamp.org.nz/",
-    "locationAccuracy": "Representative point — 官網僅標明位於但尼丁以北 Silverstream Valley（距市中心約15分鐘車程），未公開街道地址；此為山谷代表點，非實際入口位置"
+    "locationAccuracy": "Representative point — 官網僅標明位於但尼丁以北 Silverstream Valley（距市中心約15分鐘車程），未公開街道地址；此為山谷代表點，非實際入口位置",
+    "bookingUrl": "https://www.waiorascoutcamp.org.nz/register"
   },
   {
     "id": "NZ-CAMP-BROOKFIELD",

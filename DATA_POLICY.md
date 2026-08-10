@@ -182,4 +182,5 @@ grep -RInE "wikipedia|wikiwand|scoutwiki|維基" data || true
 
 1. **verificationSource 必須係單一 URL**（工具 link-checker 同 UI link target 都按單連結處理）；次要來源寫入 `verificationStatus` 文字並標明等級（official／official social／secondary／tertiary）。
 2. **域名安全覆核**：官方連結如確認被騎劫（redirect 賭博／注入 spam），**立即移除 website 連結**＋`verificationStatus` 加 ⚠️ 警告同「資料來源：WOSM 官方名錄」；純粹連線失敗（HTTP 5xx / timeout）則保留連結＋警告。已知案例：kenyascouts.org、scoutismecongolais.org、aeascout.org（2026-08）。
+3. **營地結構化欄位（2026-08-10 起）**：`fee`（短字串，≤20 字，例 `¥100/人/日`）同 `bookingUrl`（單一官方預訂／收費頁 URL）係選填欄位，**只可以由已核實官方來源提取**（例如官方頁已列明嘅收費表／預訂專站）。查唔到就留空，絕對唔可以估。寧願得 16 個真實收費，唔好 100 個虛構收費。UI 會自動顯示 💰 收費 chip 同 📅 預訂連結。
 3. **新國家加入 L2 前**，必須先喺 index.html `countryRegionMap` 入面登記代碼，否則 L3 fetch 會 404（已設 jsdom regression test）。
