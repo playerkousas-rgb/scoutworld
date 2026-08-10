@@ -311,7 +311,8 @@
     "verificationStatus": "official page (tier: official) fetched 2026-08-10 with address, phone, fee table and booking rules; fee list updated 2024-07 — reconfirm current fees and availability before travel",
     "verificationSource": "https://www.scout.or.jp/about/facility-use/nasu",
     "fee": "露營10人/區 ¥8,000起",
-    "bookingUrl": "https://www.scout.or.jp/about/facility-use/nasu"
+    "bookingUrl": "https://www.scout.or.jp/about/facility-use/nasu",
+    "visitorNote": "✅ 一般團體可申請（價目表有「一般」檔）；外國童軍團經連盟渠道接洽"
   },
   {
     "id": "JP-CAMP-TAKAHAGI",
@@ -335,7 +336,8 @@
     "verificationStatus": "official page (tier: official) fetched 2026-08-10 with address, phone, facilities list and booking procedure; reconfirm current arrangements before travel",
     "verificationSource": "https://www.scout.or.jp/about/facility-use/takahagi",
     "fee": "宿房 ¥2,000/人/晚起",
-    "bookingUrl": "https://www.scout.or.jp/about/facility-use/takahagi"
+    "bookingUrl": "https://www.scout.or.jp/about/facility-use/takahagi",
+    "visitorNote": "✅ 一般公眾團體亦可申請使用（官方頁列明）"
   },
   {
     "id": "JP-SHOP-OSAKA",
@@ -382,7 +384,8 @@
     "verificationStatus": "official Camp Osaka page (tier: official, SWO) fetched 2026-08-10 — address, ¥100/pax/day fee, booking procedure, transit access and maintenance works 2023–24 confirmed; verify current availability before travel",
     "verificationSource": "http://swo.to/camposaka.html",
     "fee": "¥100/人/日",
-    "bookingUrl": "http://swo.to/camposaka.html"
+    "bookingUrl": "http://swo.to/camposaka.html",
+    "visitorNote": "⚠️ 連盟會內預訂制；公眾/外國童軍使用須經大阪連盟查詢（無場地電話，向事務局）"
   },
   {
     "id": "JP-CAMP-JIZOUYAMA",
@@ -404,7 +407,8 @@
     "bookingUrl": "https://jizouyama.com/%E3%81%97%E3%81%8A%E3%82%8A/",
     "description": "東京八王子里山嘅青少年育成野營場（官方網站實抓 2026-08-10）：以青少年健全育成為目的，**公眾唔用得**。官方價目（2021年9月改訂）：童軍 日營¥600／露營¥800（每人）；學校等非童軍青年團體 ¥700／¥1,000；營位每區另收¥2,000（集會廣場免費）。設施：水洗廁×4、東京都水道、停車場25台、營位9個、集會廣場、營火場；直火禁止（須用磚墊鐵板）、垃圾全部自攜帶走。申請：官網利用案内頁下載使用申請書（Word/Excel/PDF），取消須提前3日。食材可喺15分鐘車程內超市採購；薪竹材料可向管理方查詢。",
     "verificationSource": "https://jizouyama.com/%E3%81%97%E3%81%8A%E3%82%8A/",
-    "verificationStatus": "official camp website (tier: official) fetched 2026-08-10——價目表及申請程序完整；青年育成專用，公眾唔用得；出行前以官網最新公告為準"
+    "verificationStatus": "official camp website (tier: official) fetched 2026-08-10——價目表及申請程序完整；青年育成專用，公眾唔用得；出行前以官網最新公告為準",
+    "visitorNote": "❌ 公眾不可用（青年育成團體專用）；外國童軍查詢：請經香港總會國際署"
   },
   {
     "id": "JP-CAMP-YAMANAKA",
@@ -423,6 +427,7 @@
     "phone": "0555-62-0141",
     "description": "富士山腳山中湖畔嘅歷史童軍營地：名錄記載為昔日童軍領袖訓練場（大正末期創設），標高約1,000米、面向山中湖嘅斜坡林地。交通：富士急行巴士「旭日丘」站步行約2分鐘；東富士五湖道山中湖IC約10分鐘車程。⚠️重要誠實提示：日本連盟官方網站設施一覽（2026-08-10 實抓 https://www.scout.or.jp/about/facility-use/）只列連盟直轄那須野營場及高萩 Scout Field，**冇列出本場**——現時營運方及開放狀態未經官方渠道確認，僅第三方名錄（ekiten）有頁面；同址隔籬另有村營山中湖營地（電話0555-62-0146，唔同號碼），務必致電 0555-62-0141 核實先好plan。香港團體探訪/借用請循香港童軍總會國際署程序接洽。",
     "verificationSource": "https://www.ekiten.jp/shop_3331677/access/",
-    "verificationStatus": "directory listing (tier: tertiary) fetched 2026-08-10——SAJ 官方設施名單（同日實抓）未收錄，營運歸屬同開放狀態未能官方確認；出行前務必致電覆核"
+    "verificationStatus": "directory listing (tier: tertiary) fetched 2026-08-10——SAJ 官方設施名單（同日實抓）未收錄，營運歸屬同開放狀態未能官方確認；出行前務必致電覆核",
+    "visitorNote": "❓ 連運作狀態都未經官方確認（SAJ 名單冇佢）——必須致電覆核先談准入"
   }
 ]

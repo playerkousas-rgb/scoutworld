@@ -64,7 +64,8 @@
     "verificationStatus": "official GASC camp pages (tier: official) fetched 2026-08-10 — 2022 rename, 2025-09 sixth contract and rental rules confirmed; verify availability before travel",
     "verificationSource": "https://www.scout.org.tw/autopage_detail/1/438",
     "email": "",
-    "bookingUrl": "https://www.scout.org.tw/autopage_detail/1/438"
+    "bookingUrl": "https://www.scout.org.tw/autopage_detail/1/438",
+    "visitorNote": "❌ 唔開放個人；只限完成三項登記童軍團、機關學校＋或戶外教育團體，限額申請制"
   },
   {
     "id": "TW-CAMP-DAKENG",
@@ -85,7 +86,8 @@
     "verificationStatus": "verified via MOE official nationwide scout-camp table (tier: official) fetched 2026-08-10 — managed by Taichung Scout Council for the Education Bureau, scout-priority, open; table not dated, reconfirm current terms before travel",
     "verificationSource": "https://www.taiwan.net.tw/userfiles/file/%E3%80%90%E5%85%AC%E6%9C%89%E3%80%911_%E4%B8%AD%E5%A4%AE-05%E6%95%99%E8%82%B2%E9%83%A8-%E5%9C%8B%E7%AB%A5%E8%BB%8D%E7%87%9F%E5%9C%B0(%E6%95%99%E8%82%B2%E9%A1%9E)%E4%BD%BF%E7%94%A8%E7%8F%BE%E6%B3%81%E4%B8%80%E8%A6%BD%E8%A1%A8x36.pdf",
     "email": "",
-    "fee": "免費（台中市教育局委管）"
+    "fee": "免費（台中市教育局委管）",
+    "visitorNote": "✅ 對外開放（台中市教育局委管，童軍使用優先）；免費"
   },
   {
     "id": "TW-CAMP-CHENGCHING",

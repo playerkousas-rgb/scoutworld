@@ -242,7 +242,8 @@
     "description": "韓國童軍連盟官方設施目錄列明嘅全國訓練中心，32,135㎡，位於京畿道高陽市。第一野營場可容500人、第二野營場120人，設活動場、運動場、營火場、停車場、野外淋浴及公共炊事台，另有宿所、講堂等室內設施；對童軍隊、領袖以至家庭及學校團體開放（韓國旅遊資料：家庭露營及學校修練教育常用）。官方稱「中央訓練院/서삼릉청소년야영장」雙名運作，預約經 scoutcenter.scout.or.kr 專站（提交利用申請書）。首爾近郊，香港團交流宿營方便（1968年落成、1993年升格屬 secondary 資料，未見官方頁佐證）。",
     "verificationStatus": "official KSA facility page (tier: official) read 2026-08-10 — name, address (Wondang-dong 200-5), phone 031-967-9164 and capacity/facilities confirmed from official listing; history years per secondary sources; page JS-rendered, verify before travel",
     "verificationSource": "https://scout.or.kr/association/facility",
-    "bookingUrl": "https://scoutcenter.scout.or.kr"
+    "bookingUrl": "https://scoutcenter.scout.or.kr",
+    "visitorNote": "✅ 官方寫明向家庭及學校團體開放；外國團體未寫明——出發前經國際署/連盟確認"
   },
   {
     "id": "KR-CAMP-GANGWON-JAMBOREE",

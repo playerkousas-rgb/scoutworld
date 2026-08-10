@@ -307,7 +307,8 @@
     "verificationStatus": "official Scouts Queensland booking page (tier: official) fetched 2026-08-10; public-stay membership terms apply and may change — reconfirm before travel",
     "verificationSource": "https://camping.scoutsqld.com.au/bp-park-booking-public/",
     "fee": "公眾須 AU$20 年籍",
-    "bookingUrl": "https://camping.scoutsqld.com.au/bp-park-booking-public/"
+    "bookingUrl": "https://camping.scoutsqld.com.au/bp-park-booking-public/",
+    "visitorNote": "✅ 公眾可用——但須先登記 AU$20 Supporter 年籍"
   },
   {
     "id": "AU-CAMP-COTTERMOUTH-ACT",
@@ -353,6 +354,7 @@
     "description": "塔斯曼尼亞童軍1949年購入的營地（此前多年已用作露營），現由 The Lea Board of Management 管理並設全職管理員；137.3公頃灌木林屬 National Parks & Wildlife Act 1970 指定保育區，距荷伯特約15分鐘車程。官網活動頁列出攀樹、飛索、低空繩網、Burma 橋、緣繩下降、定向、山區單車及營火等活動；另有小木屋及場地租用。童軍及學校等團體全年可用；夏季（12月1日至3月）開放公眾灌木露營，官網註明2026年季度將於12月重開，夏季露營不設預訂、只收信用卡：供電位$35/2位成人、不供電$15/成人（家庭價另列）。保育區內禁寵物及個別營火。",
     "verificationStatus": "official pages (tier: official) fetched 2026-08-10 — summer-camping page (season, rates, phone) and about page (1949 purchase, 137.3 ha); reconfirm season arrangements before travel",
     "verificationSource": "https://www.thelea.com.au/summer-camping.html",
-    "fee": "夏季露營 $15/成人起"
+    "fee": "夏季露營 $15/成人起",
+    "visitorNote": "✅ 夏季開放公眾露營（唔設預訂，只收信用卡）；秋季起重開 2026-12"
   }
 ]
