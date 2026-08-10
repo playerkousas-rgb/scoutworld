@@ -381,9 +381,23 @@
       <!-- List Stats -->
       <div class="bg-[#010a24] px-4 py-2 text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between flex-shrink-0">
         <span>WOSM成員 / 全球資源列表 (<span id="filtered-count">0</span>)</span>
-        <span id="loading-indicator" class="text-amber-400 flex items-center gap-1">
-          <i class="fa-solid fa-circle-notch animate-spin"></i> 載入中...
+        <span class="flex items-center gap-2">
+          <button id="favorites-toggle-btn" class="normal-case tracking-normal flex items-center gap-1 text-[10px] font-black text-amber-300 bg-amber-400/10 hover:bg-amber-400/25 border border-amber-400/30 px-2 py-0.5 rounded-full transition-all focus:outline-none" title="睇返你收藏咗嘅營地/用品社/單位（儲存喺呢部機，離線都睇到）" aria-label="打開或收埋我嘅收藏清單">
+            <i class="fa-solid fa-star"></i> 收藏 <span id="favorites-count" class="bg-amber-400 text-slate-950 rounded-full px-1.5 text-[9px]">0</span>
+          </button>
+          <span id="loading-indicator" class="text-amber-400 flex items-center gap-1">
+            <i class="fa-solid fa-circle-notch animate-spin"></i> 載入中...
+          </span>
         </span>
+      </div>
+      
+      <!-- FAVORITES PANEL (⭐ 你嘅收藏，localStorage 離線儲存) -->
+      <div id="favorites-panel" class="hidden flex-shrink-0 max-h-56 overflow-y-auto bg-[#010c29] border-b border-amber-400/25 p-2 pb-3" aria-label="我嘅收藏清單">
+        <div class="flex items-center justify-between px-1 pb-1.5">
+          <span class="text-[10px] font-black text-amber-300 uppercase tracking-wider flex items-center gap-1"><i class="fa-solid fa-star"></i> 我嘅收藏 (<span id="favorites-panel-count">0</span>) · 離線儲存於此機</span>
+          <button id="favorites-clear-btn" class="text-[9px] font-bold text-slate-500 hover:text-red-300 transition-colors focus:outline-none" title="一鍵清空全部收藏">清空</button>
+        </div>
+        <div id="favorites-list" class="space-y-1"></div>
       </div>
       
       <!-- GLOBAL SEARCH RESULTS (全球營地/用品社/區會直達，輸入 ≥2 字自動出現) -->
@@ -443,7 +457,7 @@
           <i class="fa-solid fa-map-location-dot text-amber-400"></i> 外遊規劃，三秒上手！
         </h4>
         <p class="text-[11px] text-slate-300 leading-relaxed font-medium">
-          用 🔥 熱門捷徑或搜尋（如 <strong>KISC、東京、Shop</strong>）直達全球 1297+ 營地、用品社、區會；詳情頁可按「營地／Shop／HQ」篩選，並用「分享」掣複製連結俾團友。出發前睇過嘅資料，<strong>旅途中斷網都睇到</strong>！
+          用 🔥 熱門捷徑或搜尋（如 <strong>KISC、東京、Shop</strong>）直達全球 1297+ 營地、用品社、區會；詳情頁可按「營地／Shop／HQ」篩選，撳 <strong>⭐ 收藏</strong> 儲起心水地點（離線睇得返），並用「分享」掣複製連結俾團友。出發前睇過嘅資料，<strong>旅途中斷網都睇到</strong>！
         </p>
       </div>
     </div>
@@ -474,6 +488,9 @@
             </div>
           </div>
           <div class="flex items-center gap-2 flex-shrink-0">
+            <button id="fav-drawer-btn" class="text-slate-100 bg-white/10 hover:bg-white/20 px-2.5 py-2 rounded-full transition-all focus:outline-none font-black text-xs shadow-lg flex items-center gap-1 border border-white/25" title="收藏呢個目的地（離線儲存喺你部機，之後撳「⭐ 收藏」隨時飛返嚟）" aria-label="收藏或取消收藏呢個目的地">
+              <i class="fa-regular fa-star text-sm text-amber-300"></i>
+            </button>
             <button id="share-org-btn" class="text-slate-100 bg-white/10 hover:bg-white/20 px-2.5 py-2 rounded-full transition-all focus:outline-none font-black text-xs shadow-lg flex items-center gap-1 border border-white/25" title="分享此目的地連結俾同行團友（WhatsApp / TG 一鍵分享）" aria-label="分享此目的地連結">
               <i class="fa-solid fa-share-nodes text-sm"></i><span class="hidden sm:inline">分享</span>
             </button>
@@ -974,6 +991,11 @@
     
     // Travel Toolbox UI variables
     let travelToolboxBtn, travelModal, closeTravelModalBtn, confirmTravelModalBtn, badgeLegendBtn, badgeLegendModal, closeBadgeLegendBtn;
+    // ⭐ 收藏夾（localStorage 離線儲存）
+    const FAVORITES_KEY = 'sw-favorites-v1';
+    let favorites = [];
+    let pendingFavSnapshot = null; // 收藏直達後備：萬一地點喺資料更新刪走咗，用快照頂住
+    let favoritesToggleBtn, favoritesCount, favoritesPanel, favoritesPanelCount, favoritesList, favoritesClearBtn, favDrawerBtn;
 
     // 新增：分享、熱門捷徑、全球搜尋 UI + 狀態
     let shareOrgBtn, hotDestinations, globalResults, copyToastText;
@@ -1062,6 +1084,13 @@
       globalResults = document.getElementById('global-results');
       copyToastText = document.getElementById('copy-toast-text');
       l3Note = document.getElementById('l3-note');
+      favoritesToggleBtn = document.getElementById('favorites-toggle-btn');
+      favoritesCount = document.getElementById('favorites-count');
+      favoritesPanel = document.getElementById('favorites-panel');
+      favoritesPanelCount = document.getElementById('favorites-panel-count');
+      favoritesList = document.getElementById('favorites-list');
+      favoritesClearBtn = document.getElementById('favorites-clear-btn');
+      favDrawerBtn = document.getElementById('fav-drawer-btn');
     }
 
     // Initialize the Leaflet Map
@@ -1405,6 +1434,7 @@
       
       // Load and display details
       openDetailDrawer(org);
+      updateDrawerFavBtn(); // 同步國家總會⭐狀態
       
       // Check and fetch L3/L4 Data
       checkAndLoadL3Data(org.id);
@@ -1503,14 +1533,18 @@
           l3Note.classList.remove('hidden');
         }
 
-        // 全域搜尋直達：地方資料載好後，自動選中目標營地/用品社/區會
+        // 全域搜尋直達 / 收藏直達：地方資料載好後，自動選中目標營地/用品社/區會
         if (pendingL3JumpId) {
           const hitItem = localData.find(d => d.id === pendingL3JumpId);
           pendingL3JumpId = null;
-          if (hitItem) {
+          const snapshot = pendingFavSnapshot;
+          pendingFavSnapshot = null;
+          const jumpTarget = hitItem || snapshot;
+          if (jumpTarget) {
+            if (!hitItem && snapshot) showToast('ℹ️ 此地點喺最新資料已唔見咗，顯示你收藏時嘅快照');
             const thisToken = ++searchHitToken;
             setTimeout(() => {
-              if (thisToken === searchHitToken) selectL3Item(hitItem);
+              if (thisToken === searchHitToken) selectL3Item(jumpTarget);
             }, 160);
           }
         }
@@ -1630,6 +1664,18 @@
           </a>
         ` : '';
 
+        // ⭐ 收藏星星掣（SHOPPING 目錄行已喺上面 return，呢度淨係一般地點行）
+        const itemIsFav = isFavorite(item.id);
+        const favStarHtml = `
+          <button
+            class="fav-star-btn p-1.5 rounded-full flex items-center justify-center transition-colors border ${itemIsFav ? 'text-amber-300 bg-amber-400/20 border-amber-400/40 hover:bg-amber-400/30' : 'text-slate-500 hover:text-amber-300 bg-white/5 hover:bg-amber-400/10 border-white/10'}"
+            title="${itemIsFav ? '取消收藏' : '收藏呢個地點（離線儲存喺你部機）'}"
+            aria-label="收藏或取消收藏 ${item.name}"
+          >
+            <i class="${itemIsFav ? 'fa-solid' : 'fa-regular'} fa-star text-xs"></i>
+          </button>
+        `;
+
         row.innerHTML = `
           <div class="flex items-center gap-2 overflow-hidden flex-1">
             <span class="text-base flex-shrink-0 select-none">${item.flag || '📍'}</span>
@@ -1640,13 +1686,22 @@
             </div>
           </div>
           <div class="flex items-center gap-1.5 flex-shrink-0">
+            ${favStarHtml}
             ${item.scenes ? '<span class="bg-green-500/20 text-green-200 border border-green-400/30 font-bold text-[9px] px-1.5 py-0.5 rounded inline-flex items-center gap-0.5" title="WOSM SCENES 環境卓越童軍中心"><i class="fa-solid fa-leaf"></i> SCENES</span>' : ''}
             <span class="${badgeColor} font-bold text-[9px] px-1.5 py-0.5 rounded">${item.category.split(' ')[0]}</span>
             ${fbButtonHtml}
             ${igButtonHtml}
           </div>
         `;
-        
+
+        const favStarBtn = row.querySelector('.fav-star-btn');
+        if (favStarBtn) {
+          favStarBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            togglePlaceFavorite(item);
+          });
+        }
+
         row.addEventListener('click', (e) => {
           e.stopPropagation();
           selectL3Item(item);
@@ -1682,6 +1737,7 @@
     // Select and focus an L3/L4 Item
     function selectL3Item(item) {
       activeL3Item = item;
+      updateDrawerFavBtn(); // 同步詳情頁⭐狀態
       
       // Update tab active category view to match selection
       if (item.level === 4) {
@@ -2141,6 +2197,192 @@
       }
     }
 
+    // ===== ⭐ 收藏夾（localStorage 離線儲存，PWA 斷網都睇得返） =====
+    function isFavorite(id) {
+      return favorites.some(f => f.id === id);
+    }
+
+    function persistFavorites() {
+      try { localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites)); } catch (e) { /* 私隱模式等情況靜默失敗 */ }
+    }
+
+    function loadFavorites() {
+      try {
+        const raw = localStorage.getItem(FAVORITES_KEY);
+        const parsed = raw ? JSON.parse(raw) : [];
+        favorites = Array.isArray(parsed) ? parsed.filter(f => f && f.id) : [];
+      } catch (e) { favorites = []; }
+    }
+
+    function favoriteFromPlace(item) {
+      return {
+        favKind: 'place',
+        savedAt: Date.now(),
+        ...item,
+        parentCountry: item.parentCountry || currentSelectedOrgId || ''
+      };
+    }
+
+    function favoriteFromOrg(org) {
+      return {
+        favKind: 'org',
+        id: 'ORG:' + org.id,
+        savedAt: Date.now(),
+        code: org.id,
+        name: org.country || org.id,
+        nameEn: org.countryEn || '',
+        flag: org.flag || '⚜️',
+        category: '國家總會 (Member Organization)',
+        subregion: org.wosmRegion || '',
+        parentCountry: ''
+      };
+    }
+
+    function togglePlaceFavorite(item) {
+      const idx = favorites.findIndex(f => f.id === item.id);
+      if (idx >= 0) {
+        favorites.splice(idx, 1);
+        showToast(`已取消收藏：${item.name || item.id}`);
+      } else {
+        favorites.unshift(favoriteFromPlace(item));
+        showToast(`⭐ 已收藏：${item.name || item.id} — 撳側邊「⭐ 收藏」隨時飛返嚟`);
+      }
+      persistFavorites();
+      refreshFavoritesUI();
+      renderL3List();
+      updateDrawerFavBtn();
+    }
+
+    function toggleOrgFavorite(org) {
+      const favId = 'ORG:' + org.id;
+      const idx = favorites.findIndex(f => f.id === favId);
+      if (idx >= 0) {
+        favorites.splice(idx, 1);
+        showToast(`已取消收藏：${org.country || org.id}`);
+      } else {
+        favorites.unshift(favoriteFromOrg(org));
+        showToast(`⭐ 已收藏：${org.country || org.id} 總會`);
+      }
+      persistFavorites();
+      refreshFavoritesUI();
+      updateDrawerFavBtn();
+    }
+
+    function removeFavorite(id) {
+      const fav = favorites.find(f => f.id === id);
+      if (!fav) return;
+      favorites = favorites.filter(f => f.id !== id);
+      persistFavorites();
+      refreshFavoritesUI();
+      renderL3List();
+      updateDrawerFavBtn();
+      showToast(`已移除收藏：${fav.name || fav.id}`);
+    }
+
+    function updateDrawerFavBtn() {
+      if (!favDrawerBtn) return;
+      const icon = favDrawerBtn.querySelector('i');
+      let fav = false, label = '';
+      if (activeL3Item) {
+        fav = isFavorite(activeL3Item.id);
+        label = activeL3Item.name || '';
+      } else if (currentSelectedOrg && currentSelectedOrg.id !== 'SHOPPING') {
+        fav = isFavorite('ORG:' + currentSelectedOrg.id);
+        label = (currentSelectedOrg.country || '') + ' 總會';
+      }
+      if (icon) {
+        icon.className = `${fav ? 'fa-solid' : 'fa-regular'} fa-star text-sm text-amber-300`;
+      }
+      favDrawerBtn.classList.toggle('bg-amber-400/30', fav);
+      favDrawerBtn.classList.toggle('border-amber-400/60', fav);
+      favDrawerBtn.title = fav
+        ? `已收藏：${label}（再撳一次取消）`
+        : `收藏${label ? '：' + label : '呢個目的地'}（離線儲存喺你部機）`;
+      favDrawerBtn.setAttribute('aria-label', favDrawerBtn.title);
+    }
+
+    function jumpToFavorite(fav) {
+      if (!fav) return;
+      if (fav.favKind === 'org') {
+        jumpToCountryByCode(fav.code);
+        return;
+      }
+      pendingFavSnapshot = fav; // 後備快照：地點如被資料更新刪走都重用得返
+      pendingL3JumpId = fav.id;
+      jumpToCountryByCode(fav.parentCountry);
+    }
+
+    function renderFavoritesList() {
+      if (!favoritesList) return;
+      if (favorites.length === 0) {
+        favoritesList.innerHTML = `
+          <div class="text-center py-4 text-slate-500 text-[10px] font-semibold leading-relaxed">
+            仲未有收藏。<br>喺任何<strong class="text-amber-300">營地 / 用品社 / 單位</strong>嘅詳情頁或列表撳 <i class="fa-regular fa-star text-amber-300"></i>，就會儲存喺呢度（離線都睇得返）。
+          </div>`;
+        return;
+      }
+      favoritesList.innerHTML = favorites.map(fav => {
+        const isOrg = fav.favKind === 'org';
+        const typeBadgeCls = isOrg
+          ? 'bg-amber-950/50 text-amber-300 border border-amber-900/30'
+          : (fav.type === 'Campsite' ? 'bg-emerald-950/50 text-emerald-300 border border-emerald-900/30'
+          : fav.type === 'Shop' ? 'bg-orange-950/50 text-orange-300 border border-orange-900/30'
+          : 'bg-blue-950/50 text-blue-300 border border-blue-900/30');
+        let parentName = fav.parentCountry || '';
+        const parent = allScouts.find(o => o.id === fav.parentCountry);
+        if (parent && parent.country) parentName = parent.country;
+        const sub = isOrg ? (fav.subregion || '') : [parentName, fav.subregion].filter(Boolean).join(' · ');
+        const badgeText = isOrg ? '總會' : ((fav.category || '').split(' ')[0] || fav.type || '');
+        return `
+          <div class="favorite-row w-full text-left p-2 rounded-lg bg-[#051847] hover:bg-[#09225e] border border-white/5 hover:border-amber-400 transition-all flex items-center justify-between gap-2 cursor-pointer" data-fav-id="${escapeHtml(fav.id)}">
+            <span class="flex items-center gap-2 overflow-hidden">
+              <span class="text-base flex-shrink-0">${fav.flag || '📍'}</span>
+              <span class="overflow-hidden">
+                <span class="block text-[11px] font-extrabold text-slate-100 truncate">${escapeHtml(fav.name || fav.id)}</span>
+                <span class="block text-[9px] text-slate-400 font-semibold truncate">${escapeHtml(sub || fav.nameEn || '')}</span>
+              </span>
+            </span>
+            <span class="flex items-center gap-1 flex-shrink-0">
+              ${badgeText ? `<span class="border px-1.5 py-0.5 rounded text-[9px] font-black ${typeBadgeCls}">${escapeHtml(badgeText)}</span>` : ''}
+              <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+              <button class="fav-remove-btn text-slate-500 hover:text-red-300 p-1 transition-colors focus:outline-none" data-fav-remove="${escapeHtml(fav.id)}" title="移除呢個收藏" aria-label="移除收藏 ${escapeHtml(fav.name || fav.id)}">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </span>
+          </div>
+        `;
+      }).join('');
+
+      favoritesList.querySelectorAll('.favorite-row').forEach(row => {
+        row.addEventListener('click', (e) => {
+          if (e.target.closest('.fav-remove-btn')) return;
+          const fav = favorites.find(f => f.id === row.dataset.favId);
+          if (fav) jumpToFavorite(fav);
+        });
+      });
+      favoritesList.querySelectorAll('.fav-remove-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          removeFavorite(btn.dataset.favRemove);
+        });
+      });
+    }
+
+    function refreshFavoritesUI() {
+      const n = favorites.length;
+      if (favoritesCount) favoritesCount.textContent = n;
+      if (favoritesPanelCount) favoritesPanelCount.textContent = n;
+      renderFavoritesList();
+    }
+
+    function toggleFavoritesPanel(force) {
+      if (!favoritesPanel) return;
+      const show = typeof force === 'boolean' ? force : favoritesPanel.classList.contains('hidden');
+      favoritesPanel.classList.toggle('hidden', !show);
+      if (show) renderFavoritesList();
+      if (favoritesToggleBtn) favoritesToggleBtn.classList.toggle('bg-amber-400/30', show);
+    }
+
     // ===== 通用 Toast 提示 =====
     function showToast(message) {
       if (!copyToast) return;
@@ -2313,6 +2555,31 @@
     function initListeners() {
       // 分享目的地按鈕
       if (shareOrgBtn) shareOrgBtn.addEventListener('click', shareCurrentView);
+
+      // ⭐ 收藏夾：按掣接線 + 開機載入
+      if (favDrawerBtn) {
+        favDrawerBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (activeL3Item) togglePlaceFavorite(activeL3Item);
+          else if (currentSelectedOrg && currentSelectedOrg.id !== 'SHOPPING') toggleOrgFavorite(currentSelectedOrg);
+        });
+      }
+      if (favoritesToggleBtn) {
+        favoritesToggleBtn.addEventListener('click', () => toggleFavoritesPanel());
+      }
+      if (favoritesClearBtn) {
+        favoritesClearBtn.addEventListener('click', () => {
+          if (favorites.length === 0) { showToast('收藏夾本來就係空嘅'); return; }
+          favorites = [];
+          persistFavorites();
+          refreshFavoritesUI();
+          renderL3List();
+          updateDrawerFavBtn();
+          showToast('已清空全部收藏');
+        });
+      }
+      loadFavorites();
+      refreshFavoritesUI();
 
       // 熱門目的地快速捷徑
       if (hotDestinations) {
