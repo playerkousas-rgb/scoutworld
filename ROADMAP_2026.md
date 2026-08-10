@@ -34,6 +34,7 @@ Completed so far:
 - Arab：黎巴嫩 LSA、約旦總部更新
 - Caribbean+Oceania：BB 用品社、BS 營地、DO 北辦、NZ venues/Waiora 錯置修正
 - 深度強化第13波（2026-08-10 後段）：日本首次有營地——連盟直轄那須野營場＋高萩Scout Field（官方價目/預約程序全譯）；澳洲營地補齊六區——QLD Baden-Powell Park、ACT Camp Cottermouth、TAS The Lea（全部官方頁 2026-08-10 抓取；地點總數 1,136）
+- 深度強化第14波（2026-08-10 深夜）：台灣營地 10/10 全員重核——教育部官方普查表對晒管理單位/開放狀態（7升級官方、陽明山改名七星苗圃遊憩區大更新、鯉魚潭誠實降級unverified、澄清湖503警告）；韓國官方設施目錄發力——中央訓練院 tertiary→official 升級＋新增連盟直營昆池岩野營場（地點總數 1,137）
 
 Remaining backlog (「進階深度」留返下個 sweeps)：
 
