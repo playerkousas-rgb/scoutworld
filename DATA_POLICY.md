@@ -175,3 +175,11 @@ grep -RInE "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" data index.html *.md
 
 grep -RInE "wikipedia|wikiwand|scoutwiki|維基" data || true
 ```
+
+---
+
+## 2026-08-10 修訂附註（全局收尾後新增規則）
+
+1. **verificationSource 必須係單一 URL**（工具 link-checker 同 UI link target 都按單連結處理）；次要來源寫入 `verificationStatus` 文字並標明等級（official／official social／secondary／tertiary）。
+2. **域名安全覆核**：官方連結如確認被騎劫（redirect 賭博／注入 spam），**立即移除 website 連結**＋`verificationStatus` 加 ⚠️ 警告同「資料來源：WOSM 官方名錄」；純粹連線失敗（HTTP 5xx / timeout）則保留連結＋警告。已知案例：kenyascouts.org、scoutismecongolais.org、aeascout.org（2026-08）。
+3. **新國家加入 L2 前**，必須先喺 index.html `countryRegionMap` 入面登記代碼，否則 L3 fetch 會 404（已設 jsdom regression test）。

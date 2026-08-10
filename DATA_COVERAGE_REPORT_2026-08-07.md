@@ -275,3 +275,42 @@
 - 附註：jsdom 測試發現原有「#GB hash」測試多年嚟無實際 assert（hash 機制只在 boot 執行），今波順手改寫成有實質驗證嘅版本。
 
 - L2 國家/組織總數：**220 → 223**（= 176 個 WOSM 會員國全覆蓋＋SCENES 45＋全球入口2）；地點總數 **1,128 → 1,131**（+3）；搜尋索引 **1,354** 條；覆蓋代碼 **175 → 178**。
+
+## 🏁 全局收尾（2026-08-10 終章）— ROADMAP 里程碑＋連結健康點檢
+
+### ROADMAP 更新
+- **Phase 2（區域深化）→ ✅ 完成**（11 波豐富化：巡查 175+ 國，加 60+ 條官方來源條目，修至少 3 個錯位/過時地址）。
+- **Phase 3（Link checking）→ ✅ 更新**（第二次掃描，今次係 12-link proxy 精準點檢）。
+- **新增 Phase 9：世界版圖補完與全局收尾 ✅**（五區官方名錄對賬全綠、L2=223 覆蓋 176 WOSM 會員國 100%）。
+- Phase 7 年度覆審排程：下次 bulk link sweep 要喺有正常外聯網嘅環境自託執行 `tools_link_check.py`（今次 sandbox 直接出網全擋，901 URL 全「TLS closed」——如果照單全收出報告就會製造 901 條假死連，所以成班改做 fetch 代理點檢；情況已如實記錄，垃圾輸出已刪除唔入檔）。
+
+### 🔒 域名安全點檢成績（12 條高危連結逐條核實）
+| 域名 | 結果 | 行動 |
+|---|---|---|
+| scoutismecongolais.org (CG) | 🚨 **全站 redirect 去印尼賭博網**（WOSM 名錄有列出，域名已被騎劫） | L2+L3 連結即時移除＋⚠️ 警告（資料保留喺 WOSM 名錄來源） |
+| aeascout.org (AO) | 🚨 **全站 redirect 去加拿大 casino 網** | 同上，連結移除＋⚠️ 警告 |
+| kenyascouts.org (KE) | 🚨 複核：首頁仍注入 Joo Casino／Kansino 賭博文章 | 警告 label 更新至 2026-08-10（切勿經此域名交易） |
+| scouts.tt (TT)×2 | Cloudflare 522 源站死 | 加出行前覆核警告 |
+| scoutingaruba.com (AW) | HTTP 500 | 加警告 |
+| siemprelistos.or.cr (CR) | 連續三場（7月→8月）連線失敗 | 加警告 |
+| scoutsburundi.org (BI) / libyanscout.org.ly (LY) | 2026-08-10 連線失敗 | 加警告 |
+| mozscouts.org (MZ) | Cloudflare bot-blocked（人類或可正常） | 中性備註 |
+| scout.org.mo (MO)×2 | 兩場均 HTTP 500 | 加警告；HQ 名錄資料照舊 |
+| **wezombeli.org (KM)・ghanascout.org (GH)・scout.mv (MV)・scout.mn (MN)・scout.cd (CD)** | ✅ 官方活躍 | 升級 verified-live＋官網自述真統計數字入 status |
+
+### 附帶數據修復
+- 11 條 verificationSource 多 URL 字串收復做單一主 URL（新規已入 DATA_POLICY；防止 UI link target 壞連）。
+- `countryRegionMap` 補三碼＋regression 測試（呢類「加國家漏咗 map」bug 以後自動捉）。
+
+### 最終總表
+| 指標 | 數字 |
+|---|---|
+| L2（WOSM 會員國＋SCENES＋全球入口） | **223**（176 個 WOSM 會員國 100% 全覆蓋）|
+| L3/L4 地點 | **1,131** |
+| 搜尋索引 | **1,354 條 / 270 KB** |
+| 覆蓋國家/代碼 | **178** |
+| jsdom 運行測試 | **18/18 全綠** |
+| 五區官方名錄對賬 | 亞太 33/33・美洲 34/34・阿拉伯 19/19・歐洲 47/47・非洲 42/42 ✅ |
+| 已知覆查清單（誠實列明） | 澳門・千里達・阿魯巴・哥斯達黎加・巴林・摩洛哥・Burundi・利比亞官網連線失敗；拉美 5 小國資料不足；衝突國家維持 HQ-only |
+
+> 今輪收益最大唔係加咗幾多條，係**即時剷走三個被騎劫嘅官方域名連結**（CG/AO/KE）——如果用家照 WOSM 名錄㩒落去，會直落賭博網。呢啲就係「必須準確，唔係齋堆數」嘅實際價值。

@@ -14,9 +14,9 @@ Completed:
 - Verification metadata was added.
 - Reports were created for APAC, Europe, Americas, Arab and Africa.
 
-## Phase 2 — Global deep enrichment 🔄
+## Phase 2 — Global deep enrichment ✅
 
-Status: In progress.
+Status: **Region-by-region sweep completed 2026-08-10** (waves 1–11, see DATA_COVERAGE_REPORT_2026-08-07.md).
 
 Completed so far:
 
@@ -25,34 +25,31 @@ Completed so far:
 - Africa received priority social links and several official camps / shops / training centres.
 - Arab received several official social links and Oman official camps/training information entry.
 
-Next targets:
+2026-08-07 → 2026-08-10 完成嘅 11 波重點：
 
-1. Americas
-   - HT, LC, SR reliable social / website
-   - Latin America Scout Shops
-   - Brazil / Argentina / Mexico / Chile / Colombia official camps and group finders
-2. Africa
-   - remaining countries without social / website
-   - national training centres
-   - Scout Shops
-3. Arab
-   - MR and SD official social
-   - Gulf official Scout Shops / camps
-4. APAC
-   - small states, Central Asia, Pacific islands
-5. Europe
-   - remaining L3 social and source precision
+- APAC：HK 59 深層、TW 34、日本/韓國/澳洲/新加坡/泰國三柱；馬來西亞 scoutmy.org 新門戶補回；澳門官網持續 500 留覆查清單
+- Europe：GB Scout Adventures 9/9 中心齊（Hawkhirst 結業即時剔除）、法德瑞比利時意官方揀團器、13 小國審計無填充
+- Americas：加拿大 Haliburton/Byng/Find a Group、墨西哥 Meztitla、南美 UEB/阿根廷營地/秘魯用品社
+- Africa：南非訪客程序、肯亞 Paxtu 朝聖地（兼發現 kenyascouts.org 域名入侵）
+- Arab：黎巴嫩 LSA、約旦總部更新
+- Caribbean+Oceania：BB 用品社、BS 營地、DO 北辦、NZ venues/Waiora 錯置修正
 
-## Phase 3 — Link checking 🔄
+Remaining backlog (「進階深度」留返下個 sweeps)：
 
-Initial scan completed on 2026-06-11. See `LINK_CHECK_REPORT_2026-06-11.md` and `LINK_CHECK_RESULTS_2026-06-11.csv`.
+1. 覆查清單：澳門 scout.org.mo、千里達 scouts.tt（522）、阿魯巴 scoutingaruba.com（500）、哥斯達黎加（×3 連線失敗）、巴林/摩洛哥（連線失敗）、Burundi/利比亞（2026-08-10 連線失敗）
+2. 拉美小國 BO/PY/UY/VE/EC 官方公開資料不足
+3. 衝突國家 SY/YE/LY/SD/LR 保持 HQ-only
 
-Tasks:
+## Phase 3 — Link checking ✅ (2026-08-10 targeted sweep)
 
-- scan all website / facebook / instagram / youtube links
-- identify 404 / dead domains
-- identify HTTP only but HTTPS-capable URLs
-- mark temporarily unreachable but credible sources as verify-before-travel
+Initial scan completed 2026-06-11. **Second sweep 2026-08-10**:
+
+- Full automated bulk sweep blocked by sandbox egress limits; replaced with a **targeted 12-link proxy sweep** (fetch-based) covering thin-country HQ websites and all previously-suspect domains.
+- 🚨 **2 domains confirmed hijacked → links removed from data**: scoutismecongolais.org (CG, redirect→賭博網), aeascout.org (AO, redirect→casino)。kenyascouts.org 入侵複核仍存在（已成嘅警告 label 更新至 2026-08-10）。
+- 7 unreachable/blocked official sites flagged verify-before-travel in `verificationStatus` (TT/AW/CR/BI/LY/MO×2/MZ)。
+- 5 active official sites upgraded to verified-live with fresh official stats (KM/GH/MV/MN/CD)。
+- Data bugfix: 11 條第11/12波「多 URL 用分號分隔」嘅 verificationSource 已收復做單一主 URL（避免壞 link target）。
+- Full `tools_link_check.py` bulk sweep remains **scheduled for an environment with open egress** (see Phase 7 annual review command).
 
 ## Phase 4 — Map and coordinate refinement 🔄
 
@@ -99,6 +96,16 @@ Create:
 - PR checklist
 - required source field
 - no-email reminder
+
+## Phase 9 — 世界版圖補完與全局收尾 ✅
+
+Status: Completed 2026-08-10.
+
+- **跨區 WOSM 官方名錄總對賬**：亞太 33/33・美洲 34/34（加拿大一國兩會以1計共35）・阿拉伯 19/19・歐洲 47/47（官方聲明 47 NSO）・非洲 39→**42/42**。
+- 新增 L2：🇨🇬 剛果（布）、🇬🇼 畿內亞比紹（2017 WOSM 入會）、🇲🇱 馬里（2024-06 第 175 個 WOSM 會員）。
+- 波利尼西亞微型國家（薩摩亞/湯加/瓦努阿圖/吐瓦魯）**不是** WOSM 正式會員，維持不加（準確優先）。
+- 修復 `countryRegionMap` 硬編漏三碼 bug（jsdom 測試捉到，已加 regression test）。
+- 里程碑數字：L2 = 223（176 個 WOSM 會員國 100% 覆蓋）・L3/L4 地點 **1,131**・搜尋索引 **1,354**・覆蓋代碼 **178**。
 
 ## Phase 7 — Annual review
 
