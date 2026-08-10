@@ -257,10 +257,11 @@
     "phone": "+62 21 8444 948",
     "website": "https://pramuka.or.id/buperta-cibubur/",
     "email": "",
-    "description": "印尼國家級童軍營地「Bumi Perkemahan dan Graha Wisata (Buperta) Wiladatika」，位於雅加達東部 Cibubur，佔地約 210 公頃，自 1973 年起多次舉辦全國童軍大露營（Jambore Nasional），鄰近 Toll Jagorawi 高速公路。對外開放露營、跑步、單車及戶外活動；到訪前請以官方網站確認開放時間、入場費及預約安排。",
+    "description": "印尼國家級童軍營地，全名 Bumi Perkemahan dan Graha Wisata (Buperta) Wiladatika，位於東雅加達 Cibubur，佔地 210 公頃（前身橡膠園）。1973 年首屆全國童軍大露營喺度舉行，其後多次承辦 Jamnas、1981 亞太區大露營及 2008 東盟大露營。據 Kwarnas 官方頁，場內有 Situbaru 湖、植物園、交通公園、泳池及輕型機跑道，由全國總會事業單位營運，正發展為「Kampus Pramuka」示範項目。傳媒報道指公眾可購票入場及露營（見覆核狀態），正式安排以官方最新公布為準。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "Official national scout campsite (Gerakan Pramuka); verify opening & fees before visit",
-    "verificationSource": "https://pramuka.or.id/buperta-cibubur/"
+    "verificationStatus": "official Kwarnas page (tier: official) fetched 2026-08-10 — 歷史/規模/設施已核實，官方頁無收費及預約資訊；secondary Kompas.com 2023-09 報道入場 Rp10,000/人、營位租金 Rp15,000–20,000/晚、帳篷租用 Rp50,000–300,000（數據為 2023 年水平，以官方最新公布為準）",
+    "verificationSource": "https://pramuka.or.id/buperta-cibubur/",
+    "visitorNote": "⚠️ 外團准入未列明，出發前經總會國際署／連盟確認"
   },
   {
     "id": "ID-CAMP-BUPER-DIY",
@@ -280,7 +281,9 @@
     "email": "",
     "description": "日惹特區省級童軍營地「Buper Taman Tunas Wiguna」（位於 Babarsari，與日惹省級地方議會 Kwarda DIY 同一院區），另設卡朗童軍營地（Karang Pramuka Kaliurang）。提供室內及戶外場地，可作訓練、露營、戶外教育及 outbound 使用；須事先經 Kwarda DIY 預約（WhatsApp 0878-3885-1200）。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "Official DIY provincial scout campsite (Kwarda DIY); booking required before visit",
-    "verificationSource": "https://pramukadiy.or.id/pesan-buper/"
+    "verificationStatus": "official Kwarda DIY booking page (tier: official) fetched 2026-08-10 — 官方「Pesan Buper」預訂頁已在線，須事先預約（官網列 WhatsApp 0878-3885-1200）；收費未於公開頁面列明",
+    "verificationSource": "https://pramukadiy.or.id/pesan-buper/",
+    "bookingUrl": "https://pramukadiy.or.id/pesan-buper/",
+    "visitorNote": "⚠️ 外團准入未列明，出發前經總會國際署／連盟確認"
   }
 ]

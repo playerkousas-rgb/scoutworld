@@ -1,0 +1,53 @@
+name: 🔗 回報死連 / 過期資料
+description: 見到連結開唔到、網站畀人騎劫、或者地址電話收費已經唔啱？即刻話我哋知。
+title: "[過期資料] "
+labels: ["outdated", "data-quality"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Scout World 賣嘅係**準確**——過期資料會累人出錯醜，所以死連回報係最有價值嘅貢獻之一。多謝你！🙏
+  - type: dropdown
+    id: problem-type
+    attributes:
+      label: 問題類型
+      options:
+        - 連結失效（開唔到 / 404）
+        - 網站懷疑被騎劫（跳轉去賭博、廣告或奇怪內容）
+        - 地址 / 電話 / 開放時間過期
+        - 地點已經關閉或搬遷
+        - 收費 / 預訂方法有變
+        - 其他資料錯誤
+    validations:
+      required: true
+  - type: input
+    id: place
+    attributes:
+      label: 邊個國家 / 邊個地點？
+      description: 喺 Scout World 度搵到嘅嗰個項目——國家＋地點名稱
+      placeholder: 例如：台灣 Taiwan — 澄清湖童軍活動中心
+    validations:
+      required: true
+  - type: textarea
+    id: what-you-saw
+    attributes:
+      label: 你見到咩問題？
+      description: 簡單描述：連結去咗邊、顯示咩錯誤、定係資料同現實唔同
+      placeholder: 例如：撳落去變咗 503 Service Unavailable…
+    validations:
+      required: true
+  - type: input
+    id: evidence-url
+    attributes:
+      label: 最新資料嘅來源網址（如有）
+      description: 例如地點官方嘅新網址、官方 Facebook 公佈——幫我哋快啲改正；冇可以留空
+      placeholder: https://…
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交前確認
+      options:
+        - label: 我喺今日親自試過，問題仍然存在
+          required: true

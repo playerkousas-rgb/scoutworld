@@ -196,10 +196,12 @@
     "phone": "+32 16 47 71 72",
     "website": "https://www.hopper.be/en/youth-centres/de-kluis/",
     "email": "",
-    "description": "佛拉芒最具代表性的童軍青年營地之一，被 Hopper 介紹為佛拉芒最古老的青年住宿地；設有多棟房舍與營地，帳篷區容量可達約 1200 人。",
+    "description": "佛拉芒最老牌青年營地（官方稱80多年歷史，「Flanders最老青年住宿」）：位於魯汶以南 St.-Joris-Weert，置身佛拉芒最大闊葉林 Meerdaalwoud，公共交通可達。官方住宿檔：主樓 114 人／Log cabin 20 人／Berkenhof 36 人／露營場 1,200 人／連帳幕營位 56 人；活動由免費自玩（野炊廚房、定向、遊戲森林）到付費項目（繩網課程、山區單車 Bosk、森林導賞）；Green Key 環保認證；12km 外魯汶有童軍暨女童軍博物館。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.hopper.be/en/youth-centres/de-kluis/"
+    "verificationStatus": "official Hopper (Scouts en Gidsen Vlaanderen) centre page (tier: official) fetched 2026-08-10 — 對象/容量（114+20+36+1200+56）／電話／活動已實抓核實；價目經 Hopper 訂房系統，出發前確認",
+    "verificationSource": "https://www.hopper.be/en/youth-centres/de-kluis/",
+    "visitorNote": "✅ 官方列明青年組織／學校／社團皆可租用",
+    "bookingUrl": "https://www.hopper.be/en/youth-centres/de-kluis/"
   },
   {
     "id": "BE-CAMP-MERKENVELD",
@@ -217,10 +219,12 @@
     "phone": "+32 50 27 76 98",
     "website": "https://www.hopper.be/en/youth-centres/merkenveld/",
     "email": "",
-    "description": "位於西佛蘭德 Loppem 的大型 Hopper 青年中心，擁有約 20 公頃遊戲森林與 10 公頃營地草地，營地容量可達約 1300 人，適合大型營隊。",
+    "description": "西佛蘭德大型童軍青年中心：Loppem 鄉郊，距布魯日及海岸不遠。官方頁列明場內 20 公頃遊戲森林＋10 公頃露營草地，外圍 70 公頃自然保育區。住宿檔：主樓 183 人／露營場 1,300 人／遠足小屋 14 人×2／Marcel 草地 400 人／會議室 200 人；Fourage 餐廳 180 席——全包膳或自煮皆可。設木筏小島冒險池塘、法式滾球場；無障礙設計完善（全場輪椅通道、無障礙浴室及充電位）。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.hopper.be/en/youth-centres/merkenveld/"
+    "verificationStatus": "official Hopper (Scouts en Gidsen Vlaanderen) centre page (tier: official) fetched 2026-08-10 — 容量（183+1300+14×2+400+200）／餐飲／無障礙設施已實抓核實；價目經 Hopper 訂房系統，出發前確認",
+    "verificationSource": "https://www.hopper.be/en/youth-centres/merkenveld/",
+    "visitorNote": "✅ 官方列明團體住宿及日租會議室對外租用",
+    "bookingUrl": "https://www.hopper.be/en/youth-centres/merkenveld/"
   },
   {
     "id": "BE-CAMP-FRESNAYE",
@@ -290,5 +294,48 @@
     "instagram": "lesscouts",
     "youtube": "https://www.youtube.com/@LesScouts",
     "socialVerificationSource": "Les Scouts centre pages"
+  },
+  {
+    "id": "BE-COUNCIL-LES-SCOUTS-UNITE-MAP",
+    "parentCountry": "BE",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇧🇪",
+    "category": "比利時 Les Scouts 單位地圖 (Official Unit Map)",
+    "name": "Les Scouts 全國單位搜尋地圖",
+    "nameEn": "Les Scouts — Trouver une unité (Official Unit Map)",
+    "subregion": "Nationwide (Wallonia-Brussels Federation)",
+    "lat": 50.8503,
+    "lng": 4.3517,
+    "locationAccuracy": "Representative point — 布魯塞爾聯邦總部一帶示意點，實際單位以官方地圖為準",
+    "address": "Nationwide; Fédération Les Scouts, 1000 Brussels, Belgium",
+    "website": "https://lesscouts.be/fr/site-parents/trouver-une-unite",
+    "email": "",
+    "phone": "+32 2 508 12 00",
+    "description": "Les Scouts（比利時法語區童軍聯邦）官方「Trouver une unité」頁：Google 地圖標示全國 395 個已加盟單位（unités），並列明聯邦聯絡方式（02.508.12.00）。香港旅團如需探訪比利時法語區本地單位，可先用地圖鎖定目的地附近單位，再按總會國際署程序經聯邦正式接洽。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official unit map page verified 2026-08-08（頁面列明 395 個單位）",
+    "verificationSource": "https://lesscouts.be/fr/site-parents/trouver-une-unite"
+  },
+  {
+    "id": "BE-COUNCIL-SGV-GROEPENZOEKER",
+    "parentCountry": "BE",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇧🇪",
+    "category": "比利時荷語區童軍團搜尋 (Official Group Finder)",
+    "name": "Scouts en Gidsen Vlaanderen Groepenzoeker",
+    "nameEn": "SGV — Groepenzoeker (Official Group Finder)",
+    "subregion": "Flanders & Brussels",
+    "lat": 51.2194,
+    "lng": 4.4025,
+    "locationAccuracy": "Representative point — 安特衛普總部一帶示意點，實際小組以官方搜尋為準",
+    "address": "Nationwide; Scouts en Gidsen Vlaanderen, Antwerp, Belgium",
+    "website": "https://www.scoutsengidsenvlaanderen.be/groepenzoeker",
+    "email": "",
+    "description": "Scouts en Gidsen Vlaanderen（比利時荷語區童軍與女童軍聯邦，超過 500 個小組）官方 Groepenzoeker：按地圖／地址搜尋全國小組，包括海上童軍（Zeescouting）及融合教育 Akabe 小組。香港旅團如需探訪荷語區本地單位（如安特衛普、梅赫倫、根特），可用此搜尋器找出目的地附近小組，再按總會國際署程序接洽。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official Groepenzoeker page verified 2026-08-08（官方 Contact 頁確認超過 500 團）",
+    "verificationSource": "https://www.scoutsengidsenvlaanderen.be/groepenzoeker"
   }
 ]

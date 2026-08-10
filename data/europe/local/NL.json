@@ -165,7 +165,9 @@
     "verificationStatus": "public official/source page linked; verify current status before travel",
     "verificationSource": "https://buitenzorg.scouting.nl/",
     "facebook": "https://www.facebook.com/scoutcentrumbuitenzorgbaarn",
-    "socialVerificationSource": "https://buitenzorg.scouting.nl/"
+    "socialVerificationSource": "https://buitenzorg.scouting.nl/",
+    "bookingUrl": "https://buitenzorg.scouting.nl/",
+    "visitorNote": "⚠️ 協會內 Scoutcentrum（SCENES 2019）——租用向場地方查詢"
   },
   {
     "id": "NL-CAMP-GILWELL-ADAS-HOEVE",

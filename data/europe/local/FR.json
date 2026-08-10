@@ -182,13 +182,16 @@
     "phone": "+33 1 34 75 40 84",
     "website": "https://jambville.sgdf.fr/",
     "email": "",
-    "description": "Jambville 是 Scouts et Guides de France 的國家訓練與活動中心，位於 Vexin 自然區的城堡與森林園區。SGDF 官方網站與 Jambville legal notice 均指向此中心，供訓練、住宿、營隊與大型聚會使用。",
+    "description": "SGDF（Scouts et Guides de France）國家訓練與活動中心，距巴黎少於 1 小時車程，Vexin 地區 52 公頃草原森林。官方首頁數字：每年接待逾 500 個團體、累計至 20,000 參加者；2008 年起行生態可持續路線。設城堡廳至林間小屋住宿、柴火餐飲；承接 10 至 20,000 人訂制活動（由童軍營至學校及組織活動），70 年營運經驗。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "public official/source page linked; verify current status before travel",
+    "verificationStatus": "official SGDF Jambville centre site (tier: official) fetched 2026-08-10 — 全年開放／52公頃／500+團體／預訂表格連結已實抓核實；價目經預訂表查詢",
     "verificationSource": "https://jambville.sgdf.fr/",
     "facebook": "https://www.facebook.com/centreactivitesjambvillesgdf",
     "instagram": "chateau_de_jambville_sgdf",
-    "socialVerificationSource": "https://jambville.sgdf.fr/"
+    "socialVerificationSource": "https://jambville.sgdf.fr/",
+    "openingHours": "全年開放（365 日）",
+    "bookingUrl": "https://jambville.sgdf.fr/formulaire-de-reservation/",
+    "visitorNote": "✅ 官方列明 10–20,000 人訂制活動皆可接待"
   },
   {
     "id": "FR-SHOP-SGDF-JAMBVILLE",
@@ -264,5 +267,26 @@
     "instagram": "scoutsetguidesdefrance",
     "youtube": "https://www.youtube.com/c/SgdfFr",
     "socialVerificationSource": "https://sgdf.fr/"
+  },
+  {
+    "id": "FR-COUNCIL-SGDF-GROUP-MAP",
+    "parentCountry": "FR",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇫🇷",
+    "category": "法國 SGDF 童軍團地圖 (Official Group Map)",
+    "name": "SGDF 全國童軍團搜尋地圖",
+    "nameEn": "Scouts et Guides de France — Trouvez un groupe",
+    "subregion": "Nationwide",
+    "lat": 47.0,
+    "lng": 2.5,
+    "locationAccuracy": "Representative point — 法國中部示意點，實際小組位置以官方地圖為準",
+    "address": "Nationwide; SGDF siège, 65 rue de la Glacière, 75013 Paris, France",
+    "website": "https://sgdf.fr/nous-rejoindre/",
+    "email": "",
+    "description": "Scouts et Guides de France（法國最大童軍協會，約 61,000 青少年成員、863 個本地小組）官方入會頁內附 Leaflet/OpenStreetMap 全國小組地圖「Trouvez un groupe près de chez vous」。香港旅團如需探訪法國本地單位，可先用地圖鎖定目的地附近小組，再按總會國際署程序經 SGDF 國際部門接洽。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official SGDF nous-rejoindre page (embedded national group map) verified 2026-08-07",
+    "verificationSource": "https://sgdf.fr/nous-rejoindre/"
   }
 ]

@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html lang="zh-Hant-TW">
+<html lang="zh-Hant-HK">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scout World Explorer — WOSM 全球童軍總部與地方分支資料庫</title>
-  
+  <title>Scout World Explorer — 香港童軍外遊規劃首選 | 全球童軍總部・營地・用品社地圖</title>
+
+  <!-- ===== SEO / 搜尋曝光 ===== -->
+  <meta name="description" content="專為香港童軍而設的外遊規劃資料庫：出發前計劃探訪全球 220+ 童軍總部與單位、查詢各國 Scout Shop 營業資訊、預訂 KISC 與基維爾等國際營地。附香港 5 大地域 44 區會資料，支援目的地分享連結與離線瀏覽。">
+  <meta name="keywords" content="香港童軍, 童軍外遊, Scout Shop, 童軍用品社, 童軍營地, KISC, 基維爾, Gilwell, 大露營, Jamboree, 童軍探訪, 國際介紹信, ILI, 交換徽章, scout.org, WOSM, 香港童軍總會, SAHK">
+  <meta name="author" content="SKWSCOUT">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://scoutworld.vercel.app/">
+  <meta name="theme-color" content="#02133e">
+  <meta name="application-name" content="Scout World Explorer">
+
+  <!-- Open Graph：WhatsApp / FB / Telegram 分享靚卡 -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Scout World Explorer">
+  <meta property="og:title" content="Scout World Explorer — 香港童軍外遊規劃首選">
+  <meta property="og:description" content="香港童軍去外地旅遊前必備：探訪全球童軍單位、Scout Shop 購物、KISC 國際營地預訂，一站式規劃資料庫，支援離線使用。">
+  <meta property="og:url" content="https://scoutworld.vercel.app/">
+  <meta property="og:image" content="https://scoutworld.vercel.app/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Scout World Explorer — world map with golden scout fleur-de-lis compass">
+  <meta property="og:locale" content="zh_HK">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Scout World Explorer — 香港童軍外遊規劃首選">
+  <meta name="twitter:description" content="探訪・購物・露營：香港童軍外遊前的全球童軍規劃資料庫。">
+  <meta name="twitter:image" content="https://scoutworld.vercel.app/og-cover.jpg">
+
+  <!-- Icons & PWA -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="ScoutWorld">
+
+  <!-- 效能：預先連接 CDN -->
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://basemaps.cartocdn.com">
+
+  <!-- 結構化資料：幫 Google 理解網站主題 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Scout World Explorer",
+    "alternateName": "香港童軍外遊規劃資料庫",
+    "url": "https://scoutworld.vercel.app/",
+    "applicationCategory": "TravelApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires JavaScript",
+    "inLanguage": ["zh-Hant-HK", "en"],
+    "description": "香港童軍外遊規劃首選：全球童軍總部探訪、Scout Shop 用品社、國際營地預訂資料庫，支援目的地分享與離線瀏覽。",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "HKD" },
+    "author": { "@type": "Organization", "name": "SKWSCOUT" },
+    "audience": { "@type": "PeopleAudience", "suggestedMinAge": 10 }
+  }
+  </script>
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   
@@ -202,7 +266,7 @@
             Scout World Explorer
             <span class="bg-amber-400 text-slate-900 text-[10px] font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider">WOSM & Local L4</span>
           </h1>
-          <p class="text-xs text-slate-300 font-medium">全球童軍官方資料庫 | 專為香港優化 L3/L4 層級（地域、營地、44區會、IG、官網）</p>
+          <p class="text-xs text-slate-300 font-medium">香港童軍外遊規劃首選｜全球童軍總部・營地・用品社・44區會｜離線可用</p>
         </div>
       </div>
       
@@ -237,7 +301,8 @@
           <input 
             type="text" 
             id="search-input" 
-            placeholder="搜尋國家、地方城市或營地..." 
+            placeholder="搜全球：國家、營地、用品社（如 KISC、東京、Shop）…" 
+            aria-label="搜尋全球童軍國家、營地與用品社"
             class="w-full pl-10 pr-10 py-2.5 bg-[#051847] border border-white/10 rounded-xl shadow-sm text-sm text-slate-100 placeholder-slate-400 focus:ring-2 focus:ring-amber-400 focus:border-amber-400 focus:outline-none transition-all"
           >
           <div class="absolute left-3.5 top-3.5 text-slate-400 text-xs">
@@ -296,16 +361,50 @@
             非洲區
           </button>
         </div>
+
+        <!-- Hot Destinations Quick Chips (香港童軍最常去嘅外遊目的地直達!) -->
+        <div id="hot-destinations" class="flex items-center gap-1.5 overflow-x-auto scrollbar-none opacity-40 pointer-events-none transition-opacity duration-500" aria-label="熱門外遊目的地捷徑">
+          <span class="text-[10px] font-black text-slate-400 flex-shrink-0 flex items-center gap-1" title="香港童軍最常去嘅外遊目的地">
+            <i class="fa-solid fa-fire text-amber-400"></i> 熱門目的地
+          </span>
+          <button data-cc="JP" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達日本童軍（探訪/購物/營地）">🇯🇵 日本</button>
+          <button data-cc="TW" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達台灣童軍">🇹🇼 台灣</button>
+          <button data-cc="KR" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達韓國童軍">🇰🇷 韓國</button>
+          <button data-cc="SG" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達新加坡童軍">🇸🇬 新加坡</button>
+          <button data-cc="TH" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達泰國童軍">🇹🇭 泰國</button>
+          <button data-cc="AU" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達澳洲童軍">🇦🇺 澳洲</button>
+          <button data-cc="GB" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達英國童軍（基維爾 Gilwell）">🇬🇧 英國</button>
+          <button data-cc="CH" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達瑞士童軍（KISC 國際童軍中心）">🇨🇭 瑞士</button>
+        </div>
       </div>
       
       <!-- List Stats -->
       <div class="bg-[#010a24] px-4 py-2 text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between flex-shrink-0">
         <span>WOSM成員 / 全球資源列表 (<span id="filtered-count">0</span>)</span>
-        <span id="loading-indicator" class="text-amber-400 flex items-center gap-1">
-          <i class="fa-solid fa-circle-notch animate-spin"></i> 載入中...
+        <span class="flex items-center gap-2">
+          <button id="favorites-toggle-btn" class="normal-case tracking-normal flex items-center gap-1 text-[10px] font-black text-amber-300 bg-amber-400/10 hover:bg-amber-400/25 border border-amber-400/30 px-2 py-0.5 rounded-full transition-all focus:outline-none" title="睇返你收藏咗嘅營地/用品社/單位（儲存喺呢部機，離線都睇到）" aria-label="打開或收埋我嘅收藏清單">
+            <i class="fa-solid fa-star"></i> 收藏 <span id="favorites-count" class="bg-amber-400 text-slate-950 rounded-full px-1.5 text-[9px]">0</span>
+          </button>
+          <span id="loading-indicator" class="text-amber-400 flex items-center gap-1">
+            <i class="fa-solid fa-circle-notch animate-spin"></i> 載入中...
+          </span>
         </span>
       </div>
       
+      <!-- FAVORITES PANEL (⭐ 你嘅收藏，localStorage 離線儲存) -->
+      <div id="favorites-panel" class="hidden flex-shrink-0 max-h-56 overflow-y-auto bg-[#010c29] border-b border-amber-400/25 p-2 pb-3" aria-label="我嘅收藏清單">
+        <div class="flex items-center justify-between px-1 pb-1.5">
+          <span class="text-[10px] font-black text-amber-300 uppercase tracking-wider flex items-center gap-1"><i class="fa-solid fa-star"></i> 我嘅收藏 (<span id="favorites-panel-count">0</span>) · 離線儲存於此機</span>
+          <button id="favorites-clear-btn" class="text-[9px] font-bold text-slate-500 hover:text-red-300 transition-colors focus:outline-none" title="一鍵清空全部收藏">清空</button>
+        </div>
+        <div id="favorites-list" class="space-y-1"></div>
+      </div>
+      
+      <!-- GLOBAL SEARCH RESULTS (全球營地/用品社/區會直達，輸入 ≥2 字自動出現) -->
+      <div id="global-results" class="hidden flex-shrink-0 max-h-60 overflow-y-auto bg-[#010c29] border-b border-white/10 p-2 space-y-1" aria-label="全球地點搜尋結果">
+        <!-- Dynamically populated global hits -->
+      </div>
+
       <!-- List Scroll Container -->
       <div id="orgs-list" class="flex-1 overflow-y-auto divide-y divide-white/5 p-2 space-y-1.5">
         <!-- Dynamically populated items -->
@@ -314,7 +413,10 @@
       <!-- SIDEBAR FOOTER -->
       <div class="p-2 bg-[#010c29] border-t border-white/5 text-center flex-shrink-0">
         <p class="text-[10px] text-slate-500 font-semibold tracking-wide">
-          Copyright &copy; 2026 SKWSCOUT
+          Copyright &copy; 2026 SKWSCOUT ·
+          <a href="https://github.com/playerkousas-rgb/scoutworld" target="_blank" rel="noopener" class="text-slate-400 hover:text-amber-300 transition-colors" title="源碼開源，歡迎貢獻！"><i class="fa-brands fa-github"></i> GitHub</a> ·
+          <a href="https://github.com/playerkousas-rgb/scoutworld/issues/new/choose" target="_blank" rel="noopener" class="text-amber-400/90 hover:text-amber-300 transition-colors font-bold" title="見到新地點、死連或過期資料？撳呢度話我哋知！"><i class="fa-solid fa-bullhorn"></i> 報料／修正</a> ·
+          <span title="支援 PWA 離線使用"><i class="fa-solid fa-wifi-slash"></i> 離線可用</span>
         </p>
       </div>
     </div>
@@ -352,10 +454,10 @@
       <!-- Floating Instructions (Desktop) -->
       <div class="hidden lg:block absolute bottom-4 left-4 bg-[#02133e]/90 backdrop-blur shadow-xl rounded-xl p-3.5 border border-white/10 z-20 max-w-sm pointer-events-none transition-all">
         <h4 class="text-xs font-bold text-amber-400 flex items-center gap-1.5 mb-1">
-          <i class="fa-solid fa-map-location-dot text-amber-400"></i> L3/L4 香港本地細分功能已啟用！
+          <i class="fa-solid fa-map-location-dot text-amber-400"></i> 外遊規劃，三秒上手！
         </h4>
         <p class="text-[11px] text-slate-300 leading-relaxed font-medium">
-          點擊地圖上的 **香港 🇭🇰**，即可解鎖完整 **5大童軍地域** 及 **44區童軍區會** 探索！支持按地域過濾、直接查看區會網站、一鍵 Google Maps 導航各地域及區會總部會所。
+          用 🔥 熱門捷徑或搜尋（如 <strong>KISC、東京、Shop</strong>）直達全球 1297+ 營地、用品社、區會；詳情頁可按「營地／Shop／HQ」篩選，撳 <strong>⭐ 收藏</strong> 儲起心水地點（離線睇得返），並用「分享」掣複製連結俾團友。出發前睇過嘅資料，<strong>旅途中斷網都睇到</strong>！
         </p>
       </div>
     </div>
@@ -385,9 +487,17 @@
               <p class="text-xs text-amber-300 font-bold tracking-wider mt-0.5" id="drawer-region">Asia-Pacific Region</p>
             </div>
           </div>
-          <button id="close-drawer-btn" class="text-slate-950 bg-amber-400 hover:bg-amber-300 px-3 py-2 rounded-full transition-all focus:outline-none font-black text-xs shadow-lg flex items-center gap-1 border-2 border-white/30" title="關閉詳情 / 返回地圖">
-            <i class="fa-solid fa-xmark text-sm"></i><span class="hidden sm:inline">關閉</span>
-          </button>
+          <div class="flex items-center gap-2 flex-shrink-0">
+            <button id="fav-drawer-btn" class="text-slate-100 bg-white/10 hover:bg-white/20 px-2.5 py-2 rounded-full transition-all focus:outline-none font-black text-xs shadow-lg flex items-center gap-1 border border-white/25" title="收藏呢個目的地（離線儲存喺你部機，之後撳「⭐ 收藏」隨時飛返嚟）" aria-label="收藏或取消收藏呢個目的地">
+              <i class="fa-regular fa-star text-sm text-amber-300"></i>
+            </button>
+            <button id="share-org-btn" class="text-slate-100 bg-white/10 hover:bg-white/20 px-2.5 py-2 rounded-full transition-all focus:outline-none font-black text-xs shadow-lg flex items-center gap-1 border border-white/25" title="分享此目的地連結俾同行團友（WhatsApp / TG 一鍵分享）" aria-label="分享此目的地連結">
+              <i class="fa-solid fa-share-nodes text-sm"></i><span class="hidden sm:inline">分享</span>
+            </button>
+            <button id="close-drawer-btn" class="text-slate-950 bg-amber-400 hover:bg-amber-300 px-3 py-2 rounded-full transition-all focus:outline-none font-black text-xs shadow-lg flex items-center gap-1 border-2 border-white/30" title="關閉詳情 / 返回地圖">
+              <i class="fa-solid fa-xmark text-sm"></i><span class="hidden sm:inline">關閉</span>
+            </button>
+          </div>
         </div>
       </div>
       
@@ -449,11 +559,15 @@
             <button data-type="Region" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">地域</button>
             <button data-type="verified" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">有來源</button>
             <button data-type="verify" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">需覆核</button>
+            <button data-type="access" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5" title="只顯示外國團體／公眾用得嘅場地（visitorNote 已核實 ✅）">🌏 對外開放</button>
           </div>
 
           <div id="l3-list" class="space-y-2 max-h-56 overflow-y-auto pr-1">
             <!-- Dynamically loaded local items -->
           </div>
+
+          <!-- Local data coverage note (資料量提示) -->
+          <div id="l3-note" class="hidden text-[10px] leading-relaxed font-semibold rounded-lg px-2.5 py-2"></div>
         </div>
         
         <!-- Stats Badges -->
@@ -640,8 +754,8 @@
       </div>
       
       <!-- Copy Alert Toast overlay (dynamic) -->
-      <div id="copy-toast" class="absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-slate-900 text-white text-xs px-3 py-2 rounded-lg font-bold shadow-lg flex items-center gap-2 opacity-0 transition-opacity duration-300 pointer-events-none">
-        <i class="fa-solid fa-circle-check text-emerald-400"></i> 成功複製座標至剪貼簿！
+      <div id="copy-toast" class="absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-slate-900 text-white text-xs px-3 py-2 rounded-lg font-bold shadow-lg flex items-center gap-2 opacity-0 transition-opacity duration-300 pointer-events-none z-[60]">
+        <i class="fa-solid fa-circle-check text-emerald-400"></i> <span id="copy-toast-text">成功複製座標至剪貼簿！</span>
       </div>
     </div>
   </main>
@@ -681,6 +795,40 @@
 
       <!-- Modal Body (Scrollable) -->
       <div class="p-6 overflow-y-auto space-y-5 text-xs leading-relaxed text-slate-200 font-medium">
+
+        <!-- 🗺️ 外遊規劃五部曲（用本網站由揀地方到出發嘅完整流程） -->
+        <div class="bg-amber-400/10 border border-amber-400/40 rounded-xl p-4">
+          <h4 class="font-black text-amber-300 flex items-center gap-2 mb-3 text-sm">
+            <i class="fa-solid fa-route"></i> 🗺️ 香港童軍外遊規劃五部曲
+          </h4>
+          <ol class="space-y-2.5 text-slate-200 list-none pl-0">
+            <li class="flex items-start gap-2.5">
+              <span class="bg-amber-400 text-slate-950 font-black rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 text-[11px] mt-0.5">1</span>
+              <span><strong class="text-amber-200">揀定目的地：</strong>用左邊 🔥 熱門捷徑或搜尋（如 <em>KISC、東京、Shop</em>），直達想探訪嘅童軍單位、營地或用品社。</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="bg-amber-400 text-slate-950 font-black rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 text-[11px] mt-0.5">2</span>
+              <span><strong class="text-amber-200">辦理手續：</strong>正式探訪經總會<strong>國際署</strong>申請／轉介並辦理國際介紹信 ILI（電話 <a href="tel:+85229576400" class="text-amber-300 font-black underline decoration-dotted">2957 6400</a>）。</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="bg-amber-400 text-slate-950 font-black rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 text-[11px] mt-0.5">3</span>
+              <span><strong class="text-amber-200">預訂營地：</strong>熱門國際營地（瑞士 KISC、英國基維爾）暑假旺季通常要提前 <strong>3–6 個月</strong>預訂。</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="bg-amber-400 text-slate-950 font-black rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 text-[11px] mt-0.5">4</span>
+              <span><strong class="text-amber-200">查用品社：</strong>各國 Scout Shop 逢星期日及當地公假多數休息，出發前查清營業時間、列定購物清單。</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="bg-amber-400 text-slate-950 font-black rounded-full w-5 h-5 flex items-center justify-center flex-shrink-0 text-[11px] mt-0.5">5</span>
+              <span><strong class="text-amber-200">執定手信：</strong>香港地域章、區會章、旅巾、巾圈——交換徽章係全球通用嘅童軍外交！</span>
+            </li>
+          </ol>
+          <p class="text-[11px] text-slate-400 mt-3 flex items-center gap-1.5">
+            <i class="fa-solid fa-share-nodes text-amber-300"></i>
+            貼士：搵到心水目的地後，撳詳情頁右上角「<strong>分享</strong>」掣，即刻複製連結俾同行團友一齊規劃！
+          </p>
+        </div>
+
         <div class="bg-sky-950/30 border border-sky-900/30 rounded-xl p-4">
           <h4 class="font-black text-sky-300 flex items-center gap-2 mb-2 text-sm">
             <i class="fa-solid fa-circle-info"></i> 正式訪問 vs 個人外遊
@@ -734,6 +882,37 @@
             <li class="flex items-center gap-1.5"><i class="fa-solid fa-square-check text-emerald-400"></i> 行程中計劃探訪的地圖與經緯度</li>
           </ul>
         </div>
+
+        <!-- 🆘 在外應急支援（出發前記低！） -->
+        <div class="bg-rose-950/40 border border-rose-900/40 rounded-xl p-4 space-y-2">
+          <h4 class="font-black text-rose-300 uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-phone-volume"></i> 🆘 在外應急支援（出發前記低）
+          </h4>
+          <ul class="space-y-1.5 text-slate-300">
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-headset text-rose-400 mt-0.5"></i>
+              <span>香港入境事務處「協助在外香港居民小組」24 小時熱線：<a href="tel:+8521868" class="text-rose-200 font-black underline decoration-dotted">(852) 1868</a></span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-triangle-exclamation text-rose-400 mt-0.5"></i>
+              <span>出發前查看保安局<a href="https://www.sb.gov.hk/chi/ota/" target="_blank" rel="noopener" class="text-rose-200 font-black underline decoration-dotted">外遊警示 (OTA)</a>及目的地簽證要求。</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="fa-solid fa-shield-heart text-rose-400 mt-0.5"></i>
+              <span>記得購買旅遊保險，並將行程、保單及證件副本交總會／家長及領隊各一份。</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 官方入口 -->
+        <div class="grid grid-cols-2 gap-2">
+          <a href="https://www.scout.org.hk" target="_blank" rel="noopener" class="bg-[#09225e] hover:bg-[#0e2d7d] border border-white/10 hover:border-amber-400 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-amber-300 transition-all flex items-center justify-center gap-1.5">
+            <i class="fa-solid fa-flag"></i> 香港童軍總會官網
+          </a>
+          <a href="https://www.scout.org" target="_blank" rel="noopener" class="bg-[#09225e] hover:bg-[#0e2d7d] border border-white/10 hover:border-amber-400 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-amber-300 transition-all flex items-center justify-center gap-1.5">
+            <i class="fa-solid fa-earth-americas"></i> WOSM scout.org
+          </a>
+        </div>
       </div>
 
       <!-- Modal Footer -->
@@ -784,7 +963,7 @@
     // Hong Kong (HK) stays separate at data/local/HK.json
     const countryRegionMap = {
       'WORLD':'world', 'SHOPPING':'world',
-      'AO':'africa', 'BF':'africa', 'BI':'africa', 'BJ':'africa', 'BW':'africa', 'CD':'africa', 'CI':'africa', 'CM':'africa', 'CV':'africa', 'ET':'africa', 'GA':'africa', 'GH':'africa', 'GM':'africa', 'GN':'africa', 'KE':'africa', 'KM':'africa', 'LR':'africa', 'LS':'africa', 'MG':'africa', 'MU':'africa', 'MW':'africa', 'MZ':'africa', 'NA':'africa', 'NE':'africa', 'NG':'africa', 'RW':'africa', 'SC':'africa', 'SL':'africa', 'SN':'africa', 'SS':'africa', 'ST':'africa', 'SZ':'africa', 'TD':'africa', 'TG':'africa', 'TZ':'africa', 'UG':'africa', 'ZA':'africa', 'ZM':'africa', 'ZW':'africa',
+      'AO':'africa', 'BF':'africa', 'BI':'africa', 'BJ':'africa', 'BW':'africa', 'CD':'africa', 'CG':'africa', 'CI':'africa', 'CM':'africa', 'CV':'africa', 'ET':'africa', 'GA':'africa', 'GH':'africa', 'GM':'africa', 'GN':'africa', 'GW':'africa', 'KE':'africa', 'KM':'africa', 'LR':'africa', 'LS':'africa', 'MG':'africa', 'ML':'africa', 'MU':'africa', 'MW':'africa', 'MZ':'africa', 'NA':'africa', 'NE':'africa', 'NG':'africa', 'RW':'africa', 'SC':'africa', 'SL':'africa', 'SN':'africa', 'SS':'africa', 'ST':'africa', 'SZ':'africa', 'TD':'africa', 'TG':'africa', 'TZ':'africa', 'UG':'africa', 'ZA':'africa', 'ZM':'africa', 'ZW':'africa',
       'AG':'americas', 'AR':'americas', 'AW':'americas', 'BB':'americas', 'BO':'americas', 'BR':'americas', 'BS':'americas', 'BZ':'americas', 'CA':'americas', 'CL':'americas', 'CO':'americas', 'CR':'americas', 'CW':'americas', 'DM':'americas', 'DO':'americas', 'EC':'americas', 'GD':'americas', 'GT':'americas', 'GY':'americas', 'HN':'americas', 'HT':'americas', 'JM':'americas', 'LC':'americas', 'MX':'americas', 'NI':'americas', 'PA':'americas', 'PE':'americas', 'PY':'americas', 'SR':'americas', 'SV':'americas', 'TT':'americas', 'US':'americas', 'UY':'americas', 'VC':'americas', 'VE':'americas',
       'AE':'arab', 'BH':'arab', 'DZ':'arab', 'EG':'arab', 'IQ':'arab', 'JO':'arab', 'KW':'arab', 'LB':'arab', 'LY':'arab', 'MA':'arab', 'MR':'arab', 'OM':'arab', 'PS':'arab', 'QA':'arab', 'SA':'arab', 'SD':'arab', 'SY':'arab', 'TN':'arab', 'YE':'arab',
       'AF':'asia-pacific', 'AU':'asia-pacific', 'BD':'asia-pacific', 'BN':'asia-pacific', 'BT':'asia-pacific', 'FJ':'asia-pacific', 'ID':'asia-pacific', 'IN':'asia-pacific', 'JP':'asia-pacific', 'KH':'asia-pacific', 'KI':'asia-pacific', 'KR':'asia-pacific', 'KZ':'asia-pacific', 'LK':'asia-pacific', 'MM':'asia-pacific', 'MN':'asia-pacific', 'MO':'asia-pacific', 'MV':'asia-pacific', 'MY':'asia-pacific', 'NP':'asia-pacific', 'NZ':'asia-pacific', 'PG':'asia-pacific', 'PH':'asia-pacific', 'PK':'asia-pacific', 'RU':'asia-pacific', 'SB':'asia-pacific', 'SG':'asia-pacific', 'TH':'asia-pacific', 'TJ':'asia-pacific', 'TL':'asia-pacific', 'TW':'asia-pacific', 'VN':'asia-pacific',
@@ -813,6 +992,20 @@
     
     // Travel Toolbox UI variables
     let travelToolboxBtn, travelModal, closeTravelModalBtn, confirmTravelModalBtn, badgeLegendBtn, badgeLegendModal, closeBadgeLegendBtn;
+    // ⭐ 收藏夾（localStorage 離線儲存）
+    const FAVORITES_KEY = 'sw-favorites-v1';
+    let favorites = [];
+    let pendingFavSnapshot = null; // 收藏直達後備：萬一地點喺資料更新刪走咗，用快照頂住
+    let favoritesToggleBtn, favoritesCount, favoritesPanel, favoritesPanelCount, favoritesList, favoritesClearBtn, favDrawerBtn;
+
+    // 新增：分享、熱門捷徑、全球搜尋 UI + 狀態
+    let shareOrgBtn, hotDestinations, globalResults, copyToastText;
+    let searchIndex = null;      // 全域地點搜尋索引（延遲載入）
+    let searchIndexPromise = null;
+    let pendingL3JumpId = null;  // 全域搜尋直達：待選取嘅 L3/L4 項目 id
+    let searchHitToken = 0;      // 防止舊嘅非同步直達覆寫新選擇
+    let placeCounts = {};        // 各國地方地點數量（列表徽章 + 資料量提示）
+    let l3Note = null;           // L3 區塊資料量提示元素
 
     // Safely query DOM elements on ready to avoid any race conditions
     function initDOM() {
@@ -885,6 +1078,20 @@
       travelModal = document.getElementById('travel-modal');
       closeTravelModalBtn = document.getElementById('close-travel-modal');
       confirmTravelModalBtn = document.getElementById('confirm-travel-modal');
+
+      // 新增：分享 / 熱門目的地 / 全球搜尋
+      shareOrgBtn = document.getElementById('share-org-btn');
+      hotDestinations = document.getElementById('hot-destinations');
+      globalResults = document.getElementById('global-results');
+      copyToastText = document.getElementById('copy-toast-text');
+      l3Note = document.getElementById('l3-note');
+      favoritesToggleBtn = document.getElementById('favorites-toggle-btn');
+      favoritesCount = document.getElementById('favorites-count');
+      favoritesPanel = document.getElementById('favorites-panel');
+      favoritesPanelCount = document.getElementById('favorites-panel-count');
+      favoritesList = document.getElementById('favorites-list');
+      favoritesClearBtn = document.getElementById('favorites-clear-btn');
+      favDrawerBtn = document.getElementById('fav-drawer-btn');
     }
 
     // Initialize the Leaflet Map
@@ -960,6 +1167,25 @@
       if (activeRegion !== 'HK-Special') {
         filterData();
       }
+
+      // 載入各國「地點數量」徽章資料（小檔 4KB，失敗都唔影響主功能）
+      try {
+        const pcRes = await fetch('data/place-counts.json');
+        if (pcRes.ok) {
+          placeCounts = await pcRes.json();
+          renderList(); // 更新列表徽章
+        }
+      } catch (e) {
+        console.warn('[ScoutWorld] place-counts 載入失敗：', e);
+      }
+
+      // 全球數據載好：解鎖 🔥 熱門目的地捷徑
+      if (hotDestinations) {
+        hotDestinations.classList.remove('opacity-40', 'pointer-events-none');
+      }
+
+      // 處理分享連結（#JP、#GB、#SHOPPING…）：打開即直達目的地
+      applyHashFromUrl();
     }
     
 
@@ -1017,6 +1243,14 @@
           <div class="text-right flex-shrink-0">
             <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">成員約</span>
             <span class="text-xs text-slate-700 font-bold">${membersFormatted}</span>
+            ${(() => {
+              const pc = placeCounts[org.id];
+              if (!pc) return '';
+              const n = (pc.l3 || 0) + (pc.l4 || 0);
+              if (!n) return '';
+              const richCls = n >= 5 ? 'text-orange-600 border-orange-900/40 bg-orange-950/50' : 'text-slate-500 border-white/10 bg-[#010a24]';
+              return `<span class="inline-flex items-center gap-0.5 mt-1 border rounded px-1.5 py-0.5 text-[9px] font-black ${richCls}" title="本站收錄此地區 ${n} 個當地地點（營地/用品社/單位）">🏕️ ${n} 地點</span>`;
+            })()}
           </div>
         `;
         
@@ -1160,9 +1394,13 @@
     }
 
     // Select an Organization (L2)
-    function selectOrganization(org) {
+    function selectOrganization(org, opts = {}) {
       currentSelectedOrg = org;
       currentSelectedOrgId = org.id;
+      // 分享連結：揀選目的地後更新網址 hash（#JP、#KISC 等），團友打開即直達
+      if (opts.updateHash !== false) {
+        try { history.replaceState(null, '', '#' + encodeURIComponent(org.id)); } catch (e) {}
+      }
       activeL3Item = null; // Clear active L3 detail
       activeLevelTab = 3; // Reset to level 3 tab by default
       activeL4Subregion = 'all'; // Reset sub-region filter
@@ -1197,6 +1435,7 @@
       
       // Load and display details
       openDetailDrawer(org);
+      updateDrawerFavBtn(); // 同步國家總會⭐狀態
       
       // Check and fetch L3/L4 Data
       checkAndLoadL3Data(org.id);
@@ -1276,6 +1515,40 @@
         renderLocalMarkers();
         fitMapToSelectedCountryPoints();
         if (l3Section) l3Section.classList.remove('hidden');
+
+        // 資料量提示：豐富/單薄一目了然，單薄國家引導去官方活動搜尋
+        if (l3Note) {
+          const totalLocal = localData.length;
+          if (totalLocal <= 1) {
+            l3Note.className = 'text-[10px] leading-relaxed font-semibold rounded-lg px-2.5 py-2 bg-amber-950/40 border border-amber-900/40 text-amber-200';
+            l3Note.innerHTML = '⚠️ 此地區暫時只收錄咗基本資料。建議用下面「<strong>搜尋官方活動 / 大露營</strong>」同原始資料規劃行程——歡迎經 GitHub 回報新發現俾我哋補充！';
+          } else {
+            const shopCount = localData.filter(d => d.type === 'Shop').length;
+            const campCount = localData.filter(d => d.type === 'Campsite').length;
+            const bits = [];
+            if (campCount) bits.push(`🏕️ 營地 ${campCount}`);
+            if (shopCount) bits.push(`🛒 用品社 ${shopCount}`);
+            l3Note.className = 'text-[10px] leading-relaxed font-semibold rounded-lg px-2.5 py-2 bg-[#010c29] border border-white/5 text-slate-400';
+            l3Note.innerHTML = `✅ 已收錄 <span class="text-emerald-400 font-black">${totalLocal}</span> 個地方地點${bits.length ? '（' + bits.join('・') + '）' : ''} — 持續更新中`;
+          }
+          l3Note.classList.remove('hidden');
+        }
+
+        // 全域搜尋直達 / 收藏直達：地方資料載好後，自動選中目標營地/用品社/區會
+        if (pendingL3JumpId) {
+          const hitItem = localData.find(d => d.id === pendingL3JumpId);
+          pendingL3JumpId = null;
+          const snapshot = pendingFavSnapshot;
+          pendingFavSnapshot = null;
+          const jumpTarget = hitItem || snapshot;
+          if (jumpTarget) {
+            if (!hitItem && snapshot) showToast('ℹ️ 此地點喺最新資料已唔見咗，顯示你收藏時嘅快照');
+            const thisToken = ++searchHitToken;
+            setTimeout(() => {
+              if (thisToken === searchHitToken) selectL3Item(jumpTarget);
+            }, 160);
+          }
+        }
         
         // Show count in console for debug
         const l3Count = localData.filter(i => i.level === 3 || !i.level).length;
@@ -1289,6 +1562,10 @@
     // Render Level 3 / 4 List inside the drawer
 
     function matchesL3TypeFilter(item) {
+      // 🌏 對外開放：有 visitorNote 且以 ✅ 開頭（全軍大掃結構化欄位）
+      if (activeL3TypeFilter === 'access') {
+        return (item.visitorNote || '').trim().startsWith('✅');
+      }
       if (activeL3TypeFilter === 'all') return true;
       if (activeL3TypeFilter === 'verified') return !!item.verificationSource;
       if (activeL3TypeFilter === 'verify') {
@@ -1392,6 +1669,18 @@
           </a>
         ` : '';
 
+        // ⭐ 收藏星星掣（SHOPPING 目錄行已喺上面 return，呢度淨係一般地點行）
+        const itemIsFav = isFavorite(item.id);
+        const favStarHtml = `
+          <button
+            class="fav-star-btn p-1.5 rounded-full flex items-center justify-center transition-colors border ${itemIsFav ? 'text-amber-300 bg-amber-400/20 border-amber-400/40 hover:bg-amber-400/30' : 'text-slate-500 hover:text-amber-300 bg-white/5 hover:bg-amber-400/10 border-white/10'}"
+            title="${itemIsFav ? '取消收藏' : '收藏呢個地點（離線儲存喺你部機）'}"
+            aria-label="收藏或取消收藏 ${item.name}"
+          >
+            <i class="${itemIsFav ? 'fa-solid' : 'fa-regular'} fa-star text-xs"></i>
+          </button>
+        `;
+
         row.innerHTML = `
           <div class="flex items-center gap-2 overflow-hidden flex-1">
             <span class="text-base flex-shrink-0 select-none">${item.flag || '📍'}</span>
@@ -1402,13 +1691,26 @@
             </div>
           </div>
           <div class="flex items-center gap-1.5 flex-shrink-0">
+            ${favStarHtml}
+            ${item.fee ? `<span class="text-[10px] select-none" title="有官方收費資料：${item.fee.replace(/"/g, '&quot;')}（見詳情頁）">💰</span>` : ''}
+            ${item.bookingUrl ? `<span class="text-[10px] select-none" title="有官方預訂／收費詳情連結（見詳情頁）">📅</span>` : ''}
+            ${item.openingHours ? `<span class="text-[10px] select-none" title="有官方營業時間：${item.openingHours.replace(/"/g, '&quot;')}（見詳情頁）">🕐</span>` : ''}
+            ${item.visitorNote ? `<span class="text-[10px] select-none" title="外訪准入：${item.visitorNote.replace(/"/g, '&quot;')}">🌏</span>` : ''}
             ${item.scenes ? '<span class="bg-green-500/20 text-green-200 border border-green-400/30 font-bold text-[9px] px-1.5 py-0.5 rounded inline-flex items-center gap-0.5" title="WOSM SCENES 環境卓越童軍中心"><i class="fa-solid fa-leaf"></i> SCENES</span>' : ''}
             <span class="${badgeColor} font-bold text-[9px] px-1.5 py-0.5 rounded">${item.category.split(' ')[0]}</span>
             ${fbButtonHtml}
             ${igButtonHtml}
           </div>
         `;
-        
+
+        const favStarBtn = row.querySelector('.fav-star-btn');
+        if (favStarBtn) {
+          favStarBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            togglePlaceFavorite(item);
+          });
+        }
+
         row.addEventListener('click', (e) => {
           e.stopPropagation();
           selectL3Item(item);
@@ -1438,12 +1740,47 @@
         span.textContent = label;
         drawerVerificationBadges.appendChild(span);
       });
-      drawerVerificationBadges.classList.toggle('hidden', badges.length === 0);
+      // 🏕️ 營地結構化 chips：官方收費 + 預訂入口（資料來自已核實官方頁，出行前仍以官網為準）
+      if (item.fee) {
+        const feeSpan = document.createElement('span');
+        feeSpan.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-black bg-yellow-500/20 text-yellow-100 border-yellow-400/40';
+        feeSpan.innerHTML = `<i class="fa-solid fa-coins mr-1"></i>${escapeHtml(String(item.fee))}`;
+        feeSpan.title = '官方頁面列明嘅收費資料（出行前以官網最新公佈為準）';
+        drawerVerificationBadges.appendChild(feeSpan);
+      }
+      if (item.bookingUrl) {
+        const bookA = document.createElement('a');
+        bookA.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-black bg-sky-500/20 text-sky-200 border-sky-400/40 hover:bg-sky-400/40 hover:text-white transition-colors';
+        bookA.href = item.bookingUrl;
+        bookA.target = '_blank';
+        bookA.rel = 'noopener';
+        bookA.innerHTML = '預訂／收費詳情 <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-1"></i>';
+        bookA.title = `前往官方預訂或收費頁面：${item.bookingUrl}`;
+        drawerVerificationBadges.appendChild(bookA);
+      }
+      // 🕐 營業時間 chip：Shop/HQ 結構化開放時間（資料來自已核實官方頁，出行前仍以官網為準）
+      if (item.openingHours) {
+        const hoursSpan = document.createElement('span');
+        hoursSpan.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-black bg-teal-500/20 text-teal-100 border-teal-400/40';
+        hoursSpan.innerHTML = `<i class="fa-solid fa-clock mr-1"></i>${escapeHtml(String(item.openingHours))}`;
+        hoursSpan.title = '官方頁面列明嘅營業／辦公時間（假期可能有變，出行前以官網最新公佈為準）';
+        drawerVerificationBadges.appendChild(hoursSpan);
+      }
+      // 🌏 外訪准入 chip：邊個用得呢個場地（資料來自已核實官方頁）
+      if (item.visitorNote) {
+        const visitSpan = document.createElement('span');
+        visitSpan.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-black bg-indigo-500/20 text-indigo-100 border-indigo-400/40';
+        visitSpan.innerHTML = `<i class="fa-solid fa-earth-asia mr-1"></i>${escapeHtml(String(item.visitorNote))}`;
+        visitSpan.title = '外國童軍團／公眾准入資訊（以官方最新公佈為準；正式海外交流請循香港童軍總會國際署程序）';
+        drawerVerificationBadges.appendChild(visitSpan);
+      }
+      drawerVerificationBadges.classList.toggle('hidden', badges.length === 0 && !item.fee && !item.bookingUrl && !item.openingHours && !item.visitorNote);
     }
 
     // Select and focus an L3/L4 Item
     function selectL3Item(item) {
       activeL3Item = item;
+      updateDrawerFavBtn(); // 同步詳情頁⭐狀態
       
       // Update tab active category view to match selection
       if (item.level === 4) {
@@ -1719,6 +2056,7 @@
     // Close Drawer
     function closeDetailDrawer() {
       detailDrawer.classList.add('translate-x-full');
+      try { history.replaceState(null, '', window.location.pathname + window.location.search); } catch (e) {}
       currentSelectedOrgId = null;
       currentSelectedOrg = null;
       activeL3Item = null;
@@ -1771,7 +2109,15 @@
           
         return matchesRegion && matchesQuery;
       });
-      
+
+      // 全球地點搜尋（KISC / 東京 / Shop… 直達營地、用品社、區會）：延遲載入索引
+      if (query.length >= 2) {
+        ensureSearchIndex().then(() => renderGlobalResults(query));
+      } else if (globalResults) {
+        globalResults.classList.add('hidden');
+        globalResults.innerHTML = '';
+      }
+
       if (currentSelectedOrgId && !filteredScouts.some(o => o.id === currentSelectedOrgId)) {
         closeDetailDrawer();
       }
@@ -1894,8 +2240,398 @@
       }
     }
 
+    // ===== ⭐ 收藏夾（localStorage 離線儲存，PWA 斷網都睇得返） =====
+    function isFavorite(id) {
+      return favorites.some(f => f.id === id);
+    }
+
+    function persistFavorites() {
+      try { localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites)); } catch (e) { /* 私隱模式等情況靜默失敗 */ }
+    }
+
+    function loadFavorites() {
+      try {
+        const raw = localStorage.getItem(FAVORITES_KEY);
+        const parsed = raw ? JSON.parse(raw) : [];
+        favorites = Array.isArray(parsed) ? parsed.filter(f => f && f.id) : [];
+      } catch (e) { favorites = []; }
+    }
+
+    function favoriteFromPlace(item) {
+      return {
+        favKind: 'place',
+        savedAt: Date.now(),
+        ...item,
+        parentCountry: item.parentCountry || currentSelectedOrgId || ''
+      };
+    }
+
+    function favoriteFromOrg(org) {
+      return {
+        favKind: 'org',
+        id: 'ORG:' + org.id,
+        savedAt: Date.now(),
+        code: org.id,
+        name: org.country || org.id,
+        nameEn: org.countryEn || '',
+        flag: org.flag || '⚜️',
+        category: '國家總會 (Member Organization)',
+        subregion: org.wosmRegion || '',
+        parentCountry: ''
+      };
+    }
+
+    function togglePlaceFavorite(item) {
+      const idx = favorites.findIndex(f => f.id === item.id);
+      if (idx >= 0) {
+        favorites.splice(idx, 1);
+        showToast(`已取消收藏：${item.name || item.id}`);
+      } else {
+        favorites.unshift(favoriteFromPlace(item));
+        showToast(`⭐ 已收藏：${item.name || item.id} — 撳側邊「⭐ 收藏」隨時飛返嚟`);
+      }
+      persistFavorites();
+      refreshFavoritesUI();
+      renderL3List();
+      updateDrawerFavBtn();
+    }
+
+    function toggleOrgFavorite(org) {
+      const favId = 'ORG:' + org.id;
+      const idx = favorites.findIndex(f => f.id === favId);
+      if (idx >= 0) {
+        favorites.splice(idx, 1);
+        showToast(`已取消收藏：${org.country || org.id}`);
+      } else {
+        favorites.unshift(favoriteFromOrg(org));
+        showToast(`⭐ 已收藏：${org.country || org.id} 總會`);
+      }
+      persistFavorites();
+      refreshFavoritesUI();
+      updateDrawerFavBtn();
+    }
+
+    function removeFavorite(id) {
+      const fav = favorites.find(f => f.id === id);
+      if (!fav) return;
+      favorites = favorites.filter(f => f.id !== id);
+      persistFavorites();
+      refreshFavoritesUI();
+      renderL3List();
+      updateDrawerFavBtn();
+      showToast(`已移除收藏：${fav.name || fav.id}`);
+    }
+
+    function updateDrawerFavBtn() {
+      if (!favDrawerBtn) return;
+      const icon = favDrawerBtn.querySelector('i');
+      let fav = false, label = '';
+      if (activeL3Item) {
+        fav = isFavorite(activeL3Item.id);
+        label = activeL3Item.name || '';
+      } else if (currentSelectedOrg && currentSelectedOrg.id !== 'SHOPPING') {
+        fav = isFavorite('ORG:' + currentSelectedOrg.id);
+        label = (currentSelectedOrg.country || '') + ' 總會';
+      }
+      if (icon) {
+        icon.className = `${fav ? 'fa-solid' : 'fa-regular'} fa-star text-sm text-amber-300`;
+      }
+      favDrawerBtn.classList.toggle('bg-amber-400/30', fav);
+      favDrawerBtn.classList.toggle('border-amber-400/60', fav);
+      favDrawerBtn.title = fav
+        ? `已收藏：${label}（再撳一次取消）`
+        : `收藏${label ? '：' + label : '呢個目的地'}（離線儲存喺你部機）`;
+      favDrawerBtn.setAttribute('aria-label', favDrawerBtn.title);
+    }
+
+    function jumpToFavorite(fav) {
+      if (!fav) return;
+      if (fav.favKind === 'org') {
+        jumpToCountryByCode(fav.code);
+        return;
+      }
+      pendingFavSnapshot = fav; // 後備快照：地點如被資料更新刪走都重用得返
+      pendingL3JumpId = fav.id;
+      jumpToCountryByCode(fav.parentCountry);
+    }
+
+    function renderFavoritesList() {
+      if (!favoritesList) return;
+      if (favorites.length === 0) {
+        favoritesList.innerHTML = `
+          <div class="text-center py-4 text-slate-500 text-[10px] font-semibold leading-relaxed">
+            仲未有收藏。<br>喺任何<strong class="text-amber-300">營地 / 用品社 / 單位</strong>嘅詳情頁或列表撳 <i class="fa-regular fa-star text-amber-300"></i>，就會儲存喺呢度（離線都睇得返）。
+          </div>`;
+        return;
+      }
+      favoritesList.innerHTML = favorites.map(fav => {
+        const isOrg = fav.favKind === 'org';
+        const typeBadgeCls = isOrg
+          ? 'bg-amber-950/50 text-amber-300 border border-amber-900/30'
+          : (fav.type === 'Campsite' ? 'bg-emerald-950/50 text-emerald-300 border border-emerald-900/30'
+          : fav.type === 'Shop' ? 'bg-orange-950/50 text-orange-300 border border-orange-900/30'
+          : 'bg-blue-950/50 text-blue-300 border border-blue-900/30');
+        let parentName = fav.parentCountry || '';
+        const parent = allScouts.find(o => o.id === fav.parentCountry);
+        if (parent && parent.country) parentName = parent.country;
+        const sub = isOrg ? (fav.subregion || '') : [parentName, fav.subregion].filter(Boolean).join(' · ');
+        const badgeText = isOrg ? '總會' : ((fav.category || '').split(' ')[0] || fav.type || '');
+        return `
+          <div class="favorite-row w-full text-left p-2 rounded-lg bg-[#051847] hover:bg-[#09225e] border border-white/5 hover:border-amber-400 transition-all flex items-center justify-between gap-2 cursor-pointer" data-fav-id="${escapeHtml(fav.id)}">
+            <span class="flex items-center gap-2 overflow-hidden">
+              <span class="text-base flex-shrink-0">${fav.flag || '📍'}</span>
+              <span class="overflow-hidden">
+                <span class="block text-[11px] font-extrabold text-slate-100 truncate">${escapeHtml(fav.name || fav.id)}</span>
+                <span class="block text-[9px] text-slate-400 font-semibold truncate">${escapeHtml(sub || fav.nameEn || '')}</span>
+              </span>
+            </span>
+            <span class="flex items-center gap-1 flex-shrink-0">
+              ${badgeText ? `<span class="border px-1.5 py-0.5 rounded text-[9px] font-black ${typeBadgeCls}">${escapeHtml(badgeText)}</span>` : ''}
+              <i class="fa-solid fa-star text-amber-400 text-xs"></i>
+              <button class="fav-remove-btn text-slate-500 hover:text-red-300 p-1 transition-colors focus:outline-none" data-fav-remove="${escapeHtml(fav.id)}" title="移除呢個收藏" aria-label="移除收藏 ${escapeHtml(fav.name || fav.id)}">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </span>
+          </div>
+        `;
+      }).join('');
+
+      favoritesList.querySelectorAll('.favorite-row').forEach(row => {
+        row.addEventListener('click', (e) => {
+          if (e.target.closest('.fav-remove-btn')) return;
+          const fav = favorites.find(f => f.id === row.dataset.favId);
+          if (fav) jumpToFavorite(fav);
+        });
+      });
+      favoritesList.querySelectorAll('.fav-remove-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          removeFavorite(btn.dataset.favRemove);
+        });
+      });
+    }
+
+    function refreshFavoritesUI() {
+      const n = favorites.length;
+      if (favoritesCount) favoritesCount.textContent = n;
+      if (favoritesPanelCount) favoritesPanelCount.textContent = n;
+      renderFavoritesList();
+    }
+
+    function toggleFavoritesPanel(force) {
+      if (!favoritesPanel) return;
+      const show = typeof force === 'boolean' ? force : favoritesPanel.classList.contains('hidden');
+      favoritesPanel.classList.toggle('hidden', !show);
+      if (show) renderFavoritesList();
+      if (favoritesToggleBtn) favoritesToggleBtn.classList.toggle('bg-amber-400/30', show);
+    }
+
+    // ===== 通用 Toast 提示 =====
+    function showToast(message) {
+      if (!copyToast) return;
+      if (copyToastText) copyToastText.textContent = message;
+      copyToast.classList.remove('opacity-0');
+      copyToast.classList.add('opacity-100');
+      setTimeout(() => {
+        copyToast.classList.remove('opacity-100');
+        copyToast.classList.add('opacity-0');
+      }, 2400);
+    }
+
+    function escapeHtml(str = '') {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    // ===== 🔗 分享目的地連結（WhatsApp / Telegram 一鍵 share 俾團友） =====
+    function shareCurrentView() {
+      const org = currentSelectedOrg || hkDefaultOrg;
+      const isLocal = !!activeL3Item;
+      const title = isLocal
+        ? `${activeL3Item.name}｜${org.country || '全球'}童軍`
+        : `${org.country || org.countryEn || '目的地'}童軍｜Scout World Explorer`;
+      const text = isLocal
+        ? `⚜️ ${activeL3Item.name}（${org.country || ''}）— 香港童軍外遊規劃`
+        : `⚜️ ${org.country || ''}童軍探訪・購物・營地 — 香港童軍外遊規劃`;
+      const url = `${window.location.origin}${window.location.pathname}#${encodeURIComponent(org.id)}`;
+      if (navigator.share) {
+        navigator.share({ title, text, url }).catch(() => { /* 用戶取消分享，無需提示 */ });
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url)
+          .then(() => showToast('已複製目的地連結，快啲 share 俾同行團友！'))
+          .catch(() => showToast(url));
+      } else {
+        showToast(url);
+      }
+    }
+
+    // ===== 🔥 熱門目的地捷徑（任何國家代碼直達） =====
+    function jumpToCountryByCode(code) {
+      const org = allScouts.find(o => o.id === code);
+      if (!org) return;
+      if (searchInput) searchInput.value = '';
+      if (clearSearchBtn) clearSearchBtn.classList.add('hidden');
+      if (globalResults) { globalResults.classList.add('hidden'); globalResults.innerHTML = ''; }
+      const regionKey = org.wosmRegion || 'Global';
+      setRegionButtonActive(regionKey);
+      filterData();
+      selectOrganization(org);
+    }
+
+    // ===== 🌍 全球地點搜尋索引（1297+ 個營地/用品社/區會即時直達） =====
+    function ensureSearchIndex() {
+      if (!searchIndexPromise) {
+        searchIndexPromise = fetch('data/search-index.json')
+          .then(res => (res.ok ? res.json() : []))
+          .then(data => {
+            searchIndex = Array.isArray(data) ? data : [];
+            return searchIndex;
+          })
+          .catch(err => {
+            console.warn('[ScoutWorld] 搜尋索引載入失敗：', err);
+            searchIndex = [];
+            return [];
+          });
+      }
+      return searchIndexPromise;
+    }
+
+    function renderGlobalResults(query) {
+      if (!globalResults || !Array.isArray(searchIndex)) return;
+      const q = query.toLowerCase();
+      // 防競態：若用戶已刪走/更改輸入，唔好渲染舊查詢結果
+      if (!searchInput || searchInput.value.trim().toLowerCase() !== q) return;
+      const hits = searchIndex.filter(row =>
+        (row.n && row.n.toLowerCase().includes(q)) ||
+        (row.e && row.e.toLowerCase().includes(q)) ||
+        (row.o && row.o.toLowerCase().includes(q)) ||
+        (row.s && row.s.toLowerCase().includes(q)) ||
+        (row.t && row.t.toLowerCase().includes(q))
+      ).slice(0, 6);
+
+      if (hits.length === 0) {
+        globalResults.classList.add('hidden');
+        globalResults.innerHTML = '';
+        return;
+      }
+
+      const typeBadge = (t) => {
+        const map = {
+          'Campsite': 'bg-emerald-950/60 text-emerald-300 border-emerald-900/40',
+          'Shop': 'bg-orange-950/60 text-orange-300 border-orange-900/40',
+          'Headquarters': 'bg-amber-950/60 text-amber-300 border-amber-900/40',
+          'National HQ': 'bg-sky-950/60 text-sky-300 border-sky-900/40',
+          'Region': 'bg-violet-950/60 text-violet-300 border-violet-900/40',
+          'Council': 'bg-blue-950/60 text-blue-300 border-blue-900/40',
+          'District': 'bg-purple-950/60 text-purple-300 border-purple-900/40'
+        };
+        return map[t] || 'bg-slate-800/60 text-slate-300 border-slate-700/40';
+      };
+
+      globalResults.innerHTML = `
+        <div class="text-[10px] font-black text-amber-400/90 uppercase tracking-wider px-1 flex items-center justify-between">
+          <span><i class="fa-solid fa-earth-asia mr-1"></i>全球地點直達</span>
+          <span class="text-slate-500 normal-case font-bold">營地・用品社・區會</span>
+        </div>
+      ` + hits.map(hit => {
+        // L3/L4 項目顯示所屬國家中文名
+        let parentName = hit.cc || '';
+        if (!parentName && hit.c && hit.c !== hit.i) {
+          const parent = allScouts.find(o => o.id === hit.c);
+          parentName = parent ? (parent.country || '') : hit.c;
+        }
+        const sub = [parentName, hit.s].filter(Boolean).join(' · ');
+        // 中英雙語顯示：英文名與中文名不同時補多行（跨境搜尋 Vajiravudh、Gilwell 都睇得明）
+        const enLine = (hit.e && hit.e !== hit.n) ? `<span class="block text-[9px] text-slate-500 font-semibold truncate">${escapeHtml(hit.e)}</span>` : '';
+        return `
+          <button class="global-hit w-full text-left p-2 rounded-lg bg-[#051847] hover:bg-[#09225e] border border-white/5 hover:border-amber-400 transition-all flex items-center justify-between gap-2" data-hid="${escapeHtml(hit.i)}" data-cc="${escapeHtml(hit.c)}" data-lvl="${hit.lvl}">
+            <span class="flex items-center gap-2 overflow-hidden">
+              <span class="text-base flex-shrink-0">${hit.f || '📍'}</span>
+              <span class="overflow-hidden">
+                <span class="block text-[11px] font-extrabold text-slate-100 truncate">${escapeHtml(hit.n)}</span>
+                <span class="block text-[9px] text-slate-400 font-semibold truncate">${escapeHtml(sub || hit.e || '')}</span>
+                ${enLine}
+              </span>
+            </span>
+            <span class="flex items-center gap-1 flex-shrink-0">
+              <span class="border px-1.5 py-0.5 rounded text-[9px] font-black ${typeBadge(hit.t)}">${escapeHtml(hit.t)}</span>
+              <i class="fa-solid fa-arrow-right-long text-amber-300 text-[10px]"></i>
+            </span>
+          </button>
+        `;
+      }).join('');
+
+      globalResults.querySelectorAll('.global-hit').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const lvl = parseInt(btn.dataset.lvl, 10);
+          if (lvl >= 3) pendingL3JumpId = btn.dataset.hid; // L3/L4 → 載入後自動選中
+          jumpToCountryByCode(btn.dataset.cc);
+        });
+      });
+
+      globalResults.classList.remove('hidden');
+    }
+
+    // ===== #hash 直達處理（打開分享連結時自動飛去目的地） =====
+    async function applyHashFromUrl() {
+      const raw = (window.location.hash || '').replace(/^#/, '').trim();
+      if (!raw) return;
+      let code = raw;
+      try { code = decodeURIComponent(raw); } catch (e) {}
+      if (code.toUpperCase() === 'SHOPPING') { jumpToOnlineShopDirectory(); return; }
+      if (code.toUpperCase() === 'HK') { jumpToHongKong(); return; }
+      let org = allScouts.find(o => o.id === code) ||
+                allScouts.find(o => o.id && o.id.toLowerCase() === code.toLowerCase());
+      if (!org) {
+        await ensureWorldRegionLoaded();
+        org = allScouts.find(o => o.id === code) ||
+              allScouts.find(o => o.id && o.id.toLowerCase() === code.toLowerCase());
+      }
+      if (org) jumpToCountryByCode(org.id);
+    }
+
     // Setup Listeners and Events
     function initListeners() {
+      // 分享目的地按鈕
+      if (shareOrgBtn) shareOrgBtn.addEventListener('click', shareCurrentView);
+
+      // ⭐ 收藏夾：按掣接線 + 開機載入
+      if (favDrawerBtn) {
+        favDrawerBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (activeL3Item) togglePlaceFavorite(activeL3Item);
+          else if (currentSelectedOrg && currentSelectedOrg.id !== 'SHOPPING') toggleOrgFavorite(currentSelectedOrg);
+        });
+      }
+      if (favoritesToggleBtn) {
+        favoritesToggleBtn.addEventListener('click', () => toggleFavoritesPanel());
+      }
+      if (favoritesClearBtn) {
+        favoritesClearBtn.addEventListener('click', () => {
+          if (favorites.length === 0) { showToast('收藏夾本來就係空嘅'); return; }
+          favorites = [];
+          persistFavorites();
+          refreshFavoritesUI();
+          renderL3List();
+          updateDrawerFavBtn();
+          showToast('已清空全部收藏');
+        });
+      }
+      loadFavorites();
+      refreshFavoritesUI();
+
+      // 熱門目的地快速捷徑
+      if (hotDestinations) {
+        hotDestinations.addEventListener('click', (e) => {
+          const chip = e.target.closest('.hot-chip');
+          if (chip && chip.dataset.cc) jumpToCountryByCode(chip.dataset.cc);
+        });
+      }
+
       if (hkShortcutCard) hkShortcutCard.addEventListener('click', jumpToHongKong);
       if (onlineShopCard) onlineShopCard.addEventListener('click', jumpToOnlineShopDirectory);
       if (mapFullscreenBtn) mapFullscreenBtn.addEventListener('click', toggleMapFullscreen);
@@ -2029,12 +2765,7 @@
         if (!textToCopy) return;
         
         navigator.clipboard.writeText(textToCopy).then(() => {
-          copyToast.classList.remove('opacity-0');
-          copyToast.classList.add('opacity-100');
-          setTimeout(() => {
-            copyToast.classList.remove('opacity-100');
-            copyToast.classList.add('opacity-0');
-          }, 2000);
+          showToast('成功複製座標至剪貼簿！');
         }).catch(err => {
           console.error('Could not copy coordinates to clipboard: ', err);
         });
@@ -2117,13 +2848,30 @@
     window.addEventListener('DOMContentLoaded', () => {
       initDOM(); // Initialize DOM elements safely!
       initMap();
-      
+
       // Bootstrap Hong Kong view instantly!
       filterData();
-      selectOrganization(hkDefaultOrg);
-      
+      selectOrganization(hkDefaultOrg, { updateHash: false }); // 保留網址原有 #hash（分享連結用）
+
       initListeners();
       loadData(); // Quietly load other regions in the background
+    });
+
+    // ===== 📴 PWA 離線支援：註冊 Service Worker（旅途中斷網都查到資料!） =====
+    if ('serviceWorker' in navigator && /^https?:$/.test(window.location.protocol)) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(() => console.info('[ScoutWorld] 離線模式已啟用：睇過嘅資料斷網都睇得返！'))
+          .catch(err => console.warn('[ScoutWorld] Service Worker 註冊失敗：', err));
+      });
+    }
+
+    // ===== ⌨️ 鍵盤快捷鍵：撳 / 立即聚焦搜尋框 =====
+    window.addEventListener('keydown', (e) => {
+      if (e.key === '/' && searchInput && document.activeElement !== searchInput) {
+        e.preventDefault();
+        searchInput.focus();
+      }
     });
   </script>
 </body>

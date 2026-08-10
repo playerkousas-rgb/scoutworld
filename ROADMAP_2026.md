@@ -14,9 +14,9 @@ Completed:
 - Verification metadata was added.
 - Reports were created for APAC, Europe, Americas, Arab and Africa.
 
-## Phase 2 — Global deep enrichment 🔄
+## Phase 2 — Global deep enrichment ✅
 
-Status: In progress.
+Status: **Region-by-region sweep completed 2026-08-10** (waves 1–11, see DATA_COVERAGE_REPORT_2026-08-07.md).
 
 Completed so far:
 
@@ -25,34 +25,49 @@ Completed so far:
 - Africa received priority social links and several official camps / shops / training centres.
 - Arab received several official social links and Oman official camps/training information entry.
 
-Next targets:
+2026-08-07 → 2026-08-10 完成嘅 11 波重點：
 
-1. Americas
-   - HT, LC, SR reliable social / website
-   - Latin America Scout Shops
-   - Brazil / Argentina / Mexico / Chile / Colombia official camps and group finders
-2. Africa
-   - remaining countries without social / website
-   - national training centres
-   - Scout Shops
-3. Arab
-   - MR and SD official social
-   - Gulf official Scout Shops / camps
-4. APAC
-   - small states, Central Asia, Pacific islands
-5. Europe
-   - remaining L3 social and source precision
+- 🔁 大掃第四迴第28波（2026-08-10 歐洲小國＋美洲）：16營地結構化——BE Hopper雙子（De Kluis佛拉芒最老＋Merkenveld無障礙容量1,300）、FR Jambville全年365日+官方預訂表、EE Tagametsa「學校及公眾」✅、ES Griébal國際營✅、AR Centro Scout搵到自家/reservar價目頁✅、US四大高冒險基地（Sea Base官方明言公眾家庭營✅＋2027註冊、Philmont/Summit/NT⚠️＋預訂link）、CZ Kaprálův⚠️、CY四營（Platania 6–8月主營期；Kapparis官方章節空白誠實標註）、AT Scout Camp Austria SSL失效警告；🚨補鑊：肯雅騎劫域名kenyascouts.org匿埋verificationSource×4會render成可撳連結→全數拔除＋規則4補充；測試套件搬入repo（tools_runtime_test.js）12/12綠；chips📅47・🌏58
 
-## Phase 3 — Link checking 🔄
+- 🔁 大掃第三迴第27波（2026-08-10，FOR童軍視角）：韓總會 Scout Hall 場租全表 chips（₩25萬起・青少年八折・童軍活動經部門查詢）＋江原大露營修練場深度修復（搵到場地自家官網 wjs.or.kr＋電話＋8,000人容量列secondary）＋昆池岩誠實標註設施頁改版＋MX Meztitla「對國際團開放」降格 tertiary；TH×4 重抓維持 chip-free；MY Kem Kotaraya 候任（州網正文讀唔出按規矩暫緩）；jsdom 21/21
 
-Initial scan completed on 2026-06-11. See `LINK_CHECK_REPORT_2026-06-11.md` and `LINK_CHECK_RESULTS_2026-06-11.csv`.
+- 🔁 大掃第二迴第26波（2026-08-10）：AU/CA/ID/NZ 9營地結構化——Woodhouse 四chip全齊（A$22日票/venue.life預訂/全年9–5/公眾開放）、Gilwell VIC對外租用✅＋電話、Cataract官方「open to all groups」、HSR Doubleknot 2026預訂、日惹官方Pesan Buper頁、Brookfield「Scouts and others」✅、Ruapehu「ANYONE can stay」✅；誠實守綫：Cibubur收費只見傳媒→fee留空列secondary、Cottermouth等4場外團准入未明→國際署字眼；全庫📅38・🌏43；jsdom 20/20
+- 🔍 全軍大掃第25波（2026-08-10）：L3篩選列「🌏對外開放」掣——visitorNote以✅開頭先出列（GB實測16→8精準）；18個歐洲標誌營地結構化（GB全9中心含Gilwell國際訪客明證＋Hirsch Gallery開放時間、Zellhof/OurChalet/HouensOdde/Vässarö/Kragenäs國際營、白浪島NT渡輪）；測試基建/tmp抹檔後重建19/19綠
+- 🌏 第24波（2026-08-10）：visitorNote准入欄位16場地（✅9/❌2/⚠️4/❓1）＋詳情頁indigo 🌏 chip＋列表快掃；DATA_POLICY規則5（官方冇寫就用國際署字眼唔自己估）
+- 🏷️ 第21+22波（2026-08-10）：11項Shop/HQ openingHours chips＋🕐teal chip；kenyascouts.org騎劫域名連結全數移除（5處）＋DATA_POLICY規則4
+- 🏕️ 第23波（2026-08-10）：地蔵山野營場官方實抓全chip（¥600/¥800、申請書程序）＋山中野營場誠實tertiary零chip；京都/靜岡查無官方→誠實略過（地點總數1,143）
 
-Tasks:
+- APAC：HK 59 深層、TW 34、日本/韓國/澳洲/新加坡/泰國三柱；馬來西亞 scoutmy.org 新門戶補回；澳門官網持續 500 留覆查清單
+- Europe：GB Scout Adventures 9/9 中心齊（Hawkhirst 結業即時剔除）、法德瑞比利時意官方揀團器、13 小國審計無填充
+- Americas：加拿大 Haliburton/Byng/Find a Group、墨西哥 Meztitla、南美 UEB/阿根廷營地/秘魯用品社
+- Africa：南非訪客程序、肯亞 Paxtu 朝聖地（兼發現 kenyascouts.org 域名入侵）
+- Arab：黎巴嫩 LSA、約旦總部更新
+- Caribbean+Oceania：BB 用品社、BS 營地、DO 北辦、NZ venues/Waiora 錯置修正
+- 深度強化第13波（2026-08-10 後段）：日本首次有營地——連盟直轄那須野營場＋高萩Scout Field（官方價目/預約程序全譯）；澳洲營地補齊六區——QLD Baden-Powell Park、ACT Camp Cottermouth、TAS The Lea（全部官方頁 2026-08-10 抓取；地點總數 1,136）
+- 營地結構化（2026-08-10）：16 營地 fee/bookingUrl 欄位（7 收費＋14 預訂連結，全部源自已核實官方頁；The Lea「不設預訂」誠實淨費）＋詳情頁 💰/📅 chips＋列表快掃圖標；jsdom 24/24
+- 界面升級（2026-08-10）：⭐ 收藏夾——詳情頁/列表行星星掣＋側欄收藏面板（localStorage 離線快照、點行直達詳情、SW 版本 bump）；jsdom 全鏈路測試 23/23
+- Phase 6 貢獻流程上線（2026-08-10）：GitHub issue 三表（報料新地點／死連回報／修正建議）＋ CONTRIBUTING.md＋README 重寫＋網站頁尾「📮 報料／修正」入口；表格守門「來源網址必填」接軌 zero-hallucination 政策；templates 待合併 main 生效
+- 深度強化第17波（2026-08-10 凌晨四更）：東南亞官方總重核——泰國 NSOT 官方營地名冊 4/4 全中全升級（Vajiravudh 1962開幕498萊/Ban Rai 拉瑪六世猛虎兵團演習聖地/Trang 南部國家營/Rattarasarn 1966開幕＋2026採購公告現役）；星加坡 scout.sg 實抓（SLDC 營運 Sarimbun 實锤）；檳城官方 2026 活動鐵證；Makiling 誠實留 secondary（零新增純準確度）
+- 深度強化第16波（2026-08-10 凌晨三更）：日本第二擊——大阪連盟官方網 SWO 三寶（會館用品櫃位營業時間全公示＋直屬「キャンプおおさか」¥100/人/日收費及預訂程序全譯）；富士山周邊縣營地查無官方證據→誠實候任（地點總數 1,141）
+- 深度強化第15波（2026-08-10 深夜二更）：歐洲營地 booster 審計45國 L3——芬蘭 Kiljava 全官方實用詳盡（首都區童軍基金會、預訂規則全譯）＋希臘聖安德魯斯中心（ΣΕΠ 屬下、馬拉松旁、2025 活動證實）；克羅地亞官方目錄 camps.scouts.hr 拉唔到→誠實列入覆核（地點總數 1,139）
+- 深度強化第14波（2026-08-10 深夜）：台灣營地 10/10 全員重核——教育部官方普查表對晒管理單位/開放狀態（7升級官方、陽明山改名七星苗圃遊憩區大更新、鯉魚潭誠實降級unverified、澄清湖503警告）；韓國官方設施目錄發力——中央訓練院 tertiary→official 升級＋新增連盟直營昆池岩野營場（地點總數 1,137）
 
-- scan all website / facebook / instagram / youtube links
-- identify 404 / dead domains
-- identify HTTP only but HTTPS-capable URLs
-- mark temporarily unreachable but credible sources as verify-before-travel
+Remaining backlog (「進階深度」留返下個 sweeps)：
+
+1. 覆查清單：澳門 scout.org.mo、千里達 scouts.tt（522）、阿魯巴 scoutingaruba.com（500）、哥斯達黎加（×3 連線失敗）、巴林/摩洛哥（連線失敗）、Burundi/利比亞（2026-08-10 連線失敗）
+2. 拉美小國 BO/PY/UY/VE/EC 官方公開資料不足
+3. 衝突國家 SY/YE/LY/SD/LR 保持 HQ-only
+
+## Phase 3 — Link checking ✅ (2026-08-10 targeted sweep)
+
+Initial scan completed 2026-06-11. **Second sweep 2026-08-10**:
+
+- Full automated bulk sweep blocked by sandbox egress limits; replaced with a **targeted 12-link proxy sweep** (fetch-based) covering thin-country HQ websites and all previously-suspect domains.
+- 🚨 **2 domains confirmed hijacked → links removed from data**: scoutismecongolais.org (CG, redirect→賭博網), aeascout.org (AO, redirect→casino)。kenyascouts.org 入侵複核仍存在（已成嘅警告 label 更新至 2026-08-10）。
+- 7 unreachable/blocked official sites flagged verify-before-travel in `verificationStatus` (TT/AW/CR/BI/LY/MO×2/MZ)。
+- 5 active official sites upgraded to verified-live with fresh official stats (KM/GH/MV/MN/CD)。
+- Data bugfix: 11 條第11/12波「多 URL 用分號分隔」嘅 verificationSource 已收復做單一主 URL（避免壞 link target）。
+- Full `tools_link_check.py` bulk sweep remains **scheduled for an environment with open egress** (see Phase 7 annual review command).
 
 ## Phase 4 — Map and coordinate refinement 🔄
 
@@ -100,6 +115,16 @@ Create:
 - required source field
 - no-email reminder
 
+## Phase 9 — 世界版圖補完與全局收尾 ✅
+
+Status: Completed 2026-08-10.
+
+- **跨區 WOSM 官方名錄總對賬**：亞太 33/33・美洲 34/34（加拿大一國兩會以1計共35）・阿拉伯 19/19・歐洲 47/47（官方聲明 47 NSO）・非洲 39→**42/42**。
+- 新增 L2：🇨🇬 剛果（布）、🇬🇼 畿內亞比紹（2017 WOSM 入會）、🇲🇱 馬里（2024-06 第 175 個 WOSM 會員）。
+- 波利尼西亞微型國家（薩摩亞/湯加/瓦努阿圖/吐瓦魯）**不是** WOSM 正式會員，維持不加（準確優先）。
+- 修復 `countryRegionMap` 硬編漏三碼 bug（jsdom 測試捉到，已加 regression test）。
+- 里程碑數字：L2 = 223（176 個 WOSM 會員國 100% 覆蓋）・L3/L4 地點 **1,131**・搜尋索引 **1,354**・覆蓋代碼 **178**。
+
 ## Phase 7 — Annual review
 
 Planned.
@@ -116,3 +141,28 @@ Every 6–12 months:
 
 - Initial layer completed: WSB, KISC, SCENES directory, WOSM Services, JOTA-JOTI, World Scout Foundation.
 - Future: add selected SCENES centre deep links by country only if official and useful for travel planning.
+
+## Phase 8 — HK Scout trip-planning product release ✅
+
+Status: Completed on 2026-08-07. Live at https://scoutworld.vercel.app/
+
+Goal: become the go-to pre-trip planning site for Hong Kong Scouts visiting scout units, buying gear, and booking campsites overseas.
+
+Follow-up audit (2026-08-07, see DATA_COVERAGE_REPORT_2026-08-07.md): all 173 WOSM members have local files and clean data quality, but 80 countries hold ≤1 item. Country-first flow strengthened accordingly.
+
+Completed:
+
+- Hot destination quick chips (JP/TW/KR/SG/TH/AU/GB/CH) with one-tap country jump.
+- Country-first browsing transparency: per-country place-count badges in the org list (`🏕️ N 地點`, orange highlight when ≥5) powered by `data/place-counts.json`; drawer coverage notes celebrate rich regions and guide thin regions to official-event search.
+- Global place search index (`data/search-index.json`, 1297 entries) generated by `tools_search_index_build.py`; 2-character lazy search jumping straight to campsites, Scout Shops and districts.
+- Per-destination share links (`/#GB` style hash routing) with native share sheet / clipboard fallback.
+- PWA offline mode via `sw.js` (app shell + data JSON + map tiles caching), installable via `manifest.webmanifest`.
+- Travel toolbox rebuilt around a 5-step planning flow (destination → ILI via International Dept → campsite booking → Shop hours → badge swapping), plus emergency contacts (Immd (852) 1868, OTA).
+- SEO pack: meta description, Open Graph/Twitter card (`og-cover.jpg` 1200×630), JSON-LD, favicon suite, robots.txt, sitemap.xml, canonical, `lang="zh-Hant-HK"`.
+- vercel.json headers for sw.js/manifest/data caching.
+
+Next targets:
+
+- Expand search index with keywords/aliases (e.g. common misspellings, airport codes).
+- Collect popular HK-scout trip itineraries as shareable preset bundles.
+- Continue Phase 2 data enrichment backlog.

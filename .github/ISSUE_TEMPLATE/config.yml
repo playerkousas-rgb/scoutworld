@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 貢獻指南 CONTRIBUTING
+    url: https://github.com/playerkousas-rgb/scoutworld/blob/main/CONTRIBUTING.md
+    about: 第一次貢獻？先睇下我哋嘅資料政策、來源等級同埋格式要求。
+  - name: 📋 資料政策 DATA_POLICY
+    url: https://github.com/playerkousas-rgb/scoutworld/blob/main/DATA_POLICY.md
+    about: 了解 L1–L4 資料分層、verificationSource 單一網址規則同埋精度徽章嘅定義。

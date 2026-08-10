@@ -20,5 +20,28 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "website unavailable in automated check; verify through federation social/WOSM before travel",
     "verificationSource": "https://www.scout.org/where-we-work/regions/arab/countries"
+  },
+  {
+    "id": "LB-BRANCH-LSA",
+    "parentCountry": "LB",
+    "level": 3,
+    "type": "Branch",
+    "flag": "🇱🇧",
+    "category": "黎巴嫩童軍協會 (Lebanese Scout Association)",
+    "name": "黎巴嫩童軍協會（LSA，1935）",
+    "nameEn": "Lebanese Scout Association (LSA)",
+    "subregion": "貝魯特＋全國 (Beirut + Nationwide)",
+    "lat": 33.8938,
+    "lng": 35.5018,
+    "locationAccuracy": "Representative point — 貝魯特市區示意點（官方站未列街道地址）",
+    "address": "Beirut, Lebanon",
+    "website": "https://lsa.org.lb/",
+    "email": "",
+    "phone": "",
+    "description": "黎巴嫩最大童軍協會之一（WOSM 黎巴嫩童軍聯合會 Fédération du scoutisme libanais 重要成員會）：1935 年於美國黎巴嫩大學（AUB）創立，非宗教、非宗派志願組織，全國 20 個童軍團、約 2,500 名成員、300 位領袖，設於各大城市社會公民會所及名校之內。官網英文介面清晰，并有 Join Scouts / Be A Leader 公開入隊表單；香港訪貝魯特人士想接觸本地童軍，可循官方 FB（fb.com/LebaneseScouts）及官網做前期了解，正式探訪經總會國際署。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official site verified 2026-08-08",
+    "verificationSource": "https://lsa.org.lb/",
+    "facebook": "https://www.facebook.com/LebaneseScouts"
   }
 ]

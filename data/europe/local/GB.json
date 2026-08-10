@@ -42,7 +42,10 @@
     "description": "Scout Adventures 官方頁稱 Gilwell Park 是世界聞名的童軍歷史地點與活動中心，佔地約 108 英畝，提供住宿、露營、歷史導覽、戶外活動與國際志工計畫。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.scoutadventures.org.uk/centre/gilwell-park"
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/gilwell-park",
+    "bookingUrl": "https://www.scoutadventures.org.uk/centre/gilwell-park",
+    "openingHours": "探訪熱線 週一至四 09:00–17:00；週五、六 09:00–20:00；週日 09:00–16:00（Hirsch Adventure Gallery 週日–四 08:00–18:00、週五六 08:00–20:00）",
+    "visitorNote": "✅ 歡迎海外/國際訪客——官方頁明寫 \"We welcome UK and international day visitors\"；每年有 120+ 國際志工駐場"
   },
   {
     "id": "GB-SHOP-SCOUT-STORE",
@@ -83,7 +86,9 @@
     "description": "Brownsea Island 是 1907 年貝登堡實驗營所在地。National Trust 官方頁列出 Outdoor Centre campsite 及 Brownsea Island 地址，適合童軍朝聖、自然觀察與戶外活動。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island"
+    "verificationSource": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island",
+    "bookingUrl": "https://www.nationaltrust.org.uk/visit/dorset/brownsea-island",
+    "visitorNote": "✅ National Trust 對公眾開放參觀（渡輪上島朝聖）；營地宿位向 NT 另訂"
   },
   {
     "id": "GB-CAMP-BROADSTONE-WARREN",
@@ -103,7 +108,9 @@
     "description": "Scout Adventures 官方頁列出 Broadstone Warren 位於 Forest Row，佔地約 400 英畝，鄰近 Ashdown Forest，提供露營、住宿與多種戶外活動。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.scoutadventures.org.uk/centre/broadstone-warren"
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/broadstone-warren",
+    "bookingUrl": "https://www.scoutadventures.org.uk/centre/broadstone-warren",
+    "visitorNote": "✅ Scout Adventures 中心——學校/童軍/青年團體皆可預訂（海外團體經官方查詢表）"
   },
   {
     "id": "GB-CAMP-YOULBURY",
@@ -123,7 +130,9 @@
     "description": "Scout Adventures 官方頁列出 Youlbury 位於 Oxfordshire 的 Boars Hill，佔地約 42 英畝林地，提供露營、住宿、高空挑戰與傳統戶外技能活動。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.scoutadventures.org.uk/centre/youlbury"
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/youlbury",
+    "bookingUrl": "https://www.scoutadventures.org.uk/centre/youlbury",
+    "visitorNote": "✅ Scout Adventures 中心——學校/童軍/青年團體皆可預訂（海外團體經官方查詢表）"
   },
   {
     "id": "GB-CAMP-GREAT-TOWER",
@@ -143,7 +152,9 @@
     "description": "Scout Adventures 官方頁列出 Great Tower 位於 Lake District、Newby Bridge 附近，提供約 250 英畝林地與岩地、住宿、露營、湖區登山與水上活動。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.scoutadventures.org.uk/centre/great-tower"
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/great-tower",
+    "bookingUrl": "https://www.scoutadventures.org.uk/centre/great-tower",
+    "visitorNote": "✅ Scout Adventures 中心——學校/童軍/青年團體皆可預訂（海外團體經官方查詢表）"
   },
   {
     "id": "GB-HQ-SCOTLAND-FORDELL",
@@ -206,7 +217,9 @@
     "description": "Scout Adventures 官方頁列出 Yr Hafod 位於 Eryri / Snowdonia 的 Ogwen Valley，是由經驗豐富的 Scout 志工營運的山區住宿與訓練中心，可提供 Mountain Training、導航、DofE Gold 等活動。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "public official/source page linked; verify current status before travel",
-    "verificationSource": "https://www.scoutadventures.org.uk/centre/yr-hafod"
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/yr-hafod",
+    "bookingUrl": "https://www.scoutadventures.org.uk/centre/yr-hafod",
+    "visitorNote": "✅ Scout Adventures 中心——志工營運山區中心；學校/童軍/青年團體皆可預訂"
   },
   {
     "id": "GB-HQ-NI-CASTLEREAGH",
@@ -256,7 +269,9 @@
     "facebook": "https://www.facebook.com/scoutsni",
     "instagram": "scoutsni",
     "youtube": "https://www.youtube.com/user/UKScoutAssociation",
-    "socialVerificationSource": "https://www.scoutsni.org/home/contact/"
+    "socialVerificationSource": "https://www.scoutsni.org/home/contact/",
+    "bookingUrl": "https://www.scoutsni.org/home/contact/",
+    "visitorNote": "⚠️ 北愛活動中心——團體租用經 Scouts NI 官方聯絡頁查詢"
   },
   {
     "id": "GB-SHOP-GLASGOW",
@@ -279,6 +294,77 @@
     "verificationSource": "https://www.glasgowscoutshop.com/",
     "facebook": "https://www.facebook.com/TheGlasgowScoutShop",
     "instagram": "glasgowscoutshop",
-    "socialVerificationSource": "https://www.glasgowscoutshop.com/"
+    "socialVerificationSource": "https://www.glasgowscoutshop.com/",
+    "openingHours": "週一至五 11:00–17:30；週六 10:00–16:00（週日休息；二手來源 2026-02 Yelp，出發前覆核）"
+  },
+  {
+    "id": "GB-CAMP-LOCHGOILHEAD",
+    "parentCountry": "GB",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇬🇧",
+    "category": "蘇格蘭 Scout Adventures 活動中心 (Activity Centre)",
+    "name": "Lochgoilhead 童軍活動中心",
+    "nameEn": "Scout Adventures Lochgoilhead",
+    "subregion": "蘇格蘭・Argyll / Loch Lomond & Trossachs",
+    "lat": 56.1646,
+    "lng": -4.9045,
+    "locationAccuracy": "Representative point — 取 Loch Goil 湖頭 Shelter Park 一帶，非精確建築座標",
+    "address": "Scout Adventures Lochgoilhead, Shelter Park, Lochgoilhead, Argyll PA24 8AQ, Scotland",
+    "phone": "+44 1301 703217",
+    "website": "https://www.scoutadventures.org.uk/centre/lochgoilhead",
+    "email": "",
+    "description": "Scout Adventures 官方頁列出 Lochgoilhead 位於 Loch Lomond and Trossachs National Park 內 Shelter Park，是 Scouts Scotland 三大全國活動中心之一，提供山野、森林與水上活動（帆船、獨木舟、Drascombe sailing 等），亦為 DofE 認可活動提供者；scouts.scot/outdoor-centres 確認蘇格蘭全國中心為 Fordell Firs、Lochgoilhead、Meggernie 三間。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official centre page verified 2026-08-07; confirm season/availability before travel",
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/lochgoilhead",
+    "bookingUrl": "https://www.scoutadventures.org.uk/centre/lochgoilhead",
+    "visitorNote": "✅ Scout Adventures 中心——學校/童軍/青年團體宿營（官方頁列明 youth groups）；海外團經官方查詢表"
+  },
+  {
+    "id": "GB-CAMP-MEGGERNIE",
+    "parentCountry": "GB",
+    "level": 3,
+    "type": "Campsite",
+    "flag": "🇬🇧",
+    "category": "蘇格蘭 Scout Adventures 高地營地 (Highland Camp)",
+    "name": "Meggernie 童軍營地",
+    "nameEn": "Scout Adventures Meggernie",
+    "subregion": "蘇格蘭・Perthshire / Glen Lyon",
+    "lat": 56.558,
+    "lng": -4.306,
+    "locationAccuracy": "Representative point — 取 Glen Lyon 的 Bridge of Balgie 一帶，非精確建築座標",
+    "address": "Scout Adventures Meggernie, Kerrowmore Farm, Bridge of Balgie, Glenlyon, Aberfeldy, Perthshire PH15 2PT, Scotland",
+    "phone": "+44 1887 866231",
+    "website": "https://www.scoutadventures.org.uk/centre/meggernie",
+    "email": "",
+    "description": "Scout Adventures 官方頁列出 Meggernie 位於高地 Perthshire 的 Glen Lyon 內 Kerrowmore Farm，是 Scouts Scotland 三大全國活動中心之一，主打傳統露營、bushcraft 與野外生存體驗，位置偏遠適合「數碼排毒」式宿營。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official centre page verified 2026-08-07; confirm season/availability before travel",
+    "verificationSource": "https://www.scoutadventures.org.uk/centre/meggernie",
+    "bookingUrl": "https://www.scoutadventures.org.uk/centre/meggernie",
+    "visitorNote": "✅ Scout Adventures 中心——學校/童軍/青年團體皆可預訂（高地野外定向）"
+  },
+  {
+    "id": "GB-COUNCIL-GROUP-FINDER",
+    "parentCountry": "GB",
+    "level": 3,
+    "type": "Council",
+    "flag": "🇬🇧",
+    "category": "全英童軍小組定位工具 (Official Group Finder)",
+    "name": "The Scouts 全英小組搜尋",
+    "nameEn": "The Scouts UK — Find your local Scout Group",
+    "subregion": "Nationwide (England/Wales/Scotland/NI)",
+    "lat": 52.5,
+    "lng": -1.9,
+    "locationAccuracy": "Representative point — 英格蘭中部置中示意點，僅作地圖標示，非實際地址",
+    "address": "Nationwide; national HQ: Gilwell Park, Chingford, London E4 7QW",
+    "phone": "+44 20 8433 7100",
+    "website": "https://www.scouts.org.uk/groups/",
+    "email": "",
+    "description": "The Scout Association 官方 Find your local Scout Group 頁：輸入郵政編碼即可搜尋全英超過 7,500 個 Scout Group（Squirrels/Beavers/Cubs/Scouts/Explorers/Network 各支部），可按星期幾篩選；香港旅團想安排英國本地單位探訪，可先用此工具找出目的地附近的小組，再按總會國際署程序正式接洽。",
+    "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+    "verificationStatus": "official finder page verified 2026-08-07",
+    "verificationSource": "https://www.scouts.org.uk/groups/"
   }
 ]

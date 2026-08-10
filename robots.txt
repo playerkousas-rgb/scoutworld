@@ -1,0 +1,5 @@
+# Scout World Explorer — https://scoutworld.vercel.app/
+User-agent: *
+Allow: /
+
+Sitemap: https://scoutworld.vercel.app/sitemap.xml
