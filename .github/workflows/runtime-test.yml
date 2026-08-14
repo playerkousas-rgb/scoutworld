@@ -1,0 +1,39 @@
+name: Scout World runtime test
+
+on:
+  push:
+    paths:
+      - 'index.html'
+      - 'data/**'
+      - 'tools_runtime_test.js'
+      - 'package.json'
+      - 'package-lock.json'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'data/**'
+      - 'tools_runtime_test.js'
+      - 'package.json'
+      - 'package-lock.json'
+
+jobs:
+  runtime:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Start local static server
+        run: |
+          python3 -m http.server 8080 > /tmp/scoutworld-server.log 2>&1 &
+          sleep 2
+
+      - name: Run runtime tests
+        run: npm run test:runtime
