@@ -1,0 +1,122 @@
+name: Monthly source link check
+
+on:
+  schedule:
+    # 每月 1 號，香港時間上午 11:00
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate static data
+        run: python3 tools_data_quality.py
+
+      - name: Check known source links
+        run: python3 tools_link_check.py
+
+      - name: Flag likely broken links
+        run: |
+          python3 - <<'PY'
+          import csv
+          import glob
+          import sys
+
+          bad = []
+
+          for path in glob.glob('LINK_CHECK_RESULTS_*.csv'):
+              with open(path, encoding='utf-8') as f:
+                  rows = csv.DictReader(f)
+                  bad += [
+                      row for row in rows
+                      if row.get('class') in {
+                          'BAD_NOT_FOUND',
+                          'BAD_STATUS',
+                          'ERROR'
+                      }
+                  ]
+
+          if bad:
+              print(f'Found {len(bad)} likely broken source links.')
+
+              for row in bad[:20]:
+                  print(row.get('class'), row.get('url'))
+
+              sys.exit(1)
+
+          print(
+              'No likely broken links. '
+              'Blocked/social links still require manual confirmation.'
+          )
+          PY
+
+      - name: Create GitHub issue for broken links
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import csv
+          import glob
+
+          bad = []
+
+          for path in glob.glob('LINK_CHECK_RESULTS_*.csv'):
+              with open(path, encoding='utf-8') as f:
+                  rows = csv.DictReader(f)
+                  bad += [
+                      row for row in rows
+                      if row.get('class') in {
+                          'BAD_NOT_FOUND',
+                          'BAD_STATUS',
+                          'ERROR'
+                      }
+                  ]
+
+          with open('/tmp/bad-links.md', 'w', encoding='utf-8') as f:
+              f.write('## Monthly source link check\n\n')
+              f.write(
+                  'GitHub Actions 發現以下來源需要人工確認：\n\n'
+              )
+
+              for row in bad:
+                  f.write(
+                      f"- **{row.get('class')}** "
+                      f"`{row.get('url')}`\n"
+                  )
+
+              f.write(
+                  '\n請確認網站是否搬遷、失效或需要更新；'
+                  '不要只因一次自動檢查失敗就直接刪除資料。\n'
+              )
+
+          print(f'Prepared {len(bad)} issue entries')
+          PY
+
+          if grep -qE '^-' /tmp/bad-links.md; then
+            gh issue create \
+              --title "[自動提醒] 來源連結需要覆核 — $(date -u +%Y-%m-%d)" \
+              --body-file /tmp/bad-links.md \
+              --label data-quality || true
+          else
+            echo "No issue needed."
+          fi
+
+      - name: Upload link check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scoutworld-link-check-${{ github.run_number }}
+          path: |
+            LINK_CHECK_REPORT_*.md
+            LINK_CHECK_RESULTS_*.csv
+          if-no-files-found: error
+          retention-days: 90
