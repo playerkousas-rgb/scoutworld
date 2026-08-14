@@ -16,8 +16,9 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent
-OUT = ROOT / "LINK_CHECK_REPORT_2026-08-10.md"
-CSVOUT = ROOT / "LINK_CHECK_RESULTS_2026-08-10.csv"
+STAMP = time.strftime("%Y-%m-%d")
+OUT = ROOT / f"LINK_CHECK_REPORT_{STAMP}.md"
+CSVOUT = ROOT / f"LINK_CHECK_RESULTS_{STAMP}.csv"
 SOCIAL_DOMAINS = {
     "www.facebook.com", "facebook.com", "m.facebook.com", "web.facebook.com",
     "www.instagram.com", "instagram.com",
@@ -105,7 +106,7 @@ def main():
     for r in results:
         counts[r["class"]] = counts.get(r["class"], 0) + 1
     lines = [
-        "# Scout World Link Check Report — 2026-08-10",
+        f"# Scout World Link Check Report — {STAMP}",
         "",
         "## Scope",
         "",

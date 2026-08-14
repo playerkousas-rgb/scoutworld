@@ -9,9 +9,10 @@ const ROOT = __dirname;
 const BASE = 'http://localhost:8080/';
 const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 
+let failedCount = 0;
 function runTest(label, test) {
   return test().then(() => { console.log('✅ ' + label); return true; })
-    .catch((e) => { console.log('❌ ' + label + ' — ' + e.message); return false; });
+    .catch((e) => { console.log('❌ ' + label + ' — ' + e.message); failedCount++; return false; });
 }
 const assert = (c, m) => { if (!c) throw new Error(m); };
 const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', reg, 'local', cc + '.json'), 'utf8'));
@@ -292,4 +293,8 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
   });
 
   console.log('\n===== 測試結束 =====');
+  if (failedCount > 0) {
+    console.log(`❌ ${failedCount} 個測試失敗`);
+    process.exitCode = 1;
+  }
 })();

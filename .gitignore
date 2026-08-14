@@ -1,0 +1,8 @@
+# 依賴及暫存（唔應該入 Git）
+node_modules/
+__pycache__/
+*.pyc
+
+# 本地連線檢查輸出（CI 用 artifact 保存）
+LINK_CHECK_REPORT_*.md.tmp
+issue_body.md
