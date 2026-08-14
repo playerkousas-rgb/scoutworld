@@ -1,0 +1,247 @@
+diff --git a/.github/workflows/data-quality.yml b/.github/workflows/data-quality.yml
+new file mode 100644
+index 0000000..1741112
+--- /dev/null
++++ b/.github/workflows/data-quality.yml
+@@ -0,0 +1,66 @@
++name: Data quality check
++
++on:
++  push:
++    branches: [main]
++    paths:
++      - 'data/**'
++      - 'index.html'
++      - 'sw.js'
++      - 'tools_data_quality.py'
++      - 'tools_search_index_build.py'
++      - '.github/workflows/data-quality.yml'
++  pull_request:
++    paths:
++      - 'data/**'
++      - 'index.html'
++      - 'sw.js'
++      - 'tools_data_quality.py'
++      - 'tools_search_index_build.py'
++      - '.github/workflows/data-quality.yml'
++  workflow_dispatch:
++
++permissions:
++  contents: read
++
++jobs:
++  data-quality:
++    name: 靜態資料品質檢查
++    runs-on: ubuntu-latest
++    timeout-minutes: 10
++    steps:
++      - name: Checkout
++        uses: actions/checkout@v4
++
++      - name: Set up Python
++        uses: actions/setup-python@v5
++        with:
++          python-version: '3.12'
++
++      - name: Set up Node.js
++        uses: actions/setup-node@v4
++        with:
++          node-version: '22'
++
++      - name: node --check（語法檢查）
++        run: |
++          node --check sw.js
++          node --check tools_runtime_test.js
++
++      - name: 資料品質檢查（tools_data_quality.py）
++        run: python3 tools_data_quality.py
++
++      - name: JSON 檔案格式驗證
++        run: |
++          python3 - <<'PY'
++          import glob, json, sys
++          bad = []
++          for f in glob.glob('data/**/*.json', recursive=True):
++              try:
++                  json.load(open(f, encoding='utf-8'))
++              except Exception as exc:
++                  bad.append(f'{f}: {exc}')
++          for b in bad:
++              print('ERROR', b)
++          sys.exit(1 if bad else 0)
++          PY
+diff --git a/.github/workflows/monthly-link-check.yml b/.github/workflows/monthly-link-check.yml
+new file mode 100644
+index 0000000..ac5e4a2
+--- /dev/null
++++ b/.github/workflows/monthly-link-check.yml
+@@ -0,0 +1,104 @@
++name: Monthly source link check
++
++on:
++  schedule:
++    # 每月 1 號 02:00 UTC（香港時間 10:00）
++    - cron: '0 2 1 * *'
++  workflow_dispatch:
++
++permissions:
++  contents: read
++  issues: write
++
++jobs:
++  link-check:
++    name: 來源網站連線檢查
++    runs-on: ubuntu-latest
++    timeout-minutes: 30
++    steps:
++      - name: Checkout
++        uses: actions/checkout@v4
++
++      - name: Set up Python
++        uses: actions/setup-python@v5
++        with:
++          python-version: '3.12'
++
++      - name: 執行連線檢查（tools_link_check.py）
++        run: python3 tools_link_check.py
++
++      - name: 上載報告 artifact
++        uses: actions/upload-artifact@v4
++        with:
++          name: link-check-report
++          path: |
++            LINK_CHECK_REPORT_*.md
++            LINK_CHECK_RESULTS_*.csv
++          retention-days: 90
++
++      - name: 分析結果並產生 Issue 內容
++        id: analyze
++        run: |
++          python3 - <<'PY'
++          import csv, glob, os
++
++          csv_files = sorted(glob.glob('LINK_CHECK_RESULTS_*.csv'))
++          rows = []
++          if csv_files:
++              with open(csv_files[-1], encoding='utf-8') as f:
++                  rows = list(csv.DictReader(f))
++
++          # 只當 404/410（BAD_NOT_FOUND）為「明顯死連」；
++          # BAD_STATUS / ERROR 列作參考，WARN_BLOCKED 需人手用瀏覽器覆核。
++          dead = [r for r in rows if r['class'] == 'BAD_NOT_FOUND']
++          suspect = [r for r in rows if r['class'] in ('BAD_STATUS', 'ERROR')]
++
++          out = os.environ['GITHUB_OUTPUT']
++          with open(out, 'a', encoding='utf-8') as fh:
++              fh.write(f"dead_count={len(dead)}\n")
++
++          if not dead:
++              print(f'無明顯死連（BAD_NOT_FOUND=0；BAD_STATUS/ERROR={len(suspect)} 需人手覆核，見 artifact）')
++              raise SystemExit(0)
++
++          lines = [
++              '每月來源網站連線檢查發現以下**明顯死連**（HTTP 404/410），請人手確認並修正資料：',
++              '',
++              '## 明顯死連（BAD_NOT_FOUND）',
++              '',
++          ]
++          for r in dead[:50]:
++              lines.append(f"- **{r['status']}** {r['url']}")
++              if r.get('refs'):
++                  lines.append(f"  - 引用位置：`{r['refs']}`")
++          if len(dead) > 50:
++              lines.append(f'- ...另有 {len(dead) - 50} 條，見 workflow artifact CSV')
++          if suspect:
++              lines += ['', f'## 其他可疑連結（BAD_STATUS / ERROR）：{len(suspect)} 條', '',
++                        '非 404/410 的錯誤（可能係暫時性網絡問題），詳情見 workflow artifact，請人手覆核。']
++          lines += ['', '---',
++                    f"完整報告：workflow run artifact `link-check-report`（run: {os.environ.get('GITHUB_SERVER_URL','')}/{os.environ.get('GITHUB_REPOSITORY','')}/actions/runs/{os.environ.get('GITHUB_RUN_ID','')}）",
++                    '',
++                    '> 修正指引：見 `DATA_POLICY.md` — 死連應改用官方新網址；搵唔到替代來源就移除連結並更新 `sourceStatus`／`verificationStatus`。']
++
++          with open('issue_body.md', 'w', encoding='utf-8') as fh:
++              fh.write('\n'.join(lines))
++          print(f'發現 {len(dead)} 條明顯死連，將建立/更新 Issue')
++          PY
++
++      - name: 建立或更新 GitHub Issue（發現明顯死連時）
++        if: steps.analyze.outputs.dead_count != '0'
++        env:
++          GH_TOKEN: ${{ github.token }}
++        run: |
++          TITLE="🔗 每月連線檢查：發現 ${{ steps.analyze.outputs.dead_count }} 條明顯死連（$(date -u +%Y-%m)）"
++          # 確保 label 存在（已存在會失敗，忽略）
++          gh label create link-check --description "自動連線檢查發現的問題" --color d73a4a 2>/dev/null || true
++          # 如已有同月 open issue 就補留言，否則開新 issue
++          EXISTING=$(gh issue list --label link-check --state open --search "$(date -u +%Y-%m) in:title" --json number --jq '.[0].number // empty')
++          if [ -n "$EXISTING" ]; then
++            gh issue comment "$EXISTING" --body-file issue_body.md
++            echo "已更新 Issue #$EXISTING"
++          else
++            gh issue create --title "$TITLE" --body-file issue_body.md --label link-check
++          fi
+diff --git a/.github/workflows/runtime-test.yml b/.github/workflows/runtime-test.yml
+new file mode 100644
+index 0000000..78e089a
+--- /dev/null
++++ b/.github/workflows/runtime-test.yml
+@@ -0,0 +1,59 @@
++name: jsdom runtime test
++
++on:
++  push:
++    branches: [main]
++    paths:
++      - 'data/**'
++      - 'index.html'
++      - 'sw.js'
++      - 'package.json'
++      - 'package-lock.json'
++      - 'tools_runtime_test.js'
++      - '.github/ISSUE_TEMPLATE/**'
++      - '.github/workflows/runtime-test.yml'
++  pull_request:
++    paths:
++      - 'data/**'
++      - 'index.html'
++      - 'sw.js'
++      - 'package.json'
++      - 'package-lock.json'
++      - 'tools_runtime_test.js'
++      - '.github/ISSUE_TEMPLATE/**'
++      - '.github/workflows/runtime-test.yml'
++  workflow_dispatch:
++
++permissions:
++  contents: read
++
++jobs:
++  runtime-test:
++    name: jsdom runtime tests（waves 1–28）
++    runs-on: ubuntu-latest
++    timeout-minutes: 15
++    steps:
++      - name: Checkout
++        uses: actions/checkout@v4
++
++      - name: Set up Node.js
++        uses: actions/setup-node@v4
++        with:
++          node-version: '22'
++          cache: npm
++
++      - name: npm ci
++        run: npm ci
++
++      - name: 啟動本地靜態伺服器（localhost:8080）
++        run: |
++          python3 -m http.server 8080 &
++          for i in $(seq 1 20); do
++            if curl -sf http://localhost:8080/index.html > /dev/null; then
++              echo "Server ready"; break
++            fi
++            sleep 0.5
++          done
++
++      - name: npm run test:runtime
++        run: npm run test:runtime
