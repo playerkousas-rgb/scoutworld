@@ -1,0 +1,23 @@
+name: Scout World data quality
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'tools_data_quality.py'
+      - 'tools_search_index_build.py'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'tools_data_quality.py'
+      - 'tools_search_index_build.py'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate static data
+        run: python3 tools_data_quality.py
