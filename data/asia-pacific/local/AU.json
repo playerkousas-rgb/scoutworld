@@ -89,7 +89,8 @@
     "fee": "日票 A$22（4人票 A$72，5歲以下免費）",
     "bookingUrl": "https://book.venue.life/woodhouse/book/day-adventure-pass",
     "openingHours": "每日 9:00–17:00（全年無休）",
-    "visitorNote": "✅ 公眾每日開放；家庭/學校/企業團體均可入場"
+    "visitorNote": "✅ 公眾每日開放；家庭/學校/企業團體均可入場",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "AU-CAMP-GILWELL-VIC",
@@ -111,7 +112,8 @@
     "description": "Scouts Victoria 主要營地 Gilwell Park 位於 Dandenong Ranges 東面 Gembrook 附近，距墨爾本 CBD 約 60 分鐘車程（Pakenham 以北 23 公里）。官方營地頁列明多年來曾舉辦數以百計活動，包括童軍營、學校戶外教育課程、企業團隊活動及會議；租場由 Scouts Victoria 旗下 Scout Adventures（scoutadventures.com.au）負責接洽。官方另公開 Gilwell Park Master Plan 文件。",
     "verificationStatus": "official Scouts Victoria Gilwell Park page (tier: official) fetched 2026-08-10 — 位置、租用對象及營運方 Scout Adventures 已實抓核實；頁面未列公開收費表，查詢經官方營運方",
     "verificationSource": "https://scoutsvictoria.com.au/about-us/campsites/gilwell-park/",
-    "visitorNote": "✅ 對外租用：童軍營/學校/企業/會議（官方列明）"
+    "visitorNote": "✅ 對外租用：童軍營/學校/企業/會議（官方列明）",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "AU-CAMP-CATARACT",
@@ -134,7 +136,8 @@
     "verificationStatus": "official Scouts NSW Cataract pages (tier: official) fetched 2026-08-10 — 「open to all groups」聲明及童軍營位/設施已實抓核實；收費及開放時間未於公開頁面列明，預訂經官方查詢頁",
     "verificationSource": "https://cataract.nsw.scouts.com.au/",
     "bookingUrl": "https://cataract.nsw.scouts.com.au/cataract/scouts/",
-    "visitorNote": "✅ 官方列明 open to all groups（童軍/學校/社區/家庭/企業）"
+    "visitorNote": "✅ 官方列明 open to all groups（童軍/學校/社區/家庭/企業）",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "AU-STATE-NSW",
@@ -315,7 +318,8 @@
     "verificationSource": "https://camping.scoutsqld.com.au/bp-park-booking-public/",
     "fee": "公眾須 AU$20 年籍",
     "bookingUrl": "https://camping.scoutsqld.com.au/bp-park-booking-public/",
-    "visitorNote": "✅ 公眾可用——但須先登記 AU$20 Supporter 年籍"
+    "visitorNote": "✅ 公眾可用——但須先登記 AU$20 Supporter 年籍",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "AU-CAMP-COTTERMOUTH-ACT",
@@ -339,7 +343,8 @@
     "verificationStatus": "official camp website (tier: official) fetched 2026-08-10 — footer lists address and phone; capacity details per official homepage; reconfirm booking terms before travel",
     "verificationSource": "https://campcottermouth.com.au/",
     "bookingUrl": "https://campcottermouth.com.au/contact/",
-    "visitorNote": "⚠️ 外團准入未於官網列明，出發前經總會國際署／連盟確認"
+    "visitorNote": "⚠️ 外團准入未於官網列明，出發前經總會國際署／連盟確認",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "AU-CAMP-THELEA-TAS",
@@ -363,6 +368,7 @@
     "verificationStatus": "official pages (tier: official) fetched 2026-08-10 — summer-camping page (season, rates, phone) and about page (1949 purchase, 137.3 ha); reconfirm season arrangements before travel",
     "verificationSource": "https://www.thelea.com.au/summer-camping.html",
     "fee": "夏季露營 $15/成人起",
-    "visitorNote": "✅ 夏季開放公眾露營（唔設預訂，只收信用卡）；秋季起重開 2026-12"
+    "visitorNote": "✅ 夏季開放公眾露營（唔設預訂，只收信用卡）；秋季起重開 2026-12",
+    "lastReviewed": "2026-08-10"
   }
 ]

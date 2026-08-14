@@ -74,6 +74,12 @@ Not acceptable as the only source:
 - random travel listing with no official connection
 - unverified personal blogs
 
+## 自動連線檢查的界線
+
+GitHub Actions 每月檢查已知 HTTP(S) 來源，會標記明顯 404、410、HTTP、SSL 或 DNS 問題。這只代表網址在檢查時能否回應，**不代表網站內容、開放時間、收費或預約安排仍然正確**。被防爬蟲擋住的網站會保留為需要手動確認，不會武斷移除。
+
+APP 顯示來源網站可連線，只是一項技術狀態；使用者出發前仍應打開原始來源，確認最新安排。
+
 ## Email policy
 
 Do not publish overseas official email addresses.

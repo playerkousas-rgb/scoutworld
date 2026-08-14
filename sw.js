@@ -170,7 +170,11 @@ self.addEventListener('fetch', (event) => {
   if (sameOrigin) {
     // 資料 JSON：stale-while-revalidate
     if (url.pathname.startsWith('/data/') && url.pathname.endsWith('.json')) {
-      event.respondWith(staleWhileRevalidate(request, DATA_CACHE));
+      event.respondWith((async () => {
+        const offline = await caches.match(request);
+        if (!navigator.onLine && offline) return offline;
+        return staleWhileRevalidate(request, DATA_CACHE);
+      })());
       return;
     }
     // 頁面導航：network-first，離線用 shell

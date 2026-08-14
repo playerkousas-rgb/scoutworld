@@ -19,6 +19,8 @@
     "verificationStatus": "⚠️ 官網 scoutingaruba.com 2026-08-10 回應 HTTP 500；出行前覆核",
     "verificationSource": "https://scoutingaruba.com",
     "facebook": "https://www.facebook.com/ScoutingAruba/",
-    "socialVerificationSource": "https://www.facebook.com/ScoutingAruba/"
+    "socialVerificationSource": "https://www.facebook.com/ScoutingAruba/",
+    "lastReviewed": "2026-08-10",
+    "locationAccuracy": "代表點：原始公開資料未提供精確地址；出發前請以官方來源確認位置"
   }
 ]

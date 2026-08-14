@@ -319,7 +319,8 @@
     "verificationStatus": "official centre page verified 2026-08-07; confirm season/availability before travel",
     "verificationSource": "https://www.scoutadventures.org.uk/centre/lochgoilhead",
     "bookingUrl": "https://www.scoutadventures.org.uk/centre/lochgoilhead",
-    "visitorNote": "✅ Scout Adventures 中心——學校/童軍/青年團體宿營（官方頁列明 youth groups）；海外團經官方查詢表"
+    "visitorNote": "✅ Scout Adventures 中心——學校/童軍/青年團體宿營（官方頁列明 youth groups）；海外團經官方查詢表",
+    "lastReviewed": "2026-08-07"
   },
   {
     "id": "GB-CAMP-MEGGERNIE",
@@ -343,7 +344,8 @@
     "verificationStatus": "official centre page verified 2026-08-07; confirm season/availability before travel",
     "verificationSource": "https://www.scoutadventures.org.uk/centre/meggernie",
     "bookingUrl": "https://www.scoutadventures.org.uk/centre/meggernie",
-    "visitorNote": "✅ Scout Adventures 中心——學校/童軍/青年團體皆可預訂（高地野外定向）"
+    "visitorNote": "✅ Scout Adventures 中心——學校/童軍/青年團體皆可預訂（高地野外定向）",
+    "lastReviewed": "2026-08-07"
   },
   {
     "id": "GB-COUNCIL-GROUP-FINDER",
@@ -365,6 +367,7 @@
     "description": "The Scout Association 官方 Find your local Scout Group 頁：輸入郵政編碼即可搜尋全英超過 7,500 個 Scout Group（Squirrels/Beavers/Cubs/Scouts/Explorers/Network 各支部），可按星期幾篩選；香港旅團想安排英國本地單位探訪，可先用此工具找出目的地附近的小組，再按總會國際署程序正式接洽。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "official finder page verified 2026-08-07",
-    "verificationSource": "https://www.scouts.org.uk/groups/"
+    "verificationSource": "https://www.scouts.org.uk/groups/",
+    "lastReviewed": "2026-08-07"
   }
 ]
