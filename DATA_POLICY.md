@@ -188,7 +188,8 @@ grep -RInE "wikipedia|wikiwand|scoutwiki|維基" data || true
 
 1. **verificationSource 必須係單一 URL**（工具 link-checker 同 UI link target 都按單連結處理）；次要來源寫入 `verificationStatus` 文字並標明等級（official／official social／secondary／tertiary）。
 2. **域名安全覆核**：官方連結如確認被騎劫（redirect 賭博／注入 spam），**立即移除 website 連結**＋`verificationStatus` 加 ⚠️ 警告同「資料來源：WOSM 官方名錄」；純粹連線失敗（HTTP 5xx / timeout）則保留連結＋警告。已知案例：kenyascouts.org、scoutismecongolais.org、aeascout.org（2026-08）。
-   - 2026-08-10 補充：**`verificationSource` 都啱用同一規則**——drawer 會將佢 render 做可撳連結，所以凡屬騎劫域名，verificationSource 一併清空，原 URL 改以純文字記錄於 verificationStatus（去 https:// 令佢唔可撳）。kenyascouts.org 案例已於第 28 波執行（KE 本地 3 條＋SHOPPING 1 條）。
+   - 2026-08-10 補充：**`verificationSource` 都適用同一規則**——drawer 會將其 render 成可點擊連結，所以凡屬騎劫域名，verificationSource 必須移除或換成另一個真正支持該條目的安全可靠來源；原 URL 只可用不含 `http://`／`https://` 的純文字記錄於 verificationStatus。
+   - 2026-08-14 補充：規則適用於**所有可存放 URL 的欄位**，包括 `website`、`verificationSource`、`socialVerificationSource`、`bookingUrl`、`wosmSource`、`logoUrl` 及社交連結。`tools_data_quality.py` 會拒絕任何仍指向已知被騎劫網域的 active URL。已清理案例包括 kenyascouts.org、scoutismecongolais.org 及 aeascout.org。
 3. **營地結構化欄位（2026-08-10 起）**：`fee`（短字串，≤20 字，例 `¥100/人/日`）同 `bookingUrl`（單一官方預訂／收費頁 URL）係選填欄位，**只可以由已核實官方來源提取**（例如官方頁已列明嘅收費表／預訂專站）。查唔到就留空，絕對唔可以估。寧願得 16 個真實收費，唔好 100 個虛構收費。UI 會自動顯示 💰 收費 chip 同 📅 預訂連結。
 3. **新國家加入 L2 前**，必須先喺 index.html `countryRegionMap` 入面登記代碼，否則 L3 fetch 會 404（已設 jsdom regression test）。
 

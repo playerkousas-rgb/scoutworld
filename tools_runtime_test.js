@@ -9,9 +9,14 @@ const ROOT = __dirname;
 const BASE = 'http://localhost:8080/';
 const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 
+let failureCount = 0;
 function runTest(label, test) {
   return test().then(() => { console.log('✅ ' + label); return true; })
-    .catch((e) => { console.log('❌ ' + label + ' — ' + e.message); return false; });
+    .catch((e) => {
+      failureCount++;
+      console.log('❌ ' + label + ' — ' + e.message);
+      return false;
+    });
 }
 const assert = (c, m) => { if (!c) throw new Error(m); };
 const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', reg, 'local', cc + '.json'), 'utf8'));
@@ -279,7 +284,8 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
         }
       }
     }
-    assert(bk === 47 && vn === 58 && fee === 10 && oh === 15 && c0 === 180, `totals bk${bk} vn${vn} fee${fee} oh${oh} c0${c0}`);
+    // KE Shop hours were removed after its source domain was confirmed hijacked.
+    assert(bk === 47 && vn === 58 && fee === 10 && oh === 14 && c0 === 180, `totals bk${bk} vn${vn} fee${fee} oh${oh} c0${c0}`);
     // 動態：BE 對外開放 → De Kluis＋Merkenveld 出列
     await jump('BE');
     doc.querySelector('.l3-type-btn[data-type="access"]').click();
@@ -291,5 +297,78 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     doc.querySelector('.l3-type-btn[data-type="all"]').click();
   });
 
-  console.log('\n===== 測試結束 =====');
+  await runTest('PR #2：目的地離線下載、查看狀態及清除', async () => {
+    const cacheEntries = new Map();
+    const destinationCache = {
+      put: async (request, response) => cacheEntries.set(request.url, await response.text()),
+      delete: async request => cacheEntries.delete(request.url)
+    };
+    w.Request = global.Request;
+    w.Response = global.Response;
+    w.caches = {
+      open: async name => {
+        assert(name === 'scoutworld-destinations-v1', 'wrong destination cache');
+        return destinationCache;
+      },
+      delete: async name => {
+        assert(name === 'scoutworld-destinations-v1', 'wrong cache clear target');
+        cacheEntries.clear();
+        return true;
+      }
+    };
+    await w.eval('downloadDestinationData()');
+    const saved = JSON.parse(w.localStorage.getItem('sw-offline-destinations') || '{}');
+    assert(saved.BE && saved.BE.count === 15, 'BE offline metadata missing');
+    assert(cacheEntries.size === 1, 'destination response not cached');
+    assert($('#download-destination-btn').textContent.includes('已下載'), 'download state not shown');
+    assert(!$('#clear-destination-btn').classList.contains('hidden'), 'single clear action hidden');
+    assert(/caches\.match\(request\)/.test(fs.readFileSync(path.join(ROOT, 'sw.js'), 'utf8')), 'service worker cannot read destination cache');
+    await w.eval('clearDestinationData()');
+    const cleared = JSON.parse(w.localStorage.getItem('sw-offline-destinations') || '{}');
+    assert(!cleared.BE && cacheEntries.size === 0, 'single destination was not cleared');
+  });
+
+  await runTest('PR #2：收藏分享、分類排序及列印／PDF 匯出', async () => {
+    assert($('#favorites-share-btn') && $('#favorites-export-btn'), 'favorite actions missing');
+    assert($('#favorites-list').querySelector('.fav-move-btn'), 'favorite ordering controls missing');
+    assert(/JP · /.test($('#favorites-list').textContent), 'favorite category heading missing');
+    let sharedUrl = '';
+    Object.defineProperty(w.navigator, 'clipboard', {
+      configurable: true,
+      value: { writeText: async value => { sharedUrl = value; } }
+    });
+    await w.eval('shareFavorites()');
+    assert(sharedUrl.includes('#favorites='), 'favorite share URL missing');
+    let printable = '';
+    w.open = () => ({
+      document: {
+        write: value => { printable += value; },
+        close: () => {}
+      }
+    });
+    w.eval('exportFavorites()');
+    assert(/列印／另存 PDF/.test(printable), 'print/PDF action missing');
+    assert(/Google Maps/.test(printable), 'print export map link missing');
+  });
+
+  await runTest('PR #2：地點入口、信心／來源、覆核及安全提示', async () => {
+    assert(/google\.com\/maps\/search\/\?api=1&query=/.test(html), 'Google Maps place link missing');
+    assert(/資料信心/.test(html) && /最近覆核/.test(html), 'confidence/review UI missing');
+    assert(/sourceTypeLabel/.test(html) && /來源已移除/.test(html), 'source type or hijack warning UI missing');
+    [
+      'ANNUAL_REVIEW_SUMMARY_2026-08-14.md',
+      'REVIEW_ASIA_PACIFIC_2026-08-14.md',
+      'REVIEW_EUROPE_2026-08-14.md',
+      'REVIEW_AFRICA_2026-08-14.md',
+      'REVIEW_INTERAMERICA_2026-08-14.md',
+      'REVIEW_ARAB_WORLD_2026-08-14.md',
+      'CAMP_COVERAGE_REPORT_2026-08-13.md',
+      'HQ_COVERAGE_REPORT_2026-08-13.md',
+      'OTHER_PLACES_COVERAGE_REPORT_2026-08-13.md',
+      'SHOP_COVERAGE_REPORT_2026-08-14.md'
+    ].forEach(file => assert(fs.existsSync(path.join(ROOT, file)), 'missing report ' + file));
+  });
+
+  console.log(`\n===== 測試結束：${failureCount ? `${failureCount} 項失敗` : '全部通過'} =====`);
+  if (failureCount) process.exitCode = 1;
 })();

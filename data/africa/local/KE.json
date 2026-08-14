@@ -18,10 +18,9 @@
     "description": "肯亞童軍協會（The Kenya Scouts Association），1910年成立，WOSM成員。總部位於奈洛比。會員約350,000人，是非洲大型童軍組織之一。 ⚠️ 2026-08-08 覆核：協會網域首頁暫時出現與童軍無關嘅博彩廣告（疑網站被渠侵），本條連結僅作紀錄，重要資訊以世界童軍組織（scout.org）名錄為準。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "official domain currently shows hijacked/spam content (2026-08-08 初報；2026-08-10 複核：首頁仍注入 Joo Casino／Kansino 賭博文章)；⚠️ 切勿經此域名交易；verify via WOSM directory before travel; ⚠️ 2026-08-10 移除 kenyascouts.org 連結：域名已確認被騎劫（跳轉垃圾內容），資料以 WOSM 官方名錄及其他來源為準，出行前覆核；原 verificationSource 連結（kenyascouts.org…）按騎劫政策拔除——詳細來源見 DATA_POLICY 規則4 記錄（2026-08-10）",
-    "verificationSource": "",
+    "verificationSource": "https://www.scout.org/where-we-work/regions/africa/countries",
     "facebook": "https://www.facebook.com/TheKenyaScoutsAssociation",
     "youtube": "https://www.youtube.com/@KenyaScouts",
-    "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/",
     "lastReviewed": "2026-08-10",
     "sourceStatus": "removed-hijacked-domain"
   },
@@ -43,12 +42,10 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "Kenya Scouts shop network; main BP House Nairobi verified; branches nationwide; confirm hours; ⚠️ 2026-08-10 移除 shop.kenyascouts.org 連結：kenyascouts.org 域名已確認被騎劫（跳轉垃圾內容），用品社網購子站一併停用連結，出行前以官方社交或其他渠道覆核；原 verificationSource 連結（kenyascouts.org…）按騎劫政策拔除——詳細來源見 DATA_POLICY 規則4 記錄（2026-08-10）",
     "verificationSource": "",
-    "description": "肯雅童軍用品社網絡，主店位於奈羅比 Baden Powell House（Parliament Road，國會大道路旁），另設 Mombasa、Nakuru、Kisumu、Kakamega、Nyeri、Embu、Rowallan Camp 等多間分店。售賣全套官方童軍制服、徽章、書籍。⚠️ 主店營業時間：週一至五 08:00-17:00、週六 08:00-12:00。到訪前請確認。",
+    "description": "肯雅童軍用品社網絡，主店位於奈羅比 Baden Powell House（Parliament Road），另有其他地區分店紀錄，售賣童軍制服、徽章及書籍。⚠️ 原官方網域已被騎劫；現時未有可靠公開來源可確認分店名單及營業時間，到訪或購買前請經安全官方渠道覆核。",
     "facebook": "https://www.facebook.com/TheKenyaScoutsAssociation",
     "instagram": "kenyascouts",
     "youtube": "https://www.youtube.com/@KenyaScouts",
-    "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/",
-    "openingHours": "週一至五 08:00–17:00；週六 08:00–12:00",
     "lastReviewed": "2026-08-10",
     "sourceStatus": "removed-hijacked-domain"
   },
@@ -74,7 +71,6 @@
     "facebook": "https://www.facebook.com/TheKenyaScoutsAssociation",
     "instagram": "kenyascouts",
     "youtube": "https://www.youtube.com/@KenyaScouts",
-    "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/",
     "lastReviewed": "2026-08-10",
     "sourceStatus": "removed-hijacked-domain"
   },

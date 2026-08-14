@@ -1,0 +1,5 @@
+node_modules/
+__pycache__/
+*.py[cod]
+LINK_CHECK_REPORT_*.md
+LINK_CHECK_RESULTS_*.csv

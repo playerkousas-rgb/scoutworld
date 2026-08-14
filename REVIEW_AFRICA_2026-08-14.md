@@ -12,7 +12,7 @@
 | L3/L4 地點 | 55 |
 | 有 website | 21 |
 | 有 address | 55 |
-| 有 verificationSource | 52 |
+| 有 verificationSource | 53 |
 | 有 lastReviewed | 13 |
 | 有 visitorNote | 0 |
 | 有 bookingUrl | 0 |
@@ -21,8 +21,9 @@
 
 - 沒有發現資料結構錯誤。
 - 所有條目都有地址；大部分資料屬國家總部及聯絡入口。
-- 3 個沒有 `verificationSource` 的條目屬肯亞資料，原來源網域曾被騎劫，已用 `removed-hijacked-domain` 安全狀態標記。
-- 肯亞 Shop、總部及 Rowallan Camp 不重新加入被騎劫網域，改由 WOSM／其他可靠渠道作出發前確認。
+- 2 個沒有 `verificationSource` 的條目屬肯亞 Shop 及 Rowallan Camp；原來源網域曾被騎劫，已用 `removed-hijacked-domain` 安全狀態標記。
+- 肯亞總部改用 WOSM 非洲區名錄作安全來源；Shop 及 Rowallan Camp 在找到足以支持個別地點的可靠來源前維持 warning。
+- 安哥拉及剛果共和國的被騎劫網域亦已從所有可點擊 URL 欄位移除，改保留 WOSM 來源及安全警告。
 - 非洲資料目前沒有 `visitorNote` 或 `bookingUrl`；不能因此推算營地不開放或不需預約。
 - 已有覆核日期的 13 個條目保留實際日期，其餘不以資料庫整理日期代替。
 

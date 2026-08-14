@@ -15,13 +15,14 @@
     "email": "",
     "wosmSource": "https://www.scout.org/where-we-work/regions/africa/countries",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
-    "verificationStatus": "L2 WOSM official member organization entry",
-    "website": "https://www.aeascout.org",
+    "verificationStatus": "L2 WOSM official member organization entry; ⚠️ 2026-08-10：aeascout.org 已確認被騎劫並跳轉賭博網站，危險連結已移除；資料以 WOSM 非洲區名錄及官方社交渠道為準",
     "facebook": "https://www.facebook.com/AssociacaodeescuteirosdeAngolaAEA/",
     "instagram": "associacaodeescuteirosdeangola",
     "socialVerificationSource": "https://www.facebook.com/AssociacaodeescuteirosdeAngolaAEA/",
     "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/5677/AEA%20logo.png?itok=zLY7NfLk",
-    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries"
+    "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries",
+    "sourceStatus": "removed-hijacked-domain",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "BF",
@@ -159,7 +160,8 @@
     "verificationStatus": "L2 WOSM official member organization entry; ⚠️ 2026-08-10：WOSM名錄所示官網域名被騎劫（redirect賭博網），link已移除；1926起源年份源自 scoutwiki（第三手）；會員數未公佈",
     "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/9550/SCOUTISME%20CONGOLAIS.jpeg?itok=1ZGqKtK6",
     "logoSource": "https://www.scout.org/where-we-work/regions/africa/countries",
-    "lastReviewed": "2026-08-10"
+    "lastReviewed": "2026-08-10",
+    "sourceStatus": "removed-hijacked-domain"
   },
   {
     "id": "CI",
@@ -390,9 +392,9 @@
     "verificationStatus": "L2 WOSM official member organization entry; ⚠️ 2026-08-10 移除 kenyascouts.org 連結：域名已確認被騎劫（跳轉垃圾內容），資料以 WOSM 官方名錄及其他來源為準，出行前覆核",
     "facebook": "https://www.facebook.com/TheKenyaScoutsAssociation",
     "youtube": "https://www.youtube.com/@KenyaScouts",
-    "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/",
     "logoUrl": "",
-    "lastReviewed": "2026-08-10"
+    "lastReviewed": "2026-08-10",
+    "sourceStatus": "removed-hijacked-domain"
   },
   {
     "id": "KM",
