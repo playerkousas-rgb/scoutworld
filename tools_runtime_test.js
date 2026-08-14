@@ -1,9 +1,9 @@
 // Scout World Explorer — jsdom runtime tests（整合版，waves 1–28）
-// 用法：先喺 localhost:8080 serve 個 repo（python3 -m http.server 8080），jsdom 裝喺 /tmp/node_modules
-// 注意：jsdom 係開發工具，唔入 git—此檔只係測試源碼。
+// 用法：先喺 localhost:8080 serve 個 repo（python3 -m http.server 8080），再 npm ci
+// jsdom 係開發工具，裝喺本 repo 的 devDependencies。
 const fs = require('fs');
 const path = require('path');
-const { JSDOM } = require(path.join('/tmp', 'node_modules', 'jsdom'));
+const { JSDOM } = require('jsdom');
 
 const ROOT = __dirname;
 const BASE = 'http://localhost:8080/';

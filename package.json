@@ -1,0 +1,10 @@
+{
+  "name": "scoutworld",
+  "private": true,
+  "scripts": {
+    "test:runtime": "node tools_runtime_test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.3"
+  }
+}

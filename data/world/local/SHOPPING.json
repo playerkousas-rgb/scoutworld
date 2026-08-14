@@ -24,7 +24,9 @@
     "verificationStatus": "derived from existing source-backed Scout Shop entry; online/shop info directory; verify purchase and shipping before ordering; ⚠️ 2026-08-10 移除 kenyascouts.org 連結：域名已確認被騎劫（跳轉垃圾內容），資料以 WOSM 官方名錄及其他來源為準，出行前覆核；原 verificationSource 連結（kenyascouts.org…）按騎劫政策拔除——詳細來源見 DATA_POLICY 規則4 記錄（2026-08-10）",
     "verificationSource": "",
     "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/",
-    "locationAccuracy": "Shop directory entry; map marker follows source entry and may be representative"
+    "locationAccuracy": "Shop directory entry; map marker follows source entry and may be representative",
+    "lastReviewed": "2026-08-10",
+    "sourceStatus": "removed-hijacked-domain"
   },
   {
     "id": "SHOP-ZA-SHOP-GAUTENG",

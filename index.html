@@ -373,6 +373,7 @@
           <button data-cc="SG" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達新加坡童軍">🇸🇬 新加坡</button>
           <button data-cc="TH" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達泰國童軍">🇹🇭 泰國</button>
           <button data-cc="AU" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達澳洲童軍">🇦🇺 澳洲</button>
+          <button id="nearby-scout-btn" class="flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-black bg-emerald-500/15 text-emerald-300 border border-emerald-400/30 hover:bg-emerald-500/25 transition-all focus:outline-none" title="以地圖目前位置搜尋附近童軍營地、Scout Shop、總部（適合出發前規劃）">📍 地圖附近地點</button>
           <button data-cc="GB" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達英國童軍（基維爾 Gilwell）">🇬🇧 英國</button>
           <button data-cc="CH" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達瑞士童軍（KISC 國際童軍中心）">🇨🇭 瑞士</button>
         </div>
@@ -385,6 +386,7 @@
           <button id="favorites-toggle-btn" class="normal-case tracking-normal flex items-center gap-1 text-[10px] font-black text-amber-300 bg-amber-400/10 hover:bg-amber-400/25 border border-amber-400/30 px-2 py-0.5 rounded-full transition-all focus:outline-none" title="睇返你收藏咗嘅營地/用品社/單位（儲存喺呢部機，離線都睇到）" aria-label="打開或收埋我嘅收藏清單">
             <i class="fa-solid fa-star"></i> 收藏 <span id="favorites-count" class="bg-amber-400 text-slate-950 rounded-full px-1.5 text-[9px]">0</span>
           </button>
+          <button id="offline-manage-btn" class="normal-case tracking-normal text-[10px] font-black text-emerald-300 bg-emerald-400/10 hover:bg-emerald-400/25 border border-emerald-400/30 px-2 py-0.5 rounded-full transition-all focus:outline-none" title="管理此瀏覽器已下載嘅目的地資料">離線資料</button>
           <span id="loading-indicator" class="text-amber-400 flex items-center gap-1">
             <i class="fa-solid fa-circle-notch animate-spin"></i> 載入中...
           </span>
@@ -395,7 +397,7 @@
       <div id="favorites-panel" class="hidden flex-shrink-0 max-h-56 overflow-y-auto bg-[#010c29] border-b border-amber-400/25 p-2 pb-3" aria-label="我嘅收藏清單">
         <div class="flex items-center justify-between px-1 pb-1.5">
           <span class="text-[10px] font-black text-amber-300 uppercase tracking-wider flex items-center gap-1"><i class="fa-solid fa-star"></i> 我嘅收藏 (<span id="favorites-panel-count">0</span>) · 離線儲存於此機</span>
-          <button id="favorites-clear-btn" class="text-[9px] font-bold text-slate-500 hover:text-red-300 transition-colors focus:outline-none" title="一鍵清空全部收藏">清空</button>
+          <div class="flex items-center gap-2"><button id="favorites-export-btn" class="text-[9px] font-bold text-sky-300 hover:text-sky-200 transition-colors focus:outline-none" title="開啟可列印收藏清單">匯出</button><button id="favorites-share-btn" class="text-[9px] font-bold text-emerald-300 hover:text-emerald-200 transition-colors focus:outline-none" title="複製收藏清單連結俾隊友">分享</button><button id="favorites-clear-btn" class="text-[9px] font-bold text-slate-500 hover:text-red-300 transition-colors focus:outline-none" title="一鍵清空全部收藏">清空</button></div>
         </div>
         <div id="favorites-list" class="space-y-1"></div>
       </div>
@@ -520,9 +522,12 @@
         
         <!-- LEVEL 3 & 4 (LOCAL) DIRECTORY SECTION (DYNAMIC) -->
         <div id="l3-section" class="hidden bg-[#051847] border border-white/5 rounded-xl p-4 space-y-3">
-          <h4 class="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
-            <i class="fa-solid fa-tree-city text-amber-400"></i> 🗺️ 地方分支、營地與區會目錄
-          </h4>
+          <div class="flex items-center justify-between gap-2">
+            <h4 class="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+              <i class="fa-solid fa-tree-city text-amber-400"></i> 🗺️ 地方分支、營地與區會目錄
+            </h4>
+            <span class="flex items-center gap-1"><button id="download-destination-btn" class="flex-shrink-0 text-[9px] font-black text-emerald-300 border border-emerald-400/30 rounded px-2 py-1 hover:bg-emerald-500/15" title="將此目的地資料儲存到瀏覽器，無網絡時仍可查看">⬇️ 離線下載</button><button id="clear-destination-btn" class="hidden flex-shrink-0 text-[9px] font-bold text-red-300 border border-red-400/30 rounded px-2 py-1 hover:bg-red-500/15" title="只清除這個目的地在此瀏覽器的離線資料">清除</button></span>
+          </div>
           
           <!-- L3/L4 Filter Pills -->
           <div class="flex gap-1 bg-[#010c29] p-1 rounded-lg border border-white/5 shadow-inner" id="l3-level-pills">
@@ -571,7 +576,7 @@
         </div>
         
         <!-- Stats Badges -->
-        <div id="drawer-stats-row" class="grid grid-cols-2 gap-3">
+        <div id="drawer-stats-row" class="grid grid-cols-3 gap-2">
           <div class="bg-emerald-50/10 border border-emerald-900/30 rounded-xl p-3 text-center">
             <span class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider block">成員人數 (約)</span>
             <span id="drawer-members" class="text-emerald-300 font-black text-lg">100,000+</span>
@@ -582,11 +587,16 @@
               <i class="fa-solid fa-circle-check"></i> 官方正式成員
             </span>
           </div>
+          <div class="bg-emerald-50/10 border border-emerald-900/30 rounded-xl p-3 text-center">
+            <span class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider block">對外開放</span>
+            <span id="drawer-open-count" class="text-emerald-300 font-black text-lg">—</span>
+          </div>
         </div>
 
         <!-- Description block for local items -->
         <div id="drawer-desc-block" class="hidden bg-amber-50/10 border border-amber-100/20 rounded-xl p-3 text-xs leading-relaxed text-amber-200 font-medium">
           <div id="drawer-verification-badges" class="flex flex-wrap gap-1.5 mb-2"></div>
+          <p id="drawer-confidence-note" class="text-[10px] text-slate-300 mb-1"></p>
           <p id="drawer-desc-text" class="whitespace-pre-line"></p>
         </div>
 
@@ -740,7 +750,7 @@
             <i class="fa-solid fa-shield-halved"></i> 資料來源／可信度說明
           </h5>
           <p class="text-[11px] text-slate-400 leading-relaxed">
-            L2 國家／地區以 WOSM 官方成員資料為基礎；L3 則只保留可由官方網站、官方／半官方社交平台、場地頁、政府／教育機構或可靠公開來源支持的資料。出發前請以原始來源確認最新開放及安排。
+            L2 國家／地區以 WOSM 官方成員資料為基礎；L3 則只保留可由官方網站、官方／半官方社交平台、場地頁、政府／教育機構或可靠公開來源支持的資料。<br><span class="text-violet-300 font-bold">本資料庫最近整理：2026-08-12</span><br><span id="offline-data-status" class="text-emerald-300 font-bold"></span><br>這是資料庫整理日期，不等於每個地點最後核實日期。網站可連線只代表網址有回應，不代表開放時間、收費或預約安排沒有變動；出發前請撳原始來源自行確認。
           </p>
           <a 
             id="drawer-wosm-source" 
@@ -749,6 +759,9 @@
             class="inline-flex items-center gap-1.5 text-xs font-extrabold text-violet-300 hover:text-violet-100 mt-1"
           >
             查閱原始資料 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          </a>
+          <a href="https://github.com/playerkousas-rgb/scoutworld/issues/new/choose" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-[10px] font-bold text-amber-300 hover:text-amber-200 mt-1">
+            <i class="fa-solid fa-bullhorn"></i> 報告資料過期／補充地點
           </a>
         </div>
       </div>
@@ -988,7 +1001,7 @@
     let searchInput, clearSearchBtn, regionFilters, orgsList, filteredCount, loadingIndicator, mapPanel, mapFullscreenBtn;
     let statOrgs, statMembers, hkShortcutCard, onlineShopCard;
     let detailDrawer, closeDrawerBtn, backToNationalBtn, drawerFlag, drawerLogo, drawerCountry, drawerCountryEn, drawerRegion, drawerOrgFull, drawerOrgShort, drawerFounded, drawerFoundedBadge, drawerMembers, drawerAddress, drawerMapsAction, drawerPhone, drawerPhoneAction, drawerEmail, drawerEmailAction, drawerWebsite, drawerCoordinates, copyCoordsBtn, copyToast, drawerWosmSource, drawerOfficialSearchContainer, drawerOfficialSearchAction;
-    let l3Section, l3List, l3LevelPills, l4SubregionContainer, l3TypeFilters, drawerDescBlock, drawerDescText, drawerVerificationBadges, drawerCategoryLabel, drawerStatsRow, drawerSourceBox, drawerShortBadge, drawerOrgShortLabel, drawerInstagramContainer, drawerInstagram, drawerFacebookContainer, drawerFacebook, drawerYoutubeContainer, drawerYoutube;
+    let l3Section, l3List, l3LevelPills, l4SubregionContainer, l3TypeFilters, drawerDescBlock, drawerDescText, drawerConfidenceNote, drawerVerificationBadges, drawerCategoryLabel, drawerStatsRow, drawerSourceBox, drawerShortBadge, drawerOrgShortLabel, drawerInstagramContainer, drawerInstagram, drawerFacebookContainer, drawerFacebook, drawerYoutubeContainer, drawerYoutube;
     
     // Travel Toolbox UI variables
     let travelToolboxBtn, travelModal, closeTravelModalBtn, confirmTravelModalBtn, badgeLegendBtn, badgeLegendModal, closeBadgeLegendBtn;
@@ -996,10 +1009,10 @@
     const FAVORITES_KEY = 'sw-favorites-v1';
     let favorites = [];
     let pendingFavSnapshot = null; // 收藏直達後備：萬一地點喺資料更新刪走咗，用快照頂住
-    let favoritesToggleBtn, favoritesCount, favoritesPanel, favoritesPanelCount, favoritesList, favoritesClearBtn, favDrawerBtn;
+    let favoritesToggleBtn, favoritesCount, favoritesPanel, favoritesPanelCount, favoritesList, favoritesClearBtn, favoritesShareBtn, favoritesExportBtn, favDrawerBtn;
 
     // 新增：分享、熱門捷徑、全球搜尋 UI + 狀態
-    let shareOrgBtn, hotDestinations, globalResults, copyToastText;
+    let shareOrgBtn, hotDestinations, globalResults, copyToastText, nearbyScoutBtn, downloadDestinationBtn, clearDestinationBtn, offlineManageBtn, offlineDataStatus;
     let searchIndex = null;      // 全域地點搜尋索引（延遲載入）
     let searchIndexPromise = null;
     let pendingL3JumpId = null;  // 全域搜尋直達：待選取嘅 L3/L4 項目 id
@@ -1057,6 +1070,7 @@
       l3TypeFilters = document.getElementById('l3-type-filters');
       drawerDescBlock = document.getElementById('drawer-desc-block');
       drawerDescText = document.getElementById('drawer-desc-text');
+      drawerConfidenceNote = document.getElementById('drawer-confidence-note');
       drawerVerificationBadges = document.getElementById('drawer-verification-badges');
       drawerCategoryLabel = document.getElementById('drawer-category-label');
       drawerStatsRow = document.getElementById('drawer-stats-row');
@@ -1084,6 +1098,11 @@
       hotDestinations = document.getElementById('hot-destinations');
       globalResults = document.getElementById('global-results');
       copyToastText = document.getElementById('copy-toast-text');
+      nearbyScoutBtn = document.getElementById('nearby-scout-btn');
+      downloadDestinationBtn = document.getElementById('download-destination-btn');
+      clearDestinationBtn = document.getElementById('clear-destination-btn');
+      offlineManageBtn = document.getElementById('offline-manage-btn');
+      offlineDataStatus = document.getElementById('offline-data-status');
       l3Note = document.getElementById('l3-note');
       favoritesToggleBtn = document.getElementById('favorites-toggle-btn');
       favoritesCount = document.getElementById('favorites-count');
@@ -1091,6 +1110,8 @@
       favoritesPanelCount = document.getElementById('favorites-panel-count');
       favoritesList = document.getElementById('favorites-list');
       favoritesClearBtn = document.getElementById('favorites-clear-btn');
+      favoritesShareBtn = document.getElementById('favorites-share-btn');
+      favoritesExportBtn = document.getElementById('favorites-export-btn');
       favDrawerBtn = document.getElementById('fav-drawer-btn');
     }
 
@@ -1189,14 +1210,28 @@
     }
     
 
+    function sourceTypeLabel(url = '') {
+      try {
+        const host = new URL(url).hostname.replace(/^www\\./, '').toLowerCase();
+        if (['facebook.com', 'instagram.com', 'youtube.com', 'tiktok.com', 'x.com', 'twitter.com'].some(d => host === d || host.endsWith(`.${d}`))) return '查閱官方社交來源';
+        if (host === 'scout.org' || host.endsWith('.scout.org')) return '查閱 WOSM 原始來源';
+        return '查閱官方／公開原始來源';
+      } catch (e) { return '查閱原始來源'; }
+    }
+
     function verificationBadgeHtml(item = {}) {
       const status = (item.verificationStatus || '').toLowerCase();
       const badges = [];
-      if (status.includes('wosm')) badges.push(['WOSM', 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
+      let sourceHost = '';
+      try { sourceHost = new URL(item.verificationSource || '').hostname.replace(/^www\\./, '').toLowerCase(); } catch (e) {}
+      const isSocialSource = ['facebook.com', 'instagram.com', 'youtube.com', 'tiktok.com', 'x.com', 'twitter.com'].some(d => sourceHost === d || sourceHost.endsWith(`.${d}`));
+      const isWosmSource = sourceHost === 'scout.org' || sourceHost.endsWith('.scout.org');
+      if (status.includes('wosm') || isWosmSource) badges.push(['WOSM', 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
       if (status.includes('official') || status.includes('source page linked')) badges.push(['官方', 'bg-emerald-500/20 text-emerald-200 border-emerald-400/30']);
-      if (status.includes('social')) badges.push(['社交', 'bg-pink-500/20 text-pink-200 border-pink-400/30']);
+      if (status.includes('social') || isSocialSource) badges.push(['社交', 'bg-pink-500/20 text-pink-200 border-pink-400/30']);
       if (status.includes('secondary')) badges.push(['二手', 'bg-orange-500/20 text-orange-200 border-orange-400/30']);
       if (status.includes('verify') || status.includes('覆核') || status.includes('pending') || item.linkCheckStatus) badges.push(['覆核', 'bg-amber-500/20 text-amber-100 border-amber-400/30']);
+      if (item.sourceStatus === 'removed-hijacked-domain') badges.unshift(['來源已移除', 'bg-red-500/20 text-red-200 border-red-400/30']);
       if (item.locationAccuracy) badges.push(['代表點', 'bg-violet-500/20 text-violet-200 border-violet-400/30']);
       if (!badges.length && item.verificationSource) badges.push(['來源', 'bg-emerald-500/20 text-emerald-200 border-emerald-400/30']);
       return badges.slice(0, 3).map(([label, cls]) => `<span class="inline-flex items-center rounded-full border px-1.5 py-0.5 text-[9px] font-black ${cls}">${label}</span>`).join('');
@@ -1249,7 +1284,9 @@
               const n = (pc.l3 || 0) + (pc.l4 || 0);
               if (!n) return '';
               const richCls = n >= 5 ? 'text-orange-600 border-orange-900/40 bg-orange-950/50' : 'text-slate-500 border-white/10 bg-[#010a24]';
-              return `<span class="inline-flex items-center gap-0.5 mt-1 border rounded px-1.5 py-0.5 text-[9px] font-black ${richCls}" title="本站收錄此地區 ${n} 個當地地點（營地/用品社/單位）">🏕️ ${n} 地點</span>`;
+              const open = pc.open || 0;
+              const openBadge = open ? `<span class="inline-flex items-center gap-0.5 mt-1 ml-1 border border-emerald-400/30 rounded px-1.5 py-0.5 text-[9px] font-black text-emerald-300 bg-emerald-950/40" title="此地區有 ${open} 個地點資料明言對外開放（✅）；出發前仍請向官方確認">✅ ${open} 對外開放</span>` : '';
+              return `<span class="inline-flex items-center gap-0.5 mt-1 border rounded px-1.5 py-0.5 text-[9px] font-black ${richCls}" title="本站收錄此地區 ${n} 個當地地點（營地/用品社/單位）">🏕️ ${n} 地點</span>${openBadge}`;
             })()}
           </div>
         `;
@@ -1824,6 +1861,8 @@
       drawerCategoryLabel.textContent = `所屬大類: ${item.category}`;
       drawerOrgFull.textContent = item.name;
       
+      // Hide destination download control while viewing an individual place
+      if (downloadDestinationBtn) downloadDestinationBtn.classList.add('hidden');
       // Hide standard national badges
       if (drawerStatsRow) drawerStatsRow.classList.add('hidden');
       if (drawerSourceBox) drawerSourceBox.classList.add('hidden');
@@ -1844,19 +1883,30 @@
       const verificationBits = [];
       if (item.verificationStatus) verificationBits.push(`資料核實：${item.verificationStatus}`);
       if (item.verificationSource) verificationBits.push(`來源：${item.verificationSource}`);
+      const confidenceStatus = (item.verificationStatus || '').toLowerCase();
+      let confidence = item.sourceStatus === 'removed-hijacked-domain' ? '來源已移除：原網站曾被騎劫，請改用其他可靠渠道確認' : '待核實：目前未有清晰來源資料';
+      if (item.verificationSource) {
+        let host = '';
+        try { host = new URL(item.verificationSource).hostname.replace(/^www\\./, '').toLowerCase(); } catch (e) {}
+        const socialOnly = ['facebook.com', 'instagram.com', 'youtube.com', 'tiktok.com', 'x.com', 'twitter.com'].some(d => host === d || host.endsWith(`.${d}`));
+        const official = confidenceStatus.includes('official') || confidenceStatus.includes('官方') || host === 'scout.org' || host.endsWith('.scout.org');
+        confidence = socialOnly && !official ? '一般信心：官方社交來源，內容及開放安排請再核實' : official ? '較高信心：有官方／WOSM 來源支持' : '一般信心：有公開來源支持，出發前請再核實';
+      }
+      const reviewedText = item.lastReviewed ? `｜最近覆核：${item.lastReviewed}` : '';
+      if (drawerConfidenceNote) drawerConfidenceNote.textContent = `資料信心｜${confidence}${reviewedText}`;
       const fullDescription = [item.description || '', verificationBits.join('｜')].filter(Boolean).join('\n\n');
       if (fullDescription) {
         drawerDescText.textContent = fullDescription;
         if (drawerDescBlock) drawerDescBlock.classList.remove('hidden');
       } else {
-        if (drawerDescText) drawerDescText.textContent = org.verificationStatus ? `資料核實：${org.verificationStatus}` : '';
-      if (drawerDescBlock) drawerDescBlock.classList.toggle('hidden', !org.verificationStatus);
+        if (drawerDescText) drawerDescText.textContent = item.verificationStatus ? `資料核實：${item.verificationStatus}` : '';
+        if (drawerDescBlock) drawerDescBlock.classList.toggle('hidden', !item.verificationStatus);
       }
 
       // L3/L4 source box: show if a verification source exists
       if (item.verificationSource) {
         drawerWosmSource.href = item.verificationSource;
-        drawerWosmSource.innerHTML = '查閱 L3 原始資料 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>';
+        drawerWosmSource.innerHTML = `${sourceTypeLabel(item.verificationSource)} <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>`;
         if (drawerSourceBox) drawerSourceBox.classList.remove('hidden');
       } else {
         if (drawerSourceBox) drawerSourceBox.classList.add('hidden');
@@ -1930,6 +1980,8 @@
     
     // Open Drawer & Populate L2 details
     function openDetailDrawer(org) {
+      if (downloadDestinationBtn) downloadDestinationBtn.classList.remove('hidden');
+      updateDestinationDownloadState(org.id);
       drawerFlag.textContent = org.flag || '⚜️';
       if (drawerLogo) {
         if (org.logoUrl) {
@@ -1959,9 +2011,19 @@
       // Show stats & source
       renderVerificationBadges(org);
       if (drawerStatsRow) drawerStatsRow.classList.remove('hidden');
+      const openCountEl = document.getElementById('drawer-open-count');
+      const countryCounts = placeCounts[org.id];
+      if (openCountEl) {
+        const openCount = countryCounts && countryCounts.open ? countryCounts.open : 0;
+        openCountEl.textContent = openCount ? `${openCount} 個` : '未有';
+        openCountEl.title = openCount ? '資料明言對外開放嘅地點數量；出發前請向官方確認' : '目前未有資料明言對外開放';
+      }
       if (drawerSourceBox) drawerSourceBox.classList.remove('hidden');
       if (drawerDescText) drawerDescText.textContent = org.verificationStatus ? `資料核實：${org.verificationStatus}` : '';
-      if (drawerDescBlock) drawerDescBlock.classList.toggle('hidden', !org.verificationStatus);
+      if (org.wosmRegion === 'SCENES' && drawerDescText) {
+        drawerDescText.textContent = `🌿 SCENES 環境卓越童軍中心網絡條目。本站只整理公開資料，不代表場地對所有旅客開放；參觀、住宿或活動安排請直接向中心確認。${org.verificationStatus ? `\n\n資料核實：${org.verificationStatus}` : ''}`;
+      }
+      if (drawerDescBlock) drawerDescBlock.classList.toggle('hidden', !org.verificationStatus && org.wosmRegion !== 'SCENES');
       
       // Social platforms for L2 (National) — information / friendship channels only, not formal contact
       if (org.facebook) {
@@ -2047,7 +2109,7 @@
       }
       
       drawerWosmSource.href = org.wosmSource || 'https://www.scout.org';
-      drawerWosmSource.innerHTML = org.id === 'WORLD' ? '查閱 World Scouting 原始資料 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>' : '查閱 WOSM / scout.org 原始資料 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>';
+      drawerWosmSource.innerHTML = `${sourceTypeLabel(org.wosmSource || drawerWosmSource.href)} <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>`;
       
       // Slide Open
       detailDrawer.classList.remove('translate-x-full');
@@ -2084,6 +2146,98 @@
           p.className = 'flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all text-slate-400 hover:text-amber-400';
         }
       });
+    }
+
+    function updateDestinationDownloadState(code) {
+      if (!downloadDestinationBtn) return;
+      const saved = JSON.parse(localStorage.getItem('sw-offline-destinations') || '{}')[code];
+      if (offlineDataStatus) offlineDataStatus.textContent = saved ? `本機已有此目的地離線資料（${saved.count || 0} 個地點）` : '';
+      if (clearDestinationBtn) clearDestinationBtn.classList.toggle('hidden', !saved);
+      downloadDestinationBtn.textContent = saved ? `✅ 已下載（${new Date(saved.savedAt).toLocaleDateString('zh-HK')}）` : '⬇️ 離線下載';
+      downloadDestinationBtn.title = saved ? `此瀏覽器已儲存 ${saved.count || 0} 個地點；下載日期 ${new Date(saved.savedAt).toLocaleString('zh-HK')}` : '將此目的地資料儲存到瀏覽器，無網絡時仍可查看';
+    }
+
+    async function manageOfflineData() {
+      const saved = JSON.parse(localStorage.getItem('sw-offline-destinations') || '{}');
+      const entries = Object.entries(saved);
+      if (!entries.length) return showToast('此瀏覽器暫時沒有已下載目的地');
+      const summary = entries.map(([code, info]) => `${code}（${info.count || 0} 個地點，${new Date(info.savedAt).toLocaleDateString('zh-HK')}）`).join('\n');
+      if (!window.confirm(`此瀏覽器已下載：\n\n${summary}\n\n按「確定」清除全部離線目的地資料。收藏夾不受影響。`)) return;
+      try {
+        await caches.delete('scoutworld-destinations-v1');
+        localStorage.removeItem('sw-offline-destinations');
+        if (currentSelectedOrgId) updateDestinationDownloadState(currentSelectedOrgId);
+        showToast('已清除全部目的地離線資料；收藏夾仍然保留');
+      } catch (err) { showToast('清除失敗，請稍後再試'); }
+    }
+
+    async function clearDestinationData() {
+      const code = currentSelectedOrgId;
+      if (!code) return;
+      const path = code === 'HK' ? 'data/local/HK.json' : `data/${countryRegionMap[code] || 'unknown'}/local/${code}.json`;
+      try {
+        const cache = await caches.open('scoutworld-destinations-v1');
+        await cache.delete(new Request(new URL(path, location.href).href));
+        const saved = JSON.parse(localStorage.getItem('sw-offline-destinations') || '{}');
+        delete saved[code];
+        localStorage.setItem('sw-offline-destinations', JSON.stringify(saved));
+        updateDestinationDownloadState(code);
+        showToast(`已清除 ${code} 嘅本機離線資料`);
+      } catch (err) { showToast('清除失敗，請稍後再試'); }
+    }
+
+    async function downloadDestinationData() {
+      const code = currentSelectedOrgId;
+      if (!code || code === 'SHOPPING' || code === 'WORLD') return showToast('請先打開一個國家／地區目的地');
+      const path = code === 'HK' ? 'data/local/HK.json' : `data/${countryRegionMap[code] || 'unknown'}/local/${code}.json`;
+      if (downloadDestinationBtn) downloadDestinationBtn.textContent = '⏳ 下載中…';
+      try {
+        const response = await fetch(path);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const body = await response.text();
+        const cache = await caches.open('scoutworld-destinations-v1');
+        await cache.put(new Request(new URL(path, location.href).href), new Response(body, { headers: { 'Content-Type': 'application/json' } }));
+        const saved = JSON.parse(localStorage.getItem('sw-offline-destinations') || '{}');
+        saved[code] = { savedAt: new Date().toISOString(), count: JSON.parse(body).length };
+        localStorage.setItem('sw-offline-destinations', JSON.stringify(saved));
+        if (downloadDestinationBtn) downloadDestinationBtn.textContent = '✅ 已下載';
+        showToast(`✅ ${code} 資料已儲存到此瀏覽器，離線可查看`);
+      } catch (err) {
+        if (downloadDestinationBtn) downloadDestinationBtn.textContent = '⬇️ 離線下載';
+        showToast('下載失敗，請連線後再試');
+      }
+    }
+
+    // 📍 按地圖目前位置搵附近 Scout Shop／營地／總部（出發前規劃，不需要手機定位）
+    function findNearbyScoutPlaces() {
+      if (!map) return showToast('地圖尚未準備好，請稍後再試');
+      if (!searchIndex) {
+        ensureSearchIndex().then(() => findNearbyScoutPlaces());
+        return;
+      }
+      const mapCenter = map.getCenter();
+      const lat = mapCenter.lat, lng = mapCenter.lng;
+      if (nearbyScoutBtn) nearbyScoutBtn.textContent = '📍 搜尋中…';
+        const toRad = n => n * Math.PI / 180;
+        const distanceKm = (a, b) => {
+          const dLat = toRad(a.lat - b.lat), dLng = toRad(a.lng - b.lng);
+          const x = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.sin(dLng / 2) ** 2;
+          return 6371 * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x));
+        };
+        const nearest = searchIndex.filter(p => p.lvl >= 3 && Number.isFinite(p.lat) && Number.isFinite(p.lng))
+          .map(p => ({ ...p, km: distanceKm({lat, lng}, p) }))
+          .filter(p => p.km <= 150)
+          .sort((a, b) => a.km - b.km).slice(0, 12);
+        if (globalResults) {
+          globalResults.classList.remove('hidden');
+          globalResults.innerHTML = `<div class="px-2 py-1 text-[10px] font-black text-emerald-300">📍 資料庫內、地圖中心 150 公里內嘅童軍地點（${nearest.length} 個）</div><div class="px-2 pb-1 text-[10px] leading-relaxed text-slate-400">方便出發前搵資料，並不代表完整名單或目前一定開放；網站、電話及開放安排請以原始來源再次核實。</div>` + (nearest.length ? nearest.map(p => `<button class="nearby-result w-full text-left p-2 rounded-lg hover:bg-[#09225e] flex items-center justify-between gap-2" data-id="${String(p.i).replace(/"/g, '&quot;')}" data-cc="${p.c}"><span class="truncate"><b class="text-slate-100">${p.f || '📍'} ${p.n}</b><small class="block text-slate-400">${p.t} · ${p.km < 1 ? '<1' : p.km.toFixed(1)} km</small></span><i class="fa-solid fa-arrow-right text-emerald-300"></i></button>`).join('') : '<p class="p-3 text-[11px] text-slate-400">附近未有帶座標嘅資料，可以試下搜尋目的地國家。</p>');
+          globalResults.querySelectorAll('.nearby-result').forEach(btn => btn.addEventListener('click', () => {
+            const org = allScouts.find(o => o.id === btn.dataset.cc);
+            if (org) { pendingL3JumpId = btn.dataset.id; selectOrganization(org); }
+          }));
+        }
+        if (map) map.setView([lat, lng], 9, { animate: true });
+      if (nearbyScoutBtn) nearbyScoutBtn.textContent = '📍 地圖附近地點';
     }
 
     // Filter Data Search logic
@@ -2311,6 +2465,16 @@
       updateDrawerFavBtn();
     }
 
+    function moveFavorite(id, direction) {
+      const index = favorites.findIndex(f => f.id === id);
+      if (index < 0) return;
+      const next = direction === 'up' ? index - 1 : index + 1;
+      if (next < 0 || next >= favorites.length) return;
+      [favorites[index], favorites[next]] = [favorites[next], favorites[index]];
+      persistFavorites();
+      renderFavoritesList();
+    }
+
     function removeFavorite(id) {
       const fav = favorites.find(f => f.id === id);
       if (!fav) return;
@@ -2355,6 +2519,23 @@
       jumpToCountryByCode(fav.parentCountry);
     }
 
+    function exportFavorites() {
+      if (!favorites.length) return showToast('收藏夾仲未有地點');
+      const rows = favorites.map((f, i) => `<li><strong>${i + 1}. ${escapeHtml(f.name || f.id)}</strong><br><span>${escapeHtml([f.parentCountry, f.type, f.address].filter(Boolean).join(' · '))}</span>${f.website ? `<br><a href="${escapeHtml(f.website)}">官方網站</a>` : ''}${f.address ? `<br><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(f.name + ' ' + f.address)}">在 Google Maps 開啟位置</a>` : ''}</li>`).join('');
+      const win = window.open('', '_blank');
+      if (!win) return showToast('請允許開啟新視窗以匯出收藏');
+      win.document.write(`<!doctype html><title>Scout World 收藏清單</title><style>body{font-family:system-ui,sans-serif;max-width:720px;margin:32px auto;color:#172033}h1{font-size:22px}p{color:#64748b;font-size:13px}li{padding:12px 0;border-bottom:1px solid #e2e8f0;line-height:1.5}a{color:#2563eb;word-break:break-all}@media print{button{display:none}}</style><h1>⚜️ Scout World 收藏清單</h1><p>出發前參考資料｜匯出日期：${new Date().toLocaleDateString('zh-HK')}</p><ol>${rows}</ol><button onclick="window.print()">列印／另存 PDF</button>`);
+      win.document.close();
+    }
+
+    async function shareFavorites() {
+      if (!favorites.length) return showToast('收藏夾仲未有地點');
+      const payload = encodeURIComponent(JSON.stringify(favorites.map(f => ({ id: f.id, favKind: f.favKind, code: f.code, parentCountry: f.parentCountry, name: f.name, nameEn: f.nameEn, type: f.type }))));
+      const url = `${location.origin}${location.pathname}#favorites=${payload}`;
+      try { await navigator.clipboard.writeText(url); showToast('🔗 已複製收藏清單連結，隊友打開即可匯入'); }
+      catch (e) { window.prompt('複製收藏清單連結', url); }
+    }
+
     function renderFavoritesList() {
       if (!favoritesList) return;
       if (favorites.length === 0) {
@@ -2364,8 +2545,15 @@
           </div>`;
         return;
       }
-      favoritesList.innerHTML = favorites.map(fav => {
+      let lastGroup = '';
+      favoritesList.innerHTML = [...favorites].sort((a, b) => {
+        const ga = a.parentCountry || a.code || '其他', gb = b.parentCountry || b.code || '其他';
+        return `${ga}-${a.type || '總會'}`.localeCompare(`${gb}-${b.type || '總會'}`);
+      }).map(fav => {
         const isOrg = fav.favKind === 'org';
+        const groupKey = `${fav.parentCountry || fav.code || '其他'} · ${isOrg ? '總會' : (fav.type || '其他')}`;
+        const groupHeader = groupKey !== lastGroup ? `<div class="pt-2 pb-0.5 text-[9px] font-black text-amber-300/80 uppercase tracking-wider">${escapeHtml(groupKey)}</div>` : '';
+        lastGroup = groupKey;
         const typeBadgeCls = isOrg
           ? 'bg-amber-950/50 text-amber-300 border border-amber-900/30'
           : (fav.type === 'Campsite' ? 'bg-emerald-950/50 text-emerald-300 border border-emerald-900/30'
@@ -2376,7 +2564,7 @@
         if (parent && parent.country) parentName = parent.country;
         const sub = isOrg ? (fav.subregion || '') : [parentName, fav.subregion].filter(Boolean).join(' · ');
         const badgeText = isOrg ? '總會' : ((fav.category || '').split(' ')[0] || fav.type || '');
-        return `
+        return `${groupHeader}
           <div class="favorite-row w-full text-left p-2 rounded-lg bg-[#051847] hover:bg-[#09225e] border border-white/5 hover:border-amber-400 transition-all flex items-center justify-between gap-2 cursor-pointer" data-fav-id="${escapeHtml(fav.id)}">
             <span class="flex items-center gap-2 overflow-hidden">
               <span class="text-base flex-shrink-0">${fav.flag || '📍'}</span>
@@ -2387,6 +2575,8 @@
             </span>
             <span class="flex items-center gap-1 flex-shrink-0">
               ${badgeText ? `<span class="border px-1.5 py-0.5 rounded text-[9px] font-black ${typeBadgeCls}">${escapeHtml(badgeText)}</span>` : ''}
+              <button class="fav-move-btn text-slate-500 hover:text-sky-300 p-1 focus:outline-none" data-fav-move="up" data-fav-id="${escapeHtml(fav.id)}" title="向上移">↑</button>
+              <button class="fav-move-btn text-slate-500 hover:text-sky-300 p-1 focus:outline-none" data-fav-move="down" data-fav-id="${escapeHtml(fav.id)}" title="向下移">↓</button>
               <i class="fa-solid fa-star text-amber-400 text-xs"></i>
               <button class="fav-remove-btn text-slate-500 hover:text-red-300 p-1 transition-colors focus:outline-none" data-fav-remove="${escapeHtml(fav.id)}" title="移除呢個收藏" aria-label="移除收藏 ${escapeHtml(fav.name || fav.id)}">
                 <i class="fa-solid fa-xmark"></i>
@@ -2401,6 +2591,12 @@
           if (e.target.closest('.fav-remove-btn')) return;
           const fav = favorites.find(f => f.id === row.dataset.favId);
           if (fav) jumpToFavorite(fav);
+        });
+      });
+      favoritesList.querySelectorAll('.fav-move-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          moveFavorite(btn.dataset.favId, btn.dataset.favMove);
         });
       });
       favoritesList.querySelectorAll('.fav-remove-btn').forEach(btn => {
@@ -2455,8 +2651,8 @@
         ? `${activeL3Item.name}｜${org.country || '全球'}童軍`
         : `${org.country || org.countryEn || '目的地'}童軍｜Scout World Explorer`;
       const text = isLocal
-        ? `⚜️ ${activeL3Item.name}（${org.country || ''}）— 香港童軍外遊規劃`
-        : `⚜️ ${org.country || ''}童軍探訪・購物・營地 — 香港童軍外遊規劃`;
+        ? `⚜️ ${activeL3Item.name}（${org.country || ''}）— 香港童軍外遊規劃｜資料僅供出發前參考，請以原始來源核實`
+        : `⚜️ ${org.country || ''}童軍探訪・購物・營地 — 香港童軍外遊規劃｜資料僅供出發前參考，請以原始來源核實`;
       const url = `${window.location.origin}${window.location.pathname}#${encodeURIComponent(org.id)}`;
       if (navigator.share) {
         navigator.share({ title, text, url }).catch(() => { /* 用戶取消分享，無需提示 */ });
@@ -2580,6 +2776,20 @@
     async function applyHashFromUrl() {
       const raw = (window.location.hash || '').replace(/^#/, '').trim();
       if (!raw) return;
+      if (raw.startsWith('favorites=')) {
+        try {
+          const incoming = JSON.parse(decodeURIComponent(raw.slice('favorites='.length)));
+          if (Array.isArray(incoming)) {
+            const existing = new Set(favorites.map(f => f.id));
+            incoming.filter(f => f && f.id && !existing.has(f.id)).forEach(f => favorites.push(f));
+            persistFavorites();
+            refreshFavoritesUI();
+            showToast(`🔗 已匯入 ${incoming.length} 個收藏（只儲存於此瀏覽器）`);
+            history.replaceState(null, '', window.location.pathname + window.location.search);
+          }
+        } catch (e) { showToast('收藏分享連結無法讀取'); }
+        return;
+      }
       let code = raw;
       try { code = decodeURIComponent(raw); } catch (e) {}
       if (code.toUpperCase() === 'SHOPPING') { jumpToOnlineShopDirectory(); return; }
@@ -2598,6 +2808,10 @@
     function initListeners() {
       // 分享目的地按鈕
       if (shareOrgBtn) shareOrgBtn.addEventListener('click', shareCurrentView);
+      if (nearbyScoutBtn) nearbyScoutBtn.addEventListener('click', findNearbyScoutPlaces);
+      if (downloadDestinationBtn) downloadDestinationBtn.addEventListener('click', downloadDestinationData);
+      if (clearDestinationBtn) clearDestinationBtn.addEventListener('click', clearDestinationData);
+      if (offlineManageBtn) offlineManageBtn.addEventListener('click', manageOfflineData);
 
       // ⭐ 收藏夾：按掣接線 + 開機載入
       if (favDrawerBtn) {
@@ -2610,6 +2824,8 @@
       if (favoritesToggleBtn) {
         favoritesToggleBtn.addEventListener('click', () => toggleFavoritesPanel());
       }
+      if (favoritesShareBtn) favoritesShareBtn.addEventListener('click', shareFavorites);
+      if (favoritesExportBtn) favoritesExportBtn.addEventListener('click', exportFavorites);
       if (favoritesClearBtn) {
         favoritesClearBtn.addEventListener('click', () => {
           if (favorites.length === 0) { showToast('收藏夾本來就係空嘅'); return; }

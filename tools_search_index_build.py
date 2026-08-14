@@ -76,6 +76,10 @@ def build_local_entries():
                 'rg': region_folder,
                 'lvl': row.get('level') or 3,
                 's': row.get('subregion') or '',
+                'open': (row.get('visitorNote') or '').strip().startswith('✅'),
+                'lat': row.get('lat'),
+                'lng': row.get('lng'),
+                'reviewed': row.get('lastReviewed'),
             })
     return entries
 
@@ -92,7 +96,9 @@ def main():
     for row in l3:
         c = row['c']
         if c not in counts:
-            counts[c] = {'l3': 0, 'l4': 0}
+            counts[c] = {'l3': 0, 'l4': 0, 'open': 0}
+        if row.get('open'):
+            counts[c]['open'] += 1
         if row.get('lvl') == 4:
             counts[c]['l4'] += 1
         else:

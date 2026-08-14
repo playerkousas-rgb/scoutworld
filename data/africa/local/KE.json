@@ -21,7 +21,9 @@
     "verificationSource": "",
     "facebook": "https://www.facebook.com/TheKenyaScoutsAssociation",
     "youtube": "https://www.youtube.com/@KenyaScouts",
-    "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/"
+    "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/",
+    "lastReviewed": "2026-08-10",
+    "sourceStatus": "removed-hijacked-domain"
   },
   {
     "id": "KE-SHOPS-NETWORK",
@@ -46,7 +48,9 @@
     "instagram": "kenyascouts",
     "youtube": "https://www.youtube.com/@KenyaScouts",
     "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/",
-    "openingHours": "週一至五 08:00–17:00；週六 08:00–12:00"
+    "openingHours": "週一至五 08:00–17:00；週六 08:00–12:00",
+    "lastReviewed": "2026-08-10",
+    "sourceStatus": "removed-hijacked-domain"
   },
   {
     "id": "KE-CAMP-ROWALLAN",
@@ -70,7 +74,9 @@
     "facebook": "https://www.facebook.com/TheKenyaScoutsAssociation",
     "instagram": "kenyascouts",
     "youtube": "https://www.youtube.com/@KenyaScouts",
-    "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/"
+    "socialVerificationSource": "https://kenyascouts.org/communications-ict-department/",
+    "lastReviewed": "2026-08-10",
+    "sourceStatus": "removed-hijacked-domain"
   },
   {
     "id": "KE-MUSEUM-PAXTU-NYERI",

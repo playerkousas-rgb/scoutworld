@@ -18,6 +18,27 @@
 資料政策見 [DATA_POLICY.md](DATA_POLICY.md)；逐波擴展嘅審計紀錄見
 [DATA_COVERAGE_REPORT_2026-08-07.md](DATA_COVERAGE_REPORT_2026-08-07.md)。
 
+## 維護及離線使用
+
+Scout World 沒有後台，收藏及目的地離線資料只儲存在使用者自己的瀏覽器。出發前可下載目的地資料；離線資料及收藏可在瀏覽器內管理。
+
+資料維護工具：
+
+- `python3 tools_data_quality.py`：檢查 JSON、ID、來源、座標、日期及代表點說明
+- `python3 tools_search_index_build.py`：重建搜尋索引及地點統計
+- `npm run test:runtime`：執行 jsdom runtime tests（先啟動 `python3 -m http.server 8080`）
+
+GitHub Actions 會在資料變更時執行資料品質及 runtime tests，並每月檢查來源連結。連線檢查只代表網址有回應，不代表開放時間、收費或預約資料仍然正確；出發前仍需查看原始來源。
+
+年度覆審報告：
+
+- [五區總結](ANNUAL_REVIEW_SUMMARY_2026-08-14.md)
+- [亞太區](REVIEW_ASIA_PACIFIC_2026-08-14.md)
+- [歐洲區](REVIEW_EUROPE_2026-08-14.md)
+- [非洲區](REVIEW_AFRICA_2026-08-14.md)
+- [美洲區](REVIEW_INTERAMERICA_2026-08-14.md)
+- [阿拉伯區＋World／SCENES](REVIEW_ARAB_WORLD_2026-08-14.md)
+
 ## 貢獻資料
 
 見到新地點、死連、過期資料？最理想係開個 issue（約 1 分鐘）：
@@ -37,6 +58,7 @@
 - 資料：`data/<region>/local/<COUNTRY>.json`（L3/L4）＋ `data/search-index.json`（由
   `python3 tools_search_index_build.py` 重建）
 - 路線圖：[ROADMAP_2026.md](ROADMAP_2026.md)
+- 資料品質檢查：`python3 tools_data_quality.py`（只檢查靜態 JSON，不會連線或上傳資料）；GitHub Actions 亦會在資料變更時自動執行
 
 ## 海外正式聯絡
 

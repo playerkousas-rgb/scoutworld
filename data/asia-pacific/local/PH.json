@@ -21,7 +21,8 @@
     "description": "菲律賓童軍總會（Boy Scouts of the Philippines, BSP），1936年成立，WOSM成員。總部位於馬尼拉。菲律賓童軍是亞太區大型組織之一，會員約190萬人。以社區服務、災難應變及青年領導力為特色。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "official government domain scouts.gov.ph verified live 2026-08-10；⚠️ 舊域名 bsp.org.ph 同日回應 HTTP 500（以政府域為準）",
-    "verificationSource": "https://scouts.gov.ph/"
+    "verificationSource": "https://scouts.gov.ph/",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "PH-SHOP-NATIONAL",
@@ -64,7 +65,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "菲律賓童軍最具歷史意義嘅營地——1959年第10屆世界大露營（10th World Scout Jamboree）主會場，係亞洲史上第一次舉辦世界大露營嘅地方。營地位於馬麒麟山森林保護區山腳、菲律賓大學洛斯紐斯分校旁，至今仍然係全國大露營同地區大露營主場地。對童軍歷史有興趣嘅香港團友極具朝聖價值。",
     "verificationStatus": "rechecked 2026-08-10 — no official BSP facility page found on scouts.gov.ph; location/history confirmed via regional jamboree reports + Inquirer 2014 report only (secondary); BSP grounds developed for the 1959 10th World Scout Jamboree; verify access via BSP HQ before travel",
-    "verificationSource": "https://scouts.gov.ph/"
+    "verificationSource": "https://scouts.gov.ph/",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "PH-CAMP-MALAGOS",

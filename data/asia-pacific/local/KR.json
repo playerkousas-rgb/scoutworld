@@ -23,7 +23,8 @@
     "verificationStatus": "official KSA site + facility/reservation page (tier: official) fetched 2026-08-10 — 地址及電話與官方頁尾一致；Scout Hall 場租全表/折扣/取消條款實抓自官方 시설안내,예약 頁",
     "verificationSource": "https://scout.or.kr/association/facility",
     "fee": "總會Scout Hall ₩25萬/場起",
-    "bookingUrl": "https://scout.or.kr/association/facility"
+    "bookingUrl": "https://scout.or.kr/association/facility",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "KR-SHOP-HQ",
@@ -245,7 +246,8 @@
     "verificationStatus": "official KSA facility page (tier: official) read 2026-08-10 — name, address (Wondang-dong 200-5), phone 031-967-9164 and capacity/facilities confirmed from official listing; history years per secondary sources; page JS-rendered, verify before travel",
     "verificationSource": "https://scout.or.kr/association/facility",
     "bookingUrl": "https://scoutcenter.scout.or.kr",
-    "visitorNote": "✅ 官方寫明向家庭及學校團體開放；外國團體未寫明——出發前經國際署/連盟確認"
+    "visitorNote": "✅ 官方寫明向家庭及學校團體開放；外國團體未寫明——出發前經國際署/連盟確認",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "KR-CAMP-GANGWON-JAMBOREE",
@@ -268,7 +270,8 @@
     "description": "1991年第17屆世界大露營（WSJ）主會場原址，現為**江原特別自治道省營「世界大露營修練場」**（官網 wjs.or.kr 營運中，列明查詢時間 09:00–18:00）。據韓國觀光公社資料（secondary）：野營區 25,900㎡、可同時容納 8,000 人；另有新館及 A/B/C 三棟生活館、綜合運動場、網球場、禮堂及室內集會場、冒險設施、民俗遊樂場、營火場等；背山面海（雪嶽山與東海之間），高城傳媒報道曾七度承辦國際級大露營。對童軍歷史有興趣嘅香港團友極具朝聖價值。",
     "verificationStatus": "venue official site wjs.or.kr (tier: official) fetched 2026-08-10 — 省營名稱「강원특별자치도세계잼버리수련장」、查詢時間 09:00–18:00、電話 033-633-8107 已實抓核實；地址及場館容量 secondary（韓國觀光公社 KTO via tripinfo）；官網首頁未見公開網上預訂系統；KSA 官方設施頁 2026-08-10 實抓未列此場（現只載總會 Scout Hall 場租）",
     "verificationSource": "http://wjs.or.kr/",
-    "visitorNote": "⚠️ 江原道省營青少年修練設施，外團安排未列明，出發前經總會國際署／連盟確認"
+    "visitorNote": "⚠️ 江原道省營青少年修練設施，外團安排未列明，出發前經總會國際署／連盟確認",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "KR-SHOP-ONLINE",
@@ -313,6 +316,7 @@
     "description": "韓國童軍連盟官方設施目錄列明嘅全國性野營場（29,950㎡，連盟直營），位於首爾東南車程約一個鐘嘅京畿道廣州市道尺面。設10人用帳幕30頂、野營場可容950人；室內有多用途室、領袖會議室、講堂、廁浴；野外設冒險遊樂設施10種（宇宙旅行等）、營火場、炊事場、野外劇場、宣誓禮場。官方列明團體項目：1日體驗（生活安全、生存、傳統飲食、工藝）及1泊2日/2泊3日住宿型挑戰營、印第安營等。利用需經連盟設施頁提交申請書。",
     "verificationStatus": "official KSA facility page (tier: official) read 2026-08-10 — name, Gyeonggi Gwangju Jinu-ri 884 address, phone 031-764-1634, 950-pax capacity and programs confirmed from official listing; page JS-rendered；2026-08-10 重抓該設施頁已改版、現只展示總會 Scout Hall 場租內容——Gonjiam 預訂入口或已轉 scoutcenter.scout.or.kr 系統（暫未能連線核實），出行前再確認",
     "verificationSource": "https://scout.or.kr/association/facility",
-    "bookingUrl": "https://scout.or.kr/association/facility"
+    "bookingUrl": "https://scout.or.kr/association/facility",
+    "lastReviewed": "2026-08-10"
   }
 ]

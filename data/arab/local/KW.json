@@ -18,6 +18,7 @@
     "verificationStatus": "official/public social source retained; verify current status before travel",
     "facebook": "https://www.facebook.com/kuwait.scout/",
     "socialVerificationSource": "https://www.facebook.com/kuwait.scout/",
-    "verificationSource": "https://www.facebook.com/kuwait.scout/"
+    "verificationSource": "https://www.facebook.com/kuwait.scout/",
+    "locationAccuracy": "代表點：原始公開資料未提供精確地址；出發前請以官方來源確認位置"
   }
 ]

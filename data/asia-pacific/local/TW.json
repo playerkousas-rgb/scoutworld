@@ -65,7 +65,8 @@
     "verificationSource": "https://www.scout.org.tw/autopage_detail/1/438",
     "email": "",
     "bookingUrl": "https://www.scout.org.tw/autopage_detail/1/438",
-    "visitorNote": "❌ 唔開放個人；只限完成三項登記童軍團、機關學校＋或戶外教育團體，限額申請制"
+    "visitorNote": "❌ 唔開放個人；只限完成三項登記童軍團、機關學校＋或戶外教育團體，限額申請制",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TW-CAMP-DAKENG",
@@ -87,7 +88,8 @@
     "verificationSource": "https://www.taiwan.net.tw/userfiles/file/%E3%80%90%E5%85%AC%E6%9C%89%E3%80%911_%E4%B8%AD%E5%A4%AE-05%E6%95%99%E8%82%B2%E9%83%A8-%E5%9C%8B%E7%AB%A5%E8%BB%8D%E7%87%9F%E5%9C%B0(%E6%95%99%E8%82%B2%E9%A1%9E)%E4%BD%BF%E7%94%A8%E7%8F%BE%E6%B3%81%E4%B8%80%E8%A6%BD%E8%A1%A8x36.pdf",
     "email": "",
     "fee": "免費（台中市教育局委管）",
-    "visitorNote": "✅ 對外開放（台中市教育局委管，童軍使用優先）；免費"
+    "visitorNote": "✅ 對外開放（台中市教育局委管，童軍使用優先）；免費",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TW-CAMP-CHENGCHING",
@@ -108,7 +110,8 @@
     "verificationStatus": "official CYC-network site (chengching.cyh.org.tw) returned HTTP 503 on 2026-08-10 — link kept with warning per policy; address/phone cross-checked on CYC event listing (tertiary); verify current status before travel",
     "verificationSource": "https://chengching.cyh.org.tw/",
     "email": "",
-    "website": "https://chengching.cyh.org.tw/"
+    "website": "https://chengching.cyh.org.tw/",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TW-CAMP-SAIJIA",
@@ -128,7 +131,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "verified via MOE official nationwide scout-camp table (tier: official) fetched 2026-08-10 — school-managed, open to public on holidays; Pingtung Scout Council official site live (contact details); reconfirm booking before travel",
     "verificationSource": "https://www.taiwan.net.tw/userfiles/file/%E3%80%90%E5%85%AC%E6%9C%89%E3%80%911_%E4%B8%AD%E5%A4%AE-05%E6%95%99%E8%82%B2%E9%83%A8-%E5%9C%8B%E7%AB%A5%E8%BB%8D%E7%87%9F%E5%9C%B0(%E6%95%99%E8%82%B2%E9%A1%9E)%E4%BD%BF%E7%94%A8%E7%8F%BE%E6%B3%81%E4%B8%80%E8%A6%BD%E8%A1%A8x36.pdf",
-    "email": ""
+    "email": "",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TW-CAMP-LIYUTAN",
@@ -148,7 +152,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "unverified 2026-08-10 — no official current source found; MOE education-type table lists Hualien as having no directly-managed camps; legacy list only; confirm with Hualien Scout Council before planning",
     "verificationSource": "https://www.scout.org.tw/",
-    "email": ""
+    "email": "",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TW-CAMP-CORALPOND",
@@ -168,7 +173,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "existence confirmed 2026-08-10 via official Yunlin County school circular (tier: official, 2022) naming the venue for scout activities; operated by Tainan Scout Council per legacy list; no dedicated official page found — verify before travel",
     "verificationSource": "https://mljh.ylc.edu.tw/News_Content.aspx?n=54639&s=147251",
-    "email": ""
+    "email": "",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TW-CAMP-TSEMGWEN",
@@ -190,7 +196,8 @@
     "verificationStatus": "official site (tier: official) fetched 2026-08-10 — 2026 news posts live incl. Tainan campsite excellence award; glamping rates per official page; verify current season terms before travel",
     "verificationSource": "https://tsengwencamp.cyh.org.tw/",
     "fee": "豪華營位 NT$4,000/營位",
-    "bookingUrl": "https://tsengwencamp.cyh.org.tw/"
+    "bookingUrl": "https://tsengwencamp.cyh.org.tw/",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TW-CAMP-FUXINGSHAN",
@@ -210,7 +217,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "verified via MOE official nationwide scout-camp table (tier: official) fetched 2026-08-10 — Miaoli County education bureau managed, scout/school priority, not open to general public; table not dated, reconfirm before travel",
     "verificationSource": "https://www.taiwan.net.tw/userfiles/file/%E3%80%90%E5%85%AC%E6%9C%89%E3%80%911_%E4%B8%AD%E5%A4%AE-05%E6%95%99%E8%82%B2%E9%83%A8-%E5%9C%8B%E7%AB%A5%E8%BB%8D%E7%87%9F%E5%9C%B0(%E6%95%99%E8%82%B2%E9%A1%9E)%E4%BD%BF%E7%94%A8%E7%8F%BE%E6%B3%81%E4%B8%80%E8%A6%BD%E8%A1%A8x36.pdf",
-    "email": ""
+    "email": "",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TW-CAMP-XINLONGGANG",
@@ -230,7 +238,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "verified via MOE official nationwide scout-camp table (tier: official) fetched 2026-08-10 — Taichung Education Bureau, Xinshe HS custodianship, not open to general public; table not dated, reconfirm before travel",
     "verificationSource": "https://www.taiwan.net.tw/userfiles/file/%E3%80%90%E5%85%AC%E6%9C%89%E3%80%911_%E4%B8%AD%E5%A4%AE-05%E6%95%99%E8%82%B2%E9%83%A8-%E5%9C%8B%E7%AB%A5%E8%BB%8D%E7%87%9F%E5%9C%B0(%E6%95%99%E8%82%B2%E9%A1%9E)%E4%BD%BF%E7%94%A8%E7%8F%BE%E6%B3%81%E4%B8%80%E8%A6%BD%E8%A1%A8x36.pdf",
-    "email": ""
+    "email": "",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TW-TAIPEI-COUNCIL",

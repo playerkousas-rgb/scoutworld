@@ -20,7 +20,8 @@
     "instagram": "scoutstt",
     "socialVerificationSource": "https://scouts.tt/",
     "linkCheckStatus": "official/known source but automated check failed; verify manually before travel",
-    "verificationSource": "https://scouts.tt/"
+    "verificationSource": "https://scouts.tt/",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TT-GROUP-FINDER",
@@ -45,6 +46,7 @@
     "verificationSource": "https://scouts.tt/group-finder/",
     "locationAccuracy": "representative-area-or-network-point; not an exact meeting place unless stated by source",
     "description": "Scout Association of Trinidad and Tobago 官方 Group Finder 頁用於查找附近 scout groups。此項為全國團隊搜尋入口，不代表單一聚會地點。",
-    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel"
+    "linkCheckStatus": "official/known source but automated check failed; verify manually before travel",
+    "lastReviewed": "2026-08-10"
   }
 ]

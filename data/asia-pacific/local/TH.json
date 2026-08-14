@@ -20,7 +20,8 @@
     "description": "National Scout Organization of Thailand（泰國國家童軍組織），1911年成立，WOSM正式成員。總部位於春武里。泰國童軍會員約828,000人，是亞太區大型組織之一。以學校童軍及社區服務為特色。",
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "official scoutthailand.org fetched live 2026-08-10 — homepage banner dated 2026-08-10, 2026 procurement notices and camp register live; HQ at Si Racha Chonburi (Ministry of Education); verify current notices before travel",
-    "verificationSource": "https://www.scoutthailand.org"
+    "verificationSource": "https://www.scoutthailand.org",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TH-CAMP-VAJIRAVUDH",
@@ -43,7 +44,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "泰國第一個國家童軍營，NSOT 官方名冊第一席。獲御准以泰國童軍之父拉瑪六世（哇集拉兀）命名；1953年購地88萊、1961年建樓、1962年3月17日正式開幕，經歷代擴建至約498萊（約80公頃）（1981年鐵路穿過削減40萊）；1963年王太后殿下主持護士屋開幕、1973年皇上皇后主持拉瑪六世金像揭幕暨第六屆全國大露營開幕。2008年起地權交歸 NSOT，官方指多年持續翻新以承辦國家及國際級活動。泰國童軍的耶路撒冷。",
     "verificationStatus": "official NSOT camp register + camp-view page (tier: official) fetched 2026-08-10 — Si Racha Chonburi location, royal naming, 1962 opening and ~498-rai estate confirmed; verify events calendar before travel",
-    "verificationSource": "https://www.scoutthailand.org/pages/camp-view.php?id=1"
+    "verificationSource": "https://www.scoutthailand.org/pages/camp-view.php?id=1",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TH-CAMP-ROYAL-JUBILEE-TRANG",
@@ -65,7 +67,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "官方定位「國家級南部童軍營」：政府 1991 年決意在既有兩大國家營（Vajiravudh＋Ban Rai）外增建北部、東北部及南部營地，南部選址董里府淮約縣邦迪村，約2,000萊森林地環抱132萊淡水湖「Thale Song Hong」（雙室海），距淮約縣署約20公里，環境經官方報告評為自然保育級。官方2026年採購公告多宗大型翻新（宿舍×3、道路照明、公共浴室×9 及 2026年6月廢舊物資拍賣），確認持續營運中。",
     "verificationStatus": "official NSOT camp register + camp-view page (tier: official) fetched 2026-08-10 — Huai Yot Trang address, ~2,000-rai lakeside forest, southern national-camp designation confirmed; multiple Aug-2026 procurement notices confirm ongoing renovation operation",
-    "verificationSource": "https://www.scoutthailand.org/pages/camp-view.php?id=3"
+    "verificationSource": "https://www.scoutthailand.org/pages/camp-view.php?id=3",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TH-CAMP-ROYAL-BAN-RAI",
@@ -87,7 +90,8 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "NSOT 第二個國家童軍營，亦是泰國童軍歷史聖地：拉瑪六世曾於 1919–1924 年間九度御駕於 Ban Rai 操場親督「猛虎兵團（เสือป่า）」演習（仍保留其浴池、行宮帳篷位、橄欖樹及布棚床架地點）；1987年5月6日由副官務大臣主持拉瑪六世猛虎裝騎像奠基、1988年8月18日拉瑪九世與當時王儲（現拉瑪十世）主持開幕。場地前身為廢棄佛寺 Wat Som Kliang，現地約89萊。營內設有所思園紀念品店「ไชโย ไชโย」及猛虎兵團會所等七大建築（官方指定名錄）。",
     "verificationStatus": "official NSOT camp register + camp-view page (tier: official) fetched 2026-08-10 — Photharam Ratchaburi address, 2nd national camp status and 1919–24 royal maneuvers history confirmed; verify booking before travel",
-    "verificationSource": "https://www.scoutthailand.org/pages/camp-view.php?id=2"
+    "verificationSource": "https://www.scoutthailand.org/pages/camp-view.php?id=2",
+    "lastReviewed": "2026-08-10"
   },
   {
     "id": "TH-CAMP-RATTARASARN",
@@ -109,6 +113,7 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "description": "1940年宋卡土豪巴差・叻他沙叻捐70萊地予教育部，1965年4月10日建營、1966年2月17日正式開幕並以其家族命名；地契編號5664由財政部持有。官方沿革詳列1982–2008年間由地方政府、老營友及善長接力擴建（宿舍、會議樓、水塘8,000立方米、營門牌樓、伊斯蘭及佛教禮堂等）。官方2026年採購公告：7月更新廁所1座、6月宿舍翻新5座，確認持續營運。",
     "verificationStatus": "official NSOT camp register + camp-view page (tier: official) fetched 2026-08-10 — Songkhla address, 1940 donation and 1966 opening confirmed; 2026 procurement notices confirm ongoing renovation operation",
-    "verificationSource": "https://www.scoutthailand.org/pages/camp-view.php?id=4"
+    "verificationSource": "https://www.scoutthailand.org/pages/camp-view.php?id=4",
+    "lastReviewed": "2026-08-10"
   }
 ]
