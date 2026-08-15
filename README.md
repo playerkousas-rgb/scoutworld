@@ -9,10 +9,10 @@
 
 唔係行程規劃工具，而係一個**資料庫**——價值在於資料量 × 準確度：
 
-| 層級 | 內容 | 規模（2026-08-10） |
+| 層級 | 內容 | 規模（2026-08-14） |
 | --- | --- | --- |
 | L2 | WOSM 會員國／地區總會 | 223（176 個 WOSM 會員全覆蓋＋SCENES 45） |
-| L3/L4 | 各地總部、用品店、營地、博物館、區會 | **1,141** 個地點、178 個國家／地區碼 |
+| L3/L4 | 各地總部、用品店、營地、博物館、區會 | **1,143** 個地點、178 個國家／地區碼 |
 
 每個地點都帶查證來源同核實狀態；未核實嘅會誠實標明。
 資料政策見 [DATA_POLICY.md](DATA_POLICY.md)；逐波擴展嘅審計紀錄見
@@ -38,6 +38,13 @@ GitHub Actions 會在資料變更時執行資料品質及 runtime tests，並每
 - [非洲區](REVIEW_AFRICA_2026-08-14.md)
 - [美洲區](REVIEW_INTERAMERICA_2026-08-14.md)
 - [阿拉伯區＋World／SCENES](REVIEW_ARAB_WORLD_2026-08-14.md)
+
+分類覆蓋報告：
+
+- [Scout Shop](SHOP_COVERAGE_REPORT_2026-08-14.md)
+- [營地](CAMP_COVERAGE_REPORT_2026-08-13.md)
+- [總部及省區／地域](HQ_COVERAGE_REPORT_2026-08-13.md)
+- [特殊地點及其他分類](OTHER_PLACES_COVERAGE_REPORT_2026-08-13.md)
 
 ## 貢獻資料
 

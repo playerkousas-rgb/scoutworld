@@ -2200,7 +2200,7 @@
         const saved = JSON.parse(localStorage.getItem('sw-offline-destinations') || '{}');
         saved[code] = { savedAt: new Date().toISOString(), count: JSON.parse(body).length };
         localStorage.setItem('sw-offline-destinations', JSON.stringify(saved));
-        if (downloadDestinationBtn) downloadDestinationBtn.textContent = '✅ 已下載';
+        updateDestinationDownloadState(code);
         showToast(`✅ ${code} 資料已儲存到此瀏覽器，離線可查看`);
       } catch (err) {
         if (downloadDestinationBtn) downloadDestinationBtn.textContent = '⬇️ 離線下載';
