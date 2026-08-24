@@ -541,7 +541,13 @@
               data-level="4" 
               class="flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all text-slate-400 hover:text-amber-400"
             >
-              🧭 44區會
+              🧭 區會、屬會
+            </button>
+            <button 
+              data-level="5" 
+              class="hidden flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all text-slate-400 hover:text-amber-400"
+            >
+              ⚜️ 旅團
             </button>
           </div>
 
@@ -697,24 +703,6 @@
               <a id="drawer-youtube" href="#" target="_blank" class="text-xs text-red-400 font-extrabold hover:underline inline-flex items-center gap-1">
                 YouTube 頻道 <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
               </a>
-            </div>
-          </div>
-
-          <!-- Official Mobile App (Android / iOS) -->
-          <div id="drawer-app-container" class="hidden flex items-start gap-3">
-            <div class="text-slate-400 w-5 flex-shrink-0 text-center text-sm mt-1">
-              <i class="fa-solid fa-mobile-screen-button text-emerald-400"></i>
-            </div>
-            <div class="flex-1">
-              <span class="text-[10px] font-semibold text-slate-400 block">官方手機 App（一站式資訊平台）</span>
-              <div class="flex flex-wrap gap-2 mt-1">
-                <a id="drawer-app-android" href="#" target="_blank" rel="noopener" class="hidden text-[11px] text-emerald-300 font-extrabold hover:text-emerald-200 bg-emerald-950/50 border border-emerald-900/30 px-2 py-1 rounded inline-flex items-center gap-1.5 transition-colors">
-                  <i class="fa-brands fa-google-play text-[10px]"></i> Google Play
-                </a>
-                <a id="drawer-app-ios" href="#" target="_blank" rel="noopener" class="hidden text-[11px] text-slate-200 font-extrabold hover:text-white bg-white/5 border border-white/10 px-2 py-1 rounded inline-flex items-center gap-1.5 transition-colors">
-                  <i class="fa-brands fa-app-store-ios text-[10px]"></i> App Store
-                </a>
-              </div>
             </div>
           </div>
 
@@ -958,16 +946,7 @@
             <a href="https://www.facebook.com/ibsahk" target="_blank" rel="noopener" class="bg-sky-950/40 hover:bg-sky-950/60 border border-sky-900/30 hover:border-sky-400 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-sky-300 transition-all flex items-center justify-center gap-1.5">
               <i class="fa-solid fa-globe"></i> 國際署 Facebook
             </a>
-            <a href="https://play.google.com/store/apps/details?id=hk.org.scout.scoutapp&hl=zh_HK" target="_blank" rel="noopener" class="bg-emerald-950/40 hover:bg-emerald-950/60 border border-emerald-900/30 hover:border-emerald-400 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-emerald-300 transition-all flex items-center justify-center gap-1.5">
-              <i class="fa-brands fa-google-play"></i> HK Scouts App（Android）
-            </a>
-            <a href="https://apps.apple.com/hk/app/hk-scouts/id1658515182" target="_blank" rel="noopener" class="bg-slate-800/60 hover:bg-slate-700/60 border border-white/10 hover:border-slate-300 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-slate-200 transition-all flex items-center justify-center gap-1.5">
-              <i class="fa-brands fa-app-store-ios"></i> HK Scouts App（iOS）
-            </a>
           </div>
-          <p class="text-[10px] text-slate-500 leading-relaxed">
-            「HK Scouts」官方 App 一站式提供最新消息、活動訓練、總會／地域／區會單位聯絡資料（電話、網站、FB、IG 及地圖），仲可以追蹤單位接收推送通知。
-          </p>
         </div>
 
         <!-- 官方入口 -->
@@ -1013,8 +992,6 @@
       "facebook": "https://www.facebook.com/hkscout",
       "instagram": "hkscouting",
       "youtube": "https://www.youtube.com/channel/UCzWCJnS0wHFMq1rkqzZSXUw",
-      "appAndroid": "https://play.google.com/store/apps/details?id=hk.org.scout.scoutapp&hl=zh_HK",
-      "appIos": "https://apps.apple.com/hk/app/hk-scouts/id1658515182",
       "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
     };
 
@@ -1058,7 +1035,7 @@
     let searchInput, clearSearchBtn, regionFilters, orgsList, filteredCount, loadingIndicator, mapPanel, mapFullscreenBtn;
     let statOrgs, statMembers, hkShortcutCard, onlineShopCard;
     let detailDrawer, closeDrawerBtn, backToNationalBtn, drawerFlag, drawerLogo, drawerCountry, drawerCountryEn, drawerRegion, drawerOrgFull, drawerOrgShort, drawerFounded, drawerFoundedBadge, drawerMembers, drawerAddress, drawerMapsAction, drawerPhone, drawerPhoneAction, drawerEmail, drawerEmailAction, drawerWebsite, drawerCoordinates, copyCoordsBtn, copyToast, drawerWosmSource, drawerOfficialSearchContainer, drawerOfficialSearchAction;
-    let l3Section, l3List, l3LevelPills, l4SubregionContainer, l3TypeFilters, drawerDescBlock, drawerDescText, drawerConfidenceNote, drawerVerificationBadges, drawerCategoryLabel, drawerStatsRow, drawerSourceBox, drawerShortBadge, drawerOrgShortLabel, drawerInstagramContainer, drawerInstagram, drawerFacebookContainer, drawerFacebook, drawerYoutubeContainer, drawerYoutube, drawerAppContainer, drawerAppAndroid, drawerAppIos;
+    let l3Section, l3List, l3LevelPills, l4SubregionContainer, l3TypeFilters, drawerDescBlock, drawerDescText, drawerConfidenceNote, drawerVerificationBadges, drawerCategoryLabel, drawerStatsRow, drawerSourceBox, drawerShortBadge, drawerOrgShortLabel, drawerInstagramContainer, drawerInstagram, drawerFacebookContainer, drawerFacebook, drawerYoutubeContainer, drawerYoutube;
     
     // Travel Toolbox UI variables
     let travelToolboxBtn, travelModal, closeTravelModalBtn, confirmTravelModalBtn, badgeLegendBtn, badgeLegendModal, closeBadgeLegendBtn;
@@ -1140,9 +1117,6 @@
       drawerInstagram = document.getElementById('drawer-instagram');
       drawerYoutubeContainer = document.getElementById('drawer-youtube-container');
       drawerYoutube = document.getElementById('drawer-youtube');
-      drawerAppContainer = document.getElementById('drawer-app-container');
-      drawerAppAndroid = document.getElementById('drawer-app-android');
-      drawerAppIos = document.getElementById('drawer-app-ios');
       
       // Travel elements
       travelToolboxBtn = document.getElementById('travel-toolbox-btn');
@@ -1416,10 +1390,11 @@
         
         // Match active filters (Level 3 or Level 4)
         const matchesLevel = (activeLevelTab === 3 && (item.level === 3 || !item.level)) || 
-                             (activeLevelTab === 4 && item.level === 4);
+                             (activeLevelTab === 4 && item.level === 4) ||
+                             (activeLevelTab === 5 && item.level === 5);
                              
         // If Level 4 HK districts, support regional sub-filters
-        const matchesSubregion = activeLevelTab !== 4 || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
+        const matchesSubregion = (activeLevelTab !== 4 && activeLevelTab !== 5) || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
         
         if (!matchesLevel || !matchesSubregion || !matchesL3TypeFilter(item)) return;
         
@@ -1434,6 +1409,7 @@
         if (item.type === 'District') borderColor = 'border-purple-400';
         if (item.type === 'Department') borderColor = 'border-sky-400';
         if (item.type === 'Subsidiary') borderColor = 'border-rose-400';
+        if (item.type === 'Group') borderColor = 'border-teal-400';
         
         const activeClass = isActive ? 'ring-4 ring-amber-300 scale-120 z-50' : 'hover:scale-115';
         
@@ -1482,7 +1458,7 @@
       const pts = [];
       if (currentSelectedOrg.lat && currentSelectedOrg.lng) pts.push([currentSelectedOrg.lat, currentSelectedOrg.lng]);
       (currentL3Data || []).forEach(item => {
-        if (item.lat && item.lng && (item.level === 3 || !item.level || item.level === 4)) pts.push([item.lat, item.lng]);
+        if (item.lat && item.lng && (item.level === 3 || !item.level || item.level === 4 || item.level === 5)) pts.push([item.lat, item.lng]);
       });
       if (pts.length >= 2) {
         const bounds = L.latLngBounds(pts);
@@ -1589,12 +1565,15 @@
         
         // Check if we have Level 4 data (like Hong Kong districts). If not, hide tab bar and show L3 directly.
         const hasL4 = localData.some(item => item.level === 4);
+        const hasL5 = localData.some(item => item.level === 5);
         if (l3LevelPills) {
           if (hasL4 && countryId !== 'SHOPPING') {
             l3LevelPills.classList.remove('hidden');
           } else {
             l3LevelPills.classList.add('hidden');
           }
+          const l5Pill = l3LevelPills.querySelector('button[data-level="5"]');
+          if (l5Pill) l5Pill.classList.toggle('hidden', !hasL5);
         }
 
         // Shopping directory is intentionally simple: direct link cards only, no extra filters needed.
@@ -1652,7 +1631,8 @@
         // Show count in console for debug
         const l3Count = localData.filter(i => i.level === 3 || !i.level).length;
         const l4Count = localData.filter(i => i.level === 4).length;
-        console.log(`[ScoutWorld] L3 items: ${l3Count}, L4 items: ${l4Count}`);
+        const l5Count = localData.filter(i => i.level === 5).length;
+        console.log(`[ScoutWorld] L3 items: ${l3Count}, L4 items: ${l4Count}, L5 items: ${l5Count}`);
       } catch (err) {
         console.error(`[ScoutWorld] ❌ Error loading L3 data for ${countryId}:`, err);
       }
@@ -1696,8 +1676,9 @@
       
       const filteredLocal = currentL3Data.filter(item => {
         const matchesLevel = (activeLevelTab === 3 && (item.level === 3 || !item.level)) || 
-                             (activeLevelTab === 4 && item.level === 4);
-        const matchesSubregion = activeLevelTab !== 4 || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
+                             (activeLevelTab === 4 && item.level === 4) ||
+                             (activeLevelTab === 5 && item.level === 5);
+        const matchesSubregion = (activeLevelTab !== 4 && activeLevelTab !== 5) || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
         return matchesLevel && matchesSubregion && matchesL3TypeFilter(item);
       });
       
@@ -1749,6 +1730,7 @@
         if (item.type === 'District') badgeColor = 'bg-purple-950/50 text-purple-300 border border-purple-900/30';
         if (item.type === 'Department') badgeColor = 'bg-sky-950/50 text-sky-300 border border-sky-900/30';
         if (item.type === 'Subsidiary') badgeColor = 'bg-rose-950/50 text-rose-300 border border-rose-900/30';
+        if (item.type === 'Group') badgeColor = 'bg-teal-950/50 text-teal-300 border border-teal-900/30';
 
         // Check if item has Facebook or Instagram to render quick-link buttons DIRECTLY in the row!
         const fbButtonHtml = item.facebook ? `
@@ -1791,7 +1773,7 @@
             <span class="text-base flex-shrink-0 select-none">${item.flag || '📍'}</span>
             <div class="overflow-hidden">
               <span class="font-extrabold text-slate-100 leading-tight block truncate">${item.name}</span>
-              <span class="text-[9px] text-slate-400 font-semibold block truncate">${item.subregion}</span>
+              <span class="text-[9px] text-slate-400 font-semibold block truncate">${item.district ? `${item.subregion}・${item.district}` : item.subregion}</span>
               <div class="flex flex-wrap gap-1 mt-1">${verificationBadgeHtml(item)}</div>
             </div>
           </div>
@@ -1888,7 +1870,10 @@
       updateDrawerFavBtn(); // 同步詳情頁⭐狀態
       
       // Update tab active category view to match selection
-      if (item.level === 4) {
+      if (item.level === 5) {
+        activeLevelTab = 5;
+        if (l4SubregionContainer) l4SubregionContainer.classList.remove('hidden');
+      } else if (item.level === 4) {
         activeLevelTab = 4;
         if (l4SubregionContainer) l4SubregionContainer.classList.remove('hidden');
         // Highlight active subregion tab
@@ -1913,7 +1898,7 @@
       
       // Zoom map directly to the specific local campsite / council / district
       if (item.lat && item.lng) {
-        const zoomLevel = item.level === 4 ? 13 : (item.type === 'Region' ? 12 : 12); // zoom closer for local districts
+        const zoomLevel = item.level === 5 ? 14 : (item.level === 4 ? 13 : (item.type === 'Region' ? 12 : 12)); // zoom closer for local districts
         map.setView([item.lat, item.lng], zoomLevel, { animate: true, duration: 1.2 });
       }
       
@@ -2031,7 +2016,6 @@
       } else {
         drawerWebsite.parentElement.parentElement.classList.add('hidden');
       }
-      updateAppLinks(item);
       updateOfficialSearchButton(item);
       
       // Coordinates
@@ -2166,7 +2150,6 @@
       } else {
         drawerWebsite.parentElement.parentElement.classList.add('hidden');
       }
-      updateAppLinks(org);
       updateOfficialSearchButton(org);
       
       // Coordinates
@@ -2362,22 +2345,6 @@
       if (!host) return '';
       const terms = '大露營 OR 活動 OR 國際 OR jamboree OR camporee OR event OR international';
       return `https://www.google.com/search?q=${encodeURIComponent(`site:${host} ${terms}`)}`;
-    }
-
-    // 官方手機 App 連結（Google Play / App Store）— 資訊平台，非正式聯絡渠道
-    function updateAppLinks(item = {}) {
-      if (!drawerAppContainer) return;
-      const hasAndroid = !!item.appAndroid;
-      const hasIos = !!item.appIos;
-      if (drawerAppAndroid) {
-        drawerAppAndroid.href = item.appAndroid || '#';
-        drawerAppAndroid.classList.toggle('hidden', !hasAndroid);
-      }
-      if (drawerAppIos) {
-        drawerAppIos.href = item.appIos || '#';
-        drawerAppIos.classList.toggle('hidden', !hasIos);
-      }
-      drawerAppContainer.classList.toggle('hidden', !(hasAndroid || hasIos));
     }
 
     function updateOfficialSearchButton(item = {}) {
@@ -2998,7 +2965,7 @@
         activeLevelTab = parseInt(pill.dataset.level);
         activeL3Item = null; // reset specific selected sub-item
         
-        if (activeLevelTab === 4) {
+        if (activeLevelTab === 4 || activeLevelTab === 5) {
           if (l4SubregionContainer) l4SubregionContainer.classList.remove('hidden');
         } else {
           if (l4SubregionContainer) l4SubregionContainer.classList.add('hidden');
