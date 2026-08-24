@@ -561,6 +561,7 @@
             <button data-type="Shop" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">Shop</button>
             <button data-type="Campsite" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">營地</button>
             <button data-type="Headquarters" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">HQ</button>
+            <button data-type="dept" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5" title="總會各署、訓練機構及屬會（知友社、綜合教育中心、貝登堡聯誼會、總監俱樂部、龍堡國際等）">署／屬會</button>
             <button data-type="Region" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">地域</button>
             <button data-type="verified" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">有來源</button>
             <button data-type="verify" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">需覆核</button>
@@ -1431,6 +1432,8 @@
         if (item.type === 'Region') borderColor = 'border-violet-400';
         if (item.type === 'Council') borderColor = 'border-blue-400';
         if (item.type === 'District') borderColor = 'border-purple-400';
+        if (item.type === 'Department') borderColor = 'border-sky-400';
+        if (item.type === 'Subsidiary') borderColor = 'border-rose-400';
         
         const activeClass = isActive ? 'ring-4 ring-amber-300 scale-120 z-50' : 'hover:scale-115';
         
@@ -1663,6 +1666,10 @@
         return (item.visitorNote || '').trim().startsWith('✅');
       }
       if (activeL3TypeFilter === 'all') return true;
+      // 署／屬會：總會部門、屬會及訓練機構
+      if (activeL3TypeFilter === 'dept') {
+        return item.type === 'Department' || item.type === 'Subsidiary';
+      }
       if (activeL3TypeFilter === 'verified') return !!item.verificationSource;
       if (activeL3TypeFilter === 'verify') {
         const status = (item.verificationStatus || '').toLowerCase();
@@ -1740,6 +1747,8 @@
         if (item.type === 'Region') badgeColor = 'bg-violet-950/50 text-violet-300 border border-violet-900/30';
         if (item.type === 'Council') badgeColor = 'bg-blue-950/50 text-blue-300 border border-blue-900/30';
         if (item.type === 'District') badgeColor = 'bg-purple-950/50 text-purple-300 border border-purple-900/30';
+        if (item.type === 'Department') badgeColor = 'bg-sky-950/50 text-sky-300 border border-sky-900/30';
+        if (item.type === 'Subsidiary') badgeColor = 'bg-rose-950/50 text-rose-300 border border-rose-900/30';
 
         // Check if item has Facebook or Instagram to render quick-link buttons DIRECTLY in the row!
         const fbButtonHtml = item.facebook ? `
