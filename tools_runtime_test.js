@@ -70,7 +70,7 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
   await runTest('核心：索引/計數一致 + 熱籤掣齊', async () => {
     const idx = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/search-index.json'), 'utf8'));
     const idxLen = Array.isArray(idx) ? idx.length : (idx.items || []).length;
-    assert(idxLen === 1366, 'index 1366: got ' + idxLen);
+    assert(idxLen === 1554, 'index 1554: got ' + idxLen);
     const pc = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/place-counts.json'), 'utf8'));
     assert(Object.keys(pc).length === 178, '178 codes');
     ['JP','TW','KR','SG','TH','AU','GB','CH'].forEach(cc => assert(doc.querySelector(`.hot-chip[data-cc="${cc}"]`), 'hot chip ' + cc));

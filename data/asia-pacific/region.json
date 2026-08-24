@@ -159,7 +159,10 @@
     "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
     "verificationStatus": "L2 WOSM official member organization entry",
     "logoUrl": "https://www.scout.org/sites/default/files/styles/thumbnail/public/organizations/logos/3039/9%20Hong%20Kong.jpg?itok=34U2Ekfd",
-    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
+    "logoSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries",
+    "facebook": "https://www.facebook.com/hkscout",
+    "youtube": "https://www.youtube.com/channel/UCzWCJnS0wHFMq1rkqzZSXUw",
+    "socialVerificationSource": "https://www.scout.org.hk/"
   },
   {
     "id": "ID",

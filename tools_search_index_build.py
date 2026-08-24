@@ -99,7 +99,9 @@ def main():
             counts[c] = {'l3': 0, 'l4': 0, 'open': 0}
         if row.get('open'):
             counts[c]['open'] += 1
-        if row.get('lvl') == 4:
+        if row.get('lvl') == 5:
+            counts[c]['l5'] = counts[c].get('l5', 0) + 1
+        elif row.get('lvl') == 4:
             counts[c]['l4'] += 1
         else:
             counts[c]['l3'] += 1

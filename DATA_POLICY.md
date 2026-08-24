@@ -25,6 +25,14 @@ Required fields where possible:
 - wosmSource
 - verificationStatus
 
+### Hong Kong hierarchy (HK only)
+
+Hong Kong uses a finer hierarchy matching the Scout Association of Hong Kong structure:
+
+- **L3** — National HQ, Association Headquarters Branches (署), Regions (地域), campsites, Scout Shop
+- **L4** — Districts (區), Subsidiaries (屬會), other AHQ units
+- **L5** — Scout Groups (旅團), only those with an official website on the Scout Unit Portal (`group.scout.org.hk`) or another reliable official source. Group meeting places are not published; use `locationAccuracy` representative-point wording and point users to the group website / district office.
+
 ### L3 — Local useful data
 
 L3 may include:

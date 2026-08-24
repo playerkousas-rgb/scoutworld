@@ -541,7 +541,13 @@
               data-level="4" 
               class="flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all text-slate-400 hover:text-amber-400"
             >
-              🧭 44區會
+              🧭 區會、屬會
+            </button>
+            <button 
+              data-level="5" 
+              class="hidden flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all text-slate-400 hover:text-amber-400"
+            >
+              ⚜️ 旅團
             </button>
           </div>
 
@@ -561,6 +567,7 @@
             <button data-type="Shop" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">Shop</button>
             <button data-type="Campsite" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">營地</button>
             <button data-type="Headquarters" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">HQ</button>
+            <button data-type="dept" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5" title="總會各署、訓練機構及屬會（知友社、綜合教育中心、貝登堡聯誼會、總監俱樂部、龍堡國際等）">署／屬會</button>
             <button data-type="Region" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">地域</button>
             <button data-type="verified" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">有來源</button>
             <button data-type="verify" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">需覆核</button>
@@ -698,6 +705,7 @@
               </a>
             </div>
           </div>
+
           
           <!-- Website -->
           <div class="flex items-start gap-3">
@@ -917,6 +925,30 @@
           </ul>
         </div>
 
+        <!-- 📲 香港童軍總會官方渠道（社交平台 + App） -->
+        <div class="bg-[#010c29] border border-white/5 rounded-xl p-4 space-y-3">
+          <h4 class="font-black text-amber-300 uppercase tracking-wider flex items-center gap-1.5">
+            <i class="fa-solid fa-tower-broadcast"></i> 📲 香港童軍總會官方渠道
+          </h4>
+          <p class="text-[11px] text-slate-400 leading-relaxed">
+            總會地址：九龍柯士甸道童軍徑香港童軍中心｜總機 <a href="tel:+85223773300" class="text-amber-300 font-black underline decoration-dotted">2377 3300</a>｜國際署（正式海外聯絡） <a href="tel:+85229576400" class="text-amber-300 font-black underline decoration-dotted">2957 6400</a>。社交平台及 App 只作資訊及國際友誼交流，並非正式聯絡渠道。
+          </p>
+          <div class="grid grid-cols-2 gap-2">
+            <a href="https://www.facebook.com/hkscout" target="_blank" rel="noopener" class="bg-blue-950/40 hover:bg-blue-950/60 border border-blue-900/30 hover:border-blue-400 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-blue-300 transition-all flex items-center justify-center gap-1.5">
+              <i class="fa-brands fa-facebook"></i> Facebook 專頁
+            </a>
+            <a href="https://www.instagram.com/hkscouting/" target="_blank" rel="noopener" class="bg-pink-950/40 hover:bg-pink-950/60 border border-pink-900/30 hover:border-pink-400 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-pink-300 transition-all flex items-center justify-center gap-1.5">
+              <i class="fa-brands fa-instagram"></i> Instagram @hkscouting
+            </a>
+            <a href="https://www.youtube.com/channel/UCzWCJnS0wHFMq1rkqzZSXUw" target="_blank" rel="noopener" class="bg-red-950/40 hover:bg-red-950/60 border border-red-900/30 hover:border-red-400 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-red-300 transition-all flex items-center justify-center gap-1.5">
+              <i class="fa-brands fa-youtube"></i> YouTube 頻道
+            </a>
+            <a href="https://www.facebook.com/ibsahk" target="_blank" rel="noopener" class="bg-sky-950/40 hover:bg-sky-950/60 border border-sky-900/30 hover:border-sky-400 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-sky-300 transition-all flex items-center justify-center gap-1.5">
+              <i class="fa-solid fa-globe"></i> 國際署 Facebook
+            </a>
+          </div>
+        </div>
+
         <!-- 官方入口 -->
         <div class="grid grid-cols-2 gap-2">
           <a href="https://www.scout.org.hk" target="_blank" rel="noopener" class="bg-[#09225e] hover:bg-[#0e2d7d] border border-white/10 hover:border-amber-400 rounded-xl px-3 py-2.5 text-center font-black text-[11px] text-amber-300 transition-all flex items-center justify-center gap-1.5">
@@ -957,7 +989,9 @@
       "website": "https://www.scout.org.hk",
       "email": "",
       "contactPolicy": "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。",
+      "facebook": "https://www.facebook.com/hkscout",
       "instagram": "hkscouting",
+      "youtube": "https://www.youtube.com/channel/UCzWCJnS0wHFMq1rkqzZSXUw",
       "wosmSource": "https://www.scout.org/where-we-work/regions/asia-pacific/countries"
     };
 
@@ -1356,10 +1390,11 @@
         
         // Match active filters (Level 3 or Level 4)
         const matchesLevel = (activeLevelTab === 3 && (item.level === 3 || !item.level)) || 
-                             (activeLevelTab === 4 && item.level === 4);
+                             (activeLevelTab === 4 && item.level === 4) ||
+                             (activeLevelTab === 5 && item.level === 5);
                              
         // If Level 4 HK districts, support regional sub-filters
-        const matchesSubregion = activeLevelTab !== 4 || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
+        const matchesSubregion = (activeLevelTab !== 4 && activeLevelTab !== 5) || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
         
         if (!matchesLevel || !matchesSubregion || !matchesL3TypeFilter(item)) return;
         
@@ -1372,6 +1407,9 @@
         if (item.type === 'Region') borderColor = 'border-violet-400';
         if (item.type === 'Council') borderColor = 'border-blue-400';
         if (item.type === 'District') borderColor = 'border-purple-400';
+        if (item.type === 'Department') borderColor = 'border-sky-400';
+        if (item.type === 'Subsidiary') borderColor = 'border-rose-400';
+        if (item.type === 'Group') borderColor = 'border-teal-400';
         
         const activeClass = isActive ? 'ring-4 ring-amber-300 scale-120 z-50' : 'hover:scale-115';
         
@@ -1420,7 +1458,7 @@
       const pts = [];
       if (currentSelectedOrg.lat && currentSelectedOrg.lng) pts.push([currentSelectedOrg.lat, currentSelectedOrg.lng]);
       (currentL3Data || []).forEach(item => {
-        if (item.lat && item.lng && (item.level === 3 || !item.level || item.level === 4)) pts.push([item.lat, item.lng]);
+        if (item.lat && item.lng && (item.level === 3 || !item.level || item.level === 4 || item.level === 5)) pts.push([item.lat, item.lng]);
       });
       if (pts.length >= 2) {
         const bounds = L.latLngBounds(pts);
@@ -1527,12 +1565,15 @@
         
         // Check if we have Level 4 data (like Hong Kong districts). If not, hide tab bar and show L3 directly.
         const hasL4 = localData.some(item => item.level === 4);
+        const hasL5 = localData.some(item => item.level === 5);
         if (l3LevelPills) {
           if (hasL4 && countryId !== 'SHOPPING') {
             l3LevelPills.classList.remove('hidden');
           } else {
             l3LevelPills.classList.add('hidden');
           }
+          const l5Pill = l3LevelPills.querySelector('button[data-level="5"]');
+          if (l5Pill) l5Pill.classList.toggle('hidden', !hasL5);
         }
 
         // Shopping directory is intentionally simple: direct link cards only, no extra filters needed.
@@ -1590,7 +1631,8 @@
         // Show count in console for debug
         const l3Count = localData.filter(i => i.level === 3 || !i.level).length;
         const l4Count = localData.filter(i => i.level === 4).length;
-        console.log(`[ScoutWorld] L3 items: ${l3Count}, L4 items: ${l4Count}`);
+        const l5Count = localData.filter(i => i.level === 5).length;
+        console.log(`[ScoutWorld] L3 items: ${l3Count}, L4 items: ${l4Count}, L5 items: ${l5Count}`);
       } catch (err) {
         console.error(`[ScoutWorld] ❌ Error loading L3 data for ${countryId}:`, err);
       }
@@ -1604,6 +1646,10 @@
         return (item.visitorNote || '').trim().startsWith('✅');
       }
       if (activeL3TypeFilter === 'all') return true;
+      // 署／屬會：總會部門、屬會及訓練機構
+      if (activeL3TypeFilter === 'dept') {
+        return item.type === 'Department' || item.type === 'Subsidiary';
+      }
       if (activeL3TypeFilter === 'verified') return !!item.verificationSource;
       if (activeL3TypeFilter === 'verify') {
         const status = (item.verificationStatus || '').toLowerCase();
@@ -1630,8 +1676,9 @@
       
       const filteredLocal = currentL3Data.filter(item => {
         const matchesLevel = (activeLevelTab === 3 && (item.level === 3 || !item.level)) || 
-                             (activeLevelTab === 4 && item.level === 4);
-        const matchesSubregion = activeLevelTab !== 4 || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
+                             (activeLevelTab === 4 && item.level === 4) ||
+                             (activeLevelTab === 5 && item.level === 5);
+        const matchesSubregion = (activeLevelTab !== 4 && activeLevelTab !== 5) || activeL4Subregion === 'all' || item.subregion === activeL4Subregion;
         return matchesLevel && matchesSubregion && matchesL3TypeFilter(item);
       });
       
@@ -1681,6 +1728,9 @@
         if (item.type === 'Region') badgeColor = 'bg-violet-950/50 text-violet-300 border border-violet-900/30';
         if (item.type === 'Council') badgeColor = 'bg-blue-950/50 text-blue-300 border border-blue-900/30';
         if (item.type === 'District') badgeColor = 'bg-purple-950/50 text-purple-300 border border-purple-900/30';
+        if (item.type === 'Department') badgeColor = 'bg-sky-950/50 text-sky-300 border border-sky-900/30';
+        if (item.type === 'Subsidiary') badgeColor = 'bg-rose-950/50 text-rose-300 border border-rose-900/30';
+        if (item.type === 'Group') badgeColor = 'bg-teal-950/50 text-teal-300 border border-teal-900/30';
 
         // Check if item has Facebook or Instagram to render quick-link buttons DIRECTLY in the row!
         const fbButtonHtml = item.facebook ? `
@@ -1723,7 +1773,7 @@
             <span class="text-base flex-shrink-0 select-none">${item.flag || '📍'}</span>
             <div class="overflow-hidden">
               <span class="font-extrabold text-slate-100 leading-tight block truncate">${item.name}</span>
-              <span class="text-[9px] text-slate-400 font-semibold block truncate">${item.subregion}</span>
+              <span class="text-[9px] text-slate-400 font-semibold block truncate">${item.district ? `${item.subregion}・${item.district}` : item.subregion}</span>
               <div class="flex flex-wrap gap-1 mt-1">${verificationBadgeHtml(item)}</div>
             </div>
           </div>
@@ -1820,7 +1870,10 @@
       updateDrawerFavBtn(); // 同步詳情頁⭐狀態
       
       // Update tab active category view to match selection
-      if (item.level === 4) {
+      if (item.level === 5) {
+        activeLevelTab = 5;
+        if (l4SubregionContainer) l4SubregionContainer.classList.remove('hidden');
+      } else if (item.level === 4) {
         activeLevelTab = 4;
         if (l4SubregionContainer) l4SubregionContainer.classList.remove('hidden');
         // Highlight active subregion tab
@@ -1845,7 +1898,7 @@
       
       // Zoom map directly to the specific local campsite / council / district
       if (item.lat && item.lng) {
-        const zoomLevel = item.level === 4 ? 13 : (item.type === 'Region' ? 12 : 12); // zoom closer for local districts
+        const zoomLevel = item.level === 5 ? 14 : (item.level === 4 ? 13 : (item.type === 'Region' ? 12 : 12)); // zoom closer for local districts
         map.setView([item.lat, item.lng], zoomLevel, { animate: true, duration: 1.2 });
       }
       
@@ -2912,7 +2965,7 @@
         activeLevelTab = parseInt(pill.dataset.level);
         activeL3Item = null; // reset specific selected sub-item
         
-        if (activeLevelTab === 4) {
+        if (activeLevelTab === 4 || activeLevelTab === 5) {
           if (l4SubregionContainer) l4SubregionContainer.classList.remove('hidden');
         } else {
           if (l4SubregionContainer) l4SubregionContainer.classList.add('hidden');
