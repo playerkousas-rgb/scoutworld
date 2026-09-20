@@ -1,0 +1,34 @@
+# Keep Vercel deployments limited to runtime assets only.
+.git
+.git/**
+node_modules
+node_modules/**
+.venv
+__pycache__
+*.py[cod]
+*.bak
+*.tmp
+*.old
+*.log
+uploads
+uploads/**
+
+# Development, QA, and repository documentation are not served by the static app.
+.github
+*.md
+*.py
+tools_runtime_test.js
+tools_link_check_test.py
+package.json
+package-lock.json
+
+# Local/build caches (do not commit or deploy these).
+.vercel
+.cache
+.vite
+.next
+dist
+build
+coverage
+LINK_CHECK_REPORT_*.md
+LINK_CHECK_RESULTS_*.csv
