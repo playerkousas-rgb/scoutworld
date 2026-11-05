@@ -369,6 +369,46 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     ].forEach(file => assert(fs.existsSync(path.join(ROOT, file)), 'missing report ' + file));
   });
 
+  // ============ 🌐 中英雙語（i18n） ============
+  await runTest('🌐 i18n：中／英切換、地名英譯、狀態保留', async () => {
+    const $el = s => doc.querySelector(s);
+    const headerText = () => $el('header p').textContent;
+    const regionText = () => [...doc.querySelectorAll('.region-btn')].map(b => b.textContent).join('|');
+    assert($el('#lang-toggle'), '語言切換掣唔見咗');
+    assert(doc.documentElement.lang === 'zh-Hant-HK', '預設應該係中文：' + doc.documentElement.lang);
+
+    await clickHot('JP');
+    const zhRow = l3Rows()[0].textContent;
+    assert(/日本/.test(zhRow), '中文地名：' + zhRow.slice(0, 60));
+
+    $el('#lang-toggle').click();
+    await new Promise(r => setTimeout(r, 500));
+    assert(doc.documentElement.lang === 'en', 'html lang 未切換');
+    assert(/Trip planning for Hong Kong Scouts/.test(headerText()), '標語未翻譯：' + headerText());
+    assert(/Asia-Pacific/.test(regionText()) && !/亞太區/.test(regionText()), '大區分頁未翻譯：' + regionText());
+    assert(/All/.test($el('.l3-type-btn').textContent), '篩選未翻譯');
+    assert(w.localStorage.getItem('sw-lang') === 'en', '語言選擇未記住');
+
+    const enRow = l3Rows()[0].textContent;
+    assert(enRow !== zhRow && /Scout Association of Japan/.test(enRow), '地點名未用英文：' + enRow.slice(0, 80));
+
+    l3Rows()[0].click();
+    await new Promise(r => setTimeout(r, 400));
+    assert(/Scout Association of Japan/.test($el('#drawer-country').textContent), '詳情頁名稱未英譯');
+    assert(/日本童軍連盟/.test($el('#drawer-country-en').textContent), '英文模式應同時顯示中文名對照');
+    assert(/^Category:/.test($el('#drawer-category-label').textContent), '類別標籤未英譯：' + $el('#drawer-category-label').textContent);
+    assert(/description kept in Chinese/.test($el('#drawer-confidence-note').textContent), '未標明簡介係中文原文');
+    assert(/trip planning for Hong Kong Scouts/i.test(doc.title), 'document.title 未翻譯：' + doc.title);
+    assert(/A trip-planning database/.test($el('meta[name=description]').getAttribute('content')), 'meta description 未翻譯');
+
+    $el('#lang-toggle').click();
+    await new Promise(r => setTimeout(r, 500));
+    assert(doc.documentElement.lang === 'zh-Hant-HK', '切返中文失敗');
+    assert(/香港童軍外遊規劃首選/.test(headerText()), '中文標語未還原：' + headerText());
+    assert(/日本/.test(l3Rows()[0].textContent), '中文地名未還原');
+    assert(w.localStorage.getItem('sw-lang') === 'zh', '中文選擇未記住');
+  });
+
   console.log(`\n===== 測試結束：${failureCount ? `${failureCount} 項失敗` : '全部通過'} =====`);
   if (failureCount) process.exitCode = 1;
 })();

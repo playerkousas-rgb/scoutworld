@@ -9,6 +9,7 @@
 - 不要提交 `node_modules/`、`.vercel/`、`dist/`、`build/`、`.cache/`、`coverage/`、`__pycache__/`、上傳資料夾或 `*.bak` / `*.tmp` / `*.old` / `*.log`。
 - 只將瀏覽器執行所需的 HTML、JS、CSS、圖片、manifest、service worker 和 `data/` 資料部署；開發工具、測試檔和報告由 `.vercelignore` 排除。
 - 依賴應保持最少。純靜態 runtime 不得新增 `dependencies`；只在檢查或建置用的工具放 `devDependencies`。
+- 翻譯只可以加喺 `index.html` 內嘅 `EN` / `EN_HTML` 字典，唔可以為每種語言複製一份 HTML 或者一份 `data/`（否則改 bug 要改幾次，亦會令部署大一倍）。加完翻譯要跑 `npm run test:i18n`。
 
 ## 變更後驗收
 
