@@ -166,6 +166,50 @@ doc.querySelectorAll('title, meta[data-i18n-attr]').forEach(el => {
   if (EN[key] === undefined) errors.push(`漏譯（head）：${JSON.stringify(key)}`);
 });
 
+// ---------- 4. 資料標籤覆蓋（只用嚟報告，避免靜靜退步） ----------
+// 地點名／簡介係資料原文，唔強制翻譯；但 category / subregion / district
+// 呢類標籤會用 locLabel() 查字典，所以要定期確認覆蓋率冇跌。
+const dataDir = path.join(ROOT, 'data');
+const LATIN = /[A-Za-z]{2,}/;
+const fieldStats = {};
+
+function collectJsonFiles(dir, out = []) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) collectJsonFiles(full, out);
+    else if (entry.name.endsWith('.json') && entry.name !== 'search-index.json' && entry.name !== 'place-counts.json') out.push(full);
+  }
+  return out;
+}
+
+if (fs.existsSync(dataDir)) {
+  for (const file of collectJsonFiles(dataDir)) {
+    let rows;
+    try { rows = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (err) { continue; }
+    if (!Array.isArray(rows)) continue;
+    for (const row of rows) {
+      if (!row || typeof row !== 'object') continue;
+      for (const field of ['category', 'subregion', 'district']) {
+        const value = row[field];
+        if (typeof value !== 'string' || !value.trim() || !CJK.test(value)) continue;
+        const stat = fieldStats[field] || (fieldStats[field] = { total: 0, covered: 0 });
+        stat.total += 1;
+        if (LATIN.test(value) || EN[value] !== undefined) stat.covered += 1;
+      }
+    }
+  }
+  const floors = { category: 0.98, subregion: 0.95, district: 0.9 };
+  Object.entries(fieldStats).forEach(([field, stat]) => {
+    const ratio = stat.covered / stat.total;
+    const pct = (ratio * 100).toFixed(1);
+    if (ratio < (floors[field] || 0.9)) {
+      errors.push(`${field} 英譯覆蓋率跌到 ${pct}%（${stat.total - stat.covered}/${stat.total} 條得中文）`);
+    } else {
+      console.log(`   ${field}: 英文覆蓋 ${pct}%（${stat.covered}/${stat.total}）`);
+    }
+  });
+}
+
 if (errors.length) {
   console.error(`❌ i18n 檢查失敗：${errors.length} 項`);
   errors.forEach(message => console.error('   ' + message));

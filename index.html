@@ -1338,7 +1338,54 @@
       "總部大樓": "HQ building",
       "香港童軍中心": "Hong Kong Scout Centre",
       "（簡介以中文原文提供，未經翻譯）": " (description kept in Chinese, the source language)",
-      "出發前參考資料｜匯出日期：{date}": "Pre-trip reference | Exported: {date}"
+      "出發前參考資料｜匯出日期：{date}": "Pre-trip reference | Exported: {date}",
+      "國家童軍總部（⚠️ 未確認設實體零售店）": "National Scout HQ (⚠️ physical shop not confirmed)",
+      "國家童軍活動中心（⚠️ 非零售店）": "National Scout activity centre (⚠️ not a retail shop)",
+      "開羅近郊": "Cairo outskirts",
+      "東京 杉並區": "Tokyo · Suginami",
+      "東京 御茶ノ水 / 神田小川町": "Tokyo · Ochanomizu / Kanda-Ogawamachi",
+      "日本 / 東京 御茶ノ水 / 神田小川町": "Japan · Tokyo · Ochanomizu / Kanda-Ogawamachi",
+      "香港 / 總部直轄": "Hong Kong · HQ direct",
+      "柴灣區": "Chai Wan District",
+      "九龍城區": "Kowloon City District",
+      "大埔南區": "Tai Po South District",
+      "灣仔區": "Wan Chai District",
+      "筲箕灣區": "Shau Kei Wan District",
+      "荃灣區": "Tsuen Wan District",
+      "何文田區": "Ho Man Tin District",
+      "沙田東區": "Sha Tin East District",
+      "深水埗東區": "Sham Shui Po East District",
+      "黃大仙區": "Wong Tai Sin District",
+      "沙田南區": "Sha Tin South District",
+      "深旺區": "Sham Mong District",
+      "觀塘區": "Kwun Tong District",
+      "九龍灣區": "Kowloon Bay District",
+      "元朗西區": "Yuen Long West District",
+      "屯門東區": "Tuen Mun East District",
+      "屯門西區": "Tuen Mun West District",
+      "油尖區": "Yau Tsim District",
+      "港島北區": "HK Island North District",
+      "秀茂坪區": "Sau Mau Ping District",
+      "紅磡區": "Hung Hom District",
+      "西貢區": "Sai Kung District",
+      "北葵涌區": "North Kwai Chung District",
+      "十八鄉區": "Shap Pat Heung District",
+      "南葵涌區": "South Kwai Chung District",
+      "慈雲山區": "Tsz Wan Shan District",
+      "旺角區": "Mong Kok District",
+      "沙田北區": "Sha Tin North District",
+      "沙田西區": "Sha Tin West District",
+      "深水埗西區": "Sham Shui Po West District",
+      "港島西區": "HK Island West District",
+      "青衣區": "Tsing Yi District",
+      "鯉魚門區": "Lei Yue Mun District",
+      "元朗東區": "Yuen Long East District",
+      "大埔北區": "Tai Po North District",
+      "將軍澳區": "Tseung Kwan O District",
+      "維多利亞城區": "Victoria City District",
+      "離島區": "Islands District",
+      "港島南區": "HK Island South District",
+      "開羅": "Cairo"
 };
 
     // 含 <strong> / <a> 等內嵌標籤嘅段落：key 由 data-i18n-html 指定
@@ -2352,7 +2399,7 @@
             <span class="text-base flex-shrink-0 select-none">${item.flag || '📍'}</span>
             <div class="overflow-hidden">
               <span class="font-extrabold text-slate-100 leading-tight block truncate">${escapeHtml(locName(item))}</span>
-              <span class="text-[9px] text-slate-400 font-semibold block truncate">${escapeHtml(item.district ? `${locLabel(item.subregion)}・${item.district}` : locLabel(item.subregion))}</span>
+              <span class="text-[9px] text-slate-400 font-semibold block truncate">${escapeHtml(item.district ? `${locLabel(item.subregion)}・${locLabel(item.district)}` : locLabel(item.subregion))}</span>
               <div class="flex flex-wrap gap-1 mt-1">${verificationBadgeHtml(item)}</div>
             </div>
           </div>
