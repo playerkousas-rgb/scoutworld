@@ -198,11 +198,13 @@ if (fs.existsSync(dataDir)) {
       }
     }
   }
-  const floors = { category: 0.98, subregion: 0.95, district: 0.9 };
+  // 全部標籤都已對齊官方名稱（香港童軍總會 Regions and Districts 頁），所以下限設 100%：
+  // 日後新增地點而漏譯，CI 會即刻紅。
+  const floors = { category: 1, subregion: 1, district: 1 };
   Object.entries(fieldStats).forEach(([field, stat]) => {
     const ratio = stat.covered / stat.total;
     const pct = (ratio * 100).toFixed(1);
-    if (ratio < (floors[field] || 0.9)) {
+    if (ratio < (floors[field] ?? 1)) {
       errors.push(`${field} 英譯覆蓋率跌到 ${pct}%（${stat.total - stat.covered}/${stat.total} 條得中文）`);
     } else {
       console.log(`   ${field}: 英文覆蓋 ${pct}%（${stat.covered}/${stat.total}）`);

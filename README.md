@@ -35,9 +35,12 @@
   `{name}`，例如 `tr('共 {n} 個地點', { n: 12 })`。新增任何中文界面字都要補英文，
   `npm run test:i18n` 會掃描靜態 HTML、`title`／`aria-label` 同所有 `tr()`
   呼叫，列出漏譯或者空字串，並統計 `data/**` 入面分類／地域／分區嘅英文覆蓋率
-  （現時分類 100%、地域 100%、分區 95.9%，有下限防止回退）。
-- **故意留中文**：香港有 3 個分區（銀禧區、璧峰區、雙魚區，共 7 條記錄）嘅官方英文
-  名稱仲未核實，寧願顯示中文都唔亂譯，等有正式來源再補。
+  （現時分類、地域、分區全部 100%，下限就係 100%：日後新增地點漏譯，`npm run check` 會即刻紅）。
+- **香港分區英文名來源**：一律跟香港童軍總會官方
+  [Regions and Districts](https://www.scout.org.hk/en/scout-units/regions-districts/index.html)
+  頁面（例如 港島北區 → `Northern District`、沙田東區 → `Shatin East District`、
+  銀禧區 → `Silver Jubilee District`、璧峰區 → `Pik Fung District`、雙魚區 → `Sheung Yue District`），
+  唔會自行意譯；官方名單日後若有改動，改 `EN` 字典一條 key 即可。
 
 ### 順手做咗嘅資料瘦身
 
