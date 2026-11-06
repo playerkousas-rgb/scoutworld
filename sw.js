@@ -4,12 +4,12 @@
    Strategy:
    - App shell (HTML / icons / manifest): cache-first
    - /data/*.json: stale-while-revalidate (出發前睇過嘅國家，旅途中離線用到)
-   - 地圖圖磚 (OSM/CARTO): cache-first，設上限避免儲存爆滿
+   - 地圖圖磚 (OpenStreetMap／Esri 後備): cache-first，設上限避免儲存爆滿
    - CDN (leaflet / fontawesome / fonts): stale-while-revalidate
    - 其他頁面導航: network-first，離線時回退到主頁
    ============================================================ */
 
-const VERSION = 'scoutworld-v2026.11.07.2';
+const VERSION = 'scoutworld-v2026.11.08.1';
 
 const APP_SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-data`;
@@ -51,11 +51,9 @@ const CORE_DATA = [
 
 const TILE_HOSTS = [
   'tile.openstreetmap.org',
-  'basemaps.cartocdn.com',
-  'a.basemaps.cartocdn.com',
-  'b.basemaps.cartocdn.com',
-  'c.basemaps.cartocdn.com',
-  'd.basemaps.cartocdn.com'
+  'services.arcgisonline.com',
+  // 已停用：CARTO 匿名 raster tile 會回「API KEY REQUIRED」水印（2026-08 起）
+  'basemaps.cartocdn.com'
 ];
 
 self.addEventListener('install', (event) => {
