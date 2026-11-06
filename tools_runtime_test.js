@@ -437,6 +437,28 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     assert([...doc.querySelectorAll('.region-btn')].every(b => b.hasAttribute('aria-pressed')), '大區分頁缺 aria-pressed');
     assert([...doc.querySelectorAll('#l3-level-pills button')].every(b => b.hasAttribute('aria-pressed')), '級別分頁缺 aria-pressed');
 
+    // 色票收斂：off-brand 色相全部由 tailwind config 對應到語意色
+    assert(/tailwind\.config/.test(doc.documentElement.innerHTML), '缺 tailwind.config（色票收斂）');
+    assert(/SW_INFO/.test(doc.documentElement.innerHTML) && /SW_DANGER/.test(doc.documentElement.innerHTML), '色票 token 未定義');
+    assert(!/bg-gradient/.test($el('#drawer-header').className), '抽屜 header 仍然係漸層');
+
+    // 手機地圖：預設條狀，撳掣先展開（aria-expanded 同步）
+    const mapToggle = $el('#map-toggle-btn');
+    const mapPanelEl = $el('#map-panel');
+    assert(mapToggle, '缺手機地圖展開掣');
+    assert(mapPanelEl.className.includes('flex-1') && !mapPanelEl.className.includes('h-[45vh]'), '地圖高度仍寫死喺 class');
+    assert(/map-mobile-expanded/.test(style), 'CSS 未有手機地圖展開狀態');
+    assert(mapToggle.getAttribute('aria-expanded') === 'false', '地圖掣初始 aria-expanded 應為 false');
+    assert(/展開地圖/.test($el('#map-toggle-label').textContent), '地圖掣初始文字錯：' + $el('#map-toggle-label').textContent);
+    mapToggle.click();
+    await new Promise(r => setTimeout(r, 120));
+    assert(mapPanelEl.classList.contains('map-mobile-expanded'), '撳掣未展開地圖');
+    assert(mapToggle.getAttribute('aria-expanded') === 'true', '展開後 aria-expanded 未更新');
+    assert(/收起地圖/.test($el('#map-toggle-label').textContent), '展開後文字未變：' + $el('#map-toggle-label').textContent);
+    mapToggle.click();
+    await new Promise(r => setTimeout(r, 120));
+    assert(!mapPanelEl.classList.contains('map-mobile-expanded'), '再撳未收起地圖');
+
     // 抽屜：dialog 語意 + 開關時 aria-hidden 同步 + 焦點還原
     const drawer = $el('#detail-drawer');
     assert(drawer.getAttribute('role') === 'dialog', '抽屜缺 role=dialog');

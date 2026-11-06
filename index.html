@@ -14,7 +14,7 @@
   <meta name="theme-color" content="#02133e">
   <meta name="application-name" content="Scout World Explorer">
   <meta name="copyright" content="© SCOUT SYSTEM">
-  <meta name="app-version" content="v2026.11.06">
+  <meta name="app-version" content="v2026.11.07">
 
   <!-- Open Graph：WhatsApp / FB / Telegram 分享靚卡 -->
   <meta property="og:type" content="website">
@@ -78,6 +78,31 @@
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // ── 色票收斂（UI_REVIEW 2026-11-06）──────────────────────────────
+    // 全站只用：深藍底（#010c29–#09225e）、品牌金（amber）、
+    // 3 個語意色（emerald＝已核實／可去、sky＝資料性質、red＝危險／清空）＋ slate 中性。
+    // 舊 code 仲有 violet / indigo / blue / teal / purple / pink / rose / orange 嘅 class，
+    // 喺呢度一次過對應，唔使逐個 HTML 字串改，亦保證 /50 透明度版本一齊收斂。
+    const swRamp = (c50, c100, c200, c300, c400, c500, c600, c700, c800, c900, c950) => ({
+      50: c50, 100: c100, 200: c200, 300: c300, 400: c400, 500: c500,
+      600: c600, 700: c700, 800: c800, 900: c900, 950: c950
+    });
+    const SW_INFO = swRamp('#f0f9ff', '#e0f2fe', '#bae6fd', '#7dd3fc', '#38bdf8', '#0ea5e9', '#0284c7', '#0369a1', '#075985', '#0c4a6e', '#082f49');
+    const SW_DANGER = swRamp('#fff1f2', '#ffe4e6', '#fecdd3', '#fda4af', '#fb7185', '#f43f5e', '#e11d48', '#be123c', '#9f1239', '#881337', '#4c0519');
+    const SW_GOLD = swRamp('#fffbeb', '#fef3c7', '#fde68a', '#fcd34d', '#fbbf24', '#f59e0b', '#d97706', '#b45309', '#92400e', '#78350f', '#451a03');
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            violet: SW_INFO, purple: SW_INFO, indigo: SW_INFO, blue: SW_INFO, teal: SW_INFO,
+            pink: SW_DANGER, rose: SW_DANGER,
+            orange: SW_GOLD
+          }
+        }
+      }
+    };
+  </script>
   
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -156,6 +181,27 @@
       overflow: hidden;
     }
     
+    /* 平台品牌色：只出現喺社交平台連結，屬品牌識別，唔計入 accent 色票 */
+    .fa-facebook, #drawer-facebook { color: #1877f2 !important; }
+    .fa-instagram, #drawer-instagram { color: #e1306c !important; }
+    .fa-youtube, #drawer-youtube { color: #ff2d2d !important; }
+
+    /* 手機：地圖預設收成 120px 條狀（清單優先），撳「展開地圖」先放大 */
+    @media (max-width: 767px) {
+      #map-panel {
+        height: 120px;
+        transition: height 0.3s ease;
+      }
+      #map-panel.map-mobile-expanded {
+        height: 55vh;
+      }
+      /* 收埋時地圖得條狀，放唔落嘅浮動掣先隱藏（工具箱保留） */
+      #map-panel:not(.map-mobile-expanded) #badge-legend-btn,
+      #map-panel:not(.map-mobile-expanded) #map-fullscreen-btn {
+        display: none;
+      }
+    }
+
     /* Scrollbar Styling */
     ::-webkit-scrollbar {
       width: 6px;
@@ -471,7 +517,7 @@
     </div>
     
     <!-- RIGHT AREA: Map and Responsive Overlay -->
-    <div id="map-panel" class="flex-1 flex flex-col relative overflow-hidden h-[45vh] md:h-auto">
+    <div id="map-panel" class="flex-1 flex flex-col relative overflow-hidden md:h-auto">
       
       <!-- Map Container -->
       <div id="map" class="w-full h-full z-10"></div>
@@ -483,6 +529,18 @@
         title="全螢幕觀看世界 / L3 地圖"
       >
         <i class="fa-solid fa-expand"></i> 全螢幕地圖
+      </button>
+
+      <!-- 手機：展開／收起地圖（清單優先） -->
+      <button
+        id="map-toggle-btn"
+        class="md:hidden absolute bottom-3 left-3 bg-[#051847]/95 hover:bg-[#09225e] text-amber-300 px-3 py-2 rounded-full font-black text-[11px] shadow-xl flex items-center gap-1.5 transition-all z-20 border border-white/15"
+        aria-controls="map"
+        aria-expanded="false"
+        title="展開或收起地圖"
+      >
+        <i id="map-toggle-icon" class="fa-solid fa-chevron-up"></i>
+        <span id="map-toggle-label">展開地圖</span>
       </button>
 
       <!-- Floating Traveler's Guide Button (FAB) -->
@@ -515,7 +573,7 @@
     <div id="detail-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-org-full" aria-hidden="true" inert class="fixed top-0 right-0 h-full w-full sm:w-[420px] bg-[#02133e] shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col border-l border-white/10">
       
       <!-- Drawer Header -->
-      <div id="drawer-header" class="bg-gradient-to-r from-violet-950 via-indigo-950 to-slate-900 text-white p-5 flex-shrink-0 relative border-b border-white/5 overflow-hidden">
+      <div id="drawer-header" class="bg-[#02133e] text-white p-5 flex-shrink-0 relative border-b border-amber-400/25 overflow-hidden">
         <div class="absolute -right-10 -bottom-10 text-white/5 text-[150px] font-bold transform rotate-12 pointer-events-none select-none">
           ⚜️
         </div>
@@ -839,10 +897,10 @@
       <div class="p-5 space-y-3 text-xs text-slate-200 leading-relaxed">
         <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-sky-500/20 text-sky-200 border-sky-400/30">WOSM</span> L2 資料以 WOSM 官方成員頁為基礎。</p>
         <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-emerald-500/20 text-emerald-200 border-emerald-400/30">官方</span> 有官方網站、場地頁、官方來源或可信公開來源。</p>
-        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-pink-500/20 text-pink-200 border-pink-400/30">社交</span> Facebook / Instagram / YouTube，只作資訊與國際友誼交流，非正式聯絡渠道。</p>
-        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-orange-500/20 text-orange-200 border-orange-400/30">二手</span> 可靠新聞、政府或伙伴資料，出發前要再覆核。</p>
+        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-sky-500/20 text-sky-200 border-sky-400/30">社交</span> Facebook / Instagram / YouTube，只作資訊與國際友誼交流，非正式聯絡渠道。</p>
+        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-sky-500/20 text-sky-200 border-sky-400/30">二手</span> 可靠新聞、政府或伙伴資料，出發前要再覆核。</p>
         <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-amber-500/20 text-amber-100 border-amber-400/30">覆核</span> 網站可能不穩、資料可能變動，出發前請確認。</p>
-        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-violet-500/20 text-violet-200 border-violet-400/30">代表點</span> 這是網絡入口或代表座標，不一定是精確聚會地點。</p>
+        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-sky-500/20 text-sky-200 border-sky-400/30">代表點</span> 這是網絡入口或代表座標，不一定是精確聚會地點。</p>
       </div>
     </div>
   </div>
@@ -1036,7 +1094,7 @@
     const SW_LANGS = ['zh', 'en'];
 
     /* I18N:START — 以下兩個字典都係嚴格 JSON，供 validate-i18n.js 檢查 */
-    const APP_VERSION = 'v2026.11.06';
+    const APP_VERSION = 'v2026.11.07';
 
     const EN = {
       "香港童軍外遊規劃首選｜全球童軍總部・營地・用品社・44區會｜離線可用": "Trip planning for Hong Kong Scouts | HQs, camps & Scout Shops worldwide | Works offline",
@@ -1058,6 +1116,9 @@
       "資料標籤說明": "Data label legend",
       "報料／修正": "Report / fix",
       "全螢幕地圖": "Fullscreen map",
+      "展開地圖": "Expand map",
+      "收起地圖": "Collapse map",
+      "展開或收起地圖": "Expand or collapse the map",
       "✈️ 童軍外遊規劃工具箱": "✈️ Trip planning toolbox",
       "📍 地圖附近地點": "📍 Places near map centre",
       "外遊規劃，三秒上手！": "Trip planning in three seconds",
@@ -1922,11 +1983,11 @@
       const isWosmSource = sourceHost === 'scout.org' || sourceHost.endsWith('.scout.org');
       if (status.includes('wosm') || isWosmSource) badges.push(['WOSM', 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
       if (status.includes('official') || status.includes('source page linked')) badges.push([tr('官方'), 'bg-emerald-500/20 text-emerald-200 border-emerald-400/30']);
-      if (status.includes('social') || isSocialSource) badges.push([tr('社交'), 'bg-pink-500/20 text-pink-200 border-pink-400/30']);
-      if (status.includes('secondary')) badges.push([tr('二手'), 'bg-orange-500/20 text-orange-200 border-orange-400/30']);
+      if (status.includes('social') || isSocialSource) badges.push([tr('社交'), 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
+      if (status.includes('secondary')) badges.push([tr('二手'), 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
       if (status.includes('verify') || status.includes('覆核') || status.includes('pending') || item.linkCheckStatus) badges.push([tr('覆核'), 'bg-amber-500/20 text-amber-100 border-amber-400/30']);
       if (item.sourceStatus === 'removed-hijacked-domain') badges.unshift([tr('來源已移除'), 'bg-red-500/20 text-red-200 border-red-400/30']);
-      if (item.locationAccuracy) badges.push([tr('代表點'), 'bg-violet-500/20 text-violet-200 border-violet-400/30']);
+      if (item.locationAccuracy) badges.push([tr('代表點'), 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
       if (!badges.length && item.verificationSource) badges.push([tr('來源'), 'bg-emerald-500/20 text-emerald-200 border-emerald-400/30']);
       return badges.slice(0, 3).map(([label, cls]) => `<span class="inline-flex items-center rounded-full border px-1.5 py-0.5 text-[11px] font-black ${cls}">${label}</span>`).join('');
     }
@@ -2060,16 +2121,8 @@
         
         const isActive = activeL3Item && activeL3Item.id === item.id;
         
-        // Define color borders based on L3/L4 type
-        let borderColor = 'border-amber-400'; // default
-        if (item.type === 'Campsite') borderColor = 'border-emerald-400';
-        if (item.type === 'Shop') borderColor = 'border-amber-300';
-        if (item.type === 'Region') borderColor = 'border-violet-400';
-        if (item.type === 'Council') borderColor = 'border-blue-400';
-        if (item.type === 'District') borderColor = 'border-purple-400';
-        if (item.type === 'Department') borderColor = 'border-sky-400';
-        if (item.type === 'Subsidiary') borderColor = 'border-rose-400';
-        if (item.type === 'Group') borderColor = 'border-teal-400';
+        // 地圖標記一律同一個品牌金邊框；營地用綠色表示「可去」，其餘靠圖示分型
+        const borderColor = item.type === 'Campsite' ? 'border-emerald-400' : 'border-amber-400';
         
         const activeClass = isActive ? 'ring-4 ring-amber-300 scale-120 z-50' : 'hover:scale-115';
         
@@ -2389,15 +2442,9 @@
 
         row.className = `p-2 rounded-lg bg-[#010c29] border cursor-pointer transition-all flex items-center justify-between gap-2 shadow-sm text-xs ${activeL3Item && activeL3Item.id === item.id ? 'border-indigo-500 ring-2 ring-indigo-100 bg-[#09225e]/20' : 'border-slate-100 hover:border-amber-400'}`;
         
-        let badgeColor = 'bg-amber-950/50 text-amber-300 border border-amber-900/30';
-        if (item.type === 'Campsite') badgeColor = 'bg-emerald-950/50 text-emerald-300 border border-emerald-900/30';
-        if (item.type === 'Shop') badgeColor = 'bg-orange-950/50 text-orange-300 border border-orange-900/30';
-        if (item.type === 'Region') badgeColor = 'bg-violet-950/50 text-violet-300 border border-violet-900/30';
-        if (item.type === 'Council') badgeColor = 'bg-blue-950/50 text-blue-300 border border-blue-900/30';
-        if (item.type === 'District') badgeColor = 'bg-purple-950/50 text-purple-300 border border-purple-900/30';
-        if (item.type === 'Department') badgeColor = 'bg-sky-950/50 text-sky-300 border border-sky-900/30';
-        if (item.type === 'Subsidiary') badgeColor = 'bg-rose-950/50 text-rose-300 border border-rose-900/30';
-        if (item.type === 'Group') badgeColor = 'bg-teal-950/50 text-teal-300 border border-teal-900/30';
+        // 類型（旅團／區會／Shop…）用中性色章，唔再用彩虹色；
+        // 顏色留返嚟表示可信度（見 statusBadge 系列）。
+        const badgeColor = 'bg-white/5 text-slate-200 border border-white/15';
 
         // Check if item has Facebook or Instagram to render quick-link buttons DIRECTLY in the row!
         const fbButtonHtml = item.facebook ? `
@@ -2483,10 +2530,10 @@
       const status = (item.verificationStatus || '').toLowerCase();
       if (status.includes('wosm')) badges.push(['WOSM', 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
       if (status.includes('official') || status.includes('source page linked')) badges.push([tr('官方/來源頁'), 'bg-emerald-500/20 text-emerald-200 border-emerald-400/30']);
-      if (status.includes('social')) badges.push([tr('社交資訊'), 'bg-pink-500/20 text-pink-200 border-pink-400/30']);
-      if (status.includes('secondary')) badges.push([tr('二手來源'), 'bg-orange-500/20 text-orange-200 border-orange-400/30']);
+      if (status.includes('social')) badges.push([tr('社交資訊'), 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
+      if (status.includes('secondary')) badges.push([tr('二手來源'), 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
       if (status.includes('verify') || status.includes('覆核') || status.includes('pending')) badges.push([tr('出發前覆核'), 'bg-amber-500/20 text-amber-100 border-amber-400/30']);
-      if (item.locationAccuracy) badges.push([tr('代表點非精確地址'), 'bg-violet-500/20 text-violet-200 border-violet-400/30']);
+      if (item.locationAccuracy) badges.push([tr('代表點非精確地址'), 'bg-sky-500/20 text-sky-200 border-sky-400/30']);
       if (!badges.length && item.verificationSource) badges.push([tr('有來源'), 'bg-emerald-500/20 text-emerald-200 border-emerald-400/30']);
       badges.forEach(([label, cls]) => {
         const span = document.createElement('span');
@@ -3056,6 +3103,30 @@
       }
     }
 
+    let mapMobileExpanded = false;
+
+    // 手機地圖條狀／展開：只改高度 class，再通知 Leaflet 重新計算
+    function updateMapToggleLabel() {
+      const label = document.getElementById('map-toggle-label');
+      const icon = document.getElementById('map-toggle-icon');
+      if (label) label.textContent = mapMobileExpanded ? tr('收起地圖') : tr('展開地圖');
+      if (icon) icon.className = mapMobileExpanded ? 'fa-solid fa-chevron-down' : 'fa-solid fa-chevron-up';
+      const btn = document.getElementById('map-toggle-btn');
+      if (btn) {
+        btn.setAttribute('aria-expanded', mapMobileExpanded ? 'true' : 'false');
+        btn.title = tr('展開或收起地圖');
+      }
+    }
+
+    function setMapMobileExpanded(expanded) {
+      if (!mapPanel) return;
+      mapMobileExpanded = !!expanded;
+      mapPanel.classList.toggle('map-mobile-expanded', mapMobileExpanded);
+      updateMapToggleLabel();
+      // 等 CSS transition 行完先叫 Leaflet 重算，否則圖磚會留白
+      setTimeout(() => { if (map) map.invalidateSize(); }, 320);
+    }
+
     function setMapFullscreen(active) {
       if (!mapPanel || !mapFullscreenBtn) return;
       mapPanel.classList.toggle('map-fullscreen', active);
@@ -3306,11 +3377,10 @@
         const groupKey = `${fav.parentCountry || fav.code || tr('其他')} · ${isOrg ? tr('總會') : (fav.type || tr('其他'))}`;
         const groupHeader = groupKey !== lastGroup ? `<div class="pt-2 pb-0.5 text-[11px] font-black text-amber-300/80 uppercase tracking-wider">${escapeHtml(groupKey)}</div>` : '';
         lastGroup = groupKey;
+        // 收藏清單：類型章同樣中性化（總會用品牌金，因為佢係「已核實嘅源頭」）
         const typeBadgeCls = isOrg
           ? 'bg-amber-950/50 text-amber-300 border border-amber-900/30'
-          : (fav.type === 'Campsite' ? 'bg-emerald-950/50 text-emerald-300 border border-emerald-900/30'
-          : fav.type === 'Shop' ? 'bg-orange-950/50 text-orange-300 border border-orange-900/30'
-          : 'bg-blue-950/50 text-blue-300 border border-blue-900/30');
+          : 'bg-white/5 text-slate-200 border border-white/15';
         let parentName = fav.parentCountry || '';
         const parent = allScouts.find(o => o.id === fav.parentCountry);
         if (parent) parentName = locCountry(parent) || parentName;
@@ -3467,18 +3537,10 @@
         return;
       }
 
-      const typeBadge = (t) => {
-        const map = {
-          'Campsite': 'bg-emerald-950/60 text-emerald-300 border-emerald-900/40',
-          'Shop': 'bg-orange-950/60 text-orange-300 border-orange-900/40',
-          'Headquarters': 'bg-amber-950/60 text-amber-300 border-amber-900/40',
-          'National HQ': 'bg-sky-950/60 text-sky-300 border-sky-900/40',
-          'Region': 'bg-violet-950/60 text-violet-300 border-violet-900/40',
-          'Council': 'bg-blue-950/60 text-blue-300 border-blue-900/40',
-          'District': 'bg-purple-950/60 text-purple-300 border-purple-900/40'
-        };
-        return map[t] || 'bg-slate-800/60 text-slate-300 border-slate-700/40';
-      };
+      // 搜尋結果：類型章中性化，總部（HQ）例外用品牌金
+      const typeBadge = (t) => (t === 'Headquarters' || t === 'National HQ')
+        ? 'bg-amber-950/60 text-amber-300 border-amber-900/40'
+        : 'bg-white/5 text-slate-200 border-white/15';
 
       globalResults.innerHTML = `
         <div class="text-[11px] font-black text-amber-400/90 uppercase tracking-wider px-1 flex items-center justify-between">
@@ -3603,6 +3665,8 @@
       if (hkShortcutCard) hkShortcutCard.addEventListener('click', jumpToHongKong);
       if (onlineShopCard) onlineShopCard.addEventListener('click', jumpToOnlineShopDirectory);
       if (mapFullscreenBtn) mapFullscreenBtn.addEventListener('click', toggleMapFullscreen);
+      const mapToggleBtn = document.getElementById('map-toggle-btn');
+      if (mapToggleBtn) mapToggleBtn.addEventListener('click', () => setMapMobileExpanded(!mapMobileExpanded));
       
       // Input Search
       searchInput.addEventListener('input', () => {
@@ -3855,6 +3919,7 @@
       const searchPlaceholder = tr('搜全球：國家、營地、用品社（如 KISC、東京、Shop）…');
       if (searchInput) searchInput.placeholder = searchPlaceholder;
       updateLangToggleUI();
+      updateMapToggleLabel();
     }
 
     function setLanguage(lang) {
@@ -3877,6 +3942,7 @@
       initDOM(); // Initialize DOM elements safely!
       initLanguage(); // 語言要最先套用，之後 render 就會用正確語言
       renderAppVersion(); // W1／V2：頁尾 © SCOUT SYSTEM ＋ 版號
+      updateMapToggleLabel(); // 手機地圖展開／收起掣（跟語言）
       initMap();
 
       // Bootstrap Hong Kong view instantly!
