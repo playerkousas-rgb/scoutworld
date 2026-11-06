@@ -409,6 +409,59 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     assert(w.localStorage.getItem('sw-lang') === 'zh', '中文選擇未記住');
   });
 
+  // ============ 🎨 UI／無障礙（W1 版權、V2 版號、鍵盤、讀屏） ============
+  await runTest('🎨 UI：版權版號、抽屜語意、讀屏公告、鍵盤焦點', async () => {
+    const $el = s => doc.querySelector(s);
+    const style = [...doc.querySelectorAll('style')].map(n => n.textContent).join('\n');
+
+    // W1：可見版權 + meta copyright
+    assert(/© SCOUT SYSTEM/.test($el('body').textContent), '頁面無 © SCOUT SYSTEM');
+    assert(/© SCOUT SYSTEM/.test($el('meta[name=copyright]').getAttribute('content')), '缺 meta copyright');
+    assert(/© SCOUT SYSTEM · v\d/.test($el('#app-version-label').textContent), '頁尾版號未注入：' + $el('#app-version-label').textContent);
+
+    // V2：meta 同 APP_VERSION 單一真理
+    const metaVersion = $el('meta[name=app-version]').getAttribute('content');
+    assert(/^v\d{4}\.\d{2}\.\d{2}$/.test(metaVersion), 'meta app-version 格式錯：' + metaVersion);
+    assert($el('#app-version-label').textContent.includes(metaVersion), '頁尾版號同 meta 唔一致');
+
+    // 手機：dvh（唔會被 URL bar 剪）+ 輸入框 16px（iOS 唔會自動放大）
+    assert(/100dvh/.test(style), '未用 100dvh');
+    assert(/font-size: 16px/.test(style), '手機輸入框未設 16px');
+
+    // 鍵盤：焦點環 + 減少動態
+    assert(/:focus-visible/.test(style), '缺 :focus-visible 焦點環');
+    assert(/prefers-reduced-motion/.test(style), '未尊重 prefers-reduced-motion');
+
+    // 讀屏：結果數量同分頁狀態
+    assert($el('#filtered-count').getAttribute('aria-live') === 'polite', '#filtered-count 冇 aria-live');
+    assert([...doc.querySelectorAll('.region-btn')].every(b => b.hasAttribute('aria-pressed')), '大區分頁缺 aria-pressed');
+    assert([...doc.querySelectorAll('#l3-level-pills button')].every(b => b.hasAttribute('aria-pressed')), '級別分頁缺 aria-pressed');
+
+    // 抽屜：dialog 語意 + 開關時 aria-hidden 同步 + 焦點還原
+    const drawer = $el('#detail-drawer');
+    assert(drawer.getAttribute('role') === 'dialog', '抽屜缺 role=dialog');
+    assert(drawer.getAttribute('aria-modal') === 'true', '抽屜缺 aria-modal');
+    // 上一個測試可能留住咗抽屜，先按 Esc 關閉再驗（抽屜一開就要 aria-hidden=false、關就要 true）
+    if (drawer.getAttribute('aria-hidden') !== 'true') {
+      w.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape' }));
+      await new Promise(r => setTimeout(r, 300));
+    }
+    assert(drawer.getAttribute('aria-hidden') === 'true', '關閉時抽屜應 aria-hidden=true');
+    assert(drawer.hasAttribute('inert'), '關閉時抽屜應 inert（Tab 唔應該入得去）');
+
+    await clickHot('JP');
+    l3Rows()[0].click();
+    await new Promise(r => setTimeout(r, 400));
+    assert(drawer.getAttribute('aria-hidden') === 'false', '打開抽屜未更新 aria-hidden');
+    assert(!drawer.hasAttribute('inert'), '打開抽屜後 inert 未解除');
+    assert(drawer.contains(doc.activeElement), '焦點未移入抽屜：' + (doc.activeElement && doc.activeElement.tagName));
+    $el('#close-drawer-btn') ? $el('#close-drawer-btn').click() : w.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape' }));
+    await new Promise(r => setTimeout(r, 400));
+    assert(drawer.getAttribute('aria-hidden') === 'true', '關閉抽屜未更新 aria-hidden');
+    console.log('   [debug] 關閉後 activeElement =', doc.activeElement && (doc.activeElement.id || doc.activeElement.tagName));
+    assert(!drawer.contains(doc.activeElement), '焦點仍留在已關閉抽屜內：' + (doc.activeElement && (doc.activeElement.id || doc.activeElement.tagName)));
+  });
+
   console.log(`\n===== 測試結束：${failureCount ? `${failureCount} 項失敗` : '全部通過'} =====`);
   if (failureCount) process.exitCode = 1;
 })();

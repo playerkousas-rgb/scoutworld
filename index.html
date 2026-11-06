@@ -13,6 +13,8 @@
   <link rel="canonical" href="https://scoutworld.vercel.app/">
   <meta name="theme-color" content="#02133e">
   <meta name="application-name" content="Scout World Explorer">
+  <meta name="copyright" content="© SCOUT SYSTEM">
+  <meta name="app-version" content="v2026.11.06">
 
   <!-- Open Graph：WhatsApp / FB / Telegram 分享靚卡 -->
   <meta property="og:type" content="website">
@@ -20,7 +22,7 @@
   <meta property="og:title" content="Scout World Explorer — 香港童軍外遊規劃首選" data-i18n-attr="content:">
   <meta property="og:description" content="香港童軍去外地旅遊前必備：探訪全球童軍單位、Scout Shop 購物、KISC 國際營地預訂，一站式規劃資料庫，支援離線使用。" data-i18n-attr="content:">
   <meta property="og:url" content="https://scoutworld.vercel.app/">
-  <meta property="og:image" content="https://scoutworld.vercel.app/og-cover.jpg">
+  <meta property="og:image" content="https://scoutworld.vercel.app/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Scout World Explorer — world map with golden scout fleur-de-lis compass">
@@ -30,12 +32,13 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Scout World Explorer — 香港童軍外遊規劃首選" data-i18n-attr="content:">
   <meta name="twitter:description" content="探訪・購物・露營：香港童軍外遊前的全球童軍規劃資料庫。" data-i18n-attr="content:">
-  <meta name="twitter:image" content="https://scoutworld.vercel.app/og-cover.jpg">
+  <meta name="twitter:image" content="https://scoutworld.vercel.app/og-image.png">
 
   <!-- Icons & PWA -->
   <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="manifest" href="/manifest.webmanifest">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -69,6 +72,10 @@
   }
   </script>
 
+  <!-- 字體：用 <link> 而唔係 CSS @import，避免首次繪製被 Google Fonts 阻塞 -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap">
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   
@@ -81,9 +88,6 @@
   
   <!-- Custom Styling for Leaflet Map and App Elements -->
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap');
-    
-    
     html, body {
       height: 100vh;
       height: -webkit-fill-available;
@@ -98,6 +102,37 @@
     body {
       font-family: 'Outfit', 'Noto Sans TC', sans-serif;
       background-color: #02133e;
+    }
+
+    /* 手機瀏覽器嘅 URL bar 會令 100vh 過高、底部內容被剪：用 dvh 動態視高 */
+    html, body {
+      height: 100dvh;
+    }
+
+    /* 鍵盤用戶：所有可聚焦元件都要有清楚焦點環（Tailwind 嘅 focus:outline-none 唔會蓋過） */
+    :focus-visible {
+      outline: 2px solid #fbbf24 !important;
+      outline-offset: 2px !important;
+      border-radius: 6px;
+    }
+
+    /* 尊重「減少動態效果」系統設定 */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    /* iOS Safari：輸入框字級 <16px 會喺聚焦時自動放大整個畫面 */
+    @media (max-width: 767px) {
+      input:not([type="checkbox"]):not([type="radio"]),
+      select,
+      textarea {
+        font-size: 16px;
+      }
     }
 
 
@@ -241,7 +276,7 @@
       .flex.items-start.gap-3 .text-xs {
         font-size: 11px;
       }
-      .flex.items-start.gap-3 .text-[10px] {
+      .flex.items-start.gap-3 .text-[11px] {
         font-size: 9px;
       }
     }
@@ -272,7 +307,7 @@
         <div>
           <h1 class="text-xl md:text-2xl font-black tracking-tight flex items-center gap-2">
             Scout World Explorer
-            <span class="bg-amber-400 text-slate-900 text-[10px] font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider">WOSM & Local L4</span>
+            <span class="bg-amber-400 text-slate-900 text-[11px] font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider">WOSM & Local L4</span>
           </h1>
           <p class="text-xs text-slate-300 font-medium">香港童軍外遊規劃首選｜全球童軍總部・營地・用品社・44區會｜離線可用</p>
         </div>
@@ -376,29 +411,29 @@
 
         <!-- Hot Destinations Quick Chips (香港童軍最常去嘅外遊目的地直達!) -->
         <div id="hot-destinations" class="flex items-center gap-1.5 overflow-x-auto scrollbar-none opacity-40 pointer-events-none transition-opacity duration-500" aria-label="熱門外遊目的地捷徑">
-          <span class="text-[10px] font-black text-slate-400 flex-shrink-0 flex items-center gap-1" title="香港童軍最常去嘅外遊目的地">
+          <span class="text-[11px] font-black text-slate-400 flex-shrink-0 flex items-center gap-1" title="香港童軍最常去嘅外遊目的地">
             <i class="fa-solid fa-fire text-amber-400"></i> 熱門目的地
           </span>
-          <button data-cc="JP" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達日本童軍（探訪/購物/營地）">🇯🇵 日本</button>
-          <button data-cc="TW" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達台灣童軍">🇹🇼 台灣</button>
-          <button data-cc="KR" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達韓國童軍">🇰🇷 韓國</button>
-          <button data-cc="SG" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達新加坡童軍">🇸🇬 新加坡</button>
-          <button data-cc="TH" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達泰國童軍">🇹🇭 泰國</button>
-          <button data-cc="AU" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達澳洲童軍">🇦🇺 澳洲</button>
-          <button id="nearby-scout-btn" class="flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-black bg-emerald-500/15 text-emerald-300 border border-emerald-400/30 hover:bg-emerald-500/25 transition-all focus:outline-none" title="以地圖目前位置搜尋附近童軍營地、Scout Shop、總部（適合出發前規劃）">📍 地圖附近地點</button>
-          <button data-cc="GB" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達英國童軍（基維爾 Gilwell）">🇬🇧 英國</button>
-          <button data-cc="CH" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[10px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達瑞士童軍（KISC 國際童軍中心）">🇨🇭 瑞士</button>
+          <button data-cc="JP" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[11px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達日本童軍（探訪/購物/營地）">🇯🇵 日本</button>
+          <button data-cc="TW" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[11px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達台灣童軍">🇹🇼 台灣</button>
+          <button data-cc="KR" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[11px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達韓國童軍">🇰🇷 韓國</button>
+          <button data-cc="SG" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[11px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達新加坡童軍">🇸🇬 新加坡</button>
+          <button data-cc="TH" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[11px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達泰國童軍">🇹🇭 泰國</button>
+          <button data-cc="AU" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[11px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達澳洲童軍">🇦🇺 澳洲</button>
+          <button id="nearby-scout-btn" class="flex-shrink-0 px-2 py-1 rounded-lg text-[11px] font-black bg-emerald-500/15 text-emerald-300 border border-emerald-400/30 hover:bg-emerald-500/25 transition-all focus:outline-none" title="以地圖目前位置搜尋附近童軍營地、Scout Shop、總部（適合出發前規劃）">📍 地圖附近地點</button>
+          <button data-cc="GB" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[11px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達英國童軍（基維爾 Gilwell）">🇬🇧 英國</button>
+          <button data-cc="CH" class="hot-chip flex-shrink-0 px-2 py-1 rounded-lg text-[11px] font-bold bg-[#09225e] text-slate-200 border border-white/10 hover:border-amber-400 hover:text-amber-300 transition-all focus:outline-none" title="直達瑞士童軍（KISC 國際童軍中心）">🇨🇭 瑞士</button>
         </div>
       </div>
       
       <!-- List Stats -->
       <div class="bg-[#010a24] px-4 py-2 text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center justify-between flex-shrink-0">
-        <span>WOSM成員 / 全球資源列表 (<span id="filtered-count">0</span>)</span>
+        <span>WOSM成員 / 全球資源列表 (<span id="filtered-count" aria-live="polite" aria-atomic="true">0</span>)</span>
         <span class="flex items-center gap-2">
-          <button id="favorites-toggle-btn" class="normal-case tracking-normal flex items-center gap-1 text-[10px] font-black text-amber-300 bg-amber-400/10 hover:bg-amber-400/25 border border-amber-400/30 px-2 py-0.5 rounded-full transition-all focus:outline-none" title="睇返你收藏咗嘅營地/用品社/單位（儲存喺呢部機，離線都睇到）" aria-label="打開或收埋我嘅收藏清單">
-            <i class="fa-solid fa-star"></i> 收藏 <span id="favorites-count" class="bg-amber-400 text-slate-950 rounded-full px-1.5 text-[9px]">0</span>
+          <button id="favorites-toggle-btn" class="normal-case tracking-normal flex items-center gap-1 text-[11px] font-black text-amber-300 bg-amber-400/10 hover:bg-amber-400/25 border border-amber-400/30 px-2 py-0.5 rounded-full transition-all focus:outline-none" title="睇返你收藏咗嘅營地/用品社/單位（儲存喺呢部機，離線都睇到）" aria-label="打開或收埋我嘅收藏清單">
+            <i class="fa-solid fa-star"></i> 收藏 <span id="favorites-count" class="bg-amber-400 text-slate-950 rounded-full px-1.5 text-[11px]">0</span>
           </button>
-          <button id="offline-manage-btn" class="normal-case tracking-normal text-[10px] font-black text-emerald-300 bg-emerald-400/10 hover:bg-emerald-400/25 border border-emerald-400/30 px-2 py-0.5 rounded-full transition-all focus:outline-none" title="管理此瀏覽器已下載嘅目的地資料">離線資料</button>
+          <button id="offline-manage-btn" class="normal-case tracking-normal text-[11px] font-black text-emerald-300 bg-emerald-400/10 hover:bg-emerald-400/25 border border-emerald-400/30 px-2 py-0.5 rounded-full transition-all focus:outline-none" title="管理此瀏覽器已下載嘅目的地資料">離線資料</button>
           <span id="loading-indicator" class="text-amber-400 flex items-center gap-1">
             <i class="fa-solid fa-circle-notch animate-spin"></i> 載入中...
           </span>
@@ -408,8 +443,8 @@
       <!-- FAVORITES PANEL (⭐ 你嘅收藏，localStorage 離線儲存) -->
       <div id="favorites-panel" class="hidden flex-shrink-0 max-h-56 overflow-y-auto bg-[#010c29] border-b border-amber-400/25 p-2 pb-3" aria-label="我嘅收藏清單">
         <div class="flex items-center justify-between px-1 pb-1.5">
-          <span class="text-[10px] font-black text-amber-300 uppercase tracking-wider flex items-center gap-1"><i class="fa-solid fa-star"></i> 我嘅收藏 (<span id="favorites-panel-count">0</span>) · 離線儲存於此機</span>
-          <div class="flex items-center gap-2"><button id="favorites-export-btn" class="text-[9px] font-bold text-sky-300 hover:text-sky-200 transition-colors focus:outline-none" title="開啟可列印收藏清單">匯出</button><button id="favorites-share-btn" class="text-[9px] font-bold text-emerald-300 hover:text-emerald-200 transition-colors focus:outline-none" title="複製收藏清單連結俾隊友">分享</button><button id="favorites-clear-btn" class="text-[9px] font-bold text-slate-500 hover:text-red-300 transition-colors focus:outline-none" title="一鍵清空全部收藏">清空</button></div>
+          <span class="text-[11px] font-black text-amber-300 uppercase tracking-wider flex items-center gap-1"><i class="fa-solid fa-star"></i> 我嘅收藏 (<span id="favorites-panel-count">0</span>) · 離線儲存於此機</span>
+          <div class="flex items-center gap-2"><button id="favorites-export-btn" class="text-[11px] font-bold text-sky-300 hover:text-sky-200 transition-colors focus:outline-none" title="開啟可列印收藏清單">匯出</button><button id="favorites-share-btn" class="text-[11px] font-bold text-emerald-300 hover:text-emerald-200 transition-colors focus:outline-none" title="複製收藏清單連結俾隊友">分享</button><button id="favorites-clear-btn" class="text-[11px] font-bold text-slate-500 hover:text-red-300 transition-colors focus:outline-none" title="一鍵清空全部收藏">清空</button></div>
         </div>
         <div id="favorites-list" class="space-y-1"></div>
       </div>
@@ -426,8 +461,8 @@
 
       <!-- SIDEBAR FOOTER -->
       <div class="p-2 bg-[#010c29] border-t border-white/5 text-center flex-shrink-0">
-        <p class="text-[10px] text-slate-500 font-semibold tracking-wide">
-          Scout System ·
+        <p class="text-[11px] text-slate-400 font-semibold tracking-wide">
+          <span id="app-version-label" class="tabular-nums">© SCOUT SYSTEM</span> ·
           <a href="https://github.com/playerkousas-rgb/scoutworld" target="_blank" rel="noopener" class="text-slate-400 hover:text-amber-300 transition-colors" title="源碼開源，歡迎貢獻！"><i class="fa-brands fa-github"></i> GitHub</a> ·
           <a href="https://github.com/playerkousas-rgb/scoutworld/issues/new/choose" target="_blank" rel="noopener" class="text-amber-400/90 hover:text-amber-300 transition-colors font-bold" title="見到新地點、死連或過期資料？撳呢度話我哋知！"><i class="fa-solid fa-bullhorn"></i> 報料／修正</a> ·
           <span title="支援 PWA 離線使用"><i class="fa-solid fa-wifi-slash"></i> 離線可用</span>
@@ -477,7 +512,7 @@
     </div>
 
     <!-- SIDE DETAILS DRAWER -->
-    <div id="detail-drawer" class="fixed top-0 right-0 h-full w-full sm:w-[420px] bg-[#02133e] shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col border-l border-white/10">
+    <div id="detail-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-org-full" aria-hidden="true" inert class="fixed top-0 right-0 h-full w-full sm:w-[420px] bg-[#02133e] shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col border-l border-white/10">
       
       <!-- Drawer Header -->
       <div id="drawer-header" class="bg-gradient-to-r from-violet-950 via-indigo-950 to-slate-900 text-white p-5 flex-shrink-0 relative border-b border-white/5 overflow-hidden">
@@ -492,7 +527,7 @@
 
         <div class="flex items-start justify-between relative z-10">
           <div class="flex items-center gap-3">
-            <span id="drawer-flag" class="text-4xl shadow-sm">🇭🇰</span><span class="text-2xl text-amber-300 drop-shadow" title="Scout emblem placeholder">⚜️</span><img id="drawer-logo" src="" alt="Scout logo" class="hidden w-10 h-10 rounded-full bg-white/90 object-contain p-1 shadow-sm border border-white/20" onerror="this.classList.add('hidden')">
+            <span id="drawer-flag" class="text-4xl shadow-sm">🇭🇰</span><span class="text-2xl text-amber-300 drop-shadow" aria-hidden="true">⚜️</span><img id="drawer-logo" src="" alt="Scout logo" class="hidden w-10 h-10 rounded-full bg-white/90 object-contain p-1 shadow-sm border border-white/20" onerror="this.classList.add('hidden')">
             <div>
               <div class="flex items-center gap-2">
                 <span id="drawer-country" class="font-extrabold text-xl">香港</span>
@@ -520,7 +555,7 @@
         
         <!-- Organization Main Name Card -->
         <div class="bg-[#051847] rounded-xl p-4 border border-white/5 shadow-sm relative">
-          <span id="drawer-category-label" class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1">童軍組織名稱</span>
+          <span id="drawer-category-label" class="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-1">童軍組織名稱</span>
           <h3 id="drawer-org-full" class="text-slate-100 font-extrabold text-lg leading-tight mb-2">香港童軍總會</h3>
           <div class="flex flex-wrap gap-2 mt-3">
             <span id="drawer-short-badge" class="bg-violet-950/50 text-violet-300 border border-violet-900/30 text-xs font-bold px-2.5 py-1 rounded-lg flex items-center gap-1">
@@ -538,7 +573,7 @@
             <h4 class="text-xs font-black text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
               <i class="fa-solid fa-tree-city text-amber-400"></i> 🗺️ 地方分支、營地與區會目錄
             </h4>
-            <span class="flex items-center gap-1"><button id="download-destination-btn" class="flex-shrink-0 text-[9px] font-black text-emerald-300 border border-emerald-400/30 rounded px-2 py-1 hover:bg-emerald-500/15" title="將此目的地資料儲存到瀏覽器，無網絡時仍可查看">⬇️ 離線下載</button><button id="clear-destination-btn" class="hidden flex-shrink-0 text-[9px] font-bold text-red-300 border border-red-400/30 rounded px-2 py-1 hover:bg-red-500/15" title="只清除這個目的地在此瀏覽器的離線資料">清除</button></span>
+            <span class="flex items-center gap-1"><button id="download-destination-btn" class="flex-shrink-0 text-[11px] font-black text-emerald-300 border border-emerald-400/30 rounded px-2 py-1 hover:bg-emerald-500/15" title="將此目的地資料儲存到瀏覽器，無網絡時仍可查看">⬇️ 離線下載</button><button id="clear-destination-btn" class="hidden flex-shrink-0 text-[11px] font-bold text-red-300 border border-red-400/30 rounded px-2 py-1 hover:bg-red-500/15" title="只清除這個目的地在此瀏覽器的離線資料">清除</button></span>
           </div>
           
           <!-- L3/L4 Filter Pills -->
@@ -565,25 +600,25 @@
 
           <!-- L4 Specific Subregion filter -->
           <div id="l4-subregion-container" class="hidden flex gap-1 overflow-x-auto pb-1 scrollbar-none">
-            <button data-sub="all" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10">全部</button>
-            <button data-sub="港島地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">港島</button>
-            <button data-sub="九龍地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">九龍</button>
-            <button data-sub="東九龍地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">東九</button>
-            <button data-sub="新界地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">新界</button>
-            <button data-sub="新界東地域" class="l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">新東</button>
+            <button data-sub="all" class="l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#09225e] text-amber-300 border border-white/10">全部</button>
+            <button data-sub="港島地域" class="l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">港島</button>
+            <button data-sub="九龍地域" class="l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">九龍</button>
+            <button data-sub="東九龍地域" class="l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">東九</button>
+            <button data-sub="新界地域" class="l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">新界</button>
+            <button data-sub="新界東地域" class="l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">新東</button>
           </div>
 
           <!-- L3 Type / Quality filter -->
           <div id="l3-type-filters" class="flex gap-1 overflow-x-auto pb-1 scrollbar-none">
-            <button data-type="all" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10">全部</button>
-            <button data-type="Shop" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">Shop</button>
-            <button data-type="Campsite" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">營地</button>
-            <button data-type="Headquarters" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">HQ</button>
-            <button data-type="dept" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5" title="總會各署、訓練機構及屬會（知友社、綜合教育中心、貝登堡聯誼會、總監俱樂部、龍堡國際等）">署／屬會</button>
-            <button data-type="Region" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">地域</button>
-            <button data-type="verified" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">有來源</button>
-            <button data-type="verify" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5">需覆核</button>
-            <button data-type="access" class="l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5" title="只顯示外國團體／公眾用得嘅場地（visitorNote 已核實 ✅）">🌏 對外開放</button>
+            <button data-type="all" class="l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#09225e] text-amber-300 border border-white/10">全部</button>
+            <button data-type="Shop" class="l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">Shop</button>
+            <button data-type="Campsite" class="l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">營地</button>
+            <button data-type="Headquarters" class="l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">HQ</button>
+            <button data-type="dept" class="l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5" title="總會各署、訓練機構及屬會（知友社、綜合教育中心、貝登堡聯誼會、總監俱樂部、龍堡國際等）">署／屬會</button>
+            <button data-type="Region" class="l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">地域</button>
+            <button data-type="verified" class="l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">有來源</button>
+            <button data-type="verify" class="l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5">需覆核</button>
+            <button data-type="access" class="l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5" title="只顯示外國團體／公眾用得嘅場地（visitorNote 已核實 ✅）">🌏 對外開放</button>
           </div>
 
           <div id="l3-list" class="space-y-2 max-h-56 overflow-y-auto pr-1">
@@ -591,23 +626,23 @@
           </div>
 
           <!-- Local data coverage note (資料量提示) -->
-          <div id="l3-note" class="hidden text-[10px] leading-relaxed font-semibold rounded-lg px-2.5 py-2"></div>
+          <div id="l3-note" class="hidden text-[11px] leading-relaxed font-semibold rounded-lg px-2.5 py-2"></div>
         </div>
         
         <!-- Stats Badges -->
         <div id="drawer-stats-row" class="grid grid-cols-3 gap-2">
           <div class="bg-emerald-50/10 border border-emerald-900/30 rounded-xl p-3 text-center">
-            <span class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider block">成員人數 (約)</span>
+            <span class="text-[11px] font-bold text-emerald-400 uppercase tracking-wider block">成員人數 (約)</span>
             <span id="drawer-members" class="text-emerald-300 font-black text-lg">100,000+</span>
           </div>
           <div class="bg-sky-50/10 border border-sky-900/30 rounded-xl p-3 text-center">
-            <span class="text-[10px] font-bold text-sky-400 uppercase tracking-wider block">WOSM 狀態</span>
+            <span class="text-[11px] font-bold text-sky-400 uppercase tracking-wider block">WOSM 狀態</span>
             <span id="drawer-wosm-status" class="text-sky-300 font-black text-xs block mt-1.5">
               <i class="fa-solid fa-circle-check"></i> 官方正式成員
             </span>
           </div>
           <div class="bg-emerald-50/10 border border-emerald-900/30 rounded-xl p-3 text-center">
-            <span class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider block">對外開放</span>
+            <span class="text-[11px] font-bold text-emerald-400 uppercase tracking-wider block">對外開放</span>
             <span id="drawer-open-count" class="text-emerald-300 font-black text-lg">—</span>
           </div>
         </div>
@@ -615,7 +650,7 @@
         <!-- Description block for local items -->
         <div id="drawer-desc-block" class="hidden bg-amber-50/10 border border-amber-100/20 rounded-xl p-3 text-xs leading-relaxed text-amber-200 font-medium">
           <div id="drawer-verification-badges" class="flex flex-wrap gap-1.5 mb-2"></div>
-          <p id="drawer-confidence-note" class="text-[10px] text-slate-300 mb-1"></p>
+          <p id="drawer-confidence-note" class="text-[11px] text-slate-300 mb-1"></p>
           <p id="drawer-desc-text" class="whitespace-pre-line"></p>
         </div>
 
@@ -629,7 +664,7 @@
               <i class="fa-solid fa-map-location-dot"></i>
             </div>
             <div class="flex-1">
-              <span class="text-[10px] font-semibold text-slate-400 block">總部 / 實體完整地址</span>
+              <span class="text-[11px] font-semibold text-slate-400 block">總部 / 實體完整地址</span>
               <p id="drawer-address" class="text-xs text-slate-200 font-medium leading-relaxed">香港九龍尖沙咀柯士甸道8號香港童軍中心</p>
               <!-- Action Button for Maps -->
               <a 
@@ -638,7 +673,7 @@
                 target="_blank" 
                 class="inline-flex items-center gap-1.5 text-[11px] font-bold text-amber-300 hover:text-amber-400 mt-1.5 bg-[#09225e] hover:bg-[#0e2d7d] border border-white/10 px-2 py-1 rounded transition-colors"
               >
-                <i class="fa-solid fa-diamond-turn-right text-[10px]"></i> 一鍵 Google Maps 地圖搜尋
+                <i class="fa-solid fa-diamond-turn-right text-[11px]"></i> 一鍵 Google Maps 地圖搜尋
               </a>
             </div>
           </div>
@@ -649,14 +684,14 @@
               <i class="fa-solid fa-phone"></i>
             </div>
             <div class="flex-1">
-              <span class="text-[10px] font-semibold text-slate-400 block">聯絡電話 / 查詢電話</span>
+              <span class="text-[11px] font-semibold text-slate-400 block">聯絡電話 / 查詢電話</span>
               <p id="drawer-phone" class="text-xs text-slate-200 font-medium">+852 2377 3300</p>
               <a 
                 id="drawer-phone-action" 
                 href="#" 
                 class="inline-flex items-center gap-1.5 text-[11px] font-bold text-emerald-300 hover:text-emerald-400 mt-1.5 bg-emerald-950/50 border border-emerald-900/30 px-2 py-1 rounded transition-colors"
               >
-                <i class="fa-solid fa-phone-flip text-[10px]"></i> 直撥聯絡電話
+                <i class="fa-solid fa-phone-flip text-[11px]"></i> 直撥聯絡電話
               </a>
             </div>
           </div>
@@ -667,14 +702,14 @@
               <i class="fa-solid fa-envelope"></i>
             </div>
             <div class="flex-1">
-              <span class="text-[10px] font-semibold text-slate-400 block">正式聯絡／旅行參考</span>
+              <span class="text-[11px] font-semibold text-slate-400 block">正式聯絡／旅行參考</span>
               <p id="drawer-email" class="text-xs text-slate-200 font-medium">正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。</p>
               <a 
                 id="drawer-email-action" 
                 href="#" 
                 class="inline-flex items-center gap-1.5 text-[11px] font-bold text-sky-300 hover:text-sky-400 mt-1.5 bg-sky-950/50 border border-sky-900/30 px-2 py-1 rounded transition-colors"
               >
-                <i class="fa-solid fa-circle-info text-[10px]"></i> 正式聯絡請經國際署
+                <i class="fa-solid fa-circle-info text-[11px]"></i> 正式聯絡請經國際署
               </a>
             </div>
           </div>
@@ -685,9 +720,9 @@
               <i class="fa-brands fa-facebook text-blue-400"></i>
             </div>
             <div class="flex-1">
-              <span class="text-[10px] font-semibold text-slate-400 block">Facebook 資訊渠道（非正式）</span>
+              <span class="text-[11px] font-semibold text-slate-400 block">Facebook 資訊渠道（非正式）</span>
               <a id="drawer-facebook" href="#" target="_blank" class="text-xs text-blue-400 font-extrabold hover:underline inline-flex items-center gap-1">
-                Facebook 專頁 <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
+                Facebook 專頁 <i class="fa-solid fa-up-right-from-square text-[11px]"></i>
               </a>
             </div>
           </div>
@@ -698,9 +733,9 @@
               <i class="fa-brands fa-instagram text-pink-400"></i>
             </div>
             <div class="flex-1">
-              <span class="text-[10px] font-semibold text-slate-400 block">Instagram 資訊渠道（非正式）</span>
+              <span class="text-[11px] font-semibold text-slate-400 block">Instagram 資訊渠道（非正式）</span>
               <a id="drawer-instagram" href="#" target="_blank" class="text-xs text-pink-400 font-extrabold hover:underline inline-flex items-center gap-1">
-                @username <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
+                @username <i class="fa-solid fa-up-right-from-square text-[11px]"></i>
               </a>
             </div>
           </div>
@@ -711,9 +746,9 @@
               <i class="fa-brands fa-youtube text-red-500"></i>
             </div>
             <div class="flex-1">
-              <span class="text-[10px] font-semibold text-slate-400 block">YouTube 資訊渠道</span>
+              <span class="text-[11px] font-semibold text-slate-400 block">YouTube 資訊渠道</span>
               <a id="drawer-youtube" href="#" target="_blank" class="text-xs text-red-400 font-extrabold hover:underline inline-flex items-center gap-1">
-                YouTube 頻道 <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
+                YouTube 頻道 <i class="fa-solid fa-up-right-from-square text-[11px]"></i>
               </a>
             </div>
           </div>
@@ -725,9 +760,9 @@
               <i class="fa-solid fa-globe"></i>
             </div>
             <div class="flex-1">
-              <span class="text-[10px] font-semibold text-slate-400 block">官方全球網站</span>
+              <span class="text-[11px] font-semibold text-slate-400 block">官方全球網站</span>
               <a id="drawer-website" href="#" target="_blank" class="text-xs text-amber-300 font-bold hover:underline inline-flex items-center gap-1">
-                www.scout.org.hk <i class="fa-solid fa-up-right-from-square text-[10px]"></i>
+                www.scout.org.hk <i class="fa-solid fa-up-right-from-square text-[11px]"></i>
               </a>
             </div>
           </div>
@@ -749,7 +784,7 @@
               <i class="fa-solid fa-location-crosshairs"></i>
             </div>
             <div class="flex-1">
-              <span class="text-[10px] font-semibold text-slate-400 block">精確座標 (Lat, Lng)</span>
+              <span class="text-[11px] font-semibold text-slate-400 block">精確座標 (Lat, Lng)</span>
               <div class="flex items-center gap-2">
                 <p id="drawer-coordinates" class="text-xs text-slate-200 font-mono">22.3025, 114.1687</p>
                 <button 
@@ -778,9 +813,9 @@
             target="_blank" 
             class="inline-flex items-center gap-1.5 text-xs font-extrabold text-violet-300 hover:text-violet-100 mt-1"
           >
-            查閱原始資料 <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            查閱原始資料 <i class="fa-solid fa-arrow-up-right-from-square text-[11px]"></i>
           </a>
-          <a href="https://github.com/playerkousas-rgb/scoutworld/issues/new/choose" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-[10px] font-bold text-amber-300 hover:text-amber-200 mt-1">
+          <a href="https://github.com/playerkousas-rgb/scoutworld/issues/new/choose" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 text-[11px] font-bold text-amber-300 hover:text-amber-200 mt-1">
             <i class="fa-solid fa-bullhorn"></i> 報告資料過期／補充地點
           </a>
         </div>
@@ -802,12 +837,12 @@
         <button id="close-badge-legend" class="text-white/70 hover:text-white bg-white/10 hover:bg-white/20 p-2 rounded-full"><i class="fa-solid fa-xmark"></i></button>
       </div>
       <div class="p-5 space-y-3 text-xs text-slate-200 leading-relaxed">
-        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[10px] font-black bg-sky-500/20 text-sky-200 border-sky-400/30">WOSM</span> L2 資料以 WOSM 官方成員頁為基礎。</p>
-        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[10px] font-black bg-emerald-500/20 text-emerald-200 border-emerald-400/30">官方</span> 有官方網站、場地頁、官方來源或可信公開來源。</p>
-        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[10px] font-black bg-pink-500/20 text-pink-200 border-pink-400/30">社交</span> Facebook / Instagram / YouTube，只作資訊與國際友誼交流，非正式聯絡渠道。</p>
-        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[10px] font-black bg-orange-500/20 text-orange-200 border-orange-400/30">二手</span> 可靠新聞、政府或伙伴資料，出發前要再覆核。</p>
-        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[10px] font-black bg-amber-500/20 text-amber-100 border-amber-400/30">覆核</span> 網站可能不穩、資料可能變動，出發前請確認。</p>
-        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[10px] font-black bg-violet-500/20 text-violet-200 border-violet-400/30">代表點</span> 這是網絡入口或代表座標，不一定是精確聚會地點。</p>
+        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-sky-500/20 text-sky-200 border-sky-400/30">WOSM</span> L2 資料以 WOSM 官方成員頁為基礎。</p>
+        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-emerald-500/20 text-emerald-200 border-emerald-400/30">官方</span> 有官方網站、場地頁、官方來源或可信公開來源。</p>
+        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-pink-500/20 text-pink-200 border-pink-400/30">社交</span> Facebook / Instagram / YouTube，只作資訊與國際友誼交流，非正式聯絡渠道。</p>
+        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-orange-500/20 text-orange-200 border-orange-400/30">二手</span> 可靠新聞、政府或伙伴資料，出發前要再覆核。</p>
+        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-amber-500/20 text-amber-100 border-amber-400/30">覆核</span> 網站可能不穩、資料可能變動，出發前請確認。</p>
+        <p><span class="inline-flex rounded-full border px-2 py-0.5 text-[11px] font-black bg-violet-500/20 text-violet-200 border-violet-400/30">代表點</span> 這是網絡入口或代表座標，不一定是精確聚會地點。</p>
       </div>
     </div>
   </div>
@@ -1001,6 +1036,8 @@
     const SW_LANGS = ['zh', 'en'];
 
     /* I18N:START — 以下兩個字典都係嚴格 JSON，供 validate-i18n.js 檢查 */
+    const APP_VERSION = 'v2026.11.06';
+
     const EN = {
       "香港童軍外遊規劃首選｜全球童軍總部・營地・用品社・44區會｜離線可用": "Trip planning for Hong Kong Scouts | HQs, camps & Scout Shops worldwide | Works offline",
       "覆蓋大區組織": "Regional bodies",
@@ -1642,6 +1679,7 @@
     let allScouts = [hkDefaultOrg]; // Bootstrap with Hong Kong instantly!
     let filteredScouts = [hkDefaultOrg]; // Initial filtered list matches Hong Kong
     let map = null;
+    let drawerReturnFocus = null; // 關閉詳情抽屜後，焦點還原去原本撳嘅元素
     let markersLayerGroup = null;
     let localMarkersLayerGroup = null; // Separate layer for Level 3 & 4 sub-markers
     
@@ -1890,7 +1928,7 @@
       if (item.sourceStatus === 'removed-hijacked-domain') badges.unshift([tr('來源已移除'), 'bg-red-500/20 text-red-200 border-red-400/30']);
       if (item.locationAccuracy) badges.push([tr('代表點'), 'bg-violet-500/20 text-violet-200 border-violet-400/30']);
       if (!badges.length && item.verificationSource) badges.push([tr('來源'), 'bg-emerald-500/20 text-emerald-200 border-emerald-400/30']);
-      return badges.slice(0, 3).map(([label, cls]) => `<span class="inline-flex items-center rounded-full border px-1.5 py-0.5 text-[9px] font-black ${cls}">${label}</span>`).join('');
+      return badges.slice(0, 3).map(([label, cls]) => `<span class="inline-flex items-center rounded-full border px-1.5 py-0.5 text-[11px] font-black ${cls}">${label}</span>`).join('');
     }
 
     // Render the Sidebar List
@@ -1925,14 +1963,14 @@
             <div class="overflow-hidden">
               <div class="flex items-center gap-1.5">
                 <h3 class="font-extrabold text-sm text-slate-100 tracking-tight truncate">${escapeHtml(locCountry(org))}</h3>
-                <span class="bg-[#010a24] text-amber-300 border border-white/10 font-bold text-[9px] px-1.5 py-0.5 rounded truncate uppercase">${org.org}</span>
+                <span class="bg-[#010a24] text-amber-300 border border-white/10 font-bold text-[11px] px-1.5 py-0.5 rounded truncate uppercase">${org.org}</span>
               </div>
               <p class="text-[11px] text-slate-400 font-medium truncate">${escapeHtml(locOrgFull(org) || locCountrySecondary(org))}</p>
               <div class="flex flex-wrap gap-1 mt-1">${verificationBadgeHtml(org)}</div>
             </div>
           </div>
           <div class="text-right flex-shrink-0">
-            <span class="text-[10px] text-slate-400 block font-bold uppercase tracking-wider">${tr('成員約')}</span>
+            <span class="text-[11px] text-slate-400 block font-bold uppercase tracking-wider">${tr('成員約')}</span>
             <span class="text-xs text-slate-700 font-bold">${membersFormatted}</span>
             ${(() => {
               const pc = placeCounts[org.id];
@@ -1941,8 +1979,8 @@
               if (!n) return '';
               const richCls = n >= 5 ? 'text-orange-600 border-orange-900/40 bg-orange-950/50' : 'text-slate-500 border-white/10 bg-[#010a24]';
               const open = pc.open || 0;
-              const openBadge = open ? `<span class="inline-flex items-center gap-0.5 mt-1 ml-1 border border-emerald-400/30 rounded px-1.5 py-0.5 text-[9px] font-black text-emerald-300 bg-emerald-950/40" title="${escapeHtml(tr('此地區有 {n} 個地點資料明言對外開放（✅）；出發前仍請向官方確認', { n: open }))}">${escapeHtml(tr('✅ {n} 對外開放', { n: open }))}</span>` : '';
-              return `<span class="inline-flex items-center gap-0.5 mt-1 border rounded px-1.5 py-0.5 text-[9px] font-black ${richCls}" title="${escapeHtml(tr('本站收錄此地區 {n} 個當地地點（營地/用品社/單位）', { n }))}">${escapeHtml(tr('🏕️ {n} 地點', { n }))}</span>${openBadge}`;
+              const openBadge = open ? `<span class="inline-flex items-center gap-0.5 mt-1 ml-1 border border-emerald-400/30 rounded px-1.5 py-0.5 text-[11px] font-black text-emerald-300 bg-emerald-950/40" title="${escapeHtml(tr('此地區有 {n} 個地點資料明言對外開放（✅）；出發前仍請向官方確認', { n: open }))}">${escapeHtml(tr('✅ {n} 對外開放', { n: open }))}</span>` : '';
+              return `<span class="inline-flex items-center gap-0.5 mt-1 border rounded px-1.5 py-0.5 text-[11px] font-black ${richCls}" title="${escapeHtml(tr('本站收錄此地區 {n} 個當地地點（營地/用品社/單位）', { n }))}">${escapeHtml(tr('🏕️ {n} 地點', { n }))}</span>${openBadge}`;
             })()}
           </div>
         `;
@@ -1989,7 +2027,7 @@
         marker.bindTooltip(`
           <div class="font-sans p-0.5 text-slate-800">
             <span class="font-black text-xs">${escapeHtml(org.flag + ' ' + locCountry(org))}</span>
-            <span class="bg-violet-100 text-violet-800 font-bold text-[9px] px-1 rounded ml-1">${org.org}</span>
+            <span class="bg-violet-100 text-violet-800 font-bold text-[11px] px-1 rounded ml-1">${org.org}</span>
           </div>
         `, {
           direction: 'top',
@@ -2144,7 +2182,7 @@
       const localData = currentL3Data || [];
       const totalLocal = localData.length;
       if (totalLocal <= 1) {
-        l3Note.className = 'text-[10px] leading-relaxed font-semibold rounded-lg px-2.5 py-2 bg-amber-950/40 border border-amber-900/40 text-amber-200';
+        l3Note.className = 'text-[11px] leading-relaxed font-semibold rounded-lg px-2.5 py-2 bg-amber-950/40 border border-amber-900/40 text-amber-200';
         l3Note.innerHTML = tr('⚠️ 此地區暫時只收錄咗基本資料。建議用下面「搜尋官方活動 / 大露營」同原始資料規劃行程——歡迎經 GitHub 回報新發現俾我哋補充！');
       } else {
         const shopCount = localData.filter(d => d.type === 'Shop').length;
@@ -2152,7 +2190,7 @@
         const bits = [];
         if (campCount) bits.push(tr('🏕️ 營地 {n}', { n: campCount }));
         if (shopCount) bits.push(tr('🛒 用品社 {n}', { n: shopCount }));
-        l3Note.className = 'text-[10px] leading-relaxed font-semibold rounded-lg px-2.5 py-2 bg-[#010c29] border border-white/5 text-slate-400';
+        l3Note.className = 'text-[11px] leading-relaxed font-semibold rounded-lg px-2.5 py-2 bg-[#010c29] border border-white/5 text-slate-400';
         const countHtml = `<span class="text-emerald-400 font-black">${totalLocal}</span>`;
         const bitsHtml = bits.length ? (isEnglish() ? ` (${bits.join(' · ')})` : `（${bits.join('・')}）`) : '';
         l3Note.innerHTML = tr('✅ 已收錄 {n} 個地方地點', { n: countHtml }) + bitsHtml + tr(' — 持續更新中');
@@ -2176,9 +2214,9 @@
         const subBtns = l4SubregionContainer.querySelectorAll('.l4-sub-btn');
         subBtns.forEach(b => {
           if (b.dataset.sub === 'all') {
-            b.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
+            b.className = 'l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
           } else {
-            b.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5';
+            b.className = 'l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5';
           }
         });
       }
@@ -2291,9 +2329,9 @@
       if (!l3TypeFilters) return;
       l3TypeFilters.querySelectorAll('.l3-type-btn').forEach(btn => {
         if (btn.dataset.type === activeL3TypeFilter) {
-          btn.className = 'l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
+          btn.className = 'l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
         } else {
-          btn.className = 'l3-type-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5 hover:text-amber-300';
+          btn.className = 'l3-type-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5 hover:text-amber-300';
         }
       });
     }
@@ -2333,11 +2371,11 @@
               <span class="text-xl flex-shrink-0 select-none">🛒</span>
               <div class="overflow-hidden">
                 <span class="font-extrabold text-slate-100 leading-tight block truncate">${escapeHtml(locName(item))}</span>
-                <span class="text-[10px] text-slate-400 font-semibold block truncate">${escapeHtml(locNameSecondary(item) || item.nameEn || 'Scout Shop')} · ${tr('點擊直接前往網購站')}</span>
+                <span class="text-[11px] text-slate-400 font-semibold block truncate">${escapeHtml(locNameSecondary(item) || item.nameEn || 'Scout Shop')} · ${tr('點擊直接前往網購站')}</span>
               </div>
             </div>
             <div class="flex items-center gap-1.5 flex-shrink-0">
-              <span class="bg-amber-950/50 text-amber-300 border border-amber-900/30 font-black text-[10px] px-2 py-1 rounded-full">${tr('前往')}</span>
+              <span class="bg-amber-950/50 text-amber-300 border border-amber-900/30 font-black text-[11px] px-2 py-1 rounded-full">${tr('前往')}</span>
               <i class="fa-solid fa-arrow-up-right-from-square text-amber-300"></i>
             </div>
           `;
@@ -2402,18 +2440,18 @@
             <span class="text-base flex-shrink-0 select-none">${item.flag || '📍'}</span>
             <div class="overflow-hidden">
               <span class="font-extrabold text-slate-100 leading-tight block truncate">${escapeHtml(locName(item))}</span>
-              <span class="text-[9px] text-slate-400 font-semibold block truncate">${escapeHtml(item.district ? `${locLabel(item.subregion)}・${locLabel(item.district)}` : locLabel(item.subregion))}</span>
+              <span class="text-[11px] text-slate-400 font-semibold block truncate">${escapeHtml(item.district ? `${locLabel(item.subregion)}・${locLabel(item.district)}` : locLabel(item.subregion))}</span>
               <div class="flex flex-wrap gap-1 mt-1">${verificationBadgeHtml(item)}</div>
             </div>
           </div>
           <div class="flex items-center gap-1.5 flex-shrink-0">
             ${favStarHtml}
-            ${item.fee ? `<span class="text-[10px] select-none" title="${escapeHtml(tr('有官方收費資料：{fee}（見詳情頁）', { fee: item.fee }))}">💰</span>` : ''}
-            ${item.bookingUrl ? `<span class="text-[10px] select-none" title="${escapeHtml(tr('有官方預訂／收費詳情連結（見詳情頁）'))}">📅</span>` : ''}
-            ${item.openingHours ? `<span class="text-[10px] select-none" title="${escapeHtml(tr('有官方營業時間：{hours}（見詳情頁）', { hours: item.openingHours }))}">🕐</span>` : ''}
-            ${item.visitorNote ? `<span class="text-[10px] select-none" title="${escapeHtml(tr('外訪准入：{note}', { note: item.visitorNote }))}">🌏</span>` : ''}
-            ${item.scenes ? `<span class="bg-green-500/20 text-green-200 border border-green-400/30 font-bold text-[9px] px-1.5 py-0.5 rounded inline-flex items-center gap-0.5" title="${escapeHtml(tr('WOSM SCENES 環境卓越童軍中心'))}"><i class="fa-solid fa-leaf"></i> SCENES</span>` : ''}
-            <span class="${badgeColor} font-bold text-[9px] px-1.5 py-0.5 rounded">${escapeHtml(shortLabel(item.category))}</span>
+            ${item.fee ? `<span class="text-[11px] select-none" title="${escapeHtml(tr('有官方收費資料：{fee}（見詳情頁）', { fee: item.fee }))}">💰</span>` : ''}
+            ${item.bookingUrl ? `<span class="text-[11px] select-none" title="${escapeHtml(tr('有官方預訂／收費詳情連結（見詳情頁）'))}">📅</span>` : ''}
+            ${item.openingHours ? `<span class="text-[11px] select-none" title="${escapeHtml(tr('有官方營業時間：{hours}（見詳情頁）', { hours: item.openingHours }))}">🕐</span>` : ''}
+            ${item.visitorNote ? `<span class="text-[11px] select-none" title="${escapeHtml(tr('外訪准入：{note}', { note: item.visitorNote }))}">🌏</span>` : ''}
+            ${item.scenes ? `<span class="bg-green-500/20 text-green-200 border border-green-400/30 font-bold text-[11px] px-1.5 py-0.5 rounded inline-flex items-center gap-0.5" title="${escapeHtml(tr('WOSM SCENES 環境卓越童軍中心'))}"><i class="fa-solid fa-leaf"></i> SCENES</span>` : ''}
+            <span class="${badgeColor} font-bold text-[11px] px-1.5 py-0.5 rounded">${escapeHtml(shortLabel(item.category))}</span>
             ${fbButtonHtml}
             ${igButtonHtml}
           </div>
@@ -2452,32 +2490,32 @@
       if (!badges.length && item.verificationSource) badges.push([tr('有來源'), 'bg-emerald-500/20 text-emerald-200 border-emerald-400/30']);
       badges.forEach(([label, cls]) => {
         const span = document.createElement('span');
-        span.className = `inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-black ${cls}`;
+        span.className = `inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-black ${cls}`;
         span.textContent = label;
         drawerVerificationBadges.appendChild(span);
       });
       // 🏕️ 營地結構化 chips：官方收費 + 預訂入口（資料來自已核實官方頁，出行前仍以官網為準）
       if (item.fee) {
         const feeSpan = document.createElement('span');
-        feeSpan.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-black bg-yellow-500/20 text-yellow-100 border-yellow-400/40';
+        feeSpan.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-black bg-yellow-500/20 text-yellow-100 border-yellow-400/40';
         feeSpan.innerHTML = `<i class="fa-solid fa-coins mr-1"></i>${escapeHtml(String(item.fee))}`;
         feeSpan.title = tr('官方頁面列明嘅收費資料（出行前以官網最新公佈為準）');
         drawerVerificationBadges.appendChild(feeSpan);
       }
       if (item.bookingUrl) {
         const bookA = document.createElement('a');
-        bookA.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-black bg-sky-500/20 text-sky-200 border-sky-400/40 hover:bg-sky-400/40 hover:text-white transition-colors';
+        bookA.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-black bg-sky-500/20 text-sky-200 border-sky-400/40 hover:bg-sky-400/40 hover:text-white transition-colors';
         bookA.href = item.bookingUrl;
         bookA.target = '_blank';
         bookA.rel = 'noopener';
-        bookA.innerHTML = `${tr('預訂／收費詳情')} <i class="fa-solid fa-arrow-up-right-from-square text-[9px] ml-1"></i>`;
+        bookA.innerHTML = `${tr('預訂／收費詳情')} <i class="fa-solid fa-arrow-up-right-from-square text-[11px] ml-1"></i>`;
         bookA.title = tr('前往官方預訂或收費頁面：{url}', { url: item.bookingUrl });
         drawerVerificationBadges.appendChild(bookA);
       }
       // 🕐 營業時間 chip：Shop/HQ 結構化開放時間（資料來自已核實官方頁，出行前仍以官網為準）
       if (item.openingHours) {
         const hoursSpan = document.createElement('span');
-        hoursSpan.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-black bg-teal-500/20 text-teal-100 border-teal-400/40';
+        hoursSpan.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-black bg-teal-500/20 text-teal-100 border-teal-400/40';
         hoursSpan.innerHTML = `<i class="fa-solid fa-clock mr-1"></i>${escapeHtml(String(item.openingHours))}`;
         hoursSpan.title = tr('官方頁面列明嘅營業／辦公時間（假期可能有變，出行前以官網最新公佈為準）');
         drawerVerificationBadges.appendChild(hoursSpan);
@@ -2485,7 +2523,7 @@
       // 🌏 外訪准入 chip：邊個用得呢個場地（資料來自已核實官方頁）
       if (item.visitorNote) {
         const visitSpan = document.createElement('span');
-        visitSpan.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-black bg-indigo-500/20 text-indigo-100 border-indigo-400/40';
+        visitSpan.className = 'inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-black bg-indigo-500/20 text-indigo-100 border-indigo-400/40';
         visitSpan.innerHTML = `<i class="fa-solid fa-earth-asia mr-1"></i>${escapeHtml(String(item.visitorNote))}`;
         visitSpan.title = tr('外國童軍團／公眾准入資訊（以官方最新公佈為準；正式海外交流請循香港童軍總會國際署程序）');
         drawerVerificationBadges.appendChild(visitSpan);
@@ -2510,9 +2548,9 @@
           const subButtons = l4SubregionContainer.querySelectorAll('.l4-sub-btn');
           subButtons.forEach(btn => {
             if (btn.dataset.sub === item.subregion) {
-              btn.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
+              btn.className = 'l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
             } else {
-              btn.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5';
+              btn.className = 'l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5';
             }
           });
         }
@@ -2592,7 +2630,7 @@
       // L3/L4 source box: show if a verification source exists
       if (item.verificationSource) {
         drawerWosmSource.href = item.verificationSource;
-        drawerWosmSource.innerHTML = `${sourceTypeLabel(item.verificationSource)} <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>`;
+        drawerWosmSource.innerHTML = `${sourceTypeLabel(item.verificationSource)} <i class="fa-solid fa-arrow-up-right-from-square text-[11px]"></i>`;
         if (drawerSourceBox) drawerSourceBox.classList.remove('hidden');
       } else {
         if (drawerSourceBox) drawerSourceBox.classList.add('hidden');
@@ -2798,15 +2836,36 @@
       }
       
       drawerWosmSource.href = org.wosmSource || 'https://www.scout.org';
-      drawerWosmSource.innerHTML = `${sourceTypeLabel(org.wosmSource || drawerWosmSource.href)} <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>`;
+      drawerWosmSource.innerHTML = `${sourceTypeLabel(org.wosmSource || drawerWosmSource.href)} <i class="fa-solid fa-arrow-up-right-from-square text-[11px]"></i>`;
       
       // Slide Open
+      if (!detailDrawer.classList.contains('translate-x-full')) {
+        drawerReturnFocus = document.activeElement;
+      } else {
+        drawerReturnFocus = document.activeElement;
+      }
       detailDrawer.classList.remove('translate-x-full');
+      detailDrawer.setAttribute('aria-hidden', 'false');
+      detailDrawer.removeAttribute('inert');
+      const firstFocusable = detailDrawer.querySelector('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+      if (firstFocusable) setTimeout(() => firstFocusable.focus({ preventScroll: true }), 60);
     }
     
     // Close Drawer
     function closeDetailDrawer() {
+      const wasOpen = !detailDrawer.classList.contains('translate-x-full');
       detailDrawer.classList.add('translate-x-full');
+      detailDrawer.setAttribute('aria-hidden', 'true');
+      detailDrawer.setAttribute('inert', '');
+      if (wasOpen) {
+        // 原本撳嘅清單項目可能已重新渲染，退返去搜尋框，總之焦點唔可以留在關閉咗嘅抽屜
+        const usable = drawerReturnFocus && document.contains(drawerReturnFocus) && !detailDrawer.contains(drawerReturnFocus);
+        const target = usable ? drawerReturnFocus : searchInput;
+        if (target && typeof target.focus === 'function') {
+          try { target.focus({ preventScroll: true }); } catch (e) {}
+        }
+      }
+      drawerReturnFocus = null;
       try { history.replaceState(null, '', window.location.pathname + window.location.search); } catch (e) {}
       currentSelectedOrgId = null;
       currentSelectedOrg = null;
@@ -2829,11 +2888,13 @@
       if (!l3LevelPills) return;
       const pills = l3LevelPills.querySelectorAll('button');
       pills.forEach(p => {
-        if (parseInt(p.dataset.level) === activeLevelTab) {
+        const active = parseInt(p.dataset.level) === activeLevelTab;
+        if (active) {
           p.className = 'flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all bg-amber-400 text-slate-950 shadow-sm';
         } else {
           p.className = 'flex-1 text-center py-1 text-[11px] font-bold rounded-md transition-all text-slate-400 hover:text-amber-400';
         }
+        p.setAttribute('aria-pressed', active ? 'true' : 'false');
       });
     }
 
@@ -2919,7 +2980,7 @@
           .sort((a, b) => a.km - b.km).slice(0, 12);
         if (globalResults) {
           globalResults.classList.remove('hidden');
-          globalResults.innerHTML = `<div class="px-2 py-1 text-[10px] font-black text-emerald-300">${escapeHtml(tr('📍 資料庫內、地圖中心 150 公里內嘅童軍地點（{n} 個）', { n: nearest.length }))}</div><div class="px-2 pb-1 text-[10px] leading-relaxed text-slate-400">${escapeHtml(tr('方便出發前搵資料，並不代表完整名單或目前一定開放；網站、電話及開放安排請以原始來源再次核實。'))}</div>` + (nearest.length ? nearest.map(p => `<button class="nearby-result w-full text-left p-2 rounded-lg hover:bg-[#09225e] flex items-center justify-between gap-2" data-id="${String(p.i).replace(/"/g, '&quot;')}" data-cc="${p.c}"><span class="truncate"><b class="text-slate-100">${p.f || '📍'} ${escapeHtml(indexName(p))}</b><small class="block text-slate-400">${p.t} · ${p.km < 1 ? '<1' : p.km.toFixed(1)} km</small></span><i class="fa-solid fa-arrow-right text-emerald-300"></i></button>`).join('') : `<p class="p-3 text-[11px] text-slate-400">${tr('附近未有帶座標嘅資料，可以試下搜尋目的地國家。')}</p>`);
+          globalResults.innerHTML = `<div class="px-2 py-1 text-[11px] font-black text-emerald-300">${escapeHtml(tr('📍 資料庫內、地圖中心 150 公里內嘅童軍地點（{n} 個）', { n: nearest.length }))}</div><div class="px-2 pb-1 text-[11px] leading-relaxed text-slate-400">${escapeHtml(tr('方便出發前搵資料，並不代表完整名單或目前一定開放；網站、電話及開放安排請以原始來源再次核實。'))}</div>` + (nearest.length ? nearest.map(p => `<button class="nearby-result w-full text-left p-2 rounded-lg hover:bg-[#09225e] flex items-center justify-between gap-2" data-id="${String(p.i).replace(/"/g, '&quot;')}" data-cc="${p.c}"><span class="truncate"><b class="text-slate-100">${p.f || '📍'} ${escapeHtml(indexName(p))}</b><small class="block text-slate-400">${p.t} · ${p.km < 1 ? '<1' : p.km.toFixed(1)} km</small></span><i class="fa-solid fa-arrow-right text-emerald-300"></i></button>`).join('') : `<p class="p-3 text-[11px] text-slate-400">${tr('附近未有帶座標嘅資料，可以試下搜尋目的地國家。')}</p>`);
           globalResults.querySelectorAll('.nearby-result').forEach(btn => btn.addEventListener('click', () => {
             const org = allScouts.find(o => o.id === btn.dataset.cc);
             if (org) { pendingL3JumpId = btn.dataset.id; selectOrganization(org); }
@@ -3024,8 +3085,10 @@
       btns.forEach(b => {
         if (b.dataset.region === regionName) {
           b.className = 'region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-amber-400 text-slate-950 shadow-sm border border-amber-400 hover:bg-amber-500';
+          b.setAttribute('aria-pressed', 'true');
         } else {
           b.className = 'region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white';
+          b.setAttribute('aria-pressed', 'false');
         }
       });
     }
@@ -3229,7 +3292,7 @@
       if (!favoritesList) return;
       if (favorites.length === 0) {
         favoritesList.innerHTML = `
-          <div class="text-center py-4 text-slate-500 text-[10px] font-semibold leading-relaxed">
+          <div class="text-center py-4 text-slate-500 text-[11px] font-semibold leading-relaxed">
             ${tr('仲未有收藏。<br>喺任何<strong class="text-amber-300">營地 / 用品社 / 單位</strong>嘅詳情頁或列表撳 <i class="fa-regular fa-star text-amber-300"></i>，就會儲存喺呢度（離線都睇得返）。')}
           </div>`;
         return;
@@ -3241,7 +3304,7 @@
       }).map(fav => {
         const isOrg = fav.favKind === 'org';
         const groupKey = `${fav.parentCountry || fav.code || tr('其他')} · ${isOrg ? tr('總會') : (fav.type || tr('其他'))}`;
-        const groupHeader = groupKey !== lastGroup ? `<div class="pt-2 pb-0.5 text-[9px] font-black text-amber-300/80 uppercase tracking-wider">${escapeHtml(groupKey)}</div>` : '';
+        const groupHeader = groupKey !== lastGroup ? `<div class="pt-2 pb-0.5 text-[11px] font-black text-amber-300/80 uppercase tracking-wider">${escapeHtml(groupKey)}</div>` : '';
         lastGroup = groupKey;
         const typeBadgeCls = isOrg
           ? 'bg-amber-950/50 text-amber-300 border border-amber-900/30'
@@ -3259,11 +3322,11 @@
               <span class="text-base flex-shrink-0">${fav.flag || '📍'}</span>
               <span class="overflow-hidden">
                 <span class="block text-[11px] font-extrabold text-slate-100 truncate">${escapeHtml(locName(fav) || fav.id)}</span>
-                <span class="block text-[9px] text-slate-400 font-semibold truncate">${escapeHtml(sub || (isEnglish() ? (fav.name || '') : (fav.nameEn || '')))}</span>
+                <span class="block text-[11px] text-slate-400 font-semibold truncate">${escapeHtml(sub || (isEnglish() ? (fav.name || '') : (fav.nameEn || '')))}</span>
               </span>
             </span>
             <span class="flex items-center gap-1 flex-shrink-0">
-              ${badgeText ? `<span class="border px-1.5 py-0.5 rounded text-[9px] font-black ${typeBadgeCls}">${escapeHtml(badgeText)}</span>` : ''}
+              ${badgeText ? `<span class="border px-1.5 py-0.5 rounded text-[11px] font-black ${typeBadgeCls}">${escapeHtml(badgeText)}</span>` : ''}
               <button class="fav-move-btn text-slate-500 hover:text-sky-300 p-1 focus:outline-none" data-fav-move="up" data-fav-id="${escapeHtml(fav.id)}" title="${tr('向上移')}">↑</button>
               <button class="fav-move-btn text-slate-500 hover:text-sky-300 p-1 focus:outline-none" data-fav-move="down" data-fav-id="${escapeHtml(fav.id)}" title="${tr('向下移')}">↓</button>
               <i class="fa-solid fa-star text-amber-400 text-xs"></i>
@@ -3418,7 +3481,7 @@
       };
 
       globalResults.innerHTML = `
-        <div class="text-[10px] font-black text-amber-400/90 uppercase tracking-wider px-1 flex items-center justify-between">
+        <div class="text-[11px] font-black text-amber-400/90 uppercase tracking-wider px-1 flex items-center justify-between">
           <span><i class="fa-solid fa-earth-asia mr-1"></i>${tr('全球地點直達')}</span>
           <span class="text-slate-500 normal-case font-bold">${tr('營地・用品社・區會')}</span>
         </div>
@@ -3431,20 +3494,20 @@
         }
         const sub = [parentName, hit.s].filter(Boolean).join(' · ');
         // 中英雙語顯示：英文名與中文名不同時補多行（跨境搜尋 Vajiravudh、Gilwell 都睇得明）
-        const enLine = (hit.e && hit.e !== hit.n) ? `<span class="block text-[9px] text-slate-500 font-semibold truncate">${escapeHtml(hit.e)}</span>` : '';
+        const enLine = (hit.e && hit.e !== hit.n) ? `<span class="block text-[11px] text-slate-500 font-semibold truncate">${escapeHtml(hit.e)}</span>` : '';
         return `
           <button class="global-hit w-full text-left p-2 rounded-lg bg-[#051847] hover:bg-[#09225e] border border-white/5 hover:border-amber-400 transition-all flex items-center justify-between gap-2" data-hid="${escapeHtml(hit.i)}" data-cc="${escapeHtml(hit.c)}" data-lvl="${hit.lvl}">
             <span class="flex items-center gap-2 overflow-hidden">
               <span class="text-base flex-shrink-0">${hit.f || '📍'}</span>
               <span class="overflow-hidden">
                 <span class="block text-[11px] font-extrabold text-slate-100 truncate">${escapeHtml(hit.n)}</span>
-                <span class="block text-[9px] text-slate-400 font-semibold truncate">${escapeHtml(sub || hit.e || '')}</span>
+                <span class="block text-[11px] text-slate-400 font-semibold truncate">${escapeHtml(sub || hit.e || '')}</span>
                 ${enLine}
               </span>
             </span>
             <span class="flex items-center gap-1 flex-shrink-0">
-              <span class="border px-1.5 py-0.5 rounded text-[9px] font-black ${typeBadge(hit.t)}">${escapeHtml(hit.t)}</span>
-              <i class="fa-solid fa-arrow-right-long text-amber-300 text-[10px]"></i>
+              <span class="border px-1.5 py-0.5 rounded text-[11px] font-black ${typeBadge(hit.t)}">${escapeHtml(hit.t)}</span>
+              <i class="fa-solid fa-arrow-right-long text-amber-300 text-[11px]"></i>
             </span>
           </button>
         `;
@@ -3567,9 +3630,11 @@
         const btns = regionFilters.querySelectorAll('.region-btn');
         btns.forEach(b => {
           b.className = 'region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-[#051847] text-slate-300 border border-white/5 hover:bg-[#09225e] hover:text-white';
+          b.setAttribute('aria-pressed', 'false');
         });
         
         btn.className = 'region-btn flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-bold transition-all bg-amber-400 text-slate-950 shadow-sm border border-amber-400 hover:bg-amber-500';
+        btn.setAttribute('aria-pressed', 'true');
         
         const selectedRegion = btn.dataset.region;
         
@@ -3632,10 +3697,10 @@
         
         const btns = l4SubregionContainer.querySelectorAll('.l4-sub-btn');
         btns.forEach(b => {
-          b.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#010c29] text-slate-400 border border-white/5';
+          b.className = 'l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#010c29] text-slate-400 border border-white/5';
         });
         
-        btn.className = 'l4-sub-btn px-2 py-0.5 rounded text-[10px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
+        btn.className = 'l4-sub-btn px-2 py-0.5 rounded text-[11px] font-bold bg-[#09225e] text-amber-300 border border-white/10';
         activeL4Subregion = btn.dataset.sub;
         activeL3Item = null;
         
@@ -3753,6 +3818,12 @@
     // 語言一變：靜態文字由 applyStaticI18n() 重畫，動態內容由
     // refreshAfterLanguageChange() 重新 render，狀態（已選地點、
     // 篩選、收藏、地圖位置）全部保留。
+    // 頁尾版號：唯一真理 APP_VERSION（避免手改頁尾漏更新）
+    function renderAppVersion() {
+      const label = document.getElementById('app-version-label');
+      if (label) label.textContent = `© SCOUT SYSTEM · ${APP_VERSION}`;
+    }
+
     function updateLangToggleUI() {
       const label = document.getElementById('lang-toggle-label');
       if (label) label.textContent = isEnglish() ? '中文' : 'EN';
@@ -3805,6 +3876,7 @@
     window.addEventListener('DOMContentLoaded', () => {
       initDOM(); // Initialize DOM elements safely!
       initLanguage(); // 語言要最先套用，之後 render 就會用正確語言
+      renderAppVersion(); // W1／V2：頁尾 © SCOUT SYSTEM ＋ 版號
       initMap();
 
       // Bootstrap Hong Kong view instantly!

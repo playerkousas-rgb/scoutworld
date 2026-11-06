@@ -42,6 +42,25 @@
   銀禧區 → `Silver Jubilee District`、璧峰區 → `Pik Fung District`、雙魚區 → `Sheung Yue District`），
   唔會自行意譯；官方名單日後若有改動，改 `EN` 字典一條 key 即可。
 
+## 介面品質（照 house standard）
+
+介面基本功跟 [`playerkousas-rgb/readme`](https://github.com/playerkousas-rgb/readme) 嘅標準做，
+唔係憑感覺：
+
+- **圖標（G11）**：9 個 PNG／ICO（含 16×16 手繪、2 個 maskable、1200×630 PNG og 圖），
+  合共 204.7 KB（預算 260 KB）。`npm run test:icons` 會讀 PNG 尺寸、ICO 內含尺寸、
+  manifest 4 個 icon、`<head>` 5 條 link、`og:image` 要絕對網址，同埋版號一致性 ——
+  冇得靠肉眼。
+- **無障礙**：全站 `:focus-visible` 焦點環、詳情抽屜係 `role="dialog"` + `aria-modal` +
+  開關時 `aria-hidden`／`inert` 同步、焦點會移入同還原；結果數量有 `aria-live`；
+  大區／級別分頁有 `aria-pressed`；尊重 `prefers-reduced-motion`。
+- **手機**：用 `100dvh`（唔會被 URL bar 剪）、輸入框 16px（iOS 唔會自動放大）、
+  字級下限 11px（原本有 9px／10px）。
+- **版權／版號（W1／V2）**：頁尾 `© SCOUT SYSTEM · vYYYY.MM.DD`、`<meta name="copyright">`、
+  `APP_VERSION` 常數 ＋ `<meta name="app-version">`，三處對唔上 `test:icons` 會紅。
+- **一次過跑**：`npm run check`（lint + i18n + icons + 24 項 runtime + build）。
+- 2026-11-06 嘅完整檢查報告（含未做項目同原因）：[`UI_REVIEW_2026-11-06.md`](UI_REVIEW_2026-11-06.md)。
+
 ### 順手做咗嘅資料瘦身
 
 `contactPolicy`（總會國際署聯絡政策）原本**逐條記錄重複 1,552 次**、佔約 270 KB。
