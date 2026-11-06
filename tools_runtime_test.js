@@ -44,7 +44,7 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
   w.L = {
     map: () => mkMap(),
     control: { zoom: () => ({ addTo: () => ({}) }), scale: () => ({ addTo: () => ({}) }) },
-    tileLayer: () => ({ addTo: () => mkMap() }),
+    tileLayer: (url, opts) => { w.__tileLayers = w.__tileLayers || []; w.__tileLayers.push({ url, opts }); return mkLayer(); },
     marker: () => mkLayer(), circleMarker: () => mkLayer(), circle: () => mkLayer(),
     layerGroup: () => mkLayer(), featureGroup: () => mkLayer(),
     polygon: () => mkLayer(), polyline: () => mkLayer(), icon: () => ({}), divIcon: () => ({}),
@@ -436,6 +436,17 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     assert($el('#filtered-count').getAttribute('aria-live') === 'polite', '#filtered-count 冇 aria-live');
     assert([...doc.querySelectorAll('.region-btn')].every(b => b.hasAttribute('aria-pressed')), '大區分頁缺 aria-pressed');
     assert([...doc.querySelectorAll('#l3-level-pills button')].every(b => b.hasAttribute('aria-pressed')), '級別分頁缺 aria-pressed');
+
+    // 底圖：唔再用 CARTO（匿名請求會被印上 API KEY REQUIRED 水印）
+    const tileLayers = w.__tileLayers || [];
+    assert(tileLayers.length > 0, '未建立任何圖磚層');
+    const primary = tileLayers[0];
+    assert(/^https:\/\/tile\.openstreetmap\.org\//.test(primary.url), '主底圖唔係 OSM：' + primary.url);
+    assert(!/cartocdn|carto\.com/.test(primary.url), '主底圖仍然用 CARTO：' + primary.url);
+    assert(/OpenStreetMap/.test(primary.opts.attribution), '缺 OSM attribution');
+    // 後備底圖要存在（OSM 掛咗都仲有圖睇）
+    assert(/World_Light_Gray_Base/.test(html), '缺後備底圖（Esri 淺灰）');
+    assert(!/basemaps\.cartocdn\.com/.test(html), 'index.html 仍然引用 CARTO 圖磚');
 
     // Tailwind：預先 build 嘅靜態 CSS（唔再用 cdn.tailwindcss.com 執行時 JIT）
     const twLink = doc.querySelector('link[href="/tailwind.css"]');

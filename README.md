@@ -124,6 +124,9 @@ GitHub Actions 會在資料變更時執行資料品質及 runtime tests，並每
   `npm run css`（用 devDependency `tailwindcss`，唔加 runtime 依賴）；
   漏跑會被 `npm run test:css` 捉到（逐個 class 對答案，連 `md:`／`/[11px]` 呢類都查）。
   色票覆寫（violet/blue/teal→sky、pink/rose→red、orange→金）而家喺 `tailwind.config.js`。
+- 底圖：**OpenStreetMap 官方圖磚**（免 API key）＋ Esri 淺灰作後備（連續 4 塊載入失敗會自動轉）。
+  ⚠️ 唔可以再用 CARTO（`basemaps.cartocdn.com`）：2026-08 起匿名請求會回「API KEY REQUIRED」水印圖磚。
+  `scripts/validate-build.js` 會擋住 reconfigure 返去嘅情況。
 - 資料：`data/<region>/local/<COUNTRY>.json`（L3/L4）＋ `data/search-index.json`（由
   `python3 tools_search_index_build.py` 重建）
 - 路線圖：[ROADMAP_2026.md](ROADMAP_2026.md)
