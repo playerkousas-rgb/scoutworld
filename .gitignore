@@ -3,3 +3,6 @@ __pycache__/
 *.py[cod]
 LINK_CHECK_REPORT_*.md
 LINK_CHECK_RESULTS_*.csv
+
+# 圖標母圖（唔部署、唔入 repo）
+.icon-src/

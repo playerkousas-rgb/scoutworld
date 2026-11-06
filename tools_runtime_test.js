@@ -369,6 +369,129 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     ].forEach(file => assert(fs.existsSync(path.join(ROOT, file)), 'missing report ' + file));
   });
 
+  // ============ 🌐 中英雙語（i18n） ============
+  await runTest('🌐 i18n：中／英切換、地名英譯、狀態保留', async () => {
+    const $el = s => doc.querySelector(s);
+    const headerText = () => $el('header p').textContent;
+    const regionText = () => [...doc.querySelectorAll('.region-btn')].map(b => b.textContent).join('|');
+    assert($el('#lang-toggle'), '語言切換掣唔見咗');
+    assert(doc.documentElement.lang === 'zh-Hant-HK', '預設應該係中文：' + doc.documentElement.lang);
+
+    await clickHot('JP');
+    const zhRow = l3Rows()[0].textContent;
+    assert(/日本/.test(zhRow), '中文地名：' + zhRow.slice(0, 60));
+
+    $el('#lang-toggle').click();
+    await new Promise(r => setTimeout(r, 500));
+    assert(doc.documentElement.lang === 'en', 'html lang 未切換');
+    assert(/Trip planning for Hong Kong Scouts/.test(headerText()), '標語未翻譯：' + headerText());
+    assert(/Asia-Pacific/.test(regionText()) && !/亞太區/.test(regionText()), '大區分頁未翻譯：' + regionText());
+    assert(/All/.test($el('.l3-type-btn').textContent), '篩選未翻譯');
+    assert(w.localStorage.getItem('sw-lang') === 'en', '語言選擇未記住');
+
+    const enRow = l3Rows()[0].textContent;
+    assert(enRow !== zhRow && /Scout Association of Japan/.test(enRow), '地點名未用英文：' + enRow.slice(0, 80));
+
+    l3Rows()[0].click();
+    await new Promise(r => setTimeout(r, 400));
+    assert(/Scout Association of Japan/.test($el('#drawer-country').textContent), '詳情頁名稱未英譯');
+    assert(/日本童軍連盟/.test($el('#drawer-country-en').textContent), '英文模式應同時顯示中文名對照');
+    assert(/^Category:/.test($el('#drawer-category-label').textContent), '類別標籤未英譯：' + $el('#drawer-category-label').textContent);
+    assert(/description kept in Chinese/.test($el('#drawer-confidence-note').textContent), '未標明簡介係中文原文');
+    assert(/trip planning for Hong Kong Scouts/i.test(doc.title), 'document.title 未翻譯：' + doc.title);
+    assert(/A trip-planning database/.test($el('meta[name=description]').getAttribute('content')), 'meta description 未翻譯');
+
+    $el('#lang-toggle').click();
+    await new Promise(r => setTimeout(r, 500));
+    assert(doc.documentElement.lang === 'zh-Hant-HK', '切返中文失敗');
+    assert(/香港童軍外遊規劃首選/.test(headerText()), '中文標語未還原：' + headerText());
+    assert(/日本/.test(l3Rows()[0].textContent), '中文地名未還原');
+    assert(w.localStorage.getItem('sw-lang') === 'zh', '中文選擇未記住');
+  });
+
+  // ============ 🎨 UI／無障礙（W1 版權、V2 版號、鍵盤、讀屏） ============
+  await runTest('🎨 UI：版權版號、抽屜語意、讀屏公告、鍵盤焦點', async () => {
+    const $el = s => doc.querySelector(s);
+    const style = [...doc.querySelectorAll('style')].map(n => n.textContent).join('\n');
+
+    // W1：可見版權 + meta copyright
+    assert(/© SCOUT SYSTEM/.test($el('body').textContent), '頁面無 © SCOUT SYSTEM');
+    assert(/© SCOUT SYSTEM/.test($el('meta[name=copyright]').getAttribute('content')), '缺 meta copyright');
+    assert(/© SCOUT SYSTEM · v\d/.test($el('#app-version-label').textContent), '頁尾版號未注入：' + $el('#app-version-label').textContent);
+
+    // V2：meta 同 APP_VERSION 單一真理
+    const metaVersion = $el('meta[name=app-version]').getAttribute('content');
+    assert(/^v\d{4}\.\d{2}\.\d{2}$/.test(metaVersion), 'meta app-version 格式錯：' + metaVersion);
+    assert($el('#app-version-label').textContent.includes(metaVersion), '頁尾版號同 meta 唔一致');
+
+    // 手機：dvh（唔會被 URL bar 剪）+ 輸入框 16px（iOS 唔會自動放大）
+    assert(/100dvh/.test(style), '未用 100dvh');
+    assert(/font-size: 16px/.test(style), '手機輸入框未設 16px');
+
+    // 鍵盤：焦點環 + 減少動態
+    assert(/:focus-visible/.test(style), '缺 :focus-visible 焦點環');
+    assert(/prefers-reduced-motion/.test(style), '未尊重 prefers-reduced-motion');
+
+    // 讀屏：結果數量同分頁狀態
+    assert($el('#filtered-count').getAttribute('aria-live') === 'polite', '#filtered-count 冇 aria-live');
+    assert([...doc.querySelectorAll('.region-btn')].every(b => b.hasAttribute('aria-pressed')), '大區分頁缺 aria-pressed');
+    assert([...doc.querySelectorAll('#l3-level-pills button')].every(b => b.hasAttribute('aria-pressed')), '級別分頁缺 aria-pressed');
+
+    // Tailwind：預先 build 嘅靜態 CSS（唔再用 cdn.tailwindcss.com 執行時 JIT）
+    const twLink = doc.querySelector('link[href="/tailwind.css"]');
+    assert(twLink, 'index.html 冇 link 去 /tailwind.css');
+    assert(![...doc.querySelectorAll('script[src]')].some(s => /cdn\.tailwindcss\.com/.test(s.src)), '仍然載入 Tailwind CDN');
+    const twCss = fs.readFileSync(path.join(ROOT, 'tailwind.css'), 'utf8');
+    assert(/\.flex\{/.test(twCss), 'tailwind.css 似係 build 失敗（冇 .flex）');
+    assert(/\.md\\:w-96\{/.test(twCss), 'tailwind.css 缺響應式 utilities（md:w-96）');
+
+    // 色票收斂：off-brand 色相全部由 tailwind config 對應到語意色
+    const twConfig = fs.readFileSync(path.join(ROOT, 'tailwind.config.js'), 'utf8');
+    assert(/SW_INFO/.test(twConfig) && /SW_DANGER/.test(twConfig) && /violet: SW_INFO/.test(twConfig), 'tailwind.config.js 未做色票收斂');
+    assert(!/bg-gradient/.test($el('#drawer-header').className), '抽屜 header 仍然係漸層');
+
+    // 手機地圖：預設條狀，撳掣先展開（aria-expanded 同步）
+    const mapToggle = $el('#map-toggle-btn');
+    const mapPanelEl = $el('#map-panel');
+    assert(mapToggle, '缺手機地圖展開掣');
+    assert(mapPanelEl.className.includes('flex-1') && !mapPanelEl.className.includes('h-[45vh]'), '地圖高度仍寫死喺 class');
+    assert(/map-mobile-expanded/.test(style), 'CSS 未有手機地圖展開狀態');
+    assert(mapToggle.getAttribute('aria-expanded') === 'false', '地圖掣初始 aria-expanded 應為 false');
+    assert(/展開地圖/.test($el('#map-toggle-label').textContent), '地圖掣初始文字錯：' + $el('#map-toggle-label').textContent);
+    mapToggle.click();
+    await new Promise(r => setTimeout(r, 120));
+    assert(mapPanelEl.classList.contains('map-mobile-expanded'), '撳掣未展開地圖');
+    assert(mapToggle.getAttribute('aria-expanded') === 'true', '展開後 aria-expanded 未更新');
+    assert(/收起地圖/.test($el('#map-toggle-label').textContent), '展開後文字未變：' + $el('#map-toggle-label').textContent);
+    mapToggle.click();
+    await new Promise(r => setTimeout(r, 120));
+    assert(!mapPanelEl.classList.contains('map-mobile-expanded'), '再撳未收起地圖');
+
+    // 抽屜：dialog 語意 + 開關時 aria-hidden 同步 + 焦點還原
+    const drawer = $el('#detail-drawer');
+    assert(drawer.getAttribute('role') === 'dialog', '抽屜缺 role=dialog');
+    assert(drawer.getAttribute('aria-modal') === 'true', '抽屜缺 aria-modal');
+    // 上一個測試可能留住咗抽屜，先按 Esc 關閉再驗（抽屜一開就要 aria-hidden=false、關就要 true）
+    if (drawer.getAttribute('aria-hidden') !== 'true') {
+      w.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape' }));
+      await new Promise(r => setTimeout(r, 300));
+    }
+    assert(drawer.getAttribute('aria-hidden') === 'true', '關閉時抽屜應 aria-hidden=true');
+    assert(drawer.hasAttribute('inert'), '關閉時抽屜應 inert（Tab 唔應該入得去）');
+
+    await clickHot('JP');
+    l3Rows()[0].click();
+    await new Promise(r => setTimeout(r, 400));
+    assert(drawer.getAttribute('aria-hidden') === 'false', '打開抽屜未更新 aria-hidden');
+    assert(!drawer.hasAttribute('inert'), '打開抽屜後 inert 未解除');
+    assert(drawer.contains(doc.activeElement), '焦點未移入抽屜：' + (doc.activeElement && doc.activeElement.tagName));
+    $el('#close-drawer-btn') ? $el('#close-drawer-btn').click() : w.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape' }));
+    await new Promise(r => setTimeout(r, 400));
+    assert(drawer.getAttribute('aria-hidden') === 'true', '關閉抽屜未更新 aria-hidden');
+    console.log('   [debug] 關閉後 activeElement =', doc.activeElement && (doc.activeElement.id || doc.activeElement.tagName));
+    assert(!drawer.contains(doc.activeElement), '焦點仍留在已關閉抽屜內：' + (doc.activeElement && (doc.activeElement.id || doc.activeElement.tagName)));
+  });
+
   console.log(`\n===== 測試結束：${failureCount ? `${failureCount} 項失敗` : '全部通過'} =====`);
   if (failureCount) process.exitCode = 1;
 })();

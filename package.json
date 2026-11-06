@@ -2,13 +2,18 @@
   "name": "scoutworld",
   "private": true,
   "scripts": {
-    "check": "npm run lint && npm run test:runtime && npm run build",
-    "lint": "node --check tools_runtime_test.js && python3 -m py_compile tools_data_quality.py tools_link_check.py tools_search_index_build.py",
+    "check": "npm run lint && npm run test:i18n && npm run test:css && npm run test:icons && npm run test:runtime && npm run build",
+    "lint": "node --check tools_runtime_test.js && node --check tailwind.config.js && node --check scripts/validate-i18n.js && node --check scripts/validate-build.js && node --check scripts/validate-icons.js && node --check scripts/validate-tailwind.js && python3 -m py_compile tools_data_quality.py tools_link_check.py tools_search_index_build.py",
     "test:runtime": "node tools_runtime_test.js",
-    "build": "node scripts/validate-build.js"
+    "build": "node scripts/validate-build.js",
+    "test:i18n": "node scripts/validate-i18n.js",
+    "test:icons": "node scripts/validate-icons.js",
+    "css": "tailwindcss -c tailwind.config.js -i styles/tailwind.input.css -o tailwind.css --minify",
+    "test:css": "node scripts/validate-tailwind.js"
   },
   "devDependencies": {
-    "jsdom": "^24.1.3"
+    "jsdom": "^24.1.3",
+    "tailwindcss": "^3.4.19"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1"

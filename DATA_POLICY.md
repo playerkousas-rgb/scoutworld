@@ -25,6 +25,14 @@ Required fields where possible:
 - wosmSource
 - verificationStatus
 
+### Contact policy wording
+
+The formal overseas contact policy (International Branch procedure, tel 2957 6400) is
+**not stored per record**. It used to be repeated on all 1,552 entries; it now lives in
+the interface as a single constant (`contactPolicyText()` in `index.html`, Chinese and
+English). Records therefore carry only their own facts, and the policy cannot drift
+between entries.
+
 ### Hong Kong hierarchy (HK only)
 
 Hong Kong uses a finer hierarchy matching the Scout Association of Hong Kong structure:

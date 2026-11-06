@@ -21,6 +21,8 @@ tools_runtime_test.js
 tools_link_check_test.py
 package.json
 package-lock.json
+tailwind.config.js
+styles/**
 
 # Local/build caches (do not commit or deploy these).
 .vercel
