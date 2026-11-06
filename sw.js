@@ -9,7 +9,7 @@
    - 其他頁面導航: network-first，離線時回退到主頁
    ============================================================ */
 
-const VERSION = 'scoutworld-v2026.11.06.1';
+const VERSION = 'scoutworld-v2026.11.06.2';
 
 const APP_SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-data`;
@@ -24,11 +24,14 @@ const APP_SHELL = [
   '/index.html',
   '/manifest.webmanifest',
   '/favicon.ico',
+  '/favicon-16.png',
   '/favicon-32.png',
   '/apple-touch-icon.png',
   '/icon-192.png',
   '/icon-512.png',
-  '/og-cover.jpg'
+  '/icon-maskable-192.png',
+  '/icon-maskable-512.png',
+  '/og-image.png'
 ];
 
 // 核心資料（離線首選）：全球六大區 + 世界資源層 + 搜尋索引 + 地點數量
