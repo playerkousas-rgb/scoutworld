@@ -1874,10 +1874,10 @@
       basemapIndex = index;
       basemapTileErrors = 0;
       const config = BASEMAPS[index];
+      // 唔設 crossOrigin：我哋唔會讀像素，但供應商冇回 CORS header 時反而會載入失敗
       basemapLayer = L.tileLayer(config.url, {
         attribution: config.attribution,
-        maxZoom: config.maxZoom,
-        crossOrigin: true
+        maxZoom: config.maxZoom
       });
       basemapLayer.on('tileerror', () => {
         basemapTileErrors += 1;
