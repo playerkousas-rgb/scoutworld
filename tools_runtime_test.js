@@ -437,9 +437,17 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     assert([...doc.querySelectorAll('.region-btn')].every(b => b.hasAttribute('aria-pressed')), '大區分頁缺 aria-pressed');
     assert([...doc.querySelectorAll('#l3-level-pills button')].every(b => b.hasAttribute('aria-pressed')), '級別分頁缺 aria-pressed');
 
+    // Tailwind：預先 build 嘅靜態 CSS（唔再用 cdn.tailwindcss.com 執行時 JIT）
+    const twLink = doc.querySelector('link[href="/tailwind.css"]');
+    assert(twLink, 'index.html 冇 link 去 /tailwind.css');
+    assert(![...doc.querySelectorAll('script[src]')].some(s => /cdn\.tailwindcss\.com/.test(s.src)), '仍然載入 Tailwind CDN');
+    const twCss = fs.readFileSync(path.join(ROOT, 'tailwind.css'), 'utf8');
+    assert(/\.flex\{/.test(twCss), 'tailwind.css 似係 build 失敗（冇 .flex）');
+    assert(/\.md\\:w-96\{/.test(twCss), 'tailwind.css 缺響應式 utilities（md:w-96）');
+
     // 色票收斂：off-brand 色相全部由 tailwind config 對應到語意色
-    assert(/tailwind\.config/.test(doc.documentElement.innerHTML), '缺 tailwind.config（色票收斂）');
-    assert(/SW_INFO/.test(doc.documentElement.innerHTML) && /SW_DANGER/.test(doc.documentElement.innerHTML), '色票 token 未定義');
+    const twConfig = fs.readFileSync(path.join(ROOT, 'tailwind.config.js'), 'utf8');
+    assert(/SW_INFO/.test(twConfig) && /SW_DANGER/.test(twConfig) && /violet: SW_INFO/.test(twConfig), 'tailwind.config.js 未做色票收斂');
     assert(!/bg-gradient/.test($el('#drawer-header').className), '抽屜 header 仍然係漸層');
 
     // 手機地圖：預設條狀，撳掣先展開（aria-expanded 同步）

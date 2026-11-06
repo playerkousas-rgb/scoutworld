@@ -117,7 +117,13 @@ GitHub Actions 會在資料變更時執行資料品質及 runtime tests，並每
 
 ## 技術
 
-- 純前端：單一 `index.html`（Leaflet 地圖 + Tailwind），Vercel 靜態託管，PWA 離線可用
+- 純前端：`index.html`（Leaflet 地圖 + Tailwind），Vercel 靜態託管，PWA 離線可用。
+  **部署時冇 build step**：Vercel 直接派檔。
+- **Tailwind 已經唔再用 CDN**：`tailwind.css` 係預先 build 好、commit 咗嘅靜態檔
+  （30.9 KB，gzip 6.1 KB）。改咗 `index.html` 嘅 class 之後要跑
+  `npm run css`（用 devDependency `tailwindcss`，唔加 runtime 依賴）；
+  漏跑會被 `npm run test:css` 捉到（逐個 class 對答案，連 `md:`／`/[11px]` 呢類都查）。
+  色票覆寫（violet/blue/teal→sky、pink/rose→red、orange→金）而家喺 `tailwind.config.js`。
 - 資料：`data/<region>/local/<COUNTRY>.json`（L3/L4）＋ `data/search-index.json`（由
   `python3 tools_search_index_build.py` 重建）
 - 路線圖：[ROADMAP_2026.md](ROADMAP_2026.md)

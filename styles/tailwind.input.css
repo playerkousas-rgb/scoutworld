@@ -1,0 +1,5 @@
+/* Tailwind entry：`npm run css` 會用 tailwind.config.js 產出根目錄 tailwind.css。
+   build 產物要 commit（Vercel 唔會 build），改完 index.html 記得重跑。 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

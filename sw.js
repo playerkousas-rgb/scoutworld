@@ -5,11 +5,11 @@
    - App shell (HTML / icons / manifest): cache-first
    - /data/*.json: stale-while-revalidate (出發前睇過嘅國家，旅途中離線用到)
    - 地圖圖磚 (OSM/CARTO): cache-first，設上限避免儲存爆滿
-   - CDN (tailwind / leaflet / fontawesome / fonts): stale-while-revalidate
+   - CDN (leaflet / fontawesome / fonts): stale-while-revalidate
    - 其他頁面導航: network-first，離線時回退到主頁
    ============================================================ */
 
-const VERSION = 'scoutworld-v2026.11.07.1';
+const VERSION = 'scoutworld-v2026.11.07.2';
 
 const APP_SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-data`;
@@ -22,6 +22,7 @@ const RUNTIME_CACHE_LIMIT = 60;
 const APP_SHELL = [
   '/',
   '/index.html',
+  '/tailwind.css',
   '/manifest.webmanifest',
   '/favicon.ico',
   '/favicon-16.png',
@@ -193,7 +194,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 第三方 CDN（tailwind、leaflet、fontawesome、google fonts、unpkg）：stale-while-revalidate
+  // 第三方 CDN（leaflet、fontawesome、google fonts、unpkg）：stale-while-revalidate
   if (
     /tailwindcss\.com|cdnjs\.cloudflare\.com|unpkg\.com|googleapis\.com|gstatic\.com|jsdelivr\.net/.test(
       url.hostname

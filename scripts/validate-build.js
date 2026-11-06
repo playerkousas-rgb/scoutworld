@@ -5,7 +5,7 @@ const path = require('path');
 
 const root = path.resolve(__dirname, '..');
 const required = [
-  'index.html', 'sw.js', 'manifest.webmanifest', 'robots.txt', 'sitemap.xml',
+  'index.html', 'sw.js', 'tailwind.css', 'manifest.webmanifest', 'robots.txt', 'sitemap.xml',
   'favicon.ico', 'favicon-16.png', 'favicon-32.png', 'apple-touch-icon.png', 'icon-192.png',
   'icon-512.png', 'icon-maskable-192.png', 'icon-maskable-512.png', 'og-image.png',
   'data/place-counts.json', 'data/search-index.json'
