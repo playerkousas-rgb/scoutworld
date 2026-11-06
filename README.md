@@ -48,14 +48,21 @@
 唔係憑感覺：
 
 - **圖標（G11）**：9 個 PNG／ICO（含 16×16 手繪、2 個 maskable、1200×630 PNG og 圖），
-  合共 204.7 KB（預算 260 KB）。`npm run test:icons` 會讀 PNG 尺寸、ICO 內含尺寸、
+  合共 171.8 KB（預算 260 KB）。母圖係「夜空＋金色指南針＋奶白 fleur-de-lis＋綠色島嶼」，
+  full bleed、5 色、主體收喺中央（見 `UI_REVIEW_2026-11-06.md` §6）。`npm run test:icons` 會讀 PNG 尺寸、ICO 內含尺寸、
   manifest 4 個 icon、`<head>` 5 條 link、`og:image` 要絕對網址，同埋版號一致性 ——
   冇得靠肉眼。
 - **無障礙**：全站 `:focus-visible` 焦點環、詳情抽屜係 `role="dialog"` + `aria-modal` +
   開關時 `aria-hidden`／`inert` 同步、焦點會移入同還原；結果數量有 `aria-live`；
   大區／級別分頁有 `aria-pressed`；尊重 `prefers-reduced-motion`。
 - **手機**：用 `100dvh`（唔會被 URL bar 剪）、輸入框 16px（iOS 唔會自動放大）、
-  字級下限 11px（原本有 9px／10px）。
+  字級下限 11px（原本有 9px／10px）；地圖預設收成 **120px 條狀**（清單優先），
+  撳「展開地圖」先放大到 55vh（`aria-expanded` 跟住變，Leaflet 會 `invalidateSize()`）。
+- **配色系統**：只用深藍底 + 品牌金（amber）＋ 3 個語意色 ——
+  `emerald`＝已核實／可去、`sky`＝資料性質（社交／二手／代表點）、`red`＝危險／清空，
+  其餘係 slate 中性。舊 code 嘅 violet／indigo／blue／teal／purple／pink／rose／orange
+  由 `tailwind.config` 一次過對應（連 `/50` 透明度版本），所以**加新元件唔會再引入新色相**。
+  類型（旅團／區會／Shop…）用中性色章，顏色只表示可信度；社交平台 logo 保留品牌色。
 - **版權／版號（W1／V2）**：頁尾 `© SCOUT SYSTEM · vYYYY.MM.DD`、`<meta name="copyright">`、
   `APP_VERSION` 常數 ＋ `<meta name="app-version">`，三處對唔上 `test:icons` 會紅。
 - **一次過跑**：`npm run check`（lint + i18n + icons + 24 項 runtime + build）。

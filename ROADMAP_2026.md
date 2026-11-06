@@ -158,7 +158,7 @@ Completed:
 - Per-destination share links (`/#GB` style hash routing) with native share sheet / clipboard fallback.
 - PWA offline mode via `sw.js` (app shell + data JSON + map tiles caching), installable via `manifest.webmanifest`.
 - Travel toolbox rebuilt around a 5-step planning flow (destination → ILI via International Dept → campsite booking → Shop hours → badge swapping), plus emergency contacts (Immd (852) 1868, OTA).
-- SEO pack: meta description, Open Graph/Twitter card (`og-cover.jpg` 1200×630), JSON-LD, favicon suite, robots.txt, sitemap.xml, canonical, `lang="zh-Hant-HK"`.
+- SEO pack: meta description, Open Graph/Twitter card (`og-image.png` 1200×630), JSON-LD, favicon suite, robots.txt, sitemap.xml, canonical, `lang="zh-Hant-HK"`.
 - vercel.json headers for sw.js/manifest/data caching.
 
 Next targets:
