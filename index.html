@@ -1067,7 +1067,7 @@
          scripts/validate-i18n.js 檢查漏譯。
        ============================================================ */
     const SW_LANG_KEY = 'sw-lang';
-    const SW_LANGS = ['zh', 'en'];
+    const SW_LANGS = ['zh', 'en', 'ja', 'fr', 'es'];
 
     /* I18N:START — 以下兩個字典都係嚴格 JSON，供 validate-i18n.js 檢查 */
     const APP_VERSION = 'v2026.11.07';
@@ -1464,9 +1464,173 @@
       "港島南區": "Southern District",
       "開羅": "Cairo"
 };
+    const JA = {
+      "🌿 SCENES 環境卓越童軍中心網絡條目。本站只整理公開資料，不代表場地對所有旅客開放；參觀、住宿或活動安排請直接向中心確認。": "A WOSM SCENES centre network entry. This site only compiles public information — that does not mean the venue is open to all travellers; confirm visits, stays or activities with the centre directly.",
+      "🌿 SCENES 環境卓越中心": "🌿 SCENES centre of excellence",
+      "WOSM SCENES 環境卓越童軍中心": "WOSM SCENES Network",
+      "切換語言": "Switch language",
+      " (簡介以中文原文提供，未經翻譯)": " (description kept in Chinese, the source language)",
+      " (description kept in Chinese, the source language)": " (description kept in Chinese, the source language)",
+      "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。": "Formal overseas visits, exchanges, or activities applying through the Hong Kong Scout Association's procedures through the International Department (International Department phone: 2957 6400). During personal travel, check public information, visit open public places, or shop at Scout Shop; social media is for information and international friendship only, not official contact channels. This site does not provide overseas email.",
+      "資料信心｜{confidence}{reviewed}": "Data confidence｜{confidence}{reviewed}",
+      " (description kept in Chinese, the source language)": " (description kept in Chinese, the source language)",
+      "資料信心｜{confidence}{reviewed}": "Data confidence｜{confidence}{reviewed}",
+      " (description kept in Chinese, the source language)": " (description kept in Chinese, the source language)",
+      "查看詳細資訊": "View details",
+      "隱私政策": "Privacy policy",
+      "使用條款": "Terms of use",
+      "返回首頁": "Return to homepage",
+      "搜尋": "Search",
+      "收藏": "Save to favourites",
+      "已收藏": "Saved",
+      "取消收藏": "Remove from favourites",
+      "我的收藏": "My favourites",
+      "分享": "Share",
+      "複製": "Copy",
+      "下載": "Download",
+      "離線模式": "Offline mode",
+      "重新載入": "Reload",
+      "錯誤": "Error",
+      "成功": "Success",
+      "失敗": "Failed",
+      "請求超時": "Request timed out",
+      "連線中": "Connecting",
+      "斷開連接": "Disconnected",
+      "地圖載入中": "Map loading",
+      "地圖尚未準備好": "Map not ready",
+      "搜尋中": "Searching",
+      "結果": "Results",
+      "無結果": "No results",
+      "距離": "Distance",
+      "選擇日期": "Select date",
+      "立即預訂": "Book now",
+      "預訂詳情": "Book details",
+      "取消預訂": "Cancel booking",
+      "確認": "Confirm",
+      "取消": "Cancel",
+      "送出": "Submit",
+      "重置": "Reset",
+      "清除": "Clear",
+      "全部清除": "Clear all",
+      "設定": "Settings",
+      "語言": "Language",
+      "繁體中文": "Traditional Chinese",
+      "English": "English",
+      "日本語": "Japanese",
+    };
 
     // 含 <strong> / <a> 等內嵌標籤嘅段落：key 由 data-i18n-html 指定
-    const EN_HTML = {
+    const FR = {
+      "🌿 SCENES 環境卓越童軍中心網絡條目。本站只整理公開資料，不代表場地對所有旅客開放；參觀、住宿或活動安排請直接向中心確認。": "A WOSM SCENES centre network entry. This site only compiles public information — that does not mean the venue is open to all travellers; confirm visits, stays or activities with the centre directly.",
+      "🌿 SCENES 環境卓越中心": "🌿 SCENES centre of excellence",
+      "WOSM SCENES 環境卓越童軍中心": "WOSM SCENES Network",
+      "切換語言": "Switch language",
+      " (簡介以中文原文提供，未經翻譯)": " (description kept in Chinese, the source language)",
+      " (description kept in Chinese, the source language)": " (description kept in Chinese, the source language)",
+      "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。": "Formal overseas visits, exchanges, or activities applying through the Hong Kong Scout Association's procedures through the International Department (International Department phone: 2957 6400). During personal travel, check public information, visit open public places, or shop at Scout Shop; social media is for information and international friendship only, not official contact channels. This site does not provide overseas email.",
+      "資料信心｜{confidence}{reviewed}": "Confiance｜{confidence}{reviewed}",
+      " (description kept in Chinese, the source language)": " (description kept in Chinese, the source language)",
+      "資料信心｜{confidence}{reviewed}": "Confiance｜{confidence}{reviewed}",
+      " (description kept in Chinese, the source language)": " (description kept in Chinese, the source language)",
+      "查看詳細資訊": "View details",
+      "隱私政策": "Privacy policy",
+      "使用條款": "Terms of use",
+      "返回首頁": "Return to homepage",
+      "搜尋": "Search",
+      "收藏": "Save to favourites",
+      "已收藏": "Saved",
+      "取消收藏": "Remove from favourites",
+      "我的收藏": "My favourites",
+      "分享": "Share",
+      "複製": "Copy",
+      "下載": "Download",
+      "離線模式": "Offline mode",
+      "重新載入": "Reload",
+      "錯誤": "Error",
+      "成功": "Success",
+      "失敗": "Failed",
+      "請求超時": "Request timed out",
+      "連線中": "Connecting",
+      "斷開連接": "Disconnected",
+      "地圖載入中": "Map loading",
+      "地圖尚未準備好": "Map not ready",
+      "搜尋中": "Searching",
+      "結果": "Results",
+      "無結果": "No results",
+      "距離": "Distance",
+      "選擇日期": "Select date",
+      "立即預訂": "Book now",
+      "預訂詳情": "Book details",
+      "取消預訂": "Cancel booking",
+      "確認": "Confirm",
+      "取消": "Cancel",
+      "送出": "Submit",
+      "重置": "Reset",
+      "清除": "Clear",
+      "全部清除": "Clear all",
+      "設定": "Settings",
+      "語言": "Language",
+      "繁體中文": "Traditional Chinese",
+      "English": "English",
+      "Français": "French",
+    };
+    const ES = {
+      "🌿 SCENES 環境卓越童軍中心網絡條目。本站只整理公開資料，不代表場地對所有旅客開放；參觀、住宿或活動安排請直接向中心確認。": "A WOSM SCENES centre network entry. This site only compiles public information — that does not mean the venue is open to all travellers; confirm visits, stays or activities with the centre directly.",
+      "🌿 SCENES 環境卓越中心": "🌿 SCENES centre of excellence",
+      "WOSM SCENES 環境卓越童軍中心": "WOSM SCENES Network",
+      "切換語言": "Switch language",
+      " (簡介以中文原文提供，未經翻譯)": " (description kept in Chinese, the source language)",
+      " (description kept in Chinese, the source language)": " (description kept in Chinese, the source language)",
+      "正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。": "Formal overseas visits, exchanges, or activities applying through the Hong Kong Scout Association's procedures through the International Department (International Department phone: 2957 6400). During personal travel, check public information, visit open public places, or shop at Scout Shop; social media is for information and international friendship only, not official contact channels. This site does not provide overseas email.",
+      "資料信心｜{confidence}{reviewed}": "Confianza｜{confidence}{reviewed}",
+      " (description kept in Chinese, the source language)": " (description kept in Chinese, the source language)",
+      "資料信心｜{confidence}{reviewed}": "Confianza｜{confidence}{reviewed}",
+      " (description kept in Chinese, the source language)": " (description kept in Chinese, the source language)",
+      "查看詳細資訊": "View details",
+      "隱私政策": "Política de privacidad",
+      "使用條款": "Términos de uso",
+      "返回首頁": "Regresar al inicio",
+      "搜尋": "Buscar",
+      "收藏": "Guardar en favoritos",
+      "已收藏": "Guardado",
+      "取消收藏": "Quitar de favoritos",
+      "我的收藏": "Mis favoritos",
+      "分享": "Compartir",
+      "複製": "Copiar",
+      "下載": "Descargar",
+      "離線模式": "Modo sin conexión",
+      "重新載入": "Recargar",
+      "錯誤": "Error",
+      "成功": "Éxito",
+      "失敗": "Falló",
+      "請求超時": "Solicitud agotada",
+      "連線中": "Conectando",
+      "斷開連接": "Desconectado",
+      "地圖載入中": "Cargando mapa",
+      "地圖尚未準備好": "Mapa no listo",
+      "搜尋中": "Buscando",
+      "結果": "Resultados",
+      "無結果": "No resultados",
+      "距離": "Distancia",
+      "選擇日期": "Seleccionar fecha",
+      "立即預訂": "Reservar ahora",
+      "預訂詳情": "Detalles de la reserva",
+      "取消預訂": "Cancelar reserva",
+      "確認": "Confirmar",
+      "取消": "Cancelar",
+      "送出": "Enviar",
+      "重置": "Restablecer",
+      "清除": "Limpiar",
+      "全部清除": "Limpiar todo",
+      "設定": "Configuración",
+      "語言": "Idioma",
+      "繁體中文": "Chino tradicional",
+      "English": "English",
+      "Français": "Français",
+      "Español": "Español",
+    };
+const EN_HTML = {
+    
       "tip.desktop": "Use the 🔥 hot shortcuts or search (e.g. <strong>KISC, Tokyo, Shop</strong>) to jump straight to camps, shops and districts worldwide. In the details page you can filter by <strong>Camps / Shop / HQ</strong>, tap <strong>⭐ Saved</strong> to keep a place (readable offline), and use <strong>Share</strong> to copy the link for your group. Anything you looked at before you left stays <strong>readable even when you lose signal</strong>!",
       "travel.step1": "Use the 🔥 hot shortcuts or search on the left (e.g. <em>KISC, Tokyo, Shop</em>) to jump to the Scout units, camps or shops you want to visit.",
       "travel.step2": "For formal visits, apply or get a referral through the Association's <strong>International Department</strong> and arrange your International Letter of Introduction (ILI) — tel <a href=\"tel:+85229576400\" class=\"text-amber-300 font-black underline decoration-dotted\">2957 6400</a>.",
@@ -1488,11 +1652,25 @@
     })();
 
     const isEnglish = () => swLang === 'en';
-    const dateLocale = () => (isEnglish() ? 'en-GB' : 'zh-HK');
+    const isJapanese = () => swLang === 'ja';
+    const isFrench = () => swLang === 'fr';
+    const isSpanish = () => swLang === 'es';
+    const dateLocale = () => (isEnglish() ? 'en-GB' : (isFrench() ? 'fr' : (isSpanish() ? 'es' : (isJapanese() ? 'ja' : 'zh-HK'))));
 
     // 翻譯單一 UI 字串；查唔到就照用中文原文（永不空白）
     function tr(text, vars) {
-      let out = isEnglish() ? (EN[text] !== undefined ? EN[text] : text) : text;
+      let out;
+      if (isEnglish()) {
+        out = EN[text] !== undefined ? EN[text] : text;
+      } else if (isFrench()) {
+        out = FR[text] !== undefined ? FR[text] : text;
+      } else if (isSpanish()) {
+        out = ES[text] !== undefined ? ES[text] : text;
+      } else if (isJapanese()) {
+        out = JA[text] !== undefined ? JA[text] : text;
+      } else {
+        out = text;  // Chinese mode: use original Chinese
+      }
       if (vars) out = out.replace(/\{(\w+)\}/g, (m, key) => (vars[key] !== undefined ? vars[key] : m));
       return out;
     }
@@ -3906,7 +4084,7 @@
 
     function updateLangToggleUI() {
       const label = document.getElementById('lang-toggle-label');
-      if (label) label.textContent = isEnglish() ? '中文' : 'EN';
+      if (label) label.textContent = isEnglish() ? '中文' : (isFrench() ? 'FR' : (isSpanish() ? 'ES' : (isJapanese() ? 'JA' : 'EN')));
       const btn = document.getElementById('lang-toggle');
       if (btn) {
         btn.title = tr('切換語言');
