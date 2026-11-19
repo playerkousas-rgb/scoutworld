@@ -1,9 +1,30 @@
 <!DOCTYPE html>
+<!-- 版本：v2026.11.18 · © SCOUT SYSTEM -->
 <html lang="zh-Hant-HK">
 <head>
   <meta charset="UTF-8">
+  <script src="/store_gate_v1.0.js"></script>
+  <script>
+    const SW_LANG_KEY = 'sw-lang';
+    const SW_LANGS = ['zh', 'en', 'ja', 'fr', 'es'];
+    let swLang = 'zh';
+    try {
+      const saved = localStorage.getItem(SW_LANG_KEY);
+      if (SW_LANGS.includes(saved)) swLang = saved;
+    } catch (err) { /* 私隱模式：維持預設中文 */ }
+    // 閘門同步讀 <html lang>，用返用家原有嘅中英偏好。
+    if (swLang === 'en') document.documentElement.lang = 'en';
+    const storeGateDecision = typeof initStoreGate === 'function' ? initStoreGate({
+      appKey: 'scoutworld',
+      mode: 'entry-gate',
+      portalIds: ['appstore'],
+      silentPortalIds: ['library'],
+      allowStandalone: true,
+      autoRedirectSeconds: 0
+    }) : null;
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scout World Explorer — 香港童軍外遊規劃首選 | 全球童軍總部・營地・用品社地圖</title>
+  <title>Scout World Explorer — 香港童軍外遊規劃首選 | 全球童軍總部・營地・用品社地圖 · v2026.11.18</title>
 
   <!-- ===== SEO / 搜尋曝光 ===== -->
   <meta name="description" content="專為香港童軍而設的外遊規劃資料庫：出發前計劃探訪全球 220+ 童軍總部與單位、查詢各國 Scout Shop 營業資訊、預訂 KISC 與基維爾等國際營地。附香港 5 大地域 44 區會資料，支援目的地分享連結與離線瀏覽。" data-i18n-attr="content:">
@@ -14,7 +35,7 @@
   <meta name="theme-color" content="#02133e">
   <meta name="application-name" content="Scout World Explorer">
   <meta name="copyright" content="© SCOUT SYSTEM">
-  <meta name="app-version" content="v2026.11.07">
+  <meta name="app-version" content="v2026.11.18">
 
   <!-- Open Graph：WhatsApp / FB / Telegram 分享靚卡 -->
   <meta property="og:type" content="website">
@@ -76,7 +97,6 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap">
 
-  <!-- Tailwind CSS CDN -->
   <!-- Tailwind：預先 build 好嘅靜態 CSS（唔再用 cdn.tailwindcss.com 嘅執行時 JIT） -->
   <link rel="stylesheet" href="/tailwind.css">
   
@@ -115,6 +135,32 @@
       outline: 2px solid #fbbf24 !important;
       outline-offset: 2px !important;
       border-radius: 6px;
+    }
+
+    .header-actions, .header-utilities { gap: .5rem; }
+    .header-actions {
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      max-width: 100%;
+    }
+    .support-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .35rem;
+      min-height: 40px;
+      padding: .35rem .65rem;
+      border: 1px solid rgba(252, 211, 77, .35);
+      border-radius: .5rem;
+      color: #fcd34d;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .support-btn:hover { background: rgba(252, 211, 77, .08); }
+    .support-btn[hidden] { display: none; }
+
+    @media print {
+      #lang-toggle, #storeSupportTop { display: none; }
     }
 
     /* 尊重「減少動態效果」系統設定 */
@@ -227,12 +273,16 @@
       }
     }
 
+    /* 桌面詳情欄留喺 main 內，唔遮住頂欄嘅常用操作。 */
+    #detail-drawer { position: absolute; }
+
     /* ===== MOBILE ENHANCEMENTS ===== */
     @media (max-width: 768px) {
       #sidebar {
         max-height: 45vh;
       }
       #detail-drawer {
+        position: fixed;
         width: 100% !important;
         max-width: 100vw;
         top: 45vh !important;
@@ -336,7 +386,7 @@
       </div>
       
       <!-- Stats Dashboard -->
-      <div class="flex items-center gap-4 text-xs">
+      <div class="header-actions flex items-center text-xs">
         <div class="bg-white/5 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 text-center">
           <span class="text-slate-400 block font-semibold">覆蓋大區組織</span>
           <span id="stat-orgs" class="text-amber-300 font-bold text-sm">63</span>
@@ -349,10 +399,16 @@
           <span class="text-slate-400 block font-semibold">網購商店</span>
           <span class="text-amber-300 font-bold text-sm">Scout Shop</span>
         </button>
-        <button id="lang-toggle" class="bg-white/5 hover:bg-amber-400/15 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 hover:border-amber-300 text-center transition-all focus:outline-none" title="切換語言" aria-label="切換語言" data-i18n-attr="title:切換語言||aria-label:切換語言">
-          <span class="text-slate-400 block font-semibold"><i class="fa-solid fa-language"></i></span>
-          <span id="lang-toggle-label" class="text-amber-300 font-bold text-sm">EN</span>
-        </button>
+        <div class="header-utilities flex items-center">
+          <a id="storeSupportTop" class="support-btn" target="_blank" rel="noopener" hidden
+             title="前往主站讚好或收藏此程式（開新分頁）" aria-label="前往主站讚好或收藏此程式（開新分頁）">
+            <span aria-hidden="true">♡</span><span>讚好／收藏</span>
+          </a>
+          <button id="lang-toggle" type="button" class="bg-white/5 hover:bg-amber-400/15 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 hover:border-amber-300 text-center transition-all focus:outline-none" title="Switch to English" aria-label="Switch to English" lang="en">
+            <span class="text-slate-400 block font-semibold"><i class="fa-solid fa-language"></i></span>
+            <span id="lang-toggle-label" class="text-amber-300 font-bold text-sm">EN</span>
+          </button>
+        </div>
       </div>
     </div>
   </header>
@@ -484,7 +540,7 @@
       <!-- SIDEBAR FOOTER -->
       <div class="p-2 bg-[#010c29] border-t border-white/5 text-center flex-shrink-0">
         <p class="text-[11px] text-slate-400 font-semibold tracking-wide">
-          <span id="app-version-label" class="tabular-nums">© SCOUT SYSTEM</span> ·
+          <span id="app-version-label" class="tabular-nums">© SCOUT SYSTEM · v2026.11.18</span> ·
           <a href="https://github.com/playerkousas-rgb/scoutworld" target="_blank" rel="noopener" class="text-slate-400 hover:text-amber-300 transition-colors" title="源碼開源，歡迎貢獻！"><i class="fa-brands fa-github"></i> GitHub</a> ·
           <a href="https://github.com/playerkousas-rgb/scoutworld/issues/new/choose" target="_blank" rel="noopener" class="text-amber-400/90 hover:text-amber-300 transition-colors font-bold" title="見到新地點、死連或過期資料？撳呢度話我哋知！"><i class="fa-solid fa-bullhorn"></i> 報料／修正</a> ·
           <span title="支援 PWA 離線使用"><i class="fa-solid fa-wifi-slash"></i> 離線可用</span>
@@ -1066,11 +1122,8 @@
        · 新增界面文字一定要補英文，`npm run check` 會用
          scripts/validate-i18n.js 檢查漏譯。
        ============================================================ */
-    const SW_LANG_KEY = 'sw-lang';
-    const SW_LANGS = ['zh', 'en', 'ja', 'fr', 'es'];
-
     /* I18N:START — 以下兩個字典都係嚴格 JSON，供 validate-i18n.js 檢查 */
-    const APP_VERSION = 'v2026.11.07';
+    const APP_VERSION = 'v2026.11.18';
 
     const EN = {
       "香港童軍外遊規劃首選｜全球童軍總部・營地・用品社・44區會｜離線可用": "Trip planning for Hong Kong Scouts | HQs, camps & Scout Shops worldwide | Works offline",
@@ -1086,6 +1139,8 @@
       "清除": "Remove",
       "收藏": "Saved",
       "⭐ 收藏": "⭐ Saved",
+      "讚好／收藏": "Like / Save",
+      "前往主站讚好或收藏此程式（開新分頁）": "Like or save this app in SCOUT APP STORE (opens in a new tab)",
       "離線資料": "Offline data",
       "離線可用": "Offline ready",
       "熱門目的地": "Popular destinations",
@@ -1644,13 +1699,6 @@ const EN_HTML = {
     const CONTACT_POLICY_ZH = '正式海外探訪、交流、活動申請或以香港童軍身份與海外童軍組織通訊，須按香港童軍總會程序經總會國際署處理／轉介（國際署電話：2957 6400）。個人旅行期間查閱公開資訊、參觀公開開放地點或到 Scout Shop 購物，請自行按當地公開安排確認；社交平台只作資訊及國際友誼交流，並非正式聯絡渠道。本站不提供海外官方電郵。';
     const CONTACT_POLICY_EN = EN[CONTACT_POLICY_ZH];
 
-    let swLang = (() => {
-      try {
-        const saved = localStorage.getItem(SW_LANG_KEY);
-        return SW_LANGS.includes(saved) ? saved : 'zh';
-      } catch (err) { return 'zh'; }
-    })();
-
     const isEnglish = () => swLang === 'en';
     const isJapanese = () => swLang === 'ja';
     const isFrench = () => swLang === 'fr';
@@ -1718,8 +1766,7 @@ const EN_HTML = {
     }
     // 搜尋索引（search-index.json）用 n=中文名、e=英文名
     function indexName(hit) {
-      if (!hit) return '';
-      return (isEnglish() && hit.e) ? hit.e : (hit.n || hit.e || '');
+      return hit ? locName({ name: hit.n, nameEn: hit.e }) : '';
     }
     // 細徽章用短標籤：中文照舊取第一個詞；英文用字典或括號內英文
     function shortLabel(value) {
@@ -1835,7 +1882,7 @@ const EN_HTML = {
       });
       document.documentElement.lang = isEnglish() ? 'en' : 'zh-Hant-HK';
       document.documentElement.dataset.lang = swLang;
-      const title = tr('Scout World Explorer — 香港童軍外遊規劃首選 | 全球童軍總部・營地・用品社地圖');
+      const title = `${tr('Scout World Explorer — 香港童軍外遊規劃首選 | 全球童軍總部・營地・用品社地圖')} · ${APP_VERSION}`;
       if (document.title !== title) document.title = title;
     }
 
@@ -3139,9 +3186,19 @@ const EN_HTML = {
       });
     }
 
+    const OFFLINE_DESTINATIONS_KEY = 'sw-offline-destinations';
+
+    function readOfflineDestinations() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(OFFLINE_DESTINATIONS_KEY) || '{}');
+        if (saved && typeof saved === 'object' && !Array.isArray(saved)) return saved;
+      } catch (err) { /* 儲存被封鎖或者資料損毀：仍可正常瀏覽 */ }
+      return {};
+    }
+
     function updateDestinationDownloadState(code) {
       if (!downloadDestinationBtn) return;
-      const saved = JSON.parse(localStorage.getItem('sw-offline-destinations') || '{}')[code];
+      const saved = readOfflineDestinations()[code];
       if (offlineDataStatus) offlineDataStatus.textContent = saved ? tr('本機已有此目的地離線資料（{n} 個地點）', { n: saved.count || 0 }) : '';
       if (clearDestinationBtn) clearDestinationBtn.classList.toggle('hidden', !saved);
       downloadDestinationBtn.textContent = saved ? tr('✅ 已下載（{date}）', { date: fmtDate(saved.savedAt) }) : tr('⬇️ 離線下載');
@@ -3149,17 +3206,16 @@ const EN_HTML = {
     }
 
     async function manageOfflineData() {
-      const saved = JSON.parse(localStorage.getItem('sw-offline-destinations') || '{}');
-      const entries = Object.entries(saved);
+      const entries = Object.entries(readOfflineDestinations()).filter(([, info]) => info && typeof info === 'object');
       if (!entries.length) return showToast(tr('此瀏覽器暫時沒有已下載目的地'));
       const summary = entries.map(([code, info]) => `${code}（${info.count || 0} 個地點，${new Date(info.savedAt).toLocaleDateString('zh-HK')}）`).join('\n');
       if (!window.confirm(tr('此瀏覽器已下載：\n\n{summary}\n\n按「確定」清除全部離線目的地資料。收藏夾不受影響。', { summary }))) return;
       try {
         await caches.delete('scoutworld-destinations-v1');
-        localStorage.removeItem('sw-offline-destinations');
+        localStorage.removeItem(OFFLINE_DESTINATIONS_KEY);
         if (currentSelectedOrgId) updateDestinationDownloadState(currentSelectedOrgId);
         showToast(tr('已清除全部目的地離線資料；收藏夾仍然保留'));
-      } catch (err) { showToast('清除失敗，請稍後再試'); }
+      } catch (err) { showToast(tr('清除失敗，請稍後再試')); }
     }
 
     async function clearDestinationData() {
@@ -3169,9 +3225,9 @@ const EN_HTML = {
       try {
         const cache = await caches.open('scoutworld-destinations-v1');
         await cache.delete(new Request(new URL(path, location.href).href));
-        const saved = JSON.parse(localStorage.getItem('sw-offline-destinations') || '{}');
+        const saved = readOfflineDestinations();
         delete saved[code];
-        localStorage.setItem('sw-offline-destinations', JSON.stringify(saved));
+        localStorage.setItem(OFFLINE_DESTINATIONS_KEY, JSON.stringify(saved));
         updateDestinationDownloadState(code);
         showToast(tr('已清除 {code} 嘅本機離線資料', { code }));
       } catch (err) { showToast(tr('清除失敗，請稍後再試')); }
@@ -3188,9 +3244,9 @@ const EN_HTML = {
         const body = await response.text();
         const cache = await caches.open('scoutworld-destinations-v1');
         await cache.put(new Request(new URL(path, location.href).href), new Response(body, { headers: { 'Content-Type': 'application/json' } }));
-        const saved = JSON.parse(localStorage.getItem('sw-offline-destinations') || '{}');
+        const saved = readOfflineDestinations();
         saved[code] = { savedAt: new Date().toISOString(), count: JSON.parse(body).length };
-        localStorage.setItem('sw-offline-destinations', JSON.stringify(saved));
+        localStorage.setItem(OFFLINE_DESTINATIONS_KEY, JSON.stringify(saved));
         updateDestinationDownloadState(code);
         showToast(tr('✅ {code} 資料已儲存到此瀏覽器，離線可查看', { code }));
       } catch (err) {
@@ -3742,27 +3798,21 @@ const EN_HTML = {
           <span class="text-slate-500 normal-case font-bold">${tr('營地・用品社・區會')}</span>
         </div>
       ` + hits.map(hit => {
-        // L3/L4 項目顯示所屬國家中文名
-        let parentName = hit.cc || '';
-        if (!parentName && hit.c && hit.c !== hit.i) {
-          const parent = allScouts.find(o => o.id === hit.c);
-          parentName = parent ? (parent.country || '') : hit.c;
-        }
-        const sub = [parentName, hit.s].filter(Boolean).join(' · ');
-        // 中英雙語顯示：英文名與中文名不同時補多行（跨境搜尋 Vajiravudh、Gilwell 都睇得明）
-        const enLine = (hit.e && hit.e !== hit.n) ? `<span class="block text-[11px] text-slate-500 font-semibold truncate">${escapeHtml(hit.e)}</span>` : '';
+        // 仍以兩種語言配對搜尋，但顯示用家揀嘅語言；冇譯名就保留原名。
+        const parent = hit.c !== hit.i ? allScouts.find(o => o.id === hit.c) : null;
+        const parentName = hit.c !== hit.i ? (locCountry(parent) || locLabel(hit.cc) || hit.c) : '';
+        const sub = [parentName, locLabel(hit.s)].filter(Boolean).join(' · ');
         return `
           <button class="global-hit w-full text-left p-2 rounded-lg bg-[#051847] hover:bg-[#09225e] border border-white/5 hover:border-amber-400 transition-all flex items-center justify-between gap-2" data-hid="${escapeHtml(hit.i)}" data-cc="${escapeHtml(hit.c)}" data-lvl="${hit.lvl}">
             <span class="flex items-center gap-2 overflow-hidden">
               <span class="text-base flex-shrink-0">${hit.f || '📍'}</span>
               <span class="overflow-hidden">
-                <span class="block text-[11px] font-extrabold text-slate-100 truncate">${escapeHtml(hit.n)}</span>
-                <span class="block text-[11px] text-slate-400 font-semibold truncate">${escapeHtml(sub || hit.e || '')}</span>
-                ${enLine}
+                <span class="block text-[11px] font-extrabold text-slate-100 truncate">${escapeHtml(indexName(hit))}</span>
+                ${sub ? `<span class="block text-[11px] text-slate-400 font-semibold truncate">${escapeHtml(sub)}</span>` : ''}
               </span>
             </span>
             <span class="flex items-center gap-1 flex-shrink-0">
-              <span class="border px-1.5 py-0.5 rounded text-[11px] font-black ${typeBadge(hit.t)}">${escapeHtml(hit.t)}</span>
+              <span class="border px-1.5 py-0.5 rounded text-[11px] font-black ${typeBadge(hit.t)}">${escapeHtml(locLabel(hit.t))}</span>
               <i class="fa-solid fa-arrow-right-long text-amber-300 text-[11px]"></i>
             </span>
           </button>
@@ -4084,13 +4134,13 @@ const EN_HTML = {
 
     function updateLangToggleUI() {
       const label = document.getElementById('lang-toggle-label');
-      if (label) label.textContent = isEnglish() ? '中文' : (isFrench() ? 'FR' : (isSpanish() ? 'ES' : (isJapanese() ? 'JA' : 'EN')));
       const btn = document.getElementById('lang-toggle');
-      if (btn) {
-        btn.title = tr('切換語言');
-        btn.setAttribute('aria-label', tr('切換語言'));
-        btn.setAttribute('aria-pressed', isEnglish() ? 'true' : 'false');
-      }
+      if (!label || !btn) return;
+      const targetIsChinese = isEnglish();
+      label.textContent = targetIsChinese ? '中文' : 'EN';
+      btn.lang = targetIsChinese ? 'zh-Hant-HK' : 'en';
+      btn.title = targetIsChinese ? '切換至中文介面' : 'Switch to English';
+      btn.setAttribute('aria-label', btn.title);
     }
 
     function refreshAfterLanguageChange() {
@@ -4131,10 +4181,19 @@ const EN_HTML = {
       if (btn) btn.addEventListener('click', () => setLanguage(isEnglish() ? 'zh' : 'en'));
     }
 
+    function initStoreSupport() {
+      const link = document.getElementById('storeSupportTop');
+      if (!link || typeof window.ScoutStoreGate?.getAppStoreUrl !== 'function') return;
+      link.href = ScoutStoreGate.getAppStoreUrl('scoutworld');
+      link.hidden = false;
+    }
+
     // Launch Application
     window.addEventListener('DOMContentLoaded', () => {
+      if (storeGateDecision?.allowed === false) return;
       initDOM(); // Initialize DOM elements safely!
       initLanguage(); // 語言要最先套用，之後 render 就會用正確語言
+      initStoreSupport();
       renderAppVersion(); // W1／V2：頁尾 © SCOUT SYSTEM ＋ 版號
       updateMapToggleLabel(); // 手機地圖展開／收起掣（跟語言）
       initMap();
@@ -4148,7 +4207,7 @@ const EN_HTML = {
     });
 
     // ===== 📴 PWA 離線支援：註冊 Service Worker（旅途中斷網都查到資料!） =====
-    if ('serviceWorker' in navigator && /^https?:$/.test(window.location.protocol)) {
+    if (storeGateDecision?.allowed !== false && 'serviceWorker' in navigator && /^https?:$/.test(window.location.protocol)) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('sw.js')
           .then(() => console.info('[ScoutWorld] 離線模式已啟用：睇過嘅資料斷網都睇得返！'))

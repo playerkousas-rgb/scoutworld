@@ -1,5 +1,7 @@
 # Scout World Explorer 🌍⚜️
 
+版本：`v2026.11.18`
+
 幫**香港童軍出發前做資料搜集**嘅互動世界地圖——探訪海外童軍單位、
 買童軍用品、訂營地，一站搵齊。
 
@@ -63,9 +65,9 @@
   其餘係 slate 中性。舊 code 嘅 violet／indigo／blue／teal／purple／pink／rose／orange
   由 `tailwind.config` 一次過對應（連 `/50` 透明度版本），所以**加新元件唔會再引入新色相**。
   類型（旅團／區會／Shop…）用中性色章，顏色只表示可信度；社交平台 logo 保留品牌色。
-- **版權／版號（W1／V2）**：頁尾 `© SCOUT SYSTEM · vYYYY.MM.DD`、`<meta name="copyright">`、
-  `APP_VERSION` 常數 ＋ `<meta name="app-version">`，三處對唔上 `test:icons` 會紅。
-- **一次過跑**：`npm run check`（lint + i18n + icons + 24 項 runtime + build）。
+- **版權／版號（W1／V2）**：`test:icons` 核對檔頭、`<title>`、`APP_VERSION`、`app-version` meta、靜態頁尾同 SW 快取版號。
+- `EXCEPTION: V1` — 保持靜態入口 `index.html` 同 PWA 更新網址 `/sw.js`，唔加部署 build 或改公用路徑 — 用上述版號檢查同 Git 歷史補償 — 持續。
+- **一次過跑**：`npm run check`（lint、i18n、CSS、圖標、runtime 同靜態 build）。
 - 2026-11-06 嘅完整檢查報告（含未做項目同原因）：[`UI_REVIEW_2026-11-06.md`](UI_REVIEW_2026-11-06.md)。
 
 ### 順手做咗嘅資料瘦身
@@ -73,6 +75,14 @@
 `contactPolicy`（總會國際署聯絡政策）原本**逐條記錄重複 1,552 次**、佔約 270 KB。
 現已改為介面內單一常數 `contactPolicyText()`（中英各一份），`data/` 由 3.3 MB
 減到約 2.1 MB，日後加語言亦唔需要再複製 1,552 次。
+
+## 準入白名單
+
+- 第一次請由 **SCOUT APP STORE** 或**通告圖書館**進入；直開網址只會見到一粒 APP STORE 掣，唔會自動跳轉。由入口進入後，可以用瀏覽器選單「加入主畫面」；之後撳 App 圖示可直接開啟。
+- Vercel 於 repo 根目錄直接派檔。`store_gate_v1.0.js` 原樣取自[真理倉 `87f37c5`](https://github.com/playerkousas-rgb/readme/blob/87f37c5217132d2a7f0f5266283c2c8aa6a1e2a7/templates/vercel/store_gate_v1.0.js)，亦納入 SW 離線快取。
+- `appKey: 'scoutworld'`、`mode: 'entry-gate'`、`portalIds: ['appstore']`、`silentPortalIds: ['library']`、`allowStandalone: true`、`autoRedirectSeconds: 0`；`supportNudge` 同閘門統計關閉。
+- 頂欄「讚好／收藏 / Like / Save」用 `ScoutStoreGate.getAppStoreUrl('scoutworld')` 開啟主站詳情新分頁。SG18 slug 按 `scoutworld.vercel.app` 對[主站 seed](https://github.com/playerkousas-rgb/website/blob/main/migrations/20261116-app-slug-seed.sql#L68)核實。
+- 現有收藏、離線資料同分享連結格式不變；同一瀏覽器資料不會因入口改變而被清除。新分頁直開舊分享連結會先見入口卡；如要開返嗰條分享連結，先經入口進入 App，再喺同一分頁貼返原連結並重新整理。
 
 ## 維護及離線使用
 

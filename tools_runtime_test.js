@@ -3,11 +3,18 @@
 // jsdom 係開發工具，裝喺本 repo 的 devDependencies。
 const fs = require('fs');
 const path = require('path');
-const { JSDOM } = require('jsdom');
+const vm = require('node:vm');
+const { JSDOM, ResourceLoader } = require('jsdom');
+const { getPortal, getAppStoreUrl } = require('./store_gate_v1.0.js');
 
 const ROOT = __dirname;
 const BASE = 'http://localhost:8080/';
 const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+const gateSource = fs.readFileSync(path.join(ROOT, 'store_gate_v1.0.js'));
+const gateUrl = new URL('/store_gate_v1.0.js', BASE).href;
+const gateOnly = new class extends ResourceLoader {
+  fetch(url) { return url === gateUrl ? Promise.resolve(gateSource) : null; }
+}();
 
 let failureCount = 0;
 function runTest(label, test) {
@@ -21,12 +28,8 @@ function runTest(label, test) {
 const assert = (c, m) => { if (!c) throw new Error(m); };
 const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data', reg, 'local', cc + '.json'), 'utf8'));
 
-(async () => {
-  const dom = new JSDOM(html, { url: BASE, runScripts: 'dangerously', pretendToBeVisual: true });
-  const w = dom.window;
+function stubAppWindow(w, mockData) {
   const doc = w.document;
-
-  function chainable() { const h = () => h; return h; }
   const mkLayer = () => ({
     addTo: () => mkLayer(), bindPopup: () => mkLayer(), bindTooltip: () => mkLayer(), on: () => mkLayer(),
     remove: () => mkLayer(), clearLayers: () => mkLayer(), openPopup: () => mkLayer(),
@@ -51,9 +54,39 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     latLng: (a, b) => ({ lat: a, lng: b }), latLngBounds: () => ({ pad: () => ({}) })
   };
   // app 以相對路徑 fetch data/*.json → 駁去 localhost:8080
-  w.fetch = (u, o) => fetch(new URL(String(u), BASE).href, o);
+  w.fetch = mockData
+    ? async () => ({ ok: true, json: async () => [] })
+    : (u, o) => fetch(new URL(String(u), BASE).href, o);
   w.open = () => null;
+}
 
+function launch({ referrer, standalone = false, savedLanguage, hash = '', loadGate = true, mockData = false } = {}) {
+  return new JSDOM(html, {
+    url: BASE + hash, referrer, runScripts: 'dangerously', pretendToBeVisual: true,
+    resources: loadGate ? gateOnly : undefined,
+    beforeParse(w) {
+      stubAppWindow(w, mockData);
+      if (standalone) Object.defineProperty(w.navigator, 'standalone', { value: true });
+      if (savedLanguage) w.localStorage.setItem('sw-lang', savedLanguage);
+    }
+  });
+}
+
+async function checkEntry(options, check) {
+  const { window: w } = launch({ ...options, mockData: true });
+  try {
+    if (w.document.readyState !== 'complete') {
+      await new Promise(resolve => w.addEventListener('load', resolve, { once: true }));
+    }
+    await check(w.document, w.eval('storeGateDecision'), w);
+  } finally {
+    w.close();
+  }
+}
+
+(async () => {
+  const { window: w } = launch({ referrer: getPortal('appstore').url });
+  const doc = w.document;
   const $ = s => doc.querySelector(s);
   const l3Rows = () => [...doc.querySelectorAll('#l3-list > div')];
   async function clickHot(cc) {
@@ -65,6 +98,54 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
   async function jump(cc) { w.eval(`jumpToCountryByCode('${cc}')`); await new Promise(r => setTimeout(r, 1200)); }
 
   await new Promise(r => setTimeout(r, 2500)); // 等 app init
+
+  await runTest('SG18/19：APP STORE 放行、同分頁通行、SG18 詳情連結', async () => {
+    const decision = w.eval('storeGateDecision');
+    assert(decision?.allowed && decision.matchedPortalId === 'appstore', 'APP STORE 未放行');
+    assert(w.sessionStorage.getItem('scoutworld.store_pass') === '1', '未保留同分頁通行證');
+    assert(!$('#scoutStoreGate'), '放行時唔應顯示入口卡');
+    const link = $('#storeSupportTop');
+    assert(link && !link.hidden && link.href === getAppStoreUrl('scoutworld'), 'SG18 詳情網址唔啱');
+    assert(link.target === '_blank' && link.rel === 'noopener', 'SG18 要用安全嘅新分頁');
+  });
+
+  await runTest('SG19：圖書館靜默放行，主畫面照常入', async () => {
+    await checkEntry({ referrer: getPortal('library').url }, (d, decision, win) => {
+      assert(decision?.allowed && decision.matchedPortalId === 'library' && !d.querySelector('#scoutStoreGate'), '圖書館未靜默放行');
+      assert(win.__tileLayers?.length && !d.querySelector('#storeSupportTop').hidden, '由圖書館入未啟動 App');
+    });
+    await checkEntry({ standalone: true }, (d, decision, win) => {
+      assert(decision?.allowed && decision.reason === 'standalone-pwa' && !d.querySelector('#scoutStoreGate'), '主畫面未放行');
+      assert(win.__tileLayers?.length, '主畫面放行後未啟動 App');
+    });
+  });
+
+  await runTest('SG19：直開只顯示一個入口，唔啟動地圖或匯入收藏', async () => {
+    const hash = '#favorites=' + encodeURIComponent(JSON.stringify([{ id: 'sample-favourite' }]));
+    await checkEntry({ hash }, (d, decision, win) => {
+      const buttons = d.querySelectorAll('#scoutStoreGate .sg-cta');
+      assert(decision?.allowed === false && buttons.length === 1, '直開應該只有一粒入口掣');
+      assert(buttons[0].href === getPortal('appstore').url && !/^\d/.test(buttons[0].textContent), '入口掣應直達 APP STORE，唔加編號');
+      assert(d.querySelector('#storeSupportTop').hidden && !win.__tileLayers?.length, '閘門下唔應啟動 App 或顯示 SG18');
+      assert(win.localStorage.getItem('sw-favorites-v1') === null && win.location.hash === hash, '閘門下唔應默默匯入或清走分享連結');
+    });
+    await checkEntry({ savedLanguage: 'en' }, (d) => {
+      assert(d.documentElement.lang === 'en' && d.querySelector('#scoutStoreGateTitle').textContent.includes('Open via'), '入口卡未跟語言偏好');
+    });
+    for (const portalId of ['member', 'district', 'gemini']) {
+      await checkEntry({ referrer: getPortal(portalId).url }, (d, decision) => {
+        assert(decision?.allowed === false && d.querySelectorAll('#scoutStoreGate .sg-cta').length === 1, `${portalId} 唔喺今次白名單`);
+      });
+    }
+  });
+
+  await runTest('SG18：閘門腳本未載入時冇死連', async () => {
+    await checkEntry({ loadGate: false }, (d, decision, win) => {
+      const link = d.querySelector('#storeSupportTop');
+      assert(decision === null && link.hidden && !link.hasAttribute('href'), 'SDK 未載入時必須保持隱藏');
+      assert(win.getComputedStyle(link).display === 'none', 'CSS 唔可以覆蓋 hidden');
+    });
+  });
 
   // ============ 核心咁載 ============
   await runTest('核心：索引/計數一致 + 熱籤掣齊', async () => {
@@ -328,6 +409,35 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     assert(!cleared.BE && cacheEntries.size === 0, 'single destination was not cleared');
   });
 
+  await runTest('SW 更新保留手動下載，只清理舊版本快取', async () => {
+    const sw = fs.readFileSync(path.join(ROOT, 'sw.js'), 'utf8');
+    const currentShell = `scoutworld-${$('meta[name=app-version]').content}-shell`;
+    const oldShell = 'scoutworld-v2000.01.01-shell';
+    const cacheNames = [currentShell, oldShell, 'scoutworld-destinations-v1', 'unrelated-cache'];
+    const deleted = [];
+    const events = {};
+    vm.runInNewContext(sw, {
+      self: { addEventListener: (name, handler) => { events[name] = handler; }, clients: { claim: async () => {} } },
+      caches: { keys: async () => cacheNames, delete: async key => { deleted.push(key); } }
+    });
+    let activation;
+    events.activate({ waitUntil: promise => { activation = promise; } });
+    await activation;
+    assert(deleted.length === 1 && deleted[0] === oldShell, `意外清除快取：${deleted.join(', ')}`);
+  });
+
+  await runTest('離線下載狀態：儲存資料損毀仍可瀏覽', async () => {
+    const key = 'sw-offline-destinations';
+    w.localStorage.setItem(key, '{broken');
+    try {
+      w.eval("updateDestinationDownloadState('BE')");
+      assert($('#clear-destination-btn').classList.contains('hidden'), '損毀紀錄被視為已下載');
+      assert(w.localStorage.getItem(key) === '{broken', '只讀狀態唔應清走資料');
+    } finally {
+      w.localStorage.removeItem(key);
+    }
+  });
+
   await runTest('PR #2：收藏分享、分類排序及列印／PDF 匯出', async () => {
     assert($('#favorites-share-btn') && $('#favorites-export-btn'), 'favorite actions missing');
     assert($('#favorites-list').querySelector('.fav-move-btn'), 'favorite ordering controls missing');
@@ -374,7 +484,7 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     const $el = s => doc.querySelector(s);
     const headerText = () => $el('header p').textContent;
     const regionText = () => [...doc.querySelectorAll('.region-btn')].map(b => b.textContent).join('|');
-    assert($el('#lang-toggle'), '語言切換掣唔見咗');
+    assert($el('#lang-toggle')?.getAttribute('aria-label') === 'Switch to English', '語言掣無講明轉英文');
     assert(doc.documentElement.lang === 'zh-Hant-HK', '預設應該係中文：' + doc.documentElement.lang);
 
     await clickHot('JP');
@@ -384,10 +494,14 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     $el('#lang-toggle').click();
     await new Promise(r => setTimeout(r, 500));
     assert(doc.documentElement.lang === 'en', 'html lang 未切換');
+    assert($el('#lang-toggle').getAttribute('aria-label') === '切換至中文介面', '語言掣無講明轉中文');
     assert(/Trip planning for Hong Kong Scouts/.test(headerText()), '標語未翻譯：' + headerText());
     assert(/Asia-Pacific/.test(regionText()) && !/亞太區/.test(regionText()), '大區分頁未翻譯：' + regionText());
     assert(/All/.test($el('.l3-type-btn').textContent), '篩選未翻譯');
     assert(w.localStorage.getItem('sw-lang') === 'en', '語言選擇未記住');
+    const support = $el('#storeSupportTop');
+    assert(support.textContent.includes('Like / Save') && support.title === support.getAttribute('aria-label')
+      && support.title.includes('opens in a new tab'), 'SG18 英文文案或讀屏提示未切換');
 
     const enRow = l3Rows()[0].textContent;
     assert(enRow !== zhRow && /Scout Association of Japan/.test(enRow), '地點名未用英文：' + enRow.slice(0, 80));
@@ -407,6 +521,20 @@ const getLocal = (reg, cc) => JSON.parse(fs.readFileSync(path.join(ROOT, 'data',
     assert(/香港童軍外遊規劃首選/.test(headerText()), '中文標語未還原：' + headerText());
     assert(/日本/.test(l3Rows()[0].textContent), '中文地名未還原');
     assert(w.localStorage.getItem('sw-lang') === 'zh', '中文選擇未記住');
+    assert(support.textContent.includes('讚好／收藏') && support.title === support.getAttribute('aria-label')
+      && support.title.includes('開新分頁'), 'SG18 中文文案或讀屏提示未切回');
+
+    await w.eval('ensureSearchIndex()');
+    const search = $el('#search-input');
+    search.value = 'Vajiravudh';
+    w.eval("renderGlobalResults('Vajiravudh')");
+    const hit = () => $el('[data-hid="TH-CAMP-VAJIRAVUDH"]')?.textContent || '';
+    assert(hit().includes('哇集拉兀童軍營地') && !hit().includes('Vajiravudh'), '中文搜尋結果應只顯示中文主名');
+    $el('#lang-toggle').click();
+    assert(hit().includes('Vajiravudh Scout Camp') && !hit().includes('哇集拉兀童軍營地'), '英文搜尋結果應只顯示英文主名');
+    assert(doc.title.endsWith($el('meta[name=app-version]').content), '翻譯後唔應移除版號');
+    $el('#lang-toggle').click();
+    search.value = '';
   });
 
   // ============ 🎨 UI／無障礙（W1 版權、V2 版號、鍵盤、讀屏） ============
