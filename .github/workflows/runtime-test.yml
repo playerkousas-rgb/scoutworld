@@ -4,6 +4,11 @@ on:
   push:
     paths:
       - 'index.html'
+      - 'store_gate_v1.0.js'
+      - 'sw.js'
+      - 'manifest.webmanifest'
+      - 'tailwind.css'
+      - 'scripts/**'
       - 'data/**'
       - 'tools_runtime_test.js'
       - 'package.json'
@@ -11,6 +16,11 @@ on:
   pull_request:
     paths:
       - 'index.html'
+      - 'store_gate_v1.0.js'
+      - 'sw.js'
+      - 'manifest.webmanifest'
+      - 'tailwind.css'
+      - 'scripts/**'
       - 'data/**'
       - 'tools_runtime_test.js'
       - 'package.json'
@@ -35,5 +45,5 @@ jobs:
           python3 -m http.server 8080 > /tmp/scoutworld-server.log 2>&1 &
           sleep 2
 
-      - name: Run runtime tests
-        run: npm run test:runtime
+      - name: Run preflight
+        run: npm run check

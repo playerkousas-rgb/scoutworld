@@ -1,5 +1,5 @@
 /* ============================================================
-   Scout World Explorer — Service Worker
+   Scout World Explorer — Service Worker · v2026.11.18 · © SCOUT SYSTEM
    為香港童軍外遊而設：去到邊、斷網都可以繼續查資料！
    Strategy:
    - App shell (HTML / icons / manifest): cache-first
@@ -9,12 +9,13 @@
    - 其他頁面導航: network-first，離線時回退到主頁
    ============================================================ */
 
-const VERSION = 'scoutworld-v2026.11.08.1';
+const VERSION = 'scoutworld-v2026.11.18';
 
 const APP_SHELL_CACHE = `${VERSION}-shell`;
 const DATA_CACHE = `${VERSION}-data`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
 const TILE_CACHE = `${VERSION}-tiles`;
+const DESTINATION_CACHE = 'scoutworld-destinations-v1';
 
 const TILE_CACHE_LIMIT = 300; // 最多快取 300 塊地圖圖磚
 const RUNTIME_CACHE_LIMIT = 60;
@@ -22,6 +23,7 @@ const RUNTIME_CACHE_LIMIT = 60;
 const APP_SHELL = [
   '/',
   '/index.html',
+  '/store_gate_v1.0.js',
   '/tailwind.css',
   '/manifest.webmanifest',
   '/favicon.ico',
@@ -72,7 +74,8 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     (async () => {
-      const keep = [APP_SHELL_CACHE, DATA_CACHE, RUNTIME_CACHE, TILE_CACHE];
+      // 手動下載嘅目的地唔屬於某個 app shell 版本，更新 worker 唔應該清走。
+      const keep = [APP_SHELL_CACHE, DATA_CACHE, RUNTIME_CACHE, TILE_CACHE, DESTINATION_CACHE];
       const keys = await caches.keys();
       await Promise.all(
         keys

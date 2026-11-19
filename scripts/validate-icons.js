@@ -123,6 +123,14 @@ else if (!versionConst) errors.push('缺 APP_VERSION 常數');
 else if (versionMeta !== versionConst) {
   errors.push(`版號唔一致：meta ${versionMeta} vs APP_VERSION ${versionConst}`);
 }
+if (versionMeta) {
+  const staticFooter = /id="app-version-label"[^>]*>([^<]*)<\/span>/.exec(html)?.[1];
+  if (!head.includes(` · ${versionMeta}</title>`)) errors.push('<title> 缺少對應版號');
+  if (!html.includes(`<!-- 版本：${versionMeta} · © SCOUT SYSTEM -->`)) errors.push('檔頭註解缺少對應版號');
+  if (staticFooter !== `© SCOUT SYSTEM · ${versionMeta}`) errors.push('靜態頁尾缺少對應版號');
+  const sw = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
+  if (!sw.includes(`const VERSION = 'scoutworld-${versionMeta}';`)) errors.push('Service Worker 快取版號同 app 版號唔一致');
+}
 if (!/name="copyright" content="© SCOUT SYSTEM"/.test(head)) {
   errors.push('缺 <meta name="copyright" content="© SCOUT SYSTEM">');
 }

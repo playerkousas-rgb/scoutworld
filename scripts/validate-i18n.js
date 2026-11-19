@@ -160,7 +160,9 @@ doc.querySelectorAll('*').forEach(el => {
 
 // <title> 同 meta 用 data-i18n-attr，key 就係原本嘅中文內容
 doc.querySelectorAll('title, meta[data-i18n-attr]').forEach(el => {
-  const value = el.tagName.toLowerCase() === 'title' ? el.textContent : el.getAttribute('content');
+  const value = el.tagName.toLowerCase() === 'title'
+    ? el.textContent.replace(/ · v\d+\.\d+(?:\.\d+)?$/, '') // V2 版號唔翻譯
+    : el.getAttribute('content');
   if (!value || !CJK.test(value)) return;
   const key = value.replace(/\s+/g, ' ').trim();
   if (EN[key] === undefined) errors.push(`漏譯（head）：${JSON.stringify(key)}`);
